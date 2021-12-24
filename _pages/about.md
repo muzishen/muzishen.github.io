@@ -34,10 +34,10 @@ Recent News
 
 <hr>
  
----
 Research Interests
+======
 
-<li> I am still looking for new research directions ...
+<li> I am still looking for new research areas ...
 <li> If you are interested in me or think there is potential cooperation, please email me！
  
 
