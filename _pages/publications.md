@@ -18,8 +18,9 @@ Publications:  [2022](#2022), [2021](#2021), [2020](#2020), [2019](#2019)
  
 ### 2021
 <li> Exploring Spatial Significance via Hybrid Pyramidal Graph Network for Vehicle Re-identification  
-<strong>Fei Shen</strong>, Jianqing Zhu,  Xiaobin Zhu, Yi Xie, Jingchang Huang  
-IEEE Transactions on Intelligent Transportation Systems (IEEE T-ITS)
+ xxx
+ <strong>Fei Shen</strong>, Jianqing Zhu,  Xiaobin Zhu, Yi Xie, Jingchang Huang  
+ IEEE Transactions on Intelligent Transportation Systems (IEEE T-ITS)
 
 <li> An Efficient Multi-Resolution Network for Vehicle Re-identification  
  </strong>Fei Shen</strong>,  Jianqing Zhu,  Xiaobing, Jingchang Huang, Huanqiang Zeng, Zhen Lei, Canhui Cai  
@@ -29,9 +30,4 @@ IEEE Transactions on Intelligent Transportation Systems (IEEE T-ITS)
  Yi Xie, Hanxiao Wu, </strong>Fei Shen</strong>, Jianqing Zhu, Huanqiang Zeng, 
 British Machine Vision Conference (BMVC) 
  
-### 2020
-
-
-
-### 2019
 
