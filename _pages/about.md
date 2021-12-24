@@ -30,7 +30,7 @@ Recent News
 <li> 2021/09: My led student the 1st price on 2 tracks in College Professional Algorithm Challenge. 
 <li> 2021/08: We won the 2nd price in ehualu2021 Image Caption Challenge. 
 <li> 2021/06: One paper was accepted by IEEE T-ITS.
-<li> 2021/06: We won the 3rd price in the  Semantic Segmentation of 'tianchi' Challenge.
+<li> 2021/06: We won the 3rd price in the  Semantic Segmentation of 'TianChi' Challenge.
 
 <hr>
 
