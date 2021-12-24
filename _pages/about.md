@@ -15,11 +15,26 @@ Open-source projects can be found at my <a href='https://github.com/muzishen'>[G
 <strong>I'm crazy about participating in data competitions, especially image/vedio data. If you are as interested in it as me, please contact me via email. My current email address is feishen AT njust.edu.cn . </strong>
 <hr>
 
-News
+Recent News
 ======
+<li> 2021/12: We won the 2nd price in AIAC2021 Steel Defect Detection Challenge.
+<li> 2021/12: We won the 1st price in the 15th Fujian Province Computer Software Design Challenge.
+<li> 2021/12: My led student won the 2nd place in the Semantic Segmentation Track of Huawei Cloud Artificial Intelligence Challenge. 
+<li> 2021/11: One paper was accepted by BMVC.
+<li> 2021/10: We won 1st place on 3 tracks in the IFLYTEK 1024 Challenge.
+<li> 2021/10: My led student won 2nd place in the IFLYTEK 1024 Challenge.
+<li> 2021/09: One paper was accepted by IEEE IOTJ.
+<li> 2021/09: We won the 1st price in Ocean Target Intelligent Perception Challenge.
+<li> 2021/09: We won the 2nd price again in ‘China Software Cup’ Software Design Challenge.
+<li> 2021/09: We won the 1st price in Huawei Cloud - Dongwu Cup Auto Parts Defect Detection Challenge. 
+<li> 2021/09: My led student the 1st price on 2 tracks in College Professional Algorithm Challenge.  
+<li> 2021/06: One paper was accepted by IEEE T-ITS.
+  
 
-
-
+Research Interests
+====== 
+<li> I am still looking for new research directions ...
+ If you are interested in me or think there is potential cooperation, please email me！
 Others
 ======
 
