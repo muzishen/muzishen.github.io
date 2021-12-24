@@ -28,7 +28,7 @@ An Efficient Multi-Resolution Network for Vehicle Re-identification,
 <li> Yi Xie, Hanxiao Wu, <strong> Fei Shen </strong>, Jianqing Zhu, Huanqiang Zeng, 
 Object Re-identification Using Teacher-Like and Light Students,
 British Machine Vision Conference (BMVC).
- 
+
 <li> Yi Xie, <strong> Fei Shen </strong>, Jianqing Zhu, Huanqiang Zeng, 
 Viewpoint robust knowledge distillation for accelerating vehicle re-identification,
 EURASIP Journal on Advances in Signal Processing.
