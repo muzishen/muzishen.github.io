@@ -29,17 +29,20 @@ Recent News
 <li> 2021/09: We won the 1st price in Huawei Cloud - Dongwu Cup Auto Parts Defect Detection Challenge. 
 <li> 2021/09: My led student the 1st price on 2 tracks in College Professional Algorithm Challenge.  
 <li> 2021/06: One paper was accepted by IEEE T-ITS.
-  
 <hr>
+  
+
 Research Interests
-====== 
+---
+ 
 <li> I am still looking for new research directions ...
- If you are interested in me or think there is potential cooperation, please email me！
+<li> If you are interested in me or think there is potential cooperation, please email me！
  
 <hr>
-  
-Others
-======
+
+
+### Others
+<li>  I like sports very much, such as football, basketball, etc. 
 
 <hr>
 
