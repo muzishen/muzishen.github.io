@@ -1,15 +1,21 @@
 ---
-title: "Paper Title Number 2"
+title: "Exploring spatial significance via hybrid pyramidal graph network for vehicle re-identification"
 collection: publications
-permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2010-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper2.pdf'
-citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+permalink: /publication/2021-02-01-Exploring-spatial-significance-via-hybrid-pyramidal-graph-network-for-vehicle-re-identification
+date: 2021-02-01
+doi: 
+venue: 'T-ITS'
+paperurl: 'https://muzishen.github.io/files/T-ITS-2021-HPGN.pdf'
+author: '<strong>Fei Shen</strong>, Jianqing Zhu,  Xiaobin Zhu, Yi Xie, Jingchang Huang'
+citation: ' Fei Shen, Jianqing Zhu, Xiaobin Zhu, Yi Xie Jingchang Huang, &quot;Exploring spatial significance via hybrid pyramidal graph network for vehicle re-identification, 2021.'
+pub_year: '2021'
+bib: >
+@article{shen2021exploring,
+  title={Exploring spatial significance via hybrid pyramidal graph network for vehicle re-identification},
+  author={Shen, Fei and Zhu, Jianqing and Zhu, Xiaobin and Xie, Yi and Huang, Jingchang},
+  journal={IEEE Transactions on Intelligent Transportation Systems},
+  year={2021},
+  publisher={IEEE}
+}
+
 ---
-This paper is about the number 2. The number 3 is left for future work.
-
-[Download paper here](http://academicpages.github.io/files/paper2.pdf)
-
-Recommended citation: Your Name, You. (2010). "Paper Title Number 2." <i>Journal 1</i>. 1(2).
