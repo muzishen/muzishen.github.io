@@ -7,11 +7,15 @@ redirect_from:
   - /about/
   - /about.html
 ---
+Hi! I am currently a PHD at <a href="https://imag-njust.net/"> Intelligent Media Analysis Group (IMAG)</a>, School of Computer Science and Engineering, Nanjing University Of Science And Technolog, under the supervision of <a href="https://imag-njust.net/jinhui-tang/">Prof. Jinhui Tang</a> and <a href="https://imag-njust.net/xiangboshu/">Prof. Xiangbo Shu</a>.
+My research interests include computer vision and pattern recognition, with a focus on deep learning based vehicle/person re-identification.
+Open-source projects can be found at my <a href='https://github.com/muzishen'>[Github]</a>, and publications can be found at <a href='https://scholar.google.com/citations?hl=en&user=wqvr28MAAAAJ'>[Google Scholar]</a>.
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
 
-A data-driven personal website
+I'm crazy about participating in data competitions, especially image/vedio data. If you are as interested in it as me, please contact me via email. My current email address is feishen AT njust.edu.cn .
 ======
+
+
 Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
 
 Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
@@ -45,6 +49,11 @@ Many people use a git client to create files on their local computer and then pu
 Example: editing a markdown file for a talk
 ![Editing a markdown file for a talk](/images/editing-talk.png)
 
-For more info
-------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+Others
+======
+
+<hr>
+
+<div style='width:600px;height:300px;margin:0 auto'>
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?d=mhnrYabZI2bz_eHk1W_A8VvNxtAjYBrWfIfxbLnTRPQ&cmo=faa659&cl=ffffff&w=a'></script>
+</div>
