@@ -11,8 +11,8 @@ Hi! I am currently a PHD at <a href="https://imag-njust.net/"> Intelligent Media
 My research interests include computer vision and pattern recognition, with a focus on deep learning based vehicle/person re-identification.
 Open-source projects can be found at my <a href='https://github.com/muzishen'>[Github]</a>, and publications can be found at <a href='https://scholar.google.com/citations?hl=en&user=wqvr28MAAAAJ'>[Google Scholar]</a>.
 
-<hr>
 <strong>I'm crazy about participating in data competitions, especially image/vedio data. If you are as interested in it as me, please contact me via email. My current email address is feishen AT njust.edu.cn . </strong>
+
 <hr>
 
 Recent News
@@ -29,23 +29,18 @@ Recent News
 <li> 2021/09: We won the 1st price in Huawei Cloud - Dongwu Cup Auto Parts Defect Detection Challenge. 
 <li> 2021/09: My led student the 1st price on 2 tracks in College Professional Algorithm Challenge.  
 <li> 2021/06: One paper was accepted by IEEE T-ITS.
-<hr>
+
   
+<hr>
 
 Research Interests
----
- 
+======
 <li> I am still looking for new research directions ...
 <li> If you are interested in me or think there is potential cooperation, please email me！
  
-<hr>
-
-
-### Others
-<li>  I like sports very much, such as football, basketball, etc. 
 
 <hr>
-
+  
 <div style='width:600px;height:300px;margin:0 auto'>
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?d=mhnrYabZI2bz_eHk1W_A8VvNxtAjYBrWfIfxbLnTRPQ&cmo=faa659&cl=ffffff&w=a'></script>
 </div>
