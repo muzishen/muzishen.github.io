@@ -30,7 +30,6 @@ Recent News
 <li> 2021/09: My led student the 1st price on 2 tracks in College Professional Algorithm Challenge.  
 <li> 2021/06: One paper was accepted by IEEE T-ITS.
 
-  
 <hr>
 
 Research Interests
@@ -40,7 +39,6 @@ Research Interests
  
 
 <hr>
-  
 <div style='width:600px;height:300px;margin:0 auto'>
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?d=mhnrYabZI2bz_eHk1W_A8VvNxtAjYBrWfIfxbLnTRPQ&cmo=faa659&cl=ffffff&w=a'></script>
 </div>
