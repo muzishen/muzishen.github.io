@@ -11,7 +11,6 @@ Hi! I am currently a PHD at <a href="https://imag-njust.net/"> Intelligent Media
 My research interests include computer vision and pattern recognition, with a focus on deep learning based vehicle/person re-identification.
 Open-source projects can be found at my <a href='https://github.com/muzishen'>[Github]</a>, and publications can be found at <a href='https://scholar.google.com/citations?hl=en&user=wqvr28MAAAAJ'>[Google Scholar]</a>.
 
-<strong>I'm crazy about participating in data competitions, especially image/vedio data. If you are as interested in it as me, please contact me via email. My current email address is feishen AT njust.edu.cn . </strong>
 
 <hr>
 
