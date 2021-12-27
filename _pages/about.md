@@ -34,13 +34,11 @@ Recent News
 <hr>
 
 <strong>Research Interests <strong>
+  
 <li> I am still looking for new research areas ...
 <li> If you are interested in me or think there is potential cooperation, please email me！
  
  <hr>
-  
-<strong> Others </strong>
- 
 I'm crazy about participating in data competitions, especially image/vedio data. If you are as interested in it as me, please contact me via email. My current email address is feishen AT njust.edu.cn . 
   
 <hr>
