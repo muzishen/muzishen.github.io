@@ -16,6 +16,7 @@ Open-source projects can be found at my <a href='https://github.com/muzishen'>[G
 
 Recent News
 ======
+<li> 2022/03: One paper was accepted by ICME.
 <li> 2021/12: We won the 2nd price in AIAC2021 Steel Defect Detection Challenge.
 <li> 2021/12: We won the 1st price in the 15th Fujian Province Computer Software Design Challenge.
 <li> 2021/12: My led student won the 2nd place in the Semantic Segmentation Track of Huawei Cloud Artificial Intelligence Challenge. 
