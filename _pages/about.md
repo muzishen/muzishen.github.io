@@ -21,7 +21,7 @@ Recent News
 <li> 2021/12: We won the 2nd price in AIAC2021 Steel Defect Detection Challenge. Thanks  Junchi Ren (Nanjing Telecom Co., Ltd)
 <li> 2021/12: We won the 1st price in the 15th Fujian Province Computer Software Design Challenge.
 <li> 2021/12: My led student won the 2nd place in the Semantic Segmentation Track of Huawei Cloud Artificial Intelligence Challenge. 
-<li> 2021/11: One paper was accepted by BMVC. Thanks to Yi Xie
+<li> 2021/11: One paper was accepted by BMVC. Thanks to Yi Xie (Huaqiao university)
 <li> 2021/10: We won 1st place on 3 tracks in the IFLYTEK 1024 Challenge.
 <li> 2021/10: My led student won 2nd place in the IFLYTEK 1024 Challenge.
 <li> 2021/09: One paper was accepted by IEEE IOTJ.
