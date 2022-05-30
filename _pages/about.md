@@ -18,7 +18,7 @@ Recent News
 ======
 <li> 2022/05: We won the 2nd place in few-shot logo detection challenge of ICME2022. Thanks to Zhe Wang (DeepBlue Technology Co.,Ltd)
 <li> 2022/03: One paper was accepted by ICME2022. Thanks to Xiaoxiao Peng (Zhejiang Dahua Technology Co.,Ltd)
-<li> 2021/12: We won the 2nd price in AIAC2021 Steel Defect Detection Challenge. Thanks  Junchi Ren (Nanjing Telecom Co., Ltd)
+<li> 2021/12: We won the 2nd price in AIAC2021 Steel Defect Detection Challenge. Thanks to Junchi Ren (Nanjing Telecom Co., Ltd)
 <li> 2021/12: We won the 1st price in the 15th Fujian Province Computer Software Design Challenge.
 <li> 2021/12: My led student won the 2nd place in the Semantic Segmentation Track of Huawei Cloud Artificial Intelligence Challenge. 
 <li> 2021/11: One paper was accepted by BMVC. Thanks to Yi Xie (Huaqiao university)
