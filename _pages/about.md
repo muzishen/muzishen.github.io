@@ -16,11 +16,12 @@ Open-source projects can be found at my <a href='https://github.com/muzishen'>[G
 
 Recent News
 ======
-<li> 2022/03: One paper was accepted by ICME.
-<li> 2021/12: We won the 2nd price in AIAC2021 Steel Defect Detection Challenge.
+<li> 2022/05: We won the 2nd place in few-shot logo detection challenge of ICME2022. Thanks to my teammate Zhe Wang (DeepBlue Technology Co.,Ltd)!
+<li> 2022/03: One paper was accepted by ICME2022. Thanks to my co-author Xiaoxiao Peng (Zhejiang Dahua Technology Co.,Ltd)!
+<li> 2021/12: We won the 2nd price in AIAC2021 Steel Defect Detection Challenge. Thanks to my teammate Junchi Ren (Nanjing Telecom Co., Ltd)!
 <li> 2021/12: We won the 1st price in the 15th Fujian Province Computer Software Design Challenge.
 <li> 2021/12: My led student won the 2nd place in the Semantic Segmentation Track of Huawei Cloud Artificial Intelligence Challenge. 
-<li> 2021/11: One paper was accepted by BMVC.
+<li> 2021/11: One paper was accepted by BMVC. Thanks to my co-author Yi Xie!
 <li> 2021/10: We won 1st place on 3 tracks in the IFLYTEK 1024 Challenge.
 <li> 2021/10: My led student won 2nd place in the IFLYTEK 1024 Challenge.
 <li> 2021/09: One paper was accepted by IEEE IOTJ.
@@ -30,7 +31,7 @@ Recent News
 <li> 2021/09: My led student the 1st price on 2 tracks in College Professional Algorithm Challenge. 
 <li> 2021/08: We won the 2nd price in ehualu2021 Image Caption Challenge. 
 <li> 2021/06: One paper was accepted by IEEE T-ITS.
-<li> 2021/06: We won the 3rd price in the  Semantic Segmentation of 'TianChi' Challenge.
+<li> 2021/06: We won the 3rd price in the  Semantic Segmentation of 'TianChi' Challenge. Thanks to my teammate Xin He (Huawei Technologies Co., Ltd)!
 
 <hr>
 
