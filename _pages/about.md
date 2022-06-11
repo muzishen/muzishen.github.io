@@ -16,7 +16,8 @@ Open-source projects can be found at my <a href='https://github.com/muzishen'>[G
 
 Recent News
 ======
-<li> 2022/05: We won the 2nd place in few-shot logo detection challenge of ICME2022. Thanks to Zhe Wang (DeepBlue Technology Co.,Ltd)
+<li> 2022/05: We won the 3nd place in pet biometric Challenge of CVPR2022 workshop. Thanks to Zhe Wang (DeepBlue Technology Co.,Ltd) and Zijun Huang (Guangdong University of Technology).
+<li> 2022/05: We won the 2nd place in few-shot logo detection challenge of ICME2022 workshop. Thanks to Zhe Wang (DeepBlue Technology Co.,Ltd)
 <li> 2022/03: One paper was accepted by ICME2022. Thanks to Xiaoxiao Peng (Zhejiang Dahua Technology Co.,Ltd)
 <li> 2021/12: We won the 2nd price in AIAC2021 Steel Defect Detection Challenge. Thanks to Junchi Ren (Nanjing Telecom Co., Ltd)
 <li> 2021/12: We won the 1st price in the 15th Fujian Province Computer Software Design Challenge.
