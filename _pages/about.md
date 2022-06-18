@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hi! I am currently a PHD at <a href="https://imag-njust.net/"> Intelligent Media Analysis Group (IMAG)</a>, School of Computer Science and Engineering, Nanjing University Of Science And Technolog, under the supervision of <a href="https://imag-njust.net/jinhui-tang/">Prof. Jinhui Tang</a> and <a href="https://imag-njust.net/xiangboshu/">Prof. Xiangbo Shu</a>.
+Hi! I am currently a PHD at <a href="https://imag-njust.net/"> Intelligent Media Analysis Group (IMAG)</a>, School of Computer Science and Engineering, Nanjing University Of Science And Technolog, under the supervision of <a href="https://imag-njust.net/jinhui-tang/">Prof. Jinhui Tang</a>.
 My research interests include computer vision and pattern recognition, with a focus on deep learning based vehicle/person re-identification.
 Open-source projects can be found at my <a href='https://github.com/muzishen'>[Github]</a>, and publications can be found at <a href='https://scholar.google.com/citations?hl=en&user=wqvr28MAAAAJ'>[Google Scholar]</a>.
 
@@ -18,7 +18,7 @@ Recent News
 ======
 <li> 2022/05: We won the 3nd place in pet biometric Challenge of CVPR2022 workshop. Thanks to Zhe Wang (DeepBlue Technology Co.,Ltd) and Zijun Huang (Guangdong University of Technology).
 <li> 2022/05: We won the 2nd place in few-shot logo detection challenge of ICME2022 workshop. Thanks to Zhe Wang (DeepBlue Technology Co.,Ltd)
-<li> 2022/03: One paper was accepted by ICME2022. Thanks to Xiaoxiao Peng (Zhejiang Dahua Technology Co.,Ltd)
+<li> 2022/03: One paper was accepted by ICME2022 (oral). Thanks to Xiaoxiao Peng (Zhejiang Dahua Technology Co.,Ltd)
 <li> 2021/12: We won the 2nd price in AIAC2021 Steel Defect Detection Challenge. Thanks to Junchi Ren (Nanjing Telecom Co., Ltd)
 <li> 2021/12: We won the 1st price in the 15th Fujian Province Computer Software Design Challenge.
 <li> 2021/12: My led student won the 2nd place in the Semantic Segmentation Track of Huawei Cloud Artificial Intelligence Challenge. 
