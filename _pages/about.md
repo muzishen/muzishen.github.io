@@ -16,10 +16,6 @@ Open-source projects can be found at my <a href='https://github.com/muzishen'>[G
 
 ### Recent News
 <li> 2023/01: One paper was accepted by IEEE T-IP.
-  
-  <hr>
-  
-### Before 2022
 <li> 2022/10: We again won 2st place in the HuaWei - Global Campus AI Algorithms Elite Challenge. Thanks to Xin Jiang (NJUST), <a href='https://developer.huawei.com/consumer/cn/activity/digixActivity/digixWinnersDetail/101655281685926449'>[Lane detection].
 <li> 2022/10: We again won 1st place on 2 tracks in the 2022 IFLYTEK 1024 Challenge. Thanks to Xiaode Fu (NJUST), <a href='https://baijiahao.baidu.com/s?id=1750103461042835751&wfr=spider&for=pc](http://ex.chinadaily.com.cn/exchange/partners/82/rss/channel/cn/columns/vyuatu/stories/WS63872437a3102ada8b224a72.html'>[ChinaDaily].
 <li> 2022/05: We won the 3nd place in pet biometric Challenge of CVPR2022 workshop. Thanks to Zhe Wang (DeepBlue Technology Co.,Ltd) and Zijun Huang (Guangdong University of Technology), <a href='https://tianchi.aliyun.com/competition/entrance/531952/rankingList?'>[Competition Links] .
