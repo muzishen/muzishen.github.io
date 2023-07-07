@@ -6,11 +6,11 @@ main:
   - title: "Publications"
     url: /publications/
     
-  - title: "CV"
-    url: /cv/
+ # - title: "CV"
+  #  url: /cv/
     
-  - title: "Resources"
+  - title: "Competition"
     url: /resources/
     
-  - title: "Seminar"
-    url: /seminar/
+  #- title: "Seminar"
+   # url: /seminar/
