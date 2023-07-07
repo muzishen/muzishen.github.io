@@ -7,9 +7,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Hi:wave:! I am currently a PHD at <a href="https://imag-njust.net/"> Intelligent Media Analysis Group (IMAG)</a>, School of Computer Science and Engineering, Nanjing University Of Science And Technolog, under the supervision of <a href="https://imag-njust.net/jinhui-tang/">Prof. Jinhui Tang</a>.
-My research interests  lie in **Multi View Consistency Synthesis**:smile:, e.g., *virtual wearables and 3D character modeling*. I am passionate about academic research and dedicated to applying my research findings to real-world problems, making positive contributions to society. 
-***If you are interested in my research or potential collaboration opportunities, I would be more than happy to engage in further discussions. Thank you :blush: !.***
+Hi! I am currently a PHD at <a href="https://imag-njust.net/"> Intelligent Media Analysis Group (IMAG)</a>, School of Computer Science and Engineering, Nanjing University Of Science And Technolog, under the supervision of <a href="https://imag-njust.net/jinhui-tang/">Prof. Jinhui Tang</a>.
+My research interests  lie in **Multi View Consistency Synthesis**, e.g., *virtual wearables and 3D character modeling*. I am passionate about academic research and dedicated to applying my research findings to real-world problems, making positive contributions to society. 
+***If you are interested in my research or potential collaboration opportunities, I would be more than happy to engage in further discussions. Thank you !.***
 
 <hr>
 
