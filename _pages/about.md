@@ -8,13 +8,12 @@ redirect_from:
   - /about.html
 ---
 Hi! I am currently a PHD at <a href="https://imag-njust.net/"> Intelligent Media Analysis Group (IMAG)</a>, School of Computer Science and Engineering, Nanjing University Of Science And Technolog, under the supervision of <a href="https://imag-njust.net/jinhui-tang/">Prof. Jinhui Tang</a>.
-My research interests include computer vision and pattern recognition, with a focus on deep learning based vehicle/person re-identification.
-Open-source projects can be found at my <a href='https://github.com/muzishen'>[Github]</a>, and publications can be found at <a href='https://scholar.google.com/citations?hl=en&user=wqvr28MAAAAJ'>[Google Scholar]</a>.
-
+My research interests lie in **multi-view consistency synthesis**, such as *virtual wearables and 3D character modeling*. I am passionate about academic research and dedicated to applying my research findings to real-world problems, making positive contributions to society. 
+***If you are interested in my research or potential collaboration opportunities, I would be more than happy to engage in further discussions. Thank you!.***
 
 <hr>
 
-### Recent News
+### News
 <li> 2023/01: One paper was accepted by <a href='https://arxiv.org/abs/2107.05475'>[IEEE T-IP]</a>.
 <li> 2022/10: We again won 2st place in the HuaWei - Global Campus AI Algorithms Elite Challenge. Thanks to Xin Jiang (NJUST), <a href='https://developer.huawei.com/consumer/cn/activity/digixActivity/digixWinnersDetail/101655281685926449'>[Lane detection]</a>.
 <li> 2022/10: We again won 1st place on 2 tracks in the 2022 IFLYTEK 1024 Challenge. Thanks to Xiaode Fu (NJUST), <a href='https://baijiahao.baidu.com/s?id=1750103461042835751&wfr=spider&for=pc](http://ex.chinadaily.com.cn/exchange/partners/82/rss/channel/cn/columns/vyuatu/stories/WS63872437a3102ada8b224a72.html'>[ChinaDaily]</a>.
