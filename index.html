@@ -1,465 +1,827 @@
+<!DOCTYPE html>
 
- <!DOCTYPE html>
+<html>
 
-<html><head>
-<title>Hao Tang</title>
+<head>
+	<title>Fei Shen</title>
 
-<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"
+		integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+		crossorigin="anonymous"></script>
 
-<style type="text/css">
- @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
+		<style type="text/css">
+			@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
+		
+			body {
+				font-family: "Roboto", Helvetica, Arial, sans-serif;
+				font-size: 16px;
+				line-height: 1.5;
+				font-weight: 300;
+				background-color: #CDCDCD;
+			}
+		
+			.content {
+				width: 900px;
+				padding: 25px 30px;
+				margin: 25px auto;
+				background-color: #fff;
+				box-shadow: 0px 0px 10px #999;
+				border-radius: 15px;
+			}
+		
+			table {
+				padding: 5px;
+			}
+		
+			table.pub_table,
+			td.pub_td1,
+			td.pub_td2 {
+				padding: 8px;
+				width: 850px;
+				border-collapse: separate;
+				border-spacing: 15px;
+				margin-top: -5px;
+			}
+		
+			td.pub_td1 {
+				width: 50px;
+			}
+		
+			td.pub_td1 img {
+				height: 120px;
+				width: 160px;
+			}
+		
+			div#container {
+				margin-left: auto;
+				margin-right: auto;
+				width: 820px;
+				text-align: left;
+				position: relative;
+				background-color: #FFF;
+			}
+		
+			div#DocInfo {
+				color: #1367a7;
+				height: 158px;
+			}
+		
+			h4,
+			h3,
+			h2,
+			h1 {
+				color: #3B3B3B;
+			}
+		
+			h2 {
+				font-size: 130%;
+			}
+		
+			p {
+				color: #5B5B5B;
+				margin-bottom: 50px;
+			}
+		
+			p.caption {
+				color: #9B9B9B;
+				text-align: left;
+				width: 600px;
+			}
+		
+			p.caption2 {
+				color: #9B9B9B;
+				text-align: left;
+				width: 800px;
+			}
+		
+			#header_img {
+				position: absolute;
+				top: 0px;
+				right: 0px;
+			}
+		
+			a:link,
+			a:visited {
+				color: #1367a7;
+				text-decoration: none;
+			}
+		
+			#mit_logo {
+				position: absolute;
+				left: 646px;
+				top: 14px;
+				width: 200px;
+				height: 20px;
+			}
+		
+			table.pub_table tr {
+				outline: thin dotted #666666;
+			}
+		
+			.papericon {
+				border-radius: 8px;
+				-moz-box-shadow: 3px 3px 6px #888;
+				-webkit-box-shadow: 3px 3px 6px #888;
+				box-shadow: 3px 3px 6px #888;
+				width: 180px;
+				margin-top: 5px;
+				margin-left: 5px;
+				margin-bottom: 5px;
+			}
+		
+			.papericon_blank {
+				width: 160px;
+				margin-top: 5px;
+				margin-left: 5px;
+				margin-bottom: 5px;
+			}
+		
+			.media {
+				outline: thin dotted #666666;
+				margin-bottom: 15px;
+				margin-left: 10px;
+			}
+		
+			.media-body {
+				margin-top: 5px;
+				padding-left: 20px;
+			}
+		
+			.papers-selected h5,
+			.papers-selected h4 {
+				display: none;
+			}
+		
+			.papers-selected .publication {
+				display: none;
+			}
+		
+			.paperhi-only {
+				display: none;
+			}
+		
+			.papers-selected .paperhi {
+				display: flex;
+			}
+		
+			.papers-selected .paperlo {
+				display: none;
+			}
+
+			.awards-selected h5,
+			.awards-selected h4 {
+				display: none;
+			}
+		
+			.awards-selected .publication {
+				display: none;
+			}
+		
+			.awardhi-only {
+				display: none;
+			}
+		
+			.awards-selected .awardhi {
+				display: flex;
+			}
+		
+			.awards-selected .awardlo {
+				display: none;
+			}
+			.hidden>div {
+				display: none;
+			}
+		
+			.visible>div {
+				display: block;
+			}
+		</style>
+		
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23931362-2"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag () { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'UA-23931362-2');
+	</script>
+
+	<script type="text/javascript">
+		var myPix = new Array("img/wechat.png")
+		function choosePic () {
+			var randomNum = Math.floor(Math.random() * myPix.length);
+			document.getElementById("myPicture").src = myPix[randomNum];
+		};
+	</script>
+
+	<script>
+		$(document).ready(function () {
+			$('.paperlo button').click(function () {
+				$('.papers-container').addClass('papers-selected');
+			});
+			$('.paperhi button').click(function () {
+				$('.papers-container').removeClass('papers-selected');
+			});
+
+			$('.awardlo button').click(function () {
+				$('.awards-container').addClass('awards-selected');
+			});
+			$('.awardhi button').click(function () {
+				$('.awards-container').removeClass('awards-selected');
+			});
+
+			$('.text_container').addClass("hidden");
+
+			$('.text_container').click(function () {
+				var $this = $(this);
+
+				if ($this.hasClass("hidden")) {
+					$(this).removeClass("hidden").addClass("visible");
+					$(this).removeClass("papericon");
+				} else {
+					$(this).removeClass("visible").addClass("hidden");
+				}
+			});
 
 
-	body
-	{
-	font-family:"Roboto",Helvetica,Arial,sans-serif;font-size:16px;line-height:1.5;font-weight:300;
-    	background-color : #CDCDCD;
-	}
-    	.content
-	{
-    		width : 900px;
-    		padding : 25px 30px;
-    		margin : 25px auto;
-    		background-color : #fff;
-    		box-shadow: 0px 0px 10px #999;
-    		border-radius: 15px; 
-	}	
-	table
-	{
-		padding: 5px;
-	}
-	
-	table.pub_table,td.pub_td1,td.pub_td2
-	{
-		padding: 8px;
-		width: 850px;
-        border-collapse: separate;
-        border-spacing: 15px;
-        margin-top: -5px;
-	}
-
-	td.pub_td1
-	{
-		width:50px;
-	}
-    td.pub_td1 img
-    {
-        height:120px;
-        width: 160px;
-    }
-	
-	div#container
-	{
-		margin-left: auto;
-		margin-right: auto;
-		width: 820px;
-		text-align: left;
-		position: relative;
-		background-color: #FFF;
-	}
-	div#DocInfo
-	{
-		color: #1367a7;
-		height: 158px;
-	}
-	h4,h3,h2,h1
-	{
-		color: #3B3B3B;
-	}
-	h2
-	{
-		font-size:130%;
-	}
-	p
-	{
-		color: #5B5B5B;
-		margin-bottom: 50px;
-	}
-	p.caption
-	{
-		color: #9B9B9B;
-		text-align: left;
-		width: 600px;
-	}
-	p.caption2
-	{
-		color: #9B9B9B;
-		text-align: left;
-		width: 800px;
-	}
-	#header_img
-	{
-		position: absolute;
-		top: 0px; right: 0px;
-    }
-	a:link,a:visited
-	{
-		color: #1367a7;
-		text-decoration: none;
-	}
-
-    #mit_logo {
-        position: absolute;
-        left: 646px;
-        top: 14px;
-        width: 200px;
-        height: 20px;
-    }
-   
-    table.pub_table tr {
-        outline: thin dotted #666666;
-    }
-    .papericon {
-        border-radius: 8px; 
-        -moz-box-shadow: 3px 3px 6px #888;
-        -webkit-box-shadow: 3px 3px 6px #888;
-        box-shadow: 3px 3px 6px #888;
-        width: 180px;
-	margin-top:5px;
-	margin-left:5px;
-	margin-bottom:5px;
-    }
-
-     .papericon_blank {
-
-        width: 160px;
-	margin-top:5px;
-	margin-left:5px;
-	margin-bottom:5px;
-    }
-
-    .media {
-	outline: thin dotted #666666;
- 	margin-bottom: 15px;	
-	margin-left:10px;
-    }
-    .media-body {
-	margin-top:5px;
-	padding-left:20px;
-    }
-
-.papers-selected h5, .papers-selected h4 { display : none; }
-.papers-selected .publication { display : none; }
-.paperhi-only { display : none; }
-.papers-selected .paperhi { display : flex; }
-.papers-selected .paperlo { display : none; }
-
-.hidden>div {
-	display:none;
-}
-
-.visible>div {
-	display:block;
-}
-</style>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23931362-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-23931362-2');
-</script>
-
-<script type="text/javascript">
-    var myPix = new Array("img/wechat.jpg")
-    function choosePic() {
-        var randomNum = Math.floor(Math.random() * myPix.length);
-        document.getElementById("myPicture").src = myPix[randomNum];
-    };
-</script>
-
-<script>
-$(document).ready(function() {
-  $('.paperlo button').click(function() {
-     $('.papers-container').addClass('papers-selected');
-  });
-  $('.paperhi button').click(function() {
-     $('.papers-container').removeClass('papers-selected');
-  });
-
-
-	$('.text_container').addClass("hidden");
-
-	$('.text_container').click(function() {
-		var $this = $(this);
-
-		if ($this.hasClass("hidden")) {
-			$(this).removeClass("hidden").addClass("visible");
-			$(this).removeClass("papericon");
-		} else {
-			$(this).removeClass("visible").addClass("hidden");
-		}
-	});
-
-
-});
-</script>
+		});
+	</script>
 
 </head>
 
 
 <body>
-<div class="content">
-	<div id="container">
+	<div class="content">
+		<div id="container">
 
-	<table>
-	<tbody><tr>
-	<td><img id="myPicture" src="xxx" style="float:left; padding-right:20px" height="200px"></td>
-	<script>choosePic();</script>
-	<td>
-	<div id="DocInfo">
-		<h1>Hao Tang (唐昊)</h1>
-        Ph.D. Candidate<br>
-	School of Computer Science and Engineering, Nanjing University of Science and Technology<br>
-		Office: Room 2046, CSE Building<br>
-        Email: tanghao0918_at_njust.edu.cn<br>
-        <a href="TH_CV.pdf" target="_blank" rel="external">CV</a> &bull; <a href="https://scholar.google.com/citations?hl=zh-CN&user=DZXShkoAAAAJ" target="_blank" rel="external">Google Scholar</a> &bull; <a href="https://github.com/CSer-Tang-hao" target="_blank" rel="external">Github</a><br>
-	</div><br>
-	</td>
-	</tr>
-	</tbody></table>
-	<br>
+			<table>
+				<tbody>
+					<tr>
+						<td><img id="myPicture" src="xxx" style="float:left; padding-right:20px" height="200px"></td>
+						<script>choosePic();</script>
+						<td>
+							<div id="DocInfo">
+								<h1>Fei Shen (沈飞)</h1>
+								Ph.D. Candidate<br>
+								School of Computer Science and Engineering, Nanjing University of Science and Technology<br>
+								Office: Room 2050, CSE Building<br>
+								Email: feishen_at_njust.edu.cn<br>
+								<!-- <a href="TH_CV.pdf" target="_blank" rel="external">CV</a> &bull; -->
+								<a href="https://scholar.google.com/citations?user=wqvr28MAAAAJ&hl=zh-CN" target="_blank"
+									rel="external">Google Scholar</a> &bull; <a href="https://github.com/muzishen" target="_blank"
+									rel="external">Github</a><br>
+							</div><br>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
 
-	<h2>About Me</h2>
-        <p style="text-align:justify";>
-<!--        I am a Ph.D. student at <a href="https://imag-njust.net">Intelligent Media Analysis Group (IMAG)</a> supervised by Prof. <a href="https://imag-njust.net/jinhui-tang">Jinhui Tang</a>. During Dec. 2018 - Dec. 2019, I worked as a Research Intern at <a href="http://www.noahlab.com.hk/">HUAWEI NOAH'S ARK LAB</a>, supervised by Prof. <a href="https://scholar.google.com/citations?user=61b6eYkAAAAJ&hl=en">Qi Tian</a> (IEEE Fellow). Now, I am working closely with <a href="http://lingxixie.com/Home.html">Lingxi Xie</a> and <a href="https://imag-njust.net/xiangboshu">Xiangbo Shu</a>. My research mainly focuses on visual reasoning and its applications in action understanding. In particular, I am interested in group activity recognition, compositional action recognition, and action localization/detection.-->
-    	&emsp; 	I'm Hao Tang, currently a final-year Ph.D. Candidate at Nanjing University of Science and Technology in <a href="https://imag-njust.net" target="_blank" rel="external">Intelligent Media Analysis Group (IMAG)</a>, supervised by Prof. <a href="https://scholar.google.com/citations?user=ByBLlEwAAAAJ&hl=en&oi=ao" target="_blank" rel="external">Jinhui Tang</a> and co-supervised by Prof. <a href="https://scholar.google.com/citations?user=L6J2V3sAAAAJ&hl=zh-CN" target="_blank" rel="external">Zechao Li</a>.
-			Before that, I received my B.Sc. degree from Harbin Engineering University in June 2018. My primary research interests mainly focus on Deep Learning and its applications in Computer Vision and Multimedia.
-			The ultimate goal of my research is to develop a machine that can learn from <strong style="color:darkblue"><i>Limited</i></strong>, <strong style="color:darkblue"><i>Dynamic</i></strong> and <strong style="color:darkblue"><i>Imperfect</i></strong> data in real-world scenes like humans.
-		</p>
+			<h2>About Me</h2>
+			<!-- <p style="text-align:justify" ;> -->
+				<p>  Hi 😄! I am currently a Ph.D. student at at <a href="https://imag-njust.net/">Intelligent Media Analysis Group (IMAG)</a>,
+					 	under the supervision of <a href="https://scholar.google.com/citations?user=ByBLlEwAAAAJ&hl=zh-CN">Prof. Jinhui Tang</a>.
+						My research interests lie in <span style="color: red; font-weight: bold;">Multi-view Consistency Synthesis</span>, e.g.,  <em>virtual wearables</em> and <em>3D character modeling</em>. 
+						I am fervently dedicated to <span style="text-decoration: underline; font-weight: bold; color: rgb(128, 0, 128);">Sharing🌱, Collaborating🤝, Advancing🚀, and Innovating💡</span>.	
+						I am deeply passionate about academic research and fully committed to utilizing my research findings to address real-world challenges, 
+						thereby making meaningful and impactful contributions to society.
+						
+						<span style="color: red; font-weight: bold;"><em>If you are interested in collaboration or wish to get in touch with me, please feel free to reach out via email!
+						 </em></span> 😊</p>
+					
+			<h2><span style="color:red;font-size:27px"><strong>NEWS!</strong></span></h2>
+			<ul style="height: 200px;overflow-y: auto">
+				<div style="text-align: justify; display: block; margin-right: auto;">
+					<!--		<li><img src="img/new.gif"> <strong style="color:red">I'm looking for a Postdoc position starting from Summer 2024. Please contact me if you are interested in my profile.</strong></li>-->
+					<!--		<li>2023/03: I was invited to be a TPC member for <strong>IEEE MIPR 2023</strong>.</li>-->
+					<li>2023/04: I was selected for the Rhino-Bird Elite Talent Program by Tencent.</li>
+					<li>2023/03: We won the <a href="./img/2022_1_nsfc.pdf"><u>1st place</u></a> of Remote Sensing Image Segmentation Contest organized by NSFC.</li>
+					<li>2023/01: One paper was accepted by by IEEE T-IP (JCR Q1, IF=11.04).</li>
+					<li>2022/10: We again won <a href="./img/2022_digix_2nd.pdf"><u>2nd place</u></a> in the Global Campus AI Algorithms Challenge organized by HuaWei.</li>
+					<li>2022/10: I was selected as the publicity ambassador of the HDC, please watch the <a href="https://www.bilibili.com/video/BV1tG411H7qz/?spm_id_from=333.999.0.0&vd_source=ba13dcacc9e5ea26dec3bf70e4e2b19b">video😂</a>.</li>
+					<li>2022/05: We won the <a href="./img/2022_cvpr_3rd.jpg"><u>3rd place</u></a> in pet biometric Challenge organized by CVPR 2022 workshop.</li>
+					<li> 2022/05: We won the <a href="./img/2022_icme_2nd.jpg"><u>2nd place</u></a> in few-shot logo detection challenge organized by ICME2022 workshop.</li>
+					<li>2022/03: One paper was accepted by ICME2022 (Oral).</li>
+					<li>2021/11: One paper was accepted by BMVC.</li>
+					<li> 2021/09: One paper was accepted by IEEE IOTJ (JCR Q1, IF=10.23).</li>
+					<li>2021/06: One paper was accepted by IEEE T-ITS (JCR Q1, IF=9.55).</li>
+					<li>2022/05: We won the <a href="./img/2020_eccv_1st.pdf"><u>1st place</u></a> in COCO Detection Challenge organized by ECCV 2020 workshop.</li>
+				</div>
+			</ul>
 
-	<!--		<h2>Recent News</h2>-->
-		<h2><span style="color:red;font-size:27px"><strong>NEWS!</strong></span></h2>
-    <ul style="height: 200px;overflow-y: auto">
-		<div style="text-align: justify; display: block; margin-right: auto;">
-<!--		<li><img src="img/new.gif"> <strong style="color:red">I'm looking for a Postdoc position starting from Summer 2024. Please contact me if you are interested in my profile.</strong></li>-->
-<!--		<li>2023/03: I was invited to be a TPC member for <strong>IEEE MIPR 2023</strong>.</li>-->
-		<li>2023/01: One paper was accepted by <strong>IEEE TNNLS</strong> (JCR Q1, IF=14.26).</li>
-		<li>2023/01: One paper was accepted by <strong>IEEE TCSVT</strong> (JCR Q1, IF=5.86).</li>
-		<li>2022/05: One paper was accepted by <strong>Pattern Recognition</strong> (JCR Q1, IF=7.74).</li>
-<!--		<li>2021/08: One paper accepted by <strong>IJCAI 2021 LTDL Workshop </strong> was awarded as the <a href="BestPaper.pdf" target="_blank" rel="external" style="color:red"><strong><u>Best Paper</u></strong></a>.</li>-->
-		<li>2021/08: We won the <a href="BestPaper.pdf" target="_blank" rel="external" style="color:red"><strong><u>Best Paper Award</u></strong></a> of the LTDL Workshop in IJCAI 2021.</li>
-    	<li>2021/07: Our team was granted the <a href="./img/Silver%20Award.jpg" target="_blank" rel="external" style="color:red"><strong><u>Silver Award</u></strong></a> of <strong>ICIG 2021 Challenge</strong>.<br>
-			<img src="./img/award.jpg" style="height: 20px;"><strong style="color:purple"><i> Workshop: Few-Shot Learning-Based High-speed Railway Catenary Image Detection and Analysis</i></strong></li>
-    	<li>2021/07: I was selected for the <strong>Excellent Ph.D. Students Sponsorship Program by NJUST</strong>.</li>
-   		<li>2021/06: One paper was accepted by <strong>IJCAI 2021 LTDL Workshop</strong>.</li>
-		<li>2020/08: One paper was accepted by <strong>ACM Multimedia 2020</strong>.</li>
+			<h2>Research Experience</h2>
+
+			<div>
+					&emsp; <strong>Tencent Inc., Shenzhen China (May 2023 - Present)</strong>
+					<!-- <a href="https://www.smu.edu.sg/" target="_blank" rel="external"> -->
+					<img border="0" src="img/ailab.jpg" align="right" width="120" height="60" />
+					<!-- </a> -->
+					<ul>
+							<li>
+									Intern, <a href="https://ai.tencent.com" target="_blank" rel="external">AiLab</a>
+							</li>
+							<li>
+									Leader: Dr. <a href="https://scholar.google.com/citations?user=XGVV3gEAAAAJ&hl=zh-CN&oi=ao" target="_blank" rel="external">Xiao Han</a>
+											<li>
+													Mentor: Dr. <a href="https://junzhang.org/" target="_blank" rel="external">Jun Zhang</a>
+											</li>
+									</ul>
+							</li>
+					</ul>
 			</div>
-    </ul>
-
-	<h2>Research Experience</h2>
-
-	<div>
-	&emsp; <strong> Singapore Management University, Singapore (Jul. 2023 - Now) </strong>
-	  <a href="https://www.smu.edu.sg/" target="_blank" rel="external">
-		<img border="0" src="img/SMU_logo.jpg" align="right" width="120" height="60" />
-	  </a>
-	<ul>
-	<li>
-	  Visiting Scholar, <a href="http://www.shengfenghe.com/group/" target="_blank" rel="external">SMU-VUG</a></li>
-	<li>
-	  Hosted by Dr. <a href="https://scholar.google.com/citations?user=rBWnK8wAAAAJ&hl=en" target="_blank" rel="external">Shengfeng He</a></li>
-  </ul>
-  </div>
-
-	<div>
-        &emsp; <strong> Singapore University of Technology and Design, Singapore (Nov. 2022 - Jun. 2023) </strong>
-          <a href="https://www.sutd.edu.sg/" target="_blank" rel="external">
-            <img border="0" src="img/SUTD_logo.jpg" align="right" width="120" height="60" />
-          </a>
-        <ul>
-        <li>
-          Visiting Scholar, <a href="https://people.sutd.edu.sg/~jun_liu/" target="_blank" rel="external">SUTD-VLG</a></li>
-        <li>
-          Hosted by Dr. <a href="https://sites.google.com/view/junliu021/jun-liu" target="_blank" rel="external">Jun Liu</a></li>
-      </ul>
-      </div>
-
-<!--	<h2>Education</h2>-->
-
-<!--	<div>-->
-<!--        &emsp; <strong> Nanjing University of Science and Technology, China (Sep. 2018 - Now) </strong>-->
-<!--          <a href="http://www.njust.edu.cn/" target="_blank" rel="external">-->
-<!--            <img border="0" src="img/njust_logo.jpg" align="right" width="100" height="100" />-->
-<!--          </a>-->
-<!--        <ul>-->
-<!--        <li>-->
-<!--          Doctor of Philosophy (Ph.D.), Computer Science</li>-->
-<!--        <li>-->
-<!--          Supervisor: Prof. <a href="https://imag-njust.net/jinhui-tang" target="_blank" rel="external">Jinhui Tang</a></li>-->
-<!--		 <li>-->
-<!--			Successive Master-Doctor Program</li>-->
-<!--      </ul>-->
-<!--      </div>-->
-
-<!--	<div>-->
-<!--       &emsp; <strong> Harbin Engineering University, China (Sep. 2014 - Jun. 2018) </strong>-->
-<!--          <a href="http://www.hrbeu.edu.cn/" target="_blank" rel="external">-->
-<!--            <img border="0" src="img/heu_logo.png" align="right" width="100" height="100" />-->
-<!--          </a>-->
-<!--        <ul>-->
-<!--        <li>-->
-<!--          Bachelor of Engineering (B.E.), Automation</li>-->
-<!--        <li>-->
-<!--          Graduated with Excellent Thesis Award</li>-->
-<!--      </ul>-->
-<!--      </div>-->
+			
+			<div>
+					&emsp; <strong>Nanjing University of Science and Technology, Nanjing China (Sep 2021 - Present)</strong>
+					<!-- <a href="https://www.sutd.edu.sg/" target="_blank" rel="external"> -->
+					<img border="0" src="img/imag.png" align="right" width="120" height="100" />
+					<!-- </a> -->
+					<ul>
+							<li>
+									PhD student, <a href="https://imag-njust.net/" target="_blank" rel="external">IMAG</a>
+							</li>
+							<li>
+									Hosted by Prof. <a href="https://imag-njust.net/jinhui-tang/" target="_blank" rel="external">Jinhui Tang</a>,  
+								<li>	Co-supervised by Prof. <a href="https://shuxb104.github.io/" target="_blank" rel="external">Xiangbo Shu</a>
+									and Assoc Prof. <a href="https://bio.duxy.cc/" target="_blank" rel="external">Xiaoyu Du</a></li>
+							</li>
+					</ul>
+			</div>
+			
 
 
-    <h2>Research Interests</h2>
 
-	<ul>
-		<h6><strong style="color:#ff0000">Learning From Limited or Imperfect Data</strong></h6>
-		<li> Multimedia: Zero/Few-shot Learning, Fine-Grained Visual Classification/Retrieval, ... </li>
-		<li> Computer Vision: Multi-Modality Object Localization/Detection/Segmentation </li>
-	</ul>
+			<!-- <h2>Research Interests</h2>
+
+			<ul>
+				<h6><strong style="color:#ff0000">Learning From Limited or Imperfect Data</strong></h6>
+				<li> Multimedia: Zero/Few-shot Learning, Fine-Grained Visual Classification/Retrieval, ... </li>
+				<li> Computer Vision: Multi-Modality Object Localization/Detection/Segmentation </li>
+			</ul> -->
+
+			<div class="papers-container papers-selected">
+				<h5 class="paperlo">All Publications<button type="button" class="ml-3 btn btn-light">Show selected</button></h5>
+				<h5 class="paperhi paperhi-only">Selected Publications<button type="button" class="ml-3 btn btn-light">Show all</button></h5>
+			
+				<h5 class="pt-2 pb-1">2023</h5>
+			
+				<div class="publication media">
+					<div class="media-body">
+						<strong>Pedestrian-specific Bipartite-aware Similarity Learning for Text-based Person Retrieval</strong><br>
+						Fei Shen, Xiangbo Shu, Xiaoyu Du, and Jinhui Tang <br>
+						Under Review [<a href="https://github.com/muzishen/PBSL">Code</a>]<br>
+					</div>
+				</div>
+			
+				<div class="publication media">
+					<div class="media-body">
+						<strong>Triplet Contrastive Representation Learning for Unsupervised Vehicle Re-identification</strong><br>
+						Fei Shen, Xiaoyu Du, Liyan Zhang, Xiangbo Shu, and Jinhui Tang <br>
+						Under Review [<a href="https://github.com/muzishen/TCRL">Code</a>]<br>
+					</div>
+				</div>
+			
+				<div class="publication media paperhi">
+					<div class="media-body">
+						GiT: Graph interactive transformer for vehicle re-identification</strong></a><br>
+						Fei Shen, Yi Xie, Jianqing Zhu, Xiaobin Zhu, and Huanqiang Zeng <br>
+						IEEE Transactions on Image Processing
+						[<a href="https://ieeexplore.ieee.org/document/10026500" target="_blank" rel="external"><strong style="color:darkblue"></strong>PDF</a>]
+						[<a href="https://github.com/muzishen/ReID-GiT">Code</a>]
+						<br>
+					</div>
+				</div>
+			
+				<h5 class="pt-2 pb-1">2022</h5>
+				<div class="publication media paperhi">
+					<div class="media-body">
+						HSGM: A hierarchical similarity graph module for object re-identification</strong></a><br>
+						Fei Shen, Xiaoxiao Peng, Lisheng Wang, Xingmeng Hao, Mei Shu, and Yajun Wang <br>
+						IEEE ICME 2022 <span style="color: red;"> (Oral Presentation)</span>
+						[<a href="https://ieeexplore.ieee.org/document/9859883" target="_blank" rel="external"><strong style="color:darkblue"></strong>PDF</a>]
+						[<a href="https://github.com/muzishen/HPGN">Code</a>]<br>
+					</div>
+				</div>
+			
+				<div class="publication media">
+					<div class="media-body">
+						Enhancing part features via contrastive attention module for vehicle re-identification</strong></a><br>
+						Manyu Li, Mengwan Wei, Xin He, and Fei Shen* <br>
+						IEEE ICIP 2022 <span style="color: red;">(Oral Presentation)</span> 
+						[<a href="https://ieeexplore.ieee.org/document/9897943" target="_blank" rel="external"><strong style="color:darkblue"></strong>PDF</a>]
+						[<a href="https://github.com/muzishen/HPGN">Code</a>]<br>
+					</div>
+				</div>
+			
+				<div class="publication media">
+					<div class="media-body">
+						A Novel Multi-Frequency Coordinated Module for SAR Ship Detection</strong></a><br>
+						Chenchen Qiao, Fei Shen, Xuejun Wang, Ruixin Wang, Fang Cao, Sixian Zhao, and Chang Li <br>
+						IEEE ICTAI 2022
+						[<a href="https://ieeexplore.ieee.org/document/10097976" target="_blank" rel="external"><strong style="color:darkblue"></strong>PDF</a>]
+						[<a href="https://github.com/muzishen/HPGN">Code</a>]<br>
+					</div>
+				</div>
+			
+				<div class="publication media">
+					<div class="media-body">
+						A sample-proxy dual triplet loss function for object re-identification</strong></a><br>
+						Hanxiao Wu, Fei Shen, Jianqing Zhu, Huanqiang Zeng, Xiaobin Zhu, and Zhen Lei <br>
+						IET Image Processing
+						[<a href="https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/ipr2.12593" target="_blank" rel="external"><strong style="color:darkblue"></strong>PDF</a>]
+						[<a href="https://github.com/muzishen/HPGN">Code</a>]<br>
+					</div>
+				</div>
+			
+				<h5 class="pt-2 pb-1">2021</h5>
+				<div class="publication media paperhi">
+					<div class="media-body">
+						Exploring spatial significance via hybrid pyramidal graph network for vehicle re-identification</strong></a><br>
+						Fei Shen, Jianqing Zhu, Xiaobin Zhu, Yi Xie, and Jingchang Huang <br>
+						IEEE Transactions on Intelligent Transportation Systems 
+						[<a href="https://ieeexplore.ieee.org/document/9457192" target="_blank" rel="external"><strong style="color:darkblue"></strong>PDF</a>]
+						[<a href="https://github.com/muzishen/HPGN">Code</a>]<br>
+					</div>
+				</div>
+			
+				<div class="publication media paperhi">
+					<div class="media-body">
+						An efficient multiresolution network for vehicle reidentification</strong></a><br>
+						Fei Shen, Jianqing Zhu, Xiaobin Zhu, Jingchang Huang, Huanqiang Zeng, Zhen Lei, and Canhui Cai <br>
+						IEEE Internet of Things Journal 
+						[<a href="https://ieeexplore.ieee.org/document/9569744" target="_blank" rel="external"><strong style="color:darkblue"></strong>PDF</a>]
+						[<a href="https://github.com/muzishen/EMRN">Code</a>]<br>
+					</div>
+				</div>
+			
+				<div class="publication media">
+					<div class="media-body">
+						Object Re-identification Using Teacher-Like and Light Students</strong></a><br>
+						Yi Xie, Hanxiao Wu, Fei Shen, Jianqing Zhu, and Huanqiang Zeng <br>
+						BMVC 2021 
+						[<a href="https://www.bmvc2021-virtualconference.com/assets/papers/1193.pdf" target="_blank" rel="external"><strong style="color:darkblue"></strong>PDF</a>]
+						[<a href="https://github.com/muzishen/EMRN">Code</a>]<br>
+					</div>
+				</div>
+			
+				<div class="publication media">
+					<div class="media-body">
+						Viewpoint robust knowledge distillation for accelerating vehicle re-identification</a><br>
+						Yi Xie, Fei Shen, Jianqing Zhu, and Huanqiang Zeng <br>
+						EURASIP Journal on Advances in Signal Processing 
+						[<a href="https://link.springer.com/article/10.1186/s13634-021-00767-x" target="_blank" rel="external"><strong style="color:darkblue"></strong>PDF</a>]
+						[<a href="https://github.com/muzishen/EMRN">Code</a>]<br>
+					</div>
+				</div>
+			</div>
+			
+		
+		
+		<!--<sup>&#x2709</sup>-->
+		<div class="awards-container awards-selected">
+				<h5 class="awardlo">All Awards<button type="button" class="ml-3 btn btn-light">Show selected</button>
+				</h5>
+				<h5 class="awardhi awardhi-only">Selected Awards<button type="button" class="ml-3 btn btn-light">Show
+								all</button></h5>
+		
+				<h5 class="pt-2 pb-1">2023 </h5>
+
+				<!-- <div class="publication media">
+					<div class="media-body">
+						Object Re-identification Using Teacher-Like and Light Students</strong></a><br>
+						Yi Xie, Hanxiao Wu, Fei Shen, Jianqing Zhu, and Huanqiang Zeng <br>
+						BMVC 2021 
+						[<a href="https://www.bmvc2021-virtualconference.com/assets/papers/1193.pdf" target="_blank" rel="external"><strong style="color:darkblue"></strong>PDF</a>]
+						[<a href="https://github.com/muzishen/EMRN">Code</a>]<br>
+					</div>
+				</div> -->
+		
+				<div class="publication media">
+					<div class="media-body">
+						2023国际大数据产业博览会-生活垃圾检测,<a href="img/数博会第二名.jpg">二等奖</a><br>
+						江舒, 房梓晔, 付孝德, 沈飞  [<a href="img/treehole团队数博会.pdf">PDF</a>]  <br>
+					</div>
+				</div>
+
+				<div class="publication media">
+					<div class="media-body">
+						2023IEEE GRSS Data Fusion Contest Track 1,<a href="img/2022_digix_2nd.pdf">3rd place</a><br>
+						Jiarui Hu, Zijun Huang, and Fei Shen<br>
+					</div>
+				</div>
+
+				<h5 class="pt-2 pb-1">2022 </h5>
+
+				<div class="publication media awardhi">
+					<div class="media-body">
+						2022“航天宏图杯”遥感影像智能处理算法大赛-遥感影像语义分割,<a href="img/2022_1_nsfc.pdf">一等奖</a><br>
+						黄梓钧, 王晨昊, 何典, 李英龙, 沈飞<br>
+					</div>
+				</div>
+
+				<div class="publication media">
+					<div class="media-body">
+						2022科大讯飞1024挑战赛,<a href="img/2022科大讯飞证书.pdf">2个冠军;1个亚军;1个季军</a><br>
+						沈飞, 任俊弛, 蒋鑫, 付孝德, 江舒, 房梓晔, 魏梦婉<br>
+						基于可见光图像的柑橘花果梢识别挑战赛, 第一名<br>
+						辣椒病虫害图像识别挑战赛, 第一名<br>
+						智能硬件语音控制的时频图分类挑战赛 2.0, 第二名<br>
+						基于小样本的异常检测任务挑战赛, 第三名<br>
+						媒体😂: <a href="img/人民网微博.jpg">人民网微博</a> 
+						<a href="https://baijiahao.baidu.com/s?id=1750103461042835751&wfr=spider&for=pc">新京报</a> 
+						<a href="http://news.jstv.com/a/20221118/1668761234292.shtml">荔枝网</a>   <br>
+					</div>
+				</div>
 
 
-<!--<sup>&#x2709</sup>-->
-<div class="papers-container papers-selected">
- 	<h5 class="paperlo">All Publications<button type="button" class="ml-3 btn btn-light"> Show selected</button></h5>
-	<h5 class="paperhi paperhi-only">Selected Publications<button type="button" class="ml-3 btn btn-light"> Show all</button></h5>
 
-	<h5 class="pt-2 pb-1">2023 </h5>
-	<div class="publication media">
-           <div class="media-body">
-			   <a href="https://ieeexplore.ieee.org/document/10038499" target="_blank" rel="external"><strong style="color:darkblue">Knowledge-Guided Semantic Transfer Network for Few-Shot Image Recognition</strong></a><br>
-           Zechao Li, <strong>Hao Tang</strong>, Zhimao Peng, Guo-jun Qi, and Jinhui Tang <br>
-           IEEE Transactions on Neural Networks and Learning Systems [<a href="https://github.com/CSer-Tang-hao/FS-KTN">Code</a>]<br>
-	</div></div>
+				<div class="publication media">
+					<div class="media-body">
+						2022 全国大学生物联网设计竞赛,<a href="img/全国物联网竞赛一等奖.pdf">一等奖</a><br>
+						沈飞, 蒋鑫, 付孝德, 陈嘉煜<br>
+					</div>
+				</div>
 
-	<div class="publication media">
-           <div class="media-body">
-			   <a href="https://ieeexplore.ieee.org/document/10018260" target="_blank" rel="external"><strong style="color:darkblue">Boosting Few-shot Fine-grained Recognition with Background Suppression and Foreground Alignment</strong></a><br>
-           Zican Zha, <strong>Hao Tang</strong>, Yunlian Sun, and Jinhui Tang <br>
-           IEEE Transactions on Circuits and Systems for Video Technology [<a href="https://github.com/CSer-Tang-hao/BSFA-FSFG">Code</a>]<br>
-	</div></div>
+				<div class="publication media">
+					<div class="media-body">
+						2022 kaggle 微生物目标检测,<a href="img/2022_digix_2nd.pdf">第一名</a><br>
+						沈飞<br>
+					</div>
+				</div>
 
-	<h5 class="pt-2 pb-1">2022 </h5>
-	<div class="publication media paperhi">
-           <div class="media-body">
-			   <strong style="color:black">Complementary Triple-Decoder Network for Robust RGB-T Salient Object Detection</strong><br>
-            <strong>Hao Tang</strong>, Zechao Li, Di Wang, Dong Zhang, and Jinhui Tang <br>
-           Under Review, 2022 <br>
-	</div></div>
+				<div class="publication media">
+					<div class="media-body">
+						2022华为digix全球校园精英挑战赛-车道线渲染检测,<a href="img/2022_digix_2nd.pdf">亚军</a><br>
+						沈飞, 蒋鑫, 陈嘉煜<br>
+					</div>
+				</div>
 
-	<div class="publication media">
-           <div class="media-body">
-			   <strong style="color:black">Erasing, Transforming, and Noising Defense Network for Occluded Person Re-Identification</strong><br>
-           Neng Dong, Liyan Zhang, Shuanglin Yan, <strong>Hao Tang</strong>, and Jinhui Tang <br>
-           Under Review, 2022 <br>
-	</div></div>
-
-	<div class="publication media">
-           <div class="media-body">
-			   <a href="https://arxiv.org/abs/2208.14365" target="_blank" rel="external"><strong style="color:darkblue">Image-Specific Information Suppression and Implicit Local Alignment for Text-based Person Search</strong></a><br>
-           Shuanglin Yan, <strong>Hao Tang</strong>, Liyan Zhang, and Jinhui Tang <br>
-           Under Review, 2022 <br>
-	</div></div>
+				<div class="publication media">
+					<div class="media-body">
+						2022 few-shot logo detection challenge of ICME workshop,<a href="img/2022_icme_2nd.jpg">2nd place</a><br>
+						Zhe Wang, Baoying Chen, and Fei Shen<br>
+					</div>
+				</div>
 
 
-	<div class="publication media paperhi">
-           <div class="media-body">
-			   <a href="https://www.sciencedirect.com/science/article/pii/S0031320322002734" target="_blank" rel="external"><strong style="color:darkblue">Learning Attention-Guided Pyramidal Features for Few-shot Fine-grained Recognition</strong></a><br>
-           <strong>Hao Tang</strong>, Chengcheng Yuan, Zechao Li and Jinhui Tang <br>
-<!--			   IJCAI LTDL Workshop 2021 <strong style="color:red">(Best Paper Award)</strong><br>-->
-			   IJCAI LTDL Workshop 2021 <strong style="color:red"><a href="BestPaper.pdf" target="_blank" rel="external" style="color:red"><strong>Best Paper Award</strong></a></strong><br>
-			   Pattern Recognition <strong style="color:red">(Journal Version)</strong> [<a href="https://github.com/CSer-Tang-hao/AGPF-FSFG">Code</a>]<br>
-	</div></div>
+				<div class="publication media">
+					<div class="media-body">
+						2022首届“兴智杯”全国人工智能创新应用大赛,<a href="img/2022兴智杯三等奖.pdf">三等奖</a><br>
+						沈飞, 蒋鑫, 王晋, 何杨凌<br>
+					</div>
+				</div>
 
-	<h5 class="pt-2 pb-1">2021 <font size="3px"> (* indicates <strong style="color:red">equal contributions</strong>)</font> </h5>
-<!--	<div class="publication media">-->
-<!--           <div class="media-body">-->
-<!--			   <a href="" target="_blank" rel="external"><strong style="color:darkblue">Learning Attention-Guided Pyramidal Features for Few-shot Fine-grained Recognition</strong></a><br>-->
-<!--           Chengcheng Yuan<sup>*</sup>, <strong>Hao Tang</strong><sup>*</sup>, Dong Zhang, Xinguang Xiang and Zechao Li <br>-->
-<!--           IJCAI LTDL Workshop 2021 <strong style="color:red">(Oral Presentation)</strong><br>-->
-<!--	</div></div>-->
-
-	<div class="publication media">
-           <div class="media-body">
-			   <a href="https://ieeexplore.ieee.org/abstract/document/9506685" target="_blank" rel="external"><strong style="color:darkblue">Coupled Patch Similarity Network For One-Shot Fine-Grained Image Recognition</strong></a><br>
-           Sheng Tian, <strong>Hao Tang</strong>, and Longquan Dai <br>
-           IEEE ICIP 2021 [<a href="https://github.com/CSer-Tang-hao/CPSN-OSFG">Code</a>]<br>
-	</div></div>
-
-	<div class="publication media">
-           <div class="media-body">
-			    <a href="https://ieeexplore.ieee.org/abstract/document/9428187" target="_blank" rel="external"><strong style="color:darkblue">Learning a Tree-Structured Channel-Wise Refinement Network for Efficient Image Deraining</strong></a><br>
-           Di Wang<sup>*</sup>, <strong>Hao Tang</strong><sup>*</sup>, Jinshan Pan, and Jinhui Tang <br>
-           IEEE ICME 2021 [<a href="https://github.com/CSer-Tang-hao/TCRN-Deraining">Code</a>]<br>
-	</div></div>
+				<div class="publication media">
+					<div class="media-body">
+						2022船海数据应用创新大赛-海上目标检测,<a href="img/2022中船集团-海上目标检测三等奖.pdf">三等奖</a><br>
+						沈飞, 黄梓钧<br>
+					</div>
+				</div>
 
 
-	<h5 class="pt-2 pb-1">2020</h5>
-	<div class="publication media paperhi">
-           <div class="media-body">
-			   <a href="https://dl.acm.org/doi/abs/10.1145/3394171.3413884" target="_blank" rel="external"><strong style="color:darkblue">BlockMix: Meta Regularization and Self-Calibrated Inference for Metric-Based Meta-Learning</strong></a><br>
-           <strong>Hao Tang</strong>, Zechao Li, Zhimao Peng, and Jinhui Tang <br>
-           ACM Multimedia 2020 <strong style="color:red">(Oral Presentation)</strong><br>
-	</div></div>
-
-</div>
 
 
-</div>
-    <h2>Honors & Awards</h2>
-	<div>
-        <ul>
-			<li>Silver Award at FSL-Based High-speed Railway Catenary Image Detection and Analysis Workshop, ICIG 2021</li>
-	    	<li>Best Paper Award at Long-Tailed Distribution Learning Workshop, IJCAI 2021</li>
-	    	<li>Excellent Ph.D. Students Sponsorship Program of NJUST, 2021~2023</li>
-<!--	    	<li>First Prize Scholarship of Nanjing University of Science and Technology, 2018, 2019, 2020</li>-->
-            <li>Excellent Bachelor Thesis & Excellent Graduate at HEU, 2018</li>
-            <li>First-class Innovation Scholarship, Ministry of Industry and Information Technology of China, 2017</li>
-        </ul>
-	</div>
+				<div class="publication media">
+					<div class="media-body">
+						2022 IEEE UV “Vision Meets Algae” Object Detection Challenge,<a href="img/2022IEEE-UV水藻检测三等奖.jpg">3rd place</a><br>
+						Xiaode Fu and Fei Shen<br>
+					</div>
+				</div>
 
-	<h2>Professional Services</h2>
-	<div>
+
+
+				<div class="publication media">
+					<div class="media-body">
+						2022 pet biometric Challenge of CVPR workshop,<a href="img/2022_cvpr_3rd.jpg">3rd place</a><br>
+						Fei Shen, Zhe Wang, Zijun Huang, Xiaode Fu, and Jiayi Chen 
+						[<a href="https://github.com/muzishen/Pet-ReID-IMAG">Code</a>]
+						<br>
+					</div>
+				</div>
+
+
+
+
+
+				<h5 class="pt-2 pb-1">2021 </h5>
+
+				<div class="publication media awardhi">
+					<div class="media-body">
+						2021华为云“东吴杯”数字转型创新大赛-汽车零部件检测,<a href="img/华为东吴杯一等奖.jpg">一等奖</a><br>
+						沈飞, 王欣唯 <br>
+					</div>
+				</div>
+
+				<div class="publication media awardhi">
+					<div class="media-body">
+						2021海洋目标智能感知国际挑战赛-可见光目标检测,<a href="img/国际船舶挑战赛_可见光一等奖.pdf">一等奖</a><br>
+						沈飞, 谢懿, 吴含笑<br>
+					</div>
+				</div>
+
+
+					<div class="publication media">
+					<div class="media-body">
+						2021福建省软件设计大赛,<a href="img/福建省第十一届软件设计一等奖.jpg">一等奖</a><br>
+						沈飞<br>
+					</div>
+				</div>
+
+				
+				<div class="publication media">
+					<div class="media-body">
+						2021科大讯飞1024挑战赛,<a href="img/2021年科大讯飞1024开发者大赛获奖证书.pdf">3个冠军;1个亚军</a><br>
+						沈飞, 谢懿, 何新, 何伯勇<br>
+						柑橘病虫害识别挑战赛, 第一名<br>
+						遥感影像典型目标提取挑战赛, 第一名<br>
+						农作物生长情况识别挑战赛, 第一名<br>
+						叶菜病虫害图像识别挑战赛, 第二名<br>
+					</div>
+				</div>
+
+				<div class="publication media">
+					<div class="media-body">
+						2021全国高校新星挑战赛-企业出题,揭榜挂帅,<a href="img/厦门高新挑战赛一等奖.pdf">双赛道一等奖</a><br>
+						沈飞<br>
+						星宸科技轻量化人脸检测第一名<br>
+						亿联科技室内行人跟踪第一名<br>
+						媒体😂: <a href="https://baijiahao.baidu.com/s?id=1704045658248142715&wfr=spider&for=pc">台海网</a>  <br>
+					</div>
+				</div>			
+
+
+				<div class="publication media">
+					<div class="media-body">
+						2021“易华录”杯图像描述生成,<a href="img/第十届中软杯二等奖.pdf">第二名</a><br>
+						何新, 沈飞<br>
+					</div>
+				</div>
+
+				<div class="publication media">
+					<div class="media-body">
+						2021中国软件杯-软件设计大赛,<a href="img/第十届中软杯二等奖.pdf">二等奖</a><br>
+						沈飞, 谢懿, 吴含笑  [<a href="https://github.com/muzishen/China-Software-Cup">Code</a>]<br>
+					</div>
+				</div>
+
+
+				<div class="publication media">
+					<div class="media-body">
+						2021全国人工智能创新(AIAC)应用大赛-钢铁瑕疵检测,<a href="img/AIAC二等奖.jpg">二等奖</a><br>
+						沈飞<br>
+					</div>
+				</div>				
+
+				<div class="publication media">
+					<div class="media-body">
+						2021全国数字生态创新大赛-智能算法赛,<a href="img/AIAC二等奖.jpg">第三名</a><br>
+						何新, 沈飞, 郝元洁<br>
+					</div>
+				</div>				
+
+				<div class="publication media">
+					<div class="media-body">
+						WAIC世界人工智能大会-算法扩展挑战赛,<a href="img/世界人工智能大赛WAIC季军.pdf">季军</a><br>
+						沈飞<br>
+					</div>
+				</div>
+
+
+				<div class="publication media">
+					<div class="media-body">
+						2021“昇腾杯”遥感影像智能处理算法大赛-细粒度语义分割,<a href="img/基金委昇腾杯-三等奖.jpg">三等奖</a><br>
+						赵慧琳, 厦聪, 何欣, 沈飞<br>
+					</div>
+				</div>
+
+
+				<div class="publication media">
+					<div class="media-body">
+						2021海洋目标智能感知国际挑战赛-红外目标检测,<a href="国际船舶挑战赛_红外图像三等奖.pdf">三等奖</a><br>
+						沈飞, 谢懿, 吴含笑<br>
+					</div>
+				</div>
+
+				<div class="publication media">
+					<div class="media-body">
+						2022 全国水下光学目标检测智能算法赛,<a href="img/光学_乘风破浪的炼丹师.pdf">入围奖</a><br>
+						何新，沈飞, 李解<br>
+					</div>
+				</div>
+
+				<h5 class="pt-2 pb-1">2020</h5>
+
+
+				<div class="publication media awardhi">
+					<div class="media-body">
+						2020 Visual Inductive Priors for Data-Efficient Computer Vision Object Detection of ECCV workshop,<a href="img/2020_eccv_1st.pdf">1st place</a><br>
+						Fei Shen  [<a href="https://github.com/muzishen/VIPriors-Object-Detection-Challenge">Code</a>]<br>
+					</div>
+				</div>
+
+				<div class="publication media awardhi">
+					<div class="media-body">
+						2020中国软件杯-软件设计大赛,<a href="img/第九届中软杯一等奖.pdf">一等奖</a><br>
+						沈飞, 谢懿, 魏梦婉  [<a href="https://github.com/muzishen/China-Software-Cup">Code</a>]<br>
+					</div>
+				</div>
+
+				<div class="publication media">
+					<div class="media-body">
+						2020 易华录不定向算法赛,<a href="img/2020易华录算法.pdf">二等奖</a><br>
+						沈飞, 何新, 林啸涛<br>
+					</div>
+				</div>
+
+				<div class="publication media">
+					<div class="media-body">
+						2020 华为digix全球校园精英挑战赛-数码检索,<a href="img/2020digix第四名.pdf">第四名</a><br>
+						沈飞, 谢懿, 何新 [<a href="https://github.com/muzishen/Huawei_Digix_Retrieval_Top4">Code</a>]<br>
+						
+					</div>
+				</div>
+
+				<div class="publication media">
+				<div class="media-body">
+					2020“中兴捧月”算法大赛-多目标跟踪,<a href="img/华为东吴杯一等奖.jpg">一等奖</a><br>
+					沈飞 [<a href="https://github.com/muzishen/Deepsort_V2">Code</a>] <br>
+				</div>
+			</div>
+
+				<div class="publication media">
+					<div class="media-body">
+						2020 “华为杯”第二届中国研究生人工智能创新应用大赛-小样本分类,<a href="img/华为研究生国三等奖.pdf">三等奖</a><br>
+						沈飞, 谢懿, 何新<br>
+					</div>
+				</div>
+		</div>
+		
+
+
+		
+		<h2>Honors</h2>
+		<div>
+			<ul>
+				<li>入选<a href="img/华为生态贡献奖.jpg">华为开发者生态发展特殊贡献奖</a>, 华为开发者大会, 2023</li>
+				<li> 入选<a href="img/2023腾讯犀牛鸟.jpg">腾讯犀牛鸟精英人才计划</a> (全球仅55人), 腾讯 2023</li>
+					<li> 入选<a href="img/福建省优硕士论文.pdf">福建省优秀硕士学位论文</a> , 福建省学位委员会, 2022</li>
+					<li>First Prize Scholarship of Nanjing University of Science and Technology, 2021, 2022</li>
+				<li>全国研究生国家奖学金, 中国教育部, 2021</li>
+				<!-- <li>First-class Innovation Scholarship, Ministry of Industry and Information Technology of China, 2017</li> -->
+			</ul>
+		</div>
+
+		<h2>Professional Services</h2>
+		<div>
+			<ul>
+				<li>
+					<b>Journal Reviewer</b>: </br>
+					<!-- &emsp; • IEEE Transactions on Pattern Analysis and Machine Intelligence (T-PAMI) </br> -->
+					&emsp; • IEEE Transactions on Image Processing (T-IP) </br>
+					&emsp; • IEEE Transactions on Intelligent Transportation Systems (T-ITS) </br>
+					&emsp; • IEEE Internet of Things Journal (IOTJ) </br>
+					&emsp; • Neural Computing and Applications (NCA) </br>
+					&emsp; • Neurocomputing (NC) </br>
+				</li>
+				<li>
+					<b>Conference Reviewer / Program Committee Member</b>: </br>
+					&emsp; • International Conference on Multimedia and Expo: 2022-2023 </br>
+					&emsp; • ACM International Conference on Multimedia (ACM MM): 2022 </br>
+					<!-- &emsp; • IEEE International Conference on Multimedia Information Processing and Retrieval (MIPR): 2021-2023</br> -->
+				</li>
+			</ul>
+		</div>
+
+		<h2>Links</h2>
+		<!-- <li>	<a href="https://ruiyan1995.github.io/" target="_blank" rel="external">Rui Yan</a>, <a href="https://dongzhang89.github.io/" target="_blank" rel="external">Dong Zhang</a> -->
 		<ul>
-			<li>
-				<b>Journal Reviewer</b>: </br>
-				&emsp; • IEEE Transactions on Pattern Analysis and Machine Intelligence (T-PAMI) </br>
-				&emsp; • IEEE Transactions on Image Processing (T-IP) </br>
-				&emsp; • IEEE Transactions on Neural Networks and Learning Systems (T-NNLS) </br>
-				&emsp; • IEEE Transactions on Multimedia (T-MM) </br>
-				&emsp; • IEEE Transactions on Circuits and Systems for Video Technology (T-CSVT) </br>
-				&emsp; • IEEE Transactions on Biometrics, Behavior, and Identity Science (T-BIOM) </br>
-				&emsp; • Pattern Recognition (PR) </br>
-				&emsp; • Information Sciences (IS) </br>
-				&emsp; • The Visual Computer (TVC) </br>
-				&emsp; • Image and Vision Computing (IVC) </br>
+			<li><a href="https://dongzhang89.github.io/" target="_blank" rel="external">Dong Zhang (张冬)</a>, 
+				<a href="https://ruiyan1995.github.io/" target="_blank" rel="external">Rui Yan (严锐)</a>,
+				<a href="https://cser-tang-hao.github.io/" target="_blank" rel="external">Hao Tang (唐昊)</a>.
+				<!-- <a href="https://zhengye1995.github.io/" target="_blank" rel="external">Ye Zheng (郑烨)</a>,
+				<a href="https://github.com/whut2962575697" target="_blank" rel="external">Xin He (何新)</a>,
+				<a href="https://github.com/CarryHJR" target="_blank" rel="external">Jiarui Hu (胡佳睿)</a>, -->
 			</li>
-			<li>
-				<b>Conference Reviewer / Program Committee Member</b>: </br>
-				&emsp; • Association for the Advancement of Artificial Intelligence (AAAI): 2021-2023 </br>
-				&emsp; • ACM International Conference on Multimedia (ACM MM): 2021-2023 </br>
-				&emsp; • IEEE International Conference on Multimedia Information Processing and Retrieval (MIPR): 2021-2023 </br>
-			</li>
-		</ul>
-	</div>
-
-	<h2>Cooperation & Communication</h2>
-
-		<ul>
-<!--			<li>-->
-<!--				NJUST: <a href="https://ruiyan1995.github.io/" target="_blank" rel="external">Rui Yan</a>, <a href="https://dongzhang89.github.io/" target="_blank" rel="external">Dong Zhang</a>-->
-<!--			</li>-->
-<!--			<li>-->
-<!--				NKU: Zhimao Peng-->
-<!--			</li>-->
-<!--			<li>-->
-<!--				DUT: <a href="https://wdhudiekou.github.io/" target="_blank" rel="external">Di Wang</a>-->
-<!--			</li>-->
-			<i style="color:darkcyan">
-				I'm always interested in meeting new people and hearing about potential collaborations. If you'd like to work together or get in contact with me, please email me.
-			</i>
+			<!--			<li>-->
+			<!--				NJUST: <a href="https://ruiyan1995.github.io/" target="_blank" rel="external">Rui Yan</a>, <a href="https://dongzhang89.github.io/" target="_blank" rel="external">Dong Zhang</a>-->
+			<!--			</li>-->
+			<!--			<li>-->
+			<!--				NKU: Zhimao Peng-->
+			<!--			</li>-->
+			<!--			<li>-->
+			<!--				DUT: <a href="https://wdhudiekou.github.io/" target="_blank" rel="external">Di Wang</a>-->
+			<!--			</li>-->
+			<!-- <i style="color:darkcyan">
+				I'm always interested in meeting new people and hearing about potential collaborations. If you'd like to work
+				together or get in contact with me, please email me.
+			</i> -->
 		</ul>
 
 	</div>
 
-</body></html>
+</body>
+
+</html>
