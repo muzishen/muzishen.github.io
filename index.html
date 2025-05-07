@@ -283,19 +283,70 @@
 			</table>
 			<br>
 
-			<h2>About Me</h2>
-			<!-- <p style="text-align:justify" ;> -->
-				<p style="text-align: justify;"> Hi 😄! I am currently a Postdoctoral Research Fellow at the <a href="https://www.nextcenter.org/">NExT++ Center</a>, National University of Singapore (NUS). I actively collaborate with leading industry partners such as <a href="https://www.guiji.ai/">GuijiAI</a>, <a href="https://aiuni.ai/">AIUNI</a>, <a href="https://www.chumenwenwen.com/zh/">Mobvoi</a>, <a href="http://dev3.noahlab.com.hk/">Huawei</a>, and <a href="https://ailab.tencent.com/">Tencent AI Lab</a>, focusing on cutting-edge research in 2D/3D content generation.
-					My research interests center around <span style="color: red; font-weight: bold;">human-centered, controllable, and consistent visual generation</span>, including <em>pose-guided person generation</em>, <em>virtual try-on</em>, and <em>long-term talking face synthesis</em>.
+
+			<div style="display: flex; justify-content: space-between; align-items: center;">
+				<h2>About Me</h2>
+				<button onclick="toggleLanguage()" id="btn-toggle" class="lang-btn">中文</button>
+			  </div>
+			  
+			  <style>
+				.lang-btn {
+				  padding: 6px 14px;
+				  margin-left: 8px;
+				  border: 1px solid #888;
+				  border-radius: 6px;
+				  background-color: #f9f9f9;
+				  color: #333;
+				  cursor: pointer;
+				  transition: all 0.2s ease-in-out;
+				}
+			  
+				.lang-btn:hover {
+				  background-color: #e6e6e6;
+				}
+			  </style>
+			  
+			  <div id="about-en">
+				<p style="text-align: justify;">
+					Hi 😄! I am currently a Postdoctoral Research Fellow at the <a href="https://www.nextcenter.org/">NExT++ Center</a> at the National University of Singapore (NUS). I actively collaborate with leading industry partners such as <a href="https://ailab.tencent.com/">Tencent AI Lab</a>, <a href="http://dev3.noahlab.com.hk/">Huawei</a>, <a href="https://aiuni.ai/">AIUNI</a>, <a href="https://www.guiji.ai/">GuijiAI</a>, and <a href="https://www.chumenwenwen.com/zh/">Mobvoi</a>, focusing on cutting-edge research in 2D/3D content generation.
+
+					My research interests lie in <span style="color: red; font-weight: bold;">human-centered, controllable, and consistent visual generation</span>, including <em>pose-guided person generation</em>, <em>virtual try-on</em>, and <em>long-term talking face synthesis</em>, particularly in the context of e-commerce applications.
 					
-					Driven by the vision of accelerating progress toward digital immortality and machine consciousness, I remain committed to pushing the boundaries of generative AI. Prior to my current role, I was an avid algorithm competition enthusiast, earning over 50 top-three finishes—including five championships in CCF A-class workshop challenges.
+					Motivated by the vision of achieving digital immortality and machine consciousness, I am dedicated to pushing the boundaries of generative AI. Prior to my current position, I was an avid algorithm competition enthusiast, securing over 50 top-three finishes, including five championships in CCF A-class workshop challenges.
 					
-					I am a strong advocate of <span style="text-decoration: underline; font-weight: bold; color: rgb(128, 0, 128);">sharing🌱, collaborating🤝, advancing🚀, and innovating💡</span>. Passionate about bridging fundamental research and real-world applications, I strive to ensure that my work contributes to both academic advancement and societal impact.
+					I am a strong advocate of <span style="text-decoration: underline; font-weight: bold; color: rgb(128, 0, 128);">sharing🌱, collaborating🤝, advancing🚀, and innovating💡</span>. Passionate about bridging fundamental research with real-world impact, I strive to ensure my work contributes to both academic progress and practical value.
 					
-					<span style="color: red; font-weight: bold;"><em>If you’re interested in collaborating or would like to connect, feel free to reach out via email!</em></span> 😊
+					I am also actively seeking industrial collaborations and exploring potential entrepreneurial opportunities. <span style="color: red; font-weight: bold;"><em>If you’re interested in collaborating or would like to connect, feel free to reach out via email!</em></span> 😊
 					
-					</p>
-				  
+				</p>
+			  </div>
+			  
+			  <div id="about-cn" style="display:none">
+				<p style="text-align: justify;">
+					你好！我是新加坡国立大学（NUS）<a href="https://www.nextcenter.org/">NExT++ 中心</a>的博士后研究员，长期专注于 2D/3D 内容生成方向，并与<a href="https://ailab.tencent.com/">腾讯 AI Lab</a>, <a href="http://dev3.noahlab.com.hk/">华为</a>, <a href="https://aiuni.ai/">AIUNI</a>, <a href="https://www.guiji.ai/">硅基智能 (GuijiAI)</a> 和<a href="https://www.chumenwenwen.com/zh/">出门问问 (Mobvoi )</a> 等顶尖企业开展深入合作。
+
+					我的研究兴趣主要聚焦于 <span style="color: red; font-weight: bold;">以人为中心的、可控的、一致性视觉生成</span>，涵盖 <em>姿态引导的人物生成</em>、<em>虚拟试衣</em>、<em>长时数字人</em> 等，尤其关注其在电商场景下的实际应用。
+					
+					我致力于加速“数字永生”与“机器意识”的实现，始终不断突破生成式 AI 的边界。在此之前，我曾是一位算法竞赛爱好者，累计获得 50 余项比赛前三名，其中包括五项 CCF A 类 Workshop 冠军。
+					
+					我坚信 <span style="text-decoration: underline; font-weight: bold; color: rgb(128, 0, 128);">共享🌱、协作🤝、推进🚀、创新💡</span> 是科研发展的核心理念，始终致力于将前沿研究成果真正落地，服务社会。
+					
+					我目前也在积极寻求与产业界的合作机会，并探索潜在的创业方向。<span style="color: red; font-weight: bold;"><em>欢迎通过邮件联系我，共同交流合作！</em></span> 😊
+					
+				</p>
+			  </div>
+			  
+			  <script>
+				let isEnglish = true;
+				function toggleLanguage() {
+				  isEnglish = !isEnglish;
+				  document.getElementById("about-en").style.display = isEnglish ? "block" : "none";
+				  document.getElementById("about-cn").style.display = isEnglish ? "none" : "block";
+				  document.getElementById("btn-toggle").innerText = isEnglish ? "中文" : "English";
+				}
+			  </script>
+			  
+			  
 
 			<h2><span style="color:red;font-size:27px"><strong>NEWS!</strong></span></h2>
 			<ul style="height: 200px;overflow-y: auto">
