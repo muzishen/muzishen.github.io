@@ -29,7 +29,7 @@ redirect_from:
   <a href="https://www.chumenwenwen.com/zh/" target="_blank" rel="noopener noreferrer">Mobvoi</a>.
   My research focuses on <strong>multimodal safety</strong> and <strong>controllable generation</strong>.<br/> <span style="color: red; font-weight: bold;">PS: I am actively seeking motivated Ph.D., M.S., and undergraduate students interested in these areas.
 
-  
+
   If you are interested, please send your CV to <a href="mailto:shenfei29@nus.edu.sg">shenfei29@nus.edu.sg</a>.</span>
 
 
@@ -37,7 +37,7 @@ redirect_from:
 - *2025.07*: &nbsp;🔥 We released **[SignVip](https://github.com/umnooob/signvip/)** for sign language video generation.
 - *2025.06*: &nbsp;🔥 We released **[IMAGHarmony](https://github.com/muzishen/IMAGHarmony)** for image editing.
 - *2025.05*: &nbsp;🎉 Two papers were accepted by ICML 2025.
-- *2025.04*: &nbsp;🔥 We released **[IMAGGarment-1](https://github.com/muzishen/IMAGGarment-1)** for fine-grained garment generation.
+- *2025.04*: &nbsp;🔥 We released **[IMAGGarment](https://github.com/muzishen/IMAGGarment)** for fine-grained garment generation.
 - *2025.03*: &nbsp;🔥 We released **[HeyGem.ai](https://github.com/GuijiAI/HeyGem.ai)**, a long-term digital human tool for local and API use.
 - *2025.01*: &nbsp;🎉 Two papers were accepted by ICLR 2025.
 - *2024.12*: &nbsp;🎉 Five papers were accepted by AAAI 2025.
