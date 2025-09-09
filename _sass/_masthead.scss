@@ -3,9 +3,7 @@
    ========================================================================== */
 
 .masthead {
-  position: sticky;
-  top: 0;
-  background-color: white;
+  position: relative;
   border-bottom: 1px solid $border-color;
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
@@ -16,7 +14,7 @@
   &__inner-wrap {
     @include container;
     @include clearfix;
-    padding: .5em;
+    padding: 1em 1em 1em;
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
@@ -43,13 +41,6 @@
   }
 }
 
-.masthead__menu-home-item {
-  @include breakpoint($medium) {
-    display: block !important;
-  }
-  display: none !important;
-}
-
 .masthead__menu-item {
   display: block;
   list-style-type: none;
@@ -60,5 +51,3 @@
     font-weight: 700;
   }
 }
-
-
