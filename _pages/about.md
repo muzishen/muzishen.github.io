@@ -27,9 +27,9 @@ redirect_from:
   <a href="https://aiuni.ai/" target="_blank" rel="noopener noreferrer">AIUNI</a>,
   <a href="https://www.guiji.ai/" target="_blank" rel="noopener noreferrer">GuijiAI</a>, and
   <a href="https://www.chumenwenwen.com/zh/" target="_blank" rel="noopener noreferrer">Mobvoi</a>.
-  My research focuses on <strong>multimodal safety</strong> and <strong>controllable generation</strong>.<br/> <span style="color: red; font-weight: bold;">PS: I am actively seeking motivated Ph.D., M.S., and undergraduate students interested in these areas.
-
-
+  My research focuses on <strong>multimodal safety</strong> and <strong>controllable generation</strong>.<br/>
+  
+   <span style="color: red; font-weight: bold;">PS: I am actively seeking motivated Ph.D., M.S., and undergraduate students interested in these areas.
   If you are interested, please send your CV to <a href="mailto:shenfei29@nus.edu.sg">shenfei29@nus.edu.sg</a>.</span>
 
 
