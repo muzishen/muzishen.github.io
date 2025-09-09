@@ -17,9 +17,28 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
-
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+  I am currently a Research Fellow at the
+  <a href="https://www.nextcenter.org/" target="_blank" rel="noopener noreferrer">NExT++ Center</a>,
+  National University of Singapore (NUS), working with
+  <a href="https://www.chuatatseng.com/" target="_blank" rel="noopener noreferrer">Prof. Chua Tat-Seng</a>.
+  I received my Ph.D. in Computer Science and Technology from Nanjing University of Science and Technology,
+  supervised by
+  <a href="https://scholar.google.com/citations?user=ByBLlEwAAAAJ&hl=zh-CN" target="_blank" rel="noopener noreferrer">Prof. Jinhui Tang</a>,
+  and conducted research at
+  <a href="https://ailab.tencent.com/" target="_blank" rel="noopener noreferrer">Tencent AI Lab</a>
+  in collaboration with
+  <a href="https://scholar.google.com/citations?user=XGVV3gEAAAAJ&hl=zh-CN&oi=ao" target="_blank" rel="noopener noreferrer">Prof. Xiao Han</a> and
+  <a href="https://scholar.google.com.hk/citations?user=xUMuDgwAAAAJ&hl=zh-CN" target="_blank" rel="noopener noreferrer">Dr. Jun Zhang</a>.
+  To date, I have achieved 50+ top-three finishes in algorithm competitions, including five CCF A-class workshop championships,
+  and maintain deep collaborations with
+  <a href="https://ailab.tencent.com/" target="_blank" rel="noopener noreferrer">Tencent AI Lab</a>,
+  <a href="http://dev3.noahlab.com.hk/" target="_blank" rel="noopener noreferrer">Huawei</a>,
+  <a href="https://aiuni.ai/" target="_blank" rel="noopener noreferrer">AIUNI</a>,
+  <a href="https://www.guiji.ai/" target="_blank" rel="noopener noreferrer">GuijiAI</a>, and
+  <a href="https://www.chumenwenwen.com/zh/" target="_blank" rel="noopener noreferrer">Mobvoi</a>.
+  My research focuses on <strong>multimodal safety</strong> and <strong>controllable generation</strong>.<br/> <span style="color: red; font-weight: bold;">PS: I am actively seeking motivated Ph.D., M.S., and undergraduate students interested in these areas.
+  If you are interested, please send your CV to <a href="mailto:shenfei29@nus.edu.sg">shenfei29@nus.edu.sg</a>.</span>
+</p>
 
 
 # 🔥 News
