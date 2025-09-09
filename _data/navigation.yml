@@ -4,13 +4,10 @@ main:
 
   - title: "News"
     url: "/#-news"
-    
+
   - title: "Publications"
-    url: "/publications/"
-    external: false
+    url: "/publications/" # 独立页，同一标签页
   - title: "Activities"
-    url: "/activities/"
-    external: false
+    url: "/activities/"   # 独立页，同一标签页
   - title: "Collaborators"
-    url: "/collaborators/"
-    external: false
+    url: "/collaborators/" # 独立页，同一标签页
