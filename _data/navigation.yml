@@ -10,13 +10,13 @@ main:
   #   url: "/#-Selected-Publications"
 
   - title: "Publications"
-    url: "/publications/"
+    url: "/#publications/"
 
   - title: "Activities"
-    url: "/activities/"
+    url: "/#activities/"
     
   - title: "Collaborators"
-    url: "/collaborators/"
+    url: "/#collaborators/"
 
   # - title: "Educations"
   #   url: "/#-educations"
