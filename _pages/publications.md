@@ -1,9 +1,12 @@
 ---
-layout: archive
 permalink: /publications/
 title: "Publications"
-author_profile: true
+excerpt: ""
+author_profile: true   # 显示左侧作者信息
+sidebar: null          # 关闭侧边导航列表（避免顶成一串 bullets）
+# 注意：不要写 layout，不要写 classes: wide
 ---
+
 
 <p>
   <a href="#conference">Conference Papers</a>,

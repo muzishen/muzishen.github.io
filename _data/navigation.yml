@@ -1,13 +1,11 @@
 main:
   - title: "About Me"
     url: "/#about-me"
-
   - title: "News"
-    url: "/#-news"
-
+    url: "/#news"
   - title: "Publications"
-    url: "/publications/" # 独立页，同一标签页
+    url: "{{ '/publications/' | relative_url }}"
   - title: "Activities"
-    url: "/activities/"   # 独立页，同一标签页
+    url: "{{ '/activities/' | relative_url }}"
   - title: "Collaborators"
-    url: "/collaborators/" # 独立页，同一标签页
+    url: "{{ '/collaborators/' | relative_url }}"
