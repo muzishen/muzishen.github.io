@@ -1,8 +1,13 @@
 ---
-layout: page
+layout: single
 title: Publications
 permalink: /publications/
+author_profile: false      # 关掉头像名片
+toc: false                 # 不要页内目录
+sidebar: null              # 关闭侧边导航（防止把主导航渲染成列表）
+classes: wide              # 可选：页宽一点
 ---
+
 
 **[Conference Papers](#conference-papers)**, **[Journal Articles](#journal-articles)**
 
