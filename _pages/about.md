@@ -54,9 +54,7 @@ redirect_from:
 - *2024.05*: &nbsp;🔥 We released **[V-Express](https://tenvence.github.io/p/v-express/)** for portrait video generation.
 - *2024.02*: &nbsp;🔥 We released **[PCDMs](https://github.com/tencent-ailab/PCDMs)** for pose-guided person synthesis.
 - *2024.01*: &nbsp;🎉 One paper was accepted by ICLR 2024.
-- *2023.08*: &nbsp;🥈 We won **[2nd place](./img/ijcai2023.pdf)** in the IJCAI 2023 Workshop Rotated Detection Challenge.
 - *2023.07*: &nbsp;🎉 One paper was accepted by ACM Multimedia 2023.
-- *2023.03*: &nbsp;🥇 We won **[1st place](./img/2022_1_nsfc.pdf)** in the NSFC Remote Sensing Image Segmentation Contest.
 - *2023.01*: &nbsp;🎉 One paper was accepted by IEEE T-IP (JCR Q1, IF=11.04).
 
 
