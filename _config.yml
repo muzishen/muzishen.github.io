@@ -23,10 +23,10 @@ repository               : "muzishen/muzishen.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
+  name             : "Fei Shen" # e.g., "John Q. Public"
+  pronouns         : "He/his"  
+  bio              : "National University of Singapore"
+  location         : "Singapore"
   employer         : "Red Brick University"
   uri              : # URL
   email            : "none@example.org" 
