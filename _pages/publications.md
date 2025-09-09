@@ -1,10 +1,8 @@
 ---
-layout: single
-title: Publications
 permalink: /publications/
+title: "Publications"
+excerpt: ""
 author_profile: true
-# classes: wide
-toc: false
 ---
 
 <p>
