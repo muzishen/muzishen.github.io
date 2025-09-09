@@ -29,3 +29,22 @@ redirect_from:
   <a href="https://www.chumenwenwen.com/zh/" target="_blank" rel="noopener noreferrer">Mobvoi</a>.
   My research focuses on <strong>multimodal safety</strong> and <strong>controllable generation</strong>.<br/> <span style="color: red; font-weight: bold;">PS: I am actively seeking motivated Ph.D., M.S., and undergraduate students interested in these areas.
   If you are interested, please send your CV to <a href="mailto:shenfei29@nus.edu.sg">shenfei29@nus.edu.sg</a>.</span>
+
+
+# 🔥 News {#news}
+- *2025.07*: &nbsp;🔥 We released **[SignVip](https://github.com/umnooob/signvip/)** for sign language video generation.
+- *2025.06*: &nbsp;🔥 We released **[IMAGHarmony](https://github.com/muzishen/IMAGHarmony)** for image editing.
+- *2025.05*: &nbsp;🎉 Two papers were accepted by ICML 2025.
+- *2025.04*: &nbsp;🔥 We released **[IMAGGarment-1](https://github.com/muzishen/IMAGGarment-1)** for fine-grained garment generation.
+- *2025.03*: &nbsp;🔥 We released **[HeyGem.ai](https://github.com/GuijiAI/HeyGem.ai)**, a long-term digital human tool for local and API use.
+- *2025.01*: &nbsp;🎉 Two papers were accepted by ICLR 2025.
+- *2024.12*: &nbsp;🎉 Five papers were accepted by AAAI 2025.
+- *2024.11*: &nbsp;🔥 We released **[IMAGPose](https://github.com/muzishen/IMAGPose)**, a unified conditional framework for pose-guided person generation.
+- *2024.09*: &nbsp;🎉 One paper was accepted by NeurIPS 2024.
+- *2024.08*: &nbsp;🔥 We released **[RCDMs](https://github.com/muzishen/RCDMs)** for story visualization.
+- *2024.05*: &nbsp;🔥 We released **[IMAGDressing-v1](https://imagdressing.github.io/)** for customizable virtual dressing.
+- *2024.05*: &nbsp;🔥 We released **[V-Express](https://tenvence.github.io/p/v-express/)** for portrait video generation.
+- *2024.02*: &nbsp;🔥 We released **[PCDMs](https://github.com/tencent-ailab/PCDMs)** for pose-guided person synthesis.
+- *2024.01*: &nbsp;🎉 One paper was accepted by ICLR 2024.
+- *2023.07*: &nbsp;🎉 One paper was accepted by ACM Multimedia 2023.
+- *2023.01*: &nbsp;🎉 One paper was accepted by IEEE T-IP (JCR Q1, IF=11.04).
