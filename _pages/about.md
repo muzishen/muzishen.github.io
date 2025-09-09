@@ -35,8 +35,11 @@ redirect_from:
 
 # 🔥 News {#news}
 - *2025.05*: &nbsp;🎉 Two papers were accepted by ICML 2025.
+- *2025.04*: &nbsp;🔥 We released **[IMAGGarment](https://github.com/muzishen/IMAGGarment)** for fine-grained garment generation.
+- *2025.03*: &nbsp;🔥 We released **[HeyGem.ai](https://github.com/GuijiAI/HeyGem.ai)**, a long-term digital human tool for local and API use.
 - *2025.01*: &nbsp;🎉 Two papers were accepted by ICLR 2025.
 - *2024.12*: &nbsp;🎉 Five papers were accepted by AAAI 2025.
 - *2024.09*: &nbsp;🎉 One paper was accepted by NeurIPS 2024.
+- *2024.05*: &nbsp;🔥 We released **[IMAGDressing-v1](https://imagdressing.github.io/)** for customizable virtual dressing.
 - *2024.01*: &nbsp;🎉 One paper was accepted by ICLR 2024.
 - *2023.07*: &nbsp;🎉 One paper was accepted by ACM Multimedia 2023.
