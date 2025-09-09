@@ -1,93 +1,122 @@
 ---
-permalink: /
-title: ""
+permalink: /publications/
+title: "Publications"
 excerpt: ""
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+<p>
+  <a href="#conference">Conference Papers</a>,
+  <a href="#journal">Journal Articles</a>
+</p>
 
-<span class='anchor' id='about-me'></span>
+<p><small>(*) beside authors' names indicates equal contributions.<br>
+(✉) beside authors' names indicates the corresponding author.</small></p>
 
-  I am currently a Research Fellow at the
-  <a href="https://www.nextcenter.org/" target="_blank" rel="noopener noreferrer">NExT++ Center</a>,
-  National University of Singapore (NUS), working with
-  <a href="https://www.chuatatseng.com/" target="_blank" rel="noopener noreferrer">Prof. Chua Tat-Seng</a>.
-  I received my Ph.D. in Computer Science and Technology from Nanjing University of Science and Technology,
-  supervised by
-  <a href="https://scholar.google.com/citations?user=ByBLlEwAAAAJ&hl=zh-CN" target="_blank" rel="noopener noreferrer">Prof. Jinhui Tang</a>,
-  and conducted research at
-  <a href="https://ailab.tencent.com/" target="_blank" rel="noopener noreferrer">Tencent AI Lab</a>
-  in collaboration with
-  <a href="https://scholar.google.com/citations?user=XGVV3gEAAAAJ&hl=zh-CN&oi=ao" target="_blank" rel="noopener noreferrer">Prof. Xiao Han</a> and
-  <a href="https://scholar.google.com.hk/citations?user=xUMuDgwAAAAJ&hl=zh-CN" target="_blank" rel="noopener noreferrer">Dr. Jun Zhang</a>.
-  To date, I have achieved 50+ top-three finishes in algorithm competitions, including five CCF A-class workshop championships,
-  and maintain deep collaborations with
-  <a href="https://ailab.tencent.com/" target="_blank" rel="noopener noreferrer">Tencent AI Lab</a>,
-  <a href="http://dev3.noahlab.com.hk/" target="_blank" rel="noopener noreferrer">Huawei</a>,
-  <a href="https://aiuni.ai/" target="_blank" rel="noopener noreferrer">AIUNI</a>,
-  <a href="https://www.guiji.ai/" target="_blank" rel="noopener noreferrer">GuijiAI</a>, and
-  <a href="https://www.chumenwenwen.com/zh/" target="_blank" rel="noopener noreferrer">Mobvoi</a>.
-  My research focuses on <strong>multimodal safety</strong> and <strong>controllable generation</strong>.<br/> <span style="color: red; font-weight: bold;">PS: I am actively seeking motivated Ph.D., M.S., and undergraduate students interested in these areas.
-  If you are interested, please send your CV to <a href="mailto:shenfei29@nus.edu.sg">shenfei29@nus.edu.sg</a>.</span>
+<hr>
 
+<h2 id="conference">Conference Papers</h2>
 
+<ol>
+<li>
+  <p>
+    <a href="https://arxiv.org/pdf/2412.18277" target="_blank">Towards Modality Generalization: A Benchmark and Prospective Analysis.</a><br>
+    X. Liu, <b>X. Xia</b><sup>✉</sup>, Z. Huang, S.K. Ng, T.S. Chua.<br>
+    In ACM International Conference on Multimedia (<b>ACM MM 2025</b>).<br>
+    <span class="pub-note">(This paper was selected for oral presentation; rate: 4%)</span>
+  </p>
+</li>
 
-# 🔥 News
-- *2025.07*: &nbsp;🔥 We released **[SignVip](https://github.com/umnooob/signvip/)** for sign language video generation.
-- *2025.06*: &nbsp;🔥 We released **[IMAGHarmony](https://github.com/muzishen/IMAGHarmony)** for image editing.
-- *2025.05*: &nbsp;🎉 Two papers were accepted by ICML 2025.
-- *2025.04*: &nbsp;🔥 We released **[IMAGGarment-1](https://github.com/muzishen/IMAGGarment-1)** for fine-grained garment generation.
-- *2025.03*: &nbsp;🔥 We released **[HeyGem.ai](https://github.com/GuijiAI/HeyGem.ai)**, a long-term digital human tool for local and API use.
-- *2025.01*: &nbsp;🎉 Two papers were accepted by ICLR 2025.
-- *2024.12*: &nbsp;🎉 Five papers were accepted by AAAI 2025.
-- *2024.11*: &nbsp;🔥 We released **[IMAGPose](https://github.com/muzishen/IMAGPose)**, a unified conditional framework for pose-guided person generation.
-- *2024.09*: &nbsp;🎉 One paper was accepted by NeurIPS 2024.
-- *2024.08*: &nbsp;🔥 We released **[RCDMs](https://github.com/muzishen/RCDMs)** for story visualization.
-- *2024.05*: &nbsp;🔥 We released **[IMAGDressing-v1](https://imagdressing.github.io/)** for customizable virtual dressing.
-- *2024.05*: &nbsp;🔥 We released **[V-Express](https://tenvence.github.io/p/v-express/)** for portrait video generation.
-- *2024.02*: &nbsp;🔥 We released **[PCDMs](https://github.com/tencent-ailab/PCDMs)** for pose-guided person synthesis.
-- *2024.01*: &nbsp;🎉 One paper was accepted by ICLR 2024.
-- *2023.07*: &nbsp;🎉 One paper was accepted by ACM Multimedia 2023.
-- *2023.01*: &nbsp;🎉 One paper was accepted by IEEE T-IP (JCR Q1, IF=11.04).
+<li>
+  <p>
+    <a href="https://arxiv.org/pdf/2506.23088" target="_blank">Where, What, Why: Towards Explainable Driver Attention Prediction.</a><br>
+    Y. Zhou, J. Tang, X. Xiao, Y. Lin, L. Liu, Z. Guo, H. Fei, <b>X. Xia</b>, C. Gou.<br>
+    In IEEE/CVF International Conference on Computer Vision (<b>ICCV 2025</b>).<br>
+    <span class="pub-note">(This paper was selected for a highlight paper; rate: 3%)</span>
+  </p>
+</li>
 
+<li>
+  <p>
+    <a href="https://arxiv.org/pdf/2502.04370" target="_blank">DreamDPO: Aligning Text-to-3D Generation with Human Preferences via Direct Preference Optimization.</a><br>
+    Z. Zhou, <b>X. Xia</b><sup>✉</sup>, F. Ma, H. Fan, Y. Yang<sup>✉</sup>, T.S. Chua.<br>
+    In International Conference on Machine Learning (<b>ICML 2025</b>).
+  </p>
+</li>
 
-# 📝 Selected Publications 
+<li>
+  <p>
+    <a href="https://openreview.net/pdf?id=qtWjSboqfe" target="_blank">DEEM: Diffusion Models Serve as the Eyes of Large Language Models for Image Perception.</a><br>
+    R. Luo, Y. Li, L. Chen, W. He, T.E. Lin, Z. Liu, L. Zhang, Z. Song, H. Alinejad-Rokny, <b>X. Xia</b>, T. Liu, B. Hui, M. Yang.<br>
+    In International Conference on Learning Representations (<b>ICLR 2025</b>).<br>
+    <span class="pub-note">(This paper was selected for spotlight presentation; rate: 5%)</span>
+  </p>
+</li>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+<li>
+  <p>
+    <a href="https://openreview.net/pdf?id=qtWjSboqfe" target="_blank">Hierarchical Context Pruning: Optimizing Real-World Code Completion with Repository-Level Pretrained Code LLMs.</a><br>
+    L. Zhang, Y. Li, J. Li, <b>X. Xia</b>, J. Yang, R. Luo, M. Wang, L. Chen, J. Liu, M. Yang.<br>
+    In AAAI Conference on Artificial Intelligence (<b>AAAI 2025</b>).
+  </p>
+</li>
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+<li>
+  <p>
+    <a href="https://arxiv.org/pdf/2411.11505" target="_blank">LaVin-DiT: Large Vision Diffusion Transformer.</a><br>
+    Z. Wang, <b>X. Xia</b>, R. Chen, D. Yu, C. Wang, M. Gong, T. Liu.<br>
+    In IEEE/CVF Conference on Computer Vision and Pattern Recognition (<b>CVPR 2025</b>).
+  </p>
+</li>
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+<li>
+  <p>
+    <a href="https://arxiv.org/pdf/2403.14774" target="_blank">Few-Shot Adversarial Prompt Learning on Vision-Language Models.</a><br>
+    Y. Zhou, <b>X. Xia</b>, Z. Lin, B. Han, T. Liu.<br>
+    In Advances in Neural Information Processing Systems (<b>NeurIPS 2024</b>).
+  </p>
+</li>
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
+<!-- 其余条目照此格式继续 ... -->
+</ol>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+<h2 id="journal">Journal Articles</h2>
 
-<!-- # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+<ol>
+<li>
+  <p>
+    <a href="https://arxiv.org/pdf/2306.03116.pdf" target="_blank">Transfering Annotator-and Instance-dependent Transition Matrix for Learning from Crowds.</a><br>
+    S. Li, <b>X. Xia</b>, J. Deng, S. Ge, T. Liu.<br>
+    In IEEE Transactions on Pattern Analysis and Machine Intelligence (<b>TPAMI 2024</b>).
+  </p>
+</li>
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
+<li>
+  <p>
+    <a href="https://arxiv.org/pdf/2403.13241.pdf" target="_blank">Tackling Noisy Labels with Network Parameter Additive Decomposition.</a><br>
+    J. Wang, <b>X. Xia</b>, L. Lan, X. Wu, J. Yu, W. Yang, B. Han, T. Liu.<br>
+    In IEEE Transactions on Pattern Analysis and Machine Intelligence (<b>TPAMI 2024</b>).
+  </p>
+</li>
 
-# 💬 Invited Talks
-- *2025.08*, Controllable virtual dressing/try-on, Meituan internal talk.
-- *2025.07*, Visual Content Generation in the Era of Large Foundation Models, Hosted ICMR Workshop.
-- *2025.03*, Controllable pose-guided human generation, CSIG Workshop.
-- *2024.08*, Controllable digital human generation, Mobvoi.
-<!-- # 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China. -->
+<li>
+  <p>
+    <a href="https://arxiv.org/pdf/2309.00894.pdf" target="_blank">Regularly Truncated M-estimators for Learning with Noisy Labels.</a><br>
+    <b>X. Xia</b>*, P. Lu*, C. Gong, B. Han, J. Yu, J. Yu, T. Liu.<br>
+    In IEEE Transactions on Pattern Analysis and Machine Intelligence (<b>TPAMI 2024</b>).
+  </p>
+</li>
+
+<li>
+  <p>
+    <a href="https://ieeexplore.ieee.org/document/9790332/" target="_blank">Extended T: Learning with Mixed Closed-Set and Open-Set Noisy Labels.</a><br>
+    <b>X. Xia</b>, B. Han, N. Wang, J. Deng, J. Li, Y. Mao, T. Liu.<br>
+    In IEEE Transactions on Pattern Analysis and Machine Intelligence (<b>TPAMI 2023</b>).
+  </p>
+</li>
+</ol>
+
+<!-- 本页样式：绿色说明行 -->
+<style>
+.pub-note{ color:#047857; font-style: italic; }
+</style>
