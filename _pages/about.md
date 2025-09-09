@@ -88,6 +88,6 @@ redirect_from:
 - *2025.08*, Controllable virtual dressing/try-on, Meituan internal talk.
 - *2025.07*, Visual Content Generation in the Era of Large Foundation Models, Hosted ICMR Workshop.
 - *2025.03*, Controllable pose-guided human generation, CSIG Workshop.
-- *2025.03*, Controllable digital human generation, Mobvoi.
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+- *2024.08*, Controllable digital human generation, Mobvoi.
+<!-- # 💻 Internships
+- *2019.05 - 2020.02*, [Lorem](https://github.com/), China. -->
