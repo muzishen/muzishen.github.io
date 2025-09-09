@@ -22,7 +22,7 @@ repository               : "muzishen/muzishen.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "images/ai_demo.png"
   name             : "Fei Shen" # e.g., "John Q. Public"
   pronouns         : "He/his"  
   bio              : # "Research Fellow, NUS"
