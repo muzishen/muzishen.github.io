@@ -1,12 +1,16 @@
 main:
   - title: "About Me"
     url: "/#about-me"
+    target: _self
   - title: "News"
     url: "/#news"
+    target: _self
   - title: "Publications"
     url: "/#publications"
+    target: _self
   - title: "Activities"
     url: "/#activities"
+    target: _self
   - title: "Collaborators"
     url: "/#collaborators"
-
+    target: _self
