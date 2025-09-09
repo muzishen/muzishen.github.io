@@ -2,15 +2,15 @@ main:
   - title: "About Me"
     url: "/#about-me"
     external: false
-
+  - title: "News"
+    url: "/#news"
+    external: false
   - title: "Publications"
     url: "/publications/"
     external: false
-
   - title: "Activities"
     url: "/activities/"
     external: false
-
   - title: "Collaborators"
     url: "/collaborators/"
     external: false
