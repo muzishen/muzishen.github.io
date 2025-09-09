@@ -43,3 +43,30 @@
     }
   }
 </style>
+
+
+<style>
+  /* —— 顶部导航：拉开菜单项间距 —— */
+
+  /* 方法 A：优先用 flex gap（现代浏览器） */
+  .greedy-nav .visible-links {
+    gap: 1.2rem;            /* 调大/调小间隔就改这个 */
+  }
+
+  /* 方法 B：兼容性回退（如果 gap 不生效） */
+  .greedy-nav .visible-links > li + li {
+    margin-left: 1rem;      /* 与上面二选一或同时保留都行 */
+  }
+
+  /* 适当加大可点击面积（可选） */
+  .greedy-nav .visible-links > li > a {
+    padding: 0.55rem 1rem;  /* 左右 padding 也会拉开视觉间距 */
+  }
+
+  /* 移动端稍微收紧，避免换行（可按需调整） */
+  @media (max-width: 768px) {
+    .greedy-nav .visible-links { gap: 0.6rem; }
+    .greedy-nav .visible-links > li + li { margin-left: 0.6rem; }
+    .greedy-nav .visible-links > li > a { padding: 0.5rem 0.8rem; }
+  }
+</style>
