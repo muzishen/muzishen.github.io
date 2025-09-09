@@ -42,6 +42,8 @@ redirect_from:
 
 
 # 🔥 News
+- *2025.07*: &nbsp;🔥 We released **[SignVip](https://github.com/umnooob/signvip/)** for sign language video generation.
+- *2025.06*: &nbsp;🔥 We released **[IMAGHarmony](https://github.com/muzishen/IMAGHarmony)** for image editing.
 - *2025.05*: &nbsp;🎉 Two papers were accepted by ICML 2025.
 - *2025.04*: &nbsp;🔥 We released **[IMAGGarment-1](https://github.com/muzishen/IMAGGarment-1)** for fine-grained garment generation.
 - *2025.03*: &nbsp;🔥 We released **[HeyGem.ai](https://github.com/GuijiAI/HeyGem.ai)**, a long-term digital human tool for local and API use.
@@ -83,8 +85,9 @@ redirect_from:
 - *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 
 # 💬 Invited Talks
-- *2025.08*, Virtual dressing, Meituan internal talk.
+- *2025.08*, Controllable virtual dressing/try-on, Meituan internal talk.
 - *2025.07*, Visual Content Generation in the Era of Large Foundation Models, Hosted ICMR Workshop.
-
+- *2025.03*, Controllable pose-guided human generation, CSIG Workshop.
+- *2025.03*, Controllable digital human generation, Mobvoi.
 # 💻 Internships
 - *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
