@@ -1,27 +1,12 @@
-# main links links
 main:
   - title: "About Me"
     url: "/#about-me"
-
   - title: "News"
-    url: "/#-news"
-
-  # - title: "Selected Publications"
-  #   url: "/#-Selected-Publications"
-
+    url: "/#news"
   - title: "Publications"
-    url: "/#publications/"
-
+    url: "/#publications"
   - title: "Activities"
-    url: "/#activities/"
-    
+    url: "/#activities"
   - title: "Collaborators"
-    url: "/#collaborators/"
+    url: "/#collaborators"
 
-  # - title: "Educations"
-  #   url: "/#-educations"
-
-
-
-  # - title: "Internships"
-  #   url: "/#-internships"
