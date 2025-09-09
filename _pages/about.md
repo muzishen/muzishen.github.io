@@ -41,7 +41,7 @@ redirect_from:
 
 
 
-# 🔥 News
+# 🔥 News {#news}
 - *2025.07*: &nbsp;🔥 We released **[SignVip](https://github.com/umnooob/signvip/)** for sign language video generation.
 - *2025.06*: &nbsp;🔥 We released **[IMAGHarmony](https://github.com/muzishen/IMAGHarmony)** for image editing.
 - *2025.05*: &nbsp;🎉 Two papers were accepted by ICML 2025.
