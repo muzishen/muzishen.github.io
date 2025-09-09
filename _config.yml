@@ -21,14 +21,14 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Lorem ipsum"
+  name             : "Fei Shen"
   avatar           : "images/android-chrome-512x512.png"
   bio              : "National University of Singapore"
   location         : "Singapore"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com.hk/citations?user=wqvr28MAAAAJ&hl"
-  email            : "Lorem@ipsum.com"
+  email            : "shenfei29@nus.edu.sg"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
