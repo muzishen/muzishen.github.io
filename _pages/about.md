@@ -35,14 +35,14 @@ redirect_from:
 
 # 🔥 News {#news}
 - *2025.06*: &nbsp;🔥 We released **[IMAGHarmony](https://github.com/muzishen/IMAGHarmony)** for image editing.
-- *2025.05*: &nbsp;🎉 Two papers were accepted by ICML 2025.
+- *2025.05*: &nbsp;🎉 Two papers were accepted by <strong>ICML 2025.<strong>
 - *2025.04*: &nbsp;🔥 We released **[IMAGGarment](https://github.com/muzishen/IMAGGarment)** for fine-grained garment generation.
 - *2025.03*: &nbsp;🔥 We released **[HeyGem.ai](https://github.com/GuijiAI/HeyGem.ai)**, a long-term digital human tool for local and API use.
-- *2025.01*: &nbsp;🎉 Two papers were accepted by ICLR 2025.
-- *2024.12*: &nbsp;🎉 Five papers were accepted by AAAI 2025.
+- *2025.01*: &nbsp;🎉 Two papers were accepted by <strong>ICLR 2025.<strong>
+- *2024.12*: &nbsp;🎉 Five papers were accepted by <strong>AAAI 2025.<strong>
 - *2024.11*: &nbsp;🔥 We released **[IMAGPose](https://github.com/muzishen/IMAGPose)**, a unified conditional framework for pose-guided person generation.
-- *2024.09*: &nbsp;🎉 One paper was accepted by NeurIPS 2024.
+- *2024.09*: &nbsp;🎉 One paper was accepted by <strong>NeurIPS 2024.<strong>
 - *2024.05*: &nbsp;🔥 We released **[IMAGDressing-v1](https://imagdressing.github.io/)** for customizable virtual dressing.
 - *2024.05*: &nbsp;🔥 We released **[V-Express](https://tenvence.github.io/p/v-express/)** for portrait video generation.
-- *2024.01*: &nbsp;🎉 One paper was accepted by ICLR 2024.
-- *2023.07*: &nbsp;🎉 One paper was accepted by ACM Multimedia 2023.
+- *2024.01*: &nbsp;🎉 One paper was accepted by <strong>ICLR 2024.<strong>
+- *2023.07*: &nbsp;🎉 One paper was accepted by <strong>ACM Multimedia 2023.<strong>
