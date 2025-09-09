@@ -72,32 +72,41 @@
 </style>
 
 
-<!-- Show-only-one-section on hash -->
+<!-- Single-page section switcher: no new tab, no extra history -->
 <script>
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', () => {
   const sections = Array.from(document.querySelectorAll('section[data-section]'));
   const ids = sections.map(s => s.id);
 
-  function showOnly(targetId) {
-    sections.forEach(sec => {
-      const match = !targetId || sec.id === targetId;
-      sec.style.display = match ? '' : 'none';
-    });
+  function showOnly(id) {
+    sections.forEach(sec => sec.style.display = (!id || sec.id === id) ? '' : 'none');
   }
-
-  function applyFromHash() {
-    const id = location.hash ? location.hash.slice(1) : null;
+  function apply(id, replace=true) {
     if (id && ids.includes(id)) {
       showOnly(id);
-      window.scrollTo({ top: 0, left: 0, behavior: 'auto' });
+      const url = location.pathname + '#' + id;
+      if (replace) history.replaceState(null, '', url);  // 不新增历史记录
+      window.scrollTo({ top: 0, behavior: 'auto' });
     } else {
-      // 没有 hash（或不是我们定义的 id）时显示全部
-      showOnly(null);
+      showOnly(null); // 无 hash 时显示全部
     }
   }
 
-  // 首次进入 & 切换 hash 时都应用
-  applyFromHash();
-  window.addEventListener('hashchange', applyFromHash);
+  // 拦截点击：不进行页面跳转
+  document.querySelectorAll('.greedy-nav a[href^="/#"], .greedy-nav a[href^="#"]').forEach(a => {
+    a.addEventListener('click', e => {
+      const id = a.hash ? a.hash.slice(1) : '';
+      if (ids.includes(id)) {
+        e.preventDefault();
+        apply(id, true); // 替换 URL，不新增历史记录
+      }
+    });
+  });
+
+  // 直接访问带 hash 的链接时
+  apply(location.hash ? location.hash.slice(1) : null, true);
+
+  // 支持前进/后退
+  window.addEventListener('popstate', () => apply(location.hash ? location.hash.slice(1) : null, true));
 });
 </script>
