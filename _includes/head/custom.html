@@ -73,13 +73,3 @@
 
 
 
-
-
-<script>
-document.addEventListener('DOMContentLoaded', function () {
-  document.querySelectorAll('.greedy-nav a[href^="/#"], .greedy-nav a[href^="#"]').forEach(a => {
-    a.setAttribute('target','_self');
-    a.removeAttribute('rel'); // 可选：去掉多余 rel
-  });
-});
-</script>

@@ -1,10 +1,10 @@
 main:
   - title: "About Me"
     url: "/#about-me"
-    external: false
+
   - title: "News"
-    url: "/#news"
-    external: false
+    url: "/#-news"
+    
   - title: "Publications"
     url: "/publications/"
     external: false
