@@ -21,3 +21,25 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
 
 <!-- end custom head snippets -->
+<!-- _includes/head/custom.html -->
+<style>
+  /* 顶部导航：可见菜单 + 折叠菜单 + 按钮 */
+  .greedy-nav .visible-links a,
+  .greedy-nav .hidden-links a,
+  .greedy-nav button {
+    font-size: 18px;   /* 改成你想要的大小，如 17px/1.05rem */
+    font-weight: 500;  /* 可选：稍微加粗 */
+  }
+
+  /* 可选：站点标题（左上角）也放大一点 */
+  .site-title { font-size: 22px; }
+
+  /* 可选：移动端稍微小一点，避免换行/溢出 */
+  @media (max-width: 768px) {
+    .greedy-nav .visible-links a,
+    .greedy-nav .hidden-links a,
+    .greedy-nav button {
+      font-size: 16px;
+    }
+  }
+</style>
