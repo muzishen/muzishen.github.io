@@ -3,7 +3,6 @@ main:
     url: "/#about-me"
     external: false
 
-
   - title: "Publications"
     url: "/publications/"
     external: false
