@@ -73,3 +73,14 @@
 
 
 
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('.greedy-nav a').forEach(a => {
+    const href = a.getAttribute('href') || '';
+    if (href.startsWith('/#') || href.startsWith('/') ) {
+      a.setAttribute('target','_self');
+      a.removeAttribute('rel');
+    }
+  });
+});
+</script>
