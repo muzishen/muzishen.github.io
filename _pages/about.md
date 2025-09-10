@@ -51,57 +51,19 @@ redirect_from:
 # Selected Publications
 
 <!-- START | MCDM -->
-<div class="row">
-  <div class="column left">
-    <img align="left" width="200%" src="images/paper-images/mcdm.png">  
+<div class="pub-row">
+  <div class="pub-left">
+    <div class="thumb">
+      <img src="{{ '/images/paper-images/mcdm.png' | relative_url }}" alt="MCDM">
+    </div>
   </div>
-  <div class="column middle">&nbsp;</div>
-  <div class="column right">
-    <p>
-      <strong>Top-Down Guidance for Learning Object-Centric Representations,</strong><br/>
-      Junhong Zou, Xiangyu Zhu, Zhaoxiang Zhang and Zhen Lei<br/>
-      International Joint Conference on Artificial Intelligence (<strong>IJCAI</strong>), 2025.<br/>
-      [<a href="https://arxiv.org/abs/2405.10598">PDF</a>]
-    </p>
+  <div class="pub-right" markdown="1">
+**Long-Term TalkingFace Generation via Motion-Prior Conditional Diffusion Model**;  
+**F. Shen**, C. Wang, J. Gao, Q. Guo, J. Dang, J. Tang, T.-S. Chua;  
+*ICML 2025*.  
+[[PDF](https://arxiv.org/pdf/2502.09533)] [[Code](https://github.com/muzishen/MCDM/)]
   </div>
 </div>
 <!-- END | MCDM -->
 
-<!-- START | IMAGDressing-v1 -->
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <img src='images/paper-images/imagdressing-v1.png' alt="IMAGDressing-v1">
-    </div>
-  </div>
-  <div class='paper-box-text' markdown="1">
 
-***IMAGDressing-v1: Customizable Virtual Dressing***;  
-**Fei Shen**, Cong Wang, Junyao Gao, Qin Guo, Jisheng Dang, Jinhui Tang, Tat-Seng Chua 
-*AAAI 2025*.  
-[[PDF](https://arxiv.org/pdf/2407.12705)]
-[[Code](https://github.com/muzishen/IMAGDressing)]
-<br><br>
-  </div>
-</div>
-<!-- END | IMAGDressing-v1 -->
-
-
-<!-- START | RCDMs -->
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <img src='images/paper-images/rcdms.png' alt="RCDMs" width="100%">
-    </div>
-  </div>
-  <div class='paper-box-text' markdown="1">
-
-***Boosting Consistency in Story Visualization with Rich-Contextual Conditional Diffusion Models***;  
-**F. Shen**, H. Ye, S. Liu, J. Zhang, C. Wang, X. Han, W. Yang;  
-*AAAI*.  
-[[PDF](https://arxiv.org/pdf/2407.02482)]
-[[Code](https://github.com/muzishen/RCDMs)]
-
-  </div>
-</div>
-<!-- END | RCDMs -->
