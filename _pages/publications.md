@@ -72,12 +72,18 @@ author_profile: true
   <li>
     <p>
       <a href="https://arxiv.org/pdf/2506.00795?" target="_blank">Bridging Supervised and Temporal Difference Learning with Q-Conditioned Maximization.</a><br>
-      <strong>F. Shen</strong>, J. Yu, C. Wang, X. Jiang, X. Du, J. Tang<br>
+      X. Lei, Z. Zhuang, S. Yang, S. Xu, Y. Luo, <strong>F. Shen</strong>, X. Zhang, D. Wang<br>
       Under Review.<br>
     </p>
   </li>
 
-
+  <li>
+    <p>
+      <a href="https://arxiv.org/pdf/2505.17768" target="_blank">R-Genie: Reasoning-Guided Generative Image Editing.</a><br>
+      D. Zhang, L. He, R. Yan, <strong>F. Shen</strong>, J. Tang<br>
+      Under Review.<br>
+    </p>
+  </li>
 
 
 
