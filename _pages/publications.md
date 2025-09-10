@@ -69,6 +69,19 @@ author_profile: true
 
 
 
+  <li>
+    <p>
+      <a href="https://arxiv.org/pdf/2506.00795?" target="_blank">Bridging Supervised and Temporal Difference Learning with Q-Conditioned Maximization.</a><br>
+      <strong>F. Shen</strong>, J. Yu, C. Wang, X. Jiang, X. Du, J. Tang<br>
+      Under Review.<br>
+    </p>
+  </li>
+
+
+
+
+
+
 
   <li>
     <p>
@@ -83,7 +96,7 @@ author_profile: true
     <p>
       <a href="https://dl.acm.org/doi/abs/10.1145/3731715.3734580" target="_blank">
       Visual Content Generation in the Era of Large Foundation Models.</a><br>
-      Q. Guo, A. Zeng, D. Yue, C. Yang, Y. Cao, H. Guo, <strong>F. Shen</strong>, W. Liu, X. Liu, D. Xu<br>
+      L. Qu, <strong>F. Shen</strong>, Z. Zhou, J. Lyu, W. Wang, L. Jiang<br>
       In International Conference on Multimedia Retrieval (<strong>ICMR 2025</strong>).<br>
     </p>
   </li>
@@ -113,7 +126,7 @@ author_profile: true
       <a href="https://arxiv.org/pdf/2406.02511" target="_blank">V-Express: Conditional Dropout for Progressive Training of Portrait Video Generation.</a><br>
       C. Wang, K. Tian, J. Zhang, Y. Guan, F. Luo, <strong>F. Shen</strong>, Z. Jiang, Q. Gu, X. Han, W. Yang<br>
       Under Review.<br>
-      <span class="pub-note">(This code has received 2k stars.)
+      <span class="pub-note">(This code has received 2k stars.) </span>
     </p>
   </li>
 
