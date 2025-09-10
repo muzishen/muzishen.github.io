@@ -120,7 +120,7 @@ redirect_from:
   <div class="pub-right" style="font-size:.90rem; line-height:1.6;">
     <strong>Boosting Consistency in Story Visualization with Rich-Contextual Conditional Diffusion Models</strong><br>
     <strong>F. Shen</strong>, H. Ye, S. Liu, J. Zhang, C. Wang, X. Han, W. Yang<br>
-    Association for the Advancement of Artificial Intelligence (<strong>AAAI</strong>).<br>
+    AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>), 2025.<br>
     <a href="https://arxiv.org/pdf/2407.02482" target="_blank">PDF</a>
     &nbsp;&nbsp;
     <a href="https://github.com/muzishen/RCDMs" target="_blank">Code</a>
