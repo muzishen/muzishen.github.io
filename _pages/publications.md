@@ -256,7 +256,7 @@ author_profile: true
     <p>
       <a href="https://arxiv.org/pdf/2405.17082" target="_blank">Pedestrian-specific bipartite-aware similarity learning for text-based person retrieval.</a><br>
       <strong>F. Shen</strong>, X. Shu, X. Du, J. Tang<br>
-      In ACM International Conference on Multimedia (<strong>ACM MM 2024</strong>).<br>
+      In ACM International Conference on Multimedia (<strong>ACM MM 2023</strong>).<br>
     </p>
   </li>
 
@@ -267,6 +267,42 @@ author_profile: true
       In IEEE International Conference on Multimedia &amp; Expo (<strong>ICME 2024</strong>).<br>
     </p>
   </li>
+
+  <li>
+    <p>
+      <a href="https://openreview.net/pdf?id=6IyYa4gETN" target="_blank">Enhancing part features via contrastive attention module for vehicle re-identification.</a><br>
+      M. Li, M. Wei, X. He, <strong>F. Shen</strong><sup>✉</sup><br>
+      In International Conference on Image Processing (<strong>ICIP 2022</strong>).<br>
+    </p>
+  </li>
+
+
+  <li>
+    <p>
+      <a href="https://openreview.net/pdf?id=6IyYa4gETN" target="_blank">Hsgm: A hierarchical similarity graph module for object re-identification.</a><br>
+      <strong>F. Shen</strong>, X. Peng, L. Wang, X. Hao, M. Shu, Y. Wang<br>
+      In IEEE International Conference on Multimedia &amp; Expo (<strong>ICME 2022</strong>).<br>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <a href="https://openreview.net/pdf?id=6IyYa4gETN" target="_blank">Object Re-identification Using Teacher-Like and Light Students.</a><br>
+      Y. Xie, H. Wu, <strong>F. Shen</strong>, J. Zhu, H. Zeng<br>
+      In British Machine Vision Conference (<strong>BMVC 2022</strong>).<br>
+    </p>
+  </li>
+
+
+
+  <li>
+    <p>
+      <a href="https://openreview.net/pdf?id=6IyYa4gETN" target="_blank">Exploring spatial significance via hybrid pyramidal graph network for vehicle re-identification.</a><br>
+      <strong>F. Shen</strong>, J. Zhu, X. Zhu, Y. Xie, J. Huang<br>
+      In IEEE Transactions on Intelligent Transportation Systems (<strong>IEEE TITS 2022</strong>).<br>
+    </p>
+  </li>
+
 
 </ol>
 
