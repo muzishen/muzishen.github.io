@@ -65,7 +65,6 @@ redirect_from:
 *ICML 2025*.  
 [[PDF](https://arxiv.org/pdf/2502.09533)]
 [[Code](https://github.com/muzishen/MCDM/)]
-
 <br><br>
 **TL;DR:** Multilingual long-term talkingface generation with motion-prior conditional diffusion.
 
@@ -88,7 +87,6 @@ redirect_from:
 *AAAI 2025*.  
 [[PDF](https://arxiv.org/pdf/2407.12705)]
 [[Code](https://github.com/muzishen/IMAGDressing)]
-
 <br><br>
 **TL;DR:** Proposes the virtual dressing task and introduces a new dataset.
 
