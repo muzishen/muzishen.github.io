@@ -203,9 +203,9 @@ redirect_from:
     <strong>Exploring Spatial Significance via Hybrid Pyramidal Graph Network for Vehicle Re-identification</strong><br>
     <strong>F. Shen</strong>, J. Zhu, X. Zhu, Y. Xie, J. Huang<br>
     IEEE Transactions on Intelligent Transportation Systems (<strong>IEEE T-ITS</strong>), 2023.<br>
-    <a href="https://dl.acm.org/doi/abs/10.1145/3581783.3612009" target="_blank">[PDF]</a>
+    <a href="https://ieeexplore.ieee.org/abstract/document/9457192" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
-    <a href="https://github.com/muzishen/PBSL" target="_blank">[Code]</a>
+    <a href="https://github.com/muzishen/IMAGDressing" target="_blank">[Code]</a>
   </div>
 </div>
 <!-- END | T-ITS Vehicle ReID -->
@@ -224,7 +224,7 @@ redirect_from:
     <strong>Triplet Contrastive Representation Learning for Unsupervised Vehicle Re-identification</strong><br>
     <strong>F. Shen</strong>, X. Du, L. Zhang, X. Shu, J. Tang<br>
     <strong>ACM TOMM</strong>, 2023.<br>
-    <a href="https://doi.org/10.1145/3581862" target="_blank">DOI</a>
+    <a href="https://arxiv.org/pdf/2301.09498" target="_blank">DOI</a>
         &nbsp;&nbsp;
     <a href="https://github.com/muzishen/IMAGDressing" target="_blank">[Code]</a>
   </div>
