@@ -297,7 +297,7 @@ author_profile: true
   <li>
     <p>
       <a href="https://openreview.net/pdf?id=6IyYa4gETN" target="_blank">GiT: Graph interactive transformer for vehicle re-identification.</a><br>
-      B. Gao, J. Ren, <strong>F. Shen</strong><sup>✉</sup>, M. Wei, Z. Huang<br>
+      <strong>F. Shen</strong>, Y. Xie, J. Zhu, X. Zhu, H. Zeng<br>
       In IEEE Transactions on Image Processing (<strong>IEEE TIP 2023</strong>).<br>
     </p>
   </li>
