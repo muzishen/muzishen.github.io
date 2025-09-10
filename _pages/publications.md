@@ -269,7 +269,7 @@ author_profile: true
 
   <li>
     <p>
-      <a href="https://arxiv.org/pdf/2405.17082" target="_blank">Pedestrian-specific bipartite-aware similarity learning for text-based person retrieval.</a><br>
+      <a href="https://arxiv.org/pdf/2405.17082" target="_blank">Exploring warping-guided features via adaptive latent diffusion model for virtual try-on.</a><br>
       B. Gao, J. Ren, <strong>F. Shen</strong><sup>✉</sup>, M. Wei, Z. Huang<br>
       In IEEE International Conference on Multimedia &amp; Expo (<strong>ICME 2024</strong>).<br>
     </p>
