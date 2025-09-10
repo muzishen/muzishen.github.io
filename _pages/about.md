@@ -58,8 +58,8 @@ redirect_from:
     </div>
   </div>
   <div class="pub-right" markdown="1">
-**Long-Term TalkingFace Generation via Motion-Prior Conditional Diffusion Model**;  
-**F. Shen**, C. Wang, J. Gao, Q. Guo, J. Dang, J. Tang, T.-S. Chua;  
+**Long-Term TalkingFace Generation via Motion-Prior Conditional Diffusion Model**  
+**Fei Shen**, Cong Wang, Junyao Gao, Qin Guo, Jisheng Dang, Jinhui Tang, Tat-Seng Chua  
 *ICML 2025*.  
 [[PDF](https://arxiv.org/pdf/2502.09533)] [[Code](https://github.com/muzishen/MCDM/)]
   </div>
