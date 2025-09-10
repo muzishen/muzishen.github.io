@@ -101,10 +101,13 @@ author_profile: true
 
 
 
-
 </ol>
 
 <h2><a name="accept"></a>Accept Articles</h2>
+
+
+<ol>
+
 
   <li>
     <p>
@@ -240,10 +243,6 @@ author_profile: true
       In IEEE International Conference on Multimedia &amp; Expo (<strong>ICME 2024</strong>).<br>
     </p>
   </li>
-
-
-
-
 
 
 </ol>
