@@ -190,7 +190,7 @@ My research focuses on **multimodal safety** and **controllable generation**, or
     <strong>GiT: Graph Interactive Transformer for Vehicle Re-identification</strong><br>
     <strong>F. Shen</strong>, Y. Xie, J. Zhu, X. Zhu, H. Zeng<br>
     IEEE Transactions on Image Processing (<strong>IEEE TIP</strong>), 2023<br>
-    <a href="https://ieeexplore.ieee.org/document/10026500" target="_blank">[PDF]</a>
+    <a href="https://muzishen.github.io/" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
     <a href="https://github.com/muzishen/ReID-GiT" target="_blank">[Code]</a>
   </div>
@@ -210,7 +210,7 @@ My research focuses on **multimodal safety** and **controllable generation**, or
     <strong>Pedestrian-specific Bipartite-aware Similarity Learning for Text-based Person Retrieval</strong><br>
     <strong>F. Shen</strong>, X. Shu, X. Du, J. Tang<br>
     ACM International Conference on Multimedia (<strong>ACM MM</strong>), 2023.<br>
-    <a href="https://dl.acm.org/doi/abs/10.1145/3581783.3612009" target="_blank">[PDF]</a>
+    <a href="https://muzishen.github.io/" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
     <a href="https://github.com/muzishen/PBSL" target="_blank">[Code]</a>
   </div>
