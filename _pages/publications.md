@@ -339,6 +339,14 @@ author_profile: true
 
   <li>
     <p>
+      <a href="https://openreview.net/pdf?id=6IyYa4gETN" target="_blank">A Competitive Method for Dog Nose-print Re-identification.</a><br>
+      <strong>F. Shen</strong>, Z. Wang, Z. Huang, X. Fu, J. Chen, X. Du, J. Tang<br>
+      In IEEE Computer Vision and Pattern Recognition Workshop (<strong>CVPRW 2022</strong>).<br>
+    </p>
+  </li>
+
+  <li>
+    <p>
       <a href="https://openreview.net/pdf?id=6IyYa4gETN" target="_blank">An efficient multiresolution network for vehicle reidentification.</a><br>
       <strong>F. Shen</strong>, J. Zhu, X. Zhu, J. Huang, H. Zeng, Z. Lei, C. Cai<br>
       In IEEE Internet of Things Journal (<strong>IOTJ 2022</strong>).<br>
