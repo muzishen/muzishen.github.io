@@ -1,12 +1,12 @@
 ---
 layout: archive
-title: "Activities"
+title: ""
 permalink: /activities/
 author_profile: true
 ---
 
 
-# **President and Reviewer Roles**  
+# 🎙 **President and Reviewer Roles**  
 
 - Area Chair of 3DV/PRCV/IJCNN/ICME
 - Conference Reviewers:  NeurIPS, ICML, ICLR, CVPR, ICCV, ECCV, AAAI, IJCAI, ACM MM, MICCAI
