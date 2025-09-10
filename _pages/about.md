@@ -34,7 +34,6 @@ If you are interested, please send your CV to <a href="mailto:shenfei29@nus.edu.
 
 
 # 📚 Research Interests
-# 📚 Research Interests
 
 My research focuses on **multimodal safety** and **controllable generation**, organized into two themes:
 
@@ -44,12 +43,12 @@ My research focuses on **multimodal safety** and **controllable generation**, or
   - Safety of generative models
   - Safety of unified models
 
-  
+
 - **Image/Video Generation and Editing**
   - Person/story image generation
   - Clothing/fashion image generation
-  - Image/video editing
-  - Image/adaptation Adapter
+  - Controllable editing
+  - Controllable Adapter
 
 
 
