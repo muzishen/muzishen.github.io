@@ -90,6 +90,25 @@ redirect_from:
 <!-- END | IMAGDressing-v1 -->
 
 
+<!-- START | RCDMs -->
+<div class="pub-row">
+  <div class="pub-left">
+    <div class="thumb">
+      <img src="{{ '/images/paper-images/rcdms.png' | relative_url }}" alt="RCDMs">
+    </div>
+  </div>
+  <div class="pub-right" style="font-size:.90rem; line-height:1.6;">
+    <strong>Boosting Consistency in Story Visualization with Rich-Contextual Conditional Diffusion Models</strong><br>
+    <strong>F. Shen</strong>, H. Ye, S. Liu, J. Zhang, C. Wang, X. Han, W. Yang<br>
+    AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>), 2025.<br>
+    <a href="https://arxiv.org/pdf/2407.02482" target="_blank">[PDF]</a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/muzishen/RCDMs" target="_blank">[Code]</a>
+  </div>
+</div>
+<!-- END | RCDMs -->
+
+
 <!-- START | IMAGPose -->
 <div class="pub-row">
   <div class="pub-left">
@@ -110,23 +129,6 @@ redirect_from:
 
 
 
-<!-- START | RCDMs -->
-<div class="pub-row">
-  <div class="pub-left">
-    <div class="thumb">
-      <img src="{{ '/images/paper-images/rcdms.png' | relative_url }}" alt="RCDMs">
-    </div>
-  </div>
-  <div class="pub-right" style="font-size:.90rem; line-height:1.6;">
-    <strong>Boosting Consistency in Story Visualization with Rich-Contextual Conditional Diffusion Models</strong><br>
-    <strong>F. Shen</strong>, H. Ye, S. Liu, J. Zhang, C. Wang, X. Han, W. Yang<br>
-    AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>), 2025.<br>
-    <a href="https://arxiv.org/pdf/2407.02482" target="_blank">[PDF]</a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/muzishen/RCDMs" target="_blank">[Code]</a>
-  </div>
-</div>
-<!-- END | RCDMs -->
 
 
 
@@ -161,7 +163,7 @@ redirect_from:
   <div class="pub-right" style="font-size:.95rem; line-height:1.6;">
     <strong>GiT: Graph Interactive Transformer for Vehicle Re-identification</strong><br>
     <strong>F. Shen</strong>, Y. Xie, J. Zhu, X. Zhu, H. Zeng<br>
-    IEEE Transactions on Image Processing (<strong>IEEE TIP</strong>).<br>
+    IEEE Transactions on Image Processing (<strong>IEEE TIP</strong>), 2023<br>
     <a href="https://ieeexplore.ieee.org/document/10026500" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
     <a href="https://github.com/muzishen/ReID-GiT" target="_blank">[Code]</a>
