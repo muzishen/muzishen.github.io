@@ -302,6 +302,23 @@ author_profile: true
     </p>
   </li>
 
+ <li>
+    <p>
+      <a href="https://openreview.net/pdf?id=6IyYa4gETN" target="_blank">A rubust method for roof extraction and height estimation.</a><br>
+      J. Hu, Z. Huang, <strong>F. Shen</strong><sup>✉</sup>, D. He, Q. Xian<br>
+      In International Geoscience and Remote Sensing Symposium (<strong>IGRSS 2023</strong>).<br>
+    </p>
+  </li>
+
+
+   <li>
+    <p>
+      <a href="https://openreview.net/pdf?id=6IyYa4gETN" target="_blank">A bag of tricks for fine-grained roof extraction.</a><br>
+      J. Hu, Z. Huang, <strong>F. Shen</strong><sup>✉</sup>, D. He, Q. Xian<br>
+      In International Geoscience and Remote Sensing Symposium (<strong>IGRSS 2023</strong>).<br>
+    </p>
+  </li>
+
 
   <li>
     <p>
@@ -319,6 +336,16 @@ author_profile: true
       In International Conference on Tools with Artificial Intelligence (<strong>ICTAI 2022</strong>).<br>
     </p>
   </li>
+
+  <li>
+    <p>
+      <a href="https://openreview.net/pdf?id=6IyYa4gETN" target="_blank">An efficient multiresolution network for vehicle reidentification.</a><br>
+      <strong>F. Shen</strong>, J. Zhu, X. Zhu, J. Huang, H. Zeng, Z. Lei, C. Cai<br>
+      In IEEE Internet of Things Journal (<strong>IOTJ 2022</strong>).<br>
+    </p>
+  </li>
+
+
 
 
   <li>
