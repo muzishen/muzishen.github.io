@@ -86,6 +86,49 @@ author_profile: true
   </li>
 
 
+  <li>
+    <p>
+      <a href="https://arxiv.org/pdf/2407.12705" target="_blank">IMAGDressing-v1: Customizable virtual dressing.</a><br>
+      <strong>F. Shen</strong>, X. Jiang, X. He, H. Ye, C. Wang, X. Du, Z. Li, J. Tang<br>
+      In AAAI Conference on Artificial Intelligence (<strong>AAAI 2025</strong>).<br>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <a href="https://arxiv.org/pdf/2407.02482" target="_blank">Boosting consistency in story visualization with rich-contextual conditional diffusion models.</a><br>
+      <strong>F. Shen</strong>, H. Ye, S. Liu, J. Zhang, C. Wang, X. Han, Y. Wei<br>
+      In AAAI Conference on Artificial Intelligence (<strong>AAAI 2025</strong>).<br>
+    </p>
+  </li>
+
+
+  <li>
+    <p>
+      <a href="https://arxiv.org/pdf/2407.02482" target="_blank">MSP-MVS: Multi-granularity segmentation prior guided multi-view stereo.</a><br>
+      Z. Yuan, C. Liu, <strong>F. Shen</strong>, Z. Li, J. Luo, T. Mao, Z. Wang<br>
+      In AAAI Conference on Artificial Intelligence (<strong>AAAI 2025</strong>).<br>
+    </p>
+  </li>
+
+
+    <li>
+    <p>
+      <a href="https://arxiv.org/pdf/2407.02482" target="_blank">DVP-MVS: Synergize depth-edge and visibility prior for multi-view stereo.</a><br>
+      Z. Yuan, J. Luo, <strong>F. Shen</strong>, Z. Li, C. Liu, T. Mao, Z. Wang<br>
+      In AAAI Conference on Artificial Intelligence (<strong>AAAI 2025</strong>).<br>
+    </p>
+  </li>
+
+
+    <li>
+    <p>
+      <a href="https://arxiv.org/pdf/2407.02482" target="_blank">Exploring the Potential of Large Vision-Language Models for Unsupervised Text-Based Person Retrieval.</a><br>
+      Z. Li, J. Li, Y. Shi, J. Chen, S. Huang, L. Tu, <strong>F. Shen</strong>, H. Ling<br>
+      In AAAI Conference on Artificial Intelligence (<strong>AAAI 2025</strong>).<br>
+    </p>
+  </li>
+
 
 
 
