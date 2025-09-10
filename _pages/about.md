@@ -55,7 +55,7 @@ redirect_from:
   <div class='paper-box-image'>
     <div>
       <div class="badge">ICML 2025</div>
-      <img src='images/paper-images/mcdm.png' alt="MCDM" width="100%">
+      <img src='mcdm.png' alt="MCDM" width="100%">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
