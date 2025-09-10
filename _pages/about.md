@@ -79,7 +79,7 @@ redirect_from:
   <div class='paper-box-text' markdown="1">
 
 ***IMAGDressing-v1: Customizable Virtual Dressing***;  
-**F. Shen**, X. Jiang, X. He, H. Ye, C. Wang, X. Du, Z. Li, J. Tang;  
+**Fei Shen**, Cong Wang, Junyao Gao, Qin Guo, Jisheng Dang, Jinhui Tang, Tat-Seng Chua 
 *AAAI 2025*.  
 [[PDF](https://arxiv.org/pdf/2407.12705)]
 [[Code](https://github.com/muzishen/IMAGDressing)]
