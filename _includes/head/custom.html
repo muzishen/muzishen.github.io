@@ -31,29 +31,35 @@
 }
 </style>
 
+
+
 <style>
-/* 统一 paper-box 为两列布局 */
-.paper-box{
-  display:flex; gap:16px; align-items:flex-start;
-  margin: 18px 0;
+/* 让左侧图片列居中对齐，并可调列宽 */
+.paper-box { display:flex; gap:16px; align-items:flex-start; }
+.paper-box-image{
+  flex: 0 0 300px;           /* ← 列宽，想更大改成 320/340px */
+  display:flex;
+  justify-content:center;    /* 水平居中 */
+  align-items:center;        /* 垂直居中 */
 }
-/* 图片列固定为较窄宽度，避免过大 */
-.paper-box-image{ flex:0 0 240px; }       /* 想更小可改成 220px */
+/* 图片尺寸：保持比例，允许更高一些 */
 .paper-box-image img{
-  width:100%; height:auto;
-  max-height:170px;                        /* 控制高度，避免过高 */
-  object-fit:cover;                        /* 保持填充，必要时会轻微裁切 */
+  width: auto;               /* 不强制100%宽 */
+  max-width: 100%;           /* 但不超过列宽 */
+  max-height: 220px;         /* ← 想更高改成 240/260px */
+  object-fit: contain;       /* 完整显示，不裁切 */
   display:block;
 }
-/* 文字列占满剩余空间 */
+/* 文字列占剩余空间 */
 .paper-box-text{ flex:1; }
 
-/* 移动端下堆叠显示 */
+/* 移动端下改为上下布局 */
 @media (max-width: 768px){
   .paper-box{ flex-direction:column; }
   .paper-box-image{ flex: none; width:100%; }
-  .paper-box-image img{ max-height:none; object-fit:contain; }
+  .paper-box-image img{ max-height:none; width:100%; object-fit:contain; }
 }
 </style>
+
 
 
