@@ -214,6 +214,17 @@ author_profile: true
     </p>
   </li>
 
+
+  <li>
+    <p>
+      <a href="https://openreview.net/pdf?id=6IyYa4gETN" target="_blank">IMAGPose: A unified conditional framework for pose-guided person generation.</a><br>
+      <strong>F. Shen</strong>, J. Tang<br>
+      In Neural Information Processing Systems (<strong>NeurIPS 2024</strong>).<br>
+    </p>
+  </li>
+
+
+
   <li>
     <p>
       <a href="https://arxiv.org/pdf/2405.17082" target="_blank">Exploring Warping-Guided Features via Adaptive Latent Diffusion Model for Virtual Try-On.</a><br>
