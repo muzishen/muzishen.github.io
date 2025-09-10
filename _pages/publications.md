@@ -23,7 +23,7 @@ author_profile: true
     <p>
       <a href="https://arxiv.org/pdf/2508.06555?" target="_blank">StyleTailor: Towards Personalized Fashion Styling via Hierarchical Negative Feedback.</a><br>
       H. Ma, <strong>F. Shen</strong>, H. Xu, X. Wang, G. Xu, J. Zheng, L. Qu, M. Li<br>
-      <b>Under Review</b>.<br>
+      Under Review.<br>
     </p>
   </li>
 
@@ -31,7 +31,7 @@ author_profile: true
     <p>
       <a href="https://arxiv.org/pdf/2508.07409" target="_blank">CharacterShot: Controllable and Consistent 4D Character Animation.</a><br>
       J. Gao, J. Li, W. Liu, Y. Zeng, <strong>F. Shen</strong>, K. Chen, Y. Sun, C. Zhao<br>
-      <b>Under Review</b>.<br>
+      Under Review.<br>
     </p>
   </li>
 
@@ -39,7 +39,7 @@ author_profile: true
     <p>
       <a href="https://arxiv.org/pdf/2506.15980" target="_blank">Advanced Sign Language Video Generation with Compressed and Quantized Multi-Condition Tokenization.</a><br>
       C. Wang, Z. Deng, Z. Jiang, <strong>F. Shen</strong>, Y. Yin, S. Gan, Z. Cheng, S. Ge, Q. Gu<br>
-      <b>Under Review</b>.<br>
+      Under Review.<br>
     </p>
   </li>
 
@@ -47,7 +47,7 @@ author_profile: true
     <p>
       <a href="https://arxiv.org/pdf/2506.16273" target="_blank">Fine-grained Image Retrieval via Dual-Vision Adaptation.</a><br>
       X. Jiang, M. Cao, H. Tang, <strong>F. Shen</strong>, Z. Li<br>
-      <b>Under Review</b>.<br>
+      Under Review.<br>
     </p>
   </li>
 
@@ -55,7 +55,7 @@ author_profile: true
     <p>
       <a href="https://arxiv.org/pdf/2506.01949" target="_blank">IMAGHarmony: Controllable Image Editing with Consistent Object Quantity and Layout.</a><br>
       <strong>F. Shen</strong>, X. Du, Y. Gao, J. Yu, Y. Cao, X. Lei, J. Tang<br>
-      <b>Under Review</b>.<br>
+      Under Review.<br>
     </p>
   </li>
 
@@ -63,7 +63,7 @@ author_profile: true
     <p>
       <a href="https://arxiv.org/pdf/2504.13176" target="_blank">IMAGGarment-1: Fine-Grained Garment Generation for Controllable Fashion Design.</a><br>
       <strong>F. Shen</strong>, J. Yu, C. Wang, X. Jiang, X. Du, J. Tang<br>
-      <b>Under Review</b>.<br>
+      Under Review.<br>
     </p>
   </li>
 
@@ -71,11 +71,37 @@ author_profile: true
     <p>
       <a href="https://arxiv.org/pdf/2406.02511" target="_blank">V-Express: Conditional Dropout for Progressive Training of Portrait Video Generation.</a><br>
       C. Wang, K. Tian, J. Zhang, Y. Guan, F. Luo, <strong>F. Shen</strong>, Z. Jiang, Q. Gu, X. Han, W. Yang<br>
-      <b>Under Review</b>.<br>
+      Under Review.<br>
     </p>
   </li>
 
+
+  <li>
+    <p>
+      <a href="https://arxiv.org/pdf/2507.02713" target="_blank">
+      UniMC: Taming Diffusion Transformer for Unified Keypoint-Guided Multi-Class Image Generation.</a><br>
+      Q. Guo, A. Zeng, D. Yue, C. Yang, Y. Cao, H. Guo, <strong>F. Shen</strong>, W. Liu, X. Liu, D. Xu<br>
+      In International Conference on Machine Learning (<strong>ICML 2025<strong>).<br>
+    </p>
+  </li>
+
+
+
+
+
+
 </ol>
+
+
+
+
+
+
+
+
+
+
+
 
 <h2 id="y2024">2024</h2>
 <ol class="pub-list">
@@ -90,6 +116,11 @@ author_profile: true
   <!-- Add more 2024 items here -->
 </ol>
 
+
+
+
+
+
 <h2 id="before-2024">Before 2024</h2>
 <ol class="pub-list">
   <li>
@@ -99,7 +130,9 @@ author_profile: true
       In IEEE Transactions on Pattern Analysis and Machine Intelligence (<b>TPAMI 2024</b>).
     </p>
   </li>
-  <!-- Add more pre-2024 items here -->
+
+
+
 </ol>
 
 <!-- Page styles -->
