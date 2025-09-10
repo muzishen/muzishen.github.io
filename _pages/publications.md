@@ -270,6 +270,24 @@ author_profile: true
 
   <li>
     <p>
+      <a href="https://openreview.net/pdf?id=6IyYa4gETN" target="_blank">A sample‐proxy dual triplet loss function for object re‐identification.</a><br>
+      H. Wu, <strong>F. Shen</strong>, J. Zhu, H. Zeng, X. Zhu, Z. Lei<br>
+      In IET Image Processing (<strong>IET IP 2022</strong>).<br>
+    </p>
+  </li>
+
+
+  <li>
+    <p>
+      <a href="https://openreview.net/pdf?id=6IyYa4gETN" target="_blank">A novel multi-frequency coordinated module for sar ship detection.</a><br>
+      C. Qiao, <strong>F. Shen</strong>, X. Wang, R. Wang, F. Cao, S. Zhao, C. Li<br>
+      In International Conference on Tools with Artificial Intelligence (<strong>ICTAI 2022</strong>).<br>
+    </p>
+  </li>
+
+
+  <li>
+    <p>
       <a href="https://openreview.net/pdf?id=6IyYa4gETN" target="_blank">Enhancing part features via contrastive attention module for vehicle re-identification.</a><br>
       M. Li, M. Wei, X. He, <strong>F. Shen</strong><sup>✉</sup><br>
       In International Conference on Image Processing (<strong>ICIP 2022</strong>).<br>
