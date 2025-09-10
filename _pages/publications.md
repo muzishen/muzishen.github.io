@@ -5,18 +5,19 @@ permalink: /publications/
 author_profile: true
 ---
 
-<p>
+<!-- <p>
   <a href="#y2025">2025</a>,
   <a href="#y2024">2024</a>,
   <a href="#before-2024">Before 2024</a>
-</p>
+</p> -->
 
 <p><small>(*) beside authors' names indicates equal contributions.<br>
 (✉) beside authors' names indicates the corresponding author.</small></p>
 
 <hr>
 
-<h2 id="y2025">2025</h2>
+<!-- <h2 id="y2025">2025</h2> -->
+
 <ol class="pub-list">
 
   <li>
@@ -84,6 +85,17 @@ author_profile: true
       Under Review.<br>
     </p>
   </li>
+
+
+  <li>
+    <p>
+      <a href="https://arxiv.org/pdf/2406.02511" target="_blank">V-Express: Conditional Dropout for Progressive Training of Portrait Video Generation.</a><br>
+      C. Wang, K. Tian, J. Zhang, Y. Guan, F. Luo, <strong>F. Shen</strong>, Z. Jiang, Q. Gu, X. Han, W. Yang<br>
+      Under Review.<br>
+      <span class="pub-note">(This code has received 2k stars.) </span>
+    </p>
+  </li>
+
 
 
   <li>
@@ -184,6 +196,17 @@ author_profile: true
   </li>
 
 
+  <li>
+    <p>
+      <a href="https://arxiv.org/pdf/2405.17082?" target="_blank">
+      AS-Memory: Adaptive Sparse Memory Meeting Video-Language Models.</a><br>
+      C. Wang, K. Tian, Y. Guan, <strong>F. Shen</strong>, Z. Jiang, Q. Gu, J. Zhang<br>
+      In International Conference on Multimedia&Expo  (<strong>ICME 2025</strong>).<br>
+    </p>
+  </li>
+
+
+
 </ol>
 
 
@@ -201,14 +224,7 @@ author_profile: true
 <ol class="pub-list">
 
 
-  <li>
-    <p>
-      <a href="https://arxiv.org/pdf/2406.02511" target="_blank">V-Express: Conditional Dropout for Progressive Training of Portrait Video Generation.</a><br>
-      C. Wang, K. Tian, J. Zhang, Y. Guan, F. Luo, <strong>F. Shen</strong>, Z. Jiang, Q. Gu, X. Han, W. Yang<br>
-      Under Review.<br>
-      <span class="pub-note">(This code has received 2k stars.) </span>
-    </p>
-  </li>
+
 
 
 
@@ -221,7 +237,7 @@ author_profile: true
     </p>
   </li> -->
   <!-- Add more 2024 items here -->
-</ol>
+<!-- </ol>
 
 
 
@@ -240,7 +256,7 @@ author_profile: true
 
 
 
-</ol>
+</ol> -->
 
 <!-- Page styles -->
 <style>
