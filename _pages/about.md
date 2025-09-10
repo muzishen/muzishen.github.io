@@ -63,9 +63,9 @@ redirect_from:
     <strong>Long-Term TalkingFace Generation via Motion-Prior Conditional Diffusion Model</strong><br>
     <strong>F. Shen</strong>, C. Wang, J. Gao, Q. Guo, J. Dang, J. Tang, T.-S. Chua<br>
     International Conference on Machine Learning (<strong>ICML</strong>), 2025.<br>
-    <a href="https://arxiv.org/pdf/2502.09533" target="_blank">PDF</a>
+    <a href="https://arxiv.org/pdf/2502.09533" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
-    <a href="https://github.com/muzishen/MCDM/" target="_blank">Code</a>
+    <a href="https://github.com/muzishen/MCDM/" target="_blank">[Code]</a>
   </div>
 </div>
 <!-- END | MCDM -->
@@ -82,9 +82,9 @@ redirect_from:
     <strong>IMAGDressing-v1: Customizable Virtual Dressing</strong><br>
     <strong>F. Shen</strong>, X. Jiang, X. He, H. Ye, C. Wang, X. Du, Z. Li, J. Tang<br>
     AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>), 2025.<br>
-    <a href="https://arxiv.org/pdf/2407.12705" target="_blank">PDF</a>
+    <a href="https://arxiv.org/pdf/2407.12705" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
-    <a href="https://github.com/muzishen/IMAGDressing" target="_blank">Code</a>
+    <a href="https://github.com/muzishen/IMAGDressing" target="_blank">[Code]</a>
   </div>
 </div>
 <!-- END | IMAGDressing-v1 -->
@@ -101,9 +101,9 @@ redirect_from:
     <strong>IMAGPose: A Unified Conditional Framework for Pose-Guided Person Generation</strong><br>
     <strong>F. Shen</strong>, J. Tang<br>
     Neural Information Processing Systems (<strong>NeurIPS</strong>), 2024.<br>
-    <a href="https://openreview.net/pdf?id=6IyYa4gETN" target="_blank">PDF</a>
+    <a href="https://openreview.net/pdf?id=6IyYa4gETN" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
-    <a href="https://github.com/muzishen/IMAGPose" target="_blank">Code</a>
+    <a href="https://github.com/muzishen/IMAGPose" target="_blank">[Code]</a>
   </div>
 </div>
 <!-- END | IMAGPose -->
@@ -121,9 +121,9 @@ redirect_from:
     <strong>Boosting Consistency in Story Visualization with Rich-Contextual Conditional Diffusion Models</strong><br>
     <strong>F. Shen</strong>, H. Ye, S. Liu, J. Zhang, C. Wang, X. Han, W. Yang<br>
     AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>), 2025.<br>
-    <a href="https://arxiv.org/pdf/2407.02482" target="_blank">PDF</a>
+    <a href="https://arxiv.org/pdf/2407.02482" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
-    <a href="https://github.com/muzishen/RCDMs" target="_blank">Code</a>
+    <a href="https://github.com/muzishen/RCDMs" target="_blank">[Code]</a>
   </div>
 </div>
 <!-- END | RCDMs -->
@@ -142,9 +142,9 @@ redirect_from:
     <strong>Advancing Pose-Guided Image Synthesis with Progressive Conditional Diffusion Models</strong><br>
     <strong>F. Shen</strong>, H. Ye, J. Zhang, C. Wang, X. Han, W. Yang<br>
     International Conference on Learning Representations (<strong>ICLR</strong>), 2024.<br>
-    <a href="https://arxiv.org/pdf/2310.06313.pdf" target="_blank">PDF</a>
+    <a href="https://arxiv.org/pdf/2310.06313.pdf" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
-    <a href="https://github.com/tencent-ailab/PCDMs" target="_blank">Code</a>
+    <a href="https://github.com/tencent-ailab/PCDMs" target="_blank">[Code]</a>
   </div>
 </div>
 <!-- END | PCDMs -->
@@ -162,12 +162,29 @@ redirect_from:
     <strong>GiT: Graph Interactive Transformer for Vehicle Re-identification</strong><br>
     <strong>F. Shen</strong>, Y. Xie, J. Zhu, X. Zhu, H. Zeng<br>
     IEEE Transactions on Image Processing (<strong>IEEE TIP</strong>).<br>
-    <a href="https://ieeexplore.ieee.org/document/10026500" target="_blank">PDF</a>
+    <a href="https://ieeexplore.ieee.org/document/10026500" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
-    <a href="https://github.com/muzishen/ReID-GiT" target="_blank">Code</a>
+    <a href="https://github.com/muzishen/ReID-GiT" target="_blank">[Code]</a>
   </div>
 </div>
 <!-- END | GiT -->
 
 
 
+<!-- START | PBSL -->
+<div class="pub-row">
+  <div class="pub-left">
+    <div class="thumb">
+      <img src="{{ '/images/paper-images/pbsl.png' | relative_url }}" alt="PBSL: Pedestrian-specific Bipartite-aware Similarity Learning for Text-based Person Retrieval">
+    </div>
+  </div>
+  <div class="pub-right" style="font-size:.95rem; line-height:1.6;">
+    <strong>Pedestrian-specific Bipartite-aware Similarity Learning for Text-based Person Retrieval</strong><br>
+    <strong>F. Shen</strong>, X. Shu, X. Du, J. Tang<br>
+    ACM International Conference on Multimedia (<strong>ACM MM</strong>), 2023.<br>
+    <a href="https://dl.acm.org/doi/abs/10.1145/3581783.3612009" target="_blank">[PDF]</a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/muzishen/PBSL" target="_blank">[Code]</a>
+  </div>
+</div>
+<!-- END | PBSL -->
