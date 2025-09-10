@@ -95,3 +95,27 @@ redirect_from:
   </div>
 </div>
 <!-- END | IMAGDressing-v1 -->
+
+
+<!-- START | RCDMs -->
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">AAAI</div>
+      <img src='images/paper-images/rcdms.png' alt="RCDMs" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+***Boosting Consistency in Story Visualization with Rich-Contextual Conditional Diffusion Models***;  
+**F. Shen**, H. Ye, S. Liu, J. Zhang, C. Wang, X. Han, W. Yang;  
+*AAAI*.  
+[[PDF](https://arxiv.org/pdf/2407.02482)]
+[[Code](https://github.com/muzishen/RCDMs)]
+
+<br><br>
+**TL;DR:** Proposes non-autoregressive diffusion models for story generation.
+
+  </div>
+</div>
+<!-- END | RCDMs -->
