@@ -50,21 +50,24 @@ redirect_from:
 
 # Selected Publications
 
-<!-- START | MCDM -->
+<!-- START | IMAGDressing-v1 -->
 <div class="pub-row">
   <div class="pub-left">
     <div class="thumb">
-      <img src="{{ '/images/paper-images/mcdm.png' | relative_url }}" alt="MCDM">
+      <img src="{{ '/images/paper-images/imagdressing-v1.png' | relative_url }}" alt="IMAGDressing-v1">
     </div>
   </div>
-  <div class="pub-right" markdown="1">
-**Long-Term TalkingFace Generation via Motion-Prior Conditional Diffusion Model**  
-**F. Shen**, C. Wang, J. Gao, Q. Guo, J. Dang, J. Tang, T.-S. Chua
-International Conference on Machine Learning (**ICML**), 2025.  
-[[PDF](https://arxiv.org/pdf/2502.09533)] [[Code](https://github.com/muzishen/MCDM/)]
+  <div class="pub-right">
+    <strong>IMAGDressing-v1: Customizable Virtual Dressing</strong><br>
+    <strong>F. Shen</strong>, X. Jiang, X. He, H. Ye, C. Wang, X. Du, Z. Li, J. Tang<br>
+    AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>), 2025.<br>
+    <a href="https://arxiv.org/pdf/2407.12705" target="_blank">PDF</a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/muzishen/IMAGDressing" target="_blank">Code</a>
   </div>
 </div>
-<!-- END | MCDM -->
+<!-- END | IMAGDressing-v1 -->
+
 
 <!-- START | IMAGDressing-v1 -->
 <div class="pub-row">
