@@ -73,7 +73,7 @@ redirect_from:
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
-      <img src='images/paper-images/imagdressing-v1.png' alt="IMAGDressing-v1" width="100%">
+      <img src='images/paper-images/imagdressing-v1.png' alt="IMAGDressing-v1">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
