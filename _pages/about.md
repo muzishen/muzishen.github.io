@@ -90,5 +90,23 @@ redirect_from:
 <!-- END | IMAGDressing-v1 -->
 
 
+<!-- START | IMAGPose -->
+<div class="pub-row">
+  <div class="pub-left">
+    <div class="thumb">
+      <img src="{{ '/images/paper-images/imagpose.png' | relative_url }}" alt="IMAGPose">
+    </div>
+  </div>
+  <div class="pub-right" style="font-size:.95rem; line-height:1.6;">
+    <strong>IMAGPose: A Unified Conditional Framework for Pose-Guided Person Generation</strong><br>
+    <strong>F. Shen</strong>, J. Tang<br>
+    Conference on Neural Information Processing Systems (<strong>NeurIPS</strong>), 2024.<br>
+    <a href="https://openreview.net/pdf?id=6IyYa4gETN" target="_blank">PDF</a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/muzishen/IMAGPose" target="_blank">Code</a>
+  </div>
+</div>
+<!-- END | IMAGPose -->
+
 
 
