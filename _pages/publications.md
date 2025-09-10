@@ -98,6 +98,23 @@ author_profile: true
 
 <h2><a name="accept"></a>Accept Articles</h2>
 
+  <li>
+    <p>
+      <a href="https://arxiv.org/pdf/2502.09533" target="_blank">Long-Term TalkingFace Generation via Motion-Prior Conditional Diffusion Model.</a><br>
+      <strong>F. Shen</strong>, C. Wang, J. Gao, Q. Guo, J. Dang, J. Tang, T.-S. Chua<br>
+      In International Conference on Machine Learning (<strong>ICML 2025</strong>).<br>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <a href="https://arxiv.org/pdf/2507.02713" target="_blank">UniMC: Taming Diffusion Transformer for Unified Keypoint-Guided Multi-Class Image Generation.</a><br>
+      Q. Guo, A. Zeng, D. Yue, C. Yang, Y. Cao, H. Guo, <strong>F. Shen</strong>, W. Liu, X. Liu, D. Xu<br>
+      In International Conference on Machine Learning (<strong>ICML 2025</strong>).<br>
+    </p>
+  </li>
+
+
 
   <li>
     <p>
@@ -147,21 +164,7 @@ author_profile: true
     </p>
   </li>
 
-  <li>
-    <p>
-      <a href="https://arxiv.org/pdf/2502.09533" target="_blank">Long-Term TalkingFace Generation via Motion-Prior Conditional Diffusion Model.</a><br>
-      <strong>F. Shen</strong>, C. Wang, J. Gao, Q. Guo, J. Dang, J. Tang, T.-S. Chua<br>
-      In International Conference on Machine Learning (<strong>ICML 2025</strong>).<br>
-    </p>
-  </li>
 
-  <li>
-    <p>
-      <a href="https://arxiv.org/pdf/2507.02713" target="_blank">UniMC: Taming Diffusion Transformer for Unified Keypoint-Guided Multi-Class Image Generation.</a><br>
-      Q. Guo, A. Zeng, D. Yue, C. Yang, Y. Cao, H. Guo, <strong>F. Shen</strong>, W. Liu, X. Liu, D. Xu<br>
-      In International Conference on Machine Learning (<strong>ICML 2025</strong>).<br>
-    </p>
-  </li>
 
   <li>
     <p>
@@ -218,6 +221,11 @@ author_profile: true
       In IEEE International Conference on Multimedia &amp; Expo (<strong>ICME 2024</strong>).<br>
     </p>
   </li>
+
+
+
+
+
 
 </ol>
 
