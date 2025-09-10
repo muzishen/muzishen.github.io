@@ -225,6 +225,27 @@ author_profile: true
     </p>
   </li>
 
+
+  <li>
+    <p>
+      <a href="https://openreview.net/pdf?id=6IyYa4gETN" target="_blank">IMAGPose: A unified conditional framework for pose-guided person generation.</a><br>
+      <strong>F. Shen</strong>, J. Tang<br>
+      In Neural Information Processing Systems (<strong>NeurIPS 2024</strong>).<br>
+    </p>
+  </li>
+
+
+
+  <li>
+    <p>
+      <a href="https://arxiv.org/pdf/2301.09498" target="_blank">Triplet contrastive representation learning for unsupervised vehicle re-identification.</a><br>
+      <strong>F. Shen</strong>, X. Du, L. Zhang, X. Shu, J. Tang<br>
+      In ACM Transactions on Multimedia Computing, Communications and Applications (<strong>ACM TOMM 2024</strong>).<br>
+    </p>
+  </li>
+
+
+
   <li>
     <p>
       <a href="https://openreview.net/pdf?id=6IyYa4gETN" target="_blank">Enhancing Aerial Object Detection with Selective Frequency Interaction Network.</a><br>
@@ -234,13 +255,6 @@ author_profile: true
   </li>
 
 
-  <li>
-    <p>
-      <a href="https://openreview.net/pdf?id=6IyYa4gETN" target="_blank">IMAGPose: A unified conditional framework for pose-guided person generation.</a><br>
-      <strong>F. Shen</strong>, J. Tang<br>
-      In Neural Information Processing Systems (<strong>NeurIPS 2024</strong>).<br>
-    </p>
-  </li>
 
 
   <li>
@@ -252,13 +266,6 @@ author_profile: true
   </li>
 
 
-  <li>
-    <p>
-      <a href="https://arxiv.org/pdf/2405.17082" target="_blank">Pedestrian-specific bipartite-aware similarity learning for text-based person retrieval.</a><br>
-      <strong>F. Shen</strong>, X. Shu, X. Du, J. Tang<br>
-      In ACM International Conference on Multimedia (<strong>ACM MM 2023</strong>).<br>
-    </p>
-  </li>
 
   <li>
     <p>
@@ -267,6 +274,34 @@ author_profile: true
       In IEEE International Conference on Multimedia &amp; Expo (<strong>ICME 2024</strong>).<br>
     </p>
   </li>
+
+  <li>
+    <p>
+      <a href="https://arxiv.org/pdf/2310.06313" target="_blank">Advancing pose-guided image synthesis with progressive conditional diffusion models.</a><br>
+      <strong>F. Shen</strong>, H. Ye, J. Zhang, C. Wang, X. Han, W. Yang<br>
+      In International Conference on Learning Representations (<strong>ICLR 2024</strong>).<br>
+    </p>
+  </li>
+
+
+
+  <li>
+    <p>
+      <a href="https://arxiv.org/pdf/2405.17082" target="_blank">Pedestrian-specific bipartite-aware similarity learning for text-based person retrieval.</a><br>
+      <strong>F. Shen</strong>, X. Shu, X. Du, J. Tang<br>
+      In ACM International Conference on Multimedia (<strong>ACM MM 2023</strong>).<br>
+    </p>
+  </li>
+
+
+  <li>
+    <p>
+      <a href="https://openreview.net/pdf?id=6IyYa4gETN" target="_blank">GiT: Graph interactive transformer for vehicle re-identification.</a><br>
+      B. Gao, J. Ren, <strong>F. Shen</strong><sup>✉</sup>, M. Wei, Z. Huang<br>
+      In IEEE Transactions on Image Processing (<strong>IEEE TIP 2023</strong>).<br>
+    </p>
+  </li>
+
 
   <li>
     <p>
