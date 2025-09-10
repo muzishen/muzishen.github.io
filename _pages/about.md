@@ -50,6 +50,28 @@ redirect_from:
 
 # Selected Publications
 
+
+
+<!-- START | MCDM -->
+<div class="pub-row">
+  <div class="pub-left">
+    <div class="thumb">
+      <img src="{{ '/images/paper-images/mcdm.png' | relative_url }}" alt="MCDM">
+    </div>
+  </div>
+  <div class="pub-right">
+    <strong>Long-Term TalkingFace Generation via Motion-Prior Conditional Diffusion Model</strong><br>
+    <strong>F. Shen</strong>, C. Wang, J. Gao, Q. Guo, J. Dang, J. Tang, T.-S. Chua<br>
+    International Conference on Machine Learning (<strong>ICML</strong>), 2025.<br>
+    <a href="https://arxiv.org/pdf/2502.09533" target="_blank">PDF</a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/muzishen/MCDM/" target="_blank">Code</a>
+  </div>
+</div>
+<!-- END | MCDM -->
+
+
+
 <!-- START | IMAGDressing-v1 -->
 <div class="pub-row">
   <div class="pub-left">
@@ -69,19 +91,4 @@ redirect_from:
 <!-- END | IMAGDressing-v1 -->
 
 
-<!-- START | IMAGDressing-v1 -->
-<div class="pub-row">
-  <div class="pub-left">
-    <div class="thumb">
-      <img src="{{ '/images/paper-images/imagdressing-v1.png' | relative_url }}" alt="IMAGDressing-v1">
-    </div>
-  </div>
-  <div class="pub-right" markdown="1">
-**IMAGDressing-v1: Customizable Virtual Dressing**  
-**F. Shen**, X. Jiang, X. He, H. Ye, C. Wang, X. Du, Z. Li, J. Tang  
-AAAI Conference on Artificial Intelligence (**AAAI**), 2025.  
-[[PDF](https://arxiv.org/pdf/2407.12705)] [[Code](https://github.com/muzishen/IMAGDressing)]
-  </div>
-</div>
-<!-- END | IMAGDressing-v1 -->
 
