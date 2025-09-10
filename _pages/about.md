@@ -93,7 +93,6 @@ redirect_from:
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
-      <div class="badge">AAAI</div>
       <img src='images/paper-images/rcdms.png' alt="RCDMs" width="100%">
     </div>
   </div>
@@ -104,9 +103,6 @@ redirect_from:
 *AAAI*.  
 [[PDF](https://arxiv.org/pdf/2407.02482)]
 [[Code](https://github.com/muzishen/RCDMs)]
-
-<br><br>
-**TL;DR:** Proposes non-autoregressive diffusion models for story generation.
 
   </div>
 </div>
