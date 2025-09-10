@@ -66,4 +66,19 @@ International Conference on Machine Learning (**ICML**), 2025.
 </div>
 <!-- END | MCDM -->
 
+<!-- START | IMAGDressing-v1 -->
+<div class="pub-row">
+  <div class="pub-left">
+    <div class="thumb">
+      <img src="{{ '/images/paper-images/imagdressing-v1.png' | relative_url }}" alt="IMAGDressing-v1">
+    </div>
+  </div>
+  <div class="pub-right" markdown="1">
+**IMAGDressing-v1: Customizable Virtual Dressing**  
+**F. Shen**, X. Jiang, X. He, H. Ye, C. Wang, X. Du, Z. Li, J. Tang  
+AAAI Conference on Artificial Intelligence (**AAAI**), 2025.  
+[[PDF](https://arxiv.org/pdf/2407.12705)] [[Code](https://github.com/muzishen/IMAGDressing)]
+  </div>
+</div>
+<!-- END | IMAGDressing-v1 -->
 
