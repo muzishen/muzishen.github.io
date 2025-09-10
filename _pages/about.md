@@ -51,38 +51,20 @@ redirect_from:
 # Selected Publications
 
 <!-- START | MCDM -->
-<!-- START | SignViP -->
-<div class='paper-box'>
-<div class='paper-box-image'>
-<div>
-<div class="badge">arXiv</div>
-<img src='images/paper-images/mcdm.png' alt="sym" width="100%">
+<div class="row">
+  <div class="column left">
+    <img align="left" width="200%" src="images/paper-images/imagdressing-v1.png">  
+  </div>
+  <div class="column middle">&nbsp;</div>
+  <div class="column right">
+    <p>
+      <strong>Top-Down Guidance for Learning Object-Centric Representations,</strong><br/>
+      Junhong Zou, Xiangyu Zhu, Zhaoxiang Zhang and Zhen Lei<br/>
+      International Joint Conference on Artificial Intelligence (<strong>IJCAI</strong>), 2025.<br/>
+      [<a href="https://arxiv.org/abs/2405.10598">PDF</a>]
+    </p>
+  </div>
 </div>
-</div>
-<div class='paper-box-text' markdown="1">
-
-***Advanced Sign Language Video Generation with Compressed and Quantized Multi-Condition Tokenization***;  
-[**Cong Wang**](https://tenvence.github.io/)\*,
-Zexuan Deng\*,
-[Zhiwei Jiang](https://zhiweinju.github.io/)<sup>†</sup>,
-[Fei Shen](https://muzishen.github.io/),
-[Yafeng Yin](https://yafengnju.github.io),
-Shiwei Gan,
-[Zifeng Cheng](https://zifengcheng.github.io),
-[Shiping Ge](https://shipingge.github.io),
-[Qing Gu](https://isetnju.github.io/guq/index.html);  
-*arXiv:2506.15980*.  
-[[code](https://github.com/umnooob/signvip/)]
-[[arXiv](https://arxiv.org/abs/2506.15980)]
-<br><br>
-**TL;DR:** 
-We propose SignViP, a novel SLVG framework that incorporates
-multiple fine-grained conditions for improved generation fidelity, which adopts a
-discrete tokenization paradigm to integrate and represent the conditions.
-
-</div>
-</div>
-<!-- END | SignViP -->
 <!-- END | MCDM -->
 
 <!-- START | IMAGDressing-v1 -->
