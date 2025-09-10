@@ -54,7 +54,6 @@ redirect_from:
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
-      <div class="badge">ICML 2025</div>
       <img src='images/paper-images/mcdm.png' alt="MCDM" width="100%">
     </div>
   </div>
@@ -76,7 +75,6 @@ redirect_from:
 <div class='paper-box'>
   <div class='paper-box-image'>
     <div>
-      <div class="badge">AAAI 2024</div>
       <img src='images/paper-images/imagdressing-v1.png' alt="IMAGDressing-v1" width="100%">
     </div>
   </div>
