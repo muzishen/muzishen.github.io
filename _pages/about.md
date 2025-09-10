@@ -27,15 +27,35 @@ and maintain deep collaborations with
 <a href="https://aiuni.ai/" target="_blank" rel="noopener noreferrer">AIUNI</a>,
 <a href="https://www.guiji.ai/" target="_blank" rel="noopener noreferrer">GuijiAI</a>, and
 <a href="https://www.chumenwenwen.com/zh/" target="_blank" rel="noopener noreferrer">Mobvoi</a>.
-He serves as a reviewer for TPAMI, NeurIPS, ICML, ICLR, CVPR, ECCV, and ICCV, among others.
+I serves as a reviewer for TPAMI, NeurIPS, ICML, ICLR, CVPR, ECCV, and ICCV, among others. 
 
 <span style="color: red; font-weight: bold;">PS: I am actively seeking motivated Ph.D., M.S., and undergraduate students interested in these areas.
 If you are interested, please send your CV to <a href="mailto:shenfei29@nus.edu.sg">shenfei29@nus.edu.sg</a>.</span>
 
 
-# Research Interests
+# 📚 Research Interests
+# 📚 Research Interests
 
-My research focuses on <strong>multimodal safety</strong> and <strong>controllable generation</strong>.<br/>
+My research focuses on **multimodal safety** and **controllable generation**, organized into two themes:
+
+
+- **Multimodal Safety**
+  - Multilingual safety
+  - Safety of generative models
+  - Safety of unified models
+
+  
+- **Image/Video Generation and Editing**
+  - Person/story image generation
+  - Clothing/fashion image generation
+  - Image/video editing
+  - Image/adaptation Adapter
+
+
+
+
+
+
   
 
 
@@ -55,7 +75,7 @@ My research focuses on <strong>multimodal safety</strong> and <strong>controllab
 - *2023.07*: &nbsp;🎉 One paper was accepted by <strong>ACM Multimedia 2023.<strong>
 
 
-# Selected Publications
+# 📝 Selected Publications
 
 
 
