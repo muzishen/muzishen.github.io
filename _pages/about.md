@@ -97,7 +97,7 @@ redirect_from:
       <img src="{{ '/images/paper-images/imagpose.png' | relative_url }}" alt="IMAGPose">
     </div>
   </div>
-  <div class="pub-right" style="font-size:.95rem; line-height:1.6;">
+  <div class="pub-right" style="font-size:.90rem; line-height:1.6;">
     <strong>IMAGPose: A Unified Conditional Framework for Pose-Guided Person Generation</strong><br>
     <strong>F. Shen</strong>, J. Tang<br>
     Conference on Neural Information Processing Systems (<strong>NeurIPS</strong>), 2024.<br>
@@ -110,3 +110,41 @@ redirect_from:
 
 
 
+<!-- START | RCDMs -->
+<div class="pub-row">
+  <div class="pub-left">
+    <div class="thumb">
+      <img src="{{ '/images/paper-images/rcdms.png' | relative_url }}" alt="RCDMs">
+    </div>
+  </div>
+  <div class="pub-right" style="font-size:.90rem; line-height:1.6;">
+    <strong>Boosting Consistency in Story Visualization with Rich-Contextual Conditional Diffusion Models</strong><br>
+    <strong>F. Shen</strong>, H. Ye, S. Liu, J. Zhang, C. Wang, X. Han, W. Yang<br>
+    Association for the Advancement of Artificial Intelligence (<strong>AAAI</strong>).<br>
+    <a href="https://arxiv.org/pdf/2407.02482" target="_blank">PDF</a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/muzishen/RCDMs" target="_blank">Code</a>
+  </div>
+</div>
+<!-- END | RCDMs -->
+
+
+
+
+<!-- START | PCDMs -->
+<div class="pub-row">
+  <div class="pub-left">
+    <div class="thumb">
+      <img src="{{ '/images/paper-images/pcdms.png' | relative_url }}" alt="PCDMs">
+    </div>
+  </div>
+  <div class="pub-right" style="font-size:.90rem; line-height:1.6;">
+    <strong>Advancing Pose-Guided Image Synthesis with Progressive Conditional Diffusion Models</strong><br>
+    <strong>F. Shen</strong>, H. Ye, J. Zhang, C. Wang, X. Han, W. Yang<br>
+    International Conference on Learning Representations (<strong>ICLR</strong>), 2024.<br>
+    <a href="https://arxiv.org/pdf/2310.06313.pdf" target="_blank">PDF</a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/tencent-ailab/PCDMs" target="_blank">Code</a>
+  </div>
+</div>
+<!-- END | PCDMs -->
