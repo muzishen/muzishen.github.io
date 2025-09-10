@@ -59,7 +59,7 @@ redirect_from:
       <img src="{{ '/images/paper-images/mcdm.png' | relative_url }}" alt="MCDM">
     </div>
   </div>
-  <div class="pub-right" style="font-size:.95rem; line-height:1.6;">
+  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>Long-Term TalkingFace Generation via Motion-Prior Conditional Diffusion Model</strong><br>
     <strong>F. Shen</strong>, C. Wang, J. Gao, Q. Guo, J. Dang, J. Tang, T.-S. Chua<br>
     International Conference on Machine Learning (<strong>ICML</strong>), 2025.<br>
@@ -78,7 +78,7 @@ redirect_from:
       <img src="{{ '/images/paper-images/imagdressing-v1.png' | relative_url }}" alt="IMAGDressing-v1">
     </div>
   </div>
-  <div class="pub-right" style="font-size:.95rem; line-height:1.6;">
+  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>IMAGDressing-v1: Customizable Virtual Dressing</strong><br>
     <strong>F. Shen</strong>, X. Jiang, X. He, H. Ye, C. Wang, X. Du, Z. Li, J. Tang<br>
     AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>), 2025.<br>
