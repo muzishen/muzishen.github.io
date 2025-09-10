@@ -339,7 +339,7 @@ author_profile: true
 
   <li>
     <p>
-      <a href="https://openreview.net/pdf?id=6IyYa4gETN" target="_blank">A Competitive Method for Dog Nose-print Re-identification.</a><br>
+      <a href="https://arxiv.org/pdf/2205.15934" target="_blank">A Competitive Method for Dog Nose-print Re-identification.</a><br>
       <strong>F. Shen</strong>, Z. Wang, Z. Huang, X. Fu, J. Chen, X. Du, J. Tang<br>
       In IEEE Computer Vision and Pattern Recognition Workshop (<strong>CVPRW 2022</strong>).<br>
     </p>
@@ -381,6 +381,13 @@ author_profile: true
     </p>
   </li>
 
+  <li>
+    <p>
+      <a href="https://openreview.net/pdf?id=6IyYa4gETN" target="_blank">A Competitive Method to VIPriors Object Detection Challenge.</a><br>
+      <strong>F. Shen</strong>, X. He, M. Wei, Y. Xie<br>
+      In European Conference on Computer Vision (<strong>ECCVW 2022</strong>).<br>
+    </p>
+  </li>
 
 
   <li>
