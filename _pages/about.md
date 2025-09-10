@@ -48,7 +48,7 @@ My research focuses on **multimodal safety** and **controllable generation**, or
   - Human/Story image generation
   - Clothing/Fashion image generation
   - Controllable editing
-  - Controllable Adapter
+  - Controllable adapter
 
 
 
