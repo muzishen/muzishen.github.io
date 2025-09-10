@@ -55,7 +55,7 @@ redirect_from:
   <div class='paper-box-image'>
     <div>
       <div class="badge">ICML 2025</div>
-      <img src='mcdm.png' alt="MCDM" width="100%">
+      <img src='images/paper-images/mcdm.png' alt="MCDM" width="100%">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
@@ -78,14 +78,14 @@ redirect_from:
   <div class='paper-box-image'>
     <div>
       <div class="badge">AAAI 2024</div>
-      <img src='imagdressing-v1.png' alt="IMAGDressing-v1" width="100%">
+      <img src='images/paper-images/imagdressing-v1.png' alt="IMAGDressing-v1" width="100%">
     </div>
   </div>
   <div class='paper-box-text' markdown="1">
 
 ***IMAGDressing-v1: Customizable Virtual Dressing***;  
 **F. Shen**, X. Jiang, X. He, H. Ye, C. Wang, X. Du, Z. Li, J. Tang;  
-*AAAI 2024*.  
+*AAAI 2025*.  
 [[PDF](https://arxiv.org/pdf/2407.12705)]
 [[Code](https://github.com/muzishen/IMAGDressing)]
 
