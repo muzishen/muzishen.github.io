@@ -160,7 +160,7 @@ redirect_from:
       <img src="{{ '/images/paper-images/git.png' | relative_url }}" alt="GiT: Graph Interactive Transformer for Vehicle Re-identification">
     </div>
   </div>
-  <div class="pub-right" style="font-size:.95rem; line-height:1.6;">
+  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>GiT: Graph Interactive Transformer for Vehicle Re-identification</strong><br>
     <strong>F. Shen</strong>, Y. Xie, J. Zhu, X. Zhu, H. Zeng<br>
     IEEE Transactions on Image Processing (<strong>IEEE TIP</strong>), 2023<br>
@@ -180,7 +180,7 @@ redirect_from:
       <img src="{{ '/images/paper-images/pbsl.png' | relative_url }}" alt="PBSL: Pedestrian-specific Bipartite-aware Similarity Learning for Text-based Person Retrieval">
     </div>
   </div>
-  <div class="pub-right" style="font-size:.95rem; line-height:1.6;">
+  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>Pedestrian-specific Bipartite-aware Similarity Learning for Text-based Person Retrieval</strong><br>
     <strong>F. Shen</strong>, X. Shu, X. Du, J. Tang<br>
     ACM International Conference on Multimedia (<strong>ACM MM</strong>), 2023.<br>
