@@ -225,6 +225,14 @@ author_profile: true
     </p>
   </li>
 
+  <li>
+    <p>
+      <a href="https://openreview.net/pdf?id=6IyYa4gETN" target="_blank">Enhancing Aerial Object Detection with Selective Frequency Interaction Network.</a><br>
+      W. Weng, M. Wei, J. Ren, <strong>F. Shen</strong><sup>✉</sup><br>
+      In IEEE Transactions on Artificial Intelligence (<strong>IEEE TAI 2024</strong>).<br>
+    </p>
+  </li>
+
 
   <li>
     <p>
@@ -235,15 +243,30 @@ author_profile: true
   </li>
 
 
+  <li>
+    <p>
+      <a href="https://arxiv.org/pdf/2404.01614?" target="_blank">Exploring LR-FPN: Enhancing Remote Sensing Object Detection with Location Refined Feature Pyramid Network.</a><br>
+      H. Li, R. Zhang, Y. Pan, J. Ren, <strong>F. Shen</strong><sup>✉</sup><br>
+      In International Joint Conference on Neural Networks (<strong>IJCNN 2024</strong>).<br>
+    </p>
+  </li>
+
 
   <li>
     <p>
-      <a href="https://arxiv.org/pdf/2405.17082" target="_blank">Exploring Warping-Guided Features via Adaptive Latent Diffusion Model for Virtual Try-On.</a><br>
+      <a href="https://arxiv.org/pdf/2405.17082" target="_blank">Pedestrian-specific bipartite-aware similarity learning for text-based person retrieval.</a><br>
+      <strong>F. Shen</strong>, X. Shu, X. Du, J. Tang<br>
+      In ACM International Conference on Multimedia (<strong>ACM MM 2024</strong>).<br>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <a href="https://arxiv.org/pdf/2405.17082" target="_blank">Pedestrian-specific bipartite-aware similarity learning for text-based person retrieval.</a><br>
       B. Gao, J. Ren, <strong>F. Shen</strong><sup>✉</sup>, M. Wei, Z. Huang<br>
       In IEEE International Conference on Multimedia &amp; Expo (<strong>ICME 2024</strong>).<br>
     </p>
   </li>
-
 
 </ol>
 
