@@ -192,41 +192,4 @@ redirect_from:
 <!-- END | PBSL -->
 
 
-<!-- START | T-ITS Vehicle ReID -->
-<div class="pub-row">
-  <div class="pub-left">
-    <div class="thumb">
-      <img src="{{ '/images/paper-images/hpgn.png' | relative_url }}" alt="Exploring Spatial Significance via Hybrid Pyramidal Graph Network for Vehicle Re-identification">
-    </div>
-  </div>
-  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
-    <strong>Exploring Spatial Significance via Hybrid Pyramidal Graph Network for Vehicle Re-identification</strong><br>
-    <strong>F. Shen</strong>, J. Zhu, X. Zhu, Y. Xie, J. Huang<br>
-    IEEE Transactions on Intelligent Transportation Systems (<strong>IEEE T-ITS</strong>), 2023.<br>
-    <a href="https://ieeexplore.ieee.org/abstract/document/9457192" target="_blank">[PDF]</a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/muzishen/IMAGDressing" target="_blank">[Code]</a>
-  </div>
-</div>
-<!-- END | T-ITS Vehicle ReID -->
 
-
-
-
-<!-- START | TOMM Vehicle ReID -->
-<div class="pub-row">
-  <div class="pub-left">
-    <div class="thumb">
-      <img src="{{ '/images/paper-images/tcrl.png' | relative_url }}" alt="Triplet Contrastive Representation Learning for Unsupervised Vehicle Re-identification">
-    </div>
-  </div>
-  <div class="pub-right" style="font-size:.9rem; line-height:1.6%;">
-    <strong>Triplet Contrastive Representation Learning for Unsupervised Vehicle Re-identification</strong><br>
-    <strong>F. Shen</strong>, X. Du, L. Zhang, X. Shu, J. Tang<br>
-    <strong>ACM TOMM</strong>, 2023.<br>
-    <a href="https://arxiv.org/pdf/2301.09498" target="_blank">DOI</a>
-        &nbsp;&nbsp;
-    <a href="https://github.com/muzishen/IMAGDressing" target="_blank">[Code]</a>
-  </div>
-</div>
-<!-- END | TOMM Vehicle ReID -->
