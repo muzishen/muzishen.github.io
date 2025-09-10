@@ -237,6 +237,16 @@ author_profile: true
 
 
 
+  <li>
+    <p>
+      <a href="https://arxiv.org/pdf/2405.17082?" target="_blank">
+      Exploring warping-guided features via adaptive latent diffusion model for virtual try-on.</a><br>
+      B. Gao, J. Ren, <strong>F. Shen✉</strong>, M. Wei, Z. Huang<br>
+      In International Conference on Multimedia&Expo  (<strong>ICME 2024</strong>).<br>
+    </p>
+  </li>
+
+
 </ol>
 
 
