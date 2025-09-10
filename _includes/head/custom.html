@@ -32,28 +32,4 @@
 </style>
 
 
-<style>
-/* 统一 paper-box 为两列布局 */
-.paper-box{
-  display:flex; gap:16px; align-items:flex-start;
-  margin: 18px 0;
-}
-/* 图片列固定为较窄宽度，避免过大 */
-.paper-box-image{ flex:0 0 240px; }       /* 想更小可改成 220px */
-.paper-box-image img{
-  width:100%; height:auto;
-  max-height:170px;                        /* 控制高度，避免过高 */
-  object-fit:cover;                        /* 保持填充，必要时会轻微裁切 */
-  display:block;
-}
-/* 文字列占满剩余空间 */
-.paper-box-text{ flex:1; }
-
-/* 移动端下堆叠显示 */
-@media (max-width: 768px){
-  .paper-box{ flex-direction:column; }
-  .paper-box-image{ flex: none; width:100%; }
-  .paper-box-image img{ max-height:none; object-fit:contain; }
-}
-</style>
 

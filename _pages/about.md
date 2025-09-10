@@ -51,26 +51,38 @@ redirect_from:
 # Selected Publications
 
 <!-- START | MCDM -->
+<!-- START | SignViP -->
 <div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <div class="badge">ICML 2025</div>
-      <img src='images/paper-images/mcdm.png' alt="MCDM" width="100%">
-    </div>
-  </div>
-  <div class='paper-box-text' markdown="1">
-
-***Long-Term TalkingFace Generation via Motion-Prior Conditional Diffusion Model***;  
-**F. Shen**, C. Wang, J. Gao, Q. Guo, J. Dang, J. Tang, T.-S. Chua;  
-*ICML 2025*.  
-[[PDF](https://arxiv.org/pdf/2502.09533)]
-[[Code](https://github.com/muzishen/MCDM/)]
-
-<br><br>
-**TL;DR:** Multilingual long-term talkingface generation with motion-prior conditional diffusion.
-
-  </div>
+<div class='paper-box-image'>
+<div>
+<div class="badge">arXiv</div>
+<img src='images/paper-images/mcdm.png' alt="sym" width="100%">
 </div>
+</div>
+<div class='paper-box-text' markdown="1">
+
+***Advanced Sign Language Video Generation with Compressed and Quantized Multi-Condition Tokenization***;  
+[**Cong Wang**](https://tenvence.github.io/)\*,
+Zexuan Deng\*,
+[Zhiwei Jiang](https://zhiweinju.github.io/)<sup>†</sup>,
+[Fei Shen](https://muzishen.github.io/),
+[Yafeng Yin](https://yafengnju.github.io),
+Shiwei Gan,
+[Zifeng Cheng](https://zifengcheng.github.io),
+[Shiping Ge](https://shipingge.github.io),
+[Qing Gu](https://isetnju.github.io/guq/index.html);  
+*arXiv:2506.15980*.  
+[[code](https://github.com/umnooob/signvip/)]
+[[arXiv](https://arxiv.org/abs/2506.15980)]
+<br><br>
+**TL;DR:** 
+We propose SignViP, a novel SLVG framework that incorporates
+multiple fine-grained conditions for improved generation fidelity, which adopts a
+discrete tokenization paradigm to integrate and represent the conditions.
+
+</div>
+</div>
+<!-- END | SignViP -->
 <!-- END | MCDM -->
 
 <!-- START | IMAGDressing-v1 -->
