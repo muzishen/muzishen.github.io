@@ -22,8 +22,8 @@ main:
     url: /activities/  
 
 
-  - title: "Collaborators"
-    url: /collaborators/  
+  # - title: "Collaborators"
+  #   url: /collaborators/  
 
   - title: "Codes"
     url: /codes/  
