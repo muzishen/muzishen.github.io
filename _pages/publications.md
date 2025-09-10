@@ -200,8 +200,38 @@ author_profile: true
     <p>
       <a href="https://arxiv.org/pdf/2405.17082?" target="_blank">
       AS-Memory: Adaptive Sparse Memory Meeting Video-Language Models.</a><br>
-      C. Wang, K. Tian, Y. Guan, <strong>F. Shen</strong>, Z. Jiang, Q. Gu, J. Zhang<br>
+      B. Wang, H. Song, J. Dang, <strong>F. Shen</strong>, H. Zhang, L. Wang, M. Xie, J. Liu, J. Weng<br>
       In International Conference on Multimedia&Expo  (<strong>ICME 2025</strong>).<br>
+    </p>
+  </li>
+
+
+  <li>
+    <p>
+      <a href="https://arxiv.org/pdf/2405.07257" target="_blank">
+      SPEAK: Speech-Driven Pose and Emotion-Adjustable Talking Head Generation.</a><br>
+      C. Cai, G. Guo, J. Li, J. Su, <strong>F. Shen</strong>, C. He, J. Xiao, Y. Chen, L. Dai, F. Zhu<br>
+      In International Conference on Acoustics, Speech and Signal Processing   (<strong>ICASSP 2025</strong>).<br>
+    </p>
+  </li>
+
+
+
+  <li>
+    <p>
+      <a href="https://arxiv.org/pdf/2405.17082?" target="_blank">
+      Towards Maximizing Semantic Coverage for Image-Text Retrieval.</a><br>
+      J. Xu, Z. Liu, Z. Chen, <strong>F. Shen</strong><br>
+      In International Conference on Acoustics, Speech and Signal Processing   (<strong>ICASSP 2025</strong>).<br>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <a href="https://arxiv.org/pdf/2405.17082?" target="_blank">
+      PrimeK-Net: Multi-scale Spectral Learning via Group Prime-Kernel Convolutional Neural Networks for Single Channel Speech Enhancement.</a><br>
+      Z. Lin, J. Wang, R. Li, <strong>F. Shen</strong>, X. Xuan<br>
+      In International Conference on Acoustics, Speech and Signal Processing   (<strong>ICASSP 2025</strong>).<br>
     </p>
   </li>
 
@@ -219,9 +249,9 @@ author_profile: true
 
 
 
-
+<!-- 
 <h2 id="y2024">2024</h2>
-<ol class="pub-list">
+<ol class="pub-list"> -->
 
 
 
