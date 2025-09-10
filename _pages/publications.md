@@ -140,6 +140,7 @@ author_profile: true
       <a href="https://arxiv.org/pdf/2407.12705" target="_blank">IMAGDressing-v1: Customizable Virtual Dressing.</a><br>
       <strong>F. Shen</strong>, X. Jiang, X. He, H. Ye, C. Wang, X. Du, Z. Li, J. Tang<br>
       In AAAI Conference on Artificial Intelligence (<strong>AAAI 2025</strong>).<br>
+        <span class="pub-note">(This code has received 1k stars.)</span>
     </p>
   </li>
 
