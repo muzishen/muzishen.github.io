@@ -67,13 +67,7 @@ author_profile: true
     </p>
   </li>
 
-  <li>
-    <p>
-      <a href="https://arxiv.org/pdf/2406.02511" target="_blank">V-Express: Conditional Dropout for Progressive Training of Portrait Video Generation.</a><br>
-      C. Wang, K. Tian, J. Zhang, Y. Guan, F. Luo, <strong>F. Shen</strong>, Z. Jiang, Q. Gu, X. Han, W. Yang<br>
-      Under Review.<br>
-    </p>
-  </li>
+
 
 
   <li>
@@ -112,14 +106,27 @@ author_profile: true
 
 <h2 id="y2024">2024</h2>
 <ol class="pub-list">
+
+
   <li>
+    <p>
+      <a href="https://arxiv.org/pdf/2406.02511" target="_blank">V-Express: Conditional Dropout for Progressive Training of Portrait Video Generation.</a><br>
+      C. Wang, K. Tian, J. Zhang, Y. Guan, F. Luo, <strong>F. Shen</strong>, Z. Jiang, Q. Gu, X. Han, W. Yang<br>
+      Under Review.<br>
+      <span class="pub-note">(This code has received 2k stars.)
+    </p>
+  </li>
+
+
+
+  <!-- <li>
     <p>
       <a href="https://arxiv.org/pdf/2412.18277" target="_blank">Towards Modality Generalization: A Benchmark and Prospective Analysis.</a><br>
       X. Liu, <b>X. Xia</b><sup>✉</sup>, Z. Huang, S.K. Ng, T.S. Chua.<br>
       In ACM International Conference on Multimedia (<b>ACM MM 2025</b>).<br>
       <span class="pub-note">(This paper was selected for oral presentation; rate: 4%)</span>
     </p>
-  </li>
+  </li> -->
   <!-- Add more 2024 items here -->
 </ol>
 
