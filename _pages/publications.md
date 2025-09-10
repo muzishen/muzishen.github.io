@@ -6,9 +6,9 @@ author_profile: true
 ---
 
 <p>
-  <a href="#preprint">Preprint Articles</a>
-  <a href="#conference">Conference Papers</a>,
-  <a href="#journal">Journal Articles</a>
+  <a href="#2025">2025</a>
+  <a href="#2024">2024</a>,
+  <a href="#Before 2024">Before 2024</a>
 </p>
 
 <p><small>(*) beside authors' names indicates equal contributions.<br>
@@ -17,7 +17,7 @@ author_profile: true
 <hr>
 
 
-<h2 id="preprint">Preprint Papers</h2>
+<h2 id="2025">2025</h2>
 <ol class="pub-list">
   <li>
     <p>
@@ -32,7 +32,7 @@ author_profile: true
 
 
 
-<h2 id="conference">Conference Papers</h2>
+<h2 id="2024">2024</h2>
 <ol class="pub-list">
   <li>
     <p>
@@ -45,7 +45,7 @@ author_profile: true
   <!-- 更多 conference 项目照此添加 -->
 </ol>
 
-<h2 id="journal">Journal Articles</h2>
+<h2 id="Before 2024">Before 2024</h2>
 <ol class="pub-list">
   <li>
     <p>
