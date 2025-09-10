@@ -88,6 +88,17 @@ author_profile: true
 
   <li>
     <p>
+      <a href="https://dl.acm.org/doi/abs/10.1145/3731715.3734580" target="_blank">
+      Visual Content Generation in the Era of Large Foundation Models.</a><br>
+      L. Qu, <strong>F. Shen</strong>, Z. Zhou, J. Lyu, W. Wang, L. Jiang<br>
+      In International Conference on Multimedia Retrieval (<strong>ICMR 2025</strong>).<br>
+    </p>
+  </li>
+
+
+
+  <li>
+    <p>
       <a href="https://arxiv.org/pdf/2407.12705" target="_blank">IMAGDressing-v1: Customizable virtual dressing.</a><br>
       <strong>F. Shen</strong>, X. Jiang, X. He, H. Ye, C. Wang, X. Du, Z. Li, J. Tang<br>
       In AAAI Conference on Artificial Intelligence (<strong>AAAI 2025</strong>).<br>
@@ -130,6 +141,16 @@ author_profile: true
   </li>
 
 
+  <li>
+    <p>
+      <a href="https://arxiv.org/pdf/2502.09533" target="_blank">
+      Long-Term TalkingFace Generation via Motion-Prior Conditional Diffusion Model.</a><br>
+      <strong>F. Shen</strong>, C. Wang, J. Gao, Q. Guo, J. Dang, J. Tang, T.-S. Chua<br>
+      In International Conference on Machine Learning (<strong>ICML 2025</strong>).<br>
+    </p>
+  </li>
+
+
 
 
   <li>
@@ -141,16 +162,26 @@ author_profile: true
     </p>
   </li>
 
+
+
   <li>
     <p>
-      <a href="https://dl.acm.org/doi/abs/10.1145/3731715.3734580" target="_blank">
-      Visual Content Generation in the Era of Large Foundation Models.</a><br>
-      L. Qu, <strong>F. Shen</strong>, Z. Zhou, J. Lyu, W. Wang, L. Jiang<br>
-      In International Conference on Multimedia Retrieval (<strong>ICMR 2025</strong>).<br>
+      <a href="https://arxiv.org/pdf/2503.00740" target="_blank">
+      FaceShot: Bring Any Character into Life.</a><br>
+      J. Gao, Y. Sun, <strong>F. Shen</strong>, X. Jiang, Z. Xing, K. Chen, C. Zhao<br>
+      In International Conference on Learning Representations  (<strong>ICLR 2025</strong>).<br>
     </p>
   </li>
 
 
+  <li>
+    <p>
+      <a href="https://arxiv.org/pdf/2405.17082?" target="_blank">
+      Ensembling Diffusion Models via Adaptive Feature Aggregation.</a><br>
+      C. Wang, K. Tian, Y. Guan, <strong>F. Shen</strong>, Z. Jiang, Q. Gu, J. Zhang<br>
+      In International Conference on Learning Representations  (<strong>ICLR 2025</strong>).<br>
+    </p>
+  </li>
 
 
 </ol>
