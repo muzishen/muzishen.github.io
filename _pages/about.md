@@ -73,36 +73,25 @@ redirect_from:
 </div>
 <!-- END | MCDM -->
 
-<!-- END | V-Express -->
-
-<!-- START | SignViP -->
+<!-- START | IMAGDressing-v1 -->
 <div class='paper-box'>
-<div class='paper-box-image'>
-<div>
-<div class="badge">arXiv</div>
-<img src='images/paper-images/signvip.png' alt="sym" width="100%">
-</div>
-</div>
-<div class='paper-box-text' markdown="1">
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">AAAI 2024</div>
+      <img src='imagdressing-v1.png' alt="IMAGDressing-v1" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
 
-***Advanced Sign Language Video Generation with Compressed and Quantized Multi-Condition Tokenization***;  
-[**Cong Wang**](https://tenvence.github.io/)\*,
-Zexuan Deng\*,
-[Zhiwei Jiang](https://zhiweinju.github.io/)<sup>†</sup>,
-[Fei Shen](https://muzishen.github.io/),
-[Yafeng Yin](https://yafengnju.github.io),
-Shiwei Gan,
-[Zifeng Cheng](https://zifengcheng.github.io),
-[Shiping Ge](https://shipingge.github.io),
-[Qing Gu](https://isetnju.github.io/guq/index.html);  
-*arXiv:2506.15980*.  
-[[code](https://github.com/umnooob/signvip/)]
-[[arXiv](https://arxiv.org/abs/2506.15980)]
+***IMAGDressing-v1: Customizable Virtual Dressing***;  
+**F. Shen**, X. Jiang, X. He, H. Ye, C. Wang, X. Du, Z. Li, J. Tang;  
+*AAAI 2024*.  
+[[PDF](https://arxiv.org/pdf/2407.12705)]
+[[Code](https://github.com/muzishen/IMAGDressing)]
+
 <br><br>
-**TL;DR:** 
-We propose SignViP, a novel SLVG framework that incorporates
-multiple fine-grained conditions for improved generation fidelity, which adopts a
-discrete tokenization paradigm to integrate and represent the conditions.
+**TL;DR:** Proposes the virtual dressing task and introduces a new dataset.
 
+  </div>
 </div>
-</div>
+<!-- END | IMAGDressing-v1 -->
