@@ -81,7 +81,7 @@ author_profile: true
       <a href="https://arxiv.org/pdf/2507.02713" target="_blank">
       UniMC: Taming Diffusion Transformer for Unified Keypoint-Guided Multi-Class Image Generation.</a><br>
       Q. Guo, A. Zeng, D. Yue, C. Yang, Y. Cao, H. Guo, <strong>F. Shen</strong>, W. Liu, X. Liu, D. Xu<br>
-      In International Conference on Machine Learning (<strong>ICML 2025<strong>).<br>
+      In International Conference on Machine Learning (<strong>ICML 2025</strong>).<br>
     </p>
   </li>
 
@@ -90,7 +90,7 @@ author_profile: true
       <a href="https://dl.acm.org/doi/abs/10.1145/3731715.3734580" target="_blank">
       Visual Content Generation in the Era of Large Foundation Models.</a><br>
       Q. Guo, A. Zeng, D. Yue, C. Yang, Y. Cao, H. Guo, <strong>F. Shen</strong>, W. Liu, X. Liu, D. Xu<br>
-      In International Conference on Multimedia Retrieval (<strong>ICMR 2025<strong>).<br>
+      In International Conference on Multimedia Retrieval (<strong>ICMR 2025</strong>).<br>
     </p>
   </li>
 
