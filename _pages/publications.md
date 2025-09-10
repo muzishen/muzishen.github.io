@@ -255,50 +255,6 @@ author_profile: true
 
 
 
-
-
-
-
-<!-- 
-<h2 id="y2024">2024</h2>
-<ol class="pub-list"> -->
-
-
-
-
-
-
-  <!-- <li>
-    <p>
-      <a href="https://arxiv.org/pdf/2412.18277" target="_blank">Towards Modality Generalization: A Benchmark and Prospective Analysis.</a><br>
-      X. Liu, <b>X. Xia</b><sup>✉</sup>, Z. Huang, S.K. Ng, T.S. Chua.<br>
-      In ACM International Conference on Multimedia (<b>ACM MM 2025</b>).<br>
-      <span class="pub-note">(This paper was selected for oral presentation; rate: 4%)</span>
-    </p>
-  </li> -->
-  <!-- Add more 2024 items here -->
-<!-- </ol>
-
-
-
-
-
-
-<h2 id="before-2024">Before 2024</h2>
-<ol class="pub-list">
-  <li>
-    <p>
-      <a href="https://arxiv.org/pdf/2306.03116.pdf" target="_blank">Transfering Annotator-and Instance-dependent Transition Matrix for Learning from Crowds.</a><br>
-      S. Li, <b>X. Xia</b>, J. Deng, S. Ge, T. Liu.<br>
-      In IEEE Transactions on Pattern Analysis and Machine Intelligence (<b>TPAMI 2024</b>).
-    </p>
-  </li>
-
-
-
-</ol> -->
-
-<!-- Page styles -->
 <style>
 .pub-note { color:#047857; font-style: italic; }
 .pub-list { margin-left: 1.2rem; padding-left: 1rem; }
