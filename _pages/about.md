@@ -51,20 +51,18 @@ redirect_from:
 # Selected Publications
 
 <!-- START | MCDM -->
-<div class='paper-box'>
-  <div class='paper-box-image'>
-    <div>
-      <img src='images/paper-images/mcdm.png' alt="MCDM" width="100%">
-    </div>
+<div class="row">
+  <div class="column left">
+    <img align="left" width="200%" src="images/paper-images/mcdm.png">  
   </div>
-  <div class='paper-box-text' markdown="1">
-
-***Long-Term TalkingFace Generation via Motion-Prior Conditional Diffusion Model***;  
-**F. Shen**, C. Wang, J. Gao, Q. Guo, J. Dang, J. Tang, T.-S. Chua;  
-*ICML 2025*.  
-[[PDF](https://arxiv.org/pdf/2502.09533)]
-[[Code](https://github.com/muzishen/MCDM/)]
-<br><br>
+  <div class="column middle">&nbsp;</div>
+  <div class="column right">
+    <p>
+      <strong>Top-Down Guidance for Learning Object-Centric Representations,</strong><br/>
+      Junhong Zou, Xiangyu Zhu, Zhaoxiang Zhang and Zhen Lei<br/>
+      International Joint Conference on Artificial Intelligence (<strong>IJCAI</strong>), 2025.<br/>
+      [<a href="https://arxiv.org/abs/2405.10598">PDF</a>]
+    </p>
   </div>
 </div>
 <!-- END | MCDM -->
