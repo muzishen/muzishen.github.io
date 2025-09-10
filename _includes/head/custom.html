@@ -34,32 +34,51 @@
 
 
 <style>
-/* 让左侧图片列居中对齐，并可调列宽 */
-.paper-box { display:flex; gap:16px; align-items:flex-start; }
-.paper-box-image{
-  flex: 0 0 300px;           /* ← 列宽，想更大改成 320/340px */
+/* 卡片整体：两列布局 */
+.paper-box{
   display:flex;
-  justify-content:center;    /* 水平居中 */
-  align-items:center;        /* 垂直居中 */
+  gap:18px;
+  align-items:flex-start;
+  margin:18px 0;
 }
-/* 图片尺寸：保持比例，允许更高一些 */
+
+/* 左侧图片列宽度（可改 280~340px） */
+.paper-box-image{
+  flex: 0 0 300px;
+}
+
+/* 建一个“容器高度”，用来垂直居中图片 */
+.paper-box-image > div{
+  width:100%;
+  height: 220px;              /* ← 想更高就改这里，如 260px/280px */
+  display:flex;
+  justify-content:center;     /* 水平居中 */
+  align-items:center;         /* 垂直居中 */
+  overflow:hidden;            /* 防止超出容器 */
+}
+
+/* 图片：按比例显示、不要被拉伸 */
 .paper-box-image img{
-  width: auto;               /* 不强制100%宽 */
-  max-width: 100%;           /* 但不超过列宽 */
-  max-height: 220px;         /* ← 想更高改成 240/260px */
-  object-fit: contain;       /* 完整显示，不裁切 */
+  max-width:100%;
+  max-height:100%;
+  width:auto !important;      /* 覆盖 <img width="100%"> */
+  height:auto !important;
+  object-fit: contain;        /* 完整显示（不裁切）; 想充满可改 cover */
   display:block;
 }
-/* 文字列占剩余空间 */
+
+/* 右侧文本列占满剩余空间 */
 .paper-box-text{ flex:1; }
 
-/* 移动端下改为上下布局 */
+/* 移动端：上下堆叠，图片占满宽度，高度自适应 */
 @media (max-width: 768px){
   .paper-box{ flex-direction:column; }
-  .paper-box-image{ flex: none; width:100%; }
-  .paper-box-image img{ max-height:none; width:100%; object-fit:contain; }
+  .paper-box-image{ flex:none; width:100%; }
+  .paper-box-image > div{ height:auto; }
+  .paper-box-image img{ width:100% !important; height:auto !important; object-fit:contain; }
 }
 </style>
+
 
 
 
