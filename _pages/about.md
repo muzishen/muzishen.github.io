@@ -8,29 +8,36 @@ redirect_from:
 ---
 
 <span class='anchor' id='about-me'></span>
- I am currently a Research Fellow at the
-  <a href="https://www.nextcenter.org/" target="_blank" rel="noopener noreferrer">NExT++ Center</a>,
-  National University of Singapore (NUS), working with
-  <a href="https://www.chuatatseng.com/" target="_blank" rel="noopener noreferrer">Prof. Chua Tat-Seng</a>.
-  I received my Ph.D. in Computer Science and Technology from Nanjing University of Science and Technology,
-  supervised by
-  <a href="https://scholar.google.com/citations?user=ByBLlEwAAAAJ&hl=zh-CN" target="_blank" rel="noopener noreferrer">Prof. Jinhui Tang</a>,
-  and conducted research at
-  <a href="https://ailab.tencent.com/" target="_blank" rel="noopener noreferrer">Tencent AI Lab</a>
-  in collaboration with
-  <a href="https://scholar.google.com/citations?user=XGVV3gEAAAAJ&hl=zh-CN&oi=ao" target="_blank" rel="noopener noreferrer">Prof. Xiao Han</a> and
-  <a href="https://scholar.google.com.hk/citations?user=xUMuDgwAAAAJ&hl=zh-CN" target="_blank" rel="noopener noreferrer">Dr. Jun Zhang</a>.
-  To date, I have achieved 50+ top-three finishes in algorithm competitions, including five CCF A-class workshop championships,
-  and maintain deep collaborations with
-  <a href="https://ailab.tencent.com/" target="_blank" rel="noopener noreferrer">Tencent AI Lab</a>,
-  <a href="http://dev3.noahlab.com.hk/" target="_blank" rel="noopener noreferrer">Huawei</a>,
-  <a href="https://aiuni.ai/" target="_blank" rel="noopener noreferrer">AIUNI</a>,
-  <a href="https://www.guiji.ai/" target="_blank" rel="noopener noreferrer">GuijiAI</a>, and
-  <a href="https://www.chumenwenwen.com/zh/" target="_blank" rel="noopener noreferrer">Mobvoi</a>.
-  My research focuses on <strong>multimodal safety</strong> and <strong>controllable generation</strong>.<br/>
+I am currently a Research Fellow at the
+<a href="https://www.nextcenter.org/" target="_blank" rel="noopener noreferrer">NExT++ Center</a>,
+National University of Singapore (NUS), working with
+<a href="https://www.chuatatseng.com/" target="_blank" rel="noopener noreferrer">Prof. Chua Tat-Seng</a>.
+I received my Ph.D. in Computer Science and Technology from Nanjing University of Science and Technology,
+supervised by
+<a href="https://scholar.google.com/citations?user=ByBLlEwAAAAJ&hl=zh-CN" target="_blank" rel="noopener noreferrer">Prof. Jinhui Tang</a>,
+and conducted research at
+<a href="https://ailab.tencent.com/" target="_blank" rel="noopener noreferrer">Tencent AI Lab</a>
+in collaboration with
+<a href="https://scholar.google.com/citations?user=XGVV3gEAAAAJ&hl=zh-CN&oi=ao" target="_blank" rel="noopener noreferrer">Prof. Xiao Han</a> and
+<a href="https://scholar.google.com.hk/citations?user=xUMuDgwAAAAJ&hl=zh-CN" target="_blank" rel="noopener noreferrer">Dr. Jun Zhang</a>.
+To date, I have achieved 50+ top-three finishes in algorithm competitions, including five CCF A workshop championships,
+and maintain deep collaborations with
+<a href="https://ailab.tencent.com/" target="_blank" rel="noopener noreferrer">Tencent AI Lab</a>,
+<a href="http://dev3.noahlab.com.hk/" target="_blank" rel="noopener noreferrer">Huawei</a>,
+<a href="https://aiuni.ai/" target="_blank" rel="noopener noreferrer">AIUNI</a>,
+<a href="https://www.guiji.ai/" target="_blank" rel="noopener noreferrer">GuijiAI</a>, and
+<a href="https://www.chumenwenwen.com/zh/" target="_blank" rel="noopener noreferrer">Mobvoi</a>.
+He serves as a reviewer for TPAMI, NeurIPS, ICML, ICLR, CVPR, ECCV, and ICCV, among others.
+
+<span style="color: red; font-weight: bold;">PS: I am actively seeking motivated Ph.D., M.S., and undergraduate students interested in these areas.
+If you are interested, please send your CV to <a href="mailto:shenfei29@nus.edu.sg">shenfei29@nus.edu.sg</a>.</span>
+
+
+# Research Interests
+
+My research focuses on <strong>multimodal safety</strong> and <strong>controllable generation</strong>.<br/>
   
-   <span style="color: red; font-weight: bold;">PS: I am actively seeking motivated Ph.D., M.S., and undergraduate students interested in these areas.
-  If you are interested, please send your CV to <a href="mailto:shenfei29@nus.edu.sg">shenfei29@nus.edu.sg</a>.</span>
+
 
 
 # 🔥 News {#news}
@@ -52,24 +59,6 @@ redirect_from:
 
 
 
-<!-- START | MCDM -->
-<div class="pub-row">
-  <div class="pub-left">
-    <div class="thumb">
-      <img src="{{ '/images/paper-images/mcdm.png' | relative_url }}" alt="MCDM">
-    </div>
-  </div>
-  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
-    <strong>Long-Term TalkingFace Generation via Motion-Prior Conditional Diffusion Model</strong><br>
-    <strong>F. Shen</strong>, C. Wang, J. Gao, Q. Guo, J. Dang, J. Tang, T.-S. Chua<br>
-    International Conference on Machine Learning (<strong>ICML</strong>), 2025.<br>
-    <a href="https://arxiv.org/pdf/2502.09533" target="_blank">[PDF]</a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/muzishen/MCDM/" target="_blank">[Code]</a>
-  </div>
-</div>
-<!-- END | MCDM -->
-
 
 <!-- START | IMAGDressing-v1 -->
 <div class="pub-row">
@@ -89,6 +78,24 @@ redirect_from:
 </div>
 <!-- END | IMAGDressing-v1 -->
 
+
+<!-- START | MCDM -->
+<div class="pub-row">
+  <div class="pub-left">
+    <div class="thumb">
+      <img src="{{ '/images/paper-images/mcdm.png' | relative_url }}" alt="MCDM">
+    </div>
+  </div>
+  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
+    <strong>Long-Term TalkingFace Generation via Motion-Prior Conditional Diffusion Model</strong><br>
+    <strong>F. Shen</strong>, C. Wang, J. Gao, Q. Guo, J. Dang, J. Tang, T.-S. Chua<br>
+    International Conference on Machine Learning (<strong>ICML</strong>), 2025.<br>
+    <a href="https://arxiv.org/pdf/2502.09533" target="_blank">[PDF]</a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/muzishen/MCDM/" target="_blank">[Code]</a>
+  </div>
+</div>
+<!-- END | MCDM -->
 
 <!-- START | RCDMs -->
 <div class="pub-row">
