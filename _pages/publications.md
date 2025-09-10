@@ -23,7 +23,7 @@ author_profile: true
   <li>
     <p>
       <a href="https://arxiv.org/pdf/2508.06555?" target="_blank">StyleTailor: Towards Personalized Fashion Styling via Hierarchical Negative Feedback.</a><br>
-      J. Gao, J. Li, W. Liu, Y. Zeng,  <strong>F. Shen <strong>, K. Chen, Y. Sun, C. Zhao
+      J. Gao, J. Li, W. Liu, Y. Zeng,  <strong>F. Shen<strong>, K. Chen, Y. Sun, C. Zhao
       <b>Under Review</b>.<br>
     </p>
   </li>
