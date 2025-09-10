@@ -7,8 +7,8 @@ author_profile: true
 
 
 <p>
-  <a href="#Preprint">preprint</a>,
-  <a href="#Accept">Accept</a>
+  <a href="#preprint">Preprint Papers</a>,
+  <a href="#accept">Accept Articles</a>
 </p>
 
 
@@ -17,7 +17,7 @@ author_profile: true
 
 <hr>
 
-<h2 id="Preprint">preprint</h2>
+<h2><a name="preprint"></a>Preprint Papers</h2>
 
 <ol class="pub-list">
 
@@ -96,7 +96,7 @@ author_profile: true
 
 
 
-<h2 id="Accept">accept</h2>
+<h2><a name="accept"></a>Accept Articles</h2>
 
 
   <li>
