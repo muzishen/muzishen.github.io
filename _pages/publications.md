@@ -63,7 +63,7 @@ author_profile: true
 
   <li>
     <p>
-      <a href="https://arxiv.org/pdf/2504.13176" target="_blank">IMAGGarment-1: Fine-Grained Garment Generation for Controllable Fashion Design.</a><br>
+      <a href="https://arxiv.org/pdf/2504.13176" target="_blank">IMAGGarment: Fine-Grained Garment Generation for Controllable Fashion Design.</a><br>
       <strong>F. Shen</strong>, J. Yu, C. Wang, X. Jiang, X. Du, J. Tang<br>
       Under Review.<br>
     </p>
