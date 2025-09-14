@@ -35,13 +35,13 @@ If you are interested, please send your CV to <a href="mailto:shenfei29@nus.edu.
 
 # 📚 Research Interests
 
-My research focuses on **multimodal safety** and **controllable generation**, organized into two themes:
+My research focuses on **Large Model Safety** and **Controllable Generation**, organized into two themes:
 
 
-- **Multimodal Safety**
+- **Large Model Safety**
   - Multilingual safety
-  - Safety of generative models
-  - Safety of unified models
+  - Multiagent safety
+  - Multimodal safety
 
 
 - **Image/Video Generation and Editing**
