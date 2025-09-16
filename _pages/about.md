@@ -21,10 +21,7 @@ in collaboration with
 <a href="https://scholar.google.com/citations?user=XGVV3gEAAAAJ&hl=zh-CN&oi=ao" target="_blank" rel="noopener noreferrer">Prof. Xiao Han</a> and
 <a href="https://scholar.google.com.hk/citations?user=xUMuDgwAAAAJ&hl=zh-CN" target="_blank" rel="noopener noreferrer">Dr. Jun Zhang</a>.
 I have participated in several interesting projects, such as IMAGDressing  
-[![Stars](https://img.shields.io/github/stars/muzishen/IMAGDressing?style=social)](https://github.com/muzishen/IMAGDressing),  
-V-Express[![Stars](https://img.shields.io/github/stars/tencent-ailab/V-Express?style=social)](https://github.com/muzishen/V-Express),  
-IP-Adpter[![Stars](https://img.shields.io/github/stars/tencent-ailab/IP-Adapter?style=social)](https://github.com/muzishen/IP-Adapter), and  
-Duxi.Avater[![Stars](https://img.shields.io/github/stars/duixcom/Duxi.Avatar?style=social)](https://github.com/muzishen/Duxi.Avatar)
+[![Stars](https://img.shields.io/github/stars/muzishen/IMAGDressing?style=social)](https://github.com/muzishen/IMAGDressing), V-Express[![Stars](https://img.shields.io/github/stars/tencent-ailab/V-Express?style=social)](https://github.com/tencent-ailab/V-Express), IP-Adpter[![Stars](https://img.shields.io/github/stars/tencent-ailab/IP-Adapter?style=social)](https://github.com/tencent-ailab/IP-Adapter), and  Duxi.Avater[![Stars](https://img.shields.io/github/stars/duixcom/Duxi.Avatar?style=social)](https://github.com/duixcom/Duxi.Avatar)
 Besides, to date, I have achieved 50+ top-three finishes in algorithm competitions, including five CCF A workshop championships,
 and maintain deep collaborations with
 <a href="https://ailab.tencent.com/" target="_blank" rel="noopener noreferrer">Tencent AI Lab</a>,
