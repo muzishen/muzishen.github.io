@@ -12,7 +12,7 @@ I am currently a Research Fellow at the
 <a href="https://www.nextcenter.org/" target="_blank" rel="noopener noreferrer">NExT++ Center</a>,
 National University of Singapore (NUS), working with
 <a href="https://www.chuatatseng.com/" target="_blank" rel="noopener noreferrer">Prof. Chua Tat-Seng</a>.
-I received my Ph.D. in Computer Science and Technology from Nanjing University of Science and Technology,
+Before that, I received my Ph.D. in Computer Science and Technology from Nanjing University of Science and Technology,
 supervised by
 <a href="https://scholar.google.com/citations?user=ByBLlEwAAAAJ&hl=zh-CN" target="_blank" rel="noopener noreferrer">Prof. Jinhui Tang</a>,
 and conducted research at
@@ -20,7 +20,12 @@ and conducted research at
 in collaboration with
 <a href="https://scholar.google.com/citations?user=XGVV3gEAAAAJ&hl=zh-CN&oi=ao" target="_blank" rel="noopener noreferrer">Prof. Xiao Han</a> and
 <a href="https://scholar.google.com.hk/citations?user=xUMuDgwAAAAJ&hl=zh-CN" target="_blank" rel="noopener noreferrer">Dr. Jun Zhang</a>.
-To date, I have achieved 50+ top-three finishes in algorithm competitions, including five CCF A workshop championships,
+I have participated in several interesting projects, such as  
+[![Stars](https://img.shields.io/github/stars/muzishen/IMAGDressing?style=social)](https://github.com/muzishen/IMAGDressing)  
+[![Stars](https://img.shields.io/github/stars/muzishen/V-Express?style=social)](https://github.com/muzishen/V-Express)  
+[![Stars](https://img.shields.io/github/stars/muzishen/IP-Adapter?style=social)](https://github.com/muzishen/IP-Adapter)  
+[![Stars](https://img.shields.io/github/stars/muzishen/Duxi.Avatar?style=social)](https://github.com/muzishen/Duxi.Avatar)
+Besides, to date, I have achieved 50+ top-three finishes in algorithm competitions, including five CCF A workshop championships,
 and maintain deep collaborations with
 <a href="https://ailab.tencent.com/" target="_blank" rel="noopener noreferrer">Tencent AI Lab</a>,
 <a href="http://dev3.noahlab.com.hk/" target="_blank" rel="noopener noreferrer">Huawei</a>,
