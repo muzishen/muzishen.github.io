@@ -46,13 +46,6 @@ author_profile: true
     </p>
   </li>
 
-  <li>
-    <p>
-      <a href="https://arxiv.org/pdf/2506.15980" target="_blank">Advanced Sign Language Video Generation with Compressed and Quantized Multi-Condition Tokenization.</a><br>
-      C. Wang, Z. Deng, Z. Jiang, <strong>F. Shen</strong>, Y. Yin, S. Gan, Z. Cheng, S. Ge, Q. Gu<br>
-      Under Review.<br>
-    </p>
-  </li>
 
   <li>
     <p>
@@ -116,6 +109,14 @@ author_profile: true
 
 
 <ol>
+
+  <li>
+    <p>
+      <a href="https://arxiv.org/pdf/2506.15980" target="_blank">Advanced Sign Language Video Generation with Compressed and Quantized Multi-Condition Tokenization.</a><br>
+      C. Wang, Z. Deng, Z. Jiang, <strong>F. Shen</strong>, Y. Yin, S. Gan, Z. Cheng, S. Ge, Q. Gu<br>
+      In Neural Information Processing Systems (<strong>NeurIPS 2025</strong>).<br>
+    </p>
+  </li>
 
 
   <li>
