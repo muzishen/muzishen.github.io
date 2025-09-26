@@ -21,6 +21,15 @@ author_profile: true
 
 <ol>
 
+
+  <li>
+    <p>
+      <a href="https://arxiv.org/pdf/2509.19012" target="_blank">Pure Vision Language Action (VLA) Models: A Comprehensive Survey.</a><br>
+      D. Zhang, J. Sun, C. Hu, X. Wu, Z. Yuan, R. Zhou, <strong>F. Shen</strong><sup>✉</sup>, Q. Zhou<br>
+      Under Review.<br>
+    </p>
+  </li>
+
   <li>
     <p>
       <a href="https://arxiv.org/pdf/2508.06555" target="_blank">StyleTailor: Towards Personalized Fashion Styling via Hierarchical Negative Feedback.</a><br>
