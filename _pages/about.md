@@ -64,6 +64,42 @@ My research focuses on **Large Model Safety** and **Controllable Generation**, o
 # 📝 Selected Publications
 
 
+<div class="pub-row">
+  <div class="pub-left">
+    <div class="thumb">
+      <img src="{{ '/images/paper-images/imaggarment.png' | relative_url }}" alt="imaggarment">
+    </div>
+  </div>
+  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
+    <strong>IMAGDressing-v1: Customizable Virtual Dressing</strong><br>
+    <strong>F. Shen</strong>, X. Du, Y. Gao, J. Yu, Y. Cao, X. Lei, J. Tang<br>
+    Under Review.<br>
+    <a href="https://arxiv.org/pdf/2506.01949" target="_blank">[PDF]</a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/muzishen/IMAGHarmony" target="_blank">[Code]</a>
+  </div>
+</div>
+
+
+
+<div class="pub-row">
+  <div class="pub-left">
+    <div class="thumb">
+      <img src="{{ '/images/paper-images/imaggarment.png' | relative_url }}" alt="imaggarment">
+    </div>
+  </div>
+  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
+    <strong>IMAGGarment: Fine-grained garment generation for controllable fashion design</strong><br>
+    <strong>F. Shen</strong>, J. Yu, C. Wang, X. Jiang, X. Du, J. Tang<br>
+    Under Review.<br>
+    <a href="https://arxiv.org/pdf/2504.13176" target="_blank">[PDF]</a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/muzishen/IMAGGarment" target="_blank">[Code]</a>
+  </div>
+</div>
+
+
+
 <!-- START | IMAGDressing-v1 -->
 <div class="pub-row">
   <div class="pub-left">
