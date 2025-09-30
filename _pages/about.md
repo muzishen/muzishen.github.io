@@ -67,11 +67,11 @@ My research focuses on **Large Model Safety** and **Controllable Generation**, o
 <div class="pub-row">
   <div class="pub-left">
     <div class="thumb">
-      <img src="{{ '/images/paper-images/imaggarment.png' | relative_url }}" alt="imaggarment">
+      <img src="{{ '/images/paper-images/imagharmony.png' | relative_url }}" alt="imagharmony">
     </div>
   </div>
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
-    <strong>IMAGDressing-v1: Customizable Virtual Dressing</strong><br>
+    <strong>IMAGHarmony: Controllable image editing with consistent object quantity and layout</strong><br>
     <strong>F. Shen</strong>, X. Du, Y. Gao, J. Yu, Y. Cao, X. Lei, J. Tang<br>
     Under Review.<br>
     <a href="https://arxiv.org/pdf/2506.01949" target="_blank">[PDF]</a>
