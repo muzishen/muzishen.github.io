@@ -131,7 +131,7 @@ author_profile: true
 
   <li>
     <p>
-      SceneDecorator: Towards Scene-Oriented Story Generation with Scene Planning and Scene Consistency.</a><br>
+      SceneDecorator: Towards Scene-Oriented Story Generation with Scene Planning and Scene Consistency.<br>
       Q. Song, D. Zhou, J. Lin, <strong>F. Shen</strong>, J. Wang, X. Hu, C. Chen, P.-A. Heng<br>
       In Neural Information Processing Systems (<strong>NeurIPS 2025</strong>).<br>
     </p>
