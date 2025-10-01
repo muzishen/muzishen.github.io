@@ -21,6 +21,14 @@ author_profile: true
 
 <ol>
 
+  <li>
+    <p>
+      Selection, Aggregation, and Enhancement: Trajectory Consistent Diffusion Model for Image Super-Resolution.<br>
+      D. Huang, Y. Guo, Y. Huang, L. Dai, <strong>F. Shen</strong><sup>✉</sup>, and H. Zeng<br>
+      Under Review.<br>
+    </p>
+  </li>
+
 
   <li>
     <p>
@@ -109,6 +117,27 @@ author_profile: true
 
 
 <ol>
+
+
+  <li>
+    <p>
+      Delving into Adversarial Domain Transfer for Explainable Autonomous Driving via Chain-of-Causal Visual Language Model.<br>
+      D. Zhang, <strong>F. Shen</strong><sup>✉</sup>, R. Zhao, Y. Chen, P. Zhi, C. Li, R. Zhou, Q. Zhou<br>
+      In Neural Information Processing Systems (<strong>NeurIPS 2025</strong>).<br>
+    </p>
+  </li>
+
+  
+
+  <li>
+    <p>
+      SceneDecorator: Towards Scene-Oriented Story Generation with Scene Planning and Scene Consistency.</a><br>
+      Q. Song, D. Zhou, J. Lin, <strong>F. Shen</strong>, J. Wang, X. Hu, C. Chen, P.-A. Heng<br>
+      In Neural Information Processing Systems (<strong>NeurIPS 2025</strong>).<br>
+    </p>
+  </li>
+
+
 
   <li>
     <p>
