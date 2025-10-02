@@ -67,6 +67,24 @@ My research focuses on **Large Model Safety** and **Controllable Generation**, o
 <div class="pub-row">
   <div class="pub-left">
     <div class="thumb">
+      <img src="{{ '/images/paper-images/imagedit.png' | relative_url }}" alt="imagedit">
+    </div>
+  </div>
+  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
+    <strong>IMAGEdit : Let Any Subject Transform</strong><br>
+   <strong>F. Shen</strong>, W. Xu, R. Yan, D. Zhang, X. Shu, J. Tang<br>
+    Under Review.<br>
+    <a href="https://arxiv.org/pdf/2510.01186" target="_blank">[PDF]</a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/XWH-A/IMAGEdit" target="_blank">[Code]</a>
+  </div>
+</div>
+
+
+
+<div class="pub-row">
+  <div class="pub-left">
+    <div class="thumb">
       <img src="{{ '/images/paper-images/imagharmony.png' | relative_url }}" alt="imagharmony">
     </div>
   </div>
