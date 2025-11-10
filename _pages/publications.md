@@ -110,7 +110,7 @@ author_profile: true
     <p>
       <a href="https://arxiv.org/pdf/2508.06555" target="_blank">StyleTailor: Towards Personalized Fashion Styling via Hierarchical Negative Feedback.</a><br>
       H. Ma, <strong>F. Shen</strong>, H. Xu, X. Wang, G. Xu, J. Zheng, L. Qu, M. Li<br>
-      In Annual AAAI Conference on Artificial Intelligence (<strong>AAAI 2026</strong>).<br>
+      In AAAI Conference on Artificial Intelligence (<strong>AAAI 2026</strong>).<br>
     </p>
   </li>
 
@@ -119,7 +119,7 @@ author_profile: true
     <p>
       <a href="https://arxiv.org/pdf/2506.16273" target="_blank">Fine-grained Image Retrieval via Dual-Vision Adaptation.</a><br>
       X. Jiang, M. Cao, H. Tang, <strong>F. Shen</strong>, Z. Li<br>
-      In Annual AAAI Conference on Artificial Intelligence (<strong>AAAI 2026</strong>).<br>
+      In AAAI Conference on Artificial Intelligence (<strong>AAAI 2026</strong>).<br>
     </p>
   </li>
 
