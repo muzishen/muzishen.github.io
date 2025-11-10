@@ -43,7 +43,7 @@ My research focuses on **Large Model Safety** and **Controllable Generation**, o
 
 
 # 🔥 News {#news}
-- *2025.11*: &nbsp;🎉 Seven papers were accepted by <strong>AAAI 2026, including 5 Orals.<strong>
+- *2025.11*: &nbsp;🎉 Seven papers were accepted by <strong>AAAI 2026<strong>, including 5 Orals.
 - *2025.09*: &nbsp;🎉 Three papers were accepted by <strong>NeurIPS 2025.<strong>
 - *2025.06*: &nbsp;🔥 We released **[IMAGHarmony](https://github.com/muzishen/IMAGHarmony)** for image editing.
 - *2025.05*: &nbsp;🎉 Two papers were accepted by <strong>ICML 2025.<strong>
