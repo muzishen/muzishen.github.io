@@ -38,13 +38,7 @@ author_profile: true
     </p>
   </li>
 
-  <li>
-    <p>
-      <a href="https://arxiv.org/pdf/2508.06555" target="_blank">StyleTailor: Towards Personalized Fashion Styling via Hierarchical Negative Feedback.</a><br>
-      H. Ma, <strong>F. Shen</strong>, H. Xu, X. Wang, G. Xu, J. Zheng, L. Qu, M. Li<br>
-      Under Review.<br>
-    </p>
-  </li>
+
 
   <li>
     <p>
@@ -55,13 +49,6 @@ author_profile: true
   </li>
 
 
-  <li>
-    <p>
-      <a href="https://arxiv.org/pdf/2506.16273" target="_blank">Fine-grained Image Retrieval via Dual-Vision Adaptation.</a><br>
-      X. Jiang, M. Cao, H. Tang, <strong>F. Shen</strong>, Z. Li<br>
-      Under Review.<br>
-    </p>
-  </li>
 
   <li>
     <p>
@@ -121,6 +108,25 @@ author_profile: true
 
   <li>
     <p>
+      <a href="https://arxiv.org/pdf/2508.06555" target="_blank">StyleTailor: Towards Personalized Fashion Styling via Hierarchical Negative Feedback.</a><br>
+      H. Ma, <strong>F. Shen</strong>, H. Xu, X. Wang, G. Xu, J. Zheng, L. Qu, M. Li<br>
+      In Annual AAAI Conference on Artificial Intelligence (<strong>AAAI 2026</strong>).<br>
+    </p>
+  </li>
+
+
+  <li>
+    <p>
+      <a href="https://arxiv.org/pdf/2506.16273" target="_blank">Fine-grained Image Retrieval via Dual-Vision Adaptation.</a><br>
+      X. Jiang, M. Cao, H. Tang, <strong>F. Shen</strong>, Z. Li<br>
+      In Annual AAAI Conference on Artificial Intelligence (<strong>AAAI 2026</strong>).<br>
+    </p>
+  </li>
+
+
+
+  <li>
+    <p>
       Delving into Adversarial Domain Transfer for Explainable Autonomous Driving via Chain-of-Causal Visual Language Model.<br>
       D. Zhang, <strong>F. Shen</strong><sup>✉</sup>, R. Zhao, Y. Chen, P. Zhi, C. Li, R. Zhou, Q. Zhou<br>
       In Neural Information Processing Systems (<strong>NeurIPS 2025</strong>).<br>
@@ -131,7 +137,7 @@ author_profile: true
 
   <li>
     <p>
-      SceneDecorator: Towards Scene-Oriented Story Generation with Scene Planning and Scene Consistency.<br>
+      <a href="https://arxiv.org/pdf/2510.22994" target="_blank">SceneDecorator: Towards Scene-Oriented Story Generation with Scene Planning and Scene Consistency.</a><br>
       Q. Song, D. Zhou, J. Lin, <strong>F. Shen</strong>, J. Wang, X. Hu, C. Chen, P.-A. Heng<br>
       In Neural Information Processing Systems (<strong>NeurIPS 2025</strong>).<br>
     </p>
