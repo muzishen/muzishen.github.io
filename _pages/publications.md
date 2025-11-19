@@ -114,6 +114,7 @@ author_profile: true
   </p>
 </li>
 
+
 <li>
   <p>
     IMAGGarment+: Efficient Attribute-Wise Diffusion for Garment Generation.<br>
