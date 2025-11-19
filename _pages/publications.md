@@ -109,27 +109,24 @@ author_profile: true
 <li>
   <p>
     SGMHand: Structure-Guided Modulation for Structure-Aware Hand Inpainting.<br>
-    Chuancheng Shi, Shiming Guo, Yixiang Chen, Ke Shui, <strong>F. Shen</strong><sup>✉</sup><br>
+    C. Shi, S. Guo, Y. Chen, K. Shui, <strong>F. Shen</strong><sup>✉</sup><br>
     In AAAI Conference on Artificial Intelligence (<strong>AAAI 2026</strong>).<br>
   </p>
 </li>
-
 
 <li>
   <p>
     IMAGGarment+: Efficient Attribute-Wise Diffusion for Garment Generation.<br>
-    Jian Yu, <strong>F. Shen</strong><sup>*</sup>, Cong Wang, Yanpeng Sun, Hao Tang, Qin Guo, Xiaoyu Du<br>
+    J. Yu, <strong>F. Shen</strong><sup>*</sup>, C. Wang, Y. Sun, H. Tang, Q. Guo, X. Du<br>
     In AAAI Conference on Artificial Intelligence (<strong>AAAI 2026</strong>).<br>
   </p>
 </li>
 
-
-
 <li>
   <p>
-    HiMo-CLIP: Modeling Semantic Hierarchy and Monotonicity in Vision-Language Alignment.<br>
-    Ruijia Wu, Ping Chen, <strong>F. Shen</strong><sup>✉</sup>, Shaoan Zhao, Qiang Hui, 
-    Huanlin Gao, Ting Lu, Zhaoxiang Liu, Fang Zhao, Kai Wang, Shiguo Lian<br>
+    <a href="https://arxiv.org/pdf/2511.06653" target="_blank">HiMo-CLIP: Modeling Semantic Hierarchy and Monotonicity in Vision-Language Alignment.</a><br>
+    R. Wu, P. Chen, <strong>F. Shen</strong>, S. Zhao, Q. Hui, 
+    H. Gao, T. Lu, Z. Liu, F. Zhao, K. Wang, S. Lian<br>
     In AAAI Conference on Artificial Intelligence (<strong>AAAI 2026</strong>).<br>
   </p>
 </li>
@@ -137,7 +134,7 @@ author_profile: true
 <li>
   <p>
     Cross-modal Proxy Evolving for OOD Detection with Vision-Language Models.<br>
-    Hao Tang, Yu Liu, Shuanglin Yan, <strong>F. Shen</strong>, Shengfeng He, Jing Qin<br>
+    H. Tang, Y. Liu, S. Yan, <strong>F. Shen</strong>, S. He, J. Qin<br>
     In AAAI Conference on Artificial Intelligence (<strong>AAAI 2026</strong>).<br>
   </p>
 </li>
@@ -145,10 +142,11 @@ author_profile: true
 <li>
   <p>
     Seeing through the Conflict: Transparent Knowledge Conflict Handling in Retrieval-Augmented Generation.<br>
-    Hua Ye, Siyuan Chen, Ziqi Zhong, Canran Xiao, Haoliang Zhang, Yuhan Wu, <strong>F. Shen</strong><br>
+    H. Ye, S. Chen, Z. Zhong, C. Xiao, H. Zhang, Y. Wu, <strong>F. Shen</strong><br>
     In AAAI Conference on Artificial Intelligence (<strong>AAAI 2026</strong>).<br>
   </p>
 </li>
+
 
 
 
@@ -173,7 +171,7 @@ author_profile: true
 
   <li>
     <p>
-      Delving into Adversarial Domain Transfer for Explainable Autonomous Driving via Chain-of-Causal Visual Language Model.<br>
+      <a href="https://openreview.net/pdf?id=qUmULptJuY" target="_blank">CoC-VLA: Delving into Adversarial Domain Transfer for Explainable Autonomous Driving via Chain-of-Causality Visual-Language-Action Model.</a><br>
       D. Zhang, <strong>F. Shen</strong><sup>✉</sup>, R. Zhao, Y. Chen, P. Zhi, C. Li, R. Zhou, Q. Zhou<br>
       In Neural Information Processing Systems (<strong>NeurIPS 2025</strong>).<br>
     </p>
