@@ -106,6 +106,51 @@ author_profile: true
 <ol>
 
 
+<li>
+  <p>
+    SGMHand: Structure-Guided Modulation for Structure-Aware Hand Inpainting.<br>
+    Chuancheng Shi, Shiming Guo, Yixiang Chen, Ke Shui, <strong>F. Shen</strong><sup>✉</sup><br>
+    In AAAI Conference on Artificial Intelligence (<strong>AAAI 2026</strong>).<br>
+  </p>
+</li>
+
+<li>
+  <p>
+    IMAGGarment+: Efficient Attribute-Wise Diffusion for Garment Generation.<br>
+    Jian Yu, <strong>F. Shen</strong><sup>*</sup>, Cong Wang, Yanpeng Sun, Hao Tang, Qin Guo, Xiaoyu Du<br>
+    In AAAI Conference on Artificial Intelligence (<strong>AAAI 2026</strong>).<br>
+  </p>
+</li>
+
+
+
+<li>
+  <p>
+    HiMo-CLIP: Modeling Semantic Hierarchy and Monotonicity in Vision-Language Alignment.<br>
+    Ruijia Wu, Ping Chen, <strong>F. Shen</strong><sup>✉</sup>, Shaoan Zhao, Qiang Hui, 
+    Huanlin Gao, Ting Lu, Zhaoxiang Liu, Fang Zhao, Kai Wang, Shiguo Lian<br>
+    In AAAI Conference on Artificial Intelligence (<strong>AAAI 2026</strong>).<br>
+  </p>
+</li>
+
+<li>
+  <p>
+    Cross-modal Proxy Evolving for OOD Detection with Vision-Language Models.<br>
+    Hao Tang, Yu Liu, Shuanglin Yan, <strong>F. Shen</strong>, Shengfeng He, Jing Qin<br>
+    In AAAI Conference on Artificial Intelligence (<strong>AAAI 2026</strong>).<br>
+  </p>
+</li>
+
+<li>
+  <p>
+    Seeing through the Conflict: Transparent Knowledge Conflict Handling in Retrieval-Augmented Generation.<br>
+    Hua Ye, Siyuan Chen, Ziqi Zhong, Canran Xiao, Haoliang Zhang, Yuhan Wu, <strong>F. Shen</strong><br>
+    In AAAI Conference on Artificial Intelligence (<strong>AAAI 2026</strong>).<br>
+  </p>
+</li>
+
+
+
   <li>
     <p>
       <a href="https://arxiv.org/pdf/2508.06555" target="_blank">StyleTailor: Towards Personalized Fashion Styling via Hierarchical Negative Feedback.</a><br>
