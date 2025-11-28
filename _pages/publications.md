@@ -21,6 +21,24 @@ author_profile: true
 
 <ol>
 
+<li>
+  <p>
+    <a href="https://arxiv.org/pdf/2511.17282" target="_blank">Where Culture Fades: Revealing the Cultural Gap in Text-to-Image Generation.</a><br>
+    C. Shi, S. Li, S. Guo, S. Xie, W. Wu, J. Dou, C. Wu, C. Xiao, C. Wang, Z. Cheng, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
+    Under Review.<br>
+  </p>
+</li>
+
+
+<li>
+  <p>
+    <a href="https://arxiv.org/pdf/2511.15092" target="_blank">Jointly Conditioned Diffusion Model for Multi-View Pose-Guided Person Image Synthesis.</a><br>
+    C. Xie, Z. Gong, J. Ren, L. Yu, S. Shen, <strong>F. Shen</strong><sup>✉</sup>, X. Du<br>
+    Under Review.<br>
+  </p>
+</li>
+
+
   <li>
     <p>
       Selection, Aggregation, and Enhancement: Trajectory Consistent Diffusion Model for Image Super-Resolution.<br>
