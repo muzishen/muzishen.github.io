@@ -11,7 +11,8 @@ author_profile: true
 - Area Chair of 3DV/PRCV/IJCNN/ICME
 - Conference Reviewers:  NeurIPS, ICML, ICLR, CVPR, ICCV, ECCV, AAAI, IJCAI, ACM MM, MICCAI
 - Journal Reviewers: TPAMI, IJCV, TIP, TMM, TNNLS, TCSVT, PR, TII, IOTJ, TAI
-
+- **Guest Editor:**  
+  • [Applied Sciences] Special Issue on [*Applied Multimodal AI: Methods and Applications Across Domains*](https://www.mdpi.com/journal/applsci/special_issues/5O529LHW59)
 
 # 🎖 **Honors** 
 
