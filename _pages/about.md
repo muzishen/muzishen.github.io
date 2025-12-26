@@ -122,12 +122,28 @@ My research focuses on **Large Model Safety** and **Controllable Generation**, o
 <div class="pub-row">
   <div class="pub-left">
     <div class="thumb">
+      <img src="{{ '/images/paper-images/sgmhand.png' | relative_url }}" alt="sgmhand">
+    </div>
+  </div>
+  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
+    <strong>SGMHand: Structure-Guided Modulation for Structure-Aware Hand Inpainting</strong><br>
+   Chuancheng Shi, Shiming Guo, Yixiang Chen, Ke Shui, <strong>F. Shen</strong><sup>✉</sup><br>
+    AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>), 2026.<br>
+    <a href="https://openreview.net/pdf?id=k8dzFj3yAF" target="_blank">[PDF]</a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/XWH-A/IMAGEdit" target="_blank">[Code]</a>
+  </div>
+</div>
+
+<div class="pub-row">
+  <div class="pub-left">
+    <div class="thumb">
       <img src="{{ '/images/paper-images/CoC-VLA.png' | relative_url }}" alt="CoC-VLA">
     </div>
   </div>
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>CoC-VLA: Delving into Adversarial Domain Transfer for Explainable Autonomous Driving via Chain-of-Causality Visual-Language-Action Model</strong><br>
-   Dapeng Zhang, <strong>F. Shen</strong><sup>✉</sup>, Rui Zhao, Yinda Chen, Peng Zhi, Chenyang Li, Rui Zhou, Qingguo Zhou
+   Dapeng Zhang, <strong>F. Shen</strong><sup>✉</sup>, Rui Zhao, Yinda Chen, Peng Zhi, Chenyang Li, Rui Zhou, Qingguo Zhou<br>
     Neural Information Processing Systems (<strong>NeurIPS</strong>), 2025.<br>
     <a href="https://openreview.net/pdf?id=qUmULptJuY" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
