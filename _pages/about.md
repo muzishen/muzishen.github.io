@@ -119,6 +119,22 @@ My research focuses on **Large Model Safety** and **Controllable Generation**, o
 </div>
 
 
+<div class="pub-row">
+  <div class="pub-left">
+    <div class="thumb">
+      <img src="{{ '/images/paper-images/CoC-VLA.png' | relative_url }}" alt="CoC-VLA">
+    </div>
+  </div>
+  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
+    <strong>CoC-VLA: Delving into Adversarial Domain Transfer for Explainable Autonomous Driving via Chain-of-Causality Visual-Language-Action Model</strong><br>
+   Dapeng Zhang, <strong>F. Shen</strong><sup>✉</sup>, Rui Zhao, Yinda Chen, Peng Zhi, Chenyang Li, Rui Zhou, Qingguo Zhou
+    Neural Information Processing Systems (<strong>NeurIPS</strong>), 2025.<br>
+    <a href="https://openreview.net/pdf?id=qUmULptJuY" target="_blank">[PDF]</a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/XWH-A/IMAGEdit" target="_blank">[Code]</a>
+  </div>
+</div>
+
 
 <!-- START | IMAGDressing-v1 -->
 <div class="pub-row">
