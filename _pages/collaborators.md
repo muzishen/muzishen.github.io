@@ -157,6 +157,14 @@ author_profile: true
       <br>
       <span class="meta">Submissions:</span> ICML (under review)
     </li>
+    <li>
+      <strong>Junchi Ren</strong> (China Telecom),
+      working on <span class="tag">AIGC</span> &amp; <span class="tag">MLLMs</span>
+      <br>
+      <span class="meta">Publication:</span> 1 x ICME & 1 x TAI,
+      <br>
+      <span class="meta">Submissions:</span> 
+    </li>
   </ul>
 </section>
 
