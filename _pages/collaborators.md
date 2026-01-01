@@ -54,6 +54,14 @@ author_profile: true
   <h3>Master's Students</h3>
   <ul>
     <li>
+      <strong>Yuting Zhang</strong> (M.Sc., Nanjing University),
+      working on <span class="tag">AIGC</span>
+      <br>
+      <span class="meta">Publication:</span>
+      <br>
+      <span class="meta">Submissions:</span> CVPR (under review)
+    </li>
+    <li>
       <strong>Jian Yu</strong> (M.Sc., Nanjing University of Science and Technology),
       working on <span class="tag">AIGC</span>
       <br>
