@@ -5,16 +5,108 @@ permalink: /collaborators/
 author_profile: true
 ---
 
-## 👉 **Project Guide:**  
-- [IMAGDressing](https://github.com/muzishen/IMAGDressing): Controllable dressing generation. [可控穿衣生成]
-- [IMAGGarment](https://github.com/muzishen/IMAGGarment): Fine-grained controllable garment generation.  [可控服装生成]
-- [IMAGHarmony](https://github.com/muzishen/IMAGHarmony): Controllable image editing with consistent object layout.  [可控多目标编辑]
-- [IMAGPose](https://github.com/muzishen/IMAGPose): Pose-guided person generation with high fidelity.  [可控多模式人物生成]
-- [RCDMs](https://github.com/muzishen/RCDMs): Rich-contextual conditional diffusion for story visualization.  [可控故事生成]
-- [PCDMs](https://github.com/tencent-ailab/PCDMs): Progressive conditional diffusion for pose-guided image synthesis. [可控人物生成]
-- [V-Express](https://github.com/tencent-ailab/V-Express/): Explores strong and weak conditional relationships for portrait video generation. [可控数字人生成]
-- [FaceShot](https://github.com/open-mmlab/FaceShot/): Talkingface plugin for any character. [可控动漫数字人生成]
-- [CharacterShot](https://github.com/Jeoyal/CharacterShot): Controllable and consistent 4D character animation framework. [可控4D角色生成]
-- [StyleTailor](https://github.com/mahb-THU/StyleTailor): An Agent for personalized fashion styling. [个性化时尚Agent]
-- [SignVip](https://github.com/umnooob/signvip/): Controllable sign language video generation. [可控手语生成]
-- [Duix.Avatar](https://github.com/duixcom/Duix.Avatar): An open-source AI avatar. [私有化数字人]
+<span style="color:#c00; font-weight:700; display:block; margin-top:6px;">
+  <strong>PS:</strong> We are actively seeking motivated Ph.D., M.S., and undergraduate students to collaborate with Prof. Chua and myself through CSC, RA, visiting positions, or remote internships in the following research areas. If you are interested, please send your CV to
+  <a href="mailto:shenfei29@nus.edu.sg">shenfei29@nus.edu.sg</a>.
+</span>
+</p>
+
+
+<section class="students">
+  <h2>Students and Collaborators</h2>
+
+  <h3>Ph.D. Students</h3>
+  <ul>
+    <li>
+      <strong>Chenhang Cui</strong> (Ph.D., National University of Singapore) —
+      <span class="tag">LLMs</span> <span class="tag">MLLMs</span>
+      <br>
+      <span class="meta">Submission:</span> ICML (under review)
+    </li>
+    <li>
+      <strong>Shuyi Miao</strong> (Ph.D., Beihang University) —
+      <span class="tag">LLMs</span> <span class="tag">MLLMs</span>
+    </li>
+    <li>
+      <strong>Chuancheng Shi</strong> (Ph.D., The University of Sydney) —
+      <span class="tag">AIGC</span> <span class="tag">LLMs</span> <span class="tag">MLLMs</span>
+      <br>
+      <span class="meta">Publication:</span> AAAI (1)
+      <span class="meta">Submissions:</span> CVPR (under review), ICML (2 under review)
+    </li>
+    <li>
+      <strong>Dapeng Zhang</strong> (Ph.D., Lanzhou University) —
+      <span class="tag">VLA</span>
+      <br>
+      <span class="meta">Publication:</span> NeurIPS (1)
+      <span class="meta">Submission:</span> CVPR (under review)
+    </li>
+  </ul>
+
+  <h3>Master's Students</h3>
+  <ul>
+    <li>
+      <strong>Jian Yu</strong> (M.Sc., Nanjing University of Science and Technology) —
+      <span class="tag">AIGC</span>
+      <br>
+      <span class="meta">Publication:</span> AAAI (1)
+      <span class="meta">Status:</span> TVCG (major revision), SIGGRAPH Asia (under review)
+    </li>
+    <li>
+      <strong>Weihao Xu</strong> (M.Sc., Nanjing University of Science and Technology) —
+      <span class="tag">AIGC</span>
+      <br>
+      <span class="meta">Submission:</span> ICLR (under review)
+    </li>
+    <li>
+      <strong>Chengyu Xie</strong> (M.Sc., Nanjing University of Science and Technology) —
+      <span class="tag">Large Model Safety</span>
+      <br>
+      <span class="meta">Submissions:</span> ICASSP (under review), IJCAI (under review)
+    </li>
+  </ul>
+
+  <h3>Undergraduate Students</h3>
+  <ul>
+    <li>
+      <strong>Yutong Gao</strong> (Undergraduate, Nanjing University of Science and Technology) —
+      <span class="tag">AIGC</span>
+      <br>
+      <span class="meta">Submission:</span> TPAMI (under review)
+    </li>
+    <li>
+      <strong>Lihong Wang</strong> (Undergraduate, Nanjing University of Science and Technology) —
+      <span class="tag">Agents</span>
+      <br>
+      <span class="meta">Submission:</span> IJCAI (under review)
+    </li>
+    <li>
+      <strong>Zhanyi Zhang</strong> (Undergraduate, Nanjing University of Science and Technology) —
+      <span class="tag">Agents</span>
+      <br>
+      <span class="meta">Submission:</span> IJCAI (under review)
+    </li>
+    <li>
+      <strong>Linxia Zhu</strong> (Undergraduate, Nanjing University of Science and Technology) —
+      <span class="tag">LLMs</span>
+      <br>
+      <span class="meta">Submission:</span> ICML (under review)
+    </li>
+    <li>
+      <strong>Enyi Shi</strong> (Undergraduate, Nanjing University of Posts and Telecommunications) —
+      <span class="tag">Large Model Safety</span>
+      <br>
+      <span class="meta">Submission:</span> ICML (under review)
+    </li>
+  </ul>
+
+  <h3>Research Collaborators</h3>
+  <ul>
+    <li>
+      <strong>Xianhui Zhang</strong> —
+      <span class="tag">LLMs</span>
+      <br>
+      <span class="meta">Submission:</span> ICML (under review)
+    </li>
+  </ul>
+</section>
