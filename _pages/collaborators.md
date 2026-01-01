@@ -86,6 +86,14 @@ author_profile: true
       <span class="meta">Submissions:</span> ICASSP (under review), IJCAI (under review)
     </li>
     <li>
+      <strong>Chengpeng Hong</strong> (M.Sc., Central South University),
+      working on <span class="tag">AIGC</span>
+      <br>
+      <span class="meta">Publication:</span>
+      <br>
+      <span class="meta">Submissions:</span>
+    </li>
+    <li>
       <strong>Xiancheng Zhu</strong> (M.Sc., Huaqiao University),
       working on <span class="tag">Image Super-Resolution</span>
       <br>
