@@ -76,7 +76,7 @@ author_profile: true
       <br>
       <span class="meta">Submissions:</span> TIP (under review)
     </li>
-
+  <ul>
 
 
   <h3>Undergraduate Students</h3>
