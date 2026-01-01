@@ -9,7 +9,7 @@ author_profile: true
   <strong>PS:</strong> We are actively seeking motivated Ph.D., M.S., and undergraduate students to collaborate with Prof. Chua and myself through CSC, RA, visiting positions, or remote internships in the following research areas. If you are interested, please send your CV to
   <a href="mailto:shenfei29@nus.edu.sg">shenfei29@nus.edu.sg</a>.
 </span>
-</p>
+
 
 
 <section class="students">
@@ -18,27 +18,27 @@ author_profile: true
   <h3>Ph.D. Students</h3>
   <ul>
     <li>
-      <strong>Chenhang Cui</strong> (Ph.D., National University of Singapore) —
-      <span class="tag">LLMs</span> <span class="tag">MLLMs</span>
+      <strong>Chenhang Cui</strong> (Ph.D., National University of Singapore),
+      working on <span class="tag">LLMs</span> & <span class="tag">MLLMs</span>
       <br>
       <span class="meta">Submission:</span> ICML (under review)
     </li>
     <li>
-      <strong>Shuyi Miao</strong> (Ph.D., Beihang University) —
-      <span class="tag">LLMs</span> <span class="tag">MLLMs</span>
+      <strong>Shuyi Miao</strong> (Ph.D., Beihang University),
+      working on <span class="tag">LLMs</span> & <span class="tag">MLLMs</span>
     </li>
     <li>
-      <strong>Chuancheng Shi</strong> (Ph.D., The University of Sydney) —
-      <span class="tag">AIGC</span> <span class="tag">LLMs</span> <span class="tag">MLLMs</span>
+      <strong>Chuancheng Shi</strong> (Ph.D., The University of Sydney),
+      working on <span class="tag">AIGC</span> <span class="tag">LLMs</span> <span class="tag">MLLMs</span>
       <br>
-      <span class="meta">Publication:</span> AAAI (1)
-      <span class="meta">Submissions:</span> CVPR (under review), ICML (2 under review)
+      <span class="meta">Publication:</span> 1 x AAAI (1)
+      <span class="meta">Submissions:</span> CVPR (under review), 2 x ICML (under review)
     </li>
     <li>
-      <strong>Dapeng Zhang</strong> (Ph.D., Lanzhou University) —
-      <span class="tag">VLA</span>
+      <strong>Dapeng Zhang</strong> (Ph.D., Lanzhou University),
+      working on <span class="tag">VLA</span>
       <br>
-      <span class="meta">Publication:</span> NeurIPS (1)
+      <span class="meta">Publication:</span> 1 x NeurIPS
       <span class="meta">Submission:</span> CVPR (under review)
     </li>
   </ul>
@@ -46,55 +46,68 @@ author_profile: true
   <h3>Master's Students</h3>
   <ul>
     <li>
-      <strong>Jian Yu</strong> (M.Sc., Nanjing University of Science and Technology) —
-      <span class="tag">AIGC</span>
+      <strong>Jian Yu</strong> (M.Sc., Nanjing University of Science and Technology),
+      working on <span class="tag">AIGC</span>
       <br>
-      <span class="meta">Publication:</span> AAAI (1)
+      <span class="meta">Publication:</span> 1x AAAI
       <span class="meta">Status:</span> TVCG (major revision), SIGGRAPH Asia (under review)
     </li>
     <li>
-      <strong>Weihao Xu</strong> (M.Sc., Nanjing University of Science and Technology) —
-      <span class="tag">AIGC</span>
+      <strong>Weihao Xu</strong> (M.Sc., Nanjing University of Science and Technology),
+      working on <span class="tag">AIGC</span>
       <br>
       <span class="meta">Submission:</span> ICLR (under review)
     </li>
     <li>
-      <strong>Chengyu Xie</strong> (M.Sc., Nanjing University of Science and Technology) —
-      <span class="tag">Large Model Safety</span>
+      <strong>Chengyu Xie</strong> (M.Sc., Nanjing University of Science and Technology),
+      working on  <span class="tag">Large Model Safety</span>
       <br>
       <span class="meta">Submissions:</span> ICASSP (under review), IJCAI (under review)
     </li>
-  </ul>
+    <li>
+      <strong>Xiancheng Zhu</strong> (M.Sc., Huaqiao University),
+      working on  <span class="tag">Image Super-Resolution</span>
+      <br>
+      <span class="meta">Submissions:</span> PR (under review)
+    </li>
+    <li>
+      <strong>Yaohui Guo</strong> (M.Sc., Huaqiao University),
+      working on  <span class="tag">Image Super-Resolution</span>
+      <br>
+      <span class="meta">Submissions:</span> TIP (under review)
+    </li>
+
+
 
   <h3>Undergraduate Students</h3>
   <ul>
     <li>
-      <strong>Yutong Gao</strong> (Undergraduate, Nanjing University of Science and Technology) —
-      <span class="tag">AIGC</span>
+      <strong>Yutong Gao</strong> (Undergraduate, Nanjing University of Science and Technology),
+      working on <span class="tag">AIGC</span>
       <br>
       <span class="meta">Submission:</span> TPAMI (under review)
     </li>
     <li>
-      <strong>Lihong Wang</strong> (Undergraduate, Nanjing University of Science and Technology) —
-      <span class="tag">Agents</span>
+      <strong>Lihong Wang</strong> (Undergraduate, Nanjing University of Science and Technology),
+      working on <span class="tag">Agents</span>
       <br>
       <span class="meta">Submission:</span> IJCAI (under review)
     </li>
     <li>
-      <strong>Zhanyi Zhang</strong> (Undergraduate, Nanjing University of Science and Technology) —
-      <span class="tag">Agents</span>
+      <strong>Zhanyi Zhang</strong> (Undergraduate, Nanjing University of Science and Technology),
+      working on <span class="tag">Agents</span>
       <br>
       <span class="meta">Submission:</span> IJCAI (under review)
     </li>
     <li>
-      <strong>Linxia Zhu</strong> (Undergraduate, Nanjing University of Science and Technology) —
-      <span class="tag">LLMs</span>
+      <strong>Linxia Zhu</strong> (Undergraduate, Nanjing University of Science and Technology),
+      working on <span class="tag">LLMs</span>
       <br>
       <span class="meta">Submission:</span> ICML (under review)
     </li>
     <li>
-      <strong>Enyi Shi</strong> (Undergraduate, Nanjing University of Posts and Telecommunications) —
-      <span class="tag">Large Model Safety</span>
+      <strong>Enyi Shi</strong> (Undergraduate, Nanjing University of Posts and Telecommunications),
+      working on <span class="tag">Large Model Safety</span>
       <br>
       <span class="meta">Submission:</span> ICML (under review)
     </li>
@@ -103,8 +116,8 @@ author_profile: true
   <h3>Research Collaborators</h3>
   <ul>
     <li>
-      <strong>Xianhui Zhang</strong> —
-      <span class="tag">LLMs</span>
+      <strong>Xianhui Zhang</strong>,
+      working on <span class="tag">LLMs</span>
       <br>
       <span class="meta">Submission:</span> ICML (under review)
     </li>
