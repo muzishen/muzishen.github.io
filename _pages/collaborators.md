@@ -31,14 +31,14 @@ author_profile: true
       <strong>Chuancheng Shi</strong> (Ph.D., The University of Sydney),
       working on <span class="tag">AIGC</span> <span class="tag">LLMs</span> <span class="tag">MLLMs</span>
       <br>
-      <span class="meta">Publication:</span> 1 x AAAI
+      <span class="meta">Publication:</span> 1 x AAAI,
       <span class="meta">Submissions:</span> CVPR (under review), 2 x ICML (under review)
     </li>
     <li>
       <strong>Dapeng Zhang</strong> (Ph.D., Lanzhou University),
       working on <span class="tag">VLA</span>
       <br>
-      <span class="meta">Publication:</span> 1 x NeurIPS
+      <span class="meta">Publication:</span> 1 x NeurIPS,
       <span class="meta">Submission:</span> CVPR (under review)
     </li>
   </ul>
@@ -49,8 +49,8 @@ author_profile: true
       <strong>Jian Yu</strong> (M.Sc., Nanjing University of Science and Technology),
       working on <span class="tag">AIGC</span>
       <br>
-      <span class="meta">Publication:</span> 1x AAAI
-      <span class="meta">Status:</span> TVCG (major revision), SIGGRAPH Asia (under review)
+      <span class="meta">Publication:</span> 1x AAAI,
+      <span class="meta"></span> TVCG (major revision), SIGGRAPH Asia (under review)
     </li>
     <li>
       <strong>Weihao Xu</strong> (M.Sc., Nanjing University of Science and Technology),
@@ -119,6 +119,13 @@ author_profile: true
       working on <span class="tag">LLMs</span>
       <br>
       <span class="meta">Submission:</span> ICML (under review)
+    </li>
+    <li>
+      <strong>Ping Chen</strong> (Data Science & Artificial Intelligence Research Institute,China Unicom),
+      working on <span class="tag">AIGC</span> &amp; <span class="tag">MLLMs</span>
+      <br>
+      <span class="meta">Publication:</span> 1 x AAAI,
+      <span class="meta">Submissions:</span> ICML (under review)
     </li>
   </ul>
 </section>
