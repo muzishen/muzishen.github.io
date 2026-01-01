@@ -19,19 +19,19 @@ author_profile: true
   <ul>
     <li>
       <strong>Chenhang Cui</strong> (Ph.D., National University of Singapore),
-      working on <span class="tag">LLMs</span> & <span class="tag">MLLMs</span>
+      working on <span class="tag">LLMs</span> &amp; <span class="tag">MLLMs</span>
       <br>
       <span class="meta">Submission:</span> ICML (under review)
     </li>
     <li>
       <strong>Shuyi Miao</strong> (Ph.D., Beihang University),
-      working on <span class="tag">LLMs</span> & <span class="tag">MLLMs</span>
+      working on <span class="tag">LLMs</span> &amp; <span class="tag">MLLMs</span>
     </li>
     <li>
       <strong>Chuancheng Shi</strong> (Ph.D., The University of Sydney),
       working on <span class="tag">AIGC</span> <span class="tag">LLMs</span> <span class="tag">MLLMs</span>
       <br>
-      <span class="meta">Publication:</span> 1 x AAAI (1)
+      <span class="meta">Publication:</span> 1 x AAAI
       <span class="meta">Submissions:</span> CVPR (under review), 2 x ICML (under review)
     </li>
     <li>
@@ -76,8 +76,7 @@ author_profile: true
       <br>
       <span class="meta">Submissions:</span> TIP (under review)
     </li>
-  <ul>
-
+  </ul>
 
   <h3>Undergraduate Students</h3>
   <ul>
