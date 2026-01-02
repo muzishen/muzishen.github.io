@@ -47,7 +47,7 @@ author_profile: true
       <br>
       <span class="meta">Publication:</span> 1 x NeurIPS,
       <br>
-      <span class="meta">Submissions:</span> CVPR (under review)
+      <span class="meta">Submissions:</span> CVPR (under review), IJCV (under review)
     </li>
   </ul>
 
