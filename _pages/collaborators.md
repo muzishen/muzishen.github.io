@@ -93,22 +93,6 @@ author_profile: true
       <br>
       <span class="meta">Submissions:</span>
     </li>
-    <li>
-      <strong>Xiancheng Zhu</strong> (M.Sc., Huaqiao University),
-      working on <span class="tag">Image Super-Resolution</span>
-      <br>
-      <span class="meta">Publication:</span>
-      <br>
-      <span class="meta">Submissions:</span> PR (under review)
-    </li>
-    <li>
-      <strong>Yaohui Guo</strong> (M.Sc., Huaqiao University),
-      working on <span class="tag">Image Super-Resolution</span>
-      <br>
-      <span class="meta">Publication:</span>
-      <br>
-      <span class="meta">Submissions:</span> TIP (under review)
-    </li>
   </ul>
 
   <h3>Undergraduate Students</h3>
