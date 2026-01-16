@@ -43,7 +43,7 @@ My research focuses on **Large Model Safety** and **Controllable Generation**, o
 
 
 # 🔥 News {#news}
-- *2026.01*: &nbsp;🎉 One paper were accepted by <strong>IEEE TIP<strong>.
+- *2026.01*: &nbsp;🎉 One paper was accepted by <strong>IEEE TIP<strong>.
 - *2025.11*: &nbsp;🎉 Seven papers were accepted by <strong>AAAI 2026<strong>, including 5 Orals.
 <!-- - *2025.06*: &nbsp;🔥 We released **[IMAGEdit](https://github.com/XWH-A/IMAGEdit)** for video editing. -->
 - *2025.09*: &nbsp;🎉 Three papers were accepted by <strong>NeurIPS 2025.<strong>
