@@ -55,8 +55,8 @@ My research focuses on **Large Model Safety** and **Controllable Generation**, o
 - *2024.12*: &nbsp;🎉 Five papers were accepted by <strong>AAAI 2025.<strong>
 <!-- - *2024.11*: &nbsp;🔥 We released **[IMAGPose](https://github.com/muzishen/IMAGPose)**, a unified conditional framework for person generation. -->
 - *2024.09*: &nbsp;🎉 One paper was accepted by <strong>NeurIPS 2024.<strong>
-<!-- - *2024.05*: &nbsp;🔥 We released **[IMAGDressing-v1](https://imagdressing.github.io/)** for customizable virtual dressing.
-- *2024.05*: &nbsp;🔥 We released **[V-Express](https://tenvence.github.io/p/v-express/)** for portrait video generation. -->
+<!-- - *2024.05*: &nbsp;🔥 We released **[IMAGDressing-v1](https://imagdressing.github.io/)** for customizable virtual dressing. -->
+<!-- - *2024.05*: &nbsp;🔥 We released **[V-Express](https://tenvence.github.io/p/v-express/)** for portrait video generation. -->
 - *2024.01*: &nbsp;🎉 One paper was accepted by <strong>ICLR 2024.<strong>
 - *2023.07*: &nbsp;🎉 One paper was accepted by <strong>ACM Multimedia 2023.<strong>
 
