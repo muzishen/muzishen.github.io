@@ -49,8 +49,8 @@ My research focuses on **Large Model Safety** and **Controllable Generation**, o
 - *2025.09*: &nbsp;🎉 Three papers were accepted by <strong>NeurIPS 2025.<strong>
 <!-- - *2025.06*: &nbsp;🔥 We released **[IMAGHarmony](https://github.com/muzishen/IMAGHarmony)** for image editing. -->
 - *2025.05*: &nbsp;🎉 Two papers were accepted by <strong>ICML 2025.<strong>
-<!-- - *2025.04*: &nbsp;🔥 We released **[IMAGGarment](https://github.com/muzishen/IMAGGarment)** for fine-grained garment generation.
-- *2025.03*: &nbsp;🔥 We released **[HeyGem.ai](https://github.com/GuijiAI/HeyGem.ai)**, a long-term digital human tool for local and API use. -->
+<!-- - *2025.04*: &nbsp;🔥 We released **[IMAGGarment](https://github.com/muzishen/IMAGGarment)** for fine-grained garment generation. -->
+<!-- - *2025.03*: &nbsp;🔥 We released **[HeyGem.ai](https://github.com/GuijiAI/HeyGem.ai)**, a long-term digital human tool for local and API use. -->
 - *2025.01*: &nbsp;🎉 Two papers were accepted by <strong>ICLR 2025.<strong>
 - *2024.12*: &nbsp;🎉 Five papers were accepted by <strong>AAAI 2025.<strong>
 <!-- - *2024.11*: &nbsp;🔥 We released **[IMAGPose](https://github.com/muzishen/IMAGPose)**, a unified conditional framework for person generation. -->
