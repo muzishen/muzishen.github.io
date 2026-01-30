@@ -70,7 +70,7 @@ My research focuses on **Large Model Safety** and **Controllable Generation**, o
 <div class="pub-row">
   <div class="pub-left">
     <div class="thumb">
-      <img src="{{ '/images/paper-images/imaggarmnet+.png' | relative_url }}" alt="imaggarmnetplus">
+      <img src="{{ '/images/paper-images/imaggarmentplus.png' | relative_url }}" alt="imaggarmentplus">
     </div>
   </div>
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
