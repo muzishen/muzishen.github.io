@@ -68,6 +68,36 @@ My research focuses on **Large Model Safety** and **Controllable Generation**, o
 # 📝 Selected Publications
 
 
+
+<div class="pub-row">
+  <div class="pub-left">
+    <div class="thumb">
+      <img src="{{ '/images/paper-images/tracerouter.png' | relative_url }}" alt="tracerouter">
+    </div>
+  </div>
+  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
+    <strong>TraceRouter: Robust Safety for Large Foundation Models via Path-Level Intervention</strong><br>
+    C. Shi, S. Li, W. Lu, W. Wu, C. Wang, Z. Cheng, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
+    <a href="https://arxiv.org/pdf/2601.21900" target="_blank">[PDF]</a>
+  </div>
+</div>
+
+
+<div class="pub-row">
+  <div class="pub-left">
+    <div class="thumb">
+      <img src="{{ '/images/paper-images/culture.png' | relative_url }}" alt="where-culture-fades">
+    </div>
+  </div>
+  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
+    <strong>Where Culture Fades: Revealing the Cultural Gap in Text-to-Image Generation</strong><br>
+    C. Shi, S. Li, S. Guo, S. Xie, W. Wu, J. Dou, C. Wu, C. Xiao, C. Wang, Z. Cheng, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
+    Under Review.<br>
+    <a href="https://arxiv.org/pdf/2511.17282" target="_blank">[PDF]</a>
+  </div>
+</div>
+
+
 <div class="pub-row">
   <div class="pub-left">
     <div class="thumb">
