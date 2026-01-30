@@ -67,6 +67,21 @@ My research focuses on **Large Model Safety** and **Controllable Generation**, o
 
 # 📝 Selected Publications
 
+<div class="pub-row">
+  <div class="pub-left">
+    <div class="thumb">
+      <img src="{{ '/images/paper-images/imaggarmnet+.png' | relative_url }}" alt="imaggarmnetplus">
+    </div>
+  </div>
+  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
+    <strong>IMAGGarment+: Efficient Attribute-Wise Diffusion for Garment Generation</strong><br>
+    J. Yu*, <strong>F. Shen*</strong>, C. Wang, Y. Sun, H. Tang, Q. Guo, X. Du<br>
+    AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>), 2026.<br>
+    <a href="https://arxiv.org/pdf/2601.21900" target="_blank">[PDF]</a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/XWH-A/IMAGEdit" target="_blank">[Code]</a>
+  </div>
+</div>
 
 
 <div class="pub-row">
@@ -78,6 +93,7 @@ My research focuses on **Large Model Safety** and **Controllable Generation**, o
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>TraceRouter: Robust Safety for Large Foundation Models via Path-Level Intervention</strong><br>
     C. Shi, S. Li, W. Lu, W. Wu, C. Wang, Z. Cheng, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
+    Under Review.<br>
     <a href="https://arxiv.org/pdf/2601.21900" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
     <a href="https://github.com/XWH-A/IMAGEdit" target="_blank">[Code]</a>
@@ -163,7 +179,7 @@ My research focuses on **Large Model Safety** and **Controllable Generation**, o
   </div>
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>SGMHand: Structure-Guided Modulation for Structure-Aware Hand Inpainting</strong><br>
-   Chuancheng Shi, Shiming Guo, Yixiang Chen, Ke Shui, <strong>F. Shen</strong><sup>✉</sup><br>
+   C. Shi, S. Guo, Y. Chen, K. Shui, <strong>F. Shen</strong><sup>✉</sup><br>
     AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>), 2026.<br>
     <a href="https://openreview.net/pdf?id=k8dzFj3yAF" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
@@ -179,7 +195,7 @@ My research focuses on **Large Model Safety** and **Controllable Generation**, o
   </div>
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>CoC-VLA: Delving into Adversarial Domain Transfer for Explainable Autonomous Driving via Chain-of-Causality Visual-Language-Action Model</strong><br>
-   Dapeng Zhang, <strong>F. Shen</strong><sup>✉</sup>, Rui Zhao, Yinda Chen, Peng Zhi, Chenyang Li, Rui Zhou, Qingguo Zhou<br>
+    D. Zhang, <strong>F. Shen</strong><sup>✉</sup>, R. Zhao, Y. Chen, P. Zhi, C. Li, R. Zhou, Q. Zhou<br>
     Neural Information Processing Systems (<strong>NeurIPS</strong>), 2025.<br>
     <a href="https://openreview.net/pdf?id=qUmULptJuY" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
