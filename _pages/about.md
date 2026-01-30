@@ -79,6 +79,8 @@ My research focuses on **Large Model Safety** and **Controllable Generation**, o
     <strong>TraceRouter: Robust Safety for Large Foundation Models via Path-Level Intervention</strong><br>
     C. Shi, S. Li, W. Lu, W. Wu, C. Wang, Z. Cheng, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
     <a href="https://arxiv.org/pdf/2601.21900" target="_blank">[PDF]</a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/XWH-A/IMAGEdit" target="_blank">[Code]</a>
   </div>
 </div>
 
@@ -94,6 +96,8 @@ My research focuses on **Large Model Safety** and **Controllable Generation**, o
     C. Shi, S. Li, S. Guo, S. Xie, W. Wu, J. Dou, C. Wu, C. Xiao, C. Wang, Z. Cheng, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
     Under Review.<br>
     <a href="https://arxiv.org/pdf/2511.17282" target="_blank">[PDF]</a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/XWH-A/IMAGEdit" target="_blank">[Code]</a>
   </div>
 </div>
 
