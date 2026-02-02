@@ -75,11 +75,12 @@ My research focuses on **Large Model Safety** and **Controllable Generation**, o
   </div>
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>DNA: Uncovering Universal Latent Forgery Knowledge</strong><br>
-    J. Dou, C. Shi, Y. Wang, S. Guo, A. Yi, W. Wu, L. Zhang, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
+    J. Dou, C. Shi, Y. Wang, S. Guo, A. Yi, W. Wu, L. Zhang,<br>
+     <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
     Under Review.<br>
-    <a href="https://arxiv.org/abs/2601.22515" target="_blank">[arXiv]</a>
+    <a href="https://arxiv.org/abs/2601.22515" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
-    <a href="https://arxiv.org/pdf/2601.22515" target="_blank">[PDF]</a>
+    <a href="https://github.com/zsxr15/Lingua-SafetyBench" target="_blank">[Code]</a>
   </div>
 </div>
 
@@ -95,27 +96,11 @@ My research focuses on **Large Model Safety** and **Controllable Generation**, o
     E. Shi, P. Shao, Y. Zhang, C. Cui, J. Lyu, X. Xie, X. Xia, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
     Under Review.<br>
     <a href="https://arxiv.org/pdf/2601.22737" target="_blank">[PDF]</a>
+    <a href="https://github.com/zsxr15/Lingua-SafetyBench" target="_blank">[Code]</a>
   </div>
 </div>
 
 
-
-
-<div class="pub-row">
-  <div class="pub-left">
-    <div class="thumb">
-      <img src="{{ '/images/paper-images/imaggarmentplus.png' | relative_url }}" alt="imaggarmentplus">
-    </div>
-  </div>
-  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
-    <strong>IMAGGarment+: Efficient Attribute-Wise Diffusion for Garment Generation</strong><br>
-    J. Yu*, <strong>F. Shen*</strong>, C. Wang, Y. Sun, H. Tang, Q. Guo, X. Du<br>
-    AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>), 2026.<br>
-    <a href="https://arxiv.org/pdf/2601.21900" target="_blank">[PDF]</a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/XWH-A/IMAGEdit" target="_blank">[Code]</a>
-  </div>
-</div>
 
 
 <div class="pub-row">
@@ -204,6 +189,21 @@ My research focuses on **Large Model Safety** and **Controllable Generation**, o
   </div>
 </div>
 
+<div class="pub-row">
+  <div class="pub-left">
+    <div class="thumb">
+      <img src="{{ '/images/paper-images/imaggarmentplus.png' | relative_url }}" alt="imaggarmentplus">
+    </div>
+  </div>
+  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
+    <strong>IMAGGarment+: Efficient Attribute-Wise Diffusion for Garment Generation</strong><br>
+    J. Yu*, <strong>F. Shen*</strong>, C. Wang, Y. Sun, H. Tang, Q. Guo, X. Du<br>
+    AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>), 2026.<br>
+    <a href="https://arxiv.org/pdf/2601.21900" target="_blank">[PDF]</a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/XWH-A/IMAGEdit" target="_blank">[Code]</a>
+  </div>
+</div>
 
 <div class="pub-row">
   <div class="pub-left">
