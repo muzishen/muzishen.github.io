@@ -18,6 +18,15 @@ author_profile: true
   <h3>Ph.D. Students</h3>
   <ul>
     <li>
+      <strong>Zhongkuan Mao</strong> (Ph.D., Sichuan University),
+      working on <span class="tag">LLMs</span> &amp; <span class="tag">MLLMs</span>
+      <br>
+      <span class="meta">Publication:</span>
+      <br>
+      <span class="meta">Submissions:</span>
+    </li>
+    <li>
+    <li>
       <strong>Chenhang Cui</strong> (Ph.D., National University of Singapore),
       working on <span class="tag">LLMs</span> &amp; <span class="tag">MLLMs</span>
       <br>
@@ -31,7 +40,7 @@ author_profile: true
       <br>
       <span class="meta">Publication:</span>
       <br>
-      <span class="meta">Submissions:</span>
+      <span class="meta">Submissions:</span> IJCAI (under review)
     </li>
     <li>
       <strong>Chuancheng Shi</strong> (Ph.D., The University of Sydney),
