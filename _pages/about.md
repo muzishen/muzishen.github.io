@@ -96,6 +96,7 @@ My research focuses on **Large Model Safety** and **Controllable Generation**, o
     E. Shi, P. Shao, Y. Zhang, C. Cui, J. Lyu, X. Xie, X. Xia, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
     Under Review.<br>
     <a href="https://arxiv.org/pdf/2601.22737" target="_blank">[PDF]</a>
+      &nbsp;&nbsp;
     <a href="https://github.com/zsxr15/Lingua-SafetyBench" target="_blank">[Code]</a>
   </div>
 </div>
