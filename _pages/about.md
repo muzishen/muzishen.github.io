@@ -70,6 +70,40 @@ My research focuses on **Large Model Safety** and **Controllable Generation**, o
 <div class="pub-row">
   <div class="pub-left">
     <div class="thumb">
+      <img src="{{ '/images/paper-images/DNA.png' | relative_url }}" alt="dna">
+    </div>
+  </div>
+  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
+    <strong>DNA: Uncovering Universal Latent Forgery Knowledge</strong><br>
+    J. Dou, C. Shi, Y. Wang, S. Guo, A. Yi, W. Wu, L. Zhang, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
+    Under Review.<br>
+    <a href="https://arxiv.org/abs/2601.22515" target="_blank">[arXiv]</a>
+    &nbsp;&nbsp;
+    <a href="https://arxiv.org/pdf/2601.22515" target="_blank">[PDF]</a>
+  </div>
+</div>
+
+
+<div class="pub-row">
+  <div class="pub-left">
+    <div class="thumb">
+      <img src="{{ '/images/paper-images/safetybench.png' | relative_url }}" alt="lingua-safetybench">
+    </div>
+  </div>
+  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
+    <strong>Lingua-SafetyBench: A Benchmark for Safety Evaluation of Multilingual Vision-Language Models</strong><br>
+    E. Shi, P. Shao, Y. Zhang, C. Cui, J. Lyu, X. Xie, X. Xia, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
+    Under Review.<br>
+    <a href="https://arxiv.org/pdf/2601.22737" target="_blank">[PDF]</a>
+  </div>
+</div>
+
+
+
+
+<div class="pub-row">
+  <div class="pub-left">
+    <div class="thumb">
       <img src="{{ '/images/paper-images/imaggarmentplus.png' | relative_url }}" alt="imaggarmentplus">
     </div>
   </div>
