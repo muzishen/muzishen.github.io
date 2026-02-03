@@ -18,7 +18,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
 
 # 📚 Research Interests
 
-My research focuses on **Latent Knowledge**, **Large Model Safety** and **Controllable Generation**, organized into two themes:
+My research focuses on **Latent Knowledge**, **Large Model Safety** and **Controllable Generation**, organized into three themes:
 
 - **Latent Knowledge**
   - Modality-Specific and Shared Representations
