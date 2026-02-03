@@ -67,6 +67,26 @@ My research focuses on **Large Model Safety** and **Controllable Generation**, o
 
 # 📝 Selected Publications
 
+
+<div class="pub-row">
+  <div class="pub-left">
+    <div class="thumb">
+      <img src="{{ '/images/paper-images/transform_safe.png' | relative_url }}" alt="who-transfers-safety">
+    </div>
+  </div>
+  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
+    <strong>Who Transfers Safety? Identifying and Targeting Cross-Lingual Shared Safety Neurons</strong><br>
+    X. Zhang, C. Xie, L. Zhu, Y. Yang, W. Zhao, Z. Cheng, C. Wang, <br>
+    <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
+    Under Review.<br>
+    <a href="https://arxiv.org/pdf/2602.01283" target="_blank">[PDF]</a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/1518630367/SS-Neuron-Expansion" target="_blank">[Code]</a>
+  </div>
+</div>
+
+
+
 <div class="pub-row">
   <div class="pub-left">
     <div class="thumb">
