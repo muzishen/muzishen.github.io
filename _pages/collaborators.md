@@ -26,7 +26,6 @@ author_profile: true
       <span class="meta">Submissions:</span>
     </li>
     <li>
-    <li>
       <strong>Chenhang Cui</strong> (Ph.D., National University of Singapore),
       working on <span class="tag">LLMs</span> &amp; <span class="tag">MLLMs</span>
       <br>
