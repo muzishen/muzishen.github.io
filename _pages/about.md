@@ -389,7 +389,7 @@ My research focuses on **Latent Knowledge**, **Large Model Safety** and **Contro
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>Triplet Contrastive Representation Learning for Unsupervised Vehicle Re-Identification</strong><br>
     <strong>F. Shen</strong>, X. Du, L. Zhang, X. Shu, J. Tang<br>
-    ACM Transactions on Multimedia Computing, Communications and Applications (<strong>IEEE TITS</strong>), 2024<br>.<br>
+    ACM Transactions on Multimedia Computing, Communications and Applications (<strong>ToMM</strong>), 2024<br>.<br>
     <a href="https://dl.acm.org/doi/epdf/10.1145/3695255" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
     <a href="https://muzishen.github.io/" target="_blank">[Code]</a>
