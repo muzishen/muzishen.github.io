@@ -70,6 +70,9 @@ My research focuses on **Latent Knowledge**, **Large Model Safety** and **Contro
 
 # 📝 Selected Publications
 
+
+
+
 <div class="pub-row">
   <div class="pub-left">
     <div class="thumb">
@@ -79,8 +82,10 @@ My research focuses on **Latent Knowledge**, **Large Model Safety** and **Contro
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>Transport and Merge: Cross-Architecture Merging for Large Language Models</strong><br>
     C. Cui, B. Yang, <strong>F. Shen</strong><sup>✉</sup>, Y. Chen, J. Zheng, X. Wang, A. Zhang, T.-S. Chua<br>
-    arXiv preprint.<br>
+    Under Review.<br>
     <a href="https://arxiv.org/pdf/2602.05495" target="_blank">[PDF]</a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/chenhangcuisg-code/Cross-Architecture-Merging-for-Large-Language-Models" target="_blank">[Code]</a>
   </div>
 </div>
 
