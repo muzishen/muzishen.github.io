@@ -416,6 +416,21 @@ My research focuses on **Latent Knowledge**, **Large Model Safety** and **Contro
 </div>
 <!-- END | GiT -->
 
+<div class="pub-row">
+  <div class="pub-left">
+    <div class="thumb">
+      <img src="{{ '/images/paper-images/hpgn.png' | relative_url }}" alt="hybrid-pyramidal-graph-network">
+    </div>
+  </div>
+  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
+    <strong>Exploring Spatial Significance via Hybrid Pyramidal Graph Network for Vehicle Re-Identification</strong><br>
+    <strong>F. Shen</strong>, J. Zhu, X. Zhu, Y. Xie, J. Huang<br>
+    IEEE Transactions on Intelligent Transportation Systems, 2023. <br>
+    <a href="https://muzishen.github.io/" target="_blank">[PDF]</a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/muzishen/HPGN" target="_blank">[Code]</a>
+  </div>
+</div>
 
 
 <!-- START | PBSL -->
@@ -435,21 +450,6 @@ My research focuses on **Latent Knowledge**, **Large Model Safety** and **Contro
   </div>
 </div>
 <!-- END | PBSL -->
-<div class="pub-row">
-  <div class="pub-left">
-    <div class="thumb">
-      <img src="{{ '/images/paper-images/hpgn.png' | relative_url }}" alt="hybrid-pyramidal-graph-network">
-    </div>
-  </div>
-  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
-    <strong>Exploring Spatial Significance via Hybrid Pyramidal Graph Network for Vehicle Re-Identification</strong><br>
-    <strong>F. Shen</strong>, J. Zhu, X. Zhu, Y. Xie, J. Huang<br>
-    IEEE Transactions on Intelligent Transportation Systems, 2021. <br>
-    <a href="https://muzishen.github.io/" target="_blank">[PDF]</a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/muzishen/HPGN" target="_blank">[Code]</a>
-  </div>
-</div>
 
 
 
