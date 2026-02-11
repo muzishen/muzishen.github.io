@@ -444,7 +444,7 @@ My research focuses on **Latent Knowledge**, **Large Model Safety** and **Contro
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>Exploring Spatial Significance via Hybrid Pyramidal Graph Network for Vehicle Re-Identification</strong><br>
     <strong>F. Shen</strong>, J. Zhu, X. Zhu, Y. Xie, J. Huang<br>
-    IEEE Transactions on Intelligent Transportation Systems (<strong>IEEE TITS</strong>), 2021<br>.<br>
+    IEEE Transactions on Intelligent Transportation Systems, 2021. <br>
     <a href="https://muzishen.github.io/" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
     <a href="https://github.com/muzishen/HPGN" target="_blank">[Code]</a>
