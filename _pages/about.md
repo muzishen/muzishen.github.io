@@ -46,6 +46,7 @@ My research focuses on **Latent Knowledge**, **Large Model Safety** and **Contro
 
 
 # 🔥 News {#news}
+- *2026.02*: &nbsp;🎉 Two papers were accepted by <strong>CVPR 2026<strong>.
 - *2026.01*: &nbsp;🎉 One paper was accepted by <strong>IEEE TIP<strong>.
 - *2025.11*: &nbsp;🎉 Seven papers were accepted by <strong>AAAI 2026<strong>, including 5 Orals.
 <!-- - *2025.06*: &nbsp;🔥 We released **[IMAGEdit](https://github.com/XWH-A/IMAGEdit)** for video editing. -->
@@ -173,7 +174,7 @@ My research focuses on **Latent Knowledge**, **Large Model Safety** and **Contro
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>Where Culture Fades: Revealing the Cultural Gap in Text-to-Image Generation</strong><br>
     C. Shi, S. Li, S. Guo, S. Xie, W. Wu, J. Dou, C. Wu, C. Xiao, C. Wang, Z. Cheng, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
-    Under Review.<br>
+    The IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>), 2026.<br>
     <a href="https://arxiv.org/pdf/2511.17282" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
     <a href="https://github.com/XWH-A/IMAGEdit" target="_blank">[Code]</a>
