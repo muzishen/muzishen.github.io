@@ -20,7 +20,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
 
 My research focuses on **Latent Knowledge**, **Large Model Safety** and **Controllable Generation**, organized into three themes:
 
-- **Latent Knowledge**
+- **Latent Knowledge of LFMs**
   - Modality-Specific and Shared Representations
   - Cross-Lingual/Modal Transfer and Understanding
 
