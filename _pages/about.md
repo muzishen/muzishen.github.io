@@ -46,6 +46,7 @@ My research focuses on **Latent Knowledge**, **Large Model Safety** and **Contro
 
 
 # 🔥 News {#news}
+- *2026.03*: &nbsp;🎉 One paper were accepted by <strong>IEEE TVCG<strong>.
 - *2026.02*: &nbsp;🎉 Two papers were accepted by <strong>CVPR 2026<strong>.
 - *2026.01*: &nbsp;🎉 One paper was accepted by <strong>IEEE TIP<strong>.
 - *2025.11*: &nbsp;🎉 Seven papers were accepted by <strong>AAAI 2026<strong>, including 5 Orals.
@@ -227,7 +228,7 @@ My research focuses on **Latent Knowledge**, **Large Model Safety** and **Contro
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>IMAGGarment: Fine-grained garment generation for controllable fashion design</strong><br>
     <strong>F. Shen</strong>, J. Yu, C. Wang, X. Jiang, X. Du, J. Tang<br>
-    Under Review.<br>
+    IEEE Transactions on Visualization and Computer Graphics, (<strong>IEEE TVCG</strong>), 2026.<br>
     <a href="https://arxiv.org/pdf/2504.13176" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
     <a href="https://github.com/muzishen/IMAGGarment" target="_blank">[Code]</a>
@@ -426,7 +427,7 @@ My research focuses on **Latent Knowledge**, **Large Model Safety** and **Contro
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>Exploring Spatial Significance via Hybrid Pyramidal Graph Network for Vehicle Re-Identification</strong><br>
     <strong>F. Shen</strong>, J. Zhu, X. Zhu, Y. Xie, J. Huang<br>
-    IEEE Transactions on Intelligent Transportation Systems, 2023. <br>
+    IEEE Transactions on Intelligent Transportation Systems, (<strong>IEEE TITS</strong>), 2023. <br>
     <a href="https://muzishen.github.io/" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
     <a href="https://github.com/muzishen/HPGN" target="_blank">[Code]</a>
