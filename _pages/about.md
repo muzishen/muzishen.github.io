@@ -46,7 +46,7 @@ My research focuses on **Latent Knowledge**, **Large Model Safety** and **Contro
 
 
 # 🔥 News {#news}
-- *2026.03*: &nbsp;🎉 One paper were accepted by <strong>IEEE TVCG<strong>.
+- *2026.03*: &nbsp;🎉 One paper was accepted by <strong>IEEE TVCG<strong>.
 - *2026.02*: &nbsp;🎉 Two papers were accepted by <strong>CVPR 2026<strong>.
 - *2026.01*: &nbsp;🎉 One paper was accepted by <strong>IEEE TIP<strong>.
 - *2025.11*: &nbsp;🎉 Seven papers were accepted by <strong>AAAI 2026<strong>, including 5 Orals.
