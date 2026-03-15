@@ -157,6 +157,7 @@ My research focuses on **Latent Knowledge**, **Large Model Safety** and **Contro
     C. Shi, W. Wu, <strong>F. Shen</strong><sup>✉</sup>, X. Zhu, K. Hu, Z. Wang<br>
     Under Review.<br>
     <a href="https://arxiv.org/pdf/2603.11493" target="_blank">[PDF]</a>
+    &nbsp;&nbsp;
     <a href="https://github.com/XWH-A/IMAGEdit" target="_blank">[Code]</a>
   </div>
 </div>
