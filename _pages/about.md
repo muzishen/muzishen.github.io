@@ -146,7 +146,20 @@ My research focuses on **Latent Knowledge**, **Large Model Safety** and **Contro
   </div>
 </div>
 
-
+<div class="pub-row">
+  <div class="pub-left">
+    <div class="thumb">
+      <img src="{{ '/images/paper-images/orthoeraser.png' | relative_url }}" alt="orthoeraser">
+    </div>
+  </div>
+  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
+    <strong>OrthoEraser: Coupled-Neuron Orthogonal Projection for Concept Erasure</strong><br>
+    C. Shi, W. Wu, <strong>F. Shen</strong><sup>✉</sup>, X. Zhu, K. Hu, Z. Wang<br>
+    Under Review.<br>
+    <a href="https://arxiv.org/pdf/2603.11493" target="_blank">[PDF]</a>
+    <a href="https://github.com/XWH-A/IMAGEdit" target="_blank">[Code]</a>
+  </div>
+</div>
 
 
 <div class="pub-row">
