@@ -42,14 +42,6 @@ author_profile: true
       <span class="meta">Submissions:</span> TCDS (under review), ACM MM (under review)
     </li>
     <li>
-      <strong>Chuancheng Shi</strong> (Ph.D., The University of Sydney),
-      working on <span class="tag">AIGC</span> <span class="tag">LLMs</span> <span class="tag">MLLMs</span>
-      <br>
-      <span class="meta">Publication:</span> 1 x AAAI, 1 x CVPR 
-      <br>
-      <span class="meta">Submissions:</span> 2 x ICML (under review), 2 x ACM MM (under review)
-    </li>
-    <li>
       <strong>Dapeng Zhang</strong> (Ph.D., Lanzhou University),
       working on <span class="tag">VLA</span>
       <br>
@@ -62,6 +54,14 @@ author_profile: true
 
   <h3>Master's Students</h3>
   <ul>
+      <li>
+      <strong>Chuancheng Shi</strong> (M.Sc., The University of Sydney),
+      working on <span class="tag">AIGC</span> <span class="tag">LLMs</span> <span class="tag">MLLMs</span>
+      <br>
+      <span class="meta">Publication:</span> 1 x AAAI, 1 x CVPR 
+      <br>
+      <span class="meta">Submissions:</span> 2 x ICML (under review), 2 x ACM MM (under review)
+    </li>
     <li>
       <strong>Yuting Zhang</strong> (M.Sc., Nanjing University),
       working on <span class="tag">AIGC</span>
