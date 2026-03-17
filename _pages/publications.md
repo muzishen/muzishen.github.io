@@ -163,7 +163,7 @@ author_profile: true
 
 <li>
   <p>
-    Cross-modal Proxy Evolving for OOD Detection with Vision-Language Models.<br>
+    <a href="https://arxiv.org/pdf/2601.08476" target="_blank">Cross-modal Proxy Evolving for OOD Detection with Vision-Language Models.</a><br>
     H. Tang, Y. Liu, S. Yan, <strong>F. Shen</strong>, S. He, J. Qin<br>
     In AAAI Conference on Artificial Intelligence (<strong>AAAI 2026</strong>).<br>
   </p>
@@ -171,7 +171,7 @@ author_profile: true
 
 <li>
   <p>
-    Seeing through the Conflict: Transparent Knowledge Conflict Handling in Retrieval-Augmented Generation.<br>
+    <a href="https://arxiv.org/pdf/2601.06842" target="_blank">Seeing through the Conflict: Transparent Knowledge Conflict Handling in Retrieval-Augmented Generation.</a><br>
     H. Ye, S. Chen, Z. Zhong, C. Xiao, H. Zhang, Y. Wu, <strong>F. Shen</strong><br>
     In AAAI Conference on Artificial Intelligence (<strong>AAAI 2026</strong>).<br>
   </p>
