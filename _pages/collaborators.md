@@ -39,15 +39,15 @@ author_profile: true
       <br>
       <span class="meta">Publication:</span>
       <br>
-      <span class="meta">Submissions:</span> IJCAI (under review)
+      <span class="meta">Submissions:</span> TCDS (under review), ACM MM (under review)
     </li>
     <li>
       <strong>Chuancheng Shi</strong> (Ph.D., The University of Sydney),
       working on <span class="tag">AIGC</span> <span class="tag">LLMs</span> <span class="tag">MLLMs</span>
       <br>
-      <span class="meta">Publication:</span> 1 x AAAI,
+      <span class="meta">Publication:</span> 1 x AAAI, 1 x CVPR 
       <br>
-      <span class="meta">Submissions:</span> CVPR (under review), 2 x ICML (under review)
+      <span class="meta">Submissions:</span> 2 x ICML (under review), 2 x ACM MM (under review)
     </li>
     <li>
       <strong>Dapeng Zhang</strong> (Ph.D., Lanzhou University),
@@ -55,9 +55,10 @@ author_profile: true
       <br>
       <span class="meta">Publication:</span> 1 x NeurIPS,
       <br>
-      <span class="meta">Submissions:</span> CVPR (under review), IJCV (under review)
+      <span class="meta">Submissions:</span> ICML (under review), IJCV (under review)
     </li>
   </ul>
+
 
   <h3>Master's Students</h3>
   <ul>
@@ -73,9 +74,9 @@ author_profile: true
       <strong>Jian Yu</strong> (M.Sc., Nanjing University of Science and Technology),
       working on <span class="tag">AIGC</span>
       <br>
-      <span class="meta">Publication:</span> 1x AAAI,
+      <span class="meta">Publication:</span> 1x AAAI, 1 x TVCG 
       <br>
-      <span class="meta">Submissions:</span> TVCG (major revision), SIGGRAPH Asia (under review)
+      <span class="meta">Submissions:</span> ACM MM (under review)
     </li>
     <li>
       <strong>Weihao Xu</strong> (M.Sc., Nanjing University of Science and Technology),
@@ -143,7 +144,7 @@ author_profile: true
       <br>
       <span class="meta">Publication:</span>
       <br>
-      <span class="meta">Submissions:</span> ICML (under review)
+      <span class="meta">Submissions:</span> ICML (under review), ACM MM (under review)
     </li>
   </ul>
 
