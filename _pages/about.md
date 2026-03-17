@@ -200,6 +200,23 @@ My research focuses on **Latent Knowledge**, **Large Model Safety** and **Contro
 <div class="pub-row">
   <div class="pub-left">
     <div class="thumb">
+      <img src="{{ '/images/paper-images/imagagent.png' | relative_url }}" alt="imagagent">
+    </div>
+  </div>
+  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
+    <strong>IMAGAGENT: Orchestrating Multi-Turn Image Editing via Constraint-Aware Planning and Reflection</strong><br>
+    <strong>F. Shen</strong>, C. Xie, L. Wang, Z. Zhang, X. Jiang, X. Du, J. Tang<br>
+    Under Review.<br>
+    <a href="https://www.researchgate.net/profile/Chengyu-Xie-6/publication/401700345_IMAGAgent_Orchestrating_Multi-Turn_Image_Editing_via_Constraint-Aware_Planning_and_Reflection/links/69aebe8ea91b826e43486eda/IMAGAgent-Orchestrating-Multi-Turn-Image-Editing-via-Constraint-Aware-Planning-and-Reflection.pdf" target="_blank">[PDF]</a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/hackermmzz/IMAGAgent" target="_blank">[Code]</a>
+  </div>
+</div>
+
+
+<div class="pub-row">
+  <div class="pub-left">
+    <div class="thumb">
       <img src="{{ '/images/paper-images/imagedit.png' | relative_url }}" alt="imagedit">
     </div>
   </div>
