@@ -204,7 +204,7 @@ My research focuses on **Latent Knowledge**, **Large Model Safety** and **Contro
     </div>
   </div>
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
-    <strong>IMAGAGENT: Orchestrating Multi-Turn Image Editing via Constraint-Aware Planning and Reflection</strong><br>
+    <strong>IMAGAgent: Orchestrating Multi-Turn Image Editing via Constraint-Aware Planning and Reflection</strong><br>
     <strong>F. Shen</strong>, C. Xie, L. Wang, Z. Zhang, X. Jiang, X. Du, J. Tang<br>
     Under Review.<br>
     <a href="https://www.researchgate.net/profile/Chengyu-Xie-6/publication/401700345_IMAGAgent_Orchestrating_Multi-Turn_Image_Editing_via_Constraint-Aware_Planning_and_Reflection/links/69aebe8ea91b826e43486eda/IMAGAgent-Orchestrating-Multi-Turn-Image-Editing-via-Constraint-Aware-Planning-and-Reflection.pdf" target="_blank">[PDF]</a>
@@ -250,21 +250,6 @@ My research focuses on **Latent Knowledge**, **Large Model Safety** and **Contro
 
 
 
-<div class="pub-row">
-  <div class="pub-left">
-    <div class="thumb">
-      <img src="{{ '/images/paper-images/imaggarment.png' | relative_url }}" alt="imaggarment">
-    </div>
-  </div>
-  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
-    <strong>IMAGGarment: Fine-grained garment generation for controllable fashion design</strong><br>
-    <strong>F. Shen</strong>, J. Yu, C. Wang, X. Jiang, X. Du, J. Tang<br>
-    IEEE Transactions on Visualization and Computer Graphics, (<strong>IEEE TVCG</strong>), 2026.<br>
-    <a href="https://arxiv.org/pdf/2504.13176" target="_blank">[PDF]</a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/muzishen/IMAGGarment" target="_blank">[Code]</a>
-  </div>
-</div>
 
 <div class="pub-row">
   <div class="pub-left">
@@ -281,6 +266,24 @@ My research focuses on **Latent Knowledge**, **Large Model Safety** and **Contro
     <a href="https://github.com/XWH-A/IMAGEdit" target="_blank">[Code]</a>
   </div>
 </div>
+
+
+<div class="pub-row">
+  <div class="pub-left">
+    <div class="thumb">
+      <img src="{{ '/images/paper-images/imaggarment.png' | relative_url }}" alt="imaggarment">
+    </div>
+  </div>
+  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
+    <strong>IMAGGarment: Fine-grained garment generation for controllable fashion design</strong><br>
+    <strong>F. Shen</strong>, J. Yu, C. Wang, X. Jiang, X. Du, J. Tang<br>
+    IEEE Transactions on Visualization and Computer Graphics, (<strong>IEEE TVCG</strong>), 2026.<br>
+    <a href="https://arxiv.org/pdf/2504.13176" target="_blank">[PDF]</a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/muzishen/IMAGGarment" target="_blank">[Code]</a>
+  </div>
+</div>
+
 
 <div class="pub-row">
   <div class="pub-left">

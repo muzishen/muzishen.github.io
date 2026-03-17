@@ -123,7 +123,7 @@ author_profile: true
 
 <li>
   <p>
-    <a href="https://www.researchgate.net/profile/Chengyu-Xie-6/publication/401700345_IMAGAgent_Orchestrating_Multi-Turn_Image_Editing_via_Constraint-Aware_Planning_and_Reflection/links/69aebe8ea91b826e43486eda/IMAGAgent-Orchestrating-Multi-Turn-Image-Editing-via-Constraint-Aware-Planning-and-Reflection.pdf" target="_blank">IMAGAGENT: Orchestrating Multi-Turn Image Editing via Constraint-Aware Planning and Reflection.</a><br>
+    <a href="https://www.researchgate.net/profile/Chengyu-Xie-6/publication/401700345_IMAGAgent_Orchestrating_Multi-Turn_Image_Editing_via_Constraint-Aware_Planning_and_Reflection/links/69aebe8ea91b826e43486eda/IMAGAgent-Orchestrating-Multi-Turn-Image-Editing-via-Constraint-Aware-Planning-and-Reflection.pdf" target="_blank">IMAGagent: Orchestrating Multi-Turn Image Editing via Constraint-Aware Planning and Reflection.</a><br>
     <strong>F. Shen</strong>, C. Xie, L. Wang, Z. Zhang, X. Jiang, X. Du, J. Tang<br>
     Under Review.<br>
   </p>
