@@ -22,7 +22,37 @@ author_profile: true
 <ol>
 
 
+<li>
+  <p>
+    <a href="https://arxiv.org/pdf/2603.01536" target="_blank">CLEAR: Null-Space Projection for Cross-Modal De-Redundancy in Multimodal Recommendation.</a><br>
+    H. Zhan, Y. Wang, Y. Yang, D. Yue, Y. Wang, P. Shao, <strong>F. Shen</strong>, F. Liu, L. Wu<br>
+    Under Review.<br>
+  </p>
+</li>
 
+<li>
+  <p>
+    <a href="https://arxiv.org/pdf/2603.01776" target="_blank">FreeAct: Freeing Activations for LLM Quantization.</a><br>
+    X. Liu, X. Xia, M. Zhang, J.-F. Li, X. Yu, <strong>F. Shen</strong>, X. Su, S.-K. Ng, T.-S. Chua<br>
+    Under Review.<br>
+  </p>
+</li>
+
+<li>
+  <p>
+    <a href="https://arxiv.org/pdf/2602.11241" target="_blank">Active Zero: Self-Evolving Vision-Language Models through Active Environment Exploration.</a><br>
+    J. He, J. Fang, F. Xiong, Z. Yao, <strong>F. Shen</strong>, H. Guo, J. Wang, T.-S. Chua<br>
+    Under Review.<br>
+  </p>
+</li>
+
+<li>
+  <p>
+    <a href="https://arxiv.org/pdf/2603.02219" target="_blank">NExT-Guard: Training-Free Streaming Safeguard without Token-Level Labels.</a><br>
+    J. Fang, N. Chen, H. Jiang, D. Zhang, <strong>F. Shen</strong>, X. Wang, X. He, T.-S. Chua<br>
+    Under Review.<br>
+  </p>
+</li>
 
 <li>
   <p>
@@ -110,13 +140,7 @@ author_profile: true
     </p>
   </li>
 
-  <li>
-    <p>
-      <a href="https://arxiv.org/pdf/2504.13176" target="_blank">IMAGGarment: Fine-Grained Garment Generation for Controllable Fashion Design.</a><br>
-      <strong>F. Shen</strong>, J. Yu, C. Wang, X. Jiang, X. Du, J. Tang<br>
-      Under Review.<br>
-    </p>
-  </li>
+
 
   <li>
     <p>
@@ -159,11 +183,29 @@ author_profile: true
 
 <li>
   <p>
+    <a href="https://arxiv.org/pdf/2504.13176" target="_blank">IMAGGarment: Fine-Grained Garment Generation for Controllable Fashion Design.</a><br>
+    <strong>F. Shen</strong>, J. Yu, C. Wang, X. Jiang, X. Du, J. Tang<br>
+    IEEE Transactions on Visualization and Computer Graphics (<strong>TVCG</strong>), 2026.<br>
+  </p>
+</li>
+
+<li>
+  <p>
     <a href="https://arxiv.org/pdf/2511.17282" target="_blank">Where Culture Fades: Revealing the Cultural Gap in Text-to-Image Generation.</a><br>
     C. Shi, S. Li, S. Guo, S. Xie, W. Wu, J. Dou, C. Wu, C. Xiao, C. Wang, Z. Cheng, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
     In The IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR 2026</strong>).<br>
   </p>
 </li>
+
+
+<li>
+  <p>
+    <a href="https://ieeexplore.ieee.org/abstract/document/11351329" target="_blank">Progressive Feature Encoding with Background Perturbation Learning for Ultra-Fine-Grained Visual Categorization.</a><br>
+    X. Jiang, Z. Fang, <strong>F. Shen</strong>, J. Gao, Z. Li<br>
+    IEEE Transactions on Image Processing (<strong>TIP</strong>), 2026.<br>
+  </p>
+</li>
+
 
 <li>
   <p>
