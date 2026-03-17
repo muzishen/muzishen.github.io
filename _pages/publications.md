@@ -24,7 +24,53 @@ author_profile: true
 
 
 
+<li>
+  <p>
+    <a href="https://arxiv.org/pdf/2602.05495" target="_blank">Transport and Merge: Cross-Architecture Merging for Large Language Models.</a><br>
+    C. Cui, B. Yang, <strong>F. Shen</strong><sup>✉</sup>, Y. Chen, J. Zheng, X. Wang, A. Zhang, T.-S. Chua<br>
+    Under Review.<br>
+  </p>
+</li>
 
+<li>
+  <p>
+    <a href="https://arxiv.org/pdf/2602.01283" target="_blank">Who Transfers Safety? Identifying and Targeting Cross-Lingual Shared Safety Neurons.</a><br>
+    X. Zhang, C. Xie, L. Zhu, Y. Yang, W. Zhao, Z. Cheng, C. Wang, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
+    Under Review.<br>
+  </p>
+</li>
+
+<li>
+  <p>
+    <a href="https://arxiv.org/abs/2601.22515" target="_blank">DNA: Uncovering Universal Latent Forgery Knowledge.</a><br>
+    J. Dou, C. Shi, Y. Wang, S. Guo, A. Yi, W. Wu, L. Zhang, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
+    Under Review.<br>
+  </p>
+</li>
+
+<li>
+  <p>
+    <a href="https://arxiv.org/pdf/2601.22737" target="_blank">Lingua-SafetyBench: A Benchmark for Safety Evaluation of Multilingual Vision-Language Models.</a><br>
+    E. Shi, P. Shao, Y. Zhang, C. Cui, J. Lyu, X. Xie, X. Xia, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
+    Under Review.<br>
+  </p>
+</li>
+
+<li>
+  <p>
+    <a href="https://arxiv.org/pdf/2603.11493" target="_blank">OrthoEraser: Coupled-Neuron Orthogonal Projection for Concept Erasure.</a><br>
+    C. Shi, W. Wu, <strong>F. Shen</strong><sup>✉</sup>, X. Zhu, K. Hu, Z. Wang<br>
+    Under Review.<br>
+  </p>
+</li>
+
+<li>
+  <p>
+    <a href="https://arxiv.org/pdf/2601.21900" target="_blank">TraceRouter: Robust Safety for Large Foundation Models via Path-Level Intervention.</a><br>
+    C. Shi, S. Li, W. Lu, W. Wu, C. Wang, Z. Cheng, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
+    Under Review.<br>
+  </p>
+</li>
 
 
   <li>
