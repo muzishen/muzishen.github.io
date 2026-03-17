@@ -45,6 +45,16 @@ author_profile: true
   </p>
 </li>
 
+
+<li>
+  <p>
+    Progressive Local Self-Attention for Content-Aligned Super-Resolution.<br>
+    D. Huang, X. Zhu, F. Chen, <strong>F. Shen</strong><sup>✉</sup>, T. Lai, H. Zeng, J. Hou<br>
+    Under Review.<br>
+  </p>
+</li>
+
+
 <li>
   <p>
     <a href="https://arxiv.org/pdf/2601.22737" target="_blank">Lingua-SafetyBench: A Benchmark for Safety Evaluation of Multilingual Vision-Language Models.</a><br>
@@ -57,6 +67,14 @@ author_profile: true
   <p>
     <a href="https://arxiv.org/pdf/2603.11493" target="_blank">OrthoEraser: Coupled-Neuron Orthogonal Projection for Concept Erasure.</a><br>
     C. Shi, W. Wu, <strong>F. Shen</strong><sup>✉</sup>, X. Zhu, K. Hu, Z. Wang<br>
+    Under Review.<br>
+  </p>
+</li>
+
+<li>
+  <p>
+    High-Fidelity One-Step Real-Image Super-Resolution via Decoupled Optimization and Latent Adaptation.<br>
+    D. Huang, Y. Guo, Y. Huang, <strong>F. Shen</strong><sup>✉</sup>, Z. Hu, H. Zeng<br>
     Under Review.<br>
   </p>
 </li>
@@ -102,6 +120,24 @@ author_profile: true
     Under Review.<br>
   </p>
 </li>
+
+<li>
+  <p>
+    <a href="https://arxiv.org/abs/2603.14704" target="_blank">Chain-of-Trajectories: Unlocking the Intrinsic Generative Optimality of Diffusion Models via Graph-Theoretic Planning.</a><br>
+    P. Chen, X. Liu, X. Zhang, <strong>F. Shen</strong>, X. Gong, Z. Liu, Z. Chen, H. Hu, K. Wang, S. Lian<br>
+    Under Review.<br>
+  </p>
+</li>
+
+
+<li>
+  <p>
+    <a href="https://arxiv.org/abs/2603.14941" target="_blank">RS-WorldModel: A Unified Model for Remote Sensing Understanding and Future Sense Forecasting.</a><br>
+    L. Xu, Z. Wang, <strong>F. Shen</strong>, G. Xu, H. Zhuang, M. Li, H. Li<br>
+    Under Review.<br>
+  </p>
+</li>
+
 
 <li>
   <p>
