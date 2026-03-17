@@ -24,6 +24,31 @@ author_profile: true
 
 <li>
   <p>
+    <a href="https://arxiv.org/pdf/2511.19912" target="_blank">Reasoning-VLA: A Fast and General Vision-Language-Action Reasoning Model for Autonomous Driving.</a><br>
+    D. Zhang, Z. Yuan, Z. Chen, C.-T. Liao, Y. Chen, <strong>F. Shen</strong><sup>✉</sup>, Q. Zhou, T.-S. Chua<br>
+    Under Review.<br>
+  </p>
+</li>
+
+
+<li>
+  <p>
+    <a href="https://arxiv.org/pdf/2601.03190" target="_blank">Maximizing Local Entropy Where It Matters: Prefix-Aware Localized LLM Unlearning.</a><br>
+    N. Zhai, P. Shao, B. Zheng, Y. Yang, <strong>F. Shen</strong>, L. Bai, X. Yang<br>
+    Under Review.<br>
+  </p>
+</li>
+
+<li>
+  <p>
+    <a href="https://arxiv.org/pdf/2510.17520" target="_blank">Curiosity Meets Cooperation: A Game-Theoretic Approach to Long-Tail Multi-Label Learning.</a><br>
+    C. Xiao, C. Zhao, Z. Ke, <strong>F. Shen</strong><sup>✉</sup><br>
+    Under Review.<br>
+  </p>
+</li>
+
+<li>
+  <p>
     <a href="https://arxiv.org/pdf/2603.01536" target="_blank">CLEAR: Null-Space Projection for Cross-Modal De-Redundancy in Multimodal Recommendation.</a><br>
     H. Zhan, Y. Wang, Y. Yang, D. Yue, Y. Wang, P. Shao, <strong>F. Shen</strong>, F. Liu, L. Wu<br>
     Under Review.<br>
@@ -408,6 +433,14 @@ author_profile: true
       In IEEE International Conference on Multimedia &amp; Expo (<strong>ICME 2025</strong>).<br>
     </p>
   </li>
+
+<li>
+  <p>
+    <a href="https://dl.acm.org/doi/pdf/10.1145/3731715.3734580" target="_blank">Visual Content Generation in the Era of Large Foundation Models.</a><br>
+    L. Qu, <strong>F. Shen</strong>, Z. Zhou, J. Lyu, W. Wang, L. Jiang<br>
+    In ACM International Conference on Multimedia Retrieval (<strong>ICMR 2025</strong>).<br>
+  </p>
+</li>
 
   <li>
     <p>
