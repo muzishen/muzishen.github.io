@@ -21,22 +21,10 @@ author_profile: true
 
 <ol>
 
-<li>
-  <p>
-    <a href="https://arxiv.org/pdf/2511.17282" target="_blank">Where Culture Fades: Revealing the Cultural Gap in Text-to-Image Generation.</a><br>
-    C. Shi, S. Li, S. Guo, S. Xie, W. Wu, J. Dou, C. Wu, C. Xiao, C. Wang, Z. Cheng, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
-    Under Review.<br>
-  </p>
-</li>
 
 
-<li>
-  <p>
-    <a href="https://arxiv.org/pdf/2511.15092" target="_blank">Jointly Conditioned Diffusion Model for Multi-View Pose-Guided Person Image Synthesis.</a><br>
-    C. Xie, Z. Gong, J. Ren, L. Yu, S. Shen, <strong>F. Shen</strong><sup>✉</sup>, X. Du<br>
-    Under Review.<br>
-  </p>
-</li>
+
+
 
 
   <li>
@@ -123,6 +111,30 @@ author_profile: true
 
 <ol>
 
+<li>
+  <p>
+    <a href="https://arxiv.org/pdf/2511.17282" target="_blank">Where Culture Fades: Revealing the Cultural Gap in Text-to-Image Generation.</a><br>
+    C. Shi, S. Li, S. Guo, S. Xie, W. Wu, J. Dou, C. Wu, C. Xiao, C. Wang, Z. Cheng, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
+    In The IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR 2026</strong>).<br>
+  </p>
+</li>
+
+<li>
+  <p>
+    <a href="https://arxiv.org/abs/2601.00327" target="_blank">HarmoniAD: Harmonizing Local Structures and Global Semantics for Anomaly Detection.</a><br>
+    N. Zhang, C. Shi, J. Dou, W. Wu, <strong>F. Shen</strong>, J. Cao<br>
+    In IEEE International Conference on Multimedia and Expo (<strong>ICME 2026</strong>).<br>
+  </p>
+</li>
+
+
+<li>
+  <p>
+    <a href="https://arxiv.org/pdf/2511.15092" target="_blank">Jointly Conditioned Diffusion Model for Multi-View Pose-Guided Person Image Synthesis.</a><br>
+    C. Xie, Z. Gong, J. Ren, L. Yu, S. Shen, <strong>F. Shen</strong><sup>✉</sup>, X. Du<br>
+    In IEEE International Conference on Acoustics, Speech and Signal Processing (<strong>ICASSP 2026</strong>).<br>
+  </p>
+</li>
 
 <li>
   <p>
