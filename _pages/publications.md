@@ -131,7 +131,7 @@ author_profile: true
 <li>
   <p>
     <a href="https://arxiv.org/pdf/2511.15092" target="_blank">Jointly Conditioned Diffusion Model for Multi-View Pose-Guided Person Image Synthesis.</a><br>
-    C. Xie, Z. Gong, J. Ren, L. Yu, S. Shen, <strong>F. Shen</strong><sup>✉</sup>, X. Du<br>
+    C. Xie, Z. Gong, J. Ren, L. Yu, S. Shen, X. Du, <strong>F. Shen</strong><br>
     In IEEE International Conference on Acoustics, Speech and Signal Processing (<strong>ICASSP 2026</strong>).<br>
   </p>
 </li>
