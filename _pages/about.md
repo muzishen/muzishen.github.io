@@ -18,23 +18,72 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
 
 # 📚 Research Interests
 
-My research focuses on **Latent Knowledge**, **Large Model Safety** and **Controllable Generation**, organized into three themes:
+<p style="font-size:0.95rem; line-height:1.6;">
+My research focuses on uncovering and utilizing <strong>latent knowledge</strong> in large foundation models (LFMs), 
+with an emphasis on <strong>multilingual, multimodal, and multi-agent systems</strong>. 
+At a conceptual level, this line of work is inspired by the philosophical view that diverse observable behaviors may arise from deeper shared structures:
+from <strong>Plato’s notion of abstract Forms</strong> to <strong>Aristotle’s distinction between potentiality and actuality</strong>. 
+I study how such latent knowledge is structured, how it gives rise to core capabilities (e.g., understanding, reasoning, and safety), 
+and how these capabilities can be <strong>activated, aligned, protected, and transferred</strong> across models and domains. 
+In parallel, I explore <strong>controllable image and video generation</strong> to enable reliable and fine-grained manipulation of visual content.
+</p>
 
-- **Latent Knowledge of LFMs**
-  - Modality-Specific and Shared Representations
-  - Cross-Lingual/Modal Transfer and Understanding
+<section id="research">
+  <h3>Research Directions</h3>
 
-- **Large Model Safety**
-  - Multilingual safety
-  - Multiagent safety
-  - Multimodal safety
+  <ul>
 
+    <!-- Direction 1 -->
+    <li>
+      <strong>Latent Knowledge of LFMs</strong>
+      <ul>
+        <li>
+          <strong>Specific and Shared Representations Analysis:</strong>
+          Understanding how latent knowledge is structured across language-, modality-, and agent-specific as well as shared representations, 
+          and how a unified semantic space emerges across multilingual, multimodal, and multi-agent systems.
+        </li>
 
-- **Image/Video Generation and Editing**
-  - Human/Story image generation
-  - Clothing/Fashion image generation
-  - Controllable editing
-  - Controllable adapter
+        <li>
+          <strong>Alignment, Transfer, and Enhancement:</strong>
+          Studying how latent capabilities can be activated, aligned, protected, and transferred across languages, modalities, agents, 
+          and model architectures, enabling scalable and robust capability reuse.
+        </li>
+
+        <li>
+          <strong>Representative Capability Domains:</strong>
+          Understanding and reasoning; safety and alignment; cultural awareness; forgery and anomaly detection.
+        </li>
+      </ul>
+    </li>
+
+    <!-- Direction 2 -->
+    <li>
+      <strong>Image/Video Generation and Editing</strong>
+      <ul>
+        <li>
+          <strong>Human- and Story-Centric Generation:</strong>
+          Generating coherent human-centric and story-driven visual content.
+        </li>
+
+        <li>
+          <strong>Fashion and Garment Generation:</strong>
+          Modeling fine-grained appearance and structure for clothing and fashion applications.
+        </li>
+
+        <li>
+          <strong>Controllable Editing:</strong>
+          Enabling precise and interpretable manipulation of visual content.
+        </li>
+
+        <li>
+          <strong>Modular and Adapter-based Generation:</strong>
+          Developing plug-and-play and scalable generation frameworks.
+        </li>
+      </ul>
+    </li>
+
+  </ul>
+</section>
 
 
 
