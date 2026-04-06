@@ -95,7 +95,7 @@ In parallel, I explore <strong>controllable image and video generation</strong> 
 
 
 # 🔥 News {#news}
-- *2026.04*: &nbsp;🎉 3 paper was accepted by <strong>ACL 2026 (2 Main & 1 Findings)<strong>.
+- *2026.04*: &nbsp;🎉 Three papers were accepted by <strong>ACL 2026 (2 Main & 1 Findings)<strong>.
 - *2026.03*: &nbsp;🎉 One paper was accepted by <strong>IEEE TVCG<strong>.
 - *2026.02*: &nbsp;🎉 Two papers were accepted by <strong>CVPR 2026<strong>.
 - *2026.01*: &nbsp;🎉 One paper was accepted by <strong>IEEE TIP<strong>.
