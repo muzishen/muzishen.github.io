@@ -60,7 +60,7 @@ author_profile: true
       <br>
       <span class="meta">Publication:</span> 1 x AAAI, 1 x CVPR 
       <br>
-      <span class="meta">Submissions:</span> 2 x ICML (under review), 2 x ACM MM (under review)
+      <span class="meta">Submissions:</span> 2 x ICML (under review), 2 x ACM MM (under review), 1 x ECCV (under review)
     </li>
     <li>
       <strong>Yuting Zhang</strong> (M.Sc., Nanjing University),
@@ -84,7 +84,7 @@ author_profile: true
       <br>
       <span class="meta">Publication:</span>
       <br>
-      <span class="meta">Submissions:</span> ICLR (under review)
+      <span class="meta">Submissions:</span> TPAMI (under review)
     </li>
     <li>
       <strong>Chengyu Xie</strong> (M.Sc., Nanjing University of Science and Technology),
@@ -92,7 +92,7 @@ author_profile: true
       <br>
       <span class="meta">Publication:</span>
       <br>
-      <span class="meta">Submissions:</span> ICASSP (under review), IJCAI (under review)
+      <span class="meta">Submissions:</span> ICASSP (under review), ACM MM (under review)
     </li>
     <li>
       <strong>Chengpeng Hong</strong> (M.Sc., Central South University),
@@ -112,7 +112,7 @@ author_profile: true
       <br>
       <span class="meta">Publication:</span>
       <br>
-      <span class="meta">Submissions:</span> TPAMI (under review)
+      <span class="meta">Submissions:</span> IJCV (under review)
     </li>
     <li>
       <strong>Lihong Wang</strong> (Undergraduate, Nanjing University of Science and Technology),
@@ -120,7 +120,7 @@ author_profile: true
       <br>
       <span class="meta">Publication:</span>
       <br>
-      <span class="meta">Submissions:</span> IJCAI (under review)
+      <span class="meta">Submissions:</span> ACM MM (under review)
     </li>
     <li>
       <strong>Zhanyi Zhang</strong> (Undergraduate, Nanjing University of Science and Technology),
@@ -128,7 +128,7 @@ author_profile: true
       <br>
       <span class="meta">Publication:</span>
       <br>
-      <span class="meta">Submissions:</span> IJCAI (under review)
+      <span class="meta">Submissions:</span> ACM MM (under review)
     </li>
     <li>
       <strong>Linxia Zhu</strong> (Undergraduate, Nanjing University of Science and Technology),
@@ -136,7 +136,7 @@ author_profile: true
       <br>
       <span class="meta">Publication:</span>
       <br>
-      <span class="meta">Submissions:</span> ICML (under review)
+      <span class="meta">Submissions:</span> ICML (under review), ACM MM (under review)
     </li>
     <li>
       <strong>Enyi Shi</strong> (Undergraduate, Nanjing University of Posts and Telecommunications),
