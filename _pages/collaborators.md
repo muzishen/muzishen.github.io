@@ -148,7 +148,7 @@ author_profile: true
     </li>
   </ul>
 
-  <h3>Research Collaborators</h3>
+  <h3>Social Learners</h3>
   <ul>
     <li>
       <strong>Xianhui Zhang</strong>,
