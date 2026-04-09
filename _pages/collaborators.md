@@ -90,9 +90,9 @@ author_profile: true
       <strong>Chengyu Xie</strong> (M.Sc., Nanjing University of Science and Technology),
       working on <span class="tag">Large Model Safety</span>
       <br>
-      <span class="meta">Publication:</span>
+      <span class="meta">Publication: ICASSP </span>
       <br>
-      <span class="meta">Submissions:</span> ICASSP (under review), ACM MM (under review)
+      <span class="meta">Submissions:</span>  ACM MM (under review)
     </li>
     <li>
       <strong>Chengpeng Hong</strong> (M.Sc., Central South University),
