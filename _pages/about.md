@@ -198,6 +198,8 @@ redirect_from:
   </div>
 </div>
 
+
+
 <div class="pub-row">
   <div class="pub-left">
     <div class="thumb">
@@ -213,6 +215,7 @@ redirect_from:
     <a href="https://github.com/chenhangcuisg-code/Cross-Architecture-Merging-for-Large-Language-Models" target="_blank">[Code]</a>
   </div>
 </div>
+
 
 <div class="pub-row">
   <div class="pub-left">
@@ -377,14 +380,16 @@ redirect_from:
     </div>
   </div>
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
-    <strong>IMAGEdit: Let Any Subject Transform</strong><br>
-    <strong>F. Shen</strong>, W. Xu, R. Yan, D. Zhang, X. Shu, J. Tang<br>
+    <strong>IMAGEdit : Let Any Subject Transform</strong><br>
+   <strong>F. Shen</strong>, W. Xu, R. Yan, D. Zhang, X. Shu, J. Tang<br>
     Under Review.<br>
     <a href="https://arxiv.org/pdf/2510.01186" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
     <a href="https://github.com/XWH-A/IMAGEdit" target="_blank">[Code]</a>
   </div>
 </div>
+
+
 
 <div class="pub-row">
   <div class="pub-left">
@@ -393,7 +398,7 @@ redirect_from:
     </div>
   </div>
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
-    <strong>IMAGHarmony: Controllable Image Editing with Consistent Object Quantity and Layout</strong><br>
+    <strong>IMAGHarmony: Controllable image editing with consistent object quantity and layout</strong><br>
     <strong>F. Shen</strong>, X. Du, Y. Gao, J. Yu, Y. Cao, X. Lei, J. Tang<br>
     Under Review.<br>
     <a href="https://arxiv.org/pdf/2506.01949" target="_blank">[PDF]</a>
@@ -401,6 +406,9 @@ redirect_from:
     <a href="https://github.com/muzishen/IMAGHarmony" target="_blank">[Code]</a>
   </div>
 </div>
+
+
+
 
 <div class="pub-row">
   <div class="pub-left">
@@ -426,7 +434,7 @@ redirect_from:
     </div>
   </div>
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
-    <strong>IMAGGarment: Fine-Grained Garment Generation for Controllable Fashion Design</strong><br>
+    <strong>IMAGGarment: Fine-grained garment generation for controllable fashion design</strong><br>
     <strong>F. Shen</strong>, J. Yu, C. Wang, X. Jiang, X. Du, J. Tang<br>
     IEEE Transactions on Visualization and Computer Graphics, (<strong>IEEE TVCG</strong>), 2026.<br>
     <a href="https://arxiv.org/pdf/2504.13176" target="_blank">[PDF]</a>
@@ -444,7 +452,7 @@ redirect_from:
   </div>
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>SGMHand: Structure-Guided Modulation for Structure-Aware Hand Inpainting</strong><br>
-    C. Shi, S. Guo, Y. Chen, K. Shui, <strong>F. Shen</strong><sup>✉</sup><br>
+   C. Shi, S. Guo, Y. Chen, K. Shui, <strong>F. Shen</strong><sup>✉</sup><br>
     AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>), 2026.<br>
     <a href="https://openreview.net/pdf?id=k8dzFj3yAF" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
@@ -513,7 +521,7 @@ redirect_from:
       <img src="{{ '/images/paper-images/rcdms.png' | relative_url }}" alt="RCDMs">
     </div>
   </div>
-  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
+  <div class="pub-right" style="font-size:.90rem; line-height:1.6;">
     <strong>Boosting Consistency in Story Visualization with Rich-Contextual Conditional Diffusion Models</strong><br>
     <strong>F. Shen</strong>, H. Ye, S. Liu, J. Zhang, C. Wang, X. Han, W. Yang<br>
     AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>), 2025.<br>
@@ -532,7 +540,7 @@ redirect_from:
       <img src="{{ '/images/paper-images/imagpose.png' | relative_url }}" alt="IMAGPose">
     </div>
   </div>
-  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
+  <div class="pub-right" style="font-size:.90rem; line-height:1.6;">
     <strong>IMAGPose: A Unified Conditional Framework for Pose-Guided Person Generation</strong><br>
     <strong>F. Shen</strong>, J. Tang<br>
     Neural Information Processing Systems (<strong>NeurIPS</strong>), 2024.<br>
@@ -546,6 +554,9 @@ redirect_from:
 
 
 
+
+
+
 <!-- START | PCDMs -->
 <div class="pub-row">
   <div class="pub-left">
@@ -553,7 +564,7 @@ redirect_from:
       <img src="{{ '/images/paper-images/pcdms.png' | relative_url }}" alt="PCDMs">
     </div>
   </div>
-  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
+  <div class="pub-right" style="font-size:.90rem; line-height:1.6;">
     <strong>Advancing Pose-Guided Image Synthesis with Progressive Conditional Diffusion Models</strong><br>
     <strong>F. Shen</strong>, H. Ye, J. Zhang, C. Wang, X. Han, W. Yang<br>
     International Conference on Learning Representations (<strong>ICLR</strong>), 2024.<br>
