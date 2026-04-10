@@ -16,49 +16,4 @@
     await mermaid.run({querySelector:'code.language-mermaid'});
 </script>
 
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const targets = document.querySelectorAll(
-      ".home-page .home-hero, .home-page .spotlight-panel, .home-page .section-heading, .home-page .research-card, .home-page .news-item, .home-page .pub-row, .home-page .sidebar > div[itemtype='http://schema.org/Person']"
-    );
-
-    if (!targets.length) {
-      return;
-    }
-
-    const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    targets.forEach(function (target, index) {
-      target.style.setProperty("--reveal-delay", (index % 6) * 45 + "ms");
-    });
-
-    if (reduceMotion || !("IntersectionObserver" in window)) {
-      targets.forEach(function (target) {
-        target.classList.add("is-visible");
-      });
-      return;
-    }
-
-    const observer = new IntersectionObserver(
-      function (entries) {
-        entries.forEach(function (entry) {
-          if (!entry.isIntersecting) {
-            return;
-          }
-
-          entry.target.classList.add("is-visible");
-          observer.unobserve(entry.target);
-        });
-      },
-      {
-        threshold: 0.14,
-        rootMargin: "0px 0px -48px 0px"
-      }
-    );
-
-    targets.forEach(function (target) {
-      observer.observe(target);
-    });
-  });
-</script>
-
 <!-- end custom footer snippets -->
