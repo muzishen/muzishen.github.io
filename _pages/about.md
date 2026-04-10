@@ -1,187 +1,128 @@
 ---
 permalink: /
-title: "Fei Shen"
+title: "About Me"
 author_profile: true
-body_class: home-page
-show_page_title: false
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-<section class="home-hero" id="about-me">
-  <div class="home-hero__content">
-    <p class="home-hero__eyebrow">Research Fellow at NExT++ Center, National University of Singapore</p>
-    <h1 class="home-hero__title">Exploring latent knowledge in foundation models and building controllable multimodal intelligence.</h1>
-    <p class="home-hero__lead">
-      My work focuses on multilingual, multimodal, and multi-agent systems, with particular interest in understanding, alignment, safety, and controllable image and video generation.
-    </p>
-    <div class="home-hero__actions">
-      <a class="home-hero__button home-hero__button--primary" href="#selected-publications">View Publications</a>
-      <a class="home-hero__button" href="#news">Latest News</a>
-      <a class="home-hero__button" href="mailto:shenfei29@nus.edu.sg">Collaborate</a>
-    </div>
-    <div class="home-hero__chips" aria-label="Research topics">
-      <span>Latent Knowledge</span>
-      <span>Multimodal AI</span>
-      <span>Safety and Alignment</span>
-      <span>Image and Video Generation</span>
-    </div>
-  </div>
+<span class="anchor" id="about-me"></span>
+<p>
+I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_blank" rel="noopener noreferrer">NExT++ Center</a>, National University of Singapore (NUS), working with <a href="https://www.chuatatseng.com/" target="_blank" rel="noopener noreferrer">Prof. Tat-Seng Chua</a>. Previously, I received my Ph.D. from Nanjing University of Science and Technology under <a href="https://scholar.google.com/citations?user=ByBLlEwAAAAJ&hl=zh-CN" target="_blank" rel="noopener noreferrer">Prof. Jinhui Tang</a>, and conducted research at <a href="https://ailab.tencent.com/" target="_blank" rel="noopener noreferrer">Tencent AI Lab</a> with <a href="https://scholar.google.com/citations?user=XGVV3gEAAAAJ&hl=zh-CN&oi=ao" target="_blank" rel="noopener noreferrer">Prof. Xiao Han</a> and <a href="https://scholar.google.com.hk/citations?user=xUMuDgwAAAAJ&hl=zh-CN" target="_blank" rel="noopener noreferrer">Dr. Jun Zhang</a>. I was very lucky to participate in several interesting projects, including <a href="https://github.com/duixcom/Duix.Avatar" target="_blank" rel="noopener noreferrer">Duix.Avatar</a> <a href="https://github.com/duixcom/Duix.Avatar" target="_blank" rel="noopener noreferrer"><img alt="Duix.Avatar stars" src="https://img.shields.io/github/stars/duixcom/Duix.Avatar?style=social"></a>, <a href="https://github.com/tencent-ailab/V-Express" target="_blank" rel="noopener noreferrer">V-Express</a> <a href="https://github.com/tencent-ailab/V-Express" target="_blank" rel="noopener noreferrer"><img alt="V-Express stars" src="https://img.shields.io/github/stars/tencent-ailab/V-Express?style=social"></a>, <a href="https://github.com/muzishen/IMAGHarmony" target="_blank" rel="noopener noreferrer">IMAGHarmony</a> <a href="https://github.com/muzishen/IMAGDressing" target="_blank" rel="noopener noreferrer"><img alt="IMAGDHarmony stars" src="https://img.shields.io/github/stars/muzishen/IMAGHarmony?style=social"></a>, and <a href="https://github.com/muzishen/IMAGDressing" target="_blank" rel="noopener noreferrer">IMAGDressing</a> <a href="https://github.com/muzishen/IMAGDressing" target="_blank" rel="noopener noreferrer"><img alt="IMAGDressing stars" src="https://img.shields.io/github/stars/muzishen/IMAGDressing?style=social"></a>. To date, I have achieved 50+ top-three finishes in algorithm competitions, including five CCF-A workshop championships, and maintain close collaborations with <a href="https://ailab.tencent.com/" target="_blank" rel="noopener noreferrer">Tencent AI Lab</a>, <a href="http://dev3.noahlab.com.hk/" target="_blank" rel="noopener noreferrer">Huawei</a>, <a href="https://aiuni.ai/" target="_blank" rel="noopener noreferrer">AIUNI</a>, <a href="https://www.guiji.ai/" target="_blank" rel="noopener noreferrer">GuijiAI</a>, and <a href="https://www.chumenwenwen.com/zh/" target="_blank" rel="noopener noreferrer">Mobvoi</a>. I serve as a reviewer for TPAMI, NeurIPS, ICML, ICLR, CVPR, ECCV, and ICCV.
+<span style="color:#c00; font-weight:700; display:block; margin-top:6px;">
+  <strong>PS:</strong> We are actively seeking motivated Ph.D., M.S., and undergraduate students to collaborate with Prof. Chua and myself through CSC, RA, visiting positions, or remote internships in the following research areas. If you are interested, please send your CV to
+  <a href="mailto:shenfei29@nus.edu.sg">shenfei29@nus.edu.sg</a>.
+</span>
+</p>
 
-  <div class="home-hero__panel">
-    <div class="hero-signal">
-      <span class="hero-signal__label">Current Focus</span>
-      <strong>Shared structures, transferable capabilities, and controllable visual generation.</strong>
-    </div>
-    <div class="hero-metrics">
-      <div class="hero-metric">
-        <strong>50+</strong>
-        <span>Top-three finishes in algorithm competitions</span>
-      </div>
-      <div class="hero-metric">
-        <strong>5x</strong>
-        <span>CCF-A workshop championships</span>
-      </div>
-      <div class="hero-metric">
-        <strong>Top Venues</strong>
-        <span>ACL, CVPR, TVCG, TIP, NeurIPS, ICML, ICLR</span>
-      </div>
-    </div>
-    <p class="hero-note">
-      Open to Ph.D., M.S., and undergraduate collaborators through CSC, RA, visiting positions, and remote internships.
-    </p>
-  </div>
+# 📚 Research Interests
+
+<p style="font-size:0.95rem; line-height:1.6;">
+My research focuses on uncovering and utilizing <strong>latent knowledge</strong> in large foundation models (LFMs), 
+with an emphasis on <strong>multilingual, multimodal, and multi-agent systems</strong>. 
+At a conceptual level, this line of work is inspired by the philosophical view that diverse observable behaviors may arise from deeper shared structures:
+from <strong>Plato’s notion of abstract Forms</strong> to <strong>Aristotle’s distinction between potentiality and actuality</strong>. 
+I study how such latent knowledge is structured, how it gives rise to core capabilities (e.g., understanding, reasoning, and safety), 
+and how these capabilities can be <strong>activated, aligned, protected, and transferred</strong> across models and domains. 
+In parallel, I explore <strong>controllable image and video generation</strong> to enable reliable and fine-grained manipulation of visual content.
+</p>
+
+<section id="research">
+  <h3>Research Directions</h3>
+
+  <ul>
+
+    <!-- Direction 1 -->
+    <li>
+      <strong>Latent Knowledge of LFMs</strong>
+      <ul>
+        <li>
+          <strong>Specific and Shared Representations Analysis:</strong>
+          Understanding how latent knowledge is structured across language-, modality-, and agent-specific as well as shared representations, 
+          and how a unified semantic space emerges across multilingual, multimodal, and multi-agent systems.
+        </li>
+
+        <li>
+          <strong>Alignment, Transfer, and Enhancement:</strong>
+          Studying how latent capabilities can be activated, aligned, protected, and transferred across languages, modalities, agents, 
+          and model architectures, enabling scalable and robust capability reuse.
+        </li>
+
+        <li>
+          <strong>Representative Capability Domains:</strong>
+          Understanding and reasoning; safety and alignment; cultural awareness; forgery and anomaly detection.
+        </li>
+      </ul>
+    </li>
+
+    <!-- Direction 2 -->
+    <li>
+      <strong>Image/Video Generation and Editing</strong>
+      <ul>
+        <li>
+          <strong>Human- and Story-Centric Generation:</strong>
+          Generating coherent human-centric and story-driven visual content.
+        </li>
+
+        <li>
+          <strong>Fashion and Garment Generation:</strong>
+          Modeling fine-grained appearance and structure for clothing and fashion applications.
+        </li>
+
+        <li>
+          <strong>Controllable Editing:</strong>
+          Enabling precise and interpretable manipulation of visual content.
+        </li>
+
+        <li>
+          <strong>Modular and Adapter-based Generation:</strong>
+          Developing plug-and-play and scalable generation frameworks.
+        </li>
+      </ul>
+    </li>
+
+  </ul>
 </section>
 
-<section class="spotlight-panel">
-  <p>
-    I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_blank" rel="noopener noreferrer">NExT++ Center</a>, National University of Singapore (NUS), working with <a href="https://www.chuatatseng.com/" target="_blank" rel="noopener noreferrer">Prof. Tat-Seng Chua</a>. Previously, I received my Ph.D. from Nanjing University of Science and Technology under <a href="https://scholar.google.com/citations?user=ByBLlEwAAAAJ&hl=zh-CN" target="_blank" rel="noopener noreferrer">Prof. Jinhui Tang</a>, and conducted research at <a href="https://ailab.tencent.com/" target="_blank" rel="noopener noreferrer">Tencent AI Lab</a> with <a href="https://scholar.google.com/citations?user=XGVV3gEAAAAJ&hl=zh-CN&oi=ao" target="_blank" rel="noopener noreferrer">Prof. Xiao Han</a> and <a href="https://scholar.google.com.hk/citations?user=xUMuDgwAAAAJ&hl=zh-CN" target="_blank" rel="noopener noreferrer">Dr. Jun Zhang</a>.
-  </p>
-  <p>
-    I was fortunate to contribute to projects including <a href="https://github.com/duixcom/Duix.Avatar" target="_blank" rel="noopener noreferrer">Duix.Avatar</a> <a href="https://github.com/duixcom/Duix.Avatar" target="_blank" rel="noopener noreferrer"><img alt="Duix.Avatar stars" src="https://img.shields.io/github/stars/duixcom/Duix.Avatar?style=social"></a>, <a href="https://github.com/tencent-ailab/V-Express" target="_blank" rel="noopener noreferrer">V-Express</a> <a href="https://github.com/tencent-ailab/V-Express" target="_blank" rel="noopener noreferrer"><img alt="V-Express stars" src="https://img.shields.io/github/stars/tencent-ailab/V-Express?style=social"></a>, <a href="https://github.com/muzishen/IMAGHarmony" target="_blank" rel="noopener noreferrer">IMAGHarmony</a> <a href="https://github.com/muzishen/IMAGHarmony" target="_blank" rel="noopener noreferrer"><img alt="IMAGHarmony stars" src="https://img.shields.io/github/stars/muzishen/IMAGHarmony?style=social"></a>, and <a href="https://github.com/muzishen/IMAGDressing" target="_blank" rel="noopener noreferrer">IMAGDressing</a> <a href="https://github.com/muzishen/IMAGDressing" target="_blank" rel="noopener noreferrer"><img alt="IMAGDressing stars" src="https://img.shields.io/github/stars/muzishen/IMAGDressing?style=social"></a>. I maintain close collaborations with <a href="https://ailab.tencent.com/" target="_blank" rel="noopener noreferrer">Tencent AI Lab</a>, <a href="http://dev3.noahlab.com.hk/" target="_blank" rel="noopener noreferrer">Huawei</a>, <a href="https://aiuni.ai/" target="_blank" rel="noopener noreferrer">AIUNI</a>, <a href="https://www.guiji.ai/" target="_blank" rel="noopener noreferrer">GuijiAI</a>, and <a href="https://www.chumenwenwen.com/zh/" target="_blank" rel="noopener noreferrer">Mobvoi</a>, and I serve as a reviewer for TPAMI, NeurIPS, ICML, ICLR, CVPR, ECCV, and ICCV.
-  </p>
-  <p class="spotlight-panel__callout">
-    We are actively seeking motivated students to work with Prof. Chua and myself. If you are interested in the directions below, send your CV to <a href="mailto:shenfei29@nus.edu.sg">shenfei29@nus.edu.sg</a>.
-  </p>
-</section>
 
-<section class="section-heading">
-  <p class="section-kicker">Research</p>
-  <h2>Research Interests</h2>
-  <p>
-    My research focuses on uncovering and utilizing <strong>latent knowledge</strong> in large foundation models, especially in <strong>multilingual, multimodal, and multi-agent systems</strong>. I study how shared structure gives rise to understanding, reasoning, safety, and transfer, and I explore controllable visual generation to make image and video editing more reliable and precise.
-  </p>
-</section>
 
-<section id="research" class="research-grid">
-  <article class="research-card">
-    <span class="research-card__index">01</span>
-    <h3>Latent Knowledge and Shared Representations</h3>
-    <p>
-      Understanding how specific and shared structures emerge across languages, modalities, agents, and model families.
-    </p>
-    <ul>
-      <li>Specific and shared representations analysis across language, modality, and agent settings.</li>
-      <li>Unified semantic spaces for multilingual, multimodal, and multi-agent systems.</li>
-      <li>Deeper structure discovery inspired by abstraction, potentiality, and shared forms.</li>
-    </ul>
-  </article>
 
-  <article class="research-card">
-    <span class="research-card__index">02</span>
-    <h3>Alignment, Transfer, and Safety</h3>
-    <p>
-      Activating, aligning, protecting, and transferring capabilities across architectures, domains, and deployment settings.
-    </p>
-    <ul>
-      <li>Capability activation, transfer, and enhancement across languages and modalities.</li>
-      <li>Understanding, reasoning, safety, cultural awareness, and forgery detection.</li>
-      <li>Robust and reusable mechanisms for scalable capability sharing.</li>
-    </ul>
-  </article>
 
-  <article class="research-card">
-    <span class="research-card__index">03</span>
-    <h3>Controllable Image and Video Generation</h3>
-    <p>
-      Building generation and editing systems that remain expressive while offering finer control and stronger reliability.
-    </p>
-    <ul>
-      <li>Human- and story-centric generation for coherent visual narratives.</li>
-      <li>Fashion and garment generation with fine-grained structure and appearance control.</li>
-      <li>Controllable editing and modular, adapter-based generation frameworks.</li>
-    </ul>
-  </article>
-</section>
 
-<section class="section-heading">
-  <p class="section-kicker">Latest</p>
-  <h2 id="news">News</h2>
-</section>
+  
 
-<div class="news-feed">
-  <article class="news-item">
-    <span class="news-item__date">2026.04</span>
-    <p>Three papers were accepted by <strong>ACL 2026</strong> (2 Main and 1 Findings).</p>
-  </article>
-  <article class="news-item">
-    <span class="news-item__date">2026.03</span>
-    <p>One paper was accepted by <strong>IEEE TVCG</strong>.</p>
-  </article>
-  <article class="news-item">
-    <span class="news-item__date">2026.02</span>
-    <p>Two papers were accepted by <strong>CVPR 2026</strong>, including 1 Highlight.</p>
-  </article>
-  <article class="news-item">
-    <span class="news-item__date">2026.01</span>
-    <p>One paper was accepted by <strong>IEEE TIP</strong>.</p>
-  </article>
-  <article class="news-item">
-    <span class="news-item__date">2025.11</span>
-    <p>Seven papers were accepted by <strong>AAAI 2026</strong>, including 5 Orals.</p>
-  </article>
-  <article class="news-item">
-    <span class="news-item__date">2025.09</span>
-    <p>Three papers were accepted by <strong>NeurIPS 2025</strong>.</p>
-  </article>
-  <article class="news-item">
-    <span class="news-item__date">2025.05</span>
-    <p>Two papers were accepted by <strong>ICML 2025</strong>.</p>
-  </article>
-  <article class="news-item">
-    <span class="news-item__date">2025.01</span>
-    <p>Two papers were accepted by <strong>ICLR 2025</strong>.</p>
-  </article>
-  <article class="news-item">
-    <span class="news-item__date">2024.12</span>
-    <p>Five papers were accepted by <strong>AAAI 2025</strong>.</p>
-  </article>
-  <article class="news-item">
-    <span class="news-item__date">2024.10</span>
-    <p>One paper was accepted by <strong>ACM ToMM</strong>.</p>
-  </article>
-  <article class="news-item">
-    <span class="news-item__date">2024.09</span>
-    <p>One paper was accepted by <strong>NeurIPS 2024</strong>.</p>
-  </article>
-  <article class="news-item">
-    <span class="news-item__date">2024.01</span>
-    <p>One paper was accepted by <strong>ICLR 2024</strong>.</p>
-  </article>
-  <article class="news-item">
-    <span class="news-item__date">2023.07</span>
-    <p>One paper was accepted by <strong>ACM Multimedia 2023</strong>.</p>
-  </article>
-</div>
 
-<section class="section-heading section-heading--compact">
-  <p class="section-kicker">Selected Work</p>
-  <h2 id="selected-publications">Publications</h2>
-  <p>Recent work spanning latent knowledge, safety, controllable generation, and multimodal systems.</p>
-</section>
 
-<div class="pub-list">
+# 🔥 News {#news}
+- *2026.04*: &nbsp;🎉 Three papers were accepted by <strong>ACL 2026 (2 Main & 1 Findings)<strong>.
+- *2026.03*: &nbsp;🎉 One paper was accepted by <strong>IEEE TVCG<strong>.
+- *2026.02*: &nbsp;🎉 Two papers were accepted by <strong>CVPR 2026 (1 Highlight)<strong>.
+- *2026.01*: &nbsp;🎉 One paper was accepted by <strong>IEEE TIP<strong>.
+- *2025.11*: &nbsp;🎉 Seven papers were accepted by <strong>AAAI 2026<strong>, including 5 Orals.
+<!-- - *2025.06*: &nbsp;🔥 We released **[IMAGEdit](https://github.com/XWH-A/IMAGEdit)** for video editing. -->
+- *2025.09*: &nbsp;🎉 Three papers were accepted by <strong>NeurIPS 2025.<strong>
+<!-- - *2025.06*: &nbsp;🔥 We released **[IMAGHarmony](https://github.com/muzishen/IMAGHarmony)** for image editing. -->
+- *2025.05*: &nbsp;🎉 Two papers were accepted by <strong>ICML 2025.<strong>
+<!-- - *2025.04*: &nbsp;🔥 We released **[IMAGGarment](https://github.com/muzishen/IMAGGarment)** for fine-grained garment generation. -->
+<!-- - *2025.03*: &nbsp;🔥 We released **[HeyGem.ai](https://github.com/GuijiAI/HeyGem.ai)**, a long-term digital human tool for local and API use. -->
+- *2025.01*: &nbsp;🎉 Two papers were accepted by <strong>ICLR 2025.<strong>
+- *2024.12*: &nbsp;🎉 Five papers were accepted by <strong>AAAI 2025.<strong>
+- *2024.10*: &nbsp;🎉 One paper was accepted by <strong>ACM ToMM.<strong>
+<!-- - *2024.11*: &nbsp;🔥 We released **[IMAGPose](https://github.com/muzishen/IMAGPose)**, a unified conditional framework for person generation. -->
+- *2024.09*: &nbsp;🎉 One paper was accepted by <strong>NeurIPS 2024.<strong>
+<!-- - *2024.05*: &nbsp;🔥 We released **[IMAGDressing-v1](https://imagdressing.github.io/)** for customizable virtual dressing. -->
+<!-- - *2024.05*: &nbsp;🔥 We released **[V-Express](https://tenvence.github.io/p/v-express/)** for portrait video generation. -->
+- *2024.01*: &nbsp;🎉 One paper was accepted by <strong>ICLR 2024.<strong>
+- *2023.07*: &nbsp;🎉 One paper was accepted by <strong>ACM Multimedia 2023.<strong>
+
+
+<br>
+
+
+# 📝 Selected Publications
+
+
 <div class="pub-row">
   <div class="pub-left">
     <div class="thumb">
@@ -198,6 +139,8 @@ redirect_from:
   </div>
 </div>
 
+
+
 <div class="pub-row">
   <div class="pub-left">
     <div class="thumb">
@@ -213,6 +156,7 @@ redirect_from:
     <a href="https://github.com/chenhangcuisg-code/Cross-Architecture-Merging-for-Large-Language-Models" target="_blank">[Code]</a>
   </div>
 </div>
+
 
 <div class="pub-row">
   <div class="pub-left">
@@ -377,14 +321,16 @@ redirect_from:
     </div>
   </div>
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
-    <strong>IMAGEdit: Let Any Subject Transform</strong><br>
-    <strong>F. Shen</strong>, W. Xu, R. Yan, D. Zhang, X. Shu, J. Tang<br>
+    <strong>IMAGEdit : Let Any Subject Transform</strong><br>
+   <strong>F. Shen</strong>, W. Xu, R. Yan, D. Zhang, X. Shu, J. Tang<br>
     Under Review.<br>
     <a href="https://arxiv.org/pdf/2510.01186" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
     <a href="https://github.com/XWH-A/IMAGEdit" target="_blank">[Code]</a>
   </div>
 </div>
+
+
 
 <div class="pub-row">
   <div class="pub-left">
@@ -393,7 +339,7 @@ redirect_from:
     </div>
   </div>
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
-    <strong>IMAGHarmony: Controllable Image Editing with Consistent Object Quantity and Layout</strong><br>
+    <strong>IMAGHarmony: Controllable image editing with consistent object quantity and layout</strong><br>
     <strong>F. Shen</strong>, X. Du, Y. Gao, J. Yu, Y. Cao, X. Lei, J. Tang<br>
     Under Review.<br>
     <a href="https://arxiv.org/pdf/2506.01949" target="_blank">[PDF]</a>
@@ -401,6 +347,9 @@ redirect_from:
     <a href="https://github.com/muzishen/IMAGHarmony" target="_blank">[Code]</a>
   </div>
 </div>
+
+
+
 
 <div class="pub-row">
   <div class="pub-left">
@@ -426,7 +375,7 @@ redirect_from:
     </div>
   </div>
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
-    <strong>IMAGGarment: Fine-Grained Garment Generation for Controllable Fashion Design</strong><br>
+    <strong>IMAGGarment: Fine-grained garment generation for controllable fashion design</strong><br>
     <strong>F. Shen</strong>, J. Yu, C. Wang, X. Jiang, X. Du, J. Tang<br>
     IEEE Transactions on Visualization and Computer Graphics, (<strong>IEEE TVCG</strong>), 2026.<br>
     <a href="https://arxiv.org/pdf/2504.13176" target="_blank">[PDF]</a>
@@ -444,7 +393,7 @@ redirect_from:
   </div>
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>SGMHand: Structure-Guided Modulation for Structure-Aware Hand Inpainting</strong><br>
-    C. Shi, S. Guo, Y. Chen, K. Shui, <strong>F. Shen</strong><sup>✉</sup><br>
+   C. Shi, S. Guo, Y. Chen, K. Shui, <strong>F. Shen</strong><sup>✉</sup><br>
     AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>), 2026.<br>
     <a href="https://openreview.net/pdf?id=k8dzFj3yAF" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
@@ -513,7 +462,7 @@ redirect_from:
       <img src="{{ '/images/paper-images/rcdms.png' | relative_url }}" alt="RCDMs">
     </div>
   </div>
-  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
+  <div class="pub-right" style="font-size:.90rem; line-height:1.6;">
     <strong>Boosting Consistency in Story Visualization with Rich-Contextual Conditional Diffusion Models</strong><br>
     <strong>F. Shen</strong>, H. Ye, S. Liu, J. Zhang, C. Wang, X. Han, W. Yang<br>
     AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>), 2025.<br>
@@ -532,7 +481,7 @@ redirect_from:
       <img src="{{ '/images/paper-images/imagpose.png' | relative_url }}" alt="IMAGPose">
     </div>
   </div>
-  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
+  <div class="pub-right" style="font-size:.90rem; line-height:1.6;">
     <strong>IMAGPose: A Unified Conditional Framework for Pose-Guided Person Generation</strong><br>
     <strong>F. Shen</strong>, J. Tang<br>
     Neural Information Processing Systems (<strong>NeurIPS</strong>), 2024.<br>
@@ -546,6 +495,9 @@ redirect_from:
 
 
 
+
+
+
 <!-- START | PCDMs -->
 <div class="pub-row">
   <div class="pub-left">
@@ -553,7 +505,7 @@ redirect_from:
       <img src="{{ '/images/paper-images/pcdms.png' | relative_url }}" alt="PCDMs">
     </div>
   </div>
-  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
+  <div class="pub-right" style="font-size:.90rem; line-height:1.6;">
     <strong>Advancing Pose-Guided Image Synthesis with Progressive Conditional Diffusion Models</strong><br>
     <strong>F. Shen</strong>, H. Ye, J. Zhang, C. Wang, X. Han, W. Yang<br>
     International Conference on Learning Representations (<strong>ICLR</strong>), 2024.<br>
@@ -573,7 +525,7 @@ redirect_from:
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>Triplet Contrastive Representation Learning for Unsupervised Vehicle Re-Identification</strong><br>
     <strong>F. Shen</strong>, X. Du, L. Zhang, X. Shu, J. Tang<br>
-    ACM Transactions on Multimedia Computing, Communications and Applications (<strong>ToMM</strong>), 2024.<br>
+    ACM Transactions on Multimedia Computing, Communications and Applications (<strong>ToMM</strong>), 2024<br>.<br>
     <a href="https://dl.acm.org/doi/epdf/10.1145/3695255" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
     <a href="https://muzishen.github.io/" target="_blank">[Code]</a>
@@ -592,7 +544,7 @@ redirect_from:
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>GiT: Graph Interactive Transformer for Vehicle Re-identification</strong><br>
     <strong>F. Shen</strong>, Y. Xie, J. Zhu, X. Zhu, H. Zeng<br>
-    IEEE Transactions on Image Processing (<strong>IEEE TIP</strong>), 2023.<br>
+    IEEE Transactions on Image Processing (<strong>IEEE TIP</strong>), 2023<br>
     <a href="https://muzishen.github.io/" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
     <a href="https://github.com/muzishen/ReID-GiT" target="_blank">[Code]</a>
@@ -635,4 +587,5 @@ redirect_from:
 </div>
 <!-- END | PBSL -->
 
-</div>
+
+
