@@ -123,6 +123,56 @@ In parallel, I explore <strong>controllable image and video generation</strong> 
 # 📝 Selected Publications
 
 
+<div class="pub-row">
+  <div class="pub-left">
+    <div class="thumb">
+      <img src="{{ '/images/paper-images/LAKE.png' | relative_url }}" alt="latent-anomaly-knowledge-excavation">
+    </div>
+  </div>
+  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
+    <strong>Latent Anomaly Knowledge Excavation: Unveiling Sparse Sensitive Neurons in Vision-Language Models</strong><br>
+    S. Li, S. Li, C. Shi, W. Wu, Y. Wu, X. Yu, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
+    Under Review.<br>
+    <a href="https://arxiv.org/pdf/2604.07802" target="_blank">[PDF]</a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/chenhangcuisg-code/Cross-Architecture-Merging-for-Large-Language-Models" target="_blank">[Code]</a>
+  </div>
+</div>
+
+
+
+<div class="pub-row">
+  <div class="pub-left">
+    <div class="thumb">
+      <img src="{{ '/images/paper-images/MAF.png' | relative_url }}" alt="beyond-surface-artifacts">
+    </div>
+  </div>
+  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
+    <strong>Beyond Surface Artifacts: Capturing Shared Latent Forgery Knowledge Across Modalities</strong><br>
+    J. Dou, C. Shi, J. Wang, <strong>F. Shen</strong><sup>✉</sup>, Z. Wang, T.-S. Chua<br>
+    Under Review.<br>
+    <a href="https://arxiv.org/pdf/2604.07763" target="_blank">[PDF]</a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/chenhangcuisg-code/Cross-Architecture-Merging-for-Large-Language-Models" target="_blank">[Code]</a>
+  </div>
+</div>
+
+
+<div class="pub-row">
+  <div class="pub-left">
+    <div class="thumb">
+      <img src="{{ '/images/paper-images/VersaVogue.png' | relative_url }}" alt="versavogue">
+    </div>
+  </div>
+  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
+    <strong>VersaVogue: Visual Expert Orchestration and Preference Alignment for Unified Fashion Synthesis</strong><br>
+    J. Yu, <strong>F. Shen</strong><sup>✉</sup>, C. Wang, Y. Xin, S. Shen, X. Du, J. Tang<br>
+    Under Review.<br>
+    <a href="https://arxiv.org/pdf/2604.07210" target="_blank">[PDF]</a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/chenhangcuisg-code/Cross-Architecture-Merging-for-Large-Language-Models" target="_blank">[Code]</a>
+  </div>
+</div>
 
 
 <div class="pub-row">
