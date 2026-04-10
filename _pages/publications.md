@@ -12,14 +12,41 @@ author_profile: true
 </p>
 
 
-<p><small>(*) beside authors' names indicates equal contributions.<br>
-(✉) beside authors' names indicates the corresponding author.</small></p>
+<p><small>
+(*) beside authors' names indicates equal contributions.<br>
+(✉) beside authors' names indicates the corresponding author.<br>
+(†) beside authors' names indicates the project lead.
+</small></p>
 
 <hr>
 
 <h2><a name="preprint"></a>Preprint Papers</h2>
 
 <ol>
+
+<li>
+  <p>
+    <a href="https://arxiv.org/pdf/2604.07763" target="_blank">Beyond Surface Artifacts: Capturing Shared Latent Forgery Knowledge Across Modalities.</a><br>
+    J. Dou<sup>†</sup>, C. Shi<sup>†</sup>, J. Wang, <strong>F. Shen</strong><sup>✉</sup>, Z. Wang, T.-S. Chua<br>
+    arXiv 2026.<br>
+  </p>
+</li>
+
+<li>
+  <p>
+    <a href="https://arxiv.org/pdf/2604.07210" target="_blank">VersaVogue: Visual Expert Orchestration and Preference Alignment for Unified Fashion Synthesis.</a><br>
+    J. Yu, <strong>F. Shen</strong><sup>†</sup>, C. Wang, Y. Xin, S. Shen, X. Du, J. Tang<br>
+    Under Review.<br>
+  </p>
+</li>
+
+<li>
+  <p>
+    <a href="https://arxiv.org/pdf/2604.07802" target="_blank">Latent Anomaly Knowledge Excavation: Unveiling Sparse Sensitive Neurons in Vision-Language Models.</a><br>
+    S. Li, S. Li, C. Shi, W. Wu, Y. Wu, X. Yu, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
+    Under Review.<br>
+  </p>
+</li>
 
 <li>
   <p>

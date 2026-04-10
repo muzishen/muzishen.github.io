@@ -166,7 +166,7 @@ In parallel, I explore <strong>controllable image and video generation</strong> 
   </div>
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>VersaVogue: Visual Expert Orchestration and Preference Alignment for Unified Fashion Synthesis</strong><br>
-    J. Yu, <strong>F. Shen</strong><sup>✉</sup>, C. Wang, Y. Xin, S. Shen, X. Du, J. Tang<br>
+    J. Yu, <strong>F. Shen</strong><sup>†</sup>, C. Wang, Y. Xin, S. Shen, X. Du, J. Tang<br>
     Under Review.<br>
     <a href="https://arxiv.org/pdf/2604.07210" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
