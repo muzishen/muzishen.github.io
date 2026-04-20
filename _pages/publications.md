@@ -27,7 +27,7 @@ author_profile: true
 <li>
   <p>
     <a href="https://arxiv.org/pdf/2604.07763" target="_blank">Beyond Surface Artifacts: Capturing Shared Latent Forgery Knowledge Across Modalities.</a><br>
-    J. Dou<sup>†</sup>, C. Shi<sup>†</sup>, J. Wang, <strong>F. Shen</strong><sup>✉</sup>, Z. Wang, T.-S. Chua<br>
+    J. Dou, C. Shi, J. Wang, <strong>F. Shen</strong><sup>✉</sup>, Z. Wang, T.-S. Chua<br>
     Under Review.<br>
   </p>
 </li>
