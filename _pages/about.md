@@ -95,6 +95,7 @@ In parallel, I explore <strong>controllable image and video generation</strong> 
 
 
 # 🔥 News {#news}
+- *2026.05*: &nbsp;🎉 Ten papers were accepted by <strong>ICML 2026<strong>.
 - *2026.04*: &nbsp;🎉 Two papers were accepted by <strong>ACL 2026<strong>.
 - *2026.03*: &nbsp;🎉 One paper was accepted by <strong>IEEE TVCG<strong>.
 - *2026.02*: &nbsp;🎉 Two papers were accepted by <strong>CVPR 2026 (1 Highlight)<strong>.
@@ -184,7 +185,7 @@ In parallel, I explore <strong>controllable image and video generation</strong> 
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>Transport and Merge: Cross-Architecture Merging for Large Language Models</strong><br>
     C. Cui, B. Yang, <strong>F. Shen</strong><sup>✉</sup>, Y. Chen, J. Zheng, X. Wang, A. Zhang, T.-S. Chua<br>
-    Under Review.<br>
+    ICML 2026.<br>
     <a href="https://arxiv.org/pdf/2602.05495" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
     <a href="https://github.com/chenhangcuisg-code/Cross-Architecture-Merging-for-Large-Language-Models" target="_blank">[Code]</a>
@@ -203,7 +204,7 @@ In parallel, I explore <strong>controllable image and video generation</strong> 
     <strong>Who Transfers Safety? Identifying and Targeting Cross-Lingual Shared Safety Neurons</strong><br>
     X. Zhang, C. Xie, L. Zhu, Y. Yang, W. Zhao, Z. Cheng, C. Wang, <br>
     <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
-    Under Review.<br>
+    ICML 2026.<br>
     <a href="https://arxiv.org/pdf/2602.01283" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
     <a href="https://github.com/1518630367/SS-Neuron-Expansion" target="_blank">[Code]</a>
@@ -222,7 +223,7 @@ In parallel, I explore <strong>controllable image and video generation</strong> 
     <strong>DNA: Uncovering Universal Latent Forgery Knowledge</strong><br>
     J. Dou, C. Shi, Y. Wang, S. Guo, A. Yi, W. Wu, L. Zhang,<br>
      <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
-    Under Review.<br>
+    ICML 2026.<br>
     <a href="https://arxiv.org/abs/2601.22515" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
     <a href="https://github.com/zsxr15/Lingua-SafetyBench" target="_blank">[Code]</a>
@@ -272,7 +273,7 @@ In parallel, I explore <strong>controllable image and video generation</strong> 
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>TraceRouter: Robust Safety for Large Foundation Models via Path-Level Intervention</strong><br>
     C. Shi, S. Li, W. Lu, W. Wu, C. Wang, Z. Cheng, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
-    Under Review.<br>
+    ICML 2026.<br>
     <a href="https://arxiv.org/pdf/2601.21900" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
     <a href="https://github.com/XWH-A/IMAGEdit" target="_blank">[Code]</a>
