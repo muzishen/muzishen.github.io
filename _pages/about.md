@@ -102,9 +102,9 @@ In parallel, I explore <strong>controllable image and video generation</strong> 
 - *2026.03*: &nbsp;🎉 One paper was accepted by <strong>IEEE TVCG<strong>.
 - *2026.02*: &nbsp;🎉 Two papers were accepted by <strong>CVPR (1 Highlight)<strong>.
 - *2026.01*: &nbsp;🎉 One paper was accepted by <strong>IEEE TIP<strong>.
-- *2025.11*: &nbsp;🎉 Seven papers were accepted by <strong>AAAI<strong>, including 5 Orals.
+- *2025.11*: &nbsp;🎉 Seven papers were accepted by <strong>AAAI (5 Orals)<strong>.
 <!-- - *2025.06*: &nbsp;🔥 We released **[IMAGEdit](https://github.com/XWH-A/IMAGEdit)** for video editing. -->
-- *2025.09*: &nbsp;🎉 Three papers were accepted by <strong>NeurIPS.<strong>
+- *2025.09*: &nbsp;🎉 Three papers were accepted by <strong>NeurIPS (2 Highlight).<strong>
 <!-- - *2025.06*: &nbsp;🔥 We released **[IMAGHarmony](https://github.com/muzishen/IMAGHarmony)** for image editing. -->
 - *2025.05*: &nbsp;🎉 Two papers were accepted by <strong>ICML.<strong>
 <!-- - *2025.04*: &nbsp;🔥 We released **[IMAGGarment](https://github.com/muzishen/IMAGGarment)** for fine-grained garment generation. -->
