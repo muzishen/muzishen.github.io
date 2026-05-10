@@ -118,7 +118,7 @@ In parallel, I explore <strong>controllable image and video generation</strong> 
 <!-- - *2024.05*: &nbsp;🔥 We released **[V-Express](https://tenvence.github.io/p/v-express/)** for portrait video generation. -->
 - *2024.01*: &nbsp;🎉 One paper was accepted by <strong>ICLR.<strong>
 - *2023.07*: &nbsp;🎉 One paper was accepted by <strong>ACM Multimedia.<strong>
-
+- *2023.04*: &nbsp;🎉 One paper was accepted by <strong>IEEE TIP<strong>.
 
 <br>
 
