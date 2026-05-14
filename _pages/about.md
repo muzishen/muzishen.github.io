@@ -95,12 +95,12 @@ In parallel, I explore <strong>controllable image and video generation</strong> 
 
 
 # 🔥 News {#news}
-- *2026.05*: &nbsp;🎉 <strong style="color: black;">One</strong> paper was accepted by <strong style="color: red;">PR</strong>.
-- *2026.05*: &nbsp;🎉 <strong style="color: black;">One</strong> paper was accepted by <strong style="color: red;">NN</strong>.
-- *2026.05*: &nbsp;🎉 <strong style="color: black;">Ten</strong> papers were accepted by <strong style="color: red;">ICML</strong>.
+- *2026.05*: &nbsp;🎉 <strong style="color: black;">One</strong> paper was accepted by <strong style="color: red;">PR</strong> (JCR Q1, CCF-B, IF=7.6). 
+- *2026.05*: &nbsp;🎉 <strong style="color: black;">One</strong> paper was accepted by <strong style="color: red;">NN</strong> (JCR Q1, CCF-B, IF=6.3). 
+- *2026.05*: &nbsp;🎉 <strong style="color: black;">Ten</strong> papers were accepted by <strong style="color: red;">ICML</strong> (CCF-A, Acceptance Rate 26.6%).
 - *2026.04*: &nbsp;🎉 <strong style="color: black;">Two</strong> papers were accepted by <strong style="color: red;">ACL</strong>.
 - *2026.03*: &nbsp;🎉 <strong style="color: black;">One</strong> paper was accepted by <strong style="color: red;">IEEE TVCG</strong>.
-- *2026.02*: &nbsp;🎉 <strong style="color: black;">Two</strong> papers were accepted by <strong style="color: red;">CVPR (1 Highlight)</strong>.
+- *2026.02*: &nbsp;🎉 <strong style="color: black;">Two</strong> papers were accepted by <strong style="color: red;">CVPR (1 Highlight)</strong>. 
 - *2026.01*: &nbsp;🎉 <strong style="color: black;">One</strong> paper was accepted by <strong style="color: red;">IEEE TIP</strong>.
 - *2025.11*: &nbsp;🎉 <strong style="color: black;">Seven</strong> papers were accepted by <strong style="color: red;">AAAI (5 Orals)</strong>.
 <!-- - *2025.06*: &nbsp;🔥 We released **[IMAGEdit](https://github.com/XWH-A/IMAGEdit)** for video editing. -->
