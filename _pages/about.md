@@ -95,30 +95,30 @@ In parallel, I explore <strong>controllable image and video generation</strong> 
 
 
 # 🔥 News {#news}
-- *2026.05*: &nbsp;🎉 <strong style="color: black;">One</strong> paper was accepted by <strong style="color: red;">PR</strong> (JCR Q1, CCF-B, IF=7.6). 
-- *2026.05*: &nbsp;🎉 <strong style="color: black;">One</strong> paper was accepted by <strong style="color: red;">NN</strong> (JCR Q1, CCF-B, IF=6.3). 
-- *2026.05*: &nbsp;🎉 <strong style="color: black;">Ten</strong> papers were accepted by <strong style="color: red;">ICML</strong> (CCF-A, Acceptance Rate 26.6%).
-- *2026.04*: &nbsp;🎉 <strong style="color: black;">Two</strong> papers were accepted by <strong style="color: red;">ACL Main</strong>(CCF-A, Acceptance Rate 19%).
-- *2026.03*: &nbsp;🎉 <strong style="color: black;">One</strong> paper was accepted by <strong style="color: red;">IEEE TVCG</strong> (JCR Q1, CCF-A, IF=6.5).
-- *2026.02*: &nbsp;🎉 <strong style="color: black;">Two</strong> papers were accepted by <strong style="color: red;">CVPR</strong>(CCF-A, Acceptance Rate 25.4%, 1 Highlight). 
-- *2026.01*: &nbsp;🎉 <strong style="color: black;">One</strong> paper was accepted by <strong style="color: red;">IEEE TIP</strong> (JCR Q1, CCF-A, IF=13.7).
-- *2025.11*: &nbsp;🎉 <strong style="color: black;">Seven</strong> papers were accepted by <strong style="color: red;">AAAI</strong> (CCF-A, Acceptance Rate 17.6%, 5 Orals).
+- *2026.05*: &nbsp;🎉 <strong>One</strong> paper was accepted by <strong style="color: #2563eb;">PR</strong> (JCR Q1, CCF-B, IF=7.6).
+- *2026.05*: &nbsp;🎉 <strong>One</strong> paper was accepted by <strong style="color: #2563eb;">NN</strong> (JCR Q1, CCF-B, IF=6.3).
+- *2026.05*: &nbsp;🎉 <strong>Ten</strong> papers were accepted by <strong style="color: #2563eb;">ICML</strong> (CCF-A, Acceptance Rate 26.6%).
+- *2026.04*: &nbsp;🎉 <strong>Two</strong> papers were accepted by <strong style="color: #2563eb;">ACL Main</strong> (CCF-A, Acceptance Rate 19%).
+- *2026.03*: &nbsp;🎉 <strong>One</strong> paper was accepted by <strong style="color: #2563eb;">IEEE TVCG</strong> (JCR Q1, CCF-A, IF=6.5).
+- *2026.02*: &nbsp;🎉 <strong>Two</strong> papers were accepted by <strong style="color: #2563eb;">CVPR</strong> (CCF-A, Acceptance Rate 25.4%, <span style="color: #b45309; font-weight: 600;">1 Highlight</span>).
+- *2026.01*: &nbsp;🎉 <strong>One</strong> paper was accepted by <strong style="color: #2563eb;">IEEE TIP</strong> (JCR Q1, CCF-A, IF=13.7).
+- *2025.11*: &nbsp;🎉 <strong>Seven</strong> papers were accepted by <strong style="color: #2563eb;">AAAI</strong> (CCF-A, Acceptance Rate 17.6%, <span style="color: #b45309; font-weight: 600;">5 Orals</span>).
 <!-- - *2025.06*: &nbsp;🔥 We released **[IMAGEdit](https://github.com/XWH-A/IMAGEdit)** for video editing. -->
-- *2025.09*: &nbsp;🎉 <strong style="color: black;">Three</strong> papers were accepted by <strong style="color: red;">NeurIPS</strong> (CCF-A, Acceptance Rate 24.52%, 2 Highlight).
+- *2025.09*: &nbsp;🎉 <strong>Three</strong> papers were accepted by <strong style="color: #2563eb;">NeurIPS</strong> (CCF-A, Acceptance Rate 24.52%, <span style="color: #b45309; font-weight: 600;">2 Highlight</span>).
 <!-- - *2025.06*: &nbsp;🔥 We released **[IMAGHarmony](https://github.com/muzishen/IMAGHarmony)** for image editing. -->
-- *2025.05*: &nbsp;🎉 <strong style="color: black;">Two</strong> papers were accepted by <strong style="color: red;">ICML</strong> (CCF-A, Acceptance Rate 26.9%).
+- *2025.05*: &nbsp;🎉 <strong>Two</strong> papers were accepted by <strong style="color: #2563eb;">ICML</strong> (CCF-A, Acceptance Rate 26.9%).
 <!-- - *2025.04*: &nbsp;🔥 We released **[IMAGGarment](https://github.com/muzishen/IMAGGarment)** for fine-grained garment generation. -->
 <!-- - *2025.03*: &nbsp;🔥 We released **[HeyGem.ai](https://github.com/GuijiAI/HeyGem.ai)**, a long-term digital human tool for local and API use. -->
-- *2025.01*: &nbsp;🎉 <strong style="color: black;">Two</strong> papers were accepted by <strong style="color: red;">ICLR</strong> (CCF-A, Acceptance Rate 31%).
-- *2024.12*: &nbsp;🎉 <strong style="color: black;">Five</strong> papers were accepted by <strong style="color: red;">AAAI</strong> (CCF-A, Acceptance Rate 23.4%).
-- *2024.10*: &nbsp;🎉 <strong style="color: black;">One</strong> paper was accepted by <strong style="color: red;">ACM ToMM</strong> (JCR Q1, CCF-B, IF=6.1).
+- *2025.01*: &nbsp;🎉 <strong>Two</strong> papers were accepted by <strong style="color: #2563eb;">ICLR</strong> (CCF-A, Acceptance Rate 31%).
+- *2024.12*: &nbsp;🎉 <strong>Five</strong> papers were accepted by <strong style="color: #2563eb;">AAAI</strong> (CCF-A, Acceptance Rate 23.4%).
+- *2024.10*: &nbsp;🎉 <strong>One</strong> paper was accepted by <strong style="color: #2563eb;">ACM ToMM</strong> (JCR Q1, CCF-B, IF=6.1).
 <!-- - *2024.11*: &nbsp;🔥 We released **[IMAGPose](https://github.com/muzishen/IMAGPose)**, a unified conditional framework for person generation. -->
-- *2024.09*: &nbsp;🎉 <strong style="color: black;">One</strong> paper was accepted by <strong style="color: red;">NeurIPS</strong> (CCF-A, Acceptance Rate 25.8%).
+- *2024.09*: &nbsp;🎉 <strong>One</strong> paper was accepted by <strong style="color: #2563eb;">NeurIPS</strong> (CCF-A, Acceptance Rate 25.8%).
 <!-- - *2024.05*: &nbsp;🔥 We released **[IMAGDressing-v1](https://imagdressing.github.io/)** for customizable virtual dressing. -->
 <!-- - *2024.05*: &nbsp;🔥 We released **[V-Express](https://tenvence.github.io/p/v-express/)** for portrait video generation. -->
-- *2024.01*: &nbsp;🎉 <strong style="color: black;">One</strong> paper was accepted by <strong style="color: red;">ICLR</strong> (CCF-A, Acceptance Rate 31.8%).
-- *2023.07*: &nbsp;🎉 <strong style="color: black;">One</strong> paper was accepted by <strong style="color: red;">ACM Multimedia</strong> (CCF-A, Acceptance Rate 24.6%).
-- *2023.04*: &nbsp;🎉 <strong style="color: black;">One</strong> paper was accepted by <strong style="color: red;">IEEE TIP</strong> (JCR Q1, CCF-A, IF=13.7).
+- *2024.01*: &nbsp;🎉 <strong>One</strong> paper was accepted by <strong style="color: #2563eb;">ICLR</strong> (CCF-A, Acceptance Rate 31.8%).
+- *2023.07*: &nbsp;🎉 <strong>One</strong> paper was accepted by <strong style="color: #2563eb;">ACM Multimedia</strong> (CCF-A, Acceptance Rate 24.6%).
+- *2023.04*: &nbsp;🎉 <strong>One</strong> paper was accepted by <strong style="color: #2563eb;">IEEE TIP</strong> (JCR Q1, CCF-A, IF=13.7).
 
 <br>
 
@@ -589,4 +589,3 @@ In parallel, I explore <strong>controllable image and video generation</strong> 
   </div>
 </div>
 <!-- END | PBSL -->
-
