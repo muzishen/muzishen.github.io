@@ -95,30 +95,30 @@ In parallel, I explore <strong>controllable image and video generation</strong> 
 
 
 # 🔥 News {#news}
-- *2026.05*: &nbsp;🎉 One paper was accepted by <strong>PR</strong>.
-- *2026.05*: &nbsp;🎉 One paper was accepted by <strong>NN</strong>.
-- *2026.05*: &nbsp;🎉 Ten papers were accepted by <strong>ICML<strong>.
-- *2026.04*: &nbsp;🎉 Two papers were accepted by <strong>ACL<strong>.
-- *2026.03*: &nbsp;🎉 One paper was accepted by <strong>IEEE TVCG<strong>.
-- *2026.02*: &nbsp;🎉 Two papers were accepted by <strong>CVPR (1 Highlight)<strong>.
-- *2026.01*: &nbsp;🎉 One paper was accepted by <strong>IEEE TIP<strong>.
-- *2025.11*: &nbsp;🎉 Seven papers were accepted by <strong>AAAI (5 Orals)<strong>.
+- *2026.05*: &nbsp;🎉 One paper was accepted by <strong style="color: red;">PR</strong>.
+- *2026.05*: &nbsp;🎉 One paper was accepted by <strong style="color: red;">NN</strong>.
+- *2026.05*: &nbsp;🎉 Ten papers were accepted by <strong style="color: red;">ICML</strong>.
+- *2026.04*: &nbsp;🎉 Two papers were accepted by <strong style="color: red;">ACL</strong>.
+- *2026.03*: &nbsp;🎉 One paper was accepted by <strong style="color: red;">IEEE TVCG</strong>.
+- *2026.02*: &nbsp;🎉 Two papers were accepted by <strong style="color: red;">CVPR (1 Highlight)</strong>.
+- *2026.01*: &nbsp;🎉 One paper was accepted by <strong style="color: red;">IEEE TIP</strong>.
+- *2025.11*: &nbsp;🎉 Seven papers were accepted by <strong style="color: red;">AAAI (5 Orals)</strong>.
 <!-- - *2025.06*: &nbsp;🔥 We released **[IMAGEdit](https://github.com/XWH-A/IMAGEdit)** for video editing. -->
-- *2025.09*: &nbsp;🎉 Three papers were accepted by <strong>NeurIPS (2 Highlight).<strong>
+- *2025.09*: &nbsp;🎉 Three papers were accepted by <strong style="color: red;">NeurIPS (2 Highlight)</strong>.
 <!-- - *2025.06*: &nbsp;🔥 We released **[IMAGHarmony](https://github.com/muzishen/IMAGHarmony)** for image editing. -->
-- *2025.05*: &nbsp;🎉 Two papers were accepted by <strong>ICML.<strong>
+- *2025.05*: &nbsp;🎉 Two papers were accepted by <strong style="color: red;">ICML</strong>.
 <!-- - *2025.04*: &nbsp;🔥 We released **[IMAGGarment](https://github.com/muzishen/IMAGGarment)** for fine-grained garment generation. -->
 <!-- - *2025.03*: &nbsp;🔥 We released **[HeyGem.ai](https://github.com/GuijiAI/HeyGem.ai)**, a long-term digital human tool for local and API use. -->
-- *2025.01*: &nbsp;🎉 Two papers were accepted by <strong>ICLR.<strong>
-- *2024.12*: &nbsp;🎉 Five papers were accepted by <strong>AAAI.<strong>
-- *2024.10*: &nbsp;🎉 One paper was accepted by <strong>ACM ToMM.<strong>
+- *2025.01*: &nbsp;🎉 Two papers were accepted by <strong style="color: red;">ICLR</strong>.
+- *2024.12*: &nbsp;🎉 Five papers were accepted by <strong style="color: red;">AAAI</strong>.
+- *2024.10*: &nbsp;🎉 One paper was accepted by <strong style="color: red;">ACM ToMM</strong>.
 <!-- - *2024.11*: &nbsp;🔥 We released **[IMAGPose](https://github.com/muzishen/IMAGPose)**, a unified conditional framework for person generation. -->
-- *2024.09*: &nbsp;🎉 One paper was accepted by <strong>NeurIPS.<strong>
+- *2024.09*: &nbsp;🎉 One paper was accepted by <strong style="color: red;">NeurIPS</strong>.
 <!-- - *2024.05*: &nbsp;🔥 We released **[IMAGDressing-v1](https://imagdressing.github.io/)** for customizable virtual dressing. -->
 <!-- - *2024.05*: &nbsp;🔥 We released **[V-Express](https://tenvence.github.io/p/v-express/)** for portrait video generation. -->
-- *2024.01*: &nbsp;🎉 One paper was accepted by <strong>ICLR.<strong>
-- *2023.07*: &nbsp;🎉 One paper was accepted by <strong>ACM Multimedia.<strong>
-- *2023.04*: &nbsp;🎉 One paper was accepted by <strong>IEEE TIP<strong>.
+- *2024.01*: &nbsp;🎉 One paper was accepted by <strong style="color: red;">ICLR</strong>.
+- *2023.07*: &nbsp;🎉 One paper was accepted by <strong style="color: red;">ACM Multimedia</strong>.
+- *2023.04*: &nbsp;🎉 One paper was accepted by <strong style="color: red;">IEEE TIP</strong>.
 
 <br>
 
@@ -589,6 +589,5 @@ In parallel, I explore <strong>controllable image and video generation</strong> 
   </div>
 </div>
 <!-- END | PBSL -->
-
 
 
