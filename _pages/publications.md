@@ -109,14 +109,6 @@ author_profile: true
 
 <li>
   <p>
-    <a href="https://arxiv.org/pdf/2510.17520" target="_blank">Curiosity Meets Cooperation: A Game-Theoretic Approach to Long-Tail Multi-Label Learning.</a><br>
-    C. Xiao, C. Zhao, Z. Ke, <strong>F. Shen</strong><sup>✉</sup><br>
-    Under Review.<br>
-  </p>
-</li>
-
-<li>
-  <p>
     <a href="https://www.researchgate.net/profile/Chengyu-Xie-6/publication/401700345_IMAGAgent_Orchestrating_Multi-Turn_Image_Editing_via_Constraint-Aware_Planning_and_Reflection/links/69aebe8ea91b826e43486eda/IMAGAgent-Orchestrating-Multi-Turn-Image-Editing-via-Constraint-Aware-Planning-and-Reflection.pdf" target="_blank">IMAGagent: Orchestrating Multi-Turn Image Editing via Constraint-Aware Planning and Reflection.</a><br>
     <strong>F. Shen</strong>, C. Xie, L. Wang, Z. Zhang, X. Jiang, X. Du, J. Tang<br>
     Under Review.<br>
@@ -299,7 +291,7 @@ author_profile: true
 
   <li>
     <p>
-      Curiosity-Driven Cooperation for Long-Tailed Multi-Label Learning.<br>
+      <a href="https://arxiv.org/pdf/2510.17520" target="_blank">Curiosity-Driven Cooperation for Long-Tailed Multi-Label Learning.</a><br>
       C. Xiao, C. Zhao, Z. Ke, <strong>F. Shen</strong>, L. Shen<br>
       Neural Networks (<strong>NN</strong>), 2026.<br>
     </p>
@@ -357,21 +349,22 @@ author_profile: true
   </p>
 </li>
 
-<li>
-  <p>
-    SGMHand: Structure-Guided Modulation for Structure-Aware Hand Inpainting.<br>
-    C. Shi, S. Guo, Y. Chen, K. Shui, <strong>F. Shen</strong><sup>✉</sup><br>
-    In AAAI Conference on Artificial Intelligence (<strong>AAAI 2026</strong>).<br>
-  </p>
-</li>
+  <li>
+    <p>
+      <a href="https://ojs.aaai.org/index.php/AAAI/article/view/37849" target="_blank">SGMHand: Structure-Guided Modulation for Structure-Aware Hand Inpainting.</a><br>
+      C. Shi, S. Guo, Y. Chen, K. Shui, <strong>F. Shen</strong><sup>✉</sup><br>
+      In AAAI Conference on Artificial Intelligence (<strong>AAAI 2026</strong>).<br>
+    </p>
+  </li>
 
-<li>
-  <p>
-    IMAGGarment+: Efficient Attribute-Wise Diffusion for Garment Generation.<br>
-    J. Yu, <strong>F. Shen</strong><sup>*</sup>, C. Wang, Y. Sun, H. Tang, Q. Guo, X. Du<br>
-    In AAAI Conference on Artificial Intelligence (<strong>AAAI 2026</strong>).<br>
-  </p>
-</li>
+  
+  <li>
+    <p>
+      <a href="https://ojs.aaai.org/index.php/AAAI/article/view/38203" target="_blank">IMAGGarment+: Efficient Attribute-Wise Diffusion for Garment Generation.</a><br>
+      J. Yu, <strong>F. Shen</strong><sup>*</sup>, C. Wang, Y. Sun, H. Tang, Q. Guo, X. Du<br>
+      In AAAI Conference on Artificial Intelligence (<strong>AAAI 2026</strong>).<br>
+    </p>
+  </li>
 
 <li>
   <p>
