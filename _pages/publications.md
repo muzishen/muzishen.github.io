@@ -48,29 +48,9 @@ author_profile: true
   </p>
 </li>
 
-<li>
-  <p>
-    <a href="https://arxiv.org/pdf/2602.05495" target="_blank">Transport and Merge: Cross-Architecture Merging for Large Language Models.</a><br>
-    C. Cui, B. Yang, <strong>F. Shen</strong><sup>✉</sup>, Y. Chen, J. Zheng, X. Wang, A. Zhang, T.-S. Chua<br>
-    Under Review.<br>
-  </p>
-</li>
 
-<li>
-  <p>
-    <a href="https://arxiv.org/pdf/2602.01283" target="_blank">Who Transfers Safety? Identifying and Targeting Cross-Lingual Shared Safety Neurons.</a><br>
-    X. Zhang, C. Xie, L. Zhu, Y. Yang, W. Zhao, Z. Cheng, C. Wang, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
-    Under Review.<br>
-  </p>
-</li>
 
-<li>
-  <p>
-    <a href="https://arxiv.org/abs/2601.22515" target="_blank">DNA: Uncovering Universal Latent Forgery Knowledge.</a><br>
-    J. Dou, C. Shi, Y. Wang, S. Guo, A. Yi, W. Wu, L. Zhang, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
-    Under Review.<br>
-  </p>
-</li>
+
 
 
 <li>
@@ -277,6 +257,31 @@ author_profile: true
 
 
 <ol>
+
+
+  <li>
+    <p>
+      <a href="https://arxiv.org/pdf/2602.01283" target="_blank">Who Transfers Safety? Identifying and Targeting Cross-Lingual Shared Safety Neurons.</a><br>
+      X. Zhang, C. Xie, L. Zhu, Y. Yang, W. Zhao, Z. Cheng, C. Wang, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
+      In International Conference on Machine Learning (<strong>ICML 2026</strong>).<br>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <a href="https://arxiv.org/abs/2601.22515" target="_blank">DNA: Uncovering Universal Latent Forgery Knowledge.</a><br>
+      J. Dou, C. Shi, Y. Wang, S. Guo, A. Yi, W. Wu, L. Zhang, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
+      In International Conference on Machine Learning (<strong>ICML 2026</strong>).<br>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <a href="https://arxiv.org/pdf/2602.05495" target="_blank">Transport and Merge: Cross-Architecture Merging for Large Language Models.</a><br>
+      C. Cui, B. Yang, <strong>F. Shen</strong><sup>✉</sup>, Y. Chen, J. Zheng, X. Wang, A. Zhang, T.-S. Chua<br>
+      In International Conference on Machine Learning (<strong>ICML 2026</strong>).<br>
+    </p>
+  </li>
 
 <li>
   <p>
