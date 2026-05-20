@@ -245,16 +245,7 @@ author_profile: true
 
 <ol>
 
-  <li>
-    <p>
-      <a href="https://arxiv.org/pdf/2511.19912" target="_blank">Reasoning-VLA: A Fast and General Vision-Language-Action Reasoning Model for Autonomous Driving.</a><br>
-      D. Zhang, Z. Yuan, Z. Chen, C.-T. Liao, Y. Chen, <strong>F. Shen</strong><sup>✉</sup>, Q. Zhou, T.-S. Chua<br>
-      In International Conference on Machine Learning (<strong>ICML 2026</strong>).<br>
-    </p>
-  </li>
-
-  
-  <li>
+ <li>
     <p>
       <a href="https://arxiv.org/pdf/2601.21900" target="_blank">TraceRouter: Robust Safety for Large Foundation Models via Path-Level Intervention.</a><br>
       C. Shi, S. Li, W. Lu, W. Wu, C. Wang, Z. Cheng, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
@@ -270,6 +261,16 @@ author_profile: true
       In International Conference on Machine Learning (<strong>ICML 2026</strong>).<br>
     </p>
   </li>
+
+  
+  <li>
+    <p>
+      <a href="https://arxiv.org/pdf/2511.19912" target="_blank">Reasoning-VLA: A Fast and General Vision-Language-Action Reasoning Model for Autonomous Driving.</a><br>
+      D. Zhang, Z. Yuan, Z. Chen, C.-T. Liao, Y. Chen, <strong>F. Shen</strong><sup>✉</sup>, Q. Zhou, T.-S. Chua<br>
+      In International Conference on Machine Learning (<strong>ICML 2026</strong>).<br>
+    </p>
+  </li>
+
 
   <li>
     <p>
@@ -291,7 +292,7 @@ author_profile: true
     <p>
       <a href="https://arxiv.org/pdf/2601.03190" target="_blank">Maximizing Local Entropy Where It Matters: Prefix-Aware Localized LLM Unlearning.</a><br>
       N. Zhai, P. Shao, B. Zheng, Y. Yang, <strong>F. Shen</strong>, L. Bai, X. Yang<br>
-      In Annual Meeting of the Association for Computational Linguistics (<strong>ACL</strong>).<br>
+      In Annual Meeting of the Association for Computational Linguistics (<strong>ACL Main 2026</strong>).<br>
     </p>
   </li>
 
