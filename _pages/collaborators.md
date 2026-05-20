@@ -29,9 +29,9 @@ author_profile: true
       <strong>Chenhang Cui</strong> (Ph.D., National University of Singapore),
       working on <span class="tag">LLMs</span> &amp; <span class="tag">MLLMs</span>
       <br>
-      <span class="meta">Publication:</span>
+      <span class="meta">Publication: ICML (under review) </span>
       <br>
-      <span class="meta">Submissions:</span> ICML (under review)
+      <span class="meta">Submissions:</span>
     </li>
     <li>
       <strong>Shuyi Miao</strong> (Ph.D., Beihang University),
@@ -58,9 +58,9 @@ author_profile: true
       <strong>Chuancheng Shi</strong> (M.Sc., The University of Sydney),
       working on <span class="tag">AIGC</span> <span class="tag">LLMs</span> <span class="tag">MLLMs</span>
       <br>
-      <span class="meta">Publication:</span> 1 x AAAI, 1 x CVPR 
+      <span class="meta">Publication:</span> 1 x AAAI, 1 x CVPR, 2 x ICML 
       <br>
-      <span class="meta">Submissions:</span> 2 x ICML (under review), 2 x ACM MM (under review), 1 x ECCV (under review)
+      <span class="meta">Submissions:</span> 2 x ACM MM (under review), 1 x ECCV (under review)
     </li>
     <li>
       <strong>Yuting Zhang</strong> (M.Sc., Nanjing University),
@@ -68,7 +68,7 @@ author_profile: true
       <br>
       <span class="meta">Publication:</span>
       <br>
-      <span class="meta">Submissions:</span> CVPR (under review)
+      <span class="meta">Submissions:</span> TMM (under review)
     </li>
     <li>
       <strong>Jian Yu</strong> (M.Sc., Nanjing University of Science and Technology),
@@ -90,7 +90,7 @@ author_profile: true
       <strong>Chengyu Xie</strong> (M.Sc., Nanjing University of Science and Technology),
       working on <span class="tag">Large Model Safety</span>
       <br>
-      <span class="meta">Publication: ICASSP </span>
+      <span class="meta">Publication: ICASSP, ICML </span>
       <br>
       <span class="meta">Submissions:</span>  ACM MM (under review)
     </li>

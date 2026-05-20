@@ -32,7 +32,7 @@ author_profile: true
     </p>
   </li>
 
-  
+
   <li>
     <p>
       <a href="https://arxiv.org/pdf/2604.08881" target="_blank">Precise Shield: Explaining and Aligning VLLM Safety via Neuron-Level Guidance.</a><br>
@@ -80,13 +80,6 @@ author_profile: true
 
 
 
-<li>
-  <p>
-    Progressive Local Self-Attention for Content-Aligned Super-Resolution.<br>
-    D. Huang, X. Zhu, F. Chen, <strong>F. Shen</strong><sup>✉</sup>, T. Lai, H. Zeng, J. Hou<br>
-    Under Review.<br>
-  </p>
-</li>
 
 
 <li>
@@ -316,6 +309,15 @@ author_profile: true
     </p>
   </li>
 
+  <li>
+    <p>
+      Progressive Local Self-Attention for Content-Aligned Super-Resolution.<br>
+      D. Huang, X. Zhu, F. Chen, <strong>F. Shen</strong><sup>✉</sup>, T. Lai, H. Zeng, J. Hou<br>
+      Pattern Recognition (<strong>PR</strong>), 2026.<br>
+    </p>
+  </li>
+
+  
   <li>
     <p>
       <a href="https://arxiv.org/pdf/2510.17520" target="_blank">Curiosity-Driven Cooperation for Long-Tailed Multi-Label Learning.</a><br>
