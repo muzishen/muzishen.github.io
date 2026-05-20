@@ -26,8 +26,17 @@ author_profile: true
 
   <li>
     <p>
+      <a href="https://arxiv.org/pdf/2604.08364" target="_blank">MegaStyle: Constructing Diverse and Scalable Style Dataset via Consistent Text-to-Image Style Mapping.</a><br>
+      J. Gao, S. Liu, J. Li, Y. Sun, Y. Tu, <strong>F. Shen</strong>, W. Zhang, C. Zhao, J. Zhang<br>
+      Under Review.<br>
+    </p>
+  </li>
+
+  
+  <li>
+    <p>
       <a href="https://arxiv.org/pdf/2604.08881" target="_blank">Precise Shield: Explaining and Aligning VLLM Safety via Neuron-Level Guidance.</a><br>
-      E. Shi<sup>†</sup>, <strong>F. Shen</strong><sup>*</sup>, S. Miao, L. Zhu, P. Shao, J. Tang, T.-S. Chua<br>
+      E. Shi, <strong>F. Shen</strong><sup>†</sup>, S. Miao, L. Zhu, P. Shao, J. Tang, T.-S. Chua<br>
       Under Review.<br>
     </p>
   </li>
