@@ -36,13 +36,13 @@
       {% if author.email %}
         <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
       {% endif %}
-      {% if author.wechat_qr %}
+      <!-- {% if author.wechat_qr %}
         <li>
           <a href="{{ author.wechat_qr | prepend: '/images/' | prepend: base_path }}" target="_blank">
             <i class="fas fa-fw fa-qrcode icon-pad-right" aria-hidden="true"></i>WeChat
           </a>
         </li>
-      {% endif %}
+      {% endif %} -->
       <!-- Font Awesome and Academicons icons / Academic websites -->
       {% if author.academia %}
         <li><a href="{{ author.academia }}"><i class="ai ai-academia ai-fw icon-pad-right" aria-hidden="true"></i>Academia</a></li>
