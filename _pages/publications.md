@@ -133,13 +133,6 @@ author_profile: true
 </li>
 
 
-<li>
-  <p>
-    <a href="https://arxiv.org/pdf/2601.03190" target="_blank">Maximizing Local Entropy Where It Matters: Prefix-Aware Localized LLM Unlearning.</a><br>
-    N. Zhai, P. Shao, B. Zheng, Y. Yang, <strong>F. Shen</strong>, L. Bai, X. Yang<br>
-    Under Review.<br>
-  </p>
-</li>
 
 
 
@@ -357,7 +350,7 @@ author_profile: true
     </p>
   </li>
 
-  
+
   <li>
     <p>
       <a href="https://ojs.aaai.org/index.php/AAAI/article/view/38203" target="_blank">IMAGGarment+: Efficient Attribute-Wise Diffusion for Garment Generation.</a><br>
