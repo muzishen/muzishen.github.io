@@ -262,7 +262,7 @@ author_profile: true
     </p>
   </li>
 
-  
+
   <li>
     <p>
       <a href="https://arxiv.org/pdf/2511.19912" target="_blank">Reasoning-VLA: A Fast and General Vision-Language-Action Reasoning Model for Autonomous Driving.</a><br>
@@ -285,6 +285,14 @@ author_profile: true
       <a href="https://arxiv.org/pdf/2602.05495" target="_blank">Transport and Merge: Cross-Architecture Merging for Large Language Models.</a><br>
       C. Cui, B. Yang, <strong>F. Shen</strong><sup>✉</sup>, Y. Chen, J. Zheng, X. Wang, A. Zhang, T.-S. Chua<br>
       In International Conference on Machine Learning (<strong>ICML 2026</strong>).<br>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      Curiosity-Driven Cooperation for Long-Tailed Multi-Label Learning.<br>
+      C. Xiao, C. Zhao, Z. Ke, <strong>F. Shen</strong>, L. Shen<br>
+      Neural Networks (<strong>NN</strong>), 2026.<br>
     </p>
   </li>
 
