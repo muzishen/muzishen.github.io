@@ -281,6 +281,13 @@ author_profile: true
     </p>
   </li>
 
+  <li>
+    <p>
+      <a href="https://arxiv.org/pdf/2603.00586" target="_blank">WildActor: Unconstrained Identity-Preserving Video Generation.</a><br>
+      Q. Guo, T. Yang, X. He, <strong>F. Shen</strong>, Y. Zhang, Z. Kang, X. Wei, D. Xu<br>
+      In International Conference on Machine Learning (<strong>ICML 2026</strong>).<br>
+    </p>
+  </li>
 
   <li>
     <p>
