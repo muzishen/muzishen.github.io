@@ -290,6 +290,15 @@ author_profile: true
 
   <li>
     <p>
+      <a href="https://arxiv.org/pdf/2605.04653" target="_blank">Threshold-Guided Optimization for Visual Generative Models.</a><br>
+      J. Bai, Y. Lei, Q. Shi, A. Feng, Y. Xin, Z. Zhao, <strong>F. Shen</strong>, K. Yu, J. Li<br>
+      In International Conference on Machine Learning (<strong>ICML 2026</strong>).<br>
+    </p>
+  </li>
+
+
+  <li>
+    <p>
       Curiosity-Driven Cooperation for Long-Tailed Multi-Label Learning.<br>
       C. Xiao, C. Zhao, Z. Ke, <strong>F. Shen</strong>, L. Shen<br>
       Neural Networks (<strong>NN</strong>), 2026.<br>
