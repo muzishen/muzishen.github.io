@@ -24,6 +24,24 @@ author_profile: true
 
 <ol>
 
+  <li>
+    <p>
+      <a href="https://arxiv.org/pdf/2604.08881" target="_blank">Precise Shield: Explaining and Aligning VLLM Safety via Neuron-Level Guidance.</a><br>
+      E. Shi<sup>†</sup>, <strong>F. Shen</strong><sup>*</sup>, S. Miao, L. Zhu, P. Shao, J. Tang, T.-S. Chua<br>
+      Under Review.<br>
+    </p>
+  </li>
+
+
+  <li>
+    <p>
+      <a href="https://arxiv.org/pdf/2604.12329" target="_blank">UniDetect: LLM-Driven Universal Fraud Detection across Heterogeneous Blockchains.</a><br>
+      S. Miao, W. Qiu, S. Zhuo, <strong>F. Shen</strong><sup>✉</sup>, D. Lin, X. Yu, T.-S. Chua, Z. Zheng<br>
+      Under Review.<br>
+    </p>
+  </li>
+
+
 <li>
   <p>
     <a href="https://arxiv.org/pdf/2604.07763" target="_blank">Beyond Surface Artifacts: Capturing Shared Latent Forgery Knowledge Across Modalities.</a><br>
