@@ -86,13 +86,6 @@ author_profile: true
   </p>
 </li>
 
-<li>
-  <p>
-    <a href="https://arxiv.org/pdf/2601.21900" target="_blank">TraceRouter: Robust Safety for Large Foundation Models via Path-Level Intervention.</a><br>
-    C. Shi, S. Li, W. Lu, W. Wu, C. Wang, Z. Cheng, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
-    Under Review.<br>
-  </p>
-</li>
 
 
   <li>
@@ -258,7 +251,15 @@ author_profile: true
 
 <ol>
 
+  <li>
+    <p>
+      <a href="https://arxiv.org/pdf/2601.21900" target="_blank">TraceRouter: Robust Safety for Large Foundation Models via Path-Level Intervention.</a><br>
+      C. Shi, S. Li, W. Lu, W. Wu, C. Wang, Z. Cheng, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
+      In International Conference on Machine Learning (<strong>ICML 2026</strong>).<br>
+    </p>
+  </li>
 
+  
   <li>
     <p>
       <a href="https://arxiv.org/pdf/2602.01283" target="_blank">Who Transfers Safety? Identifying and Targeting Cross-Lingual Shared Safety Neurons.</a><br>
@@ -282,6 +283,15 @@ author_profile: true
       In International Conference on Machine Learning (<strong>ICML 2026</strong>).<br>
     </p>
   </li>
+
+  <li>
+    <p>
+      <a href="https://arxiv.org/pdf/2601.03190" target="_blank">Maximizing Local Entropy Where It Matters: Prefix-Aware Localized LLM Unlearning.</a><br>
+      N. Zhai, P. Shao, B. Zheng, Y. Yang, <strong>F. Shen</strong>, L. Bai, X. Yang<br>
+      In Annual Meeting of the Association for Computational Linguistics (<strong>ACL</strong>).<br>
+    </p>
+  </li>
+
 
 <li>
   <p>
