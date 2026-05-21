@@ -311,13 +311,13 @@ author_profile: true
 
   <li>
     <p>
-      Progressive Local Self-Attention for Content-Aligned Super-Resolution.<br>
+      <a href="https://www.sciencedirect.com/science/article/abs/pii/S0031320326009167?via%3Dihub" target="_blank"> Progressive Local Self-Attention for Content-Aligned Super-Resolution.</a><br>
       D. Huang, X. Zhu, F. Chen, <strong>F. Shen</strong><sup>✉</sup>, T. Lai, H. Zeng, J. Hou<br>
       Pattern Recognition (<strong>PR</strong>), 2026.<br>
     </p>
   </li>
 
-  
+
   <li>
     <p>
       <a href="https://arxiv.org/pdf/2510.17520" target="_blank">Curiosity-Driven Cooperation for Long-Tailed Multi-Label Learning.</a><br>
