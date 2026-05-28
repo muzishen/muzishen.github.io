@@ -95,6 +95,7 @@ In parallel, I explore <strong>controllable image and video generation</strong> 
 
 
 # 🔥 News {#news}
+- *2026.05*: &nbsp;🎉 <strong>One</strong> paper was accepted by <strong style="color: #2563eb;">IEEE TIP</strong> (JCR Q1, <span style="display: inline-block; padding: 0 .32em; border-radius: .25em; background: #f1f5f9; color: #475569; font-weight: 600; font-size: .92em; line-height: 1.35;">CCF-A</span>, IF=13.7).
 - *2026.05*: &nbsp;🎉 <strong>One</strong> paper was accepted by <strong style="color: #2563eb;">PR</strong> (JCR Q1, CCF-B, IF=7.6).
 - *2026.05*: &nbsp;🎉 <strong>One</strong> paper was accepted by <strong style="color: #2563eb;">NN</strong> (JCR Q1, CCF-B, IF=6.3).
 - *2026.05*: &nbsp;🎉 <strong>Ten</strong> papers were accepted by <strong style="color: #2563eb;">ICML</strong> (<span style="display: inline-block; padding: 0 .32em; border-radius: .25em; background: #f1f5f9; color: #475569; font-weight: 600; font-size: .92em; line-height: 1.35;">CCF-A</span>, Acceptance Rate 26.6%).
