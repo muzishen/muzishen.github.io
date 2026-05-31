@@ -9,7 +9,8 @@ redirect_from:
 
 <span class="anchor" id="about-me"></span>
 <p>
-I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_blank" rel="noopener noreferrer">NExT++ Center</a>, National University of Singapore (NUS), where I lead the <strong>Latent Knowledge Group</strong> and work with <a href="https://www.chuatatseng.com/" target="_blank" rel="noopener noreferrer">Prof. Tat-Seng Chua</a>. Previously, I received my Ph.D. from Nanjing University of Science and Technology under <a href="https://scholar.google.com/citations?user=ByBLlEwAAAAJ&hl=zh-CN" target="_blank" rel="noopener noreferrer">Prof. Jinhui Tang</a>, and conducted research at <a href="https://ailab.tencent.com/" target="_blank" rel="noopener noreferrer">Tencent AI Lab</a> with <a href="https://scholar.google.com/citations?user=XGVV3gEAAAAJ&hl=zh-CN&oi=ao" target="_blank" rel="noopener noreferrer">Prof. Xiao Han</a> and <a href="https://scholar.google.com.hk/citations?user=xUMuDgwAAAAJ&hl=zh-CN" target="_blank" rel="noopener noreferrer">Dr. Jun Zhang</a>. I was very lucky to participate in several interesting projects, including <a href="https://github.com/duixcom/Duix.Avatar" target="_blank" rel="noopener noreferrer">Duix.Avatar</a> <a href="https://github.com/duixcom/Duix.Avatar" target="_blank" rel="noopener noreferrer"><img alt="Duix.Avatar stars" src="https://img.shields.io/github/stars/duixcom/Duix.Avatar?style=social"></a>, <a href="https://github.com/tencent-ailab/V-Express" target="_blank" rel="noopener noreferrer">V-Express</a> <a href="https://github.com/tencent-ailab/V-Express" target="_blank" rel="noopener noreferrer"><img alt="V-Express stars" src="https://img.shields.io/github/stars/tencent-ailab/V-Express?style=social"></a>, <a href="https://github.com/muzishen/IMAGHarmony" target="_blank" rel="noopener noreferrer">IMAGHarmony</a> <a href="https://github.com/muzishen/IMAGDressing" target="_blank" rel="noopener noreferrer"><img alt="IMAGDHarmony stars" src="https://img.shields.io/github/stars/muzishen/IMAGHarmony?style=social"></a>, and <a href="https://github.com/muzishen/IMAGDressing" target="_blank" rel="noopener noreferrer">IMAGDressing</a> <a href="https://github.com/muzishen/IMAGDressing" target="_blank" rel="noopener noreferrer"><img alt="IMAGDressing stars" src="https://img.shields.io/github/stars/muzishen/IMAGDressing?style=social"></a>. To date, I have achieved 50+ top-three finishes in algorithm competitions, including five CCF-A workshop championships, and maintain close collaborations with <a href="https://ailab.tencent.com/" target="_blank" rel="noopener noreferrer">Tencent AI Lab</a>, <a href="http://dev3.noahlab.com.hk/" target="_blank" rel="noopener noreferrer">Huawei</a>, <a href="https://aiuni.ai/" target="_blank" rel="noopener noreferrer">AIUNI</a>, <a href="https://www.guiji.ai/" target="_blank" rel="noopener noreferrer">GuijiAI</a>, and <a href="https://www.chumenwenwen.com/zh/" target="_blank" rel="noopener noreferrer">Mobvoi</a>. I serve as a reviewer for TPAMI, NeurIPS, ICML, ICLR, CVPR, ECCV, and ICCV etc.
+I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_blank" rel="noopener noreferrer">NExT++ Center</a>, National University of Singapore (NUS), where I lead the <strong>Latent Knowledge Group</strong> and work with <a href="https://www.chuatatseng.com/" target="_blank" rel="noopener noreferrer">Prof. Tat-Seng Chua</a>. Previously, I received my Ph.D. from Nanjing University of Science and Technology under <a href="https://scholar.google.com/citations?user=ByBLlEwAAAAJ&hl=zh-CN" target="_blank" rel="noopener noreferrer">Prof. Jinhui Tang</a>, and conducted research at <a href="https://ailab.tencent.com/" target="_blank" rel="noopener noreferrer">Tencent AI Lab</a> with <a href="https://scholar.google.com/citations?user=XGVV3gEAAAAJ&hl=zh-CN&oi=ao" target="_blank" rel="noopener noreferrer">Prof. Xiao Han</a> and <a href="https://scholar.google.com.hk/citations?user=xUMuDgwAAAAJ&hl=zh-CN" target="_blank" rel="noopener noreferrer">Dr. Jun Zhang</a>. I was very lucky to participate in several interesting projects, including <a href="https://github.com/duixcom/Duix.Avatar" target="_blank" rel="noopener noreferrer">Duix.Avatar</a> <a href="https://github.com/duixcom/Duix.Avatar" target="_blank" rel="noopener noreferrer"><img alt="Duix.Avatar stars" src="https://img.shields.io/github/stars/duixcom/Duix.Avatar?style=social"></a>, <a href="https://github.com/tencent-ailab/V-Express" target="_blank" rel="noopener noreferrer">V-Express</a> <a href="https://github.com/tencent-ailab/V-Express" target="_blank" rel="noopener noreferrer"><img alt="V-Express stars" src="https://img.shields.io/github/stars/tencent-ailab/V-Express?style=social"></a>, <a href="https://github.com/muzishen/IMAGHarmony" target="_blank" rel="noopener noreferrer">IMAGHarmony</a> <a href="https://github.com/muzishen/IMAGDressing" target="_blank" rel="noopener noreferrer"><img alt="IMAGDHarmony stars" src="https://img.shields.io/github/stars/muzishen/IMAGHarmony?style=social"></a>, and <a href="https://github.com/muzishen/IMAGDressing" target="_blank" rel="noopener noreferrer">IMAGDressing</a> <a href="https://github.com/muzishen/IMAGDressing" target="_blank" rel="noopener noreferrer"><img alt="IMAGDressing stars" src="https://img.shields.io/github/stars/muzishen/IMAGDressing?style=social"></a>. To date, I have achieved 50+ top-three finishes in algorithm competitions, including five CCF-A workshop championships, and maintain close collaborations with <a href="https://ailab.tencent.com/" target="_blank" rel="noopener noreferrer">Tencent AI Lab</a>, <a href="http://dev3.noahlab.com.hk/" target="_blank" rel="noopener noreferrer">Huawei</a>, <a href="https://aiuni.ai/" target="_blank" rel="noopener noreferrer">AIUNI</a>, <a href="https://www.guiji.ai/" target="_blank" rel="noopener noreferrer">GuijiAI</a>, and <a href="https://www.chumenwenwen.com/zh/" target="_blank" rel="noopener noreferrer">Mobvoi</a>. I serve as an Area Chair for 3DV, PRCV, IJCNN, and ICME, an Associate Editor for Pattern Recognition, and a reviewer for major conferences and journals including NeurIPS, ICML, ICLR, CVPR, ICCV, ECCV, TPAMI, IJCV, TIP, and TMM.
+
 <span style="color:#c00; font-weight:700; display:block; margin-top:6px;">
   <strong>PS:</strong> We are actively seeking motivated Ph.D., M.S., and undergraduate students to collaborate with Prof. Chua and myself through CSC, RA, visiting positions, or remote internships in the following research areas. If you are interested, please send your CV to
   <a href="mailto:shenfei29@nus.edu.sg">shenfei29@nus.edu.sg</a>.
@@ -165,6 +166,23 @@ In parallel, I explore <strong>controllable image and video generation</strong> 
 <div class="pub-row">
   <div class="pub-left">
     <div class="thumb">
+      <img src="{{ '/images/paper-images/TCDM.png' | relative_url }}" alt="SAE-TCDM">
+    </div>
+  </div>
+  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
+    <strong>Selection, Aggregation, and Enhancement: Trajectory Consistent Diffusion Model for Image Super-Resolution</strong><br>
+    D. Huang, Y. Guo, Y. Huang, L. Dai, <strong>F. Shen</strong><sup>✉</sup>, H. Zeng<br>
+    IEEE Transactions on Image Processing (<strong>IEEE TIP</strong>), 2026.<br>
+    <a href="https://arxiv.org/pdf/2604.07210" target="_blank">[PDF]</a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/chenhangcuisg-code/Cross-Architecture-Merging-for-Large-Language-Models" target="_blank">[Code]</a>
+  </div>
+</div>
+
+
+<div class="pub-row">
+  <div class="pub-left">
+    <div class="thumb">
       <img src="{{ '/images/paper-images/VersaVogue.png' | relative_url }}" alt="versavogue">
     </div>
   </div>
@@ -251,6 +269,7 @@ In parallel, I explore <strong>controllable image and video generation</strong> 
 </div>
 
 
+
 <div class="pub-row">
   <div class="pub-left">
     <div class="thumb">
@@ -262,6 +281,8 @@ In parallel, I explore <strong>controllable image and video generation</strong> 
     D. Zhang, Z. Yuan, Z. Chen, C.-T. Liao, Y. Chen, <strong>F. Shen</strong><sup>✉</sup>, Q. Zhou, T.-S. Chua<br>
     International Conference on Machine Learning (<strong>ICML</strong>), 2026.<br>
     <a href="https://arxiv.org/pdf/2511.19912" target="_blank">[PDF]</a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/XWH-A/IMAGEdit" target="_blank">[Code]</a>
   </div>
 </div>
 
