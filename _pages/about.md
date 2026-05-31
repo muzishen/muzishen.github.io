@@ -250,6 +250,23 @@ In parallel, I explore <strong>controllable image and video generation</strong> 
   </div>
 </div>
 
+
+<div class="pub-row">
+  <div class="pub-left">
+    <div class="thumb">
+      <img src="{{ '/images/paper-images/Reasoning-VLA.png' | relative_url }}" alt="Reasoning-VLA">
+    </div>
+  </div>
+  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
+    <strong>Reasoning-VLA: An Efficient and Spatial-Guided General Vision-Language-Action Reasoning Model for Autonomous Driving</strong><br>
+    D. Zhang, Z. Yuan, Z. Chen, C.-T. Liao, Y. Chen, <strong>F. Shen</strong><sup>✉</sup>, Q. Zhou, T.-S. Chua<br>
+    International Conference on Machine Learning (<strong>ICML</strong>), 2026.<br>
+    <a href="https://arxiv.org/pdf/2511.19912" target="_blank">[PDF]</a>
+  </div>
+</div>
+
+
+
 <div class="pub-row">
   <div class="pub-left">
     <div class="thumb">
