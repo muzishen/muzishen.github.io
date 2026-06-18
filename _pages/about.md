@@ -298,7 +298,7 @@ In parallel, I explore <strong>controllable image and video generation</strong> 
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>OrthoEraser: Coupled-Neuron Orthogonal Projection for Concept Erasure</strong><br>
     C. Shi, W. Wu, <strong>F. Shen</strong><sup>✉</sup>, X. Zhu, K. Hu, Z. Wang<br>
-    Under Review.<br>
+    European Conference on Computer Vision (<strong>ECCV</strong>), 2026.<br>
     <a href="https://arxiv.org/pdf/2603.11493" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
     <a href="https://github.com/XWH-A/IMAGEdit" target="_blank">[Code]</a>
