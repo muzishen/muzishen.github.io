@@ -157,7 +157,7 @@ In parallel, I explore <strong>controllable image and video generation</strong> 
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>Beyond Surface Artifacts: Capturing Shared Latent Forgery Knowledge Across Modalities</strong><br>
     J. Dou, C. Shi, J. Wang, <strong>F. Shen</strong><sup>✉</sup>, Z. Wang, T.-S. Chua<br>
-    Under Review.<br>
+     ACM International Conference on Multimedia (<strong>ACM MM</strong>), 2026.<br>
     <a href="https://arxiv.org/pdf/2604.07763" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
     <a href="https://github.com/chenhangcuisg-code/Cross-Architecture-Merging-for-Large-Language-Models" target="_blank">[Code]</a>
