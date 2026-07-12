@@ -96,8 +96,8 @@ In parallel, I explore <strong>controllable image and video generation</strong> 
 
 
 # 🔥 News {#news}
+- *2026.06*: &nbsp;🎉 <strong>Four</strong> papers were accepted by <strong style="color: #2563eb;">ACM MM</strong> (CCF-A, Acceptance Rate 26.5%).
 - *2026.07*: &nbsp;🎉 <strong>One</strong> paper received the <strong style="color: #2563eb;">Outstanding Paper Award</strong> at <strong style="color: #2563eb;">ACL 2026</strong>.
-- *2026.06*: &nbsp;🎉 <strong>One</strong> paper was accepted by <strong style="color: #2563eb;">ACM Multimedia BNI Track</strong> (<span style="display: inline-block; padding: 0 .32em; border-radius: .25em; background: #f1f5f9; color: #475569; font-weight: 600; font-size: .92em; line-height: 1.35;">CCF-A</span>).
 - *2026.06*: &nbsp;🎉 <strong>Two</strong> papers were accepted by <strong style="color: #2563eb;">ECCV</strong> (CCF-B, Acceptance Rate 27.5%).
 - *2026.05*: &nbsp;🎉 <strong>One</strong> paper was accepted by <strong style="color: #2563eb;">IEEE TIP</strong> (JCR Q1, <span style="display: inline-block; padding: 0 .32em; border-radius: .25em; background: #f1f5f9; color: #475569; font-weight: 600; font-size: .92em; line-height: 1.35;">CCF-A</span>, IF=13.7).
 - *2026.05*: &nbsp;🎉 <strong>One</strong> paper was accepted by <strong style="color: #2563eb;">PR</strong> (JCR Q1, CCF-B, IF=7.6).
@@ -140,7 +140,7 @@ In parallel, I explore <strong>controllable image and video generation</strong> 
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>Latent Anomaly Knowledge Excavation: Unveiling Sparse Sensitive Neurons in Vision-Language Models</strong><br>
     S. Li, S. Li, C. Shi, W. Wu, Y. Wu, X. Yu, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
-    Under Review.<br>
+    ACM International Conference on Multimedia (<strong>ACM MM</strong>), 2026.<br>
     <a href="https://arxiv.org/pdf/2604.07802" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
     <a href="https://github.com/chenhangcuisg-code/Cross-Architecture-Merging-for-Large-Language-Models" target="_blank">[Code]</a>
@@ -192,7 +192,7 @@ In parallel, I explore <strong>controllable image and video generation</strong> 
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>VersaVogue: Visual Expert Orchestration and Preference Alignment for Unified Fashion Synthesis</strong><br>
     J. Yu, <strong>F. Shen</strong><sup>†</sup>, C. Wang, Y. Xin, S. Shen, X. Du, J. Tang<br>
-    Under Review.<br>
+    ACM International Conference on Multimedia (<strong>ACM MM</strong>), 2026.<br>
     <a href="https://arxiv.org/pdf/2604.07210" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
     <a href="https://github.com/chenhangcuisg-code/Cross-Architecture-Merging-for-Large-Language-Models" target="_blank">[Code]</a>
