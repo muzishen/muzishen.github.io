@@ -27,7 +27,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   background: #f8fafc;
   box-shadow: 0 4px 14px rgba(15, 23, 42, 0.06);
 ">
-  <h3 style="margin: 0 0 10px; font-size: 1.25rem;">
+  <h3 style="margin: 0 0 10px; font-size: 1.15rem;">
     🚀 NExT LFM: Large Foundation Model Intelligence &amp; Infrastructure
   </h3>
 
