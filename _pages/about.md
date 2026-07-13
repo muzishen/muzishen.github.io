@@ -17,6 +17,32 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
 </span>
 </p>
 
+
+<section id="venture" style="
+  margin: 22px 0 28px;
+  padding: 20px 24px;
+  border: 1px solid #dbe4f0;
+  border-left: 5px solid #2563eb;
+  border-radius: 10px;
+  background: #f8fafc;
+  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.06);
+">
+  <h3 style="margin: 0 0 10px; font-size: 1.25rem;">
+    🚀 AI Safety & Venture Collaboration
+  </h3>
+
+  <p style="margin: 0; line-height: 1.7; font-size: 0.98rem;">
+    We are building an <strong>AI safety and governance platform</strong> that helps enterprises
+    evaluate, monitor, diagnose, and rapidly mitigate risks in foundation models, including
+    unsafe behavior, hallucinations, privacy leakage, bias, and performance degradation.
+    Our goal is to make AI systems safer, more reliable, and controllable for real-world deployment.
+    We welcome conversations with investors and industry partners interested in
+    <strong>AI safety, enterprise AI, and foundation model infrastructure</strong>.
+    Please contact
+    <a href="mailto:shenfei29@nus.edu.sg"><strong>shenfei29@nus.edu.sg</strong></a>.
+  </p>
+</section>
+
 # 📚 Research Interests
 
 <p style="font-size:0.95rem; line-height:1.6;">
