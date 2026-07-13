@@ -28,20 +28,23 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   box-shadow: 0 4px 14px rgba(15, 23, 42, 0.06);
 ">
   <h3 style="margin: 0 0 10px; font-size: 1.25rem;">
-    🚀 AI Safety & Venture Collaboration
+    🚀 NExT LFM: Large Foundation Model Intelligence &amp; Infrastructure
   </h3>
 
   <p style="margin: 0; line-height: 1.7; font-size: 0.98rem;">
-    We are building an <strong>AI safety and governance platform</strong> that helps enterprises
-    evaluate, monitor, diagnose, and rapidly mitigate risks in foundation models, including
-    unsafe behavior, hallucinations, privacy leakage, bias, and performance degradation.
-    Our goal is to make AI systems safer, more reliable, and controllable for real-world deployment.
+    We are building <strong>NExT LFM</strong>, a technology and infrastructure platform for
+    understanding, evaluating, enhancing, and controlling large foundation models.
+    Our work helps enterprises identify model risks, diagnose failures, monitor safety and
+    reliability, discover and transfer useful capabilities, and improve model behavior through
+    efficient and targeted interventions. Our long-term goal is to make foundation models
+    safer, more reliable, adaptable, and ready for large-scale real-world deployment.
     We welcome conversations with investors and industry partners interested in
-    <strong>AI safety, enterprise AI, and foundation model infrastructure</strong>.
+    <strong>foundation models, enterprise AI, trustworthy AI, and AI infrastructure</strong>.
     Please contact
     <a href="mailto:shenfei29@nus.edu.sg"><strong>shenfei29@nus.edu.sg</strong></a>.
   </p>
 </section>
+
 
 # 📚 Research Interests
 
