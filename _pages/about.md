@@ -206,7 +206,7 @@ In parallel, I explore <strong>controllable image and video generation</strong> 
     <strong>Selection, Aggregation, and Enhancement: Trajectory Consistent Diffusion Model for Image Super-Resolution</strong><br>
     D. Huang, Y. Guo, Y. Huang, L. Dai, <strong>F. Shen</strong><sup>✉</sup>, H. Zeng<br>
     IEEE Transactions on Image Processing (<strong>IEEE TIP</strong>), 2026.<br>
-    <a href="https://arxiv.org/pdf/2604.07210" target="_blank">[PDF]</a>
+    <a href="https://ieeexplore.ieee.org/abstract/document/11557511" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
     <a href="https://github.com/chenhangcuisg-code/Cross-Architecture-Merging-for-Large-Language-Models" target="_blank">[Code]</a>
   </div>
