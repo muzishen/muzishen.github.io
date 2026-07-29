@@ -199,6 +199,22 @@ In parallel, I explore <strong>controllable image and video generation</strong> 
 <div class="pub-row">
   <div class="pub-left">
     <div class="thumb">
+      <img src="{{ '/images/paper-images/lap.png' | relative_url }}" alt="lap-forensics">
+    </div>
+  </div>
+  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
+    <strong>LaP-Forensics: Latent-Pixel Consistency Guided Multimodal Reasoning for Deepfake Detection</strong><br>
+    C. Wang, Y. Wang, Y. Cao, C. Xiao, <strong>F. Shen</strong><sup>✉</sup><br>
+    ACM International Conference on Multimedia (<strong>ACM MM</strong>), 2026.<br>
+    <a href="https://arxiv.org/pdf/2607.25962" target="_blank">[PDF]</a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/chenhangcuisg-code/Cross-Architecture-Merging-for-Large-Language-Models" target="_blank">[Code]</a>
+  </div>
+</div>
+
+<div class="pub-row">
+  <div class="pub-left">
+    <div class="thumb">
       <img src="{{ '/images/paper-images/TCDM.png' | relative_url }}" alt="SAE-TCDM">
     </div>
   </div>
