@@ -8,7 +8,7 @@ author_profile: true
 
 # 🎙 **President and Reviewer Roles**
 
-- Area Chair of 3DV/PRCV/IJCNN/ICME
+- Area Chair / Program Committee of 3DV/PRCV/IJCNN/ICME/WSDM
 - Conference Reviewers: NeurIPS, ICML, ICLR, CVPR, ICCV, ECCV, AAAI, IJCAI, ACM MM, MICCAI
 - Journal Reviewers: TPAMI, IJCV, TIP, TMM, TNNLS, TCSVT, PR, TII, IOTJ, TAI
 - **Associate Editor:** Pattern Recognition
