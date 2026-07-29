@@ -398,7 +398,7 @@ In parallel, I explore <strong>controllable image and video generation</strong> 
     <strong>IMAGAgent: Orchestrating Multi-Turn Image Editing via Constraint-Aware Planning and Reflection</strong><br>
     <strong>F. Shen</strong>, C. Xie, L. Wang, Z. Zhang, X. Jiang, X. Du, J. Tang<br>
     Under Review.<br>
-    <a href="https://www.researchgate.net/profile/Chengyu-Xie-6/publication/401700345_IMAGAgent_Orchestrating_Multi-Turn_Image_Editing_via_Constraint-Aware_Planning_and_Reflection/links/69aebe8ea91b826e43486eda/IMAGAgent-Orchestrating-Multi-Turn-Image-Editing-via-Constraint-Aware-Planning-and-Reflection.pdf" target="_blank">[PDF]</a>
+    <a href="https://arxiv.org/pdf/2603.29602" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
     <a href="https://github.com/hackermmzz/IMAGAgent" target="_blank">[Code]</a>
   </div>
