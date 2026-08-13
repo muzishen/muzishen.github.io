@@ -164,7 +164,24 @@ In parallel, I explore <strong>controllable image and video generation</strong> 
 <div class="pub-row">
   <div class="pub-left">
     <div class="thumb">
-      <img src="{{ '/images/paper-images/moving-safety-barrier.png' | relative_url }}" alt="moving-safety-barrier">
+      <img src="{{ '/images/paper-images/DSA.png' | relative_url }}" alt="no-single-neuron">
+    </div>
+  </div>
+  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
+    <strong>No Single Neuron of Failure: Distributed Safety Alignment Against White-Box Attacks</strong><br>
+    S. Xie, C. Shi, S. Li, W. Wu, <strong>F. Shen</strong><sup>✉</sup>, Y. Zhou, Z. Wang, T.-S. Chua<br>
+    Under Review.<br>
+    <a href="https://arxiv.org/pdf/2608.01414" target="_blank">[PDF]</a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/chenhangcuisg-code/Cross-Architecture-Merging-for-Large-Language-Models" target="_blank">[Code]</a>  
+  </div>
+</div>
+
+
+<div class="pub-row">
+  <div class="pub-left">
+    <div class="thumb">
+      <img src="{{ '/images/paper-images/DRAA.png' | relative_url }}" alt="moving-safety-barrier">
     </div>
   </div>
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
