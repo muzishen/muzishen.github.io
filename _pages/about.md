@@ -164,6 +164,21 @@ In parallel, I explore <strong>controllable image and video generation</strong> 
 <div class="pub-row">
   <div class="pub-left">
     <div class="thumb">
+      <img src="{{ '/images/paper-images/v-find.png' | relative_url }}" alt="v-find">
+    </div>
+  </div>
+  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
+    <strong>V-FIND: Revealing the Intrinsic Forgery Knowledge Encoded in Video Forgery Detectors</strong><br>
+    S. Kan, C. Hong, J. Dou, C. Shi, Y. Liu, L. Xu, Y. Liang, Y. Cen, Y. Sun, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
+    arXiv preprint arXiv:2608.03008, 2026.<br>
+    <a href="https://arxiv.org/pdf/2608.03008" target="_blank">[PDF]</a>
+  </div>
+</div>
+
+
+<div class="pub-row">
+  <div class="pub-left">
+    <div class="thumb">
       <img src="{{ '/images/paper-images/LAKE.png' | relative_url }}" alt="latent-anomaly-knowledge-excavation">
     </div>
   </div>
