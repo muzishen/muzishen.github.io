@@ -160,7 +160,6 @@ In parallel, I explore <strong>controllable image and video generation</strong> 
 
 # 📝 Selected Publications
 
-
 <div class="pub-row">
   <div class="pub-left">
     <div class="thumb">
@@ -176,6 +175,41 @@ In parallel, I explore <strong>controllable image and video generation</strong> 
     <a href="https://github.com/chenhangcuisg-code/Cross-Architecture-Merging-for-Large-Language-Models" target="_blank">[Code]</a>  
   </div>
 </div>
+
+
+<div class="pub-row">
+  <div class="pub-left">
+    <div class="thumb">
+      <img src="{{ '/images/paper-images/one-all.png' | relative_url }}" alt="one-anchor-for-all">
+    </div>
+  </div>
+  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
+    <strong>One Anchor for All: Unified Multilingual and Multimodal Safety Alignment for LVLMs</strong><br>
+    E. Shi, <strong>F. Shen</strong><sup>†</sup>, C. Shi, L. Zhu, S. Miao, J. Tang, T.-S. Chua<br>
+    Under Review.<br>
+    <a href="https://arxiv.org/pdf/2607.27917" target="_blank">[PDF]</a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/chenhangcuisg-code/Cross-Architecture-Merging-for-Large-Language-Models" target="_blank">[Code]</a>  
+  </div>
+</div>
+
+
+<div class="pub-row">
+  <div class="pub-left">
+    <div class="thumb">
+      <img src="{{ '/images/paper-images/SafeNexus.png' | relative_url }}" alt="safenexus">
+    </div>
+  </div>
+  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
+    <strong>SafeNexus: Discovering and Steering Modality-Universal Safety Neurons in MLLMs</strong><br>
+    J. Yu, <strong>F. Shen</strong><sup>†</sup>, C. Wang, J. Wang, L. J. Du, J. Tang, T.-S. Chua<br>
+    Under Review.<br>
+    <a href="https://arxiv.org/pdf/2607.28969" target="_blank">[PDF]</a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/chenhangcuisg-code/Cross-Architecture-Merging-for-Large-Language-Models" target="_blank">[Code]</a>  
+  </div>
+</div>
+
 
 
 <div class="pub-row">
