@@ -163,6 +163,23 @@ In parallel, I explore <strong>controllable image and video generation</strong> 
 <div class="pub-row">
   <div class="pub-left">
     <div class="thumb">
+      <img src="{{ '/images/paper-images/unidetect.png' | relative_url }}" alt="unidetect">
+    </div>
+  </div>
+  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
+    <strong>UniDetect: LLM-Driven Universal Fraud Detection across Heterogeneous Blockchains</strong><br>
+    S. Miao, W. Qiu, S. Zhuo, <strong>F. Shen</strong><sup>✉</sup>, D. Lin, X. Yu, T.-S. Chua, Z. Zheng<br>
+    Under Review.<br>
+    <a href="https://arxiv.org/pdf/2604.12329" target="_blank">[PDF]</a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/msy0513/UniDetect" target="_blank">[Code]</a>  
+  </div>
+</div>
+
+
+<div class="pub-row">
+  <div class="pub-left">
+    <div class="thumb">
       <img src="{{ '/images/paper-images/DSA.png' | relative_url }}" alt="no-single-neuron">
     </div>
   </div>
