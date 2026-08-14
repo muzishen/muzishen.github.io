@@ -160,6 +160,24 @@ In parallel, I explore <strong>controllable image and video generation</strong> 
 
 # 📝 Selected Publications
 
+
+<div class="pub-row">
+  <div class="pub-left">
+    <div class="thumb">
+      <img src="{{ '/images/paper-images/safety-pathway.png' | relative_url }}" alt="who-bridges-safety">
+    </div>
+  </div>
+  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
+    <strong>Who Bridges Safety? Identifying and Targeting Cross-Lingual Shared Safety Pathways</strong><br>
+    S. Miao, W. Qiu, P. Shao, C. Xiao, <strong>F. Shen</strong><sup>✉</sup>, Z. Zheng, T.-S. Chua<br>
+    Under Review.<br>
+    <a href="https://arxiv.org/pdf/2608.09095" target="_blank">[PDF]</a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/chenhangcuisg-code/Cross-Architecture-Merging-for-Large-Language-Models" target="_blank">[Code]</a>  
+  </div>
+</div>
+
+
 <div class="pub-row">
   <div class="pub-left">
     <div class="thumb">
