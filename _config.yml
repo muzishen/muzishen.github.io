@@ -30,7 +30,7 @@ author:
   employer         : "National University of Singapore"
   uri              : # URL
   email            : "shenfei29@nus.edu.sg" 
-  wechat_qr        : "wechat_qr.png"
+  # wechat_qr        : "wechat_qr.png"
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
