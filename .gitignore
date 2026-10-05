@@ -1,0 +1,9 @@
+# Local Jekyll dependencies and generated files
+/vendor/
+/_site/
+/.jekyll-cache/
+/.jekyll-metadata
+/.sass-cache/
+
+# Dependency versions resolved for this local preview
+/Gemfile.lock

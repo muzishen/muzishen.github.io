@@ -9,16 +9,16 @@ redirect_from:
 
 <span class="anchor" id="about-me"></span>
 <p>
-I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_blank" rel="noopener noreferrer">NExT++ Center</a>, National University of Singapore (NUS), where I lead the <strong>Latent Knowledge Group</strong> and work with <a href="https://www.chuatatseng.com/" target="_blank" rel="noopener noreferrer">Prof. Tat-Seng Chua</a>. Previously, I received my Ph.D. from Nanjing University of Science and Technology under <a href="https://scholar.google.com/citations?user=ByBLlEwAAAAJ&hl=zh-CN" target="_blank" rel="noopener noreferrer">Prof. Jinhui Tang</a>, and conducted research at <a href="https://ailab.tencent.com/" target="_blank" rel="noopener noreferrer">Tencent AI Lab</a> with <a href="https://scholar.google.com/citations?user=XGVV3gEAAAAJ&hl=zh-CN&oi=ao" target="_blank" rel="noopener noreferrer">Prof. Xiao Han</a> and <a href="https://scholar.google.com.hk/citations?user=xUMuDgwAAAAJ&hl=zh-CN" target="_blank" rel="noopener noreferrer">Dr. Jun Zhang</a>. I was very lucky to participate in several interesting projects, including <a href="https://github.com/duixcom/Duix.Avatar" target="_blank" rel="noopener noreferrer">Duix.Avatar</a> <a href="https://github.com/duixcom/Duix.Avatar" target="_blank" rel="noopener noreferrer"><img alt="Duix.Avatar stars" src="https://img.shields.io/github/stars/duixcom/Duix.Avatar?style=social"></a>, <a href="https://github.com/tencent-ailab/V-Express" target="_blank" rel="noopener noreferrer">V-Express</a> <a href="https://github.com/tencent-ailab/V-Express" target="_blank" rel="noopener noreferrer"><img alt="V-Express stars" src="https://img.shields.io/github/stars/tencent-ailab/V-Express?style=social"></a>, <a href="https://github.com/muzishen/IMAGHarmony" target="_blank" rel="noopener noreferrer">IMAGHarmony</a> <a href="https://github.com/muzishen/IMAGDressing" target="_blank" rel="noopener noreferrer"><img alt="IMAGDHarmony stars" src="https://img.shields.io/github/stars/muzishen/IMAGHarmony?style=social"></a>, and <a href="https://github.com/muzishen/IMAGDressing" target="_blank" rel="noopener noreferrer">IMAGDressing</a> <a href="https://github.com/muzishen/IMAGDressing" target="_blank" rel="noopener noreferrer"><img alt="IMAGDressing stars" src="https://img.shields.io/github/stars/muzishen/IMAGDressing?style=social"></a>. To date, I have achieved 50+ top-three finishes in algorithm competitions, including five CCF-A workshop championships, and maintain close collaborations with <a href="https://ailab.tencent.com/" target="_blank" rel="noopener noreferrer">Tencent AI Lab</a>, <a href="http://dev3.noahlab.com.hk/" target="_blank" rel="noopener noreferrer">Huawei</a>, <a href="https://aiuni.ai/" target="_blank" rel="noopener noreferrer">AIUNI</a>, <a href="https://www.guiji.ai/" target="_blank" rel="noopener noreferrer">GuijiAI</a>, and <a href="https://www.chumenwenwen.com/zh/" target="_blank" rel="noopener noreferrer">Mobvoi</a>. I am an IEEE Senior Member, serve as an Area Chair for 3DV, PRCV, IJCNN, and ICME, an Associate Editor for Pattern Recognition, and a reviewer for major conferences and journals including NeurIPS, ICML, ICLR, CVPR, ICCV, ECCV, TPAMI, IJCV, TIP, and TMM.
+I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_blank" rel="noopener noreferrer">NExT++ Center</a>, National University of Singapore (NUS), where I lead the <strong>Latent Knowledge Group</strong> and work with <a href="https://www.chuatatseng.com/" target="_blank" rel="noopener noreferrer">Prof. Tat-Seng Chua</a>. Previously, I received my Ph.D. from Nanjing University of Science and Technology under <a href="https://scholar.google.com/citations?user=ByBLlEwAAAAJ&hl=zh-CN" target="_blank" rel="noopener noreferrer">Prof. Jinhui Tang</a>, and conducted research at <a href="https://ailab.tencent.com/" target="_blank" rel="noopener noreferrer">Tencent AI Lab</a> with <a href="https://scholar.google.com/citations?user=XGVV3gEAAAAJ&hl=zh-CN&oi=ao" target="_blank" rel="noopener noreferrer">Prof. Xiao Han</a> and <a href="https://scholar.google.com.hk/citations?user=xUMuDgwAAAAJ&hl=zh-CN" target="_blank" rel="noopener noreferrer">Dr. Jun Zhang</a>. I was very lucky to participate in several interesting projects, including <a href="https://github.com/duixcom/Duix.Avatar" target="_blank" rel="noopener noreferrer">Duix.Avatar</a> <a href="https://github.com/duixcom/Duix.Avatar" target="_blank" rel="noopener noreferrer"><img alt="Duix.Avatar stars" src="https://img.shields.io/github/stars/duixcom/Duix.Avatar?style=social"></a>, <a href="https://github.com/tencent-ailab/V-Express" target="_blank" rel="noopener noreferrer">V-Express</a> <a href="https://github.com/tencent-ailab/V-Express" target="_blank" rel="noopener noreferrer"><img alt="V-Express stars" src="https://img.shields.io/github/stars/tencent-ailab/V-Express?style=social"></a>, <a href="https://github.com/muzishen/IMAGHarmony" target="_blank" rel="noopener noreferrer">IMAGHarmony</a> <a href="https://github.com/muzishen/IMAGDressing" target="_blank" rel="noopener noreferrer"><img alt="IMAGDHarmony stars" src="https://img.shields.io/github/stars/muzishen/IMAGHarmony?style=social"></a>, and <a href="https://github.com/muzishen/IMAGDressing" target="_blank" rel="noopener noreferrer">IMAGDressing</a> <a href="https://github.com/muzishen/IMAGDressing" target="_blank" rel="noopener noreferrer"><img alt="IMAGDressing stars" src="https://img.shields.io/github/stars/muzishen/IMAGDressing?style=social"></a>. To date, I have achieved 50+ top-three finishes in algorithm competitions, including five CCF-A workshop championships, and maintain close collaborations with <a href="https://ailab.tencent.com/" target="_blank" rel="noopener noreferrer">Tencent AI Lab</a>, <a href="http://dev3.noahlab.com.hk/" target="_blank" rel="noopener noreferrer">Huawei</a>, <a href="https://aiuni.ai/" target="_blank" rel="noopener noreferrer">AIUNI</a>, <a href="https://www.guiji.ai/" target="_blank" rel="noopener noreferrer">GuijiAI</a>, and <a href="https://www.chumenwenwen.com/zh/" target="_blank" rel="noopener noreferrer">Mobvoi</a>. I am an IEEE Senior Member and serve as an Area Chair for NeurIPS, ICML, ICLR, 3DV, PRCV, IJCNN, and ICME, as well as an Associate Editor for Pattern Recognition. I also review for major conferences and journals, including CVPR, ICCV, ECCV, TPAMI, IJCV, TIP, and TMM.
 
 <span style="color:#c00; font-weight:700; display:block; margin-top:6px;">
-  <strong>PS:</strong> We are actively seeking motivated Ph.D., M.S., and undergraduate students to collaborate with Prof. Chua and myself through CSC, RA, visiting positions, or remote internships in the following research areas. If you are interested, please send your CV to
+  <strong>PS:</strong> We are actively seeking motivated Ph.D., M.S., and undergraduate students to collaborate with Prof. Chua and myself through CSC, RA, visiting positions, or remote internships. If you are interested, please send your CV to
   <a href="mailto:shenfei29@nus.edu.sg">shenfei29@nus.edu.sg</a>.
 </span>
 </p>
 
 
-<section id="venture" style="
+<section id="venture" aria-labelledby="research" style="
   margin: 22px 0 28px;
   padding: 20px 24px;
   border: 1px solid #dbe4f0;
@@ -27,95 +27,44 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   background: #f8fafc;
   box-shadow: 0 4px 14px rgba(15, 23, 42, 0.06);
 ">
-  <h3 style="margin: 0 0 10px; font-size: 1.15rem;">
-    🚀 NExT LFM: Large Foundation Model Intelligence &amp; Infrastructure
+  <h3 id="research" style="margin: 0 0 10px; font-size: 1.15rem;">
+    🚀 NExT-LFM: Large Foundation Model Intelligence &amp; Infrastructure
   </h3>
 
-  <p style="margin: 0; line-height: 1.7; font-size: 0.98rem;">
-    We are building <strong>NExT LFM</strong>, a technology and infrastructure platform for
-    understanding, evaluating, enhancing, and controlling large foundation models.
-    Our work helps enterprises identify model risks, diagnose failures, monitor safety and
-    reliability, discover and transfer useful capabilities, and improve model behavior through
-    efficient and targeted interventions. Our long-term goal is to make foundation models
-    safer, more reliable, adaptable, and ready for large-scale real-world deployment.
-    We welcome conversations with investors and industry partners interested in
-    <strong>foundation models, enterprise AI, trustworthy AI, and AI infrastructure</strong>.
+  <p style="margin: 0 0 12px; line-height: 1.7; font-size: 0.98rem;">
+    We are building <strong>NExT-LFM</strong>, a research and technology platform for studying
+    large foundation models. Our work centers on <strong>latent knowledge</strong>: how it is
+    acquired, represented, and organized, how it evolves during <strong>mid-training</strong>,
+    and how internal structures give rise to observable behavior and support capabilities such as
+    understanding, reasoning, and safety.
+  </p>
+
+  <p style="margin: 0 0 12px; line-height: 1.7; font-size: 0.98rem;">
+    Across <strong>multilingual, multimodal, and multi-agent systems</strong>, we explore
+    <strong>Elicitation Learning</strong> as a means to activate, align, and protect latent capabilities,
+    and to transfer and reuse them across models and domains. Inspired by <strong>Plato’s notion of
+    abstract Forms</strong> and <strong>Aristotle’s distinction between potentiality and actuality</strong>,
+    we examine the shared structures underlying diverse model behaviors and how latent capabilities
+    can be translated into observable performance.
+  </p>
+
+  <p style="margin: 0 0 12px; line-height: 1.7; font-size: 0.98rem;">
+    Our research spans internal mechanisms, reliability assessment, applications of model capabilities,
+    and efficient deployment across LLMs, MLLMs, VLMs, VMs, and agent systems. Our goal is to make
+    foundation models more <strong>interpretable, controllable, transferable, and reliable</strong>.
+  </p>
+
+  <p style="margin: 0 0 12px; line-height: 1.7; font-size: 0.98rem;">
+    We welcome research collaborations and conversations with industry partners and investors interested in
+    <strong>foundation models, trustworthy AI, and AI infrastructure</strong>.
     Please contact
     <a href="mailto:shenfei29@nus.edu.sg"><strong>shenfei29@nus.edu.sg</strong></a>.
   </p>
+
+  <p style="margin: 0; font-size: 0.95rem;">
+    <a href="{{ '/research-vision/' | relative_url }}"><strong>Explore our Research Vision &rarr;</strong></a>
+  </p>
 </section>
-
-
-# 📚 Research Interests
-
-<p style="font-size:0.95rem; line-height:1.6;">
-My research focuses on uncovering and utilizing <strong>latent knowledge</strong> in large foundation models (LFMs), 
-with an emphasis on <strong>multilingual, multimodal, and multi-agent systems</strong>. 
-At a conceptual level, this line of work is inspired by the philosophical view that diverse observable behaviors may arise from deeper shared structures:
-from <strong>Plato’s notion of abstract Forms</strong> to <strong>Aristotle’s distinction between potentiality and actuality</strong>. 
-I study how such latent knowledge is structured, how it gives rise to core capabilities (e.g., understanding, reasoning, and safety), 
-and how these capabilities can be <strong>activated, aligned, protected, and transferred</strong> across models and domains. 
-In parallel, I explore <strong>controllable image and video generation</strong> to enable reliable and fine-grained manipulation of visual content.
-</p>
-
-<section id="research">
-  <h3>Research Directions</h3>
-
-  <ul>
-
-    <!-- Direction 1 -->
-    <li>
-      <strong>Latent Knowledge of LFMs</strong>
-      <ul>
-        <li>
-          <strong>Specific and Shared Representations Analysis:</strong>
-          Understanding how latent knowledge is structured across language-, modality-, and agent-specific as well as shared representations, 
-          and how a unified semantic space emerges across multilingual, multimodal, and multi-agent systems.
-        </li>
-
-        <li>
-          <strong>Alignment, Transfer, and Enhancement:</strong>
-          Studying how latent capabilities can be activated, aligned, protected, and transferred across languages, modalities, agents, 
-          and model architectures, enabling scalable and robust capability reuse.
-        </li>
-
-        <li>
-          <strong>Representative Capability Domains:</strong>
-          Understanding and reasoning; safety and alignment; cultural awareness; forgery and anomaly detection.
-        </li>
-      </ul>
-    </li>
-
-    <!-- Direction 2 -->
-    <li>
-      <strong>Image/Video Generation and Editing</strong>
-      <ul>
-        <li>
-          <strong>Human- and Story-Centric Generation:</strong>
-          Generating coherent human-centric and story-driven visual content.
-        </li>
-
-        <li>
-          <strong>Fashion and Garment Generation:</strong>
-          Modeling fine-grained appearance and structure for clothing and fashion applications.
-        </li>
-
-        <li>
-          <strong>Controllable Editing:</strong>
-          Enabling precise and interpretable manipulation of visual content.
-        </li>
-
-        <li>
-          <strong>Modular and Adapter-based Generation:</strong>
-          Developing plug-and-play and scalable generation frameworks.
-        </li>
-      </ul>
-    </li>
-
-  </ul>
-</section>
-
-
 
 
 # 🔥 News {#news}

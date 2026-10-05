@@ -1,0 +1,85 @@
+/* Research agenda on the Research Vision page. */
+.page__content .research-vision {
+  --research-accent: #254ca6;
+  margin-bottom: 2rem;
+  font-size: 0.9rem;
+  line-height: 1.65;
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    margin: 1.25rem 0;
+  }
+
+  &__pillar {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    padding: 1.1rem 1.2rem;
+    border: 1px solid var(--global-border-color);
+    border-top: 3px solid var(--research-accent);
+    border-radius: 4px;
+    background: var(--global-bg-color);
+
+    &--evaluation {
+      --research-accent: #0f766e;
+    }
+
+    &--deployment {
+      --research-accent: #7040b4;
+    }
+
+    h2 {
+      margin: 0.25rem 0;
+      padding: 0;
+      border: 0;
+      color: var(--research-accent);
+      font-size: 1rem;
+      line-height: 1.35;
+      scroll-margin-top: $masthead-height;
+    }
+
+    ul {
+      margin: 0 0 1rem;
+      padding-left: 1.1rem;
+    }
+
+    li {
+      margin-bottom: 0.65rem;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &__number {
+    color: var(--research-accent);
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+  }
+
+  @media (max-width: 700px) {
+    &__grid {
+      grid-template-columns: minmax(0, 1fr);
+    }
+
+    &__pillar {
+      padding: 1rem;
+    }
+  }
+}
+
+html[data-theme="dark"] .page__content .research-vision {
+  --research-accent: #a8c3ff;
+
+  &__pillar--evaluation {
+    --research-accent: #84d8ce;
+  }
+
+  &__pillar--deployment {
+    --research-accent: #d0b2ff;
+  }
+}
