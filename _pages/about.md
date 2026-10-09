@@ -105,6 +105,106 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
 
 # 📝 Selected Publications
 
+<div class="pub-row">
+  <div class="pub-left">
+    <div class="thumb">
+      <img src="{{ '/images/paper-images/contractlens.png' | relative_url }}" alt="contractlens">
+    </div>
+  </div>
+  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
+    <strong>ContractLens: Latent Security Knowledge for Malicious Smart Contract Detection</strong><br>
+    S. Miao, X. Huang, W. Qiu, <strong>F. Shen</strong><sup>✉</sup>, J. He, Z. Zheng, T.-S. Chua<br>
+    arXiv preprint arXiv:2610.04992, 2026.<br>
+    <a href="https://arxiv.org/pdf/2610.04992" target="_blank">[PDF]</a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/chenhangcuisg-code/Cross-Architecture-Merging-for-Large-Language-Models" target="_blank">[Code]</a>
+  </div>
+</div>
+
+<div class="pub-row">
+  <div class="pub-left">
+    <div class="thumb">
+      <img src="{{ '/images/paper-images/emorss.png' | relative_url }}" alt="emorss">
+    </div>
+  </div>
+  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
+    <strong>EmoRSS: Mitigating Emotion-Induced Over-Refusal in Large Language Models</strong><br>
+    S. Miao, Y. Ma, C. Cui, X. Liu, J. Dang, S. Zhuo, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
+    arXiv preprint arXiv:2610.04998, 2026.<br>
+    <a href="https://arxiv.org/pdf/2610.04998" target="_blank">[PDF]</a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/chenhangcuisg-code/Cross-Architecture-Merging-for-Large-Language-Models" target="_blank">[Code]</a>
+  </div>
+</div>
+
+
+<div class="pub-row">
+  <div class="pub-left">
+    <div class="thumb">
+      <img src="{{ '/images/paper-images/dv-lens.png' | relative_url }}" alt="dv-lens">
+    </div>
+  </div>
+  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
+    <strong>DV-Lens: Revealing the Functional Organization of Language Model Parameters</strong><br>
+    C. Cui, J. Yu, S. Miao, X. Liu, R. Huang, <strong>F. Shen</strong><sup>✉</sup>, A. Zhang, T.-S. Chua<br>
+    arXiv preprint arXiv:2610.04489, 2026.<br>
+    <a href="https://arxiv.org/pdf/2610.04489" target="_blank">[PDF]</a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/chenhangcuisg-code/Cross-Architecture-Merging-for-Large-Language-Models" target="_blank">[Code]</a>
+  </div>
+</div>
+
+
+
+<div class="pub-row">
+  <div class="pub-left">
+    <div class="thumb">
+      <img src="{{ '/images/paper-images/actr.png' | relative_url }}" alt="actr">
+    </div>
+  </div>
+  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
+    <strong>ACTR: Aligning Thoughts and Responses for Multilingual Safety in Reasoning LLMs</strong><br>
+    X. Zhang, J. Yu, C. Xie, C. Cui, S. Miao, P. Shao, Y. Zheng, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
+    arXiv preprint arXiv:2609.37054, 2026.<br>
+    <a href="https://arxiv.org/pdf/2609.37054" target="_blank">[PDF]</a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/chenhangcuisg-code/Cross-Architecture-Merging-for-Large-Language-Models" target="_blank">[Code]</a>
+  </div>
+</div>
+
+
+<div class="pub-row">
+  <div class="pub-left">
+    <div class="thumb">
+      <img src="{{ '/images/paper-images/hub.png' | relative_url }}" alt="hub-spectral">
+    </div>
+  </div>
+  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
+    <strong>Hub-Spectral Activation of Latent Multimodal Knowledge</strong><br>
+    Y. Guo, H. Chen, L. Xu, X. Liu, C. Shi, C. Xiao, D. Zhang, <strong>F. Shen</strong><sup>✉</sup>, L. Shen, T.-S. Chua<br>
+    arXiv preprint arXiv:2609.17094, 2026.<br>
+    <a href="https://arxiv.org/pdf/2609.17094" target="_blank">[PDF]</a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/Luo1Yan/HSA" target="_blank">[Code]</a>
+  </div>
+</div>
+
+
+<div class="pub-row">
+  <div class="pub-left">
+    <div class="thumb">
+      <img src="{{ '/images/paper-images/sketchdiff.png' | relative_url }}" alt="sketchdiff">
+    </div>
+  </div>
+  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
+    <strong>SketchDiff: Progressive Diffusion for Photorealistic Portrait Generation From Rough Sketches</strong><br>
+    C. Yang, D. Zhang, L. Xing, Q. Song, C. Wang, <strong>F. Shen</strong><sup>✉</sup><br>
+    IEEE Transactions on Neural Networks and Learning Systems (TNNLS), 2026.<br>
+    <a href="https://ieeexplore.ieee.org/abstract/document/11711316" target="_blank">[PDF]</a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/chenhangcuisg-code/Cross-Architecture-Merging-for-Large-Language-Models" target="_blank">[Code]</a>
+  </div>
+</div>
 
 <div class="pub-row">
   <div class="pub-left">
@@ -118,7 +218,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     Under Review.<br>
     <a href="https://arxiv.org/pdf/2608.09095" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
-    <a href="https://github.com/chenhangcuisg-code/Cross-Architecture-Merging-for-Large-Language-Models" target="_blank">[Code]</a>  
+    <a href="https://github.com/msy0513/shared-safety-pathways" target="_blank">[Code]</a>  
   </div>
 </div>
 
