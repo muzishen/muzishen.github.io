@@ -181,7 +181,8 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   </div>
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>Hub-Spectral Activation of Latent Multimodal Knowledge</strong><br>
-    Y. Guo, H. Chen, L. Xu, X. Liu, C. Shi, C. Xiao, D. Zhang, <strong>F. Shen</strong><sup>✉</sup>, L. Shen, T.-S. Chua<br>
+    Y. Guo, H. Chen, L. Xu, X. Liu, C. Shi, C. Xiao, D. Zhang, 
+    <strong>F. Shen</strong><sup>✉</sup>, L. Shen, T.-S. Chua<br>
     arXiv preprint arXiv:2609.17094, 2026.<br>
     <a href="https://arxiv.org/pdf/2609.17094" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
