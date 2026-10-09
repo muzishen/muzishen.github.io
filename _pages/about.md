@@ -108,7 +108,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
 <div class="pub-row">
   <div class="pub-left">
     <div class="thumb">
-      <img src="{{ '/images/paper-images/contractlens.png' | relative_url }}" alt="contractlens">
+      <img src="{{ '/images/paper-images/contract-lens.png' | relative_url }}" alt="contractlens">
     </div>
   </div>
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
