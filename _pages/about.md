@@ -108,6 +108,55 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
 <div class="pub-row">
   <div class="pub-left">
     <div class="thumb">
+      <img src="{{ '/images/paper-images/barq.png' | relative_url }}" alt="BARQ: Balanced Codebook Refinement for Low-Bit LLM Quantizat">
+    </div>
+  </div>
+  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
+    <strong>BARQ: Balanced Codebook Refinement for Low-Bit LLM Quantization</strong><br>
+    C. Cui, X. Xie, L. Xu, X. Liu, X. Zhu, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
+    arXiv preprint arXiv:2610.04490, 2026.<br>
+    <a href="https://arxiv.org/pdf/2610.04490" target="_blank">[PDF]</a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/Luo1Yan/HSA" target="_blank">[Code]</a>
+  </div>
+</div>
+
+<div class="pub-row">
+  <div class="pub-left">
+    <div class="thumb">
+      <img src="{{ '/images/paper-images/latent-support.png' | relative_url }}" alt="Do correct answers have stable latent knowledge support?">
+    </div>
+  </div>
+  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
+    <strong>Do correct answers have stable latent knowledge support?</strong><br>
+    C. Shi, S. Li, W. Wu, K. Hu, <strong>F. Shen</strong><sup>✉</sup>, Z. Wang, T.-S. Chua<br>
+    arXiv preprint arXiv:2610.15277, 2026.<br>
+    <a href="https://arxiv.org/pdf/2610.15277" target="_blank">[PDF]</a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/Luo1Yan/HSA" target="_blank">[Code]</a>
+  </div>
+</div>
+
+<div class="pub-row">
+  <div class="pub-left">
+    <div class="thumb">
+      <img src="{{ '/images/paper-images/superai.png' | relative_url }}" alt="SuperAI: Merging Capabilities Across Heterogeneous Foundatio">
+    </div>
+  </div>
+  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
+    <strong>SuperAI: Merging Capabilities Across Heterogeneous Foundation Models</strong><br>
+    J. Dou, C. Shi, W. Wu, W. Bao, <strong>F. Shen</strong><sup>✉</sup>, Z. Wang, T.-S. Chua<br>
+    arXiv preprint arXiv:2610.15322, 2026.<br>
+    <a href="https://arxiv.org/pdf/2610.15322" target="_blank">[PDF]</a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/Luo1Yan/HSA" target="_blank">[Code]</a>
+  </div>
+</div>
+
+
+<div class="pub-row">
+  <div class="pub-left">
+    <div class="thumb">
       <img src="{{ '/images/paper-images/forensic-reserve.png' | relative_url }}" alt="Forensic Reserve: Eliciting Latent Knowledge for Image Forge">
     </div>
   </div>
