@@ -94,6 +94,11 @@
   .pcard .keys{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:16px}
   .pcard .keys i{font-style:normal;font-size:11px;padding:4px 9px;border-radius:999px;color:#bcd4ea;
     border:1px solid rgba(110,170,240,.22);background:rgba(12,24,40,.6)}
+  .pcard .keys.kl{margin-bottom:7px;align-items:center}
+  .pcard .keys .kl-t{font-family:var(--mono);font-size:10px;letter-spacing:.14em;color:#8b7fb8;
+    padding:0;margin-right:3px;flex:0 0 auto}
+  .pcard p.sub{margin:-2px 0 12px;font-size:13px;line-height:1.8;color:#93a7bf}
+  .pcard.soon p.sub strong{color:#c3b4ea}
   .pcard .go{margin-top:auto;font-size:13.5px;font-weight:600;color:#7fe9ff}
   .pcard .go span{transition:.25s;display:inline-block}
   .pcard:hover .go span{transform:translateX(4px)}
@@ -181,10 +186,10 @@
       </span>
     </div>
     <div class="body">
-      <div class="tag">OMNI GUARD</div>
-      <h2>灵眸守卫<small>大模型看护守卫</small></h2>
+      <div class="tag">LATENT GUARD</div>
+      <h2>灵眸守卫<small>大模型看护守卫 · 20 项能力</small></h2>
       <p>接入现有摄像头，多模态大模型不只画框——它用一句话说清画面里发生了什么，能听懂求助，并在每天清晨交出一份可追溯的安全报告。覆盖住宅小区、养老敬老院与校园。</p>
-      <div class="keys"><i>20 项能力</i><i>语义检索录像</i><i>每日时间线</i><i>自动生成日报</i></div>
+      <div class="keys"><i>异常识别</i><i>语音求助</i><i>语义检索</i><i>时间回溯</i><i>日报生成</i></div>
       <div class="go">查看产品 <span>→</span></div>
     </div>
   </a>
@@ -201,9 +206,9 @@
     </div>
     <div class="body">
       <div class="tag">LATENT FRAME</div>
-      <h2>灵趣潜像<small>可控视频与图像生成</small></h2>
-      <p>把模型里早已存在、却尚未显影的潜在表征组织成连贯画面。覆盖文旅宣传片、AI 短剧、品牌 TVC、电商视频、数字人口播等 8 类场景，含两条未剪辑的真实生成案例。</p>
-      <div class="keys"><i>8 类场景</i><i>角色锁定</i><i>音画同步</i><i>3 小时长片段</i></div>
+      <h2>灵趣潜像<small>可控视频与图像生成 · 8 类场景</small></h2>
+      <p>把模型里早已存在、却尚未显影的潜在表征组织成连贯画面。覆盖文旅宣传片、AI 短剧、品牌 TVC、电商视频、数字人口播等 8 类场景，单片段最长可达 3 小时，含两条未剪辑的真实生成案例。</p>
+      <div class="keys"><i>角色锁定</i><i>音画同步</i><i>长时生成</i><i>多尺寸交付</i><i>案例实录</i></div>
       <div class="go">查看产品 <span>→</span></div>
     </div>
   </a>
@@ -214,9 +219,13 @@
     </div>
     <div class="body">
       <div class="tag" style="color:#b9a6f0">MODEL FORGE</div>
-      <h2>模型工坊<small>激发 · 合并 · 拆分</small></h2>
-      <p>让模型变强，不只有堆数据与堆参数这一条路。我们正在把能力层面的三条路径做成工程化工具：<strong>激发</strong>——把模型「学过但说不出口」的能力稳定地唤出来；<strong>合并</strong>——把分散在多个模型里的能力汇聚到一个模型，而不互相抵消；<strong>拆分</strong>——按任务把一个大模型切成更轻的专用模块，同时保住原有能力。</p>
-      <div class="keys"><i>能力激发</i><i>模型合并</i><i>能力拆分</i><i>无退化迁移</i></div>
+      <h2>模型工坊<small>能力工程 · 可靠评估 · 轻量落地</small></h2>
+      <p>让模型变强，不只有堆数据与堆参数这一条路。工坊做的是能力层面的工程：<strong>激发</strong>——把模型「学过但说不出口」的能力稳定地唤出来；<strong>合并</strong>——把分散在多个模型里的能力汇聚到一个模型而不互相抵消；<strong>拆分</strong>——按任务切出更轻的专用模块，同时保住原有能力。</p>
+      <p class="sub">每一步改动都要经得起检查，所以<strong>可靠性评估</strong>贯穿全程：能力涨了多少、退化在哪里、幻觉是否可控，都可量化、可回归。同时我们把<strong>人情文化数据</strong>与 AI 文化对齐纳入流程——模型要懂语境、懂分寸、懂一方水土的人情世故，而不只是把任务做完。</p>
+      <p class="sub">工程侧解决「跑得起」：<strong>轻量化部署</strong>、<strong>1-bit 运行</strong>与<strong>纯 CPU 推理</strong>，把能力从大集群下放到端侧设备和低成本硬件上。</p>
+      <div class="keys kl"><span class="kl-t">能力</span><i>能力激发</i><i>模型合并</i><i>能力拆分</i><i>可靠评估</i></div>
+      <div class="keys kl"><span class="kl-t">数据</span><i>人情语境</i><i>文化常识</i><i>文化对齐</i><i>人文数据</i></div>
+      <div class="keys kl"><span class="kl-t">部署</span><i>轻量部署</i><i>1-bit 推理</i><i>CPU 推理</i><i>端侧落地</i></div>
       <div class="go">敬请期待 <span>·</span></div>
     </div>
   </div>
