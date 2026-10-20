@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#05080f">
-<title>AIGC 生成能力 · NExT-LFM</title>
+<title>潜像 LATENT FRAME · 可控视频生成 · NExT-LFM</title>
 <style>
   :root{
     --bg:#05080f; --panel:#0a1524; --line:rgba(110,170,240,.16);
@@ -61,6 +61,7 @@
     -webkit-background-clip:text;background-clip:text;color:transparent}
   .hero .lead{font-size:15.5px;line-height:1.85;color:#b9cbe0;margin:0}
   .hero .lead strong{color:#dbe9fa;font-weight:600}
+  .hero .lead i{font-style:italic;color:#c9b6ff;font-family:var(--mono);font-size:.92em}
 
   .stats{display:flex;flex-wrap:wrap;gap:10px;margin:26px 0 0}
   .stat{flex:1 1 150px;padding:14px 16px;border-radius:13px;border:1px solid var(--line);
@@ -168,7 +169,7 @@
 
 <header>
   <div class="nav">
-    <div class="logo"><span class="mark"></span><span>AIGC&nbsp;<b>GENERATION</b></span></div>
+    <div class="logo"><span class="mark"></span><span>潜像&nbsp;<b>LATENT FRAME</b></span></div>
     <nav class="nav-links">
       <a href="/products/" class="back-home">← 产品总览</a>
       <a href="#scenes">应用场景</a>
@@ -187,17 +188,20 @@
 </div>
 
 <div class="hero">
-  <div class="kicker">AIGC · VIDEO &amp; IMAGE GENERATION</div>
+  <div class="kicker">LATENT FRAME · CONTROLLED GENERATION</div>
   <h1>把潜在表征，<br><em>组织成连贯的画面</em></h1>
   <p class="lead">
-    面向真实交付的<strong>视频与图像生成</strong>能力。重点解决三件难事：
-    <strong>长时序下主体身份与风格不漂移</strong>、<strong>运动本身的稳定性</strong>，
-    以及<strong>画面与配音／音乐的节拍对齐</strong>。下面是我们的场景覆盖、真实生成案例与功能清单。
+    <strong>潜像（Latent Frame）</strong>取自摄影中的 <i>latent image</i>——底片曝光后已经存在、却尚未显影的影像。
+    生成也是如此：模型里早已存着关于光影、材质与运动的潜在表征，我们要做的是把它<strong>显影</strong>成连贯、可控、可交付的画面。
+  </p>
+  <p class="lead" style="margin-top:12px">
+    重点解决三件难事：<strong>长时序下主体身份与风格不漂移</strong>、<strong>运动本身的稳定性</strong>，
+    以及<strong>画面与配音／音乐的节拍对齐</strong>。
   </p>
   <div class="stats">
     <div class="stat"><b>8</b><span>类业务场景</span></div>
     <div class="stat"><b>8</b><span>项生成功能</span></div>
-    <div class="stat"><b>3<i>′</i></b><span>单片段可达时长</span></div>
+    <div class="stat"><b>3<i>h</i></b><span>单片段可达时长</span></div>
     <div class="stat"><b>720<i>p</i></b><span>标准交付分辨率</span></div>
   </div>
 </div>
@@ -333,7 +337,7 @@
     <div class="feat"><div class="fk">F-02</div><b>角色与场景锁定</b><span>跨镜头保持人物相貌、服装、道具与场景风格不变，抑制长片段中常见的身份漂移与突变。</span></div>
     <div class="feat"><div class="fk">F-03</div><b>镜头语言控制</b><span>可指定推拉摇移、景深、构图与运镜速度，让生成结果符合分镜意图而非随机运动。</span></div>
     <div class="feat"><div class="fk">F-04</div><b>音画同步</b><span>配音、口型、背景音乐与音效对齐；支持以音频驱动画面节奏，做到节拍级同步。</span></div>
-    <div class="feat"><div class="fk">F-05</div><b>多尺寸 / 多时长</b><span>竖屏 9:16、横屏 16:9、方屏 1:1 一次生成多版；单片段可从 15 秒延展到 3 分钟级。</span></div>
+    <div class="feat"><div class="fk">F-05</div><b>多尺寸 / 多时长</b><span>竖屏 9:16、横屏 16:9、方屏 1:1 一次生成多版；单片段可延展到 3 小时级，长时段内保持一致性与连贯性。</span></div>
     <div class="feat"><div class="fk">F-06</div><b>批量生成与选版</b><span>同一意图并行产出多个候选，配合筛选与评分，把「抽卡」变成可控的选片流程。</span></div>
     <div class="feat"><div class="fk">F-07</div><b>风格与调性迁移</b><span>以参考图锁定色调、质感与影调，使系列内容保持统一视觉，满足品牌规范约束。</span></div>
     <div class="feat"><div class="fk">F-08</div><b>可控编辑</b><span>局部重绘、单镜头替换、片段时长延展与删减，无需整条重生成即可完成修改。</span></div>
@@ -361,7 +365,7 @@
 <footer>
   <div class="f-row">
     <div>
-      <div class="brand">AIGC · NExT-LFM</div>
+      <div class="brand">LATENT FRAME · NExT-LFM</div>
     </div>
     <p>页面场景配图为能力示意，两条案例视频为真实生成结果；实际产出以模型版本与配置为准。</p>
   </div>

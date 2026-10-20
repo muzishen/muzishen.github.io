@@ -70,13 +70,22 @@
   }
   .pcard:hover{border-color:rgba(34,211,238,.45);transform:translateY(-3px);
     box-shadow:0 22px 50px -30px rgba(34,211,238,.8)}
-  .pcard .ph{position:relative;height:158px;display:grid;place-items:center;overflow:hidden;
-    border-bottom:1px solid rgba(110,170,240,.14)}
-  .pcard .ph::after{content:"";position:absolute;inset:0;
-    background:radial-gradient(120% 80% at 50% 120%,rgba(5,8,15,0),rgba(5,8,15,.75))}
-  .pcard .ph svg{width:58px;height:58px;opacity:.95}
-  .pcard.g1 .ph{background:linear-gradient(135deg,rgba(34,211,238,.20),rgba(59,130,246,.16) 55%,rgba(139,92,246,.14))}
-  .pcard.g2 .ph{background:linear-gradient(135deg,rgba(139,92,246,.22),rgba(236,72,153,.14) 55%,rgba(34,211,238,.12))}
+  .pcard .ph{position:relative;height:162px;overflow:hidden;
+    border-bottom:1px solid rgba(110,170,240,.14);
+    background-size:cover;background-position:center 42%;background-repeat:no-repeat;
+    transition:.5s}
+  .pcard:hover .ph{background-position:center 46%}
+  .pcard .ph::before{content:"";position:absolute;inset:0;
+    background:radial-gradient(120% 90% at 50% 130%,rgba(5,8,15,.94),rgba(5,8,15,.28) 62%,rgba(5,8,15,.1))}
+  .pcard .ph::after{content:"";position:absolute;left:0;right:0;bottom:0;height:44%;
+    background:linear-gradient(180deg,transparent,rgba(7,13,24,.96))}
+  .pcard .ph .ico{position:absolute;right:14px;top:13px;z-index:2;width:34px;height:34px;
+    display:grid;place-items:center;border-radius:10px;
+    background:rgba(5,8,15,.55);border:1px solid rgba(110,170,240,.22);
+    backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
+  .pcard .ph .ico svg{width:17px;height:17px;opacity:.92}
+  .pcard.g1 .ph{background-image:url(/products/images/cover-omni-guard.jpg)}
+  .pcard.g2 .ph{background-image:url(/products/images/cover-latent-frame.jpg)}
   .pcard .body{padding:18px 18px 20px;display:flex;flex-direction:column;flex:1}
   .pcard .tag{font-family:var(--mono);font-size:10px;letter-spacing:.16em;color:#7fe9ff;margin-bottom:8px}
   .pcard h2{margin:0 0 8px;font-size:19px;font-weight:700}
@@ -88,6 +97,23 @@
   .pcard .go{margin-top:auto;font-size:13.5px;font-weight:600;color:#7fe9ff}
   .pcard .go span{transition:.25s;display:inline-block}
   .pcard:hover .go span{transform:translateX(4px)}
+
+  /* 敬请期待卡 */
+  .pcard.soon{grid-column:1/-1;flex-direction:row;border-style:dashed;
+    border-color:rgba(139,92,246,.34);background:linear-gradient(120deg,rgba(13,26,44,.55),rgba(7,13,24,.62))}
+  .pcard.soon:hover{transform:none;border-color:rgba(139,92,246,.5);box-shadow:none}
+  .pcard.soon .soon-visual{flex:0 0 236px;position:relative;overflow:hidden;
+    border-right:1px dashed rgba(139,92,246,.28);
+    background:radial-gradient(120% 110% at 30% 20%,rgba(139,92,246,.20),rgba(34,211,238,.07) 55%,transparent 78%)}
+  .pcard.soon .soon-visual .nodes{position:absolute;inset:0;display:grid;place-items:center}
+  .pcard.soon .soon-visual svg{width:92px;height:92px;opacity:.62}
+  .pcard.soon .cs{position:absolute;left:14px;bottom:12px;font-family:var(--mono);font-size:9.5px;
+    letter-spacing:.2em;color:#c9b6ff;border:1px dashed rgba(139,92,246,.5);
+    border-radius:999px;padding:4px 10px;background:rgba(5,8,15,.5)}
+  .pcard.soon h2 small{color:#9c8fc4}
+  .pcard.soon .keys i{border-color:rgba(139,92,246,.26);color:#b8aee0;background:rgba(139,92,246,.07)}
+  .pcard.soon .go{color:#8b7fb8;cursor:default}
+  .pcard.soon:hover .go span{transform:none}
 
   footer{max-width:1180px;margin:clamp(50px,7vw,80px) auto 0;padding:26px 18px 44px;border-top:1px solid var(--line)}
   footer .f-row{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;align-items:center}
@@ -101,7 +127,12 @@
   footer .f-contact .home{color:var(--dim);margin-left:auto}
   footer .f-contact .home:hover{color:#fff}
 
-  @media (max-width:900px){ .nav-links{display:none} .grid{grid-template-columns:1fr} }
+  @media (max-width:900px){
+    .nav-links{display:none} .grid{grid-template-columns:1fr}
+    .pcard.soon{flex-direction:column}
+    .pcard.soon .soon-visual{flex:0 0 auto;height:132px;border-right:0;border-bottom:1px dashed rgba(139,92,246,.28)}
+    .pcard.soon .soon-visual svg{width:64px;height:64px}
+  }
   @media (max-width:560px){ .hero{padding:34px 0 4px} .lk-band{padding:11px 13px;font-size:12px} }
 
   footer .f-contact .wx{color:#a9bdd4}
@@ -133,7 +164,7 @@
   <h1>从潜在知识，<br><em>到能用的系统</em></h1>
   <p class="lead">
     模型「学过但未必说得出口」的能力，需要被<strong>激发</strong>、被对齐、被组织，才会在真实场景里稳定地表现出来。
-    我们把这条路径落成两条产品线：一条做安全与看护的理解，一条做可控的视觉生成。
+    我们把这条路径落成产品：一条做安全与看护的理解，一条做可控的视觉生成，第三条在模型能力本身上做工程——把激发、合并与拆分做成可用工具。
   </p>
 </div>
 
@@ -141,10 +172,12 @@
 
   <a class="pcard g1" href="/products/omni-guard/">
     <div class="ph">
-      <svg viewBox="0 0 24 24" fill="none" stroke="#5ee7ff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M2 12s3.6-6.5 10-6.5S22 12 22 12s-3.6 6.5-10 6.5S2 12 2 12z"/>
-        <circle cx="12" cy="12" r="3"/>
-      </svg>
+      <span class="ico">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#5ee7ff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M2 12s3.6-6.5 10-6.5S22 12 22 12s-3.6 6.5-10 6.5S2 12 2 12z"/>
+          <circle cx="12" cy="12" r="3"/>
+        </svg>
+      </span>
     </div>
     <div class="body">
       <div class="tag">OMNI GUARD</div>
@@ -157,20 +190,44 @@
 
   <a class="pcard g2" href="/products/aigc/">
     <div class="ph">
-      <svg viewBox="0 0 24 24" fill="none" stroke="#d9b6ff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-        <rect x="2.5" y="5" width="19" height="14" rx="2.5"/>
-        <path d="M10 9.2v5.6l5-2.8-5-2.8z"/>
-        <path d="M6.5 5v14M17.5 5v14"/>
-      </svg>
+      <span class="ico">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#d9b6ff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2.5" y="5" width="19" height="14" rx="2.5"/>
+          <path d="M10 9.2v5.6l5-2.8-5-2.8z"/>
+          <path d="M6.5 5v14M17.5 5v14"/>
+        </svg>
+      </span>
     </div>
     <div class="body">
-      <div class="tag">AIGC</div>
-      <h2>视频与图像生成<small>覆盖 8 类业务场景 · 含真实案例</small></h2>
-      <p>面向真实交付的视频与图像生成：文旅宣传片、AI 短剧、品牌 TVC、电商视频、数字人口播等 8 类场景，8 项底层功能。含两条未剪辑的真实生成案例。</p>
-      <div class="keys"><i>8 类场景</i><i>角色锁定</i><i>音画同步</i><i>多尺寸交付</i></div>
-      <div class="go">查看样例 <span>→</span></div>
+      <div class="tag">LATENT FRAME</div>
+      <h2>潜像<small>可控视频与图像生成</small></h2>
+      <p>把模型里早已存在、却尚未显影的潜在表征组织成连贯画面。覆盖文旅宣传片、AI 短剧、品牌 TVC、电商视频、数字人口播等 8 类场景，含两条未剪辑的真实生成案例。</p>
+      <div class="keys"><i>8 类场景</i><i>角色锁定</i><i>音画同步</i><i>3 小时长片段</i></div>
+      <div class="go">查看产品 <span>→</span></div>
     </div>
   </a>
+
+  <div class="pcard soon">
+    <div class="soon-visual">
+      <div class="nodes">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#c9b6ff" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="5.5" cy="6" r="2.4"/>
+          <circle cx="5.5" cy="18" r="2.4"/>
+          <circle cx="18.5" cy="12" r="3"/>
+          <path d="M7.6 7.3 16 10.7M7.6 16.7 16 13.3"/>
+          <path d="M18.5 9v6"/>
+        </svg>
+      </div>
+      <span class="cs">COMING SOON</span>
+    </div>
+    <div class="body">
+      <div class="tag" style="color:#b9a6f0">MODEL FORGE</div>
+      <h2>模型工坊<small>激发 · 合并 · 拆分</small></h2>
+      <p>让模型变强，不只有堆数据与堆参数这一条路。我们正在把能力层面的三条路径做成工程化工具：<strong>激发</strong>——把模型「学过但说不出口」的能力稳定地唤出来；<strong>合并</strong>——把分散在多个模型里的能力汇聚到一个模型，而不互相抵消；<strong>拆分</strong>——按任务把一个大模型切成更轻的专用模块，同时保住原有能力。</p>
+      <div class="keys"><i>能力激发</i><i>模型合并</i><i>能力拆分</i><i>无退化迁移</i></div>
+      <div class="go">敬请期待 <span>·</span></div>
+    </div>
+  </div>
 
 </div>
 
