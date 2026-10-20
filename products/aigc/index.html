@@ -38,9 +38,10 @@
     border:1px solid rgba(139,92,246,.5)}
   .logo .mark::after{content:"";width:10px;height:10px;border-radius:50%;background:var(--grad);
     box-shadow:0 0 12px 2px rgba(139,92,246,.55)}
-  .nav-links{display:flex;gap:4px;margin-left:auto}
+  .nav-links{display:flex;gap:4px;margin-left:auto;flex-wrap:wrap}
   .nav-links a{font-size:13px;color:var(--dim);padding:7px 12px;border-radius:8px;transition:.25s}
   .nav-links a:hover{color:#fff;background:rgba(139,92,246,.14)}
+  .nav-links a.on{color:#a5f3fc;background:rgba(34,211,238,.12)}
   .nav-links a.back-home{color:#c9b6ff;border-right:1px solid rgba(110,170,240,.28);
     padding-right:12px;margin-right:4px;font-weight:600;white-space:nowrap}
 
@@ -53,37 +54,86 @@
   .lk-band a{white-space:nowrap;color:#9fe8ff;border-bottom:1px solid rgba(34,211,238,.4);margin-left:10px}
   .lk-band a:hover{color:#fff}
 
-  .hero{padding:52px 0 6px;max-width:800px}
+  .hero{padding:52px 0 6px;max-width:840px}
   .kicker{font-family:var(--mono);font-size:11px;letter-spacing:.22em;color:#c9b6ff;margin-bottom:14px}
   .hero h1{font-size:clamp(28px,4.4vw,42px);line-height:1.25;margin:0 0 16px;font-weight:700;letter-spacing:-.01em}
   .hero h1 em{font-style:normal;background:linear-gradient(115deg,#a855f7 0%,#5b8cff 50%,#22d3ee 100%);
     -webkit-background-clip:text;background-clip:text;color:transparent}
   .hero .lead{font-size:15.5px;line-height:1.85;color:#b9cbe0;margin:0}
+  .hero .lead strong{color:#dbe9fa;font-weight:600}
 
-  section{padding:44px 0 0}
+  .stats{display:flex;flex-wrap:wrap;gap:10px;margin:26px 0 0}
+  .stat{flex:1 1 150px;padding:14px 16px;border-radius:13px;border:1px solid var(--line);
+    background:linear-gradient(180deg,rgba(13,26,44,.7),rgba(7,13,24,.6))}
+  .stat b{display:block;font-size:26px;font-weight:700;letter-spacing:-.01em;
+    background:linear-gradient(115deg,#c4b5fd,#7dd3fc);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .stat b i{font-style:normal;font-size:.55em;margin-left:1px;letter-spacing:0}
+  .stat span{display:block;margin-top:5px;font-size:12px;color:#a9bdd4}
+
+  section{padding:52px 0 0;scroll-margin-top:76px}
   .sec-head{margin-bottom:22px}
   .sec-head h2{font-size:clamp(20px,2.6vw,26px);margin:0 0 10px;font-weight:700}
-  .sec-head p{margin:0;font-size:13.5px;line-height:1.8;color:#a9bdd4;max-width:760px}
+  .sec-head p{margin:0;font-size:13.5px;line-height:1.8;color:#a9bdd4;max-width:780px}
   .rule{height:1px;background:linear-gradient(90deg,rgba(139,92,246,.5),rgba(34,211,238,.16),transparent);margin-top:16px}
 
+  /* ---------- 应用场景 ---------- */
+  .scenes{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+  .scene{border-radius:15px;overflow:hidden;border:1px solid rgba(110,170,240,.16);
+    background:linear-gradient(180deg,rgba(13,26,44,.8),rgba(7,13,24,.9));
+    display:flex;flex-direction:column;transition:.28s}
+  .scene:hover{transform:translateY(-3px);border-color:rgba(139,92,246,.45);
+    box-shadow:0 14px 34px -18px rgba(139,92,246,.6)}
+  .scene .pic{position:relative;aspect-ratio:16/10;overflow:hidden;background:#03060c}
+  .scene .pic img{width:100%;height:100%;object-fit:cover;display:block;transition:.4s}
+  .scene:hover .pic img{transform:scale(1.05)}
+  .scene .pic::after{content:"";position:absolute;inset:0;
+    background:linear-gradient(180deg,transparent 42%,rgba(5,8,15,.92))}
+  .scene .pic .idx{position:absolute;left:11px;top:10px;z-index:2;font-family:var(--mono);
+    font-size:10px;letter-spacing:.14em;color:#c9b6ff;background:rgba(5,8,15,.6);
+    border:1px solid rgba(139,92,246,.4);border-radius:999px;padding:3px 9px}
+  .scene .body{padding:14px 15px 16px;display:flex;flex-direction:column;flex:1}
+  .scene .body b{font-size:14.5px;margin-bottom:6px;font-weight:700}
+  .scene .body p{margin:0;font-size:12.5px;line-height:1.75;color:#a0b6ce;flex:1}
+  .scene .tags{display:flex;flex-wrap:wrap;gap:5px;margin-top:11px}
+  .scene .tags i{font-style:normal;font-size:10.5px;padding:3px 8px;border-radius:6px;
+    color:#9fd8ee;border:1px solid rgba(34,211,238,.25);background:rgba(34,211,238,.07)}
+
+  /* ---------- 真实案例 ---------- */
   .vids{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
   .vid{border-radius:16px;overflow:hidden;border:1px solid rgba(110,170,240,.18);
     background:linear-gradient(180deg,rgba(13,26,44,.85),rgba(7,13,24,.9))}
   .vid video{display:block;width:100%;aspect-ratio:16/9;background:#03060c;object-fit:cover}
-  .vid .meta{padding:14px 16px 17px}
+  .vid .meta{padding:15px 16px 17px}
   .vid .no{font-family:var(--mono);font-size:10px;letter-spacing:.16em;color:#c9b6ff}
-  .vid h3{margin:6px 0 7px;font-size:16px;font-weight:700}
-  .vid p{margin:0 0 10px;font-size:13px;line-height:1.75;color:#a9bdd4}
+  .vid h3{margin:6px 0 7px;font-size:16.5px;font-weight:700}
+  .vid p{margin:0 0 11px;font-size:13px;line-height:1.78;color:#a9bdd4}
   .vid .spec{display:flex;flex-wrap:wrap;gap:6px}
   .vid .spec i{font-style:normal;font-size:11px;padding:3px 9px;border-radius:999px;color:#bcd4ea;
     border:1px solid rgba(110,170,240,.22);background:rgba(12,24,40,.6);font-family:var(--mono)}
+  .vid .real{margin-top:11px;font-size:11.5px;color:#7fe9ff;display:flex;align-items:center;gap:6px}
+  .vid .real::before{content:"";width:6px;height:6px;border-radius:50%;background:#22d3ee;
+    box-shadow:0 0 8px 1px rgba(34,211,238,.7)}
 
-  .caps{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:6px}
-  .cap{padding:16px;border-radius:14px;border:1px solid rgba(110,170,240,.16);background:rgba(12,24,40,.5)}
-  .cap b{display:block;font-size:14px;margin-bottom:7px}
-  .cap span{font-size:12.5px;line-height:1.75;color:#a9bdd4}
+  /* ---------- 功能矩阵 ---------- */
+  .feats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+  .feat{padding:16px 16px 17px;border-radius:14px;border:1px solid rgba(110,170,240,.16);
+    background:rgba(12,24,40,.5);transition:.25s}
+  .feat:hover{border-color:rgba(34,211,238,.4);background:rgba(16,32,54,.62)}
+  .feat .fk{font-family:var(--mono);font-size:10px;letter-spacing:.14em;color:#5eead4;margin-bottom:7px}
+  .feat b{display:block;font-size:14px;margin-bottom:7px;font-weight:700}
+  .feat span{font-size:12.5px;line-height:1.75;color:#a0b6ce}
 
-  .note{margin:26px 0 0;font-size:12px;line-height:1.8;color:var(--dim)}
+  /* ---------- 流程 ---------- */
+  .flow{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-top:4px}
+  .step{position:relative;padding:17px 15px 18px;border-radius:14px;border:1px solid rgba(110,170,240,.16);
+    background:linear-gradient(180deg,rgba(13,26,44,.66),rgba(7,13,24,.55))}
+  .step .n{font-family:var(--mono);font-size:11px;letter-spacing:.14em;color:#c9b6ff}
+  .step b{display:block;font-size:14px;margin:7px 0 6px;font-weight:700}
+  .step span{font-size:12.5px;line-height:1.72;color:#a0b6ce}
+  .step::after{content:"→";position:absolute;right:-11px;top:46%;font-size:13px;color:rgba(139,92,246,.55)}
+  .step:last-child::after{display:none}
+
+  .note{margin:24px 0 0;font-size:12px;line-height:1.8;color:var(--dim)}
 
   footer{max-width:1180px;margin:clamp(50px,7vw,80px) auto 0;padding:26px 18px 44px;border-top:1px solid var(--line)}
   footer .f-row{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;align-items:center}
@@ -96,12 +146,21 @@
   footer .f-contact .mail:hover{background:rgba(34,211,238,.12);color:#fff}
   footer .f-contact .home{color:var(--dim);margin-left:auto}
   footer .f-contact .home:hover{color:#fff}
-
-  @media (max-width:900px){ .nav-links{display:none} .vids{grid-template-columns:1fr} .caps{grid-template-columns:repeat(2,1fr)} }
-  @media (max-width:560px){ .hero{padding:34px 0 4px} .lk-band{padding:11px 13px;font-size:12px} .caps{grid-template-columns:1fr} }
-
   footer .f-contact .wx{color:#a9bdd4}
   footer .f-contact .wx b{font-family:var(--mono);font-size:13px;color:#d9f6ff;letter-spacing:.02em;margin:0 2px}
+
+  @media (max-width:980px){
+    .scenes{grid-template-columns:repeat(2,1fr)}
+    .feats{grid-template-columns:repeat(2,1fr)}
+    .flow{grid-template-columns:repeat(2,1fr)}
+    .step::after{display:none}
+  }
+  @media (max-width:900px){ .nav-links{display:none} .vids{grid-template-columns:1fr} }
+  @media (max-width:560px){
+    .hero{padding:34px 0 4px} .lk-band{padding:11px 13px;font-size:12px}
+    .scenes{grid-template-columns:1fr} .feats{grid-template-columns:1fr} .flow{grid-template-columns:1fr}
+    .stat{flex:1 1 100%}
+  }
 </style>
 </head>
 <body>
@@ -112,16 +171,18 @@
     <div class="logo"><span class="mark"></span><span>AIGC&nbsp;<b>GENERATION</b></span></div>
     <nav class="nav-links">
       <a href="/products/" class="back-home">← 产品总览</a>
-      <a href="#demos">生成样例</a>
-      <a href="#capability">能力</a>
+      <a href="#scenes">应用场景</a>
+      <a href="#demos">真实案例</a>
+      <a href="#features">功能矩阵</a>
+      <a href="#flow">制作流程</a>
     </nav>
   </div>
 </header>
 
 <div class="lk-band">
   <span class="lk-tag">NEXt-LFM · LATENT KNOWLEDGE</span>
-  生成并不是凭空创造：扩散模型里早已存着海量关于物体、材质、光影与运动的<b>潜在表征</b>。
-  我们要做的，是把这些潜能按提示词<b>激发</b>并组织成时序连贯、身份与风格一致的画面——这正是潜在知识研究在生成侧的命题。
+  生成并不是凭空创造：模型里早已存着海量关于物体、材质、光影与运动的<b>潜在表征</b>。
+  我们要做的，是把这些潜能按意图<b>激发</b>并组织成时序连贯、身份与风格一致的画面——这正是潜在知识研究在生成侧的命题。
   <a href="/research-vision/">研究愿景 →</a>
 </div>
 
@@ -129,54 +190,169 @@
   <div class="kicker">AIGC · VIDEO &amp; IMAGE GENERATION</div>
   <h1>把潜在表征，<br><em>组织成连贯的画面</em></h1>
   <p class="lead">
-    文本与图像驱动的视频生成，重点解决两件难事：<strong>长时序下主体身份与风格不漂移</strong>，
-    以及<strong>运动本身的稳定性</strong>。下面两条视频均由我们的生成管线直接产出，未做剪辑与后期处理。
+    面向真实交付的<strong>视频与图像生成</strong>能力。重点解决三件难事：
+    <strong>长时序下主体身份与风格不漂移</strong>、<strong>运动本身的稳定性</strong>，
+    以及<strong>画面与配音／音乐的节拍对齐</strong>。下面是我们的场景覆盖、真实生成案例与功能清单。
   </p>
+  <div class="stats">
+    <div class="stat"><b>8</b><span>类业务场景</span></div>
+    <div class="stat"><b>8</b><span>项生成功能</span></div>
+    <div class="stat"><b>3<i>′</i></b><span>单片段可达时长</span></div>
+    <div class="stat"><b>720<i>p</i></b><span>标准交付分辨率</span></div>
+  </div>
 </div>
 
+<!-- ============ 应用场景 ============ -->
+<section id="scenes">
+  <div class="sec-head">
+    <h2>应用场景</h2>
+    <p>按「交付什么」划分的八类场景。每类对应不同的生成难点，也对应不同的功能组合——点击卡片下方的标签可看出差异。</p>
+    <div class="rule"></div>
+  </div>
+  <div class="scenes">
+
+    <div class="scene">
+      <div class="pic"><span class="idx">01</span><img src="images/scene-tourism.jpg" alt="城市与文旅宣传片" loading="lazy"></div>
+      <div class="body">
+        <b>城市与文旅宣传片</b>
+        <p>面向文旅局与景区。地域符号（地标、园林、水系、四季植被）跨镜头连续呈现，航拍级运镜，配乐与画面节奏对齐。</p>
+        <div class="tags"><i>地域一致性</i><i>运镜控制</i><i>音画同步</i></div>
+      </div>
+    </div>
+
+    <div class="scene">
+      <div class="pic"><span class="idx">02</span><img src="images/scene-drama.jpg" alt="AI 短剧与微短剧" loading="lazy"></div>
+      <div class="body">
+        <b>AI 短剧 / 微短剧</b>
+        <p>面向影视公司与短剧平台。剧本自动切分镜，角色形象跨镜头锁定，对白配音与口型同步，支持连续剧情推进。</p>
+        <div class="tags"><i>角色锁定</i><i>口型同步</i><i>连续剧情</i></div>
+      </div>
+    </div>
+
+    <div class="scene">
+      <div class="pic"><span class="idx">03</span><img src="images/scene-brand.jpg" alt="品牌广告与 TVC" loading="lazy"></div>
+      <div class="body">
+        <b>品牌广告与 TVC</b>
+        <p>面向品牌方与代理公司。产品外观在多机位下保持一致，品牌色与调性可锁定，支持 15s／30s 多版本批量产出。</p>
+        <div class="tags"><i>调性锁定</i><i>多版本</i><i>产品一致</i></div>
+      </div>
+    </div>
+
+    <div class="scene">
+      <div class="pic"><span class="idx">04</span><img src="images/scene-commerce.jpg" alt="电商商品视频" loading="lazy"></div>
+      <div class="body">
+        <b>电商商品视频</b>
+        <p>面向商家与电商平台。一张商品图即可延展为动态展示，自动叠加卖点字幕，一次生成适配竖屏／横屏／方屏。</p>
+        <div class="tags"><i>图生视频</i><i>多尺寸</i><i>批量产出</i></div>
+      </div>
+    </div>
+
+    <div class="scene">
+      <div class="pic"><span class="idx">05</span><img src="images/scene-presenter.jpg" alt="数字人播报与口播" loading="lazy"></div>
+      <div class="body">
+        <b>数字人播报与口播</b>
+        <p>面向企业、媒体与教育。形象与音色克隆后，文案一键转口播视频；支持多语种版本，适合高频更新的资讯类内容。</p>
+        <div class="tags"><i>形象克隆</i><i>音色克隆</i><i>多语种</i></div>
+      </div>
+    </div>
+
+    <div class="scene">
+      <div class="pic"><span class="idx">06</span><img src="images/scene-previz.jpg" alt="影视概念预演与分镜" loading="lazy"></div>
+      <div class="body">
+        <b>影视概念预演 / 分镜</b>
+        <p>面向导演与制片。剧本直接转动态分镜，用于开机前验证镜头语言与节奏，把试错成本从实拍阶段前移到生成阶段。</p>
+        <div class="tags"><i>剧本转分镜</i><i>镜头语言</i><i>快速迭代</i></div>
+      </div>
+    </div>
+
+    <div class="scene">
+      <div class="pic"><span class="idx">07</span><img src="images/scene-edu.jpg" alt="知识科普与教学动画" loading="lazy"></div>
+      <div class="body">
+        <b>知识科普与教学动画</b>
+        <p>面向教育机构与科普账号。把抽象概念（结构、机制、流程）可视化为易懂的动态示意图，并配讲解配音。</p>
+        <div class="tags"><i>概念可视化</i><i>示意图动画</i><i>讲解配音</i></div>
+      </div>
+    </div>
+
+    <div class="scene">
+      <div class="pic"><span class="idx">08</span><img src="images/scene-mv.jpg" alt="音乐 MV 与视觉专辑" loading="lazy"></div>
+      <div class="body">
+        <b>音乐 MV 与视觉专辑</b>
+        <p>面向音乐人与厂牌。以音频驱动画面生成，视觉变化与节拍、情绪段落对齐，适合风格化、非叙事的表达。</p>
+        <div class="tags"><i>音频驱动</i><i>节拍对齐</i><i>风格化</i></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============ 真实案例 ============ -->
 <section id="demos">
   <div class="sec-head">
-    <h2>生成样例</h2>
-    <p>以下为真实生成结果，点击播放。为保证加载速度，视频已做转码压缩，画质与原片略有差异。</p>
+    <h2>真实生成案例</h2>
+    <p>以下两条由我们的生成管线直接产出，未做剪辑与后期处理，可完整观察长时序下的稳定性。为控制加载，视频已转码压缩。</p>
     <div class="rule"></div>
   </div>
   <div class="vids">
 
     <div class="vid">
-      <video controls playsinline preload="metadata" src="aigc-demo-01.mp4"></video>
+      <video controls playsinline preload="metadata" poster="images/case-drama.jpg" src="aigc-demo-01.mp4"></video>
       <div class="meta">
-        <div class="no">DEMO 01</div>
-        <h3>文本驱动的视频生成</h3>
-        <p>由一句描述直接生成完整片段，全长约 1 分 38 秒。全程未剪辑，可观察长时序下主体的稳定性与镜头语言的一致性。</p>
-        <div class="spec"><i>1280×720</i><i>1′38″</i><i>未剪辑</i></div>
+        <div class="no">DEMO 01 · AI 短剧</div>
+        <h3>玄幻题材 AI 短剧片段</h3>
+        <p>由剧本片段直接生成，含角色对白与正反打镜头。全长 1′38″，可观察：同一角色在多个镜头切换下的形象一致性、口型与配音的同步程度，以及动作过渡的自然度。</p>
+        <div class="spec"><i>1280×720</i><i>1′38″</i><i>含配音对白</i><i>未剪辑</i></div>
+        <div class="real">真实生成 · 对应场景 02「AI 短剧 / 微短剧」</div>
       </div>
     </div>
 
     <div class="vid">
-      <video controls playsinline preload="metadata" src="aigc-demo-02.mp4"></video>
+      <video controls playsinline preload="metadata" poster="images/case-tourism.jpg" src="aigc-demo-02.mp4"></video>
       <div class="meta">
-        <div class="no">DEMO 02</div>
-        <h3>长时序一致性与运动稳定</h3>
-        <p>全长约 1 分 21 秒，重点展示主体在连续运动与镜头变化中的身份保持、细节稳定与过渡自然度。</p>
-        <div class="spec"><i>1280×720</i><i>1′21″</i><i>未剪辑</i></div>
+        <div class="no">DEMO 02 · 文旅宣传片</div>
+        <h3>城市文旅宣传片 · 音乐影像</h3>
+        <p>AI 原创歌词演唱驱动的城市影像，串起地域地标与四季风物。全长 1′21″，可观察：地域符号的连续呈现、航拍级运镜的连贯性，以及画面切换与音乐节拍的对齐。</p>
+        <div class="spec"><i>1280×720</i><i>1′21″</i><i>AI 配乐演唱</i><i>未剪辑</i></div>
+        <div class="real">真实生成 · 对应场景 01「城市与文旅宣传片」</div>
       </div>
     </div>
 
   </div>
-  <p class="note">说明：以上片段为生成效果示意，实际产出随模型版本、提示词与配置而变化。</p>
+  <p class="note">说明：以上片段为真实生成结果，实际产出随模型版本、提示词与配置而变化。其余六类场景可按需求提供对应样例。</p>
 </section>
 
-<section id="capability">
+<!-- ============ 功能矩阵 ============ -->
+<section id="features">
   <div class="sec-head">
-    <h2>能力范围</h2>
-    <p>围绕可控生成与可用落地，我们关注下面四个方向。</p>
+    <h2>功能矩阵</h2>
+    <p>支撑上面八类场景的底层能力。场景是「交付什么」，功能是「靠什么做到」。</p>
     <div class="rule"></div>
   </div>
-  <div class="caps">
-    <div class="cap"><b>文生视频</b><span>从一句自然语言描述直接生成完整片段，支持镜头语言与节奏的约束。</span></div>
-    <div class="cap"><b>图生视频</b><span>以给定素材为起点延展动态，保持主体、材质与色调与原图一致。</span></div>
-    <div class="cap"><b>时序一致性</b><span>面向长片段的身份、服装、场景与风格稳定，减少漂移与突变。</span></div>
-    <div class="cap"><b>可用与可控</b><span>分辨率、时长与运动幅度的可控扩展，以及面向业务场景的批量产出。</span></div>
+  <div class="feats">
+    <div class="feat"><div class="fk">F-01</div><b>文生 / 图生视频</b><span>从一句描述或一张素材图出发，生成带运动与镜头变化的片段，支持起始帧与结束帧约束。</span></div>
+    <div class="feat"><div class="fk">F-02</div><b>角色与场景锁定</b><span>跨镜头保持人物相貌、服装、道具与场景风格不变，抑制长片段中常见的身份漂移与突变。</span></div>
+    <div class="feat"><div class="fk">F-03</div><b>镜头语言控制</b><span>可指定推拉摇移、景深、构图与运镜速度，让生成结果符合分镜意图而非随机运动。</span></div>
+    <div class="feat"><div class="fk">F-04</div><b>音画同步</b><span>配音、口型、背景音乐与音效对齐；支持以音频驱动画面节奏，做到节拍级同步。</span></div>
+    <div class="feat"><div class="fk">F-05</div><b>多尺寸 / 多时长</b><span>竖屏 9:16、横屏 16:9、方屏 1:1 一次生成多版；单片段可从 15 秒延展到 3 分钟级。</span></div>
+    <div class="feat"><div class="fk">F-06</div><b>批量生成与选版</b><span>同一意图并行产出多个候选，配合筛选与评分，把「抽卡」变成可控的选片流程。</span></div>
+    <div class="feat"><div class="fk">F-07</div><b>风格与调性迁移</b><span>以参考图锁定色调、质感与影调，使系列内容保持统一视觉，满足品牌规范约束。</span></div>
+    <div class="feat"><div class="fk">F-08</div><b>可控编辑</b><span>局部重绘、单镜头替换、片段时长延展与删减，无需整条重生成即可完成修改。</span></div>
+  </div>
+</section>
+
+<!-- ============ 制作流程 ============ -->
+<section id="flow">
+  <div class="sec-head">
+    <h2>制作流程</h2>
+    <p>从需求到交付的五步。前三步决定上限，后两步决定能否真的用起来。</p>
+    <div class="rule"></div>
+  </div>
+  <div class="flow">
+    <div class="step"><div class="n">STEP 01</div><b>需求与脚本</b><span>明确目标受众、时长、投放渠道与核心信息，产出可执行的文字脚本。</span></div>
+    <div class="step"><div class="n">STEP 02</div><b>分镜与风格设定</b><span>拆分镜头序列，锁定角色、场景与影调参考，确定每个镜头的运镜与节奏。</span></div>
+    <div class="step"><div class="n">STEP 03</div><b>生成与筛选</b><span>批量产出候选片段，按一致性、运动稳定性与美观度筛选，必要时局部重生成。</span></div>
+    <div class="step"><div class="n">STEP 04</div><b>音画合成</b><span>接入配音、口型、音乐与音效，完成节拍对齐、字幕与转场处理。</span></div>
+    <div class="step"><div class="n">STEP 05</div><b>交付与迭代</b><span>按渠道输出多尺寸版本，收集反馈后回到指定环节微调，沉淀可复用模板。</span></div>
   </div>
 </section>
 
@@ -187,7 +363,7 @@
     <div>
       <div class="brand">AIGC · NExT-LFM</div>
     </div>
-    <p>页面所示生成结果为效果示意，实际产出以模型版本与配置为准。</p>
+    <p>页面场景配图为能力示意，两条案例视频为真实生成结果；实际产出以模型版本与配置为准。</p>
   </div>
   <div class="f-contact">
     <span>合作 / 试点接入</span>
@@ -196,5 +372,27 @@
     <a class="home" href="/products/">← 产品总览</a>
   </div>
 </footer>
+
+<script>
+(function(){
+  var links = Array.prototype.slice.call(document.querySelectorAll('.nav-links a[href^="#"]'));
+  if(!links.length) return;
+  var map = {};
+  links.forEach(function(a){ var el=document.querySelector(a.getAttribute('href')); if(el) map[el.id]=a; });
+  var ids = Object.keys(map);
+  function spy(){
+    var y = window.scrollY + 120, cur = null;
+    ids.forEach(function(id){
+      var el = document.getElementById(id);
+      if(el && el.offsetTop <= y) cur = id;
+    });
+    links.forEach(function(a){ a.classList.remove('on'); });
+    if(cur && map[cur]) map[cur].classList.add('on');
+  }
+  window.addEventListener('scroll', spy, {passive:true});
+  window.addEventListener('resize', spy);
+  spy();
+})();
+</script>
 </body>
 </html>
