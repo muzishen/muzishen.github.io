@@ -81,6 +81,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   background: #f8fafc;
   box-shadow: 0 4px 14px rgba(15, 23, 42, 0.06);
 ">
+  <div class="about-lang" data-lang-block="en">
   <h3 id="research" style="margin: 0 0 10px; font-size: 1.15rem;">
     🚀 NExT-LFM: Large Foundation Model Intelligence &amp; Infrastructure
   </h3>
@@ -117,7 +118,49 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
 
   <p style="margin: 0; font-size: 0.95rem;">
     <a href="{{ '/research-vision/' | relative_url }}"><strong>Explore our Research Vision &rarr;</strong></a>
+    &nbsp;&nbsp;&nbsp;<span style="color:#cbd5e1;">|</span>&nbsp;&nbsp;&nbsp;
+    <a href="{{ '/products/' | relative_url }}"><strong>Explore our Products &rarr;</strong></a>
   </p>
+  </div>
+  <div class="about-lang" data-lang-block="zh" style="display:none;">
+
+  <h3 style="margin: 0 0 10px; font-size: 1.15rem;">
+    🚀 NExT-LFM：大模型智能与基础设施
+  </h3>
+
+  <p style="margin: 0 0 12px; line-height: 1.7; font-size: 0.98rem;">
+    我们正在构建 <strong>NExT-LFM</strong> —— 一个面向大模型研究的科研与技术平台。我们的工作围绕
+    <strong>潜在知识（latent knowledge）</strong> 展开：它如何被获取、表征与组织，如何在
+    <strong>中训练（mid-training）</strong> 阶段演化，以及模型内部结构如何产生可观测的行为，
+    并支撑理解、推理与安全等能力。
+  </p>
+
+  <p style="margin: 0 0 12px; line-height: 1.7; font-size: 0.98rem;">
+    在 <strong>多语言、多模态与多智能体系统</strong> 中，我们提出并探索
+    <strong>激发式学习（Elicitation Learning）</strong>，以此激活、对齐并保护模型的潜在能力，
+    并实现跨模型、跨领域的迁移与复用。受 <strong>柏拉图的「理念（Forms）」</strong> 与
+    <strong>亚里士多德的「潜能与现实」之区分</strong> 的启发，我们考察不同模型行为背后共享的底层结构，
+    以及潜在能力如何被转化为可观测的性能表现。
+  </p>
+
+  <p style="margin: 0 0 12px; line-height: 1.7; font-size: 0.98rem;">
+    我们的研究涵盖内部机制、可靠性评估、模型能力的应用，以及面向 LLMs、MLLMs、VLMs、VMs
+    与智能体系统的高效部署。我们的目标是让基础模型变得更
+    <strong>可解释、可控、可迁移、可靠</strong>。
+  </p>
+
+  <p style="margin: 0 0 12px; line-height: 1.7; font-size: 0.98rem;">
+    我们欢迎与关注 <strong>基础模型、可信 AI 与 AI 基础设施</strong> 的产业伙伴及投资人
+    开展研究合作与交流。请联系
+    <a href="mailto:shenfei29@nus.edu.sg"><strong>shenfei29@nus.edu.sg</strong></a>。
+  </p>
+
+  <p style="margin: 0; font-size: 0.95rem;">
+    <a href="{{ '/research-vision/' | relative_url }}"><strong>探索我们的研究愿景 &rarr;</strong></a>
+    &nbsp;&nbsp;&nbsp;<span style="color:#cbd5e1;">|</span>&nbsp;&nbsp;&nbsp;
+    <a href="{{ '/products/' | relative_url }}"><strong>探索我们的产品 &rarr;</strong></a>
+  </p>
+  </div>
 </section>
 
 
