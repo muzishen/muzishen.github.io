@@ -108,6 +108,23 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
 <div class="pub-row">
   <div class="pub-left">
     <div class="thumb">
+      <img src="{{ '/images/paper-images/forensic-reserve.png' | relative_url }}" alt="Forensic Reserve: Eliciting Latent Knowledge for Image Forge">
+    </div>
+  </div>
+  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
+    <strong>Forensic Reserve: Eliciting Latent Knowledge for Image Forgery Detection</strong><br>
+    J. Li, Z. John, T. Zhong, F. Wu, T. Xu, J. Zheng, Y. Mo, <strong>F. Shen</strong><sup>✉</sup><br>
+    arXiv preprint arXiv:2610.08639, 2026.<br>
+    <a href="https://arxiv.org/pdf/2610.08639" target="_blank">[PDF]</a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/Luo1Yan/HSA" target="_blank">[Code]</a>
+  </div>
+</div>
+
+
+<div class="pub-row">
+  <div class="pub-left">
+    <div class="thumb">
       <img src="{{ '/images/paper-images/contract-lens.png' | relative_url }}" alt="contractlens">
     </div>
   </div>
