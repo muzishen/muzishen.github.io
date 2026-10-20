@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#05080f">
+<title>AIGC 生成能力 · NExT-LFM</title>
+<style>
+  :root{
+    --bg:#05080f; --panel:#0a1524; --line:rgba(110,170,240,.16);
+    --txt:#e9f2ff; --dim:#8ea4c2; --cy:#22d3ee; --bl:#3b82f6; --vi:#8b5cf6;
+    --grad:linear-gradient(115deg,rgba(139,92,246,.95) 0%,rgba(59,130,246,.95) 55%,rgba(34,211,238,.95) 100%);
+    --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,"Courier New",monospace;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+  body{
+    margin:0;background:var(--bg);color:var(--txt);
+    font-family:"Inter","Segoe UI",system-ui,-apple-system,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  body::before{
+    content:"";position:fixed;inset:0;z-index:0;pointer-events:none;
+    background:
+      radial-gradient(880px 520px at 82% -6%,rgba(139,92,246,.18),transparent 62%),
+      radial-gradient(760px 480px at 2% 10%,rgba(34,211,238,.14),transparent 60%),
+      radial-gradient(700px 500px at 50% 108%,rgba(236,72,153,.10),transparent 65%);
+  }
+  .wrap{position:relative;z-index:1;max-width:1180px;margin:auto;padding:0 18px}
+  a{color:inherit;text-decoration:none}
+
+  header{position:sticky;top:0;z-index:60;background:rgba(5,8,15,.7);
+    backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}
+  .nav{max-width:1180px;margin:auto;display:flex;align-items:center;gap:16px;padding:11px 18px}
+  .logo{display:flex;align-items:center;gap:10px;font-size:15px;letter-spacing:.04em;white-space:nowrap}
+  .logo .mark{width:30px;height:30px;border-radius:9px;flex:0 0 auto;display:grid;place-items:center;
+    background:linear-gradient(145deg,rgba(139,92,246,.26),rgba(34,211,238,.2));
+    border:1px solid rgba(139,92,246,.5)}
+  .logo .mark::after{content:"";width:10px;height:10px;border-radius:50%;background:var(--grad);
+    box-shadow:0 0 12px 2px rgba(139,92,246,.55)}
+  .nav-links{display:flex;gap:4px;margin-left:auto}
+  .nav-links a{font-size:13px;color:var(--dim);padding:7px 12px;border-radius:8px;transition:.25s}
+  .nav-links a:hover{color:#fff;background:rgba(139,92,246,.14)}
+  .nav-links a.back-home{color:#c9b6ff;border-right:1px solid rgba(110,170,240,.28);
+    padding-right:12px;margin-right:4px;font-weight:600;white-space:nowrap}
+
+  .lk-band{margin:16px 0 0;padding:13px 16px;border-radius:12px;font-size:12.5px;line-height:1.8;color:var(--dim);
+    border:1px solid rgba(110,170,240,.18);
+    background:linear-gradient(90deg,rgba(139,92,246,.09),rgba(34,211,238,.06) 60%,transparent)}
+  .lk-band .lk-tag{font-family:var(--mono);font-size:10px;letter-spacing:.16em;white-space:nowrap;
+    color:#c9b6ff;border:1px solid rgba(139,92,246,.4);border-radius:999px;padding:4px 10px;margin-right:10px}
+  .lk-band b{color:#cfe8ff;font-weight:600}
+  .lk-band a{white-space:nowrap;color:#9fe8ff;border-bottom:1px solid rgba(34,211,238,.4);margin-left:10px}
+  .lk-band a:hover{color:#fff}
+
+  .hero{padding:52px 0 6px;max-width:800px}
+  .kicker{font-family:var(--mono);font-size:11px;letter-spacing:.22em;color:#c9b6ff;margin-bottom:14px}
+  .hero h1{font-size:clamp(28px,4.4vw,42px);line-height:1.25;margin:0 0 16px;font-weight:700;letter-spacing:-.01em}
+  .hero h1 em{font-style:normal;background:linear-gradient(115deg,#a855f7 0%,#5b8cff 50%,#22d3ee 100%);
+    -webkit-background-clip:text;background-clip:text;color:transparent}
+  .hero .lead{font-size:15.5px;line-height:1.85;color:#b9cbe0;margin:0}
+
+  section{padding:44px 0 0}
+  .sec-head{margin-bottom:22px}
+  .sec-head h2{font-size:clamp(20px,2.6vw,26px);margin:0 0 10px;font-weight:700}
+  .sec-head p{margin:0;font-size:13.5px;line-height:1.8;color:#a9bdd4;max-width:760px}
+  .rule{height:1px;background:linear-gradient(90deg,rgba(139,92,246,.5),rgba(34,211,238,.16),transparent);margin-top:16px}
+
+  .vids{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+  .vid{border-radius:16px;overflow:hidden;border:1px solid rgba(110,170,240,.18);
+    background:linear-gradient(180deg,rgba(13,26,44,.85),rgba(7,13,24,.9))}
+  .vid video{display:block;width:100%;aspect-ratio:16/9;background:#03060c;object-fit:cover}
+  .vid .meta{padding:14px 16px 17px}
+  .vid .no{font-family:var(--mono);font-size:10px;letter-spacing:.16em;color:#c9b6ff}
+  .vid h3{margin:6px 0 7px;font-size:16px;font-weight:700}
+  .vid p{margin:0 0 10px;font-size:13px;line-height:1.75;color:#a9bdd4}
+  .vid .spec{display:flex;flex-wrap:wrap;gap:6px}
+  .vid .spec i{font-style:normal;font-size:11px;padding:3px 9px;border-radius:999px;color:#bcd4ea;
+    border:1px solid rgba(110,170,240,.22);background:rgba(12,24,40,.6);font-family:var(--mono)}
+
+  .caps{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:6px}
+  .cap{padding:16px;border-radius:14px;border:1px solid rgba(110,170,240,.16);background:rgba(12,24,40,.5)}
+  .cap b{display:block;font-size:14px;margin-bottom:7px}
+  .cap span{font-size:12.5px;line-height:1.75;color:#a9bdd4}
+
+  .note{margin:26px 0 0;font-size:12px;line-height:1.8;color:var(--dim)}
+
+  footer{max-width:1180px;margin:clamp(50px,7vw,80px) auto 0;padding:26px 18px 44px;border-top:1px solid var(--line)}
+  footer .f-row{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;align-items:center}
+  footer p{margin:0;font-size:12px;color:var(--dim);line-height:1.8}
+  footer .brand{font-family:var(--mono);font-size:11px;letter-spacing:.18em;color:rgba(150,200,240,.7)}
+  footer .f-contact{margin-top:18px;padding-top:16px;border-top:1px solid var(--line);
+    display:flex;flex-wrap:wrap;align-items:center;gap:12px;font-size:12.5px;color:var(--dim)}
+  footer .f-contact .mail{font-family:var(--mono);color:#7fe9ff;border:1px solid rgba(34,211,238,.35);
+    border-radius:999px;padding:6px 14px}
+  footer .f-contact .mail:hover{background:rgba(34,211,238,.12);color:#fff}
+  footer .f-contact .home{color:var(--dim);margin-left:auto}
+  footer .f-contact .home:hover{color:#fff}
+
+  @media (max-width:900px){ .nav-links{display:none} .vids{grid-template-columns:1fr} .caps{grid-template-columns:repeat(2,1fr)} }
+  @media (max-width:560px){ .hero{padding:34px 0 4px} .lk-band{padding:11px 13px;font-size:12px} .caps{grid-template-columns:1fr} }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="nav">
+    <div class="logo"><span class="mark"></span><span>AIGC&nbsp;<b>GENERATION</b></span></div>
+    <nav class="nav-links">
+      <a href="/products/" class="back-home">← 产品总览</a>
+      <a href="#demos">生成样例</a>
+      <a href="#capability">能力</a>
+    </nav>
+  </div>
+</header>
+
+<div class="lk-band">
+  <span class="lk-tag">NEXt-LFM · LATENT KNOWLEDGE</span>
+  生成并不是凭空创造：扩散模型里早已存着海量关于物体、材质、光影与运动的<b>潜在表征</b>。
+  我们要做的，是把这些潜能按提示词<b>激发</b>并组织成时序连贯、身份与风格一致的画面——这正是潜在知识研究在生成侧的命题。
+  <a href="/research-vision/">研究愿景 →</a>
+</div>
+
+<div class="hero">
+  <div class="kicker">AIGC · VIDEO &amp; IMAGE GENERATION</div>
+  <h1>把潜在表征，<br><em>组织成连贯的画面</em></h1>
+  <p class="lead">
+    文本与图像驱动的视频生成，重点解决两件难事：<strong>长时序下主体身份与风格不漂移</strong>，
+    以及<strong>运动本身的稳定性</strong>。下面两条视频均由我们的生成管线直接产出，未做剪辑与后期处理。
+  </p>
+</div>
+
+<section id="demos">
+  <div class="sec-head">
+    <h2>生成样例</h2>
+    <p>以下为真实生成结果，点击播放。为保证加载速度，视频已做转码压缩，画质与原片略有差异。</p>
+    <div class="rule"></div>
+  </div>
+  <div class="vids">
+
+    <div class="vid">
+      <video controls playsinline preload="metadata" src="aigc-demo-01.mp4"></video>
+      <div class="meta">
+        <div class="no">DEMO 01</div>
+        <h3>文本驱动的视频生成</h3>
+        <p>由一句描述直接生成完整片段，全长约 1 分 38 秒。全程未剪辑，可观察长时序下主体的稳定性与镜头语言的一致性。</p>
+        <div class="spec"><i>1280×720</i><i>1′38″</i><i>未剪辑</i></div>
+      </div>
+    </div>
+
+    <div class="vid">
+      <video controls playsinline preload="metadata" src="aigc-demo-02.mp4"></video>
+      <div class="meta">
+        <div class="no">DEMO 02</div>
+        <h3>长时序一致性与运动稳定</h3>
+        <p>全长约 1 分 21 秒，重点展示主体在连续运动与镜头变化中的身份保持、细节稳定与过渡自然度。</p>
+        <div class="spec"><i>1280×720</i><i>1′21″</i><i>未剪辑</i></div>
+      </div>
+    </div>
+
+  </div>
+  <p class="note">说明：以上片段为生成效果示意，实际产出随模型版本、提示词与配置而变化。</p>
+</section>
+
+<section id="capability">
+  <div class="sec-head">
+    <h2>能力范围</h2>
+    <p>围绕可控生成与可用落地，我们关注下面四个方向。</p>
+    <div class="rule"></div>
+  </div>
+  <div class="caps">
+    <div class="cap"><b>文生视频</b><span>从一句自然语言描述直接生成完整片段，支持镜头语言与节奏的约束。</span></div>
+    <div class="cap"><b>图生视频</b><span>以给定素材为起点延展动态，保持主体、材质与色调与原图一致。</span></div>
+    <div class="cap"><b>时序一致性</b><span>面向长片段的身份、服装、场景与风格稳定，减少漂移与突变。</span></div>
+    <div class="cap"><b>可用与可控</b><span>分辨率、时长与运动幅度的可控扩展，以及面向业务场景的批量产出。</span></div>
+  </div>
+</section>
+
+</div>
+
+<footer>
+  <div class="f-row">
+    <div>
+      <div class="brand">AIGC · NExT-LFM</div>
+    </div>
+    <p>页面所示生成结果为效果示意，实际产出以模型版本与配置为准。</p>
+  </div>
+  <div class="f-contact">
+    <span>合作 / 试点接入</span>
+    <a class="mail" href="mailto:shenfei29@nus.edu.sg">shenfei29@nus.edu.sg</a>
+    <a class="home" href="/products/">← 产品总览</a>
+  </div>
+</footer>
+</body>
+</html>
