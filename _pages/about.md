@@ -119,7 +119,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   <p style="margin: 0; font-size: 0.95rem;">
     <a href="{{ '/research-vision/' | relative_url }}"><strong>Explore our Research Vision &rarr;</strong></a>
     &nbsp;&nbsp;&nbsp;<span style="color:#cbd5e1;">|</span>&nbsp;&nbsp;&nbsp;
-    <a href="{{ '/products/' | relative_url }}"><strong>Explore our Products &rarr;</strong></a>
+    <a href="{{ '/products/' | relative_url }}"><strong>Explore our Research Products &rarr;</strong></a>
   </p>
   </div>
   <div class="about-lang" data-lang-block="zh" style="display:none;">
@@ -138,7 +138,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   <p style="margin: 0 0 12px; line-height: 1.7; font-size: 0.98rem;">
     在 <strong>多语言、多模态与多智能体系统</strong> 中，我们提出并探索
     <strong>激发式学习（Elicitation Learning）</strong>，以此激活、对齐并保护模型的潜在能力，
-    并实现跨模型、跨领域的迁移与复用。受 <strong>柏拉图的「理念（Forms）」</strong> 与
+    并实现跨模型、跨领域的迁移与复用。受 <strong>柏拉图的「理念」</strong> 与
     <strong>亚里士多德的「潜能与现实」之区分</strong> 的启发，我们考察不同模型行为背后共享的底层结构，
     以及潜在能力如何被转化为可观测的性能表现。
   </p>
@@ -158,7 +158,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   <p style="margin: 0; font-size: 0.95rem;">
     <a href="{{ '/research-vision/' | relative_url }}"><strong>探索我们的研究愿景 &rarr;</strong></a>
     &nbsp;&nbsp;&nbsp;<span style="color:#cbd5e1;">|</span>&nbsp;&nbsp;&nbsp;
-    <a href="{{ '/products/' | relative_url }}"><strong>探索我们的产品 &rarr;</strong></a>
+    <a href="{{ '/products/' | relative_url }}"><strong>探索我们的研究产品 &rarr;</strong></a>
   </p>
   </div>
 </section>
