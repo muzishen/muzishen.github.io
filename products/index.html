@@ -102,11 +102,12 @@
   .pcard.soon{grid-column:1/-1;flex-direction:row;border-style:dashed;
     border-color:rgba(139,92,246,.34);background:linear-gradient(120deg,rgba(13,26,44,.55),rgba(7,13,24,.62))}
   .pcard.soon:hover{transform:none;border-color:rgba(139,92,246,.5);box-shadow:none}
-  .pcard.soon .soon-visual{flex:0 0 236px;position:relative;overflow:hidden;
+  .pcard.soon .soon-visual{flex:0 0 244px;position:relative;overflow:hidden;
     border-right:1px dashed rgba(139,92,246,.28);
-    background:radial-gradient(120% 110% at 30% 20%,rgba(139,92,246,.20),rgba(34,211,238,.07) 55%,transparent 78%)}
-  .pcard.soon .soon-visual .nodes{position:absolute;inset:0;display:grid;place-items:center}
-  .pcard.soon .soon-visual svg{width:92px;height:92px;opacity:.62}
+    background-image:url(/products/images/cover-model-forge.jpg);
+    background-size:cover;background-position:center;background-repeat:no-repeat}
+  .pcard.soon .soon-visual::before{content:"";position:absolute;inset:0;
+    background:radial-gradient(105% 95% at 50% 45%,rgba(139,92,246,.20),rgba(5,8,15,.62) 70%,rgba(5,8,15,.86))}
   .pcard.soon .cs{position:absolute;left:14px;bottom:12px;font-family:var(--mono);font-size:9.5px;
     letter-spacing:.2em;color:#c9b6ff;border:1px dashed rgba(139,92,246,.5);
     border-radius:999px;padding:4px 10px;background:rgba(5,8,15,.5)}
@@ -130,8 +131,8 @@
   @media (max-width:900px){
     .nav-links{display:none} .grid{grid-template-columns:1fr}
     .pcard.soon{flex-direction:column}
-    .pcard.soon .soon-visual{flex:0 0 auto;height:132px;border-right:0;border-bottom:1px dashed rgba(139,92,246,.28)}
-    .pcard.soon .soon-visual svg{width:64px;height:64px}
+    .pcard.soon .soon-visual{flex:0 0 auto;height:150px;border-right:0;border-bottom:1px dashed rgba(139,92,246,.28);
+      background-position:center 38%}
   }
   @media (max-width:560px){ .hero{padding:34px 0 4px} .lk-band{padding:11px 13px;font-size:12px} }
 
@@ -200,7 +201,7 @@
     </div>
     <div class="body">
       <div class="tag">LATENT FRAME</div>
-      <h2>潜像<small>可控视频与图像生成</small></h2>
+      <h2>灵趣潜像<small>可控视频与图像生成</small></h2>
       <p>把模型里早已存在、却尚未显影的潜在表征组织成连贯画面。覆盖文旅宣传片、AI 短剧、品牌 TVC、电商视频、数字人口播等 8 类场景，含两条未剪辑的真实生成案例。</p>
       <div class="keys"><i>8 类场景</i><i>角色锁定</i><i>音画同步</i><i>3 小时长片段</i></div>
       <div class="go">查看产品 <span>→</span></div>
@@ -209,15 +210,6 @@
 
   <div class="pcard soon">
     <div class="soon-visual">
-      <div class="nodes">
-        <svg viewBox="0 0 24 24" fill="none" stroke="#c9b6ff" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round">
-          <circle cx="5.5" cy="6" r="2.4"/>
-          <circle cx="5.5" cy="18" r="2.4"/>
-          <circle cx="18.5" cy="12" r="3"/>
-          <path d="M7.6 7.3 16 10.7M7.6 16.7 16 13.3"/>
-          <path d="M18.5 9v6"/>
-        </svg>
-      </div>
       <span class="cs">COMING SOON</span>
     </div>
     <div class="body">
