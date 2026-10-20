@@ -566,6 +566,29 @@
   }
   .nav-links a.back-home:hover{color:#fff}
   @media (max-width:820px){ .nav-links a.back-home{border-right:0;padding-right:8px} }
+
+  /* ---------- 轻量打磨补充 ---------- */
+  .flag.llm{color:#d9c8ff;border-color:rgba(139,92,246,.45);background:rgba(139,92,246,.12)}
+  section[id]{scroll-margin-top:74px}
+  .nav-links a.on{color:#7fe9ff;background:rgba(34,211,238,.12);font-weight:600}
+  /* 筛选条吸顶，滚动 20 张卡片时不用回到顶部重新筛 */
+  .chips{
+    position:sticky;top:54px;z-index:40;
+    padding:10px 0 12px;margin:0 0 14px;
+    background:rgba(5,8,15,.92);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)
+  }
+  footer .f-contact{
+    margin-top:18px;padding-top:16px;border-top:1px solid var(--line);
+    display:flex;flex-wrap:wrap;align-items:center;gap:12px;font-size:12.5px;color:var(--dim)
+  }
+  footer .f-contact .mail{
+    font-family:var(--mono);color:#7fe9ff;border:1px solid rgba(34,211,238,.35);
+    border-radius:999px;padding:6px 14px
+  }
+  footer .f-contact .mail:hover{background:rgba(34,211,238,.12);color:#fff}
+  footer .f-contact .home{color:var(--dim);margin-left:auto}
+  footer .f-contact .home:hover{color:#fff}
+  @media (max-width:560px){ .chips{position:static;background:none;backdrop-filter:none} }
 </style>
 <style id="photo-vars">
   /* 真实监控帧（内嵌 base64，离线可用） */
@@ -677,7 +700,7 @@
       <div class="stat"><b><span data-count="20">0</span></b><span>项上架能力</span></div>
       <div class="stat"><b><span data-count="94">0</span></b><span>项算法储备</span></div>
       <div class="stat"><b><span data-count="24">0</span>h</b><span>不间断值守</span></div>
-      <div class="stat"><b><span data-count="1">0</span>份</b><span>每日自动报告</span></div>
+      <div class="stat"><b>2′40″</b><span>平均响应时长</span></div>
     </div>
   </div>
 
@@ -866,7 +889,7 @@
   <div class="sec-head rv">
     <div class="kicker">CAPABILITIES</div>
     <h2>20 项能力，从“看见”到“看懂”</h2>
-    <p>每张卡片右侧为识别效果示意。同一条能力会标注它所在的层级——层级越往后，越依赖大模型的语义推理，也越难被“算法盒子”替代。点击卡片可放大查看。</p>
+    <p>右侧画面为识别效果示意。右上角标签说明这项能力的工作方式与处置优先级：<i class="flag">实时</i> 流式检测 · <i class="flag llm">大模型</i> 语义理解 · <i class="flag warm">告警</i> 推送复核 · <i class="flag hot">紧急</i> 最高优先。点击卡片可放大查看。</p>
     <div class="rule"></div>
   </div>
 
@@ -972,7 +995,7 @@
         <span class="num"></span>
       </div>
       <div class="body">
-        <h3>图片 / 视频内容描述 <i class="flag">大模型</i></h3>
+        <h3>图片 / 视频内容描述 <i class="flag llm">大模型</i></h3>
         <p>用一句句自然语言说清画面里发生了什么，把看不懂的监控变成可检索、可回溯的文字记录，支持自然语言搜录像。</p>
         <div class="tags"><span>多模态理解</span><span>自然语言</span><span>语义检索</span></div>
       </div>
@@ -996,7 +1019,7 @@
         <span class="num"></span>
       </div>
       <div class="body">
-        <h3>区域人数统计 / 点名核对 <i class="flag">数据</i></h3>
+        <h3>区域人数统计 / 点名核对 <i class="flag">实时</i></h3>
         <p>按区域统计在场人数、进出双向流量与平均停留时长，支持与名单基数核对，用于校园点名、场所超员与夜间滞留核查。</p>
         <div class="tags"><span>人流计数</span><span>进出双向</span><span>名单核对</span></div>
       </div>
@@ -1039,7 +1062,7 @@
         <span class="num"></span>
       </div>
       <div class="body">
-        <h3>烟雾 / 消防通道占用 <i class="flag warm">隐患</i></h3>
+        <h3>烟雾 / 消防通道占用 <i class="flag warm">告警</i></h3>
         <p>在没有明火之前就抓住隐患：识别初期烟雾，以及杂物、车辆堆放占用消防通道与安全出口，契合消防检查的日常要求。</p>
         <div class="tags"><span>初期烟雾</span><span>通道占用</span><span>消防合规</span></div>
       </div>
@@ -1079,7 +1102,7 @@
         <span class="num"></span>
       </div>
       <div class="body">
-        <h3>翻越围栏检测 <i class="flag hot">告警</i></h3>
+        <h3>翻越围栏检测 <i class="flag hot">紧急</i></h3>
         <p>识别攀爬、跨越围墙与护栏的肢体动作，夜间周界防护的核心能力，先告警、后人工复核。</p>
         <div class="tags"><span>动作识别</span><span>周界防护</span><span>夜间</span></div>
       </div>
@@ -1099,7 +1122,7 @@
         <span class="num"></span>
       </div>
       <div class="body">
-        <h3>抽烟行为 <i class="flag warm">行为</i></h3>
+        <h3>抽烟行为 <i class="flag warm">告警</i></h3>
         <p>在楼道、仓库、加油站、林区等禁烟场所识别点烟与吸烟动作，及时消除消防隐患。</p>
         <div class="tags"><span>行为识别</span><span>禁烟区</span><span>消防隐患</span></div>
       </div>
@@ -1120,7 +1143,7 @@
         <span class="num"></span>
       </div>
       <div class="body">
-        <h3>疑似打架 / 肢体冲突 <i class="flag hot">高优先</i></h3>
+        <h3>疑似打架 / 肢体冲突 <i class="flag hot">紧急</i></h3>
         <p>识别推搡、挥击、纠缠、多人围堵等激烈肢体动作，输出“疑似”结论并附关键帧，交由人工复核确认。</p>
         <div class="tags"><span>动作识别</span><span>疑似告警</span><span>关键帧回传</span></div>
       </div>
@@ -1140,7 +1163,7 @@
         <span class="num"></span>
       </div>
       <div class="body">
-        <h3>楼梯 / 走廊人员聚集 <i class="flag warm">秩序</i></h3>
+        <h3>楼梯 / 走廊人员聚集 <i class="flag warm">告警</i></h3>
         <p>统计区域人数与停留时长，拥挤、聚集超过阈值即提醒，可用于楼道防踩踏、宿舍区夜间聚集与滞留监测。</p>
         <div class="tags"><span>人流计数</span><span>停留时长</span><span>密度阈值</span></div>
       </div>
@@ -1160,7 +1183,7 @@
         <span class="num"></span>
       </div>
       <div class="body">
-        <h3>疑似跳楼 / 高空攀爬 <i class="flag hot">最高优先</i></h3>
+        <h3>疑似跳楼 / 高空攀爬 <i class="flag hot">紧急</i></h3>
         <p>识别天台、连廊、阳台栏杆处的攀爬、跨越护栏、长时间停留于外沿等动作，秒级推送校方值班与安保，为现场干预争取时间。</p>
         <div class="tags"><span>护栏跨越</span><span>外沿停留</span><span>秒级推送</span></div>
       </div>
@@ -1180,7 +1203,7 @@
         <span class="num"></span>
       </div>
       <div class="body">
-        <h3>疑似跳湖 / 落水检测 <i class="flag hot">最高优先</i></h3>
+        <h3>疑似跳湖 / 落水检测 <i class="flag hot">紧急</i></h3>
         <p>识别校园湖岸、河边、水塘栏杆处的翻越动作，以及人员入水后水面持续异常波动，联动广播喊话与救援派单。</p>
         <div class="tags"><span>临水翻越</span><span>入水判定</span><span>广播联动</span></div>
       </div>
@@ -1220,7 +1243,7 @@
         <span class="num"></span>
       </div>
       <div class="body">
-        <h3>摔倒后长时间未起 <i class="flag hot">升级</i></h3>
+        <h3>摔倒后长时间未起 <i class="flag hot">紧急</i></h3>
         <p>摔倒只是第一步判断。若倒地后超过阈值仍无自主起身，事件自动升级并扩大通知范围——从“发现”走到“确认”，而不是丢一条告警就结束。</p>
         <div class="tags"><span>卧地时长</span><span>告警升级</span><span>闭环确认</span></div>
       </div>
@@ -1240,7 +1263,7 @@
         <span class="num"></span>
       </div>
       <div class="body">
-        <h3>老人长时间无活动 <i class="flag warm">关怀</i></h3>
+        <h3>老人长时间无活动 <i class="flag warm">告警</i></h3>
         <p>在房间、沙发、床边等固定区域监测长时间静止状态，超过阈值主动提醒巡查，预防意外无人发现。</p>
         <div class="tags"><span>静止监测</span><span>时长阈值</span><span>主动关怀</span></div>
       </div>
@@ -1260,7 +1283,7 @@
         <span class="num"></span>
       </div>
       <div class="body">
-        <h3>夜间离床 / 离床未返 <i class="flag warm">夜间</i></h3>
+        <h3>夜间离床 / 离床未返 <i class="flag warm">告警</i></h3>
         <p>夜间识别老人离床、起夜后长时间未返回床位，或独自走向卫生间、阳台与房门，及时提醒护理员，降低夜间跌倒与走失风险。</p>
         <div class="tags"><span>床位空置</span><span>返床计时</span><span>夜间看护</span></div>
       </div>
@@ -1280,7 +1303,7 @@
         <span class="num"></span>
       </div>
       <div class="body">
-        <h3>老人进入危险区域 <i class="flag hot">预警</i></h3>
+        <h3>老人进入危险区域 <i class="flag warm">告警</i></h3>
         <p>标注水池、天台、配电房、马路边等高风险区域，老人靠近或进入即预警，及时干预、避免走失与意外。</p>
         <div class="tags"><span>危险区标注</span><span>边界预警</span><span>防走失</span></div>
       </div>
@@ -1300,7 +1323,7 @@
         <span class="num"></span>
       </div>
       <div class="body">
-        <h3>老人语音求助 / 语音交流 <i class="flag">大模型</i></h3>
+        <h3>老人语音求助 / 语音交流 <i class="flag llm">大模型</i></h3>
         <p>房间麦克风阵列随时可呼叫："我有点不舒服"即被识别为求助意图，自动通知值班护士并同步生成护理记录，老人不必找手机、不必按按钮。</p>
         <div class="tags"><span>语音唤醒</span><span>意图识别</span><span>双向对话</span></div>
       </div>
@@ -1514,17 +1537,21 @@
       <div><b>权限与留痕</b><span>按角色分级授权，检索、导出、回放全程留痕可审计。</span></div>
     </div>
   </div>
-
-  <p class="plat-note rv">首页只展开与看护守卫强相关的 20 项能力；其余能力按行业封装，单独交付，避免把产品定位讲散。</p>
 </section>
 
 <footer>
   <div class="f-row">
     <div>
       <div class="brand">OMNI GUARD · 大模型看护守卫</div>
-      <p style="margin-top:8px">单文件离线页面，无需联网，可直接拷贝到手机 / 平板浏览器打开。</p>
+      
     </div>
     <p>展示画面中的检测框、置信度与事件标签为识别效果示意，实际以现场部署与配置为准。</p>
+  </div>
+
+  <div class="f-contact">
+    <span>合作 / 试点接入</span>
+    <a class="mail" href="mailto:shenfei29@nus.edu.sg">shenfei29@nus.edu.sg</a>
+    <a class="home" href="/">← 返回主页</a>
   </div>
 </footer>
 
@@ -1871,6 +1898,29 @@
     }, { threshold: 0.22 });
     ioTL.observe(root);
   }
+})();
+</script>
+
+<script>
+(function () {
+  var links = [].slice.call(document.querySelectorAll('.nav-links a[href^="#"]'));
+  if (!links.length || !("IntersectionObserver" in window)) return;
+  var map = {};
+  links.forEach(function (a) {
+    var id = a.getAttribute("href");
+    var el = document.querySelector(id);
+    if (el) map[id] = { link: a, el: el };
+  });
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      if (!e.isIntersecting) return;
+      var rec = map["#" + e.target.id];
+      if (!rec) return;
+      links.forEach(function (l) { l.classList.remove("on"); });
+      rec.link.classList.add("on");
+    });
+  }, { rootMargin: "-74px 0px -68% 0px", threshold: 0 });
+  Object.keys(map).forEach(function (k) { io.observe(map[k].el); });
 })();
 </script>
 </body>
