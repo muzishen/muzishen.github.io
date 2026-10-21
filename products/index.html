@@ -62,7 +62,7 @@
   .hero .lead{font-size:15.5px;line-height:1.85;color:#b9cbe0;margin:0}
 
   /* 产品卡 */
-  .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin:38px 0 10px}
+  .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin:38px 0 10px}
   .pcard{
     display:flex;flex-direction:column;border-radius:16px;overflow:hidden;
     border:1px solid rgba(110,170,240,.18);background:linear-gradient(180deg,rgba(13,26,44,.85),rgba(7,13,24,.9));
@@ -86,6 +86,7 @@
   .pcard .ph .ico svg{width:17px;height:17px;opacity:.92}
   .pcard.g1 .ph{background-image:url(/products/images/cover-latent-guard.jpg)}
   .pcard.g2 .ph{background-image:url(/products/images/cover-latent-frame.jpg)}
+  .pcard.g3 .ph{background-image:url(/products/images/cover-latent-anchor.jpg)}
   .pcard .body{padding:18px 18px 20px;display:flex;flex-direction:column;flex:1}
   .pcard .tag{font-family:var(--mono);font-size:10px;letter-spacing:.16em;color:#7fe9ff;margin-bottom:8px}
   .pcard h2{margin:0 0 8px;font-size:19px;font-weight:700}
@@ -133,6 +134,9 @@
   footer .f-contact .home{color:var(--dim);margin-left:auto}
   footer .f-contact .home:hover{color:#fff}
 
+  @media (max-width:1080px){
+    .grid{grid-template-columns:repeat(2,1fr)}
+  }
   @media (max-width:900px){
     .nav-links{display:none} .grid{grid-template-columns:1fr}
     .pcard.soon{flex-direction:column}
@@ -161,7 +165,7 @@
 <div class="lk-band">
   <span class="lk-tag">NExT-LFM · LATENT KNOWLEDGE</span>
   我们研究大模型的<b>潜在知识（Latent Knowledge）</b>如何被获取、表征与组织，如何在训练中演化，以及内部结构如何产生可观测的行为。
-  下面三条产品线，就是把这套研究落成可交付系统的结果。
+  下面四条产品线，就是把这套研究落成可交付系统的结果。
   <a href="/research-vision/">研究愿景 →</a>
 </div>
 
@@ -170,7 +174,7 @@
   <h1>唤醒模型的潜在知识，<br><em>落成可交付的系统</em></h1>
   <p class="lead">
     模型「学过但未必说得出口」的能力，需要被<strong>激发</strong>、被对齐、被组织，才会在真实场景里稳定地表现出来。
-    我们把这条路径落成产品：一条做安全与看护的理解，一条做可控的视觉生成，第三条回到模型能力本身——把激发、合并与拆分做成可复用的工具链。
+    我们把这条路径落成产品：一条做安全与看护的理解，一条做可控的视觉生成，一条把模型安全治理做成可复核的工程，还有一条回到模型能力本身，把激发、合并、拆分与轻量部署做成可复用的工具链。
   </p>
 </div>
 
@@ -209,6 +213,26 @@
       <h2>灵趣潜像<small>可控视频与图像生成 · 8 类场景</small></h2>
       <p>把模型里早已存在、却尚未显影的潜在表征组织成连贯画面。覆盖文旅宣传片、AI 短剧、品牌 TVC、电商视频、数字人口播等 8 类场景，单片段最长可达 3 小时，含两条未剪辑的真实生成案例。</p>
       <div class="keys"><i>角色锁定</i><i>音画同步</i><i>长时生成</i><i>多尺寸交付</i><i>案例实录</i></div>
+      <div class="go">查看产品 <span>→</span></div>
+    </div>
+  </a>
+
+  <a class="pcard g3" href="/products/latent-anchor/">
+    <div class="ph">
+      <span class="ico">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#7dd3fc" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 3v14"/>
+          <circle cx="12" cy="4.6" r="1.7"/>
+          <path d="M5 10h14"/>
+          <path d="M4.5 13.5c0 4 3.4 6.5 7.5 6.5s7.5-2.5 7.5-6.5"/>
+        </svg>
+      </span>
+    </div>
+    <div class="body">
+      <div class="tag">LATENT ANCHOR</div>
+      <h2>灵鉴<small>大模型安全治理平台 · 9 项研究</small></h2>
+      <p>多数安全方案停在输入输出过滤，模型内部的安全机制仍是黑箱。灵鉴从安全神经元与安全通路切入，先定位、再靶向加固，最后用基准与回归复核确认守住了，覆盖多语言、多模态、推理模型与智能体。</p>
+      <div class="keys"><i>安全评测</i><i>结构定位</i><i>跨语迁移</i><i>白盒加固</i><i>路径干预</i></div>
       <div class="go">查看产品 <span>→</span></div>
     </div>
   </a>

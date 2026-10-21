@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#05080f">
+<title>灵鉴 LATENT ANCHOR · AI 安全治理 · NExT-LFM</title>
+<style>
+  :root{
+    --bg:#05080f; --panel:#0a1524; --line:rgba(110,170,240,.16);
+    --txt:#e9f2ff; --dim:#8ea4c2; --cy:#22d3ee; --bl:#3b82f6; --vi:#8b5cf6; --am:#f5b544;
+    --grad:linear-gradient(115deg,rgba(139,92,246,.95) 0%,rgba(59,130,246,.95) 55%,rgba(34,211,238,.95) 100%);
+    --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,"Courier New",monospace;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+  body{
+    margin:0;background:var(--bg);color:var(--txt);
+    font-family:"Inter","Segoe UI",system-ui,-apple-system,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  body::before{
+    content:"";position:fixed;inset:0;z-index:0;pointer-events:none;
+    background:
+      radial-gradient(880px 520px at 82% -6%,rgba(139,92,246,.18),transparent 62%),
+      radial-gradient(760px 480px at 2% 10%,rgba(34,211,238,.14),transparent 60%),
+      radial-gradient(700px 500px at 50% 108%,rgba(245,181,68,.07),transparent 65%);
+  }
+  .wrap{position:relative;z-index:1;max-width:1180px;margin:auto;padding:0 18px}
+  a{color:inherit;text-decoration:none}
+
+  header{position:sticky;top:0;z-index:60;background:rgba(5,8,15,.7);
+    backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}
+  .nav{max-width:1180px;margin:auto;display:flex;align-items:center;gap:16px;padding:11px 18px}
+  .logo{display:flex;align-items:center;gap:10px;font-size:15px;letter-spacing:.04em;white-space:nowrap}
+  .logo .mark{width:30px;height:30px;border-radius:9px;flex:0 0 auto;display:grid;place-items:center;
+    background:linear-gradient(145deg,rgba(139,92,246,.26),rgba(34,211,238,.2));
+    border:1px solid rgba(139,92,246,.5)}
+  .logo .mark::after{content:"";width:10px;height:10px;border-radius:50%;background:var(--grad);
+    box-shadow:0 0 12px 2px rgba(139,92,246,.55)}
+  .nav-links{display:flex;gap:4px;margin-left:auto;flex-wrap:wrap}
+  .nav-links a{font-size:13px;color:var(--dim);padding:7px 12px;border-radius:8px;transition:.25s}
+  .nav-links a:hover{color:#fff;background:rgba(139,92,246,.14)}
+  .nav-links a.back-home{color:#c9b6ff;border-right:1px solid rgba(110,170,240,.28);
+    padding-right:12px;margin-right:4px;font-weight:600;white-space:nowrap}
+
+  .lk-band{margin:16px 0 0;padding:13px 16px;border-radius:12px;font-size:12.5px;line-height:1.8;color:var(--dim);
+    border:1px solid rgba(110,170,240,.18);
+    background:linear-gradient(90deg,rgba(139,92,246,.09),rgba(34,211,238,.06) 60%,transparent)}
+  .lk-band .lk-tag{font-family:var(--mono);font-size:10px;letter-spacing:.16em;white-space:nowrap;
+    color:#c9b6ff;border:1px solid rgba(139,92,246,.4);border-radius:999px;padding:4px 10px;margin-right:10px}
+  .lk-band b{color:#cfe8ff;font-weight:600}
+  .lk-band a{white-space:nowrap;color:#9fe8ff;border-bottom:1px solid rgba(34,211,238,.4);margin-left:10px}
+  .lk-band a:hover{color:#fff}
+
+  .hero{padding:52px 0 6px;max-width:860px}
+  .kicker{font-family:var(--mono);font-size:11px;letter-spacing:.22em;color:#c9b6ff;margin-bottom:14px}
+  .hero h1{font-size:clamp(26px,4.1vw,40px);line-height:1.28;margin:0 0 16px;font-weight:700;letter-spacing:-.01em}
+  .hero h1 em{font-style:normal;background:linear-gradient(115deg,#a855f7 0%,#5b8cff 50%,#22d3ee 100%);
+    -webkit-background-clip:text;background-clip:text;color:transparent}
+  .hero .lead{font-size:15.5px;line-height:1.85;color:#b9cbe0;margin:0}
+  .hero .lead strong{color:#dbe9fa;font-weight:600}
+
+  .stats{display:flex;flex-wrap:wrap;gap:10px;margin:26px 0 0}
+  .stat{flex:1 1 150px;padding:14px 16px;border-radius:13px;border:1px solid var(--line);
+    background:linear-gradient(180deg,rgba(13,26,44,.7),rgba(7,13,24,.6))}
+  .stat b{display:block;font-size:26px;font-weight:700;letter-spacing:-.01em;white-space:nowrap;
+    background:linear-gradient(115deg,#c4b5fd,#7dd3fc);-webkit-background-clip:text;background-clip:text;color:transparent}
+  .stat b i{font-style:normal;font-size:.55em;margin:0 1px;letter-spacing:0}
+  .stat span{display:block;margin-top:5px;font-size:12px;color:#a9bdd4}
+
+  section{padding:52px 0 0;scroll-margin-top:76px}
+  .sec-head{margin-bottom:22px}
+  .sec-head h2{font-size:clamp(20px,2.6vw,26px);margin:0 0 10px;font-weight:700}
+  .sec-head p{margin:0;font-size:13.5px;line-height:1.8;color:#a9bdd4;max-width:800px}
+  .rule{height:1px;background:linear-gradient(90deg,rgba(139,92,246,.5),rgba(34,211,238,.16),transparent);margin-top:16px}
+
+  /* 风险面 */
+  .risks{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+  .risk{padding:17px 17px 18px;border-radius:14px;border:1px solid rgba(110,170,240,.16);
+    background:linear-gradient(180deg,rgba(13,26,44,.72),rgba(7,13,24,.62));transition:.25s}
+  .risk:hover{border-color:rgba(245,181,68,.38);background:rgba(18,28,44,.8)}
+  .risk .rk{display:flex;align-items:center;justify-content:space-between;margin-bottom:9px}
+  .risk .rk em{font-style:normal;font-family:var(--mono);font-size:10px;letter-spacing:.14em;color:#f5b544}
+  .risk .rk i{font-style:normal;font-size:10px;padding:3px 8px;border-radius:999px;color:#f0c98b;
+    border:1px solid rgba(245,181,68,.3);background:rgba(245,181,68,.07)}
+  .risk b{display:block;font-size:14.5px;margin-bottom:7px;font-weight:700}
+  .risk p{margin:0;font-size:12.5px;line-height:1.78;color:#a0b6ce}
+
+  /* 能力矩阵 */
+  .caps{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+  .cap{padding:16px 16px 17px;border-radius:14px;border:1px solid rgba(110,170,240,.16);
+    background:rgba(12,24,40,.5);transition:.25s;display:flex;flex-direction:column}
+  .cap:hover{border-color:rgba(34,211,238,.4);background:rgba(16,32,54,.62)}
+  .cap .ck{font-family:var(--mono);font-size:10px;letter-spacing:.14em;color:#5eead4;margin-bottom:7px}
+  .cap b{display:block;font-size:14px;margin-bottom:7px;font-weight:700}
+  .cap span{font-size:12.5px;line-height:1.75;color:#a0b6ce;flex:1}
+  .cap .ref{margin-top:11px;font-size:11px;line-height:1.6;color:#8e9dbb;border-top:1px dashed rgba(110,170,240,.2);padding-top:9px}
+  .cap .ref a{color:#9fe8ff;border-bottom:1px solid rgba(34,211,238,.35)}
+  .cap .ref a:hover{color:#fff}
+
+  /* 闭环 */
+  .loop{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:4px}
+  .step{position:relative;padding:17px 15px 18px;border-radius:14px;border:1px solid rgba(110,170,240,.16);
+    background:linear-gradient(180deg,rgba(13,26,44,.66),rgba(7,13,24,.55))}
+  .step .n{font-family:var(--mono);font-size:11px;letter-spacing:.14em;color:#c9b6ff}
+  .step b{display:block;font-size:14px;margin:7px 0 6px;font-weight:700}
+  .step span{font-size:12.5px;line-height:1.72;color:#a0b6ce}
+  .step::after{content:"→";position:absolute;right:-11px;top:46%;font-size:13px;color:rgba(139,92,246,.55)}
+  .step:last-child::after{display:none}
+
+  /* 论文 */
+  .pubs{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+  .pub{padding:15px 16px 16px;border-radius:13px;border:1px solid rgba(110,170,240,.16);
+    background:rgba(11,21,36,.55);transition:.25s}
+  .pub:hover{border-color:rgba(139,92,246,.4);background:rgba(15,28,48,.7)}
+  .pub .pn{font-family:var(--mono);font-size:10px;letter-spacing:.14em;color:#c9b6ff;margin-bottom:7px}
+  .pub b{display:block;font-size:13.5px;line-height:1.55;margin-bottom:6px;font-weight:650}
+  .pub .au{font-size:11.5px;line-height:1.65;color:#8e9dbb;margin-bottom:6px}
+  .pub .vn{font-size:11.5px;color:#9fd8ee;margin-bottom:8px}
+  .pub .ln{display:flex;gap:10px;font-size:11.5px}
+  .pub .ln a{color:#9fe8ff;border-bottom:1px solid rgba(34,211,238,.35)}
+  .pub .ln a:hover{color:#fff}
+
+  /* 适用对象 */
+  .auds{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+  .aud{padding:16px 16px 17px;border-radius:14px;border:1px solid var(--line);
+    background:linear-gradient(180deg,rgba(13,26,44,.6),rgba(7,13,24,.5))}
+  .aud b{display:block;font-size:14px;margin-bottom:7px;font-weight:700}
+  .aud span{font-size:12.5px;line-height:1.75;color:#a0b6ce}
+
+  .note{margin:24px 0 0;font-size:12px;line-height:1.8;color:var(--dim)}
+
+  footer{max-width:1180px;margin:clamp(50px,7vw,80px) auto 0;padding:26px 18px 44px;border-top:1px solid var(--line)}
+  footer .f-row{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;align-items:center}
+  footer p{margin:0;font-size:12px;color:var(--dim);line-height:1.8}
+  footer .brand{font-family:var(--mono);font-size:11px;letter-spacing:.18em;color:rgba(150,200,240,.7)}
+  footer .f-contact{margin-top:18px;padding-top:16px;border-top:1px solid var(--line);
+    display:flex;flex-wrap:wrap;align-items:center;gap:12px;font-size:12.5px;color:var(--dim)}
+  footer .f-contact .mail{font-family:var(--mono);color:#7fe9ff;border:1px solid rgba(34,211,238,.35);
+    border-radius:999px;padding:6px 14px}
+  footer .f-contact .mail:hover{background:rgba(34,211,238,.12);color:#fff}
+  footer .f-contact .home{color:var(--dim);margin-left:auto}
+  footer .f-contact .home:hover{color:#fff}
+  footer .f-contact .wx{color:#a9bdd4}
+  footer .f-contact .wx b{font-family:var(--mono);font-size:13px;color:#d9f6ff;letter-spacing:.02em;margin:0 2px}
+
+  @media (max-width:980px){
+    .risks{grid-template-columns:repeat(2,1fr)}
+    .caps{grid-template-columns:repeat(2,1fr)}
+    .loop{grid-template-columns:repeat(2,1fr)}
+    .step::after{display:none}
+    .pubs{grid-template-columns:1fr}
+    .auds{grid-template-columns:repeat(2,1fr)}
+  }
+  @media (max-width:900px){ .nav-links{display:none} }
+  @media (max-width:560px){
+    .hero{padding:34px 0 4px} .lk-band{padding:11px 13px;font-size:12px}
+    .risks{grid-template-columns:1fr} .caps{grid-template-columns:1fr}
+    .loop{grid-template-columns:1fr} .auds{grid-template-columns:1fr}
+    .stat{flex:1 1 100%}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="nav">
+    <div class="logo"><span class="mark"></span><span>灵鉴&nbsp;<b>LATENT ANCHOR</b></span></div>
+    <nav class="nav-links">
+      <a href="/products/" class="back-home">← 产品总览</a>
+      <a href="#risks">风险面</a>
+      <a href="#caps">治理能力</a>
+      <a href="#loop">治理闭环</a>
+      <a href="#research">研究基础</a>
+    </nav>
+  </div>
+</header>
+
+<div class="lk-band">
+  <span class="lk-tag">NExT-LFM · LATENT KNOWLEDGE</span>
+  安全能力同样是模型里的<b>潜在知识</b>：它存在，却会随语言、模态与攻击方式而显隐不定。
+  灵鉴要做的，是把它<b>定位</b>出来、<b>锚定</b>住，并让它在多语言、多模态与推理场景下稳定生效。
+  <a href="/research-vision/">研究愿景 →</a>
+</div>
+
+<div class="hero">
+  <div class="kicker">LATENT ANCHOR · AI SAFETY GOVERNANCE</div>
+  <h1>查得全 · 测得准 · 守得住<br><em>大模型安全治理平台</em></h1>
+  <p class="lead">
+    多数安全方案停在输入输出的浅层过滤，模型内部的安全机制仍然是个黑箱。
+    <strong>灵鉴（Latent Anchor）</strong>从安全神经元与安全通路的层面切入，先看清安全能力落在哪些结构上，
+    再针对这些结构做靶向加固，最后用基准与回归复核确认它真的守住了。
+  </p>
+  <p class="lead" style="margin-top:12px">
+    治理对象覆盖<strong>多语言、多模态、推理模型与智能体</strong>；攻击面覆盖白盒参数攻击与黑盒越狱注入；
+    交付物是评测报告、加固方案与可复核的合规留痕。
+  </p>
+  <div class="stats">
+    <div class="stat"><b>9</b><span>项安全研究成果</span></div>
+    <div class="stat"><b>6</b><span>类治理能力</span></div>
+    <div class="stat"><b>4</b><span>步治理闭环</span></div>
+    <div class="stat"><b>2</b><span>类攻击面覆盖</span></div>
+  </div>
+</div>
+
+<!-- ============ 风险面 ============ -->
+<section id="risks">
+  <div class="sec-head">
+    <h2>治理对象与风险面</h2>
+    <p>安全不是一个开关。不同语言、不同模态、不同推理路径上，风险的形态并不相同，治理必须逐面拆开。</p>
+    <div class="rule"></div>
+  </div>
+  <div class="risks">
+
+    <div class="risk">
+      <div class="rk"><em>R-01</em><i>黑盒</i></div>
+      <b>越狱与提示注入</b>
+      <p>角色扮演、多轮诱导、编码混淆与工具调用注入，绕过对齐后的拒答策略。</p>
+    </div>
+
+    <div class="risk">
+      <div class="rk"><em>R-02</em><i>白盒</i></div>
+      <b>参数级攻击</b>
+      <p>少量有害样本微调、神经元编辑、LoRA 叠加，在保持通用能力的同时移除安全边界。</p>
+    </div>
+
+    <div class="risk">
+      <div class="rk"><em>R-03</em><i>跨语言</i></div>
+      <b>多语言安全落差</b>
+      <p>低资源语种、混合语码与翻译绕行，同一有害意图在中文被拒、在另一种语言却被接受。</p>
+    </div>
+
+    <div class="risk">
+      <div class="rk"><em>R-04</em><i>跨模态</i></div>
+      <b>图文组合风险</b>
+      <p>单看无害的文字与图像，组合后产生有害语义；模态之间还会互相削弱对方的安全约束。</p>
+    </div>
+
+    <div class="risk">
+      <div class="rk"><em>R-05</em><i>推理链</i></div>
+      <b>思维过程被利用</b>
+      <p>长链推理中的中间步骤泄露敏感信息，或被诱导在思考阶段自行解除约束。</p>
+    </div>
+
+    <div class="risk">
+      <div class="rk"><em>R-06</em><i>生成内容</i></div>
+      <b>合成内容合规</b>
+      <p>深度伪造、版权素材与未标注的合成影像，进入传播链路后难以追溯来源。</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============ 治理能力 ============ -->
+<section id="caps">
+  <div class="sec-head">
+    <h2>治理能力矩阵</h2>
+    <p>每一项能力都对应一项已发表或在审的研究，不是概念演示。点开可查看论文原文。</p>
+    <div class="rule"></div>
+  </div>
+  <div class="caps">
+
+    <div class="cap">
+      <div class="ck">A-01 · 评测</div>
+      <b>多语言安全基准</b>
+      <span>覆盖多语种与多模态的风险样本集，量化不同语言、不同模态下的安全落差，给出可对比的基线分数。</span>
+      <div class="ref">研究：<a href="https://arxiv.org/pdf/2601.22737" target="_blank" rel="noopener">Lingua-SafetyBench</a></div>
+    </div>
+
+    <div class="cap">
+      <div class="ck">A-02 · 定位</div>
+      <b>安全结构定位</b>
+      <span>定位承担安全判断的神经元与通路，识别跨模态共享的安全结构，让加固有明确的作用位点。</span>
+      <div class="ref">研究：<a href="https://arxiv.org/pdf/2607.28969" target="_blank" rel="noopener">SafeNexus</a> · <a href="https://arxiv.org/pdf/2602.01283" target="_blank" rel="noopener">Who Transfers Safety?</a></div>
+    </div>
+
+    <div class="cap">
+      <div class="ck">A-03 · 迁移</div>
+      <b>跨语言安全迁移</b>
+      <span>找到跨语言共享的安全通路，把高资源语种上的安全能力迁移到低资源语种，减少逐语种重复对齐的成本。</span>
+      <div class="ref">研究：<a href="https://arxiv.org/pdf/2608.09095" target="_blank" rel="noopener">Who Bridges Safety?</a></div>
+    </div>
+
+    <div class="cap">
+      <div class="ck">A-04 · 加固</div>
+      <b>白盒攻击加固</b>
+      <span>面向参数级攻击的分布式对齐与动态路由，让安全边界不依赖单一神经元，攻击者难以靠局部改动拆除。</span>
+      <div class="ref">研究：<a href="https://arxiv.org/pdf/2608.02674" target="_blank" rel="noopener">Moving the Safety Barrier</a> · <a href="https://arxiv.org/pdf/2608.01414" target="_blank" rel="noopener">No Single Neuron of Failure</a></div>
+    </div>
+
+    <div class="cap">
+      <div class="ck">A-05 · 干预</div>
+      <b>路径级干预</b>
+      <span>在推理路径上做路由与干预，把安全判断嵌进生成过程，而不是只在结果上做事后拦截。</span>
+      <div class="ref">研究：<a href="https://arxiv.org/pdf/2601.21900" target="_blank" rel="noopener">TraceRouter</a></div>
+    </div>
+
+    <div class="cap">
+      <div class="ck">A-06 · 对齐</div>
+      <b>推理过程对齐</b>
+      <span>让思考与回答保持一致的安全取向，避免推理模型在中间步骤放宽标准、在最终回答里才被拦下。</span>
+      <div class="ref">研究：<a href="https://arxiv.org/pdf/2609.37054" target="_blank" rel="noopener">ACTR</a> · <a href="https://arxiv.org/pdf/2607.27917" target="_blank" rel="noopener">One Anchor for All</a></div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============ 治理闭环 ============ -->
+<section id="loop">
+  <div class="sec-head">
+    <h2>治理闭环</h2>
+    <p>从体检到加固再到复核，每一步都留下可追溯的记录，供内部复盘与外部审计使用。</p>
+    <div class="rule"></div>
+  </div>
+  <div class="loop">
+    <div class="step"><div class="n">STEP 01</div><b>风险测绘</b><span>用多语言、多模态红队与基准集扫描模型，输出分语种、分场景的风险画像。</span></div>
+    <div class="step"><div class="n">STEP 02</div><b>靶向加固</b><span>按定位到的安全结构施加干预与对齐，控制加固范围，尽量不动通用能力。</span></div>
+    <div class="step"><div class="n">STEP 03</div><b>回归复核</b><span>复核加固后的安全增益与能力保持情况，同时看误拒率，避免过度保守。</span></div>
+    <div class="step"><div class="n">STEP 04</div><b>持续监测</b><span>线上回流新样本，跟踪新攻击手法，把结果沉淀进下一轮基准与策略。</span></div>
+  </div>
+  <p class="note">
+    评价口径同时看两侧：安全侧关注攻击成功率与漏放率，能力侧关注通用任务表现与正常请求的误拒率。
+    只压一侧不算治理成功。
+  </p>
+</section>
+
+<!-- ============ 研究基础 ============ -->
+<section id="research">
+  <div class="sec-head">
+    <h2>研究基础</h2>
+    <p>灵鉴的方法来自 NExT-LFM 在安全对齐方向的一系列工作，全部公开在 arXiv 或已发表于 ICML。</p>
+    <div class="rule"></div>
+  </div>
+  <div class="pubs">
+
+    <div class="pub">
+      <div class="pn">P-01</div>
+      <b>ACTR: Aligning Thoughts and Responses for Multilingual Safety in Reasoning LLMs</b>
+      <div class="au">X. Zhang, J. Yu, C. Xie, C. Cui, S. Miao, P. Shao, Y. Zheng, F. Shen, T.-S. Chua</div>
+      <div class="vn">arXiv preprint, 2026</div>
+      <div class="ln"><a href="https://arxiv.org/pdf/2609.37054" target="_blank" rel="noopener">PDF</a></div>
+    </div>
+
+    <div class="pub">
+      <div class="pn">P-02</div>
+      <b>Who Bridges Safety? Identifying and Targeting Cross-Lingual Shared Safety Pathways</b>
+      <div class="au">S. Miao, W. Qiu, P. Shao, C. Xiao, F. Shen, Z. Zheng, T.-S. Chua</div>
+      <div class="vn">Under Review</div>
+      <div class="ln"><a href="https://arxiv.org/pdf/2608.09095" target="_blank" rel="noopener">PDF</a><a href="https://github.com/msy0513/shared-safety-pathways" target="_blank" rel="noopener">Code</a></div>
+    </div>
+
+    <div class="pub">
+      <div class="pn">P-03</div>
+      <b>No Single Neuron of Failure: Distributed Safety Alignment Against White-Box Attacks</b>
+      <div class="au">S. Xie, C. Shi, S. Li, W. Wu, F. Shen, Y. Zhou, Z. Wang, T.-S. Chua</div>
+      <div class="vn">Under Review</div>
+      <div class="ln"><a href="https://arxiv.org/pdf/2608.01414" target="_blank" rel="noopener">PDF</a></div>
+    </div>
+
+    <div class="pub">
+      <div class="pn">P-04</div>
+      <b>Moving the Safety Barrier: Dynamic Routing Adaptive Alignment Against White-Box Attacks</b>
+      <div class="au">S. Li, C. Shi, S. Xie, L. He, C. Ji, Z. Cheng, F. Shen, C. Wu, T.-S. Chua</div>
+      <div class="vn">Under Review</div>
+      <div class="ln"><a href="https://arxiv.org/pdf/2608.02674" target="_blank" rel="noopener">PDF</a></div>
+    </div>
+
+    <div class="pub">
+      <div class="pn">P-05</div>
+      <b>SafeNexus: Discovering and Steering Modality-Universal Safety Neurons in MLLMs</b>
+      <div class="au">J. Yu, F. Shen, C. Wang, J. Wang, L. J. Du, J. Tang, T.-S. Chua</div>
+      <div class="vn">Under Review</div>
+      <div class="ln"><a href="https://arxiv.org/pdf/2607.28969" target="_blank" rel="noopener">PDF</a></div>
+    </div>
+
+    <div class="pub">
+      <div class="pn">P-06</div>
+      <b>One Anchor for All: Unified Multilingual and Multimodal Safety Alignment for LVLMs</b>
+      <div class="au">E. Shi, F. Shen, C. Shi, L. Zhu, S. Miao, J. Tang, T.-S. Chua</div>
+      <div class="vn">Under Review</div>
+      <div class="ln"><a href="https://arxiv.org/pdf/2607.27917" target="_blank" rel="noopener">PDF</a></div>
+    </div>
+
+    <div class="pub">
+      <div class="pn">P-07</div>
+      <b>Who Transfers Safety? Identifying and Targeting Cross-Lingual Shared Safety Neurons</b>
+      <div class="au">X. Zhang, C. Xie, L. Zhu, Y. Yang, W. Zhao, Z. Cheng, C. Wang, F. Shen, T.-S. Chua</div>
+      <div class="vn">ICML 2026</div>
+      <div class="ln"><a href="https://arxiv.org/pdf/2602.01283" target="_blank" rel="noopener">PDF</a><a href="https://github.com/1518630367/SS-Neuron-Expansion" target="_blank" rel="noopener">Code</a></div>
+    </div>
+
+    <div class="pub">
+      <div class="pn">P-08</div>
+      <b>Lingua-SafetyBench: A Benchmark for Safety Evaluation of Multilingual Vision-Language Models</b>
+      <div class="au">E. Shi, P. Shao, Y. Zhang, C. Cui, J. Lyu, X. Xie, X. Xia, F. Shen, T.-S. Chua</div>
+      <div class="vn">Under Review</div>
+      <div class="ln"><a href="https://arxiv.org/pdf/2601.22737" target="_blank" rel="noopener">PDF</a><a href="https://github.com/zsxr15/Lingua-SafetyBench" target="_blank" rel="noopener">Code</a></div>
+    </div>
+
+    <div class="pub">
+      <div class="pn">P-09</div>
+      <b>TraceRouter: Robust Safety for Large Foundation Models via Path-Level Intervention</b>
+      <div class="au">C. Shi, S. Li, W. Lu, W. Wu, C. Wang, Z. Cheng, F. Shen, T.-S. Chua</div>
+      <div class="vn">ICML 2026</div>
+      <div class="ln"><a href="https://arxiv.org/pdf/2601.21900" target="_blank" rel="noopener">PDF</a></div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============ 适用对象 ============ -->
+<section id="audience">
+  <div class="sec-head">
+    <h2>适用对象</h2>
+    <p>安全治理的形态随角色而变：模型方需要加固，应用方需要评测，监管与平台需要可复核的证据。</p>
+    <div class="rule"></div>
+  </div>
+  <div class="auds">
+    <div class="aud"><b>模型厂商</b><span>发布前的安全体检与加固，尤其是面向多语言市场与多模态能力的版本。</span></div>
+    <div class="aud"><b>企业私有化</b><span>内部部署模型的越狱防护与内容边界设定，兼顾可用性与误拒率。</span></div>
+    <div class="aud"><b>内容平台</b><span>合成内容的识别与溯源，降低深度伪造与侵权素材的传播风险。</span></div>
+    <div class="aud"><b>监管与评测</b><span>第三方安全评估，输出可复现的基准分数与治理报告。</span></div>
+  </div>
+</section>
+
+</div>
+
+<footer>
+  <div class="f-row">
+    <div>
+      <div class="brand">LATENT ANCHOR · AI SAFETY GOVERNANCE</div>
+    </div>
+    <p>治理效果以实际模型与配置为准，页面所示为方法示意。</p>
+  </div>
+  <div class="f-contact">
+    <span>合作 / 试点接入</span>
+    <span class="wx">联系微信：<b>18068829757</b>（沈飞）</span>
+    <a class="mail" href="mailto:shenfei29@nus.edu.sg">shenfei29@nus.edu.sg</a>
+    <a class="home" href="/products/">← 产品总览</a>
+  </div>
+</footer>
+</body>
+</html>
