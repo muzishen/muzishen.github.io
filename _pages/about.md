@@ -9,48 +9,6 @@ redirect_from:
 
 <span class="anchor" id="about-me"></span>
 
-<div class="about-lang-switch" style="display:flex; justify-content:flex-end; margin:2px 0 10px;">
-  <span style="display:inline-flex; border:1px solid #dbe4f0; border-radius:999px; overflow:hidden; background:#f8fafc; box-shadow:0 1px 3px rgba(15,23,42,.06);">
-    <button type="button" class="about-lang-btn" data-lang="en" style="padding:4px 15px; font-size:.82rem; line-height:1.5; border:none; cursor:pointer; background:#2563eb; color:#fff; font-weight:600;">EN</button>
-    <button type="button" class="about-lang-btn" data-lang="zh" style="padding:4px 15px; font-size:.82rem; line-height:1.5; border:none; cursor:pointer; background:transparent; color:#475569; font-weight:600;">中文</button>
-  </span>
-</div>
-
-<script>
-(function () {
-  var KEY = 'about-lang-pref';
-  function paint(btn, on) {
-    btn.style.background = on ? '#2563eb' : 'transparent';
-    btn.style.color = on ? '#fff' : '#475569';
-  }
-  function setLang(l) {
-    var blocks = document.querySelectorAll('.about-lang');
-    for (var k = 0; k < blocks.length; k++) {
-      blocks[k].style.display = (blocks[k].getAttribute('data-lang-block') === l) ? '' : 'none';
-    }
-    var btns = document.querySelectorAll('.about-lang-btn');
-    for (var m = 0; m < btns.length; m++) {
-      paint(btns[m], btns[m].getAttribute('data-lang') === l);
-    }
-    try { localStorage.setItem(KEY, l); } catch (e) {}
-  }
-  function init() {
-    var pref = 'en';
-    try { pref = localStorage.getItem(KEY) || 'en'; } catch (e) {}
-    setLang(pref);
-    var btns = document.querySelectorAll('.about-lang-btn');
-    for (var m = 0; m < btns.length; m++) {
-      btns[m].addEventListener('click', function () {
-        setLang(this.getAttribute('data-lang'));
-      });
-    }
-  }
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', init);
-  } else { init(); }
-})();
-</script>
-<div class="about-lang" data-lang-block="en">
 <p>
 I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_blank" rel="noopener noreferrer">NExT++ Center</a>, National University of Singapore (NUS), where I lead the <strong>Latent Knowledge Group</strong> and work with <a href="https://www.chuatatseng.com/" target="_blank" rel="noopener noreferrer">Prof. Tat-Seng Chua</a>. Previously, I received my Ph.D. from Nanjing University of Science and Technology under <a href="https://scholar.google.com/citations?user=ByBLlEwAAAAJ&hl=zh-CN" target="_blank" rel="noopener noreferrer">Prof. Jinhui Tang</a>, and conducted research at <a href="https://ailab.tencent.com/" target="_blank" rel="noopener noreferrer">Tencent AI Lab</a> with <a href="https://scholar.google.com/citations?user=XGVV3gEAAAAJ&hl=zh-CN&oi=ao" target="_blank" rel="noopener noreferrer">Prof. Xiao Han</a> and <a href="https://scholar.google.com.hk/citations?user=xUMuDgwAAAAJ&hl=zh-CN" target="_blank" rel="noopener noreferrer">Dr. Jun Zhang</a>. I was very lucky to participate in several interesting projects, including <a href="https://github.com/duixcom/Duix.Avatar" target="_blank" rel="noopener noreferrer">Duix.Avatar</a> <a href="https://github.com/duixcom/Duix.Avatar" target="_blank" rel="noopener noreferrer"><img alt="Duix.Avatar stars" src="https://img.shields.io/github/stars/duixcom/Duix.Avatar?style=social"></a>, <a href="https://github.com/tencent-ailab/V-Express" target="_blank" rel="noopener noreferrer">V-Express</a> <a href="https://github.com/tencent-ailab/V-Express" target="_blank" rel="noopener noreferrer"><img alt="V-Express stars" src="https://img.shields.io/github/stars/tencent-ailab/V-Express?style=social"></a>, <a href="https://github.com/muzishen/IMAGHarmony" target="_blank" rel="noopener noreferrer">IMAGHarmony</a> <a href="https://github.com/muzishen/IMAGDressing" target="_blank" rel="noopener noreferrer"><img alt="IMAGDHarmony stars" src="https://img.shields.io/github/stars/muzishen/IMAGHarmony?style=social"></a>, and <a href="https://github.com/muzishen/IMAGDressing" target="_blank" rel="noopener noreferrer">IMAGDressing</a> <a href="https://github.com/muzishen/IMAGDressing" target="_blank" rel="noopener noreferrer"><img alt="IMAGDressing stars" src="https://img.shields.io/github/stars/muzishen/IMAGDressing?style=social"></a>. To date, I have achieved 50+ top-three finishes in algorithm competitions, including five CCF-A workshop championships, and maintain close collaborations with <a href="https://ailab.tencent.com/" target="_blank" rel="noopener noreferrer">Tencent AI Lab</a>, <a href="http://dev3.noahlab.com.hk/" target="_blank" rel="noopener noreferrer">Huawei</a>, <a href="https://aiuni.ai/" target="_blank" rel="noopener noreferrer">AIUNI</a>, <a href="https://www.guiji.ai/" target="_blank" rel="noopener noreferrer">GuijiAI</a>, and <a href="https://www.chumenwenwen.com/zh/" target="_blank" rel="noopener noreferrer">Mobvoi</a>. I am an IEEE Senior Member and serve as an Area Chair for NeurIPS, ICML, ICLR, 3DV, PRCV, IJCNN, and ICME, as well as an Associate Editor for Pattern Recognition. I also review for major conferences and journals, including CVPR, ICCV, ECCV, TPAMI, IJCV, TIP, and TMM.
 
@@ -59,17 +17,6 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   <a href="mailto:shenfei29@nus.edu.sg">shenfei29@nus.edu.sg</a>.
 </span>
 </p>
-</div>
-<div class="about-lang" data-lang-block="zh" style="display:none;">
-<p>
-我是新加坡国立大学（NUS）<a href="https://www.nextcenter.org/" target="_blank" rel="noopener noreferrer">NExT++ 研究中心</a>的 Research Fellow，带领 <strong>潜在知识研究小组（Latent Knowledge Group）</strong>，与 <a href="https://www.chuatatseng.com/" target="_blank" rel="noopener noreferrer">Chua Tat-Seng 教授</a> 密切合作。此前，我在南京理工大学获得博士学位，师从 <a href="https://scholar.google.com/citations?user=ByBLlEwAAAAJ&hl=zh-CN" target="_blank" rel="noopener noreferrer">唐金辉教授</a>；并曾在 <a href="https://ailab.tencent.com/" target="_blank" rel="noopener noreferrer">腾讯 AI Lab</a> 与 <a href="https://scholar.google.com/citations?user=XGVV3gEAAAAJ&hl=zh-CN&oi=ao" target="_blank" rel="noopener noreferrer">韩晓教授</a>、<a href="https://scholar.google.com.hk/citations?user=xUMuDgwAAAAJ&hl=zh-CN" target="_blank" rel="noopener noreferrer">张军博士</a> 开展研究工作。我有幸参与了多个有趣的项目，包括 <a href="https://github.com/duixcom/Duix.Avatar" target="_blank" rel="noopener noreferrer">Duix.Avatar</a> <a href="https://github.com/duixcom/Duix.Avatar" target="_blank" rel="noopener noreferrer"><img alt="Duix.Avatar stars" src="https://img.shields.io/github/stars/duixcom/Duix.Avatar?style=social"></a>、<a href="https://github.com/tencent-ailab/V-Express" target="_blank" rel="noopener noreferrer">V-Express</a> <a href="https://github.com/tencent-ailab/V-Express" target="_blank" rel="noopener noreferrer"><img alt="V-Express stars" src="https://img.shields.io/github/stars/tencent-ailab/V-Express?style=social"></a>、<a href="https://github.com/muzishen/IMAGHarmony" target="_blank" rel="noopener noreferrer">IMAGHarmony</a> <a href="https://github.com/muzishen/IMAGDressing" target="_blank" rel="noopener noreferrer"><img alt="IMAGDHarmony stars" src="https://img.shields.io/github/stars/muzishen/IMAGHarmony?style=social"></a> 和 <a href="https://github.com/muzishen/IMAGDressing" target="_blank" rel="noopener noreferrer">IMAGDressing</a> <a href="https://github.com/muzishen/IMAGDressing" target="_blank" rel="noopener noreferrer"><img alt="IMAGDressing stars" src="https://img.shields.io/github/stars/muzishen/IMAGDressing?style=social"></a>。迄今为止，我在各类算法竞赛中获得 50 余次前三名，其中包括五项 CCF-A 类 workshop 冠军，并与腾讯 AI Lab、华为、AIUNI、硅基智能、出门问问保持密切合作。我是 IEEE 高级会员，担任 NeurIPS、ICML、ICLR、3DV、PRCV、IJCNN、ICME 的领域主席（Area Chair），以及《Pattern Recognition》期刊的副编辑（Associate Editor）。同时，我也长期担任 CVPR、ICCV、ECCV、TPAMI、IJCV、TIP、TMM 等顶级会议与期刊的审稿人。
-
-<span style="color:#c00; font-weight:700; display:block; margin-top:6px;">
-  <strong>PS：</strong>我们正在积极招募有自驱力的博士生、硕士生与本科生，通过 CSC、RA、访问学者或远程实习等方式，与 Chua 教授和我开展合作。如有兴趣，请将您的简历发送至
-  <a href="mailto:shenfei29@nus.edu.sg">shenfei29@nus.edu.sg</a>。
-</span>
-</p>
-</div>
 
 
 <section id="venture" aria-labelledby="research" style="
@@ -81,7 +28,6 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   background: #f8fafc;
   box-shadow: 0 4px 14px rgba(15, 23, 42, 0.06);
 ">
-  <div class="about-lang" data-lang-block="en">
   <h3 id="research" style="margin: 0 0 10px; font-size: 1.15rem;">
     🚀 NExT-LFM: Large Foundation Model Intelligence &amp; Infrastructure
   </h3>
@@ -117,50 +63,10 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   </p>
 
   <p style="margin: 0; font-size: 0.95rem;">
-    <a href="{{ '/research-vision/' | relative_url }}"><strong>Explore our Research Vision &rarr;</strong></a>
+    <a href="{{ '/research-vision/' | relative_url }}"><strong>Explore our Research Vision &rarr;</strong><span style="margin-left:6px; font-size:.82rem; font-weight:500; color:#64748b;">探索我们的研究愿景</span></a>
     &nbsp;&nbsp;&nbsp;<span style="color:#cbd5e1;">|</span>&nbsp;&nbsp;&nbsp;
-    <a href="{{ '/products/' | relative_url }}"><strong>Explore our Research Products &rarr;</strong></a>
+    <a href="{{ '/products/' | relative_url }}"><strong>Explore our Research Products &rarr;</strong><span style="margin-left:6px; font-size:.82rem; font-weight:500; color:#64748b;">探索我们的研究产品</span></a>
   </p>
-  </div>
-  <div class="about-lang" data-lang-block="zh" style="display:none;">
-
-  <h3 style="margin: 0 0 10px; font-size: 1.15rem;">
-    🚀 NExT-LFM：大模型智能与基础设施
-  </h3>
-
-  <p style="margin: 0 0 12px; line-height: 1.7; font-size: 0.98rem;">
-    我们正在构建 <strong>NExT-LFM</strong>, 一个面向大模型研究的科研与技术平台。我们的工作围绕
-    <strong>潜在知识（latent knowledge）</strong> 展开：它如何被获取、表征与组织，如何在
-    <strong>训练中（mid-training）</strong> 阶段演化，以及模型内部结构如何产生可观测的行为，
-    并支撑理解、推理与安全等能力。
-  </p>
-
-  <p style="margin: 0 0 12px; line-height: 1.7; font-size: 0.98rem;">
-    在 <strong>多语言、多模态与多智能体系统</strong> 中，我们提出并探索
-    <strong>激发式学习（Elicitation Learning）</strong>，以此激活、对齐并保护模型的潜在能力，
-    并实现跨模型、跨领域的迁移与复用。受 <strong>柏拉图的「理念」</strong> 与
-    <strong>亚里士多德的「潜能与现实」之区分</strong> 的启发，我们考察不同模型行为背后共享的底层结构，
-    以及潜在能力如何被转化为可观测的性能表现。
-  </p>
-
-  <p style="margin: 0 0 12px; line-height: 1.7; font-size: 0.98rem;">
-    我们的研究涵盖内部机制、可靠性评估、模型能力的应用，以及面向 LLMs、MLLMs、VLMs、VMs
-    与智能体系统的高效部署。我们的目标是让基础模型变得更
-    <strong>可解释、可控、可迁移、可靠</strong>。
-  </p>
-
-  <p style="margin: 0 0 12px; line-height: 1.7; font-size: 0.98rem;">
-    我们欢迎与关注 <strong>基础模型、可信 AI 与 AI 基础设施</strong> 的产业伙伴及投资人
-    开展研究合作与交流。请联系
-    <a href="mailto:shenfei29@nus.edu.sg"><strong>shenfei29@nus.edu.sg</strong></a>。
-  </p>
-
-  <p style="margin: 0; font-size: 0.95rem;">
-    <a href="{{ '/research-vision/' | relative_url }}"><strong>探索我们的研究愿景 &rarr;</strong></a>
-    &nbsp;&nbsp;&nbsp;<span style="color:#cbd5e1;">|</span>&nbsp;&nbsp;&nbsp;
-    <a href="{{ '/products/' | relative_url }}"><strong>探索我们的研究产品 &rarr;</strong></a>
-  </p>
-  </div>
 </section>
 
 
