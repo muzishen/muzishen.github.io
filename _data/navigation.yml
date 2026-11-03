@@ -15,8 +15,8 @@ main:
   - title: "News"
     url: "/#news"
 
-  - title: "Research Vision"
-    url: "/research-vision/"
+  - title: "Research"
+    url: "/research/"
 
 
   - title: "Activities"
@@ -49,3 +49,4 @@ main:
     
   # - title: "Guide"
   #   url: /markdown/
+
