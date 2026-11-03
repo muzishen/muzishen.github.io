@@ -116,7 +116,7 @@ def render_article(paper, locale):
         'EN_CURRENT': ' aria-current="page"' if locale == 'en' else '',
         'ZH_CURRENT': ' aria-current="page"' if locale == 'zh' else '',
         'CATEGORY': esc(DATA['categories'][paper['category']][locale]),
-        'AUTHORS': author_html(paper, '<span class="author-separator" aria-hidden="true">·</span>'),
+        'AUTHORS': author_html(paper, ' <span class="author-separator" aria-hidden="true">·</span> '),
         'DATE_ISO': esc(paper['submitted']), 'DATE_DISPLAY': esc(display_date),
         'PUBLICATION': esc(paper['publication'][locale]),
         'PAPER': esc(paper['paper']), 'PDF': esc(paper['pdf']),
