@@ -9,11 +9,13 @@
   const navigation = document.querySelector('#site-navigation');
   const languageLinks = [...document.querySelectorAll('[data-language-link]')];
   const validFilters = new Set(buttons.map(button => button.dataset.filter));
+  const aliases = { application: 'applied', understanding: 'fundamental', reliability: 'fundamental', capabilities: 'fundamental' };
   const setFilter = (filter, updateAddress = true) => {
-    const selected = validFilters.has(filter) ? filter : 'all';
+    const normalized = aliases[filter] || filter;
+    const selected = validFilters.has(normalized) ? normalized : 'fundamental';
     let visible = 0;
     papers.forEach(paper => {
-      const show = selected === 'all' || paper.dataset.category === selected;
+      const show = paper.dataset.category === selected;
       paper.hidden = !show;
       if (show) visible += 1;
     });
@@ -21,19 +23,24 @@
     if (count) count.textContent = count.dataset.template.replace('{count}', String(visible));
     languageLinks.forEach(link => {
       const destination = new URL(link.dataset.languageLink, location.origin);
-      if (selected !== 'all') destination.searchParams.set('topic', selected);
+      if (selected !== 'fundamental') destination.searchParams.set('topic', selected);
       link.href = destination.pathname + destination.search;
     });
     if (updateAddress) {
       const address = new URL(location.href);
-      if (selected === 'all') address.searchParams.delete('topic');
+      if (selected === 'fundamental') address.searchParams.delete('topic');
       else address.searchParams.set('topic', selected);
       history.replaceState(null, '', address.pathname + address.search + address.hash);
     }
   };
   buttons.forEach(button => button.addEventListener('click', () => setFilter(button.dataset.filter)));
-  setFilter(new URLSearchParams(location.search).get('topic') || 'all', false);
-  addEventListener('popstate', () => setFilter(new URLSearchParams(location.search).get('topic') || 'all', false));
+  const initialTopic = () => {
+    const query = new URLSearchParams(location.search).get('topic');
+    const anchoredPaper = papers.find(paper => '#' + paper.id === location.hash);
+    return query || anchoredPaper?.dataset.category || 'fundamental';
+  };
+  setFilter(initialTopic(), false);
+  addEventListener('popstate', () => setFilter(initialTopic(), false));
   if (menuToggle && navigation) {
     const closeMenu = () => {
       menuToggle.setAttribute('aria-expanded', 'false');

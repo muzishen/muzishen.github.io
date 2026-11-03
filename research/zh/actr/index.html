@@ -16,12 +16,13 @@
   <meta property="og:description" content="推理模型可能已经在思考中识别风险，却仍在另一种语言的回答中给出不安全内容。">
   <meta property="og:url" content="https://muzishen.github.io/research/zh/actr/">
   <meta property="og:locale" content="zh_CN">
-  <meta property="og:image" content="https://muzishen.github.io/images/paper-images/actr.png">
+  <meta property="og:image" content="https://muzishen.github.io/assets/images/research/covers/actr.webp">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="/assets/images/research/mark.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/assets/css/research.css?v=1233161ef3c9">
-  <link rel="stylesheet" href="/assets/css/research-article.css?v=b57197ef88c5">
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "ACTR：对齐思考与回答，提升推理模型的多语言安全性", "description": "推理模型可能已经在思考中识别风险，却仍在另一种语言的回答中给出不安全内容。", "author": [{"@type": "Person", "name": "Zhang Xianhui"}, {"@type": "Person", "name": "Yu Jian"}, {"@type": "Person", "name": "Xie Chengyu"}, {"@type": "Person", "name": "Cui Chenhang"}, {"@type": "Person", "name": "Miao Shuyi"}, {"@type": "Person", "name": "Shao Pengyang"}, {"@type": "Person", "name": "Zheng Yu"}, {"@type": "Person", "name": "Shen Fei"}, {"@type": "Person", "name": "Chua Tat-Seng"}], "inLanguage": "zh-Hans", "mainEntityOfPage": "https://muzishen.github.io/research/zh/actr/", "image": "https://muzishen.github.io/images/paper-images/actr.png", "isBasedOn": "https://arxiv.org/abs/2609.37054"}</script>
+  <link rel="stylesheet" href="/assets/css/research.css?v=26ce8ab3d43d">
+  <link rel="stylesheet" href="/assets/css/research-article.css?v=bb31a7d4c120">
+  <script src="/assets/js/research-article.js?v=4a8da52c5f1b" defer></script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "ACTR：对齐思考与回答，提升推理模型的多语言安全性", "description": "推理模型可能已经在思考中识别风险，却仍在另一种语言的回答中给出不安全内容。", "author": [{"@type": "Person", "name": "Zhang Xianhui"}, {"@type": "Person", "name": "Yu Jian"}, {"@type": "Person", "name": "Xie Chengyu"}, {"@type": "Person", "name": "Cui Chenhang"}, {"@type": "Person", "name": "Miao Shuyi"}, {"@type": "Person", "name": "Shao Pengyang"}, {"@type": "Person", "name": "Zheng Yu"}, {"@type": "Person", "name": "Shen Fei"}, {"@type": "Person", "name": "Chua Tat-Seng"}], "inLanguage": "zh-Hans", "mainEntityOfPage": "https://muzishen.github.io/research/zh/actr/", "image": "https://muzishen.github.io/assets/images/research/covers/actr.webp", "isBasedOn": "https://arxiv.org/abs/2609.37054"}</script>
 </head>
 <body class="essay-page">
   <a class="skip-link" href="#short-version">跳至文章介绍</a>
@@ -40,7 +41,7 @@
     <article>
       <header class="essay-hero">
         <div class="essay-heading">
-          <div class="essay-kicker">可靠评估与安全 / 研究解读</div>
+          <div class="essay-kicker">基础研究 / 可靠评估与安全 / 研究解读</div>
           <h1 class="essay-title">ACTR：对齐思考与回答，提升推理模型的多语言安全性</h1>
           <p class="essay-deck">推理模型可能已经在思考中识别风险，却仍在另一种语言的回答中给出不安全内容。</p>
           <p class="essay-authors"><span class="author-name">Zhang Xianhui</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Yu Jian</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Xie Chengyu</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Cui Chenhang</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Miao Shuyi</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Shao Pengyang</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Zheng Yu</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Shen Fei</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Chua Tat-Seng</span></p>
@@ -53,8 +54,8 @@
           </div>
         </div>
         <figure class="essay-figure">
-          <img src="/images/paper-images/actr.png" alt="《ACTR：对齐思考与回答，提升推理模型的多语言安全性》研究概览" fetchpriority="high" decoding="async">
-          <figcaption>论文研究概览配图。</figcaption>
+          <img src="/assets/images/research/covers/actr.webp" alt="概念视觉: ACTR：对齐思考与回答，提升推理模型的多语言安全性" fetchpriority="high" decoding="async">
+          <figcaption>根据研究主题创作的概念视觉。</figcaption>
         </figure>
       </header>
       <nav class="essay-contents" aria-label="文章目录">
@@ -66,9 +67,20 @@
       <div class="essay-body">
         <section id="short-version" class="essay-section essay-short" aria-labelledby="short-title">
           <h2 id="short-title">核心内容</h2>
-          <p>ACTR 关注模型能否真正利用已有的安全推理：先识别安全思考神经元，再选择性优化思考过程与最终回答在安全类别上的一致性。</p>
+          <p>ACTR 研究多语言安全中的一种脱节：模型在推理里已经意识到危险，最终却仍然给出不安全回答，这一现象在非高资源语言中尤其值得关注。Think Gap Score 衡量推理利用的差异，安全思考神经元则定位与将安全推理落实到行为相关的内部成分。</p><p>框架选择性地优化这些神经元，并引入思考与回答之间的一致性信号。干预目标因此落在风险识别与最终行动的连接上，再通过不同语言和攻击设置检验其效果。</p>
           <div class="research-highlights"><div class="research-highlight"><span class="highlight-value">2</span><span class="highlight-label">推理模型</span></div><div class="research-highlight"><span class="highlight-value">2</span><span class="highlight-label">多语言越狱评估基准</span></div><div class="research-highlight"><span class="highlight-value">定向</span><span class="highlight-label">神经元关联参数更新</span></div></div>
         </section>
+        <blockquote class="research-thesis"><p>推理中识别出风险，只有进一步约束最终行为，才能形成有效的安全能力。</p></blockquote>
+        <figure class="source-figure">
+          <a class="figure-zoom" href="/assets/images/research/evidence/actr-1.webp" target="_blank" rel="noopener noreferrer" data-figure-src="/assets/images/research/evidence/actr-1.webp" data-figure-title="图2 · 连接安全思考与最终回答" aria-label="点击放大: 连接安全思考与最终回答">
+            <img src="/assets/images/research/evidence/actr-1.webp" width="1139" height="523" alt="图2 · 连接安全思考与最终回答. 框架测量推理利用程度，识别安全思考神经元，并优化思考与回答的一致性。" loading="lazy" decoding="async">
+            <span class="figure-open-icon" aria-hidden="true">⤢</span>
+          </a>
+          <figcaption><span class="figure-label">图2 / 第3页</span>
+            <h3>连接安全思考与最终回答</h3><p>框架测量推理利用程度，识别安全思考神经元，并优化思考与回答的一致性。</p>
+            <a href="https://arxiv.org/pdf/2609.37054#page=3" target="_blank" rel="noopener noreferrer">查看论文原图 <span aria-hidden="true">↗</span></a>
+          </figcaption>
+        </figure>
         <section id="motivation" class="essay-section" aria-labelledby="motivation-title">
           <h2 id="motivation-title">为什么研究这个问题</h2>
           <p>“推理中识别出风险”与“回答中执行安全判断”之间可能存在断层。这种断层在非高资源语言的越狱攻击下尤其值得关注。</p>
@@ -77,13 +89,33 @@
           <h2 id="method-title">方法如何工作</h2>
           <ol class="method-steps"><li>用 TGS 比较推理轨迹对回答生成的贡献，并通过轨迹替换考察跨语言安全差距。</li><li>比较开启与关闭推理时的神经元重要性，定位支持安全推理利用的神经元。</li><li>借助冻结裁判模型奖励思考与回答的安全类别一致性，仅更新所选神经元关联参数，不依赖人工标注回答或偏好数据。</li></ol>
         </section>
+        <figure class="source-figure">
+          <a class="figure-zoom" href="/assets/images/research/evidence/actr-2.webp" target="_blank" rel="noopener noreferrer" data-figure-src="/assets/images/research/evidence/actr-2.webp" data-figure-title="图3 · 多语言中的推理利用差距" aria-label="点击放大: 多语言中的推理利用差距">
+            <img src="/assets/images/research/evidence/actr-2.webp" width="476" height="193" alt="图3 · 多语言中的推理利用差距. 图中比较两类模型在不同语言上的 Think Gap Score 与攻击成功率。" loading="lazy" decoding="async">
+            <span class="figure-open-icon" aria-hidden="true">⤢</span>
+          </a>
+          <figcaption><span class="figure-label">图3 / 第4页</span>
+            <h3>多语言中的推理利用差距</h3><p>图中比较两类模型在不同语言上的 Think Gap Score 与攻击成功率。</p>
+            <a href="https://arxiv.org/pdf/2609.37054#page=4" target="_blank" rel="noopener noreferrer">查看论文原图 <span aria-hidden="true">↗</span></a>
+          </figcaption>
+        </figure>
         <section id="evidence" class="essay-section" aria-labelledby="evidence-title">
           <h2 id="evidence-title">实验发现了什么</h2>
           <p>ACTR 在两个推理模型上使用 AdvBench-X 和 MultiJail 进行评估。相较于所比较方法，其平均攻击成功率更低，收益还延伸到未见语言；实验同时考察了正常请求误拒答及多语言知识和数学推理表现。</p>
         </section>
+        <figure class="source-figure">
+          <a class="figure-zoom" href="/assets/images/research/evidence/actr-3.webp" target="_blank" rel="noopener noreferrer" data-figure-src="/assets/images/research/evidence/actr-3.webp" data-figure-title="表4 · 多语言安全结果" aria-label="点击放大: 多语言安全结果">
+            <img src="/assets/images/research/evidence/actr-3.webp" width="1140" height="659" alt="表4 · 多语言安全结果. 原表在论文评估设置下，报告 AdvBench-X 与 MultiJail 的攻击成功率。" loading="lazy" decoding="async">
+            <span class="figure-open-icon" aria-hidden="true">⤢</span>
+          </a>
+          <figcaption><span class="figure-label">表4 / 第7页</span>
+            <h3>多语言安全结果</h3><p>原表在论文评估设置下，报告 AdvBench-X 与 MultiJail 的攻击成功率。</p>
+            <a href="https://arxiv.org/pdf/2609.37054#page=7" target="_blank" rel="noopener noreferrer">查看论文原图 <span aria-hidden="true">↗</span></a>
+          </figcaption>
+        </figure>
         <section id="takeaway" class="essay-section" aria-labelledby="takeaway-title">
           <h2 id="takeaway-title">这项研究意味着什么</h2>
-          <p>安全推理需要实际影响最终回答。选择性的一致性优化把这一连接转化为明确的训练目标，从而同时关注内部判断与外部行为。</p>
+          <p>这项工作把安全性放到计算过程的连续性中理解。模型需要识别有害请求、在生成过程中保留判断，并让该判断实际影响答案。任何一个环节的脱节，都可能让看似合理的推理与用户收到的回答分离。</p><p>多语言情形使这种缺口更加清晰。改善安全推理的利用，为干预提供了更具体的目标，也帮助区分安全知识缺失与知识未能落实到行为。方法的价值仍需结合有用性，以及对训练之外语言的迁移表现共同判断。</p>
         </section>
         <section id="resources" class="essay-section essay-resources" aria-labelledby="resources-title">
           <h2 id="resources-title">论文与相关资源</h2>
@@ -108,7 +140,26 @@
         </section>
       </div>
     </article>
+    <section class="related-research" aria-labelledby="related-heading">
+      <div class="related-heading"><span class="eyebrow">继续探索</span><h2 id="related-heading">研究成果</h2></div>
+      <div class="related-list"><a class="related-row" href="/research/zh/who-transfers-safety/">
+          <div class="related-copy"><h3>谁在传递安全？定位并干预跨语言共享安全神经元</h3><time datetime="2026-02-01">2026年2月1日</time></div>
+          <p class="related-authors"><span class="author-name">Zhang Xianhui</span>, <span class="author-name">Xie Chengyu</span>, <span class="author-name">Zhu Linxia</span>, <span class="author-name">Yang Yonghui</span>, <span class="author-name">Zhao Weixiang</span>, <span class="author-name">Cheng Zifeng</span>, <span class="author-name">Wang Cong</span>, <span class="author-name">Shen Fei</span>, <span class="author-name">Chua Tat-Seng</span></p><span class="related-arrow" aria-hidden="true">→</span>
+        </a>
+<a class="related-row" href="/research/zh/tracerouter/">
+          <div class="related-copy"><h3>TraceRouter：通过路径级干预提升基础模型安全性</h3><time datetime="2026-01-29">2026年1月29日</time></div>
+          <p class="related-authors"><span class="author-name">Shi Chuancheng</span>, <span class="author-name">Li Shangze</span>, <span class="author-name">Lu Wenjun</span>, <span class="author-name">Wu Wenhua</span>, <span class="author-name">Wang Cong</span>, <span class="author-name">Cheng Zifeng</span>, <span class="author-name">Shen Fei</span>, <span class="author-name">Chua Tat-Seng</span></p><span class="related-arrow" aria-hidden="true">→</span>
+        </a>
+<a class="related-row" href="/research/zh/emorss/">
+          <div class="related-copy"><h3>EmoRSS：缓解大语言模型中情绪引发的过度拒答</h3><time datetime="2026-10-04">2026年10月4日</time></div>
+          <p class="related-authors"><span class="author-name">Miao Shuyi</span>, <span class="author-name">Ma Yaojin</span>, <span class="author-name">Cui Chenhang</span>, <span class="author-name">Liu Xiaohao</span>, <span class="author-name">Dang Jisheng</span>, <span class="author-name">Zhuo Shengda</span>, <span class="author-name">Shen Fei</span>, <span class="author-name">Chua Tat-Seng</span></p><span class="related-arrow" aria-hidden="true">→</span>
+        </a></div>
+    </section>
   </main>
+  <dialog class="figure-dialog" aria-label="论文图表查看器">
+    <button class="figure-dialog-close" type="button" aria-label="关闭大图">关闭大图 <span aria-hidden="true">×</span></button>
+    <div class="figure-dialog-scroll"><img alt=""></div><p class="figure-dialog-title"></p>
+  </dialog>
   <footer class="essay-container essay-bottom">
     <a href="/">© 2026 Fei Shen · Latent Knowledge Group</a>
     <a href="/research/zh/">更多研究 <span aria-hidden="true">↗</span></a>

@@ -16,12 +16,13 @@
   <meta property="og:description" content="把原生参数映射到词表空间，再用局部输出变化和定向干预检验这些读出。">
   <meta property="og:url" content="https://muzishen.github.io/research/zh/dv-lens/">
   <meta property="og:locale" content="zh_CN">
-  <meta property="og:image" content="https://muzishen.github.io/images/paper-images/dv-lens.png">
+  <meta property="og:image" content="https://muzishen.github.io/assets/images/research/covers/dv-lens.webp">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="/assets/images/research/mark.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/assets/css/research.css?v=1233161ef3c9">
-  <link rel="stylesheet" href="/assets/css/research-article.css?v=b57197ef88c5">
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "DV-Lens：揭示语言模型参数的功能组织", "description": "把原生参数映射到词表空间，再用局部输出变化和定向干预检验这些读出。", "author": [{"@type": "Person", "name": "Cui Chenhang"}, {"@type": "Person", "name": "Yu Jian"}, {"@type": "Person", "name": "Miao Shuyi"}, {"@type": "Person", "name": "Liu Xiaohao"}, {"@type": "Person", "name": "Huang Rui"}, {"@type": "Person", "name": "Shen Fei"}, {"@type": "Person", "name": "Zhang An"}, {"@type": "Person", "name": "Chua Tat-Seng"}], "inLanguage": "zh-Hans", "mainEntityOfPage": "https://muzishen.github.io/research/zh/dv-lens/", "image": "https://muzishen.github.io/images/paper-images/dv-lens.png", "isBasedOn": "https://arxiv.org/abs/2610.04489"}</script>
+  <link rel="stylesheet" href="/assets/css/research.css?v=26ce8ab3d43d">
+  <link rel="stylesheet" href="/assets/css/research-article.css?v=bb31a7d4c120">
+  <script src="/assets/js/research-article.js?v=4a8da52c5f1b" defer></script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "DV-Lens：揭示语言模型参数的功能组织", "description": "把原生参数映射到词表空间，再用局部输出变化和定向干预检验这些读出。", "author": [{"@type": "Person", "name": "Cui Chenhang"}, {"@type": "Person", "name": "Yu Jian"}, {"@type": "Person", "name": "Miao Shuyi"}, {"@type": "Person", "name": "Liu Xiaohao"}, {"@type": "Person", "name": "Huang Rui"}, {"@type": "Person", "name": "Shen Fei"}, {"@type": "Person", "name": "Zhang An"}, {"@type": "Person", "name": "Chua Tat-Seng"}], "inLanguage": "zh-Hans", "mainEntityOfPage": "https://muzishen.github.io/research/zh/dv-lens/", "image": "https://muzishen.github.io/assets/images/research/covers/dv-lens.webp", "isBasedOn": "https://arxiv.org/abs/2610.04489"}</script>
 </head>
 <body class="essay-page">
   <a class="skip-link" href="#short-version">跳至文章介绍</a>
@@ -40,7 +41,7 @@
     <article>
       <header class="essay-hero">
         <div class="essay-heading">
-          <div class="essay-kicker">机制理解 / 研究解读</div>
+          <div class="essay-kicker">基础研究 / 机制理解 / 研究解读</div>
           <h1 class="essay-title">DV-Lens：揭示语言模型参数的功能组织</h1>
           <p class="essay-deck">把原生参数映射到词表空间，再用局部输出变化和定向干预检验这些读出。</p>
           <p class="essay-authors"><span class="author-name">Cui Chenhang</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Yu Jian</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Miao Shuyi</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Liu Xiaohao</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Huang Rui</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Shen Fei</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Zhang An</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Chua Tat-Seng</span></p>
@@ -53,8 +54,8 @@
           </div>
         </div>
         <figure class="essay-figure">
-          <img src="/images/paper-images/dv-lens.png" alt="《DV-Lens：揭示语言模型参数的功能组织》研究概览" fetchpriority="high" decoding="async">
-          <figcaption>论文研究概览配图。</figcaption>
+          <img src="/assets/images/research/covers/dv-lens.webp" alt="概念视觉: DV-Lens：揭示语言模型参数的功能组织" fetchpriority="high" decoding="async">
+          <figcaption>根据研究主题创作的概念视觉。</figcaption>
         </figure>
       </header>
       <nav class="essay-contents" aria-label="文章目录">
@@ -66,9 +67,20 @@
       <div class="essay-body">
         <section id="short-version" class="essay-section essay-short" aria-labelledby="short-title">
           <h2 id="short-title">核心内容</h2>
-          <p>DV-Lens 将参数方向与带符号的词表响应联系起来，使参数解释能够接受干预检验；进一步提出 DV-Complexity，研究参数功能组织与模型能力的关系。</p>
+          <p>DV-Lens 把词表作为理解原生参数的共同坐标系。它沿着模型的下游计算，将参数方向转化为带符号的局部输出响应：一个方向倾向于增强哪些词、抑制哪些词。由此，注意力与前馈模块中原本难以直接比较的参数，获得了可在输出端检验的功能描述。</p><p>工作进一步追问：参数的功能组织方式，是否包含关于模型能力的信息？DV-Complexity 刻画功能分组内部的结构变化，并通过有限差分、定向干预和 48 个模型的比较，将参数读出与不同尺度上的可观察行为联系起来。</p>
           <div class="research-highlights"><div class="research-highlight"><span class="highlight-value">98.0%</span><span class="highlight-label">局部变化方向一致率</span></div><div class="research-highlight"><span class="highlight-value">21</span><span class="highlight-label">干预实验覆盖的模型数</span></div><div class="research-highlight"><span class="highlight-value">0.904</span><span class="highlight-label">与能力排序的 Spearman 相关</span></div></div>
         </section>
+        <blockquote class="research-thesis"><p>参数解释的价值，在于它能否预测模型输出会怎样改变。</p></blockquote>
+        <figure class="source-figure">
+          <a class="figure-zoom" href="/assets/images/research/evidence/dv-lens-1.webp" target="_blank" rel="noopener noreferrer" data-figure-src="/assets/images/research/evidence/dv-lens-1.webp" data-figure-title="图1 · 从参数到词表响应" aria-label="点击放大: 从参数到词表响应">
+            <img src="/assets/images/research/evidence/dv-lens-1.webp" width="969" height="299" alt="图1 · 从参数到词表响应. 下游映射将 DV-Lens 与直接词表投影、激活分解区分开来。" loading="lazy" decoding="async">
+            <span class="figure-open-icon" aria-hidden="true">⤢</span>
+          </a>
+          <figcaption><span class="figure-label">图1 / 第2页</span>
+            <h3>从参数到词表响应</h3><p>下游映射将 DV-Lens 与直接词表投影、激活分解区分开来。</p>
+            <a href="https://arxiv.org/pdf/2610.04489#page=2" target="_blank" rel="noopener noreferrer">查看论文原图 <span aria-hidden="true">↗</span></a>
+          </figcaption>
+        </figure>
         <section id="motivation" class="essay-section" aria-labelledby="motivation-title">
           <h2 id="motivation-title">为什么研究这个问题</h2>
           <p>理解参数的含义，需要进一步回答：改变这个参数，输出会怎样变化？不同模块的参数处于不同空间，直接比较它们的功能并不容易。因此，这项工作把最终词表作为共同的观察空间。</p>
@@ -77,13 +89,33 @@
           <h2 id="method-title">方法如何工作</h2>
           <ol class="method-steps"><li>在参考提示上估计注意力 Q/K/V/O 投影及 FFN 的下游 Jacobian，建立模块到最终输出的局部映射。</li><li>把原生参数列投影到词表空间，得到描述平均局部输出响应的带符号读出。</li><li>按词表读出对参数列分组，再利用原始权重的归一化重建残差，刻画组内结构变化。</li></ol>
         </section>
+        <figure class="source-figure">
+          <a class="figure-zoom" href="/assets/images/research/evidence/dv-lens-2.webp" target="_blank" rel="noopener noreferrer" data-figure-src="/assets/images/research/evidence/dv-lens-2.webp" data-figure-title="图2 · 检验局部变化预测" aria-label="点击放大: 检验局部变化预测">
+            <img src="/assets/images/research/evidence/dv-lens-2.webp" width="542" height="352" alt="图2 · 检验局部变化预测. 有限差分在九个模型上检验变化方向的一致性，以及高影响词表坐标的恢复情况。" loading="lazy" decoding="async">
+            <span class="figure-open-icon" aria-hidden="true">⤢</span>
+          </a>
+          <figcaption><span class="figure-label">图2 / 第7页</span>
+            <h3>检验局部变化预测</h3><p>有限差分在九个模型上检验变化方向的一致性，以及高影响词表坐标的恢复情况。</p>
+            <a href="https://arxiv.org/pdf/2610.04489#page=7" target="_blank" rel="noopener noreferrer">查看论文原图 <span aria-hidden="true">↗</span></a>
+          </figcaption>
+        </figure>
         <section id="evidence" class="essay-section" aria-labelledby="evidence-title">
           <h2 id="evidence-title">实验发现了什么</h2>
           <p>有限差分检验覆盖 9 个模型、720 个案例，局部变化方向的一致率为 98.0%。读出还用于 21 个模型上的消融、引导和参数替换。在 48 个模型上，联合参数 DV-Complexity 与基准能力排序的 Spearman 相关系数达到 0.904。</p>
         </section>
+        <figure class="source-figure">
+          <a class="figure-zoom" href="/assets/images/research/evidence/dv-lens-3.webp" target="_blank" rel="noopener noreferrer" data-figure-src="/assets/images/research/evidence/dv-lens-3.webp" data-figure-title="图6 · 参数组织与模型能力" aria-label="点击放大: 参数组织与模型能力">
+            <img src="/assets/images/research/evidence/dv-lens-3.webp" width="970" height="299" alt="图6 · 参数组织与模型能力. 在固定的 48 个模型中比较 DV-Complexity 与基准能力排序；这里呈现的是相关关系。" loading="lazy" decoding="async">
+            <span class="figure-open-icon" aria-hidden="true">⤢</span>
+          </a>
+          <figcaption><span class="figure-label">图6 / 第10页</span>
+            <h3>参数组织与模型能力</h3><p>在固定的 48 个模型中比较 DV-Complexity 与基准能力排序；这里呈现的是相关关系。</p>
+            <a href="https://arxiv.org/pdf/2610.04489#page=10" target="_blank" rel="noopener noreferrer">查看论文原图 <span aria-hidden="true">↗</span></a>
+          </figcaption>
+        </figure>
         <section id="takeaway" class="essay-section" aria-labelledby="takeaway-title">
           <h2 id="takeaway-title">这项研究意味着什么</h2>
-          <p>这项工作把参数解释推进到可检验的输出预测，并给出了功能组织与能力的统计联系。局部干预证据和跨模型相关性分别回答不同问题，不能把后者直接解释为能力的因果规律。</p>
+          <p>这项研究指向一种具有预测力的可解释性：解释需要提出关于行为变化的具体假设，并通过干预接受检验。满足这一条件的参数地图，可以成为模型编辑、行为引导与能力迁移的实验接口，让“理解模型”进一步连接到“如何操作模型”。</p><p>DV-Complexity 也提示，除了参数规模，参数如何被组织可能同样值得研究。它与能力排序的相关性，为后续受控实验提供了线索；是否能通过主动改变这种组织来提升能力，仍需要独立的因果证据。</p>
         </section>
         <section id="resources" class="essay-section essay-resources" aria-labelledby="resources-title">
           <h2 id="resources-title">论文与相关资源</h2>
@@ -108,7 +140,26 @@
         </section>
       </div>
     </article>
+    <section class="related-research" aria-labelledby="related-heading">
+      <div class="related-heading"><span class="eyebrow">继续探索</span><h2 id="related-heading">研究成果</h2></div>
+      <div class="related-list"><a class="related-row" href="/research/zh/latent-support/">
+          <div class="related-copy"><h3>正确答案是否具有稳定的潜在知识支撑？</h3><time datetime="2026-10-11">2026年10月11日</time></div>
+          <p class="related-authors"><span class="author-name">Shi Chuancheng</span>, <span class="author-name">Li Shangze</span>, <span class="author-name">Wu Wenhua</span>, <span class="author-name">Hu Kun</span>, <span class="author-name">Shen Fei</span>, <span class="author-name">Wang Zhiyong</span>, <span class="author-name">Chua Tat-Seng</span></p><span class="related-arrow" aria-hidden="true">→</span>
+        </a>
+<a class="related-row" href="/research/zh/superai/">
+          <div class="related-copy"><h3>SuperAI：跨异构基础模型的能力合并</h3><time datetime="2026-10-11">2026年10月11日</time></div>
+          <p class="related-authors"><span class="author-name">Dou Jingtong</span>, <span class="author-name">Shi Chuancheng</span>, <span class="author-name">Wu Wenhua</span>, <span class="author-name">Bao Wei</span>, <span class="author-name">Shen Fei</span>, <span class="author-name">Wang Zhiyong</span>, <span class="author-name">Chua Tat-Seng</span></p><span class="related-arrow" aria-hidden="true">→</span>
+        </a>
+<a class="related-row" href="/research/zh/hub-spectral/">
+          <div class="related-copy"><h3>Hub-Spectral：激活潜在多模态知识</h3><time datetime="2026-09-15">2026年9月15日</time></div>
+          <p class="related-authors"><span class="author-name">Guo Ying</span>, <span class="author-name">Chen Haidong</span>, <span class="author-name">Xu Linrui</span>, <span class="author-name">Liu Xiaohao</span>, <span class="author-name">Shi Chuancheng</span>, <span class="author-name">Xiao Canran</span>, <span class="author-name">Zhang Dan</span>, <span class="author-name">Shen Fei</span>, <span class="author-name">Shen Li</span>, <span class="author-name">Chua Tat-Seng</span></p><span class="related-arrow" aria-hidden="true">→</span>
+        </a></div>
+    </section>
   </main>
+  <dialog class="figure-dialog" aria-label="论文图表查看器">
+    <button class="figure-dialog-close" type="button" aria-label="关闭大图">关闭大图 <span aria-hidden="true">×</span></button>
+    <div class="figure-dialog-scroll"><img alt=""></div><p class="figure-dialog-title"></p>
+  </dialog>
   <footer class="essay-container essay-bottom">
     <a href="/">© 2026 Fei Shen · Latent Knowledge Group</a>
     <a href="/research/zh/">更多研究 <span aria-hidden="true">↗</span></a>

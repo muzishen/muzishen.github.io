@@ -21,6 +21,7 @@
   <link rel="icon" href="/assets/images/research/mark.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/assets/css/research.css?v=@@CSS_VERSION@@">
   <link rel="stylesheet" href="/assets/css/research-article.css?v=@@ARTICLE_CSS_VERSION@@">
+  <script src="/assets/js/research-article.js?v=@@ARTICLE_JS_VERSION@@" defer></script>
   <script type="application/ld+json">@@SCHEMA@@</script>
 </head>
 <body class="essay-page">
@@ -40,7 +41,7 @@
     <article>
       <header class="essay-hero">
         <div class="essay-heading">
-          <div class="essay-kicker">@@CATEGORY@@ / @@RESEARCH_NOTE@@</div>
+          <div class="essay-kicker">@@CATEGORY@@ / @@TOPIC@@ / @@RESEARCH_NOTE@@</div>
           <h1 class="essay-title">@@ARTICLE_TITLE@@</h1>
           <p class="essay-deck">@@DECK@@</p>
           <p class="essay-authors">@@AUTHORS@@</p>
@@ -66,9 +67,11 @@
       <div class="essay-body">
         <section id="short-version" class="essay-section essay-short" aria-labelledby="short-title">
           <h2 id="short-title">@@SHORT_TITLE@@</h2>
-          <p>@@SHORT@@</p>
+          @@SHORT@@
           <div class="research-highlights">@@HIGHLIGHTS@@</div>
         </section>
+        <blockquote class="research-thesis"><p>@@THESIS@@</p></blockquote>
+        @@SOURCE_FIGURE_1@@
         <section id="motivation" class="essay-section" aria-labelledby="motivation-title">
           <h2 id="motivation-title">@@MOTIVATION_TITLE@@</h2>
           @@MOTIVATION@@
@@ -77,10 +80,12 @@
           <h2 id="method-title">@@METHOD_TITLE@@</h2>
           <ol class="method-steps">@@METHOD@@</ol>
         </section>
+        @@SOURCE_FIGURE_2@@
         <section id="evidence" class="essay-section" aria-labelledby="evidence-title">
           <h2 id="evidence-title">@@EVIDENCE_TITLE@@</h2>
           @@EVIDENCE@@
         </section>
+        @@SOURCE_FIGURE_3@@
         <section id="takeaway" class="essay-section" aria-labelledby="takeaway-title">
           <h2 id="takeaway-title">@@TAKEAWAY_TITLE@@</h2>
           @@TAKEAWAY@@
@@ -101,7 +106,15 @@
         </section>
       </div>
     </article>
+    <section class="related-research" aria-labelledby="related-heading">
+      <div class="related-heading"><span class="eyebrow">@@RELATED_INTRO@@</span><h2 id="related-heading">@@RELATED_TITLE@@</h2></div>
+      <div class="related-list">@@RELATED@@</div>
+    </section>
   </main>
+  <dialog class="figure-dialog" aria-label="@@FIGURE_DIALOG@@">
+    <button class="figure-dialog-close" type="button" aria-label="@@FIGURE_CLOSE@@">@@FIGURE_CLOSE@@ <span aria-hidden="true">×</span></button>
+    <div class="figure-dialog-scroll"><img alt=""></div><p class="figure-dialog-title"></p>
+  </dialog>
   <footer class="essay-container essay-bottom">
     <a href="/">© 2026 Fei Shen · Latent Knowledge Group</a>
     <a href="@@INDEX_PATH@@">@@BACK@@ <span aria-hidden="true">↗</span></a>

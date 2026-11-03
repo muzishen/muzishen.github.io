@@ -16,12 +16,13 @@
   <meta property="og:description" content="Identify shared safety neurons that connect high-resource and non-high-resource language behaviour.">
   <meta property="og:url" content="https://muzishen.github.io/research/who-transfers-safety/">
   <meta property="og:locale" content="en_US">
-  <meta property="og:image" content="https://muzishen.github.io/images/paper-images/transform_safe.png">
+  <meta property="og:image" content="https://muzishen.github.io/assets/images/research/covers/who-transfers-safety.webp">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="/assets/images/research/mark.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/assets/css/research.css?v=1233161ef3c9">
-  <link rel="stylesheet" href="/assets/css/research-article.css?v=b57197ef88c5">
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Who Transfers Safety? Identifying and Targeting Cross-Lingual Shared Safety Neurons", "description": "Identify shared safety neurons that connect high-resource and non-high-resource language behaviour.", "author": [{"@type": "Person", "name": "Zhang Xianhui"}, {"@type": "Person", "name": "Xie Chengyu"}, {"@type": "Person", "name": "Zhu Linxia"}, {"@type": "Person", "name": "Yang Yonghui"}, {"@type": "Person", "name": "Zhao Weixiang"}, {"@type": "Person", "name": "Cheng Zifeng"}, {"@type": "Person", "name": "Wang Cong"}, {"@type": "Person", "name": "Shen Fei"}, {"@type": "Person", "name": "Chua Tat-Seng"}], "inLanguage": "en", "mainEntityOfPage": "https://muzishen.github.io/research/who-transfers-safety/", "image": "https://muzishen.github.io/images/paper-images/transform_safe.png", "isBasedOn": "https://arxiv.org/abs/2602.01283"}</script>
+  <link rel="stylesheet" href="/assets/css/research.css?v=26ce8ab3d43d">
+  <link rel="stylesheet" href="/assets/css/research-article.css?v=bb31a7d4c120">
+  <script src="/assets/js/research-article.js?v=4a8da52c5f1b" defer></script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Who Transfers Safety? Identifying and Targeting Cross-Lingual Shared Safety Neurons", "description": "Identify shared safety neurons that connect high-resource and non-high-resource language behaviour.", "author": [{"@type": "Person", "name": "Zhang Xianhui"}, {"@type": "Person", "name": "Xie Chengyu"}, {"@type": "Person", "name": "Zhu Linxia"}, {"@type": "Person", "name": "Yang Yonghui"}, {"@type": "Person", "name": "Zhao Weixiang"}, {"@type": "Person", "name": "Cheng Zifeng"}, {"@type": "Person", "name": "Wang Cong"}, {"@type": "Person", "name": "Shen Fei"}, {"@type": "Person", "name": "Chua Tat-Seng"}], "inLanguage": "en", "mainEntityOfPage": "https://muzishen.github.io/research/who-transfers-safety/", "image": "https://muzishen.github.io/assets/images/research/covers/who-transfers-safety.webp", "isBasedOn": "https://arxiv.org/abs/2602.01283"}</script>
 </head>
 <body class="essay-page">
   <a class="skip-link" href="#short-version">Skip to the introduction</a>
@@ -40,7 +41,7 @@
     <article>
       <header class="essay-hero">
         <div class="essay-heading">
-          <div class="essay-kicker">Reliability &amp; Safety / Research overview</div>
+          <div class="essay-kicker">Fundamental Research / Reliability &amp; Safety / Research overview</div>
           <h1 class="essay-title">Who Transfers Safety? Identifying and Targeting Cross-Lingual Shared Safety Neurons</h1>
           <p class="essay-deck">Identify shared safety neurons that connect high-resource and non-high-resource language behaviour.</p>
           <p class="essay-authors"><span class="author-name">Zhang Xianhui</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Xie Chengyu</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Zhu Linxia</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Yang Yonghui</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Zhao Weixiang</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Cheng Zifeng</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Wang Cong</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Shen Fei</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Chua Tat-Seng</span></p>
@@ -53,8 +54,8 @@
           </div>
         </div>
         <figure class="essay-figure">
-          <img src="/images/paper-images/transform_safe.png" alt="Overview of Who Transfers Safety? Identifying and Targeting Cross-Lingual Shared Safety Neurons" fetchpriority="high" decoding="async">
-          <figcaption>Research overview figure from the paper.</figcaption>
+          <img src="/assets/images/research/covers/who-transfers-safety.webp" alt="Concept illustration: Who Transfers Safety? Identifying and Targeting Cross-Lingual Shared Safety Neurons" fetchpriority="high" decoding="async">
+          <figcaption>Concept illustration inspired by the study.</figcaption>
         </figure>
       </header>
       <nav class="essay-contents" aria-label="Article contents">
@@ -66,9 +67,20 @@
       <div class="essay-body">
         <section id="short-version" class="essay-section essay-short" aria-labelledby="short-title">
           <h2 id="short-title">The short version</h2>
-          <p>The study identifies a small shared subset of safety neurons across languages and uses targeted training to improve multilingual defensive consistency.</p>
+          <p>This study identifies a small set of safety neurons shared across languages and tests their role through masking and targeted training. Their overlap connects safety behavior in high-resource and non-high-resource languages. SS-Neuron Expansion focuses optimization on the English safety neurons used as a bridge for cross-lingual transfer.</p><p>The evidence combines neuron-level interventions with multilingual attack evaluations. This connects an observed language disparity to a candidate internal mechanism, then asks whether training that mechanism improves safety across languages.</p>
           <div class="research-highlights"><div class="research-highlight"><span class="highlight-value">Shared</span><span class="highlight-label">Cross-lingual safety neurons</span></div><div class="research-highlight"><span class="highlight-value">Causal</span><span class="highlight-label">Activation and suppression tests</span></div><div class="research-highlight"><span class="highlight-value">Targeted</span><span class="highlight-label">Selected-neuron alignment</span></div></div>
         </section>
+        <blockquote class="research-thesis"><p>Cross-language safety transfer depends on which internal mechanisms languages share and can actually access.</p></blockquote>
+        <figure class="source-figure">
+          <a class="figure-zoom" href="/assets/images/research/evidence/who-transfers-safety-1.webp" target="_blank" rel="noopener noreferrer" data-figure-src="/assets/images/research/evidence/who-transfers-safety-1.webp" data-figure-title="Figure 2 · Finding and strengthening the bridge" aria-label="Enlarge figure: Finding and strengthening the bridge">
+            <img src="/assets/images/research/evidence/who-transfers-safety-1.webp" width="1184" height="482" alt="Figure 2 · Finding and strengthening the bridge. The pipeline identifies shared safety neurons and selectively trains the cross-language bridge." loading="lazy" decoding="async">
+            <span class="figure-open-icon" aria-hidden="true">⤢</span>
+          </a>
+          <figcaption><span class="figure-label">Figure 2 / p. 3</span>
+            <h3>Finding and strengthening the bridge</h3><p>The pipeline identifies shared safety neurons and selectively trains the cross-language bridge.</p>
+            <a href="https://arxiv.org/pdf/2602.01283#page=3" target="_blank" rel="noopener noreferrer">View in the paper <span aria-hidden="true">↗</span></a>
+          </figcaption>
+        </figure>
         <section id="motivation" class="essay-section" aria-labelledby="motivation-title">
           <h2 id="motivation-title">Why this matters</h2>
           <p>A model’s safety behaviour can differ sharply across languages. Understanding which internal components participate in that transfer can guide more focused alignment.</p>
@@ -77,13 +89,33 @@
           <h2 id="method-title">How it works</h2>
           <ol class="method-steps"><li>Identify monolingual safety neurons and test their role through activation and suppression.</li><li>Find the subset shared between high-resource and non-high-resource languages.</li><li>Train the selected shared subset with a strategy accounting for language resources and model architecture.</li></ol>
         </section>
+        <figure class="source-figure">
+          <a class="figure-zoom" href="/assets/images/research/evidence/who-transfers-safety-2.webp" target="_blank" rel="noopener noreferrer" data-figure-src="/assets/images/research/evidence/who-transfers-safety-2.webp" data-figure-title="Figure 4 · Shared mechanisms and safety behavior" aria-label="Enlarge figure: Shared mechanisms and safety behavior">
+            <img src="/assets/images/research/evidence/who-transfers-safety-2.webp" width="582" height="272" alt="Figure 4 · Shared mechanisms and safety behavior. The plot compares shared-neuron abundance with attack success rates; this particular relationship is correlational." loading="lazy" decoding="async">
+            <span class="figure-open-icon" aria-hidden="true">⤢</span>
+          </a>
+          <figcaption><span class="figure-label">Figure 4 / p. 5</span>
+            <h3>Shared mechanisms and safety behavior</h3><p>The plot compares shared-neuron abundance with attack success rates; this particular relationship is correlational.</p>
+            <a href="https://arxiv.org/pdf/2602.01283#page=5" target="_blank" rel="noopener noreferrer">View in the paper <span aria-hidden="true">↗</span></a>
+          </figcaption>
+        </figure>
         <section id="evidence" class="essay-section" aria-labelledby="evidence-title">
           <h2 id="evidence-title">What the study finds</h2>
           <p>Suppressing shared neurons causes concurrent safety drops in non-high-resource languages, while reinforcement improves cross-lingual consistency. Targeted fine-tuning reports stronger non-high-resource safety than the compared methods while maintaining general capabilities.</p>
         </section>
+        <figure class="source-figure">
+          <a class="figure-zoom" href="/assets/images/research/evidence/who-transfers-safety-3.webp" target="_blank" rel="noopener noreferrer" data-figure-src="/assets/images/research/evidence/who-transfers-safety-3.webp" data-figure-title="Table 3 · Testing cross-language safety transfer" aria-label="Enlarge figure: Testing cross-language safety transfer">
+            <img src="/assets/images/research/evidence/who-transfers-safety-3.webp" width="1184" height="693" alt="Table 3 · Testing cross-language safety transfer. The table reports multilingual attack success rates after targeted SS-Neuron Expansion training." loading="lazy" decoding="async">
+            <span class="figure-open-icon" aria-hidden="true">⤢</span>
+          </a>
+          <figcaption><span class="figure-label">Table 3 / p. 6</span>
+            <h3>Testing cross-language safety transfer</h3><p>The table reports multilingual attack success rates after targeted SS-Neuron Expansion training.</p>
+            <a href="https://arxiv.org/pdf/2602.01283#page=6" target="_blank" rel="noopener noreferrer">View in the paper <span aria-hidden="true">↗</span></a>
+          </figcaption>
+        </figure>
         <section id="takeaway" class="essay-section" aria-labelledby="takeaway-title">
           <h2 id="takeaway-title">What this means</h2>
-          <p>Multilingual alignment can be investigated at the level of shared mechanisms, with interventions testing whether the selected components influence behaviour across languages.</p>
+          <p>A multilingual model can share parameters without sharing equally effective access to a safety mechanism. Locating the bridge helps make that distinction concrete and offers a principled target for allocating alignment effort where language coverage is uneven.</p><p>The broader research direction is mechanism-aware transfer: first identify what is shared, then test whether strengthening it benefits languages beyond those directly supervised. The quality of that transfer must be assessed together with general usefulness and language-specific failure modes.</p>
         </section>
         <section id="resources" class="essay-section essay-resources" aria-labelledby="resources-title">
           <h2 id="resources-title">Paper and resources</h2>
@@ -108,7 +140,26 @@
         </section>
       </div>
     </article>
+    <section class="related-research" aria-labelledby="related-heading">
+      <div class="related-heading"><span class="eyebrow">Continue exploring</span><h2 id="related-heading">Research</h2></div>
+      <div class="related-list"><a class="related-row" href="/research/actr/">
+          <div class="related-copy"><h3>ACTR: Aligning Thoughts and Responses for Multilingual Safety in Reasoning LLMs</h3><time datetime="2026-09-29">September 29, 2026</time></div>
+          <p class="related-authors"><span class="author-name">Zhang Xianhui</span>, <span class="author-name">Yu Jian</span>, <span class="author-name">Xie Chengyu</span>, <span class="author-name">Cui Chenhang</span>, <span class="author-name">Miao Shuyi</span>, <span class="author-name">Shao Pengyang</span>, <span class="author-name">Zheng Yu</span>, <span class="author-name">Shen Fei</span>, <span class="author-name">Chua Tat-Seng</span></p><span class="related-arrow" aria-hidden="true">→</span>
+        </a>
+<a class="related-row" href="/research/tracerouter/">
+          <div class="related-copy"><h3>TraceRouter: Robust Safety for Large Foundation Models via Path-Level Intervention</h3><time datetime="2026-01-29">January 29, 2026</time></div>
+          <p class="related-authors"><span class="author-name">Shi Chuancheng</span>, <span class="author-name">Li Shangze</span>, <span class="author-name">Lu Wenjun</span>, <span class="author-name">Wu Wenhua</span>, <span class="author-name">Wang Cong</span>, <span class="author-name">Cheng Zifeng</span>, <span class="author-name">Shen Fei</span>, <span class="author-name">Chua Tat-Seng</span></p><span class="related-arrow" aria-hidden="true">→</span>
+        </a>
+<a class="related-row" href="/research/where-culture-fades/">
+          <div class="related-copy"><h3>Where Culture Fades: Revealing the Cultural Gap in Text-to-Image Generation</h3><time datetime="2025-11-21">November 21, 2025</time></div>
+          <p class="related-authors"><span class="author-name">Shi Chuancheng</span>, <span class="author-name">Li Shangze</span>, <span class="author-name">Guo Shiming</span>, <span class="author-name">Xie Simiao</span>, <span class="author-name">Wu Wenhua</span>, <span class="author-name">Dou Jingtong</span>, <span class="author-name">Wu Chao</span>, <span class="author-name">Xiao Canran</span>, <span class="author-name">Wang Cong</span>, <span class="author-name">Cheng Zifeng</span>, <span class="author-name">Shen Fei</span>, <span class="author-name">Chua Tat-Seng</span></p><span class="related-arrow" aria-hidden="true">→</span>
+        </a></div>
+    </section>
   </main>
+  <dialog class="figure-dialog" aria-label="Research figure viewer">
+    <button class="figure-dialog-close" type="button" aria-label="Close figure">Close figure <span aria-hidden="true">×</span></button>
+    <div class="figure-dialog-scroll"><img alt=""></div><p class="figure-dialog-title"></p>
+  </dialog>
   <footer class="essay-container essay-bottom">
     <a href="/">© 2026 Fei Shen · Latent Knowledge Group</a>
     <a href="/research/">More research <span aria-hidden="true">↗</span></a>

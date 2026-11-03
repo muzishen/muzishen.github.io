@@ -16,12 +16,13 @@
   <meta property="og:description" content="A correct answer is an observable outcome. This study asks whether its internal knowledge support stays stable when the elicitation condition changes.">
   <meta property="og:url" content="https://muzishen.github.io/research/latent-support/">
   <meta property="og:locale" content="en_US">
-  <meta property="og:image" content="https://muzishen.github.io/images/paper-images/latent-support.png">
+  <meta property="og:image" content="https://muzishen.github.io/assets/images/research/covers/latent-support.webp">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="/assets/images/research/mark.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/assets/css/research.css?v=1233161ef3c9">
-  <link rel="stylesheet" href="/assets/css/research-article.css?v=b57197ef88c5">
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Do correct answers have stable latent knowledge support?", "description": "A correct answer is an observable outcome. This study asks whether its internal knowledge support stays stable when the elicitation condition changes.", "author": [{"@type": "Person", "name": "Shi Chuancheng"}, {"@type": "Person", "name": "Li Shangze"}, {"@type": "Person", "name": "Wu Wenhua"}, {"@type": "Person", "name": "Hu Kun"}, {"@type": "Person", "name": "Shen Fei"}, {"@type": "Person", "name": "Wang Zhiyong"}, {"@type": "Person", "name": "Chua Tat-Seng"}], "inLanguage": "en", "mainEntityOfPage": "https://muzishen.github.io/research/latent-support/", "image": "https://muzishen.github.io/images/paper-images/latent-support.png", "isBasedOn": "https://arxiv.org/abs/2610.15277"}</script>
+  <link rel="stylesheet" href="/assets/css/research.css?v=26ce8ab3d43d">
+  <link rel="stylesheet" href="/assets/css/research-article.css?v=bb31a7d4c120">
+  <script src="/assets/js/research-article.js?v=4a8da52c5f1b" defer></script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Do correct answers have stable latent knowledge support?", "description": "A correct answer is an observable outcome. This study asks whether its internal knowledge support stays stable when the elicitation condition changes.", "author": [{"@type": "Person", "name": "Shi Chuancheng"}, {"@type": "Person", "name": "Li Shangze"}, {"@type": "Person", "name": "Wu Wenhua"}, {"@type": "Person", "name": "Hu Kun"}, {"@type": "Person", "name": "Shen Fei"}, {"@type": "Person", "name": "Wang Zhiyong"}, {"@type": "Person", "name": "Chua Tat-Seng"}], "inLanguage": "en", "mainEntityOfPage": "https://muzishen.github.io/research/latent-support/", "image": "https://muzishen.github.io/assets/images/research/covers/latent-support.webp", "isBasedOn": "https://arxiv.org/abs/2610.15277"}</script>
 </head>
 <body class="essay-page">
   <a class="skip-link" href="#short-version">Skip to the introduction</a>
@@ -40,7 +41,7 @@
     <article>
       <header class="essay-hero">
         <div class="essay-heading">
-          <div class="essay-kicker">Reliability &amp; Safety / Research overview</div>
+          <div class="essay-kicker">Fundamental Research / Reliability &amp; Safety / Research overview</div>
           <h1 class="essay-title">Do correct answers have stable latent knowledge support?</h1>
           <p class="essay-deck">A correct answer is an observable outcome. This study asks whether its internal knowledge support stays stable when the elicitation condition changes.</p>
           <p class="essay-authors"><span class="author-name">Shi Chuancheng</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Li Shangze</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Wu Wenhua</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Hu Kun</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Shen Fei</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Wang Zhiyong</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Chua Tat-Seng</span></p>
@@ -53,8 +54,8 @@
           </div>
         </div>
         <figure class="essay-figure">
-          <img src="/images/paper-images/latent-support.png" alt="Overview of Do correct answers have stable latent knowledge support?" fetchpriority="high" decoding="async">
-          <figcaption>Research overview figure from the paper.</figcaption>
+          <img src="/assets/images/research/covers/latent-support.webp" alt="Concept illustration: Do correct answers have stable latent knowledge support?" fetchpriority="high" decoding="async">
+          <figcaption>Concept illustration inspired by the study.</figcaption>
         </figure>
       </header>
       <nav class="essay-contents" aria-label="Article contents">
@@ -66,9 +67,20 @@
       <div class="essay-body">
         <section id="short-version" class="essay-section essay-short" aria-labelledby="short-title">
           <h2 id="short-title">The short version</h2>
-          <p>Correct outputs can coexist with substantially different levels of internal stability. LSS and KTS measure the stability of individual knowledge states and their relational structure, with LatentDPO exploring an editing application.</p>
+          <p>This study separates whether a model answers correctly from how consistently its internal knowledge survives controlled changes in the question. Local state stability and relational geometry offer complementary views of that consistency. EpiStableBench tests paraphrase, format, context, and language variations, making the gap between a successful answer and a stable knowledge state measurable.</p><p>The resulting picture is more informative than accuracy alone. Items that look equivalent at the output can differ in their internal stability and in their subsequent correctness. The study also explores using latent stability to guide preference optimization, connecting diagnosis to a possible intervention.</p>
           <div class="research-highlights"><div class="research-highlight"><span class="highlight-value">4,411</span><span class="highlight-label">Knowledge items</span></div><div class="research-highlight"><span class="highlight-value">76,766</span><span class="highlight-label">Controlled queries</span></div><div class="research-highlight"><span class="highlight-value">16</span><span class="highlight-label">Language models</span></div></div>
         </section>
+        <blockquote class="research-thesis"><p>A correct answer is one observation; stable knowledge is a property of the representation behind it.</p></blockquote>
+        <figure class="source-figure">
+          <a class="figure-zoom" href="/assets/images/research/evidence/latent-support-1.webp" target="_blank" rel="noopener noreferrer" data-figure-src="/assets/images/research/evidence/latent-support-1.webp" data-figure-title="Figure 2 · A benchmark for knowledge stability" aria-label="Enlarge figure: A benchmark for knowledge stability">
+            <img src="/assets/images/research/evidence/latent-support-1.webp" width="1139" height="442" alt="Figure 2 · A benchmark for knowledge stability. EpiStableBench varies the elicitation conditions while controlling the underlying knowledge item." loading="lazy" decoding="async">
+            <span class="figure-open-icon" aria-hidden="true">⤢</span>
+          </a>
+          <figcaption><span class="figure-label">Figure 2 / p. 5</span>
+            <h3>A benchmark for knowledge stability</h3><p>EpiStableBench varies the elicitation conditions while controlling the underlying knowledge item.</p>
+            <a href="https://arxiv.org/pdf/2610.15277#page=5" target="_blank" rel="noopener noreferrer">View in the paper <span aria-hidden="true">↗</span></a>
+          </figcaption>
+        </figure>
         <section id="motivation" class="essay-section" aria-labelledby="motivation-title">
           <h2 id="motivation-title">Why this matters</h2>
           <p>Output accuracy alone cannot determine whether an answer rests on stable representations. Controlled changes in how knowledge is elicited provide a way to examine the support behind the answer.</p>
@@ -77,13 +89,33 @@
           <h2 id="method-title">How it works</h2>
           <ol class="method-steps"><li>Average representations within each elicitation condition and correct shared shifts relative to a baseline.</li><li>Use LSS for normalized state displacement and KTS for cross-condition consistency of pairwise distances.</li><li>Evaluate controlled queries in EpiStableBench and use stability-aware preferences in LatentDPO.</li></ol>
         </section>
+        <figure class="source-figure">
+          <a class="figure-zoom" href="/assets/images/research/evidence/latent-support-2.webp" target="_blank" rel="noopener noreferrer" data-figure-src="/assets/images/research/evidence/latent-support-2.webp" data-figure-title="Figure 4 · Correct now, reliable later?" aria-label="Enlarge figure: Correct now, reliable later?">
+            <img src="/assets/images/research/evidence/latent-support-2.webp" width="1139" height="251" alt="Figure 4 · Correct now, reliable later?. Among initially correct items, higher-stability groups show different subsequent accuracy under held-out elicitation conditions." loading="lazy" decoding="async">
+            <span class="figure-open-icon" aria-hidden="true">⤢</span>
+          </a>
+          <figcaption><span class="figure-label">Figure 4 / p. 6</span>
+            <h3>Correct now, reliable later?</h3><p>Among initially correct items, higher-stability groups show different subsequent accuracy under held-out elicitation conditions.</p>
+            <a href="https://arxiv.org/pdf/2610.15277#page=6" target="_blank" rel="noopener noreferrer">View in the paper <span aria-hidden="true">↗</span></a>
+          </figcaption>
+        </figure>
         <section id="evidence" class="essay-section" aria-labelledby="evidence-title">
           <h2 id="evidence-title">What the study finds</h2>
           <p>EpiStableBench includes 4,411 items and 76,766 controlled queries. Across 16 LLMs, higher within-model stability generally accompanies better held-out accuracy, while larger or more accurate models are not consistently more stable. LatentDPO improves editing success and generalization in the evaluated integrations.</p>
         </section>
+        <figure class="source-figure">
+          <a class="figure-zoom" href="/assets/images/research/evidence/latent-support-3.webp" target="_blank" rel="noopener noreferrer" data-figure-src="/assets/images/research/evidence/latent-support-3.webp" data-figure-title="Figure 7 · Two geometric views of stability" aria-label="Enlarge figure: Two geometric views of stability">
+            <img src="/assets/images/research/evidence/latent-support-3.webp" width="577" height="231" alt="Figure 7 · Two geometric views of stability. Local state concentration and relational overlap illustrate complementary aspects of internal knowledge stability." loading="lazy" decoding="async">
+            <span class="figure-open-icon" aria-hidden="true">⤢</span>
+          </a>
+          <figcaption><span class="figure-label">Figure 7 / p. 8</span>
+            <h3>Two geometric views of stability</h3><p>Local state concentration and relational overlap illustrate complementary aspects of internal knowledge stability.</p>
+            <a href="https://arxiv.org/pdf/2610.15277#page=8" target="_blank" rel="noopener noreferrer">View in the paper <span aria-hidden="true">↗</span></a>
+          </figcaption>
+        </figure>
         <section id="takeaway" class="essay-section" aria-labelledby="takeaway-title">
           <h2 id="takeaway-title">What this means</h2>
-          <p>Knowledge stability adds an internal evaluation dimension beyond observed correctness; it complements accuracy rather than replacing it.</p>
+          <p>Reliable evaluation needs to characterize the conditions under which knowledge remains accessible. A single correct response can conceal sensitivity to how the same information is elicited. Internal stability provides an additional axis for diagnosing that fragility and selecting cases for further scrutiny.</p><p>This opens a route toward evaluation that connects representation, elicitation, and behavior. The relationship must be calibrated within its setting: scores across different models are not automatically comparable, and a geometric indicator is evidence about reliability rather than a guarantee of truth.</p>
         </section>
         <section id="resources" class="essay-section essay-resources" aria-labelledby="resources-title">
           <h2 id="resources-title">Paper and resources</h2>
@@ -108,7 +140,26 @@
         </section>
       </div>
     </article>
+    <section class="related-research" aria-labelledby="related-heading">
+      <div class="related-heading"><span class="eyebrow">Continue exploring</span><h2 id="related-heading">Research</h2></div>
+      <div class="related-list"><a class="related-row" href="/research/dv-lens/">
+          <div class="related-copy"><h3>DV-Lens: Revealing the Functional Organization of Language Model Parameters</h3><time datetime="2026-10-03">October 3, 2026</time></div>
+          <p class="related-authors"><span class="author-name">Cui Chenhang</span>, <span class="author-name">Yu Jian</span>, <span class="author-name">Miao Shuyi</span>, <span class="author-name">Liu Xiaohao</span>, <span class="author-name">Huang Rui</span>, <span class="author-name">Shen Fei</span>, <span class="author-name">Zhang An</span>, <span class="author-name">Chua Tat-Seng</span></p><span class="related-arrow" aria-hidden="true">→</span>
+        </a>
+<a class="related-row" href="/research/emorss/">
+          <div class="related-copy"><h3>EmoRSS: Mitigating Emotion-Induced Over-Refusal in Large Language Models</h3><time datetime="2026-10-04">October 4, 2026</time></div>
+          <p class="related-authors"><span class="author-name">Miao Shuyi</span>, <span class="author-name">Ma Yaojin</span>, <span class="author-name">Cui Chenhang</span>, <span class="author-name">Liu Xiaohao</span>, <span class="author-name">Dang Jisheng</span>, <span class="author-name">Zhuo Shengda</span>, <span class="author-name">Shen Fei</span>, <span class="author-name">Chua Tat-Seng</span></p><span class="related-arrow" aria-hidden="true">→</span>
+        </a>
+<a class="related-row" href="/research/actr/">
+          <div class="related-copy"><h3>ACTR: Aligning Thoughts and Responses for Multilingual Safety in Reasoning LLMs</h3><time datetime="2026-09-29">September 29, 2026</time></div>
+          <p class="related-authors"><span class="author-name">Zhang Xianhui</span>, <span class="author-name">Yu Jian</span>, <span class="author-name">Xie Chengyu</span>, <span class="author-name">Cui Chenhang</span>, <span class="author-name">Miao Shuyi</span>, <span class="author-name">Shao Pengyang</span>, <span class="author-name">Zheng Yu</span>, <span class="author-name">Shen Fei</span>, <span class="author-name">Chua Tat-Seng</span></p><span class="related-arrow" aria-hidden="true">→</span>
+        </a></div>
+    </section>
   </main>
+  <dialog class="figure-dialog" aria-label="Research figure viewer">
+    <button class="figure-dialog-close" type="button" aria-label="Close figure">Close figure <span aria-hidden="true">×</span></button>
+    <div class="figure-dialog-scroll"><img alt=""></div><p class="figure-dialog-title"></p>
+  </dialog>
   <footer class="essay-container essay-bottom">
     <a href="/">© 2026 Fei Shen · Latent Knowledge Group</a>
     <a href="/research/">More research <span aria-hidden="true">↗</span></a>

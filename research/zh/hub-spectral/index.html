@@ -16,12 +16,13 @@
   <meta property="og:description" content="共享枢纽中可能包含原生相似度分数未能可靠揭示的跨模态关系。">
   <meta property="og:url" content="https://muzishen.github.io/research/zh/hub-spectral/">
   <meta property="og:locale" content="zh_CN">
-  <meta property="og:image" content="https://muzishen.github.io/images/paper-images/hub.png">
+  <meta property="og:image" content="https://muzishen.github.io/assets/images/research/covers/hub-spectral.webp">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="/assets/images/research/mark.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/assets/css/research.css?v=1233161ef3c9">
-  <link rel="stylesheet" href="/assets/css/research-article.css?v=b57197ef88c5">
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Hub-Spectral：激活潜在多模态知识", "description": "共享枢纽中可能包含原生相似度分数未能可靠揭示的跨模态关系。", "author": [{"@type": "Person", "name": "Guo Ying"}, {"@type": "Person", "name": "Chen Haidong"}, {"@type": "Person", "name": "Xu Linrui"}, {"@type": "Person", "name": "Liu Xiaohao"}, {"@type": "Person", "name": "Shi Chuancheng"}, {"@type": "Person", "name": "Xiao Canran"}, {"@type": "Person", "name": "Zhang Dan"}, {"@type": "Person", "name": "Shen Fei"}, {"@type": "Person", "name": "Shen Li"}, {"@type": "Person", "name": "Chua Tat-Seng"}], "inLanguage": "zh-Hans", "mainEntityOfPage": "https://muzishen.github.io/research/zh/hub-spectral/", "image": "https://muzishen.github.io/images/paper-images/hub.png", "isBasedOn": "https://arxiv.org/abs/2609.17094"}</script>
+  <link rel="stylesheet" href="/assets/css/research.css?v=26ce8ab3d43d">
+  <link rel="stylesheet" href="/assets/css/research-article.css?v=bb31a7d4c120">
+  <script src="/assets/js/research-article.js?v=4a8da52c5f1b" defer></script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Hub-Spectral：激活潜在多模态知识", "description": "共享枢纽中可能包含原生相似度分数未能可靠揭示的跨模态关系。", "author": [{"@type": "Person", "name": "Guo Ying"}, {"@type": "Person", "name": "Chen Haidong"}, {"@type": "Person", "name": "Xu Linrui"}, {"@type": "Person", "name": "Liu Xiaohao"}, {"@type": "Person", "name": "Shi Chuancheng"}, {"@type": "Person", "name": "Xiao Canran"}, {"@type": "Person", "name": "Zhang Dan"}, {"@type": "Person", "name": "Shen Fei"}, {"@type": "Person", "name": "Shen Li"}, {"@type": "Person", "name": "Chua Tat-Seng"}], "inLanguage": "zh-Hans", "mainEntityOfPage": "https://muzishen.github.io/research/zh/hub-spectral/", "image": "https://muzishen.github.io/assets/images/research/covers/hub-spectral.webp", "isBasedOn": "https://arxiv.org/abs/2609.17094"}</script>
 </head>
 <body class="essay-page">
   <a class="skip-link" href="#short-version">跳至文章介绍</a>
@@ -40,7 +41,7 @@
     <article>
       <header class="essay-hero">
         <div class="essay-heading">
-          <div class="essay-kicker">能力激发与迁移 / 研究解读</div>
+          <div class="essay-kicker">基础研究 / 能力激发与迁移 / 研究解读</div>
           <h1 class="essay-title">Hub-Spectral：激活潜在多模态知识</h1>
           <p class="essay-deck">共享枢纽中可能包含原生相似度分数未能可靠揭示的跨模态关系。</p>
           <p class="essay-authors"><span class="author-name">Guo Ying</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Chen Haidong</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Xu Linrui</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Liu Xiaohao</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Shi Chuancheng</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Xiao Canran</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Zhang Dan</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Shen Fei</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Shen Li</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Chua Tat-Seng</span></p>
@@ -53,8 +54,8 @@
           </div>
         </div>
         <figure class="essay-figure">
-          <img src="/images/paper-images/hub.png" alt="《Hub-Spectral：激活潜在多模态知识》研究概览" fetchpriority="high" decoding="async">
-          <figcaption>论文研究概览配图。</figcaption>
+          <img src="/assets/images/research/covers/hub-spectral.webp" alt="概念视觉: Hub-Spectral：激活潜在多模态知识" fetchpriority="high" decoding="async">
+          <figcaption>根据研究主题创作的概念视觉。</figcaption>
         </figure>
       </header>
       <nav class="essay-contents" aria-label="文章目录">
@@ -66,9 +67,20 @@
       <div class="essay-body">
         <section id="short-version" class="essay-section essay-short" aria-labelledby="short-title">
           <h2 id="short-title">核心内容</h2>
-          <p>HSA 通过闭式统计与谱操作，从冻结表示中恢复并激活潜在多模态知识里可由枢纽读出的部分。</p>
+          <p>Hub-Spectral Activation 研究通过共享枢纽连接的模态之间，是否存在尚未被有效读出的关系。它从两条枢纽边构造二阶统计视角，定位成对的谱方向，再据此读出目标模态之间的关系；这一过程使用冻结表征，不依赖目标模态对的直接监督。</p><p>工作在检索和原型分类上检验读出效果，并通过对应关系置乱与来源样本分析，研究收益是否依赖枢纽边中有意义的结构，将性能改善连接到具体的机制解释。</p>
           <div class="research-highlights"><div class="research-highlight"><span class="highlight-value">31.15%</span><span class="highlight-label">平均双向 Recall@10</span></div><div class="research-highlight"><span class="highlight-value">52.43%</span><span class="highlight-label">平均宏 Top-1 准确率</span></div><div class="research-highlight"><span class="highlight-value">19 + 11</span><span class="highlight-label">检索关系 + 分类关系</span></div></div>
         </section>
+        <blockquote class="research-thesis"><p>表征能够表达的关系，可能超出默认相似度接口能够读出的范围。</p></blockquote>
+        <figure class="source-figure">
+          <a class="figure-zoom" href="/assets/images/research/evidence/hub-spectral-1.webp" target="_blank" rel="noopener noreferrer" data-figure-src="/assets/images/research/evidence/hub-spectral-1.webp" data-figure-title="图2 · 通过共享枢纽读出关系" aria-label="点击放大: 通过共享枢纽读出关系">
+            <img src="/assets/images/research/evidence/hub-spectral-1.webp" width="1249" height="516" alt="图2 · 通过共享枢纽读出关系. 枢纽边的统计信息用于定位成对谱载体，从而读出目标关系，无需目标模态对的直接监督。" loading="lazy" decoding="async">
+            <span class="figure-open-icon" aria-hidden="true">⤢</span>
+          </a>
+          <figcaption><span class="figure-label">图2 / 第4页</span>
+            <h3>通过共享枢纽读出关系</h3><p>枢纽边的统计信息用于定位成对谱载体，从而读出目标关系，无需目标模态对的直接监督。</p>
+            <a href="https://arxiv.org/pdf/2609.17094#page=4" target="_blank" rel="noopener noreferrer">查看论文原图 <span aria-hidden="true">↗</span></a>
+          </figcaption>
+        </figure>
         <section id="motivation" class="essay-section" aria-labelledby="motivation-title">
           <h2 id="motivation-title">为什么研究这个问题</h2>
           <p>两种模态分别与同一枢纽对齐，并不自动保证它们之间也能可靠对齐。这项工作研究：仅凭两条已训练的枢纽连接，能确定并恢复多少跨模态关系？</p>
@@ -77,13 +89,33 @@
           <h2 id="method-title">方法如何工作</h2>
           <ol class="method-steps"><li>组合并标准化两条来源枢纽连接的二阶统计量，刻画来源诱导的跨模态依赖。</li><li>提取成对谱方向，表示可由枢纽读出的关系成分，并分析其可恢复条件及维度边界。</li><li>结合可靠性加权匹配与来源门控候选解析，用于双向检索和原型分类，无需目标模态对监督或主干更新。</li></ol>
         </section>
+        <figure class="source-figure">
+          <a class="figure-zoom" href="/assets/images/research/evidence/hub-spectral-2.webp" target="_blank" rel="noopener noreferrer" data-figure-src="/assets/images/research/evidence/hub-spectral-2.webp" data-figure-title="图3 · 检验对应关系是否重要" aria-label="点击放大: 检验对应关系是否重要">
+            <img src="/assets/images/research/evidence/hub-spectral-2.webp" width="618" height="402" alt="图3 · 检验对应关系是否重要. 置乱枢纽边的对应关系，检验支撑读出的结构信息。" loading="lazy" decoding="async">
+            <span class="figure-open-icon" aria-hidden="true">⤢</span>
+          </a>
+          <figcaption><span class="figure-label">图3 / 第9页</span>
+            <h3>检验对应关系是否重要</h3><p>置乱枢纽边的对应关系，检验支撑读出的结构信息。</p>
+            <a href="https://arxiv.org/pdf/2609.17094#page=9" target="_blank" rel="noopener noreferrer">查看论文原图 <span aria-hidden="true">↗</span></a>
+          </figcaption>
+        </figure>
         <section id="evidence" class="essay-section" aria-labelledby="evidence-title">
           <h2 id="evidence-title">实验发现了什么</h2>
           <p>在 ImageBind 和 LanguageBind 上，19 个检索关系的平均双向 Recall@10 从 18.27% 提升到 31.15%；11 个原型分类关系的平均宏 Top-1 从 29.01% 提升到 52.43%。</p>
         </section>
+        <figure class="source-figure">
+          <a class="figure-zoom" href="/assets/images/research/evidence/hub-spectral-3.webp" target="_blank" rel="noopener noreferrer" data-figure-src="/assets/images/research/evidence/hub-spectral-3.webp" data-figure-title="图4 · 来源信息怎样影响恢复？" aria-label="点击放大: 来源信息怎样影响恢复？">
+            <img src="/assets/images/research/evidence/hub-spectral-3.webp" width="618" height="265" alt="图4 · 来源信息怎样影响恢复？. 随着来源样本预算变化，比较共享样本行与独立来源估计的表现。" loading="lazy" decoding="async">
+            <span class="figure-open-icon" aria-hidden="true">⤢</span>
+          </a>
+          <figcaption><span class="figure-label">图4 / 第10页</span>
+            <h3>来源信息怎样影响恢复？</h3><p>随着来源样本预算变化，比较共享样本行与独立来源估计的表现。</p>
+            <a href="https://arxiv.org/pdf/2609.17094#page=10" target="_blank" rel="noopener noreferrer">查看论文原图 <span aria-hidden="true">↗</span></a>
+          </figcaption>
+        </figure>
         <section id="takeaway" class="essay-section" aria-labelledby="takeaway-title">
           <h2 id="takeaway-title">这项研究意味着什么</h2>
-          <p>恢复范围受到来源统计模型与枢纽可读成分的限制。该结果说明，冻结表示所包含的可用关系，可能超出其原生相似度接口直接展现的范围。</p>
+          <p>其核心启发，是区分模型包含的信息与访问这些信息的接口。冻结余弦相似度下的弱表现，可能反映的是关系读出受限。重新研究这一接口，有机会在所测试的设置中激活已有结构，而无需通过更新骨干来重新建立它。</p><p>可恢复的关系仍受枢纽选择及两条边的统计结构约束。论文中的对照实验帮助刻画这些条件，也引出更系统的问题：共享坐标在何时足以支持跨模态能力组合，又在何时会失效？</p>
         </section>
         <section id="resources" class="essay-section essay-resources" aria-labelledby="resources-title">
           <h2 id="resources-title">论文与相关资源</h2>
@@ -108,7 +140,26 @@
         </section>
       </div>
     </article>
+    <section class="related-research" aria-labelledby="related-heading">
+      <div class="related-heading"><span class="eyebrow">继续探索</span><h2 id="related-heading">研究成果</h2></div>
+      <div class="related-list"><a class="related-row" href="/research/zh/superai/">
+          <div class="related-copy"><h3>SuperAI：跨异构基础模型的能力合并</h3><time datetime="2026-10-11">2026年10月11日</time></div>
+          <p class="related-authors"><span class="author-name">Dou Jingtong</span>, <span class="author-name">Shi Chuancheng</span>, <span class="author-name">Wu Wenhua</span>, <span class="author-name">Bao Wei</span>, <span class="author-name">Shen Fei</span>, <span class="author-name">Wang Zhiyong</span>, <span class="author-name">Chua Tat-Seng</span></p><span class="related-arrow" aria-hidden="true">→</span>
+        </a>
+<a class="related-row" href="/research/zh/transport-and-merge/">
+          <div class="related-copy"><h3>Transport and Merge：跨架构大语言模型合并</h3><time datetime="2026-02-05">2026年2月5日</time></div>
+          <p class="related-authors"><span class="author-name">Cui Chenhang</span>, <span class="author-name">Yang Binyun</span>, <span class="author-name">Shen Fei</span>, <span class="author-name">Chen Yuxin</span>, <span class="author-name">Zheng Jingnan</span>, <span class="author-name">Wang Xiang</span>, <span class="author-name">Zhang An</span>, <span class="author-name">Chua Tat-Seng</span></p><span class="related-arrow" aria-hidden="true">→</span>
+        </a>
+<a class="related-row" href="/research/zh/lake/">
+          <div class="related-copy"><h3>LAKE：挖掘视觉语言模型中的潜在异常知识</h3><time datetime="2026-04-09">2026年4月9日</time></div>
+          <p class="related-authors"><span class="author-name">Li Shaotian</span>, <span class="author-name">Li Shangze</span>, <span class="author-name">Shi Chuancheng</span>, <span class="author-name">Wu Wenhua</span>, <span class="author-name">Wu Yanqiu</span>, <span class="author-name">Yu Xiaohan</span>, <span class="author-name">Shen Fei</span>, <span class="author-name">Chua Tat-Seng</span></p><span class="related-arrow" aria-hidden="true">→</span>
+        </a></div>
+    </section>
   </main>
+  <dialog class="figure-dialog" aria-label="论文图表查看器">
+    <button class="figure-dialog-close" type="button" aria-label="关闭大图">关闭大图 <span aria-hidden="true">×</span></button>
+    <div class="figure-dialog-scroll"><img alt=""></div><p class="figure-dialog-title"></p>
+  </dialog>
   <footer class="essay-container essay-bottom">
     <a href="/">© 2026 Fei Shen · Latent Knowledge Group</a>
     <a href="/research/zh/">更多研究 <span aria-hidden="true">↗</span></a>

@@ -16,12 +16,13 @@
   <meta property="og:description" content="情绪化措辞可能使正常请求更容易遭到拒答。EmoRSS 通过干预拒答相关激活，缓解这种偏移。">
   <meta property="og:url" content="https://muzishen.github.io/research/zh/emorss/">
   <meta property="og:locale" content="zh_CN">
-  <meta property="og:image" content="https://muzishen.github.io/images/paper-images/emorss.png">
+  <meta property="og:image" content="https://muzishen.github.io/assets/images/research/covers/emorss.webp">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="/assets/images/research/mark.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/assets/css/research.css?v=1233161ef3c9">
-  <link rel="stylesheet" href="/assets/css/research-article.css?v=b57197ef88c5">
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "EmoRSS：缓解大语言模型中情绪引发的过度拒答", "description": "情绪化措辞可能使正常请求更容易遭到拒答。EmoRSS 通过干预拒答相关激活，缓解这种偏移。", "author": [{"@type": "Person", "name": "Miao Shuyi"}, {"@type": "Person", "name": "Ma Yaojin"}, {"@type": "Person", "name": "Cui Chenhang"}, {"@type": "Person", "name": "Liu Xiaohao"}, {"@type": "Person", "name": "Dang Jisheng"}, {"@type": "Person", "name": "Zhuo Shengda"}, {"@type": "Person", "name": "Shen Fei"}, {"@type": "Person", "name": "Chua Tat-Seng"}], "inLanguage": "zh-Hans", "mainEntityOfPage": "https://muzishen.github.io/research/zh/emorss/", "image": "https://muzishen.github.io/images/paper-images/emorss.png", "isBasedOn": "https://arxiv.org/abs/2610.04998"}</script>
+  <link rel="stylesheet" href="/assets/css/research.css?v=26ce8ab3d43d">
+  <link rel="stylesheet" href="/assets/css/research-article.css?v=bb31a7d4c120">
+  <script src="/assets/js/research-article.js?v=4a8da52c5f1b" defer></script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "EmoRSS：缓解大语言模型中情绪引发的过度拒答", "description": "情绪化措辞可能使正常请求更容易遭到拒答。EmoRSS 通过干预拒答相关激活，缓解这种偏移。", "author": [{"@type": "Person", "name": "Miao Shuyi"}, {"@type": "Person", "name": "Ma Yaojin"}, {"@type": "Person", "name": "Cui Chenhang"}, {"@type": "Person", "name": "Liu Xiaohao"}, {"@type": "Person", "name": "Dang Jisheng"}, {"@type": "Person", "name": "Zhuo Shengda"}, {"@type": "Person", "name": "Shen Fei"}, {"@type": "Person", "name": "Chua Tat-Seng"}], "inLanguage": "zh-Hans", "mainEntityOfPage": "https://muzishen.github.io/research/zh/emorss/", "image": "https://muzishen.github.io/assets/images/research/covers/emorss.webp", "isBasedOn": "https://arxiv.org/abs/2610.04998"}</script>
 </head>
 <body class="essay-page">
   <a class="skip-link" href="#short-version">跳至文章介绍</a>
@@ -40,7 +41,7 @@
     <article>
       <header class="essay-hero">
         <div class="essay-heading">
-          <div class="essay-kicker">可靠评估与安全 / 研究解读</div>
+          <div class="essay-kicker">基础研究 / 可靠评估与安全 / 研究解读</div>
           <h1 class="essay-title">EmoRSS：缓解大语言模型中情绪引发的过度拒答</h1>
           <p class="essay-deck">情绪化措辞可能使正常请求更容易遭到拒答。EmoRSS 通过干预拒答相关激活，缓解这种偏移。</p>
           <p class="essay-authors"><span class="author-name">Miao Shuyi</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Ma Yaojin</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Cui Chenhang</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Liu Xiaohao</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Dang Jisheng</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Zhuo Shengda</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Shen Fei</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Chua Tat-Seng</span></p>
@@ -53,8 +54,8 @@
           </div>
         </div>
         <figure class="essay-figure">
-          <img src="/images/paper-images/emorss.png" alt="《EmoRSS：缓解大语言模型中情绪引发的过度拒答》研究概览" fetchpriority="high" decoding="async">
-          <figcaption>论文研究概览配图。</figcaption>
+          <img src="/assets/images/research/covers/emorss.webp" alt="概念视觉: EmoRSS：缓解大语言模型中情绪引发的过度拒答" fetchpriority="high" decoding="async">
+          <figcaption>根据研究主题创作的概念视觉。</figcaption>
         </figure>
       </header>
       <nav class="essay-contents" aria-label="文章目录">
@@ -66,9 +67,20 @@
       <div class="essay-body">
         <section id="short-version" class="essay-section essay-short" aria-labelledby="short-title">
           <h2 id="short-title">核心内容</h2>
-          <p>EmoRSS 针对情绪诱发的过度拒答，构建拒答子空间，估计情绪表达造成的激活偏移，并在推理时沿反向进行干预。</p>
+          <p>EmoRSS 研究情绪表达为何会把良性请求推向拒答。配对问题用于隔离表达方式的变化，稀疏自编码器特征则把这种变化与拒答相关子空间联系起来。方法在保持基础模型冻结的情况下，于推理时逆转估计出的偏移。</p><p>评估同时关注良性问题的有效回答与有害问题的拒答能力。这一联合视角很关键：拒答减少是否有意义，取决于系统能否更准确地识别正当请求，并继续维持对有害意图的防护。</p>
           <div class="research-highlights"><div class="research-highlight"><span class="highlight-value">2</span><span class="highlight-label">参与评估的大语言模型</span></div><div class="research-highlight"><span class="highlight-value">SAE</span><span class="highlight-label">拒答子空间特征</span></div><div class="research-highlight"><span class="highlight-value">冻结</span><span class="highlight-label">主干参数无需更新</span></div></div>
         </section>
+        <blockquote class="research-thesis"><p>可靠的安全校准，需要区分有害意图与正当需求的情绪表达。</p></blockquote>
+        <figure class="source-figure">
+          <a class="figure-zoom" href="/assets/images/research/evidence/emorss-1.webp" target="_blank" rel="noopener noreferrer" data-figure-src="/assets/images/research/evidence/emorss-1.webp" data-figure-title="图2 · 追踪情绪诱发的拒答偏移" aria-label="点击放大: 追踪情绪诱发的拒答偏移">
+            <img src="/assets/images/research/evidence/emorss-1.webp" width="965" height="448" alt="图2 · 追踪情绪诱发的拒答偏移. 框架定位拒答相关子空间，并在推理过程中逆转估计出的情绪偏移。" loading="lazy" decoding="async">
+            <span class="figure-open-icon" aria-hidden="true">⤢</span>
+          </a>
+          <figcaption><span class="figure-label">图2 / 第3页</span>
+            <h3>追踪情绪诱发的拒答偏移</h3><p>框架定位拒答相关子空间，并在推理过程中逆转估计出的情绪偏移。</p>
+            <a href="https://arxiv.org/pdf/2610.04998#page=3" target="_blank" rel="noopener noreferrer">查看论文原图 <span aria-hidden="true">↗</span></a>
+          </figcaption>
+        </figure>
         <section id="motivation" class="essay-section" aria-labelledby="motivation-title">
           <h2 id="motivation-title">为什么研究这个问题</h2>
           <p>情绪表达不仅可能出现在攻击中，也可能出现在正常求助与日常问题中。如果情绪因素本身提高了拒答倾向，模型就可能拒绝本来可以回答的请求。</p>
@@ -77,13 +89,33 @@
           <h2 id="method-title">方法如何工作</h2>
           <ol class="method-steps"><li>用逐层线性探针定位拒答敏感层，再从与探针方向对齐的 SAE 特征中构建拒答子空间。</li><li>比较同一问题的普通版本与情绪化版本，估计拒答子空间中相关特征的平均激活偏移。</li><li>将偏移解码为隐藏状态干预向量，在推理时沿反向拒答方向施加干预，无需更新主干参数。</li></ol>
         </section>
+        <figure class="source-figure">
+          <a class="figure-zoom" href="/assets/images/research/evidence/emorss-2.webp" target="_blank" rel="noopener noreferrer" data-figure-src="/assets/images/research/evidence/emorss-2.webp" data-figure-title="图5 · 在三个层面测量偏移" aria-label="点击放大: 在三个层面测量偏移">
+            <img src="/assets/images/research/evidence/emorss-2.webp" width="965" height="414" alt="图5 · 在三个层面测量偏移. 配对的良性与有害请求分别在表征、首词和完整回答层面接受测量。" loading="lazy" decoding="async">
+            <span class="figure-open-icon" aria-hidden="true">⤢</span>
+          </a>
+          <figcaption><span class="figure-label">图5 / 第6页</span>
+            <h3>在三个层面测量偏移</h3><p>配对的良性与有害请求分别在表征、首词和完整回答层面接受测量。</p>
+            <a href="https://arxiv.org/pdf/2610.04998#page=6" target="_blank" rel="noopener noreferrer">查看论文原图 <span aria-hidden="true">↗</span></a>
+          </figcaption>
+        </figure>
         <section id="evidence" class="essay-section" aria-labelledby="evidence-title">
           <h2 id="evidence-title">实验发现了什么</h2>
           <p>在两个大语言模型上，实验同时考察有害请求拒答、正常请求回答与通用任务表现。在包含情绪表达的设置下，EmoRSS 相比所比较的过度拒答缓解方法，实现了更有利的综合权衡。</p>
         </section>
+        <figure class="source-figure">
+          <a class="figure-zoom" href="/assets/images/research/evidence/emorss-3.webp" target="_blank" rel="noopener noreferrer" data-figure-src="/assets/images/research/evidence/emorss-3.webp" data-figure-title="表5 · 联合评估安全与帮助性" aria-label="点击放大: 联合评估安全与帮助性">
+            <img src="/assets/images/research/evidence/emorss-3.webp" width="965" height="632" alt="表5 · 联合评估安全与帮助性. 原表同时报告情绪表达下的有害请求服从率与良性请求拒答率，需要联合解读。" loading="lazy" decoding="async">
+            <span class="figure-open-icon" aria-hidden="true">⤢</span>
+          </a>
+          <figcaption><span class="figure-label">表5 / 第7页</span>
+            <h3>联合评估安全与帮助性</h3><p>原表同时报告情绪表达下的有害请求服从率与良性请求拒答率，需要联合解读。</p>
+            <a href="https://arxiv.org/pdf/2610.04998#page=7" target="_blank" rel="noopener noreferrer">查看论文原图 <span aria-hidden="true">↗</span></a>
+          </figcaption>
+        </figure>
         <section id="takeaway" class="essay-section" aria-labelledby="takeaway-title">
           <h2 id="takeaway-title">这项研究意味着什么</h2>
-          <p>缓解过度拒答，需要把正常请求的可回答性与有害请求的拒答能力一起评价。这里干预的是情绪引起的偏移，而目标仍是保持合理的安全判断。</p>
+          <p>有帮助的安全系统，需要对用户所请求的行为敏感，也需要对表达方式保持适当稳定。情绪和困境可以是正当需求的一部分；如果它们被模型当作风险的替代信号，真正需要帮助的用户就可能被系统性地挡在服务之外。</p><p>这项工作把行为上的校准偏差连接到可干预的内部方向，为研究安全与帮助性如何共同实现提供了机制线索。现有结论来自所测试的模型与配对问题设置，后续仍需拓展到更丰富的情绪、任务和多轮对话。</p>
         </section>
         <section id="resources" class="essay-section essay-resources" aria-labelledby="resources-title">
           <h2 id="resources-title">论文与相关资源</h2>
@@ -108,7 +140,26 @@
         </section>
       </div>
     </article>
+    <section class="related-research" aria-labelledby="related-heading">
+      <div class="related-heading"><span class="eyebrow">继续探索</span><h2 id="related-heading">研究成果</h2></div>
+      <div class="related-list"><a class="related-row" href="/research/zh/actr/">
+          <div class="related-copy"><h3>ACTR：对齐思考与回答，提升推理模型的多语言安全性</h3><time datetime="2026-09-29">2026年9月29日</time></div>
+          <p class="related-authors"><span class="author-name">Zhang Xianhui</span>, <span class="author-name">Yu Jian</span>, <span class="author-name">Xie Chengyu</span>, <span class="author-name">Cui Chenhang</span>, <span class="author-name">Miao Shuyi</span>, <span class="author-name">Shao Pengyang</span>, <span class="author-name">Zheng Yu</span>, <span class="author-name">Shen Fei</span>, <span class="author-name">Chua Tat-Seng</span></p><span class="related-arrow" aria-hidden="true">→</span>
+        </a>
+<a class="related-row" href="/research/zh/who-transfers-safety/">
+          <div class="related-copy"><h3>谁在传递安全？定位并干预跨语言共享安全神经元</h3><time datetime="2026-02-01">2026年2月1日</time></div>
+          <p class="related-authors"><span class="author-name">Zhang Xianhui</span>, <span class="author-name">Xie Chengyu</span>, <span class="author-name">Zhu Linxia</span>, <span class="author-name">Yang Yonghui</span>, <span class="author-name">Zhao Weixiang</span>, <span class="author-name">Cheng Zifeng</span>, <span class="author-name">Wang Cong</span>, <span class="author-name">Shen Fei</span>, <span class="author-name">Chua Tat-Seng</span></p><span class="related-arrow" aria-hidden="true">→</span>
+        </a>
+<a class="related-row" href="/research/zh/orthoeraser/">
+          <div class="related-copy"><h3>OrthoEraser：通过耦合神经元正交投影擦除概念</h3><time datetime="2026-03-12">2026年3月12日</time></div>
+          <p class="related-authors"><span class="author-name">Shi Chuancheng</span>, <span class="author-name">Wu Wenhua</span>, <span class="author-name">Shen Fei</span>, <span class="author-name">Zhu Xiaogang</span>, <span class="author-name">Hu Kun</span>, <span class="author-name">Wang Zhiyong</span></p><span class="related-arrow" aria-hidden="true">→</span>
+        </a></div>
+    </section>
   </main>
+  <dialog class="figure-dialog" aria-label="论文图表查看器">
+    <button class="figure-dialog-close" type="button" aria-label="关闭大图">关闭大图 <span aria-hidden="true">×</span></button>
+    <div class="figure-dialog-scroll"><img alt=""></div><p class="figure-dialog-title"></p>
+  </dialog>
   <footer class="essay-container essay-bottom">
     <a href="/">© 2026 Fei Shen · Latent Knowledge Group</a>
     <a href="/research/zh/">更多研究 <span aria-hidden="true">↗</span></a>

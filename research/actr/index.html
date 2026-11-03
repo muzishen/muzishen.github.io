@@ -16,12 +16,13 @@
   <meta property="og:description" content="A reasoning model may recognize a safety risk in its thoughts yet still produce an unsafe answer in another language.">
   <meta property="og:url" content="https://muzishen.github.io/research/actr/">
   <meta property="og:locale" content="en_US">
-  <meta property="og:image" content="https://muzishen.github.io/images/paper-images/actr.png">
+  <meta property="og:image" content="https://muzishen.github.io/assets/images/research/covers/actr.webp">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="/assets/images/research/mark.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/assets/css/research.css?v=1233161ef3c9">
-  <link rel="stylesheet" href="/assets/css/research-article.css?v=b57197ef88c5">
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "ACTR: Aligning Thoughts and Responses for Multilingual Safety in Reasoning LLMs", "description": "A reasoning model may recognize a safety risk in its thoughts yet still produce an unsafe answer in another language.", "author": [{"@type": "Person", "name": "Zhang Xianhui"}, {"@type": "Person", "name": "Yu Jian"}, {"@type": "Person", "name": "Xie Chengyu"}, {"@type": "Person", "name": "Cui Chenhang"}, {"@type": "Person", "name": "Miao Shuyi"}, {"@type": "Person", "name": "Shao Pengyang"}, {"@type": "Person", "name": "Zheng Yu"}, {"@type": "Person", "name": "Shen Fei"}, {"@type": "Person", "name": "Chua Tat-Seng"}], "inLanguage": "en", "mainEntityOfPage": "https://muzishen.github.io/research/actr/", "image": "https://muzishen.github.io/images/paper-images/actr.png", "isBasedOn": "https://arxiv.org/abs/2609.37054"}</script>
+  <link rel="stylesheet" href="/assets/css/research.css?v=26ce8ab3d43d">
+  <link rel="stylesheet" href="/assets/css/research-article.css?v=bb31a7d4c120">
+  <script src="/assets/js/research-article.js?v=4a8da52c5f1b" defer></script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "ACTR: Aligning Thoughts and Responses for Multilingual Safety in Reasoning LLMs", "description": "A reasoning model may recognize a safety risk in its thoughts yet still produce an unsafe answer in another language.", "author": [{"@type": "Person", "name": "Zhang Xianhui"}, {"@type": "Person", "name": "Yu Jian"}, {"@type": "Person", "name": "Xie Chengyu"}, {"@type": "Person", "name": "Cui Chenhang"}, {"@type": "Person", "name": "Miao Shuyi"}, {"@type": "Person", "name": "Shao Pengyang"}, {"@type": "Person", "name": "Zheng Yu"}, {"@type": "Person", "name": "Shen Fei"}, {"@type": "Person", "name": "Chua Tat-Seng"}], "inLanguage": "en", "mainEntityOfPage": "https://muzishen.github.io/research/actr/", "image": "https://muzishen.github.io/assets/images/research/covers/actr.webp", "isBasedOn": "https://arxiv.org/abs/2609.37054"}</script>
 </head>
 <body class="essay-page">
   <a class="skip-link" href="#short-version">Skip to the introduction</a>
@@ -40,7 +41,7 @@
     <article>
       <header class="essay-hero">
         <div class="essay-heading">
-          <div class="essay-kicker">Reliability &amp; Safety / Research overview</div>
+          <div class="essay-kicker">Fundamental Research / Reliability &amp; Safety / Research overview</div>
           <h1 class="essay-title">ACTR: Aligning Thoughts and Responses for Multilingual Safety in Reasoning LLMs</h1>
           <p class="essay-deck">A reasoning model may recognize a safety risk in its thoughts yet still produce an unsafe answer in another language.</p>
           <p class="essay-authors"><span class="author-name">Zhang Xianhui</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Yu Jian</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Xie Chengyu</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Cui Chenhang</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Miao Shuyi</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Shao Pengyang</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Zheng Yu</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Shen Fei</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Chua Tat-Seng</span></p>
@@ -53,8 +54,8 @@
           </div>
         </div>
         <figure class="essay-figure">
-          <img src="/images/paper-images/actr.png" alt="Overview of ACTR: Aligning Thoughts and Responses for Multilingual Safety in Reasoning LLMs" fetchpriority="high" decoding="async">
-          <figcaption>Research overview figure from the paper.</figcaption>
+          <img src="/assets/images/research/covers/actr.webp" alt="Concept illustration: ACTR: Aligning Thoughts and Responses for Multilingual Safety in Reasoning LLMs" fetchpriority="high" decoding="async">
+          <figcaption>Concept illustration inspired by the study.</figcaption>
         </figure>
       </header>
       <nav class="essay-contents" aria-label="Article contents">
@@ -66,9 +67,20 @@
       <div class="essay-body">
         <section id="short-version" class="essay-section essay-short" aria-labelledby="short-title">
           <h2 id="short-title">The short version</h2>
-          <p>ACTR strengthens the use of existing safety reasoning. It identifies safety think neurons and selectively optimizes consistency between the safety categories of reasoning traces and final responses.</p>
+          <p>ACTR studies a gap in multilingual safety: a model can identify danger in its reasoning yet produce an unsafe final response, especially in non-high-resource languages. Think Gap Score measures differences in reasoning utilization, while safety-think neurons identify internal components associated with carrying safety reasoning into behavior.</p><p>The framework selectively optimizes these neurons and introduces a consistency signal between reasoning and response. It targets the connection between recognizing a risk and acting on it, with evaluation across languages and attack settings.</p>
           <div class="research-highlights"><div class="research-highlight"><span class="highlight-value">2</span><span class="highlight-label">Reasoning models</span></div><div class="research-highlight"><span class="highlight-value">2</span><span class="highlight-label">Multilingual jailbreak benchmarks</span></div><div class="research-highlight"><span class="highlight-value">Selective</span><span class="highlight-label">Neuron-associated updates</span></div></div>
         </section>
+        <blockquote class="research-thesis"><p>Recognizing a risk in reasoning is only useful when that recognition constrains the final action.</p></blockquote>
+        <figure class="source-figure">
+          <a class="figure-zoom" href="/assets/images/research/evidence/actr-1.webp" target="_blank" rel="noopener noreferrer" data-figure-src="/assets/images/research/evidence/actr-1.webp" data-figure-title="Figure 2 · Connecting reasoning to response" aria-label="Enlarge figure: Connecting reasoning to response">
+            <img src="/assets/images/research/evidence/actr-1.webp" width="1139" height="523" alt="Figure 2 · Connecting reasoning to response. The framework measures reasoning utilization, identifies safety-think neurons, and optimizes think-response consistency." loading="lazy" decoding="async">
+            <span class="figure-open-icon" aria-hidden="true">⤢</span>
+          </a>
+          <figcaption><span class="figure-label">Figure 2 / p. 3</span>
+            <h3>Connecting reasoning to response</h3><p>The framework measures reasoning utilization, identifies safety-think neurons, and optimizes think-response consistency.</p>
+            <a href="https://arxiv.org/pdf/2609.37054#page=3" target="_blank" rel="noopener noreferrer">View in the paper <span aria-hidden="true">↗</span></a>
+          </figcaption>
+        </figure>
         <section id="motivation" class="essay-section" aria-labelledby="motivation-title">
           <h2 id="motivation-title">Why this matters</h2>
           <p>Recognizing risk does not guarantee that the response uses that recognition. This gap is especially important under jailbreak attacks in non-high-resource languages.</p>
@@ -77,13 +89,33 @@
           <h2 id="method-title">How it works</h2>
           <ol class="method-steps"><li>Measure reasoning-trace contributions with TGS and examine safety changes under trace substitution.</li><li>Compare neuron importance with reasoning enabled and disabled to identify safety think neurons.</li><li>Use a frozen judge to reward safety-category consistency while updating only selected neuron-associated parameters.</li></ol>
         </section>
+        <figure class="source-figure">
+          <a class="figure-zoom" href="/assets/images/research/evidence/actr-2.webp" target="_blank" rel="noopener noreferrer" data-figure-src="/assets/images/research/evidence/actr-2.webp" data-figure-title="Figure 3 · A multilingual reasoning-utilization gap" aria-label="Enlarge figure: A multilingual reasoning-utilization gap">
+            <img src="/assets/images/research/evidence/actr-2.webp" width="476" height="193" alt="Figure 3 · A multilingual reasoning-utilization gap. Think Gap Score and attack success rates are compared across languages and two model families." loading="lazy" decoding="async">
+            <span class="figure-open-icon" aria-hidden="true">⤢</span>
+          </a>
+          <figcaption><span class="figure-label">Figure 3 / p. 4</span>
+            <h3>A multilingual reasoning-utilization gap</h3><p>Think Gap Score and attack success rates are compared across languages and two model families.</p>
+            <a href="https://arxiv.org/pdf/2609.37054#page=4" target="_blank" rel="noopener noreferrer">View in the paper <span aria-hidden="true">↗</span></a>
+          </figcaption>
+        </figure>
         <section id="evidence" class="essay-section" aria-labelledby="evidence-title">
           <h2 id="evidence-title">What the study finds</h2>
           <p>Across two reasoning models, ACTR is evaluated on AdvBench-X and MultiJail. It reports lower average attack success rates than the compared methods, with gains extending to unseen languages while limiting benign false refusals.</p>
         </section>
+        <figure class="source-figure">
+          <a class="figure-zoom" href="/assets/images/research/evidence/actr-3.webp" target="_blank" rel="noopener noreferrer" data-figure-src="/assets/images/research/evidence/actr-3.webp" data-figure-title="Table 4 · Multilingual safety outcomes" aria-label="Enlarge figure: Multilingual safety outcomes">
+            <img src="/assets/images/research/evidence/actr-3.webp" width="1140" height="659" alt="Table 4 · Multilingual safety outcomes. The table reports attack success rates on AdvBench-X and MultiJail under the paper’s evaluation protocol." loading="lazy" decoding="async">
+            <span class="figure-open-icon" aria-hidden="true">⤢</span>
+          </a>
+          <figcaption><span class="figure-label">Table 4 / p. 7</span>
+            <h3>Multilingual safety outcomes</h3><p>The table reports attack success rates on AdvBench-X and MultiJail under the paper’s evaluation protocol.</p>
+            <a href="https://arxiv.org/pdf/2609.37054#page=7" target="_blank" rel="noopener noreferrer">View in the paper <span aria-hidden="true">↗</span></a>
+          </figcaption>
+        </figure>
         <section id="takeaway" class="essay-section" aria-labelledby="takeaway-title">
           <h2 id="takeaway-title">What this means</h2>
-          <p>Safety reasoning must influence the final response to be useful. Selective consistency optimization turns that connection into a direct training target.</p>
+          <p>This makes safety a question about the continuity of computation. A model needs to detect a harmful request, retain that judgment through generation, and let it shape the answer. A failure at any transition can leave apparently sound reasoning disconnected from the response users receive.</p><p>The multilingual setting makes this gap especially visible. Improving the use of safety reasoning offers a more specific intervention target than treating every unsafe response as an absence of safety knowledge; its value must be assessed jointly with useful responses and transfer to languages outside training.</p>
         </section>
         <section id="resources" class="essay-section essay-resources" aria-labelledby="resources-title">
           <h2 id="resources-title">Paper and resources</h2>
@@ -108,7 +140,26 @@
         </section>
       </div>
     </article>
+    <section class="related-research" aria-labelledby="related-heading">
+      <div class="related-heading"><span class="eyebrow">Continue exploring</span><h2 id="related-heading">Research</h2></div>
+      <div class="related-list"><a class="related-row" href="/research/who-transfers-safety/">
+          <div class="related-copy"><h3>Who Transfers Safety? Identifying and Targeting Cross-Lingual Shared Safety Neurons</h3><time datetime="2026-02-01">February 1, 2026</time></div>
+          <p class="related-authors"><span class="author-name">Zhang Xianhui</span>, <span class="author-name">Xie Chengyu</span>, <span class="author-name">Zhu Linxia</span>, <span class="author-name">Yang Yonghui</span>, <span class="author-name">Zhao Weixiang</span>, <span class="author-name">Cheng Zifeng</span>, <span class="author-name">Wang Cong</span>, <span class="author-name">Shen Fei</span>, <span class="author-name">Chua Tat-Seng</span></p><span class="related-arrow" aria-hidden="true">→</span>
+        </a>
+<a class="related-row" href="/research/tracerouter/">
+          <div class="related-copy"><h3>TraceRouter: Robust Safety for Large Foundation Models via Path-Level Intervention</h3><time datetime="2026-01-29">January 29, 2026</time></div>
+          <p class="related-authors"><span class="author-name">Shi Chuancheng</span>, <span class="author-name">Li Shangze</span>, <span class="author-name">Lu Wenjun</span>, <span class="author-name">Wu Wenhua</span>, <span class="author-name">Wang Cong</span>, <span class="author-name">Cheng Zifeng</span>, <span class="author-name">Shen Fei</span>, <span class="author-name">Chua Tat-Seng</span></p><span class="related-arrow" aria-hidden="true">→</span>
+        </a>
+<a class="related-row" href="/research/emorss/">
+          <div class="related-copy"><h3>EmoRSS: Mitigating Emotion-Induced Over-Refusal in Large Language Models</h3><time datetime="2026-10-04">October 4, 2026</time></div>
+          <p class="related-authors"><span class="author-name">Miao Shuyi</span>, <span class="author-name">Ma Yaojin</span>, <span class="author-name">Cui Chenhang</span>, <span class="author-name">Liu Xiaohao</span>, <span class="author-name">Dang Jisheng</span>, <span class="author-name">Zhuo Shengda</span>, <span class="author-name">Shen Fei</span>, <span class="author-name">Chua Tat-Seng</span></p><span class="related-arrow" aria-hidden="true">→</span>
+        </a></div>
+    </section>
   </main>
+  <dialog class="figure-dialog" aria-label="Research figure viewer">
+    <button class="figure-dialog-close" type="button" aria-label="Close figure">Close figure <span aria-hidden="true">×</span></button>
+    <div class="figure-dialog-scroll"><img alt=""></div><p class="figure-dialog-title"></p>
+  </dialog>
   <footer class="essay-container essay-bottom">
     <a href="/">© 2026 Fei Shen · Latent Knowledge Group</a>
     <a href="/research/">More research <span aria-hidden="true">↗</span></a>

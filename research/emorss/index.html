@@ -16,12 +16,13 @@
   <meta property="og:description" content="Emotional wording can make benign requests look unsafe. EmoRSS steers refusal-related activations to reduce that distortion.">
   <meta property="og:url" content="https://muzishen.github.io/research/emorss/">
   <meta property="og:locale" content="en_US">
-  <meta property="og:image" content="https://muzishen.github.io/images/paper-images/emorss.png">
+  <meta property="og:image" content="https://muzishen.github.io/assets/images/research/covers/emorss.webp">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="/assets/images/research/mark.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/assets/css/research.css?v=1233161ef3c9">
-  <link rel="stylesheet" href="/assets/css/research-article.css?v=b57197ef88c5">
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "EmoRSS: Mitigating Emotion-Induced Over-Refusal in Large Language Models", "description": "Emotional wording can make benign requests look unsafe. EmoRSS steers refusal-related activations to reduce that distortion.", "author": [{"@type": "Person", "name": "Miao Shuyi"}, {"@type": "Person", "name": "Ma Yaojin"}, {"@type": "Person", "name": "Cui Chenhang"}, {"@type": "Person", "name": "Liu Xiaohao"}, {"@type": "Person", "name": "Dang Jisheng"}, {"@type": "Person", "name": "Zhuo Shengda"}, {"@type": "Person", "name": "Shen Fei"}, {"@type": "Person", "name": "Chua Tat-Seng"}], "inLanguage": "en", "mainEntityOfPage": "https://muzishen.github.io/research/emorss/", "image": "https://muzishen.github.io/images/paper-images/emorss.png", "isBasedOn": "https://arxiv.org/abs/2610.04998"}</script>
+  <link rel="stylesheet" href="/assets/css/research.css?v=26ce8ab3d43d">
+  <link rel="stylesheet" href="/assets/css/research-article.css?v=bb31a7d4c120">
+  <script src="/assets/js/research-article.js?v=4a8da52c5f1b" defer></script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "EmoRSS: Mitigating Emotion-Induced Over-Refusal in Large Language Models", "description": "Emotional wording can make benign requests look unsafe. EmoRSS steers refusal-related activations to reduce that distortion.", "author": [{"@type": "Person", "name": "Miao Shuyi"}, {"@type": "Person", "name": "Ma Yaojin"}, {"@type": "Person", "name": "Cui Chenhang"}, {"@type": "Person", "name": "Liu Xiaohao"}, {"@type": "Person", "name": "Dang Jisheng"}, {"@type": "Person", "name": "Zhuo Shengda"}, {"@type": "Person", "name": "Shen Fei"}, {"@type": "Person", "name": "Chua Tat-Seng"}], "inLanguage": "en", "mainEntityOfPage": "https://muzishen.github.io/research/emorss/", "image": "https://muzishen.github.io/assets/images/research/covers/emorss.webp", "isBasedOn": "https://arxiv.org/abs/2610.04998"}</script>
 </head>
 <body class="essay-page">
   <a class="skip-link" href="#short-version">Skip to the introduction</a>
@@ -40,7 +41,7 @@
     <article>
       <header class="essay-hero">
         <div class="essay-heading">
-          <div class="essay-kicker">Reliability &amp; Safety / Research overview</div>
+          <div class="essay-kicker">Fundamental Research / Reliability &amp; Safety / Research overview</div>
           <h1 class="essay-title">EmoRSS: Mitigating Emotion-Induced Over-Refusal in Large Language Models</h1>
           <p class="essay-deck">Emotional wording can make benign requests look unsafe. EmoRSS steers refusal-related activations to reduce that distortion.</p>
           <p class="essay-authors"><span class="author-name">Miao Shuyi</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Ma Yaojin</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Cui Chenhang</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Liu Xiaohao</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Dang Jisheng</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Zhuo Shengda</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Shen Fei</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Chua Tat-Seng</span></p>
@@ -53,8 +54,8 @@
           </div>
         </div>
         <figure class="essay-figure">
-          <img src="/images/paper-images/emorss.png" alt="Overview of EmoRSS: Mitigating Emotion-Induced Over-Refusal in Large Language Models" fetchpriority="high" decoding="async">
-          <figcaption>Research overview figure from the paper.</figcaption>
+          <img src="/assets/images/research/covers/emorss.webp" alt="Concept illustration: EmoRSS: Mitigating Emotion-Induced Over-Refusal in Large Language Models" fetchpriority="high" decoding="async">
+          <figcaption>Concept illustration inspired by the study.</figcaption>
         </figure>
       </header>
       <nav class="essay-contents" aria-label="Article contents">
@@ -66,9 +67,20 @@
       <div class="essay-body">
         <section id="short-version" class="essay-section essay-short" aria-labelledby="short-title">
           <h2 id="short-title">The short version</h2>
-          <p>EmoRSS targets emotion-induced over-refusal through a refusal subspace. It estimates the activation shift caused by emotional expression and reverses that shift at inference time.</p>
+          <p>EmoRSS investigates why emotional expression can push benign requests toward refusal. Paired queries isolate the change in expression, and sparse autoencoder features connect that change to a refusal-related subspace. The method then reverses the estimated shift during inference while keeping the underlying model frozen.</p><p>The study evaluates benign assistance and harmful-request refusal together. This matters because a lower refusal rate is useful only when it reflects better calibration of legitimate requests, while preserving the model’s ability to reject harmful ones.</p>
           <div class="research-highlights"><div class="research-highlight"><span class="highlight-value">2</span><span class="highlight-label">Language models evaluated</span></div><div class="research-highlight"><span class="highlight-value">SAE</span><span class="highlight-label">Refusal-subspace features</span></div><div class="research-highlight"><span class="highlight-value">Frozen</span><span class="highlight-label">No backbone parameter updates</span></div></div>
         </section>
+        <blockquote class="research-thesis"><p>Safety calibration depends on distinguishing harmful intent from the emotional form of a legitimate request.</p></blockquote>
+        <figure class="source-figure">
+          <a class="figure-zoom" href="/assets/images/research/evidence/emorss-1.webp" target="_blank" rel="noopener noreferrer" data-figure-src="/assets/images/research/evidence/emorss-1.webp" data-figure-title="Figure 2 · Tracing an emotion-induced refusal shift" aria-label="Enlarge figure: Tracing an emotion-induced refusal shift">
+            <img src="/assets/images/research/evidence/emorss-1.webp" width="965" height="448" alt="Figure 2 · Tracing an emotion-induced refusal shift. The framework identifies a refusal-related subspace and reverses the estimated emotional shift during inference." loading="lazy" decoding="async">
+            <span class="figure-open-icon" aria-hidden="true">⤢</span>
+          </a>
+          <figcaption><span class="figure-label">Figure 2 / p. 3</span>
+            <h3>Tracing an emotion-induced refusal shift</h3><p>The framework identifies a refusal-related subspace and reverses the estimated emotional shift during inference.</p>
+            <a href="https://arxiv.org/pdf/2610.04998#page=3" target="_blank" rel="noopener noreferrer">View in the paper <span aria-hidden="true">↗</span></a>
+          </figcaption>
+        </figure>
         <section id="motivation" class="essay-section" aria-labelledby="motivation-title">
           <h2 id="motivation-title">Why this matters</h2>
           <p>Safety decisions should depend on the requested action as well as its context. Benign queries can be unnecessarily refused when emotional expression increases refusal tendencies.</p>
@@ -77,13 +89,33 @@
           <h2 id="method-title">How it works</h2>
           <ol class="method-steps"><li>Locate a refusal-sensitive layer with linear probes and construct an SAE-based refusal subspace.</li><li>Compare paired regular and emotional versions of the same queries to estimate a mean feature shift.</li><li>Decode that shift into a hidden-state vector and intervene in the reverse refusal direction without backbone updates.</li></ol>
         </section>
+        <figure class="source-figure">
+          <a class="figure-zoom" href="/assets/images/research/evidence/emorss-2.webp" target="_blank" rel="noopener noreferrer" data-figure-src="/assets/images/research/evidence/emorss-2.webp" data-figure-title="Figure 5 · Measuring the shift at three levels" aria-label="Enlarge figure: Measuring the shift at three levels">
+            <img src="/assets/images/research/evidence/emorss-2.webp" width="965" height="414" alt="Figure 5 · Measuring the shift at three levels. Paired benign and harmful queries are compared in representation, first-token, and full-response measurements." loading="lazy" decoding="async">
+            <span class="figure-open-icon" aria-hidden="true">⤢</span>
+          </a>
+          <figcaption><span class="figure-label">Figure 5 / p. 6</span>
+            <h3>Measuring the shift at three levels</h3><p>Paired benign and harmful queries are compared in representation, first-token, and full-response measurements.</p>
+            <a href="https://arxiv.org/pdf/2610.04998#page=6" target="_blank" rel="noopener noreferrer">View in the paper <span aria-hidden="true">↗</span></a>
+          </figcaption>
+        </figure>
         <section id="evidence" class="essay-section" aria-labelledby="evidence-title">
           <h2 id="evidence-title">What the study finds</h2>
           <p>Experiments on two LLMs jointly examine harmful-request refusal, benign-request answering, and general performance. The reported trade-off is more favourable than the compared over-refusal mitigation baselines under emotional wording.</p>
         </section>
+        <figure class="source-figure">
+          <a class="figure-zoom" href="/assets/images/research/evidence/emorss-3.webp" target="_blank" rel="noopener noreferrer" data-figure-src="/assets/images/research/evidence/emorss-3.webp" data-figure-title="Table 5 · Safety and assistance together" aria-label="Enlarge figure: Safety and assistance together">
+            <img src="/assets/images/research/evidence/emorss-3.webp" width="965" height="632" alt="Table 5 · Safety and assistance together. The original table reports harmful compliance and benign refusal under emotional expression; the metrics must be read jointly." loading="lazy" decoding="async">
+            <span class="figure-open-icon" aria-hidden="true">⤢</span>
+          </a>
+          <figcaption><span class="figure-label">Table 5 / p. 7</span>
+            <h3>Safety and assistance together</h3><p>The original table reports harmful compliance and benign refusal under emotional expression; the metrics must be read jointly.</p>
+            <a href="https://arxiv.org/pdf/2610.04998#page=7" target="_blank" rel="noopener noreferrer">View in the paper <span aria-hidden="true">↗</span></a>
+          </figcaption>
+        </figure>
         <section id="takeaway" class="essay-section" aria-labelledby="takeaway-title">
           <h2 id="takeaway-title">What this means</h2>
-          <p>Reducing over-refusal requires evaluating helpfulness and harmful-request refusal together; the intervention is designed to correct an emotional shift rather than erase refusal behaviour.</p>
+          <p>Helpful safety requires sensitivity to what a user is asking for and stability to how that need is expressed. Emotional distress can be part of a legitimate request; treating that expression as a substitute for risk can systematically withhold assistance from the people who need it.</p><p>By connecting a behavioral disparity to an intervenable internal direction, this work offers a mechanism for studying that calibration. Its scope is defined by the tested models and paired-query settings, motivating broader evaluation across emotions, tasks, and conversational contexts.</p>
         </section>
         <section id="resources" class="essay-section essay-resources" aria-labelledby="resources-title">
           <h2 id="resources-title">Paper and resources</h2>
@@ -108,7 +140,26 @@
         </section>
       </div>
     </article>
+    <section class="related-research" aria-labelledby="related-heading">
+      <div class="related-heading"><span class="eyebrow">Continue exploring</span><h2 id="related-heading">Research</h2></div>
+      <div class="related-list"><a class="related-row" href="/research/actr/">
+          <div class="related-copy"><h3>ACTR: Aligning Thoughts and Responses for Multilingual Safety in Reasoning LLMs</h3><time datetime="2026-09-29">September 29, 2026</time></div>
+          <p class="related-authors"><span class="author-name">Zhang Xianhui</span>, <span class="author-name">Yu Jian</span>, <span class="author-name">Xie Chengyu</span>, <span class="author-name">Cui Chenhang</span>, <span class="author-name">Miao Shuyi</span>, <span class="author-name">Shao Pengyang</span>, <span class="author-name">Zheng Yu</span>, <span class="author-name">Shen Fei</span>, <span class="author-name">Chua Tat-Seng</span></p><span class="related-arrow" aria-hidden="true">→</span>
+        </a>
+<a class="related-row" href="/research/who-transfers-safety/">
+          <div class="related-copy"><h3>Who Transfers Safety? Identifying and Targeting Cross-Lingual Shared Safety Neurons</h3><time datetime="2026-02-01">February 1, 2026</time></div>
+          <p class="related-authors"><span class="author-name">Zhang Xianhui</span>, <span class="author-name">Xie Chengyu</span>, <span class="author-name">Zhu Linxia</span>, <span class="author-name">Yang Yonghui</span>, <span class="author-name">Zhao Weixiang</span>, <span class="author-name">Cheng Zifeng</span>, <span class="author-name">Wang Cong</span>, <span class="author-name">Shen Fei</span>, <span class="author-name">Chua Tat-Seng</span></p><span class="related-arrow" aria-hidden="true">→</span>
+        </a>
+<a class="related-row" href="/research/orthoeraser/">
+          <div class="related-copy"><h3>OrthoEraser: Coupled-Neuron Orthogonal Projection for Concept Erasure</h3><time datetime="2026-03-12">March 12, 2026</time></div>
+          <p class="related-authors"><span class="author-name">Shi Chuancheng</span>, <span class="author-name">Wu Wenhua</span>, <span class="author-name">Shen Fei</span>, <span class="author-name">Zhu Xiaogang</span>, <span class="author-name">Hu Kun</span>, <span class="author-name">Wang Zhiyong</span></p><span class="related-arrow" aria-hidden="true">→</span>
+        </a></div>
+    </section>
   </main>
+  <dialog class="figure-dialog" aria-label="Research figure viewer">
+    <button class="figure-dialog-close" type="button" aria-label="Close figure">Close figure <span aria-hidden="true">×</span></button>
+    <div class="figure-dialog-scroll"><img alt=""></div><p class="figure-dialog-title"></p>
+  </dialog>
   <footer class="essay-container essay-bottom">
     <a href="/">© 2026 Fei Shen · Latent Knowledge Group</a>
     <a href="/research/">More research <span aria-hidden="true">↗</span></a>
