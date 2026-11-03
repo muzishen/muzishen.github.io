@@ -1,0 +1,62 @@
+/* Editorial research introductions, sharing the Research site's visual language. */
+.essay-page{background:#fff}
+.essay-container{width:min(100% - 80px,1160px);margin-inline:auto}
+.essay-bar{min-height:66px;display:flex;align-items:center;justify-content:space-between;gap:24px;border-bottom:1px solid #e3e6df;font-size:13px;color:#626a64}
+.essay-bar>a:hover{text-decoration:underline;text-underline-offset:4px}
+.essay-bar-actions{display:flex;align-items:center;gap:26px;flex-shrink:0}
+.essay-bar .language-switch{font-size:12px}
+.essay-hero{padding-top:82px}
+.essay-heading{max-width:1010px;margin-inline:auto}
+.essay-kicker{font-family:"Courier New",monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#7a8076;margin-bottom:20px}
+.essay-title{font-family:Georgia,"Times New Roman","Songti SC","SimSun",serif;font-size:clamp(40px,5vw,66px);line-height:1.12;font-weight:400;letter-spacing:-.035em;margin:0 0 23px;text-wrap:pretty;overflow-wrap:anywhere}
+.essay-deck{max-width:900px;font-family:Georgia,"Times New Roman","Songti SC","SimSun",serif;font-style:italic;font-size:24px;line-height:1.5;color:#545e57;margin:0 0 30px;text-wrap:pretty}
+.essay-authors{font-size:14px;line-height:1.9;font-weight:600;max-width:930px;margin:0;color:#4c5650}
+.author-name{white-space:nowrap}
+.author-separator{color:#a2a99e;font-weight:400;padding-inline:6px}
+.essay-meta{font-size:12px;line-height:1.8;color:#80887e;display:flex;gap:9px;flex-wrap:wrap;align-items:center;margin-top:8px}
+.essay-meta .separator{color:#b4bab0}
+.essay-meta a{text-decoration:underline;text-decoration-color:#c6ccc1;text-underline-offset:3px}
+.essay-meta a:hover{color:#333d35}
+.essay-figure{margin:58px 0 0;padding:28px 0 24px;border-top:1px solid #eef0e9;border-bottom:1px solid #e3e7dd}
+.essay-figure img{width:100%;height:auto;max-height:460px;object-fit:contain}
+.essay-figure figcaption{font-size:12px;line-height:1.7;color:#7e8579;max-width:900px;margin:20px auto 0;text-align:center}
+.essay-contents{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));margin:36px 0 0;border:1px solid #dce2d6;border-radius:5px;overflow:hidden;background:#fafbf7}
+.essay-contents>a{padding:20px 22px;display:flex;gap:15px;align-items:center;font-size:13px;line-height:1.4;border-right:1px solid #dce2d6}
+.essay-contents>a:last-child{border-right:0}
+.essay-contents>a:hover{background:#eff2e9}
+.essay-contents .number{font-family:Georgia,serif;font-size:31px;font-style:italic;color:#a1ac96;font-weight:400}
+.essay-body{max-width:790px;margin:68px auto 80px;font-family:Georgia,"Times New Roman","Songti SC","SimSun",serif;font-size:20px;line-height:1.7;color:#343e36}
+.essay-section{margin:0 0 56px;scroll-margin-top:28px}
+.essay-section h2{font-family:Arial,"Helvetica Neue","PingFang SC","Microsoft YaHei",sans-serif;font-size:29px;line-height:1.25;letter-spacing:-.025em;font-weight:600;margin:0 0 23px;color:#283329}
+.essay-section p{margin:0 0 22px;text-wrap:pretty}
+.essay-section a{text-decoration:underline;text-decoration-color:#b3c0a7;text-underline-offset:4px}
+.essay-short{padding-bottom:30px;border-bottom:1px solid #e4e9df}
+.essay-short>p{font-size:23px;line-height:1.65;margin-bottom:26px}
+.research-highlights{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:28px;font-family:Arial,"Helvetica Neue","PingFang SC","Microsoft YaHei",sans-serif}
+.research-highlight{padding:18px 0;border-top:2px solid #b6c3a8}
+.highlight-value{display:block;font-family:Georgia,"Times New Roman","Songti SC",serif;font-size:31px;line-height:1.15;letter-spacing:-.02em;color:#43563b;margin-bottom:9px;overflow-wrap:anywhere}
+.highlight-label{display:block;font-size:12px;line-height:1.55;color:#77826f}
+.method-steps{list-style:none;padding:0;margin:0;counter-reset:method-step}
+.method-steps>li{position:relative;padding:0 0 0 44px;margin:0 0 24px;counter-increment:method-step}
+.method-steps>li::before{content:counter(method-step,decimal-leading-zero);position:absolute;left:0;top:4px;font-family:"Courier New",monospace;font-size:12px;color:#8c9d7d}
+.essay-resources{font-family:Arial,"Helvetica Neue","PingFang SC","Microsoft YaHei",sans-serif;border-top:1px solid #d8dfd1;padding-top:28px;margin-top:60px}
+.essay-resources h2{font-size:21px}
+.resource-links{display:flex;gap:24px;flex-wrap:wrap;font-size:14px;margin-bottom:24px}
+.resource-links a{font-weight:600}
+.source-note{font-size:12px!important;line-height:1.7;color:#7b8574}
+.citation{font-size:13px;border:1px solid #e0e6d8;border-radius:5px;background:#fafbf7}
+.citation summary{cursor:pointer;padding:15px 18px;font-weight:600}
+.citation pre{padding:4px 18px 18px;font-family:"Courier New",monospace;font-size:11px;line-height:1.8;overflow-wrap:anywhere;white-space:pre-wrap;margin:0;color:#64745a}
+.essay-bottom{border-top:1px solid #e1e6db;margin-top:40px;padding:28px 0 40px;display:flex;justify-content:space-between;gap:25px;font-size:12px;color:#7b8574}
+.essay-bottom a:hover{text-decoration:underline;text-underline-offset:4px}
+.paper-authors{display:block;font-size:13px;line-height:1.7}
+.paper-date{display:block;margin-top:6px;font-size:12px}
+.paper-introduction-link{color:#43563b}
+:lang(zh) .essay-title{font-size:clamp(32px,4.6vw,54px);line-height:1.35;letter-spacing:0}
+:lang(zh) .essay-deck{font-size:22px;line-height:1.8;font-style:normal;letter-spacing:.01em}
+:lang(zh) .essay-body{font-family:Arial,"PingFang SC","Microsoft YaHei",sans-serif;font-size:17px;line-height:1.95}
+:lang(zh) .essay-section h2{font-size:27px;letter-spacing:0}
+:lang(zh) .essay-short>p{font-size:21px;line-height:1.9;font-family:Georgia,"Songti SC","SimSun",serif}
+:lang(zh) .highlight-value{font-size:28px}
+@media(max-width:900px){.essay-container{width:calc(100% - 48px)}.essay-hero{padding-top:58px}.essay-heading{max-width:100%}.essay-title{font-size:48px}.essay-deck{font-size:22px}.essay-contents>a{padding:16px 14px;gap:10px;font-size:12px}.essay-contents .number{font-size:26px}.essay-body{max-width:100%;font-size:19px}.essay-short>p{font-size:22px}}
+@media(max-width:620px){.essay-container{width:calc(100% - 40px)}.essay-bar{align-items:flex-start;min-height:64px;padding-block:16px;font-size:10px;gap:16px}.essay-bar-label{max-width:130px;line-height:1.5}.essay-bar-actions{gap:15px;font-size:11px}.essay-bar .language-switch{font-size:11px;gap:7px}.essay-hero{padding-top:42px}.essay-kicker{font-size:9px;line-height:1.6;margin-bottom:16px}.essay-title{font-size:37px;line-height:1.15;letter-spacing:-.025em;margin-bottom:21px}.essay-deck{font-size:20px;line-height:1.55;margin-bottom:24px}.essay-authors{font-size:11px;line-height:2}.author-separator{padding-inline:4px}.essay-meta{font-size:10px;line-height:1.8;gap:7px}.essay-figure{margin-top:34px;padding-top:20px}.essay-figure img{max-height:320px}.essay-figure figcaption{font-size:10px;margin-top:14px}.essay-contents{grid-template-columns:1fr 1fr;margin-top:24px}.essay-contents>a{font-size:11px;min-height:65px;padding:13px 11px}.essay-contents>a:nth-child(2){border-right:0}.essay-contents>a:nth-child(-n+2){border-bottom:1px solid #dce2d6}.essay-contents .number{font-size:25px}.essay-body{font-size:18px;line-height:1.75;margin-top:46px;margin-bottom:48px}.essay-section{margin-bottom:40px}.essay-section h2{font-size:25px;margin-bottom:20px}.essay-short>p{font-size:20px}.research-highlights{gap:13px}.highlight-value{font-size:24px}.highlight-label{font-size:10px;line-height:1.5}.research-highlight{padding-top:14px}.method-steps>li{padding-left:33px}.method-steps>li::before{font-size:10px;top:5px}.resource-links{gap:20px;font-size:12px}.source-note{font-size:11px!important}.citation{font-size:12px}.citation pre{font-size:10px}.essay-bottom{font-size:10px;padding-top:22px;flex-direction:column;gap:12px}:lang(zh) .essay-title{font-size:32px;line-height:1.45}:lang(zh) .essay-deck{font-size:18px;line-height:1.85}:lang(zh) .essay-body{font-size:16px;line-height:1.95}:lang(zh) .essay-short>p{font-size:19px}:lang(zh) .essay-section h2{font-size:23px}:lang(zh) .highlight-value{font-size:23px}}
