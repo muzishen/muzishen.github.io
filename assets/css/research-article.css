@@ -84,6 +84,7 @@
 .related-row:last-child{border-bottom:1px solid #b8bfb0}
 .related-row h3{font-size:23px;line-height:1.3;letter-spacing:-.025em;margin:0 0 12px;font-weight:600;text-wrap:pretty}
 .related-copy time{font-size:12px;color:#8b9185}
+.related-meta{display:flex;flex-wrap:wrap;align-items:baseline;gap:7px;font-size:12px;line-height:1.6;color:#8b9185}
 .related-authors{margin:3px 0 0;font-size:13px;line-height:1.7;color:#7c8476}
 .related-arrow{display:grid;place-items:center;background:#263026;color:#fff;border-radius:50%;width:25px;height:25px;font-size:18px;margin-top:3px;transition:transform .2s,background .2s}
 .related-row:hover h3{color:#577246}.related-row:hover .related-arrow{transform:translateX(3px);background:#536846}
