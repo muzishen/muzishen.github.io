@@ -16,12 +16,13 @@
   <meta property="og:description" content="Bring complementary capabilities into one host model by aligning functional subspaces across heterogeneous foundation models.">
   <meta property="og:url" content="https://muzishen.github.io/research/superai/">
   <meta property="og:locale" content="en_US">
-  <meta property="og:image" content="https://muzishen.github.io/images/paper-images/superai.png">
+  <meta property="og:image" content="https://muzishen.github.io/assets/images/research/covers/superai.webp">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="/assets/images/research/mark.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/assets/css/research.css?v=1233161ef3c9">
-  <link rel="stylesheet" href="/assets/css/research-article.css?v=b57197ef88c5">
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "SuperAI: Merging Capabilities Across Heterogeneous Foundation Models", "description": "Bring complementary capabilities into one host model by aligning functional subspaces across heterogeneous foundation models.", "author": [{"@type": "Person", "name": "Dou Jingtong"}, {"@type": "Person", "name": "Shi Chuancheng"}, {"@type": "Person", "name": "Wu Wenhua"}, {"@type": "Person", "name": "Bao Wei"}, {"@type": "Person", "name": "Shen Fei"}, {"@type": "Person", "name": "Wang Zhiyong"}, {"@type": "Person", "name": "Chua Tat-Seng"}], "inLanguage": "en", "mainEntityOfPage": "https://muzishen.github.io/research/superai/", "image": "https://muzishen.github.io/images/paper-images/superai.png", "isBasedOn": "https://arxiv.org/abs/2610.15322"}</script>
+  <link rel="stylesheet" href="/assets/css/research.css?v=26ce8ab3d43d">
+  <link rel="stylesheet" href="/assets/css/research-article.css?v=bb31a7d4c120">
+  <script src="/assets/js/research-article.js?v=4a8da52c5f1b" defer></script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "SuperAI: Merging Capabilities Across Heterogeneous Foundation Models", "description": "Bring complementary capabilities into one host model by aligning functional subspaces across heterogeneous foundation models.", "author": [{"@type": "Person", "name": "Dou Jingtong"}, {"@type": "Person", "name": "Shi Chuancheng"}, {"@type": "Person", "name": "Wu Wenhua"}, {"@type": "Person", "name": "Bao Wei"}, {"@type": "Person", "name": "Shen Fei"}, {"@type": "Person", "name": "Wang Zhiyong"}, {"@type": "Person", "name": "Chua Tat-Seng"}], "inLanguage": "en", "mainEntityOfPage": "https://muzishen.github.io/research/superai/", "image": "https://muzishen.github.io/assets/images/research/covers/superai.webp", "isBasedOn": "https://arxiv.org/abs/2610.15322"}</script>
 </head>
 <body class="essay-page">
   <a class="skip-link" href="#short-version">Skip to the introduction</a>
@@ -40,7 +41,7 @@
     <article>
       <header class="essay-hero">
         <div class="essay-heading">
-          <div class="essay-kicker">Capability Engineering / Research overview</div>
+          <div class="essay-kicker">Fundamental Research / Capability Engineering / Research overview</div>
           <h1 class="essay-title">SuperAI: Merging Capabilities Across Heterogeneous Foundation Models</h1>
           <p class="essay-deck">Bring complementary capabilities into one host model by aligning functional subspaces across heterogeneous foundation models.</p>
           <p class="essay-authors"><span class="author-name">Dou Jingtong</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Shi Chuancheng</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Wu Wenhua</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Bao Wei</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Shen Fei</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Wang Zhiyong</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Chua Tat-Seng</span></p>
@@ -53,8 +54,8 @@
           </div>
         </div>
         <figure class="essay-figure">
-          <img src="/images/paper-images/superai.png" alt="Overview of SuperAI: Merging Capabilities Across Heterogeneous Foundation Models" fetchpriority="high" decoding="async">
-          <figcaption>Research overview figure from the paper.</figcaption>
+          <img src="/assets/images/research/covers/superai.webp" alt="Concept illustration: SuperAI: Merging Capabilities Across Heterogeneous Foundation Models" fetchpriority="high" decoding="async">
+          <figcaption>Concept illustration inspired by the study.</figcaption>
         </figure>
       </header>
       <nav class="essay-contents" aria-label="Article contents">
@@ -66,9 +67,20 @@
       <div class="essay-body">
         <section id="short-version" class="essay-section essay-short" aria-labelledby="short-title">
           <h2 id="short-title">The short version</h2>
-          <p>SuperAI builds a shared cross-model interface from low-dimensional, task-relevant representations. Orthogonal alignment and a lightweight residual MLP support input-dependent capability fusion.</p>
+          <p>SuperAI studies how a host model can incorporate capabilities from heterogeneous source models. It identifies corresponding functional subspaces, aligns their coordinates, and learns residual mappings into the host. The useful interface is a relationship between representations, allowing sources with different architectures to contribute without requiring direct parameter correspondence.</p><p>The framework combines orthogonal subspace alignment, layer selection, and joint training of lightweight mappings. Experiments with multiple hosts and domains examine both specialist gains and retention of the host’s general capabilities as the number of sources grows.</p>
           <div class="research-highlights"><div class="research-highlight"><span class="highlight-value">3</span><span class="highlight-label">Host models</span></div><div class="research-highlight"><span class="highlight-value">15</span><span class="highlight-label">Capability domains</span></div><div class="research-highlight"><span class="highlight-value">PCA</span><span class="highlight-label">Low-dimensional functional spaces</span></div></div>
         </section>
+        <blockquote class="research-thesis"><p>Capabilities become composable when their representations can be aligned across model boundaries.</p></blockquote>
+        <figure class="source-figure">
+          <a class="figure-zoom" href="/assets/images/research/evidence/superai-1.webp" target="_blank" rel="noopener noreferrer" data-figure-src="/assets/images/research/evidence/superai-1.webp" data-figure-title="Figure 2 · A representation interface for composition" aria-label="Enlarge figure: A representation interface for composition">
+            <img src="/assets/images/research/evidence/superai-1.webp" width="1139" height="490" alt="Figure 2 · A representation interface for composition. Subspace alignment, layer selection, feature mapping, and joint training connect source expertise to a host model." loading="lazy" decoding="async">
+            <span class="figure-open-icon" aria-hidden="true">⤢</span>
+          </a>
+          <figcaption><span class="figure-label">Figure 2 / p. 3</span>
+            <h3>A representation interface for composition</h3><p>Subspace alignment, layer selection, feature mapping, and joint training connect source expertise to a host model.</p>
+            <a href="https://arxiv.org/pdf/2610.15322#page=3" target="_blank" rel="noopener noreferrer">View in the paper <span aria-hidden="true">↗</span></a>
+          </figcaption>
+        </figure>
         <section id="motivation" class="essay-section" aria-labelledby="motivation-title">
           <h2 id="motivation-title">Why this matters</h2>
           <p>Useful capabilities are distributed across models with incompatible architectures and representations. Their coordinates must be aligned before source knowledge can be meaningfully injected into a host.</p>
@@ -77,13 +89,33 @@
           <h2 id="method-title">How it works</h2>
           <ol class="method-steps"><li>Use shared anchor samples and PCA to construct source and host subspaces with matching dimensions.</li><li>Align source and host coordinates with orthogonal Procrustes mappings.</li><li>Train residual MLP mappings with both task outputs and source-model increments as supervision.</li></ol>
         </section>
+        <figure class="source-figure">
+          <a class="figure-zoom" href="/assets/images/research/evidence/superai-2.webp" target="_blank" rel="noopener noreferrer" data-figure-src="/assets/images/research/evidence/superai-2.webp" data-figure-title="Figure 3 · Before and after alignment" aria-label="Enlarge figure: Before and after alignment">
+            <img src="/assets/images/research/evidence/superai-2.webp" width="635" height="322" alt="Figure 3 · Before and after alignment. Source and host representations are compared in alignment-sensitive projections." loading="lazy" decoding="async">
+            <span class="figure-open-icon" aria-hidden="true">⤢</span>
+          </a>
+          <figcaption><span class="figure-label">Figure 3 / p. 4</span>
+            <h3>Before and after alignment</h3><p>Source and host representations are compared in alignment-sensitive projections.</p>
+            <a href="https://arxiv.org/pdf/2610.15322#page=4" target="_blank" rel="noopener noreferrer">View in the paper <span aria-hidden="true">↗</span></a>
+          </figcaption>
+        </figure>
         <section id="evidence" class="essay-section" aria-labelledby="evidence-title">
           <h2 id="evidence-title">What the study finds</h2>
           <p>Experiments cover three host models and 15 capability domains. The framework reports higher average domain scores than the evaluated cross-architecture alternatives and better retention of general capabilities as more source models are added.</p>
         </section>
+        <figure class="source-figure">
+          <a class="figure-zoom" href="/assets/images/research/evidence/superai-3.webp" target="_blank" rel="noopener noreferrer" data-figure-src="/assets/images/research/evidence/superai-3.webp" data-figure-title="Figure 5 · Retaining the host’s general capability" aria-label="Enlarge figure: Retaining the host’s general capability">
+            <img src="/assets/images/research/evidence/superai-3.webp" width="465" height="293" alt="Figure 5 · Retaining the host’s general capability. The comparison tracks MMLU retention as the number of source experts increases." loading="lazy" decoding="async">
+            <span class="figure-open-icon" aria-hidden="true">⤢</span>
+          </a>
+          <figcaption><span class="figure-label">Figure 5 / p. 6</span>
+            <h3>Retaining the host’s general capability</h3><p>The comparison tracks MMLU retention as the number of source experts increases.</p>
+            <a href="https://arxiv.org/pdf/2610.15322#page=6" target="_blank" rel="noopener noreferrer">View in the paper <span aria-hidden="true">↗</span></a>
+          </figcaption>
+        </figure>
         <section id="takeaway" class="essay-section" aria-labelledby="takeaway-title">
           <h2 id="takeaway-title">What this means</h2>
-          <p>A functional interface offers a route to combining heterogeneous expertise while explicitly testing interference and general-capability retention.</p>
+          <p>The conceptual shift is to treat a trained model as a possible source of reusable internal computation. Architecture still matters, but functional compatibility offers another organizing principle for combining expertise. Representation alignment becomes a practical question about which information can be carried into a host and used there.</p><p>A useful composition system must also preserve the host’s existing competence and manage interference among sources. The reported evaluations make those tradeoffs visible; extending this approach to broader tasks will require testing whether alignment quality continues to predict usable capability transfer.</p>
         </section>
         <section id="resources" class="essay-section essay-resources" aria-labelledby="resources-title">
           <h2 id="resources-title">Paper and resources</h2>
@@ -108,7 +140,26 @@
         </section>
       </div>
     </article>
+    <section class="related-research" aria-labelledby="related-heading">
+      <div class="related-heading"><span class="eyebrow">Continue exploring</span><h2 id="related-heading">Research</h2></div>
+      <div class="related-list"><a class="related-row" href="/research/transport-and-merge/">
+          <div class="related-copy"><h3>Transport and Merge: Cross-Architecture Merging for Large Language Models</h3><time datetime="2026-02-05">February 5, 2026</time></div>
+          <p class="related-authors"><span class="author-name">Cui Chenhang</span>, <span class="author-name">Yang Binyun</span>, <span class="author-name">Shen Fei</span>, <span class="author-name">Chen Yuxin</span>, <span class="author-name">Zheng Jingnan</span>, <span class="author-name">Wang Xiang</span>, <span class="author-name">Zhang An</span>, <span class="author-name">Chua Tat-Seng</span></p><span class="related-arrow" aria-hidden="true">→</span>
+        </a>
+<a class="related-row" href="/research/hub-spectral/">
+          <div class="related-copy"><h3>Hub-Spectral Activation of Latent Multimodal Knowledge</h3><time datetime="2026-09-15">September 15, 2026</time></div>
+          <p class="related-authors"><span class="author-name">Guo Ying</span>, <span class="author-name">Chen Haidong</span>, <span class="author-name">Xu Linrui</span>, <span class="author-name">Liu Xiaohao</span>, <span class="author-name">Shi Chuancheng</span>, <span class="author-name">Xiao Canran</span>, <span class="author-name">Zhang Dan</span>, <span class="author-name">Shen Fei</span>, <span class="author-name">Shen Li</span>, <span class="author-name">Chua Tat-Seng</span></p><span class="related-arrow" aria-hidden="true">→</span>
+        </a>
+<a class="related-row" href="/research/barq/">
+          <div class="related-copy"><h3>BARQ: Balanced Codebook Refinement for Low-Bit LLM Quantization</h3><time datetime="2026-10-03">October 3, 2026</time></div>
+          <p class="related-authors"><span class="author-name">Cui Chenhang</span>, <span class="author-name">Xie Xu</span>, <span class="author-name">Xu Linrui</span>, <span class="author-name">Liu Xiaohao</span>, <span class="author-name">Zhu Xingyu</span>, <span class="author-name">Shen Fei</span>, <span class="author-name">Chua Tat-Seng</span></p><span class="related-arrow" aria-hidden="true">→</span>
+        </a></div>
+    </section>
   </main>
+  <dialog class="figure-dialog" aria-label="Research figure viewer">
+    <button class="figure-dialog-close" type="button" aria-label="Close figure">Close figure <span aria-hidden="true">×</span></button>
+    <div class="figure-dialog-scroll"><img alt=""></div><p class="figure-dialog-title"></p>
+  </dialog>
   <footer class="essay-container essay-bottom">
     <a href="/">© 2026 Fei Shen · Latent Knowledge Group</a>
     <a href="/research/">More research <span aria-hidden="true">↗</span></a>

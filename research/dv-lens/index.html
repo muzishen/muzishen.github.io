@@ -16,12 +16,13 @@
   <meta property="og:description" content="A vocabulary-space view of native parameters, tested through local output changes and targeted interventions.">
   <meta property="og:url" content="https://muzishen.github.io/research/dv-lens/">
   <meta property="og:locale" content="en_US">
-  <meta property="og:image" content="https://muzishen.github.io/images/paper-images/dv-lens.png">
+  <meta property="og:image" content="https://muzishen.github.io/assets/images/research/covers/dv-lens.webp">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="/assets/images/research/mark.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/assets/css/research.css?v=1233161ef3c9">
-  <link rel="stylesheet" href="/assets/css/research-article.css?v=b57197ef88c5">
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "DV-Lens: Revealing the Functional Organization of Language Model Parameters", "description": "A vocabulary-space view of native parameters, tested through local output changes and targeted interventions.", "author": [{"@type": "Person", "name": "Cui Chenhang"}, {"@type": "Person", "name": "Yu Jian"}, {"@type": "Person", "name": "Miao Shuyi"}, {"@type": "Person", "name": "Liu Xiaohao"}, {"@type": "Person", "name": "Huang Rui"}, {"@type": "Person", "name": "Shen Fei"}, {"@type": "Person", "name": "Zhang An"}, {"@type": "Person", "name": "Chua Tat-Seng"}], "inLanguage": "en", "mainEntityOfPage": "https://muzishen.github.io/research/dv-lens/", "image": "https://muzishen.github.io/images/paper-images/dv-lens.png", "isBasedOn": "https://arxiv.org/abs/2610.04489"}</script>
+  <link rel="stylesheet" href="/assets/css/research.css?v=26ce8ab3d43d">
+  <link rel="stylesheet" href="/assets/css/research-article.css?v=bb31a7d4c120">
+  <script src="/assets/js/research-article.js?v=4a8da52c5f1b" defer></script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "DV-Lens: Revealing the Functional Organization of Language Model Parameters", "description": "A vocabulary-space view of native parameters, tested through local output changes and targeted interventions.", "author": [{"@type": "Person", "name": "Cui Chenhang"}, {"@type": "Person", "name": "Yu Jian"}, {"@type": "Person", "name": "Miao Shuyi"}, {"@type": "Person", "name": "Liu Xiaohao"}, {"@type": "Person", "name": "Huang Rui"}, {"@type": "Person", "name": "Shen Fei"}, {"@type": "Person", "name": "Zhang An"}, {"@type": "Person", "name": "Chua Tat-Seng"}], "inLanguage": "en", "mainEntityOfPage": "https://muzishen.github.io/research/dv-lens/", "image": "https://muzishen.github.io/assets/images/research/covers/dv-lens.webp", "isBasedOn": "https://arxiv.org/abs/2610.04489"}</script>
 </head>
 <body class="essay-page">
   <a class="skip-link" href="#short-version">Skip to the introduction</a>
@@ -40,7 +41,7 @@
     <article>
       <header class="essay-hero">
         <div class="essay-heading">
-          <div class="essay-kicker">Model Understanding / Research overview</div>
+          <div class="essay-kicker">Fundamental Research / Model Understanding / Research overview</div>
           <h1 class="essay-title">DV-Lens: Revealing the Functional Organization of Language Model Parameters</h1>
           <p class="essay-deck">A vocabulary-space view of native parameters, tested through local output changes and targeted interventions.</p>
           <p class="essay-authors"><span class="author-name">Cui Chenhang</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Yu Jian</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Miao Shuyi</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Liu Xiaohao</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Huang Rui</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Shen Fei</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Zhang An</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Chua Tat-Seng</span></p>
@@ -53,8 +54,8 @@
           </div>
         </div>
         <figure class="essay-figure">
-          <img src="/images/paper-images/dv-lens.png" alt="Overview of DV-Lens: Revealing the Functional Organization of Language Model Parameters" fetchpriority="high" decoding="async">
-          <figcaption>Research overview figure from the paper.</figcaption>
+          <img src="/assets/images/research/covers/dv-lens.webp" alt="Concept illustration: DV-Lens: Revealing the Functional Organization of Language Model Parameters" fetchpriority="high" decoding="async">
+          <figcaption>Concept illustration inspired by the study.</figcaption>
         </figure>
       </header>
       <nav class="essay-contents" aria-label="Article contents">
@@ -66,9 +67,20 @@
       <div class="essay-body">
         <section id="short-version" class="essay-section essay-short" aria-labelledby="short-title">
           <h2 id="short-title">The short version</h2>
-          <p>DV-Lens connects parameter directions to signed vocabulary responses. It makes parameter interpretations testable and introduces DV-Complexity to study how functional organization relates to model capability.</p>
+          <p>DV-Lens treats the vocabulary as a shared coordinate system for interpreting native parameters. By following the downstream computation, it translates parameter directions into signed local output responses: which tokens a direction tends to promote, and which it tends to suppress. This connects the internal organization of attention and feed-forward modules to a common, testable interface.</p><p>The study then asks whether that functional organization contains information about model capability. DV-Complexity summarizes variation within functionally grouped parameters. Finite-difference checks, targeted interventions, and a comparison across 48 models connect the proposed readouts to observable behavior at different scales.</p>
           <div class="research-highlights"><div class="research-highlight"><span class="highlight-value">98.0%</span><span class="highlight-label">Local direction agreement</span></div><div class="research-highlight"><span class="highlight-value">21</span><span class="highlight-label">Models with intervention tests</span></div><div class="research-highlight"><span class="highlight-value">0.904</span><span class="highlight-label">Capability-rank Spearman correlation</span></div></div>
         </section>
+        <blockquote class="research-thesis"><p>An explanation of a parameter becomes useful when it predicts a change in the model’s output.</p></blockquote>
+        <figure class="source-figure">
+          <a class="figure-zoom" href="/assets/images/research/evidence/dv-lens-1.webp" target="_blank" rel="noopener noreferrer" data-figure-src="/assets/images/research/evidence/dv-lens-1.webp" data-figure-title="Figure 1 · From parameters to vocabulary responses" aria-label="Enlarge figure: From parameters to vocabulary responses">
+            <img src="/assets/images/research/evidence/dv-lens-1.webp" width="969" height="299" alt="Figure 1 · From parameters to vocabulary responses. The downstream mapping distinguishes DV-Lens from direct vocabulary projection and activation decomposition." loading="lazy" decoding="async">
+            <span class="figure-open-icon" aria-hidden="true">⤢</span>
+          </a>
+          <figcaption><span class="figure-label">Figure 1 / p. 2</span>
+            <h3>From parameters to vocabulary responses</h3><p>The downstream mapping distinguishes DV-Lens from direct vocabulary projection and activation decomposition.</p>
+            <a href="https://arxiv.org/pdf/2610.04489#page=2" target="_blank" rel="noopener noreferrer">View in the paper <span aria-hidden="true">↗</span></a>
+          </figcaption>
+        </figure>
         <section id="motivation" class="essay-section" aria-labelledby="motivation-title">
           <h2 id="motivation-title">Why this matters</h2>
           <p>A parameter interpretation becomes more useful when it predicts what will change in the output. The challenge is to connect parameters from different modules to a common, verifiable output space.</p>
@@ -77,13 +89,33 @@
           <h2 id="method-title">How it works</h2>
           <ol class="method-steps"><li>Estimate downstream Jacobians for attention Q/K/V/O projections and FFNs over reference prompts.</li><li>Project native parameter columns into vocabulary space to obtain signed local readouts.</li><li>Group columns by their readouts and measure within-group structural variation with DV-Complexity.</li></ol>
         </section>
+        <figure class="source-figure">
+          <a class="figure-zoom" href="/assets/images/research/evidence/dv-lens-2.webp" target="_blank" rel="noopener noreferrer" data-figure-src="/assets/images/research/evidence/dv-lens-2.webp" data-figure-title="Figure 2 · Testing the local prediction" aria-label="Enlarge figure: Testing the local prediction">
+            <img src="/assets/images/research/evidence/dv-lens-2.webp" width="542" height="352" alt="Figure 2 · Testing the local prediction. Finite-difference measurements test direction agreement and the recovery of high-impact vocabulary coordinates across nine models." loading="lazy" decoding="async">
+            <span class="figure-open-icon" aria-hidden="true">⤢</span>
+          </a>
+          <figcaption><span class="figure-label">Figure 2 / p. 7</span>
+            <h3>Testing the local prediction</h3><p>Finite-difference measurements test direction agreement and the recovery of high-impact vocabulary coordinates across nine models.</p>
+            <a href="https://arxiv.org/pdf/2610.04489#page=7" target="_blank" rel="noopener noreferrer">View in the paper <span aria-hidden="true">↗</span></a>
+          </figcaption>
+        </figure>
         <section id="evidence" class="essay-section" aria-labelledby="evidence-title">
           <h2 id="evidence-title">What the study finds</h2>
           <p>Finite-difference tests report 98.0% coordinate-orientation agreement across 720 cases from nine models. Readouts also guide ablation, steering, and swapping across 21 models. Across 48 models, joint-parameter DV-Complexity correlates with capability rankings at Spearman ρ = 0.904.</p>
         </section>
+        <figure class="source-figure">
+          <a class="figure-zoom" href="/assets/images/research/evidence/dv-lens-3.webp" target="_blank" rel="noopener noreferrer" data-figure-src="/assets/images/research/evidence/dv-lens-3.webp" data-figure-title="Figure 6 · Organization and capability" aria-label="Enlarge figure: Organization and capability">
+            <img src="/assets/images/research/evidence/dv-lens-3.webp" width="970" height="299" alt="Figure 6 · Organization and capability. Across the fixed 48-model cohort, the plots compare DV-Complexity ranks with benchmark capability ranks. The relationship is correlational." loading="lazy" decoding="async">
+            <span class="figure-open-icon" aria-hidden="true">⤢</span>
+          </a>
+          <figcaption><span class="figure-label">Figure 6 / p. 10</span>
+            <h3>Organization and capability</h3><p>Across the fixed 48-model cohort, the plots compare DV-Complexity ranks with benchmark capability ranks. The relationship is correlational.</p>
+            <a href="https://arxiv.org/pdf/2610.04489#page=10" target="_blank" rel="noopener noreferrer">View in the paper <span aria-hidden="true">↗</span></a>
+          </figcaption>
+        </figure>
         <section id="takeaway" class="essay-section" aria-labelledby="takeaway-title">
           <h2 id="takeaway-title">What this means</h2>
-          <p>The evidence supports local, intervention-tested interpretations and a model-level association. A capability correlation does not by itself establish a causal law of model quality.</p>
+          <p>The broader opportunity is to make interpretability predictive. A parameter map can support specific hypotheses about editing, steering, or transferring behavior when its readouts survive intervention tests. That makes the explanation part of an experimental workflow, rather than an endpoint.</p><p>DV-Complexity also suggests that capability may depend on how parameters are organized, alongside how many parameters a model contains. Its correlation with benchmark rankings motivates controlled studies of that relationship; the reported association alone does not establish that increasing this measure will improve a model.</p>
         </section>
         <section id="resources" class="essay-section essay-resources" aria-labelledby="resources-title">
           <h2 id="resources-title">Paper and resources</h2>
@@ -108,7 +140,26 @@
         </section>
       </div>
     </article>
+    <section class="related-research" aria-labelledby="related-heading">
+      <div class="related-heading"><span class="eyebrow">Continue exploring</span><h2 id="related-heading">Research</h2></div>
+      <div class="related-list"><a class="related-row" href="/research/latent-support/">
+          <div class="related-copy"><h3>Do correct answers have stable latent knowledge support?</h3><time datetime="2026-10-11">October 11, 2026</time></div>
+          <p class="related-authors"><span class="author-name">Shi Chuancheng</span>, <span class="author-name">Li Shangze</span>, <span class="author-name">Wu Wenhua</span>, <span class="author-name">Hu Kun</span>, <span class="author-name">Shen Fei</span>, <span class="author-name">Wang Zhiyong</span>, <span class="author-name">Chua Tat-Seng</span></p><span class="related-arrow" aria-hidden="true">→</span>
+        </a>
+<a class="related-row" href="/research/superai/">
+          <div class="related-copy"><h3>SuperAI: Merging Capabilities Across Heterogeneous Foundation Models</h3><time datetime="2026-10-11">October 11, 2026</time></div>
+          <p class="related-authors"><span class="author-name">Dou Jingtong</span>, <span class="author-name">Shi Chuancheng</span>, <span class="author-name">Wu Wenhua</span>, <span class="author-name">Bao Wei</span>, <span class="author-name">Shen Fei</span>, <span class="author-name">Wang Zhiyong</span>, <span class="author-name">Chua Tat-Seng</span></p><span class="related-arrow" aria-hidden="true">→</span>
+        </a>
+<a class="related-row" href="/research/hub-spectral/">
+          <div class="related-copy"><h3>Hub-Spectral Activation of Latent Multimodal Knowledge</h3><time datetime="2026-09-15">September 15, 2026</time></div>
+          <p class="related-authors"><span class="author-name">Guo Ying</span>, <span class="author-name">Chen Haidong</span>, <span class="author-name">Xu Linrui</span>, <span class="author-name">Liu Xiaohao</span>, <span class="author-name">Shi Chuancheng</span>, <span class="author-name">Xiao Canran</span>, <span class="author-name">Zhang Dan</span>, <span class="author-name">Shen Fei</span>, <span class="author-name">Shen Li</span>, <span class="author-name">Chua Tat-Seng</span></p><span class="related-arrow" aria-hidden="true">→</span>
+        </a></div>
+    </section>
   </main>
+  <dialog class="figure-dialog" aria-label="Research figure viewer">
+    <button class="figure-dialog-close" type="button" aria-label="Close figure">Close figure <span aria-hidden="true">×</span></button>
+    <div class="figure-dialog-scroll"><img alt=""></div><p class="figure-dialog-title"></p>
+  </dialog>
   <footer class="essay-container essay-bottom">
     <a href="/">© 2026 Fei Shen · Latent Knowledge Group</a>
     <a href="/research/">More research <span aria-hidden="true">↗</span></a>

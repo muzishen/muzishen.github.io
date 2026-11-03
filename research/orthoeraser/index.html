@@ -16,12 +16,13 @@
   <meta property="og:description" content="Erase a sensitive concept while explicitly protecting the benign features coupled to the intervention.">
   <meta property="og:url" content="https://muzishen.github.io/research/orthoeraser/">
   <meta property="og:locale" content="en_US">
-  <meta property="og:image" content="https://muzishen.github.io/images/paper-images/orthoeraser.png">
+  <meta property="og:image" content="https://muzishen.github.io/assets/images/research/covers/orthoeraser.webp">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="/assets/images/research/mark.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/assets/css/research.css?v=1233161ef3c9">
-  <link rel="stylesheet" href="/assets/css/research-article.css?v=b57197ef88c5">
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "OrthoEraser: Coupled-Neuron Orthogonal Projection for Concept Erasure", "description": "Erase a sensitive concept while explicitly protecting the benign features coupled to the intervention.", "author": [{"@type": "Person", "name": "Shi Chuancheng"}, {"@type": "Person", "name": "Wu Wenhua"}, {"@type": "Person", "name": "Shen Fei"}, {"@type": "Person", "name": "Zhu Xiaogang"}, {"@type": "Person", "name": "Hu Kun"}, {"@type": "Person", "name": "Wang Zhiyong"}], "inLanguage": "en", "mainEntityOfPage": "https://muzishen.github.io/research/orthoeraser/", "image": "https://muzishen.github.io/images/paper-images/orthoeraser.png", "isBasedOn": "https://arxiv.org/abs/2603.11493"}</script>
+  <link rel="stylesheet" href="/assets/css/research.css?v=26ce8ab3d43d">
+  <link rel="stylesheet" href="/assets/css/research-article.css?v=bb31a7d4c120">
+  <script src="/assets/js/research-article.js?v=4a8da52c5f1b" defer></script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "OrthoEraser: Coupled-Neuron Orthogonal Projection for Concept Erasure", "description": "Erase a sensitive concept while explicitly protecting the benign features coupled to the intervention.", "author": [{"@type": "Person", "name": "Shi Chuancheng"}, {"@type": "Person", "name": "Wu Wenhua"}, {"@type": "Person", "name": "Shen Fei"}, {"@type": "Person", "name": "Zhu Xiaogang"}, {"@type": "Person", "name": "Hu Kun"}, {"@type": "Person", "name": "Wang Zhiyong"}], "inLanguage": "en", "mainEntityOfPage": "https://muzishen.github.io/research/orthoeraser/", "image": "https://muzishen.github.io/assets/images/research/covers/orthoeraser.webp", "isBasedOn": "https://arxiv.org/abs/2603.11493"}</script>
 </head>
 <body class="essay-page">
   <a class="skip-link" href="#short-version">Skip to the introduction</a>
@@ -40,7 +41,7 @@
     <article>
       <header class="essay-hero">
         <div class="essay-heading">
-          <div class="essay-kicker">Reliability &amp; Safety / Research overview</div>
+          <div class="essay-kicker">Fundamental Research / Reliability &amp; Safety / Research overview</div>
           <h1 class="essay-title">OrthoEraser: Coupled-Neuron Orthogonal Projection for Concept Erasure</h1>
           <p class="essay-deck">Erase a sensitive concept while explicitly protecting the benign features coupled to the intervention.</p>
           <p class="essay-authors"><span class="author-name">Shi Chuancheng</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Wu Wenhua</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Shen Fei</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Zhu Xiaogang</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Hu Kun</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Wang Zhiyong</span></p>
@@ -53,8 +54,8 @@
           </div>
         </div>
         <figure class="essay-figure">
-          <img src="/images/paper-images/orthoeraser.png" alt="Overview of OrthoEraser: Coupled-Neuron Orthogonal Projection for Concept Erasure" fetchpriority="high" decoding="async">
-          <figcaption>Research overview figure from the paper.</figcaption>
+          <img src="/assets/images/research/covers/orthoeraser.webp" alt="Concept illustration: OrthoEraser: Coupled-Neuron Orthogonal Projection for Concept Erasure" fetchpriority="high" decoding="async">
+          <figcaption>Concept illustration inspired by the study.</figcaption>
         </figure>
       </header>
       <nav class="essay-contents" aria-label="Article contents">
@@ -66,9 +67,20 @@
       <div class="essay-body">
         <section id="short-version" class="essay-section essay-short" aria-labelledby="short-title">
           <h2 id="short-title">The short version</h2>
-          <p>OrthoEraser reframes concept erasure as a constrained projection. It uses sparse features to identify sensitive and coupled benign units, then projects erasure updates away from the protected subspace.</p>
+          <p>OrthoEraser studies concept erasure through the geometry of entangled features. It locates sensitive neurons and identifies coupled features whose responses overlap with the target. An orthogonal projection constrains the intervention relative to the coupled benign subspace, aiming to suppress the target while reducing collateral changes.</p><p>The evaluation pairs removal effectiveness with generation fidelity and feature-level analysis. This makes selectivity a first-class objective: a stronger intervention is useful when its behavioral effect is specific enough to preserve legitimate generation.</p>
           <div class="research-highlights"><div class="research-highlight"><span class="highlight-value">SAE</span><span class="highlight-label">Sparse feature decomposition</span></div><div class="research-highlight"><span class="highlight-value">Null</span><span class="highlight-label">Constrained erasure projection</span></div><div class="research-highlight"><span class="highlight-value">Coupled</span><span class="highlight-label">Benign features to protect</span></div></div>
         </section>
+        <blockquote class="research-thesis"><p>Precise concept removal requires understanding what the target shares with the capabilities we want to preserve.</p></blockquote>
+        <figure class="source-figure">
+          <a class="figure-zoom" href="/assets/images/research/evidence/orthoeraser-1.webp" target="_blank" rel="noopener noreferrer" data-figure-src="/assets/images/research/evidence/orthoeraser-1.webp" data-figure-title="Figure 3 · Locating sensitive layers and neurons" aria-label="Enlarge figure: Locating sensitive layers and neurons">
+            <img src="/assets/images/research/evidence/orthoeraser-1.webp" width="1142" height="314" alt="Figure 3 · Locating sensitive layers and neurons. Layer-level sensitivity and neuron-level scores narrow the target of intervention." loading="lazy" decoding="async">
+            <span class="figure-open-icon" aria-hidden="true">⤢</span>
+          </a>
+          <figcaption><span class="figure-label">Figure 3 / p. 3</span>
+            <h3>Locating sensitive layers and neurons</h3><p>Layer-level sensitivity and neuron-level scores narrow the target of intervention.</p>
+            <a href="https://arxiv.org/pdf/2603.11493#page=3" target="_blank" rel="noopener noreferrer">View in the paper <span aria-hidden="true">↗</span></a>
+          </figcaption>
+        </figure>
         <section id="motivation" class="essay-section" aria-labelledby="motivation-title">
           <h2 id="motivation-title">Why this matters</h2>
           <p>Suppressing a whole unit can also remove benign attributes because sensitive and benign semantics need not occupy orthogonal activation spaces.</p>
@@ -77,13 +89,33 @@
           <h2 id="method-title">How it works</h2>
           <ol class="method-steps"><li>Decompose dense activations with an SAE and identify sensitive units.</li><li>Detect coupled benign units that are vulnerable to the proposed intervention.</li><li>Project erasure vectors into the coupled units’ null space using analytical orthogonalization.</li></ol>
         </section>
+        <figure class="source-figure">
+          <a class="figure-zoom" href="/assets/images/research/evidence/orthoeraser-2.webp" target="_blank" rel="noopener noreferrer" data-figure-src="/assets/images/research/evidence/orthoeraser-2.webp" data-figure-title="Figure 7 · Inspecting feature entanglement" aria-label="Enlarge figure: Inspecting feature entanglement">
+            <img src="/assets/images/research/evidence/orthoeraser-2.webp" width="1141" height="358" alt="Figure 7 · Inspecting feature entanglement. Activation shifts are compared across sensitive, coupled, and other neurons for two concept groups." loading="lazy" decoding="async">
+            <span class="figure-open-icon" aria-hidden="true">⤢</span>
+          </a>
+          <figcaption><span class="figure-label">Figure 7 / p. 8</span>
+            <h3>Inspecting feature entanglement</h3><p>Activation shifts are compared across sensitive, coupled, and other neurons for two concept groups.</p>
+            <a href="https://arxiv.org/pdf/2603.11493#page=8" target="_blank" rel="noopener noreferrer">View in the paper <span aria-hidden="true">↗</span></a>
+          </figcaption>
+        </figure>
         <section id="evidence" class="essay-section" aria-labelledby="evidence-title">
           <h2 id="evidence-title">What the study finds</h2>
           <p>The paper evaluates erasure precision and preservation of non-sensitive generation together. Reported comparisons support the benefit of explicitly protecting the identified benign subspace.</p>
         </section>
+        <figure class="source-figure">
+          <a class="figure-zoom" href="/assets/images/research/evidence/orthoeraser-3.webp" target="_blank" rel="noopener noreferrer" data-figure-src="/assets/images/research/evidence/orthoeraser-3.webp" data-figure-title="Table 3 · Suppression and preservation" aria-label="Enlarge figure: Suppression and preservation">
+            <img src="/assets/images/research/evidence/orthoeraser-3.webp" width="556" height="258" alt="Table 3 · Suppression and preservation. Intervention strategies are compared on target detection, image-text alignment, and generation fidelity." loading="lazy" decoding="async">
+            <span class="figure-open-icon" aria-hidden="true">⤢</span>
+          </a>
+          <figcaption><span class="figure-label">Table 3 / p. 8</span>
+            <h3>Suppression and preservation</h3><p>Intervention strategies are compared on target detection, image-text alignment, and generation fidelity.</p>
+            <a href="https://arxiv.org/pdf/2603.11493#page=8" target="_blank" rel="noopener noreferrer">View in the paper <span aria-hidden="true">↗</span></a>
+          </figcaption>
+        </figure>
         <section id="takeaway" class="essay-section" aria-labelledby="takeaway-title">
           <h2 id="takeaway-title">What this means</h2>
-          <p>The protected object is an identified benign subspace. Evaluating both suppression and collateral effects is central to understanding the intervention.</p>
+          <p>Controllability depends on the resolution of an intervention. When harmful and benign features share directions, indiscriminate suppression can damage both. Geometry provides a way to express which components should change and which should be protected.</p><p>The broader lesson is to evaluate editing through a joint account of suppression and preservation. The tested projection offers evidence for a more selective mechanism; its guarantees are limited to the modeled subspace and experimental settings, motivating continued checks for residual behavior and side effects.</p>
         </section>
         <section id="resources" class="essay-section essay-resources" aria-labelledby="resources-title">
           <h2 id="resources-title">Paper and resources</h2>
@@ -108,7 +140,26 @@
         </section>
       </div>
     </article>
+    <section class="related-research" aria-labelledby="related-heading">
+      <div class="related-heading"><span class="eyebrow">Continue exploring</span><h2 id="related-heading">Research</h2></div>
+      <div class="related-list"><a class="related-row" href="/research/tracerouter/">
+          <div class="related-copy"><h3>TraceRouter: Robust Safety for Large Foundation Models via Path-Level Intervention</h3><time datetime="2026-01-29">January 29, 2026</time></div>
+          <p class="related-authors"><span class="author-name">Shi Chuancheng</span>, <span class="author-name">Li Shangze</span>, <span class="author-name">Lu Wenjun</span>, <span class="author-name">Wu Wenhua</span>, <span class="author-name">Wang Cong</span>, <span class="author-name">Cheng Zifeng</span>, <span class="author-name">Shen Fei</span>, <span class="author-name">Chua Tat-Seng</span></p><span class="related-arrow" aria-hidden="true">→</span>
+        </a>
+<a class="related-row" href="/research/who-transfers-safety/">
+          <div class="related-copy"><h3>Who Transfers Safety? Identifying and Targeting Cross-Lingual Shared Safety Neurons</h3><time datetime="2026-02-01">February 1, 2026</time></div>
+          <p class="related-authors"><span class="author-name">Zhang Xianhui</span>, <span class="author-name">Xie Chengyu</span>, <span class="author-name">Zhu Linxia</span>, <span class="author-name">Yang Yonghui</span>, <span class="author-name">Zhao Weixiang</span>, <span class="author-name">Cheng Zifeng</span>, <span class="author-name">Wang Cong</span>, <span class="author-name">Shen Fei</span>, <span class="author-name">Chua Tat-Seng</span></p><span class="related-arrow" aria-hidden="true">→</span>
+        </a>
+<a class="related-row" href="/research/emorss/">
+          <div class="related-copy"><h3>EmoRSS: Mitigating Emotion-Induced Over-Refusal in Large Language Models</h3><time datetime="2026-10-04">October 4, 2026</time></div>
+          <p class="related-authors"><span class="author-name">Miao Shuyi</span>, <span class="author-name">Ma Yaojin</span>, <span class="author-name">Cui Chenhang</span>, <span class="author-name">Liu Xiaohao</span>, <span class="author-name">Dang Jisheng</span>, <span class="author-name">Zhuo Shengda</span>, <span class="author-name">Shen Fei</span>, <span class="author-name">Chua Tat-Seng</span></p><span class="related-arrow" aria-hidden="true">→</span>
+        </a></div>
+    </section>
   </main>
+  <dialog class="figure-dialog" aria-label="Research figure viewer">
+    <button class="figure-dialog-close" type="button" aria-label="Close figure">Close figure <span aria-hidden="true">×</span></button>
+    <div class="figure-dialog-scroll"><img alt=""></div><p class="figure-dialog-title"></p>
+  </dialog>
   <footer class="essay-container essay-bottom">
     <a href="/">© 2026 Fei Shen · Latent Knowledge Group</a>
     <a href="/research/">More research <span aria-hidden="true">↗</span></a>

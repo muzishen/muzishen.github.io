@@ -16,12 +16,13 @@
   <meta property="og:description" content="利用激活对应关系，在架构不兼容的语言模型之间迁移知识。">
   <meta property="og:url" content="https://muzishen.github.io/research/zh/transport-and-merge/">
   <meta property="og:locale" content="zh_CN">
-  <meta property="og:image" content="https://muzishen.github.io/images/paper-images/tm.png">
+  <meta property="og:image" content="https://muzishen.github.io/assets/images/research/covers/transport-and-merge.webp">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="/assets/images/research/mark.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/assets/css/research.css?v=1233161ef3c9">
-  <link rel="stylesheet" href="/assets/css/research-article.css?v=b57197ef88c5">
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Transport and Merge：跨架构大语言模型合并", "description": "利用激活对应关系，在架构不兼容的语言模型之间迁移知识。", "author": [{"@type": "Person", "name": "Cui Chenhang"}, {"@type": "Person", "name": "Yang Binyun"}, {"@type": "Person", "name": "Shen Fei"}, {"@type": "Person", "name": "Chen Yuxin"}, {"@type": "Person", "name": "Zheng Jingnan"}, {"@type": "Person", "name": "Wang Xiang"}, {"@type": "Person", "name": "Zhang An"}, {"@type": "Person", "name": "Chua Tat-Seng"}], "inLanguage": "zh-Hans", "mainEntityOfPage": "https://muzishen.github.io/research/zh/transport-and-merge/", "image": "https://muzishen.github.io/images/paper-images/tm.png", "isBasedOn": "https://arxiv.org/abs/2602.05495"}</script>
+  <link rel="stylesheet" href="/assets/css/research.css?v=26ce8ab3d43d">
+  <link rel="stylesheet" href="/assets/css/research-article.css?v=bb31a7d4c120">
+  <script src="/assets/js/research-article.js?v=4a8da52c5f1b" defer></script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Transport and Merge：跨架构大语言模型合并", "description": "利用激活对应关系，在架构不兼容的语言模型之间迁移知识。", "author": [{"@type": "Person", "name": "Cui Chenhang"}, {"@type": "Person", "name": "Yang Binyun"}, {"@type": "Person", "name": "Shen Fei"}, {"@type": "Person", "name": "Chen Yuxin"}, {"@type": "Person", "name": "Zheng Jingnan"}, {"@type": "Person", "name": "Wang Xiang"}, {"@type": "Person", "name": "Zhang An"}, {"@type": "Person", "name": "Chua Tat-Seng"}], "inLanguage": "zh-Hans", "mainEntityOfPage": "https://muzishen.github.io/research/zh/transport-and-merge/", "image": "https://muzishen.github.io/assets/images/research/covers/transport-and-merge.webp", "isBasedOn": "https://arxiv.org/abs/2602.05495"}</script>
 </head>
 <body class="essay-page">
   <a class="skip-link" href="#short-version">跳至文章介绍</a>
@@ -40,7 +41,7 @@
     <article>
       <header class="essay-hero">
         <div class="essay-heading">
-          <div class="essay-kicker">能力激发与迁移 / 研究解读</div>
+          <div class="essay-kicker">基础研究 / 能力激发与迁移 / 研究解读</div>
           <h1 class="essay-title">Transport and Merge：跨架构大语言模型合并</h1>
           <p class="essay-deck">利用激活对应关系，在架构不兼容的语言模型之间迁移知识。</p>
           <p class="essay-authors"><span class="author-name">Cui Chenhang</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Yang Binyun</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Shen Fei</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Chen Yuxin</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Zheng Jingnan</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Wang Xiang</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Zhang An</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Chua Tat-Seng</span></p>
@@ -53,8 +54,8 @@
           </div>
         </div>
         <figure class="essay-figure">
-          <img src="/images/paper-images/tm.png" alt="《Transport and Merge：跨架构大语言模型合并》研究概览" fetchpriority="high" decoding="async">
-          <figcaption>论文研究概览配图。</figcaption>
+          <img src="/assets/images/research/covers/transport-and-merge.webp" alt="概念视觉: Transport and Merge：跨架构大语言模型合并" fetchpriority="high" decoding="async">
+          <figcaption>根据研究主题创作的概念视觉。</figcaption>
         </figure>
       </header>
       <nav class="essay-contents" aria-label="文章目录">
@@ -66,9 +67,20 @@
       <div class="essay-body">
         <section id="short-version" class="essay-section essay-short" aria-labelledby="short-title">
           <h2 id="short-title">核心内容</h2>
-          <p>Transport and Merge 通过最优传输，从激活中推断跨神经元对应关系，并据此引导异构模型的权重空间融合。</p>
+          <p>Transport and Merge 根据激活关系构造最优传输，在异构语言模型之间建立对应，再据此进行层与特征对齐，支持跨架构权重融合。少量共享输入提供连接两个模型所需的经验依据。</p><p>工作在低资源语言和领域任务中评估知识迁移，并探索融合后的残差冻结适配，将寻找功能对应与整合迁移表征这两个问题分别处理。</p>
           <div class="research-highlights"><div class="research-highlight"><span class="highlight-value">OT</span><span class="highlight-label">跨神经元对应关系</span></div><div class="research-highlight"><span class="highlight-value">跨架构</span><span class="highlight-label">异构模型融合</span></div><div class="research-highlight"><span class="highlight-value">少量输入</span><span class="highlight-label">共享输入对齐集</span></div></div>
         </section>
+        <blockquote class="research-thesis"><p>跨架构迁移知识，首先需要找到内部计算之间的对应关系。</p></blockquote>
+        <figure class="source-figure">
+          <a class="figure-zoom" href="/assets/images/research/evidence/transport-and-merge-1.webp" target="_blank" rel="noopener noreferrer" data-figure-src="/assets/images/research/evidence/transport-and-merge-1.webp" data-figure-title="图2 · 架构之间的传输映射" aria-label="点击放大: 架构之间的传输映射">
+            <img src="/assets/images/research/evidence/transport-and-merge-1.webp" width="1184" height="497" alt="图2 · 架构之间的传输映射. 激活对应关系引导层传输、特征传输与权重融合。" loading="lazy" decoding="async">
+            <span class="figure-open-icon" aria-hidden="true">⤢</span>
+          </a>
+          <figcaption><span class="figure-label">图2 / 第4页</span>
+            <h3>架构之间的传输映射</h3><p>激活对应关系引导层传输、特征传输与权重融合。</p>
+            <a href="https://arxiv.org/pdf/2602.05495#page=4" target="_blank" rel="noopener noreferrer">查看论文原图 <span aria-hidden="true">↗</span></a>
+          </figcaption>
+        </figure>
         <section id="motivation" class="essay-section" aria-labelledby="motivation-title">
           <h2 id="motivation-title">为什么研究这个问题</h2>
           <p>常规模型合并通常假设架构兼容。这限制了高资源来源模型向异构目标模型的知识迁移，尤其是在目标语言或任务数据有限时。</p>
@@ -77,13 +89,33 @@
           <h2 id="method-title">方法如何工作</h2>
           <ol class="method-steps"><li>在少量共享输入上提取来源模型与目标模型的激活。</li><li>利用最优传输建立异构神经表示之间的对应关系。</li><li>利用得到的传输计划引导权重空间融合，将来源模型的知识引入目标模型。</li></ol>
         </section>
+        <figure class="source-figure">
+          <a class="figure-zoom" href="/assets/images/research/evidence/transport-and-merge-2.webp" target="_blank" rel="noopener noreferrer" data-figure-src="/assets/images/research/evidence/transport-and-merge-2.webp" data-figure-title="图3 · 对应关系有多集中？" aria-label="点击放大: 对应关系有多集中？">
+            <img src="/assets/images/research/evidence/transport-and-merge-2.webp" width="578" height="355" alt="图3 · 对应关系有多集中？. 图中测量排名靠前的神经元对应关系能够解释多少传输质量。" loading="lazy" decoding="async">
+            <span class="figure-open-icon" aria-hidden="true">⤢</span>
+          </a>
+          <figcaption><span class="figure-label">图3 / 第8页</span>
+            <h3>对应关系有多集中？</h3><p>图中测量排名靠前的神经元对应关系能够解释多少传输质量。</p>
+            <a href="https://arxiv.org/pdf/2602.05495#page=8" target="_blank" rel="noopener noreferrer">查看论文原图 <span aria-hidden="true">↗</span></a>
+          </figcaption>
+        </figure>
         <section id="evidence" class="essay-section" aria-labelledby="evidence-title">
           <h2 id="evidence-title">实验发现了什么</h2>
           <p>低资源语言和专业领域上的实验报告了相对对应目标模型的持续改进。跨模型对应关系由少量输入推断得到。</p>
         </section>
+        <figure class="source-figure">
+          <a class="figure-zoom" href="/assets/images/research/evidence/transport-and-merge-3.webp" target="_blank" rel="noopener noreferrer" data-figure-src="/assets/images/research/evidence/transport-and-merge-3.webp" data-figure-title="表1 · 低资源语言中的迁移效果" aria-label="点击放大: 低资源语言中的迁移效果">
+            <img src="/assets/images/research/evidence/transport-and-merge-3.webp" width="582" height="229" alt="表1 · 低资源语言中的迁移效果. 原始 MalayMMLU 表格比较基础模型、融合模型与后续适配的表现。" loading="lazy" decoding="async">
+            <span class="figure-open-icon" aria-hidden="true">⤢</span>
+          </a>
+          <figcaption><span class="figure-label">表1 / 第6页</span>
+            <h3>低资源语言中的迁移效果</h3><p>原始 MalayMMLU 表格比较基础模型、融合模型与后续适配的表现。</p>
+            <a href="https://arxiv.org/pdf/2602.05495#page=6" target="_blank" rel="noopener noreferrer">查看论文原图 <span aria-hidden="true">↗</span></a>
+          </figcaption>
+        </figure>
         <section id="takeaway" class="essay-section" aria-labelledby="takeaway-title">
           <h2 id="takeaway-title">这项研究意味着什么</h2>
-          <p>有意义的跨架构融合需要先解决对齐问题。激活几何提供了估计这种对应关系的途径，使神经元坐标匹配从预设条件变成可研究的步骤。</p>
+          <p>这一视角把模型融合理解为内部坐标系之间的翻译。架构差异可能遮蔽实际存在的功能联系，而激活关系为跨越这种边界提供了可测量的桥梁。</p><p>实际价值在于，在适配数据有限时复用已训练模型中的知识。后续关键问题包括：传输计划在什么条件下能够保留功能，共享输入覆盖范围如何影响映射，以及迁移收益能否延伸到建立对应关系之外的任务。</p>
         </section>
         <section id="resources" class="essay-section essay-resources" aria-labelledby="resources-title">
           <h2 id="resources-title">论文与相关资源</h2>
@@ -108,7 +140,26 @@
         </section>
       </div>
     </article>
+    <section class="related-research" aria-labelledby="related-heading">
+      <div class="related-heading"><span class="eyebrow">继续探索</span><h2 id="related-heading">研究成果</h2></div>
+      <div class="related-list"><a class="related-row" href="/research/zh/superai/">
+          <div class="related-copy"><h3>SuperAI：跨异构基础模型的能力合并</h3><time datetime="2026-10-11">2026年10月11日</time></div>
+          <p class="related-authors"><span class="author-name">Dou Jingtong</span>, <span class="author-name">Shi Chuancheng</span>, <span class="author-name">Wu Wenhua</span>, <span class="author-name">Bao Wei</span>, <span class="author-name">Shen Fei</span>, <span class="author-name">Wang Zhiyong</span>, <span class="author-name">Chua Tat-Seng</span></p><span class="related-arrow" aria-hidden="true">→</span>
+        </a>
+<a class="related-row" href="/research/zh/barq/">
+          <div class="related-copy"><h3>BARQ：面向低比特大语言模型量化的平衡码本优化</h3><time datetime="2026-10-03">2026年10月3日</time></div>
+          <p class="related-authors"><span class="author-name">Cui Chenhang</span>, <span class="author-name">Xie Xu</span>, <span class="author-name">Xu Linrui</span>, <span class="author-name">Liu Xiaohao</span>, <span class="author-name">Zhu Xingyu</span>, <span class="author-name">Shen Fei</span>, <span class="author-name">Chua Tat-Seng</span></p><span class="related-arrow" aria-hidden="true">→</span>
+        </a>
+<a class="related-row" href="/research/zh/hub-spectral/">
+          <div class="related-copy"><h3>Hub-Spectral：激活潜在多模态知识</h3><time datetime="2026-09-15">2026年9月15日</time></div>
+          <p class="related-authors"><span class="author-name">Guo Ying</span>, <span class="author-name">Chen Haidong</span>, <span class="author-name">Xu Linrui</span>, <span class="author-name">Liu Xiaohao</span>, <span class="author-name">Shi Chuancheng</span>, <span class="author-name">Xiao Canran</span>, <span class="author-name">Zhang Dan</span>, <span class="author-name">Shen Fei</span>, <span class="author-name">Shen Li</span>, <span class="author-name">Chua Tat-Seng</span></p><span class="related-arrow" aria-hidden="true">→</span>
+        </a></div>
+    </section>
   </main>
+  <dialog class="figure-dialog" aria-label="论文图表查看器">
+    <button class="figure-dialog-close" type="button" aria-label="关闭大图">关闭大图 <span aria-hidden="true">×</span></button>
+    <div class="figure-dialog-scroll"><img alt=""></div><p class="figure-dialog-title"></p>
+  </dialog>
   <footer class="essay-container essay-bottom">
     <a href="/">© 2026 Fei Shen · Latent Knowledge Group</a>
     <a href="/research/zh/">更多研究 <span aria-hidden="true">↗</span></a>

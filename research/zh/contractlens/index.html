@@ -16,31 +16,32 @@
   <meta property="og:description" content="定位模型中的潜在安全信号，利用紧凑的内部神经单元表示检测恶意智能合约。">
   <meta property="og:url" content="https://muzishen.github.io/research/zh/contractlens/">
   <meta property="og:locale" content="zh_CN">
-  <meta property="og:image" content="https://muzishen.github.io/images/paper-images/contract-lens.png">
+  <meta property="og:image" content="https://muzishen.github.io/assets/images/research/covers/contractlens.webp">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="/assets/images/research/mark.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/assets/css/research.css?v=1233161ef3c9">
-  <link rel="stylesheet" href="/assets/css/research-article.css?v=b57197ef88c5">
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "ContractLens：利用潜在安全知识检测恶意智能合约", "description": "定位模型中的潜在安全信号，利用紧凑的内部神经单元表示检测恶意智能合约。", "author": [{"@type": "Person", "name": "Miao Shuyi"}, {"@type": "Person", "name": "Huang Xinyi"}, {"@type": "Person", "name": "Qiu Wangjie"}, {"@type": "Person", "name": "Shen Fei"}, {"@type": "Person", "name": "He Jinchun"}, {"@type": "Person", "name": "Zheng Zhiming"}, {"@type": "Person", "name": "Chua Tat-Seng"}], "inLanguage": "zh-Hans", "mainEntityOfPage": "https://muzishen.github.io/research/zh/contractlens/", "image": "https://muzishen.github.io/images/paper-images/contract-lens.png", "isBasedOn": "https://arxiv.org/abs/2610.04992"}</script>
+  <link rel="stylesheet" href="/assets/css/research.css?v=26ce8ab3d43d">
+  <link rel="stylesheet" href="/assets/css/research-article.css?v=bb31a7d4c120">
+  <script src="/assets/js/research-article.js?v=4a8da52c5f1b" defer></script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "ContractLens：利用潜在安全知识检测恶意智能合约", "description": "定位模型中的潜在安全信号，利用紧凑的内部神经单元表示检测恶意智能合约。", "author": [{"@type": "Person", "name": "Miao Shuyi"}, {"@type": "Person", "name": "Huang Xinyi"}, {"@type": "Person", "name": "Qiu Wangjie"}, {"@type": "Person", "name": "Shen Fei"}, {"@type": "Person", "name": "He Jinchun"}, {"@type": "Person", "name": "Zheng Zhiming"}, {"@type": "Person", "name": "Chua Tat-Seng"}], "inLanguage": "zh-Hans", "mainEntityOfPage": "https://muzishen.github.io/research/zh/contractlens/", "image": "https://muzishen.github.io/assets/images/research/covers/contractlens.webp", "isBasedOn": "https://arxiv.org/abs/2610.04992"}</script>
 </head>
 <body class="essay-page">
   <a class="skip-link" href="#short-version">跳至文章介绍</a>
   <header class="essay-container essay-bar">
-    <a class="essay-bar-label" href="/research/zh/">NExT-LFM · 研究解读</a>
+    <a class="essay-bar-label" href="/research/zh/?topic=applied">NExT-LFM · 研究解读</a>
     <div class="essay-bar-actions">
       <div class="language-switch" role="group" aria-label="语言">
         <a href="/research/contractlens/" lang="en" hreflang="en">EN</a>
         <span class="divider" aria-hidden="true"></span>
         <a href="/research/zh/contractlens/" lang="zh-Hans" hreflang="zh-Hans" aria-current="page">中文</a>
       </div>
-      <a href="/research/zh/">更多研究 <span aria-hidden="true">↗</span></a>
+      <a href="/research/zh/?topic=applied">更多研究 <span aria-hidden="true">↗</span></a>
     </div>
   </header>
   <main class="essay-container">
     <article>
       <header class="essay-hero">
         <div class="essay-heading">
-          <div class="essay-kicker">应用研究 / 研究解读</div>
+          <div class="essay-kicker">应用研究 / 应用研究 / 研究解读</div>
           <h1 class="essay-title">ContractLens：利用潜在安全知识检测恶意智能合约</h1>
           <p class="essay-deck">定位模型中的潜在安全信号，利用紧凑的内部神经单元表示检测恶意智能合约。</p>
           <p class="essay-authors"><span class="author-name">Miao Shuyi</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Huang Xinyi</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Qiu Wangjie</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Shen Fei</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">He Jinchun</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Zheng Zhiming</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Chua Tat-Seng</span></p>
@@ -53,8 +54,8 @@
           </div>
         </div>
         <figure class="essay-figure">
-          <img src="/images/paper-images/contract-lens.png" alt="《ContractLens：利用潜在安全知识检测恶意智能合约》研究概览" fetchpriority="high" decoding="async">
-          <figcaption>论文研究概览配图。</figcaption>
+          <img src="/assets/images/research/covers/contractlens.webp" alt="概念视觉: ContractLens：利用潜在安全知识检测恶意智能合约" fetchpriority="high" decoding="async">
+          <figcaption>根据研究主题创作的概念视觉。</figcaption>
         </figure>
       </header>
       <nav class="essay-contents" aria-label="文章目录">
@@ -66,9 +67,20 @@
       <div class="essay-body">
         <section id="short-version" class="essay-section essay-short" aria-labelledby="short-title">
           <h2 id="short-title">核心内容</h2>
-          <p>ContractLens 定位恶意合约判别单元 MCDU，并在其激活上训练轻量分类器；整个过程中，预训练语言模型保持冻结。</p>
+          <p>ContractLens 依据这两个要求，在冻结语言模型中定位恶意合约检测单元。它比较移除恶意逻辑与保留行为的格式、注释等修改所产生的影响，选择既能区分恶意行为、感知其移除，又能抵抗无关变化的关键层与神经元。</p><p>选出的单元被用于轻量检测器。特征选择由此围绕安全语义展开，使内部测量能够服务于一个对表面捷径尤其敏感的真实任务。</p>
           <div class="research-highlights"><div class="research-highlight"><span class="highlight-value">3</span><span class="highlight-label">预训练模型</span></div><div class="research-highlight"><span class="highlight-value">MCDU</span><span class="highlight-label">恶意合约判别单元</span></div><div class="research-highlight"><span class="highlight-value">冻结</span><span class="highlight-label">语言模型主干</span></div></div>
         </section>
+        <blockquote class="research-thesis"><p>安全表征应当对恶意逻辑的变化敏感，同时对无关表面变化保持稳定。</p></blockquote>
+        <figure class="source-figure">
+          <a class="figure-zoom" href="/assets/images/research/evidence/contractlens-1.webp" target="_blank" rel="noopener noreferrer" data-figure-src="/assets/images/research/evidence/contractlens-1.webp" data-figure-title="图2 · 检测单元的语义检验" aria-label="点击放大: 检测单元的语义检验">
+            <img src="/assets/images/research/evidence/contractlens-1.webp" width="965" height="429" alt="图2 · 检测单元的语义检验. 流程结合恶意逻辑敏感性、表面稳定性与可分性，选择关键层和单元。" loading="lazy" decoding="async">
+            <span class="figure-open-icon" aria-hidden="true">⤢</span>
+          </a>
+          <figcaption><span class="figure-label">图2 / 第3页</span>
+            <h3>检测单元的语义检验</h3><p>流程结合恶意逻辑敏感性、表面稳定性与可分性，选择关键层和单元。</p>
+            <a href="https://arxiv.org/pdf/2610.04992#page=3" target="_blank" rel="noopener noreferrer">查看论文原图 <span aria-hidden="true">↗</span></a>
+          </figcaption>
+        </figure>
         <section id="motivation" class="essay-section" aria-labelledby="motivation-title">
           <h2 id="motivation-title">为什么研究这个问题</h2>
           <p>提示式审计能够获得模型判断，却难以直接说明判断所依赖的内部表示。ContractLens 关注哪些信号与恶意逻辑有关，以及它们能否在代码表面形式变化后保持稳定。</p>
@@ -77,13 +89,33 @@
           <h2 id="method-title">方法如何工作</h2>
           <ol class="method-steps"><li>先用逐层线性探针识别候选层，再检验移除恶意逻辑时的敏感性，以及行为保持的表面修改下的稳定性。</li><li>融合激活对比、恶意逻辑特异性和探针权重，形成三因素重要性得分，并利用排序曲线的拐点选取单元。</li><li>拼接所选单元的激活，构造紧凑表示，用于训练轻量检测器。</li></ol>
         </section>
+        <figure class="source-figure">
+          <a class="figure-zoom" href="/assets/images/research/evidence/contractlens-2.webp" target="_blank" rel="noopener noreferrer" data-figure-src="/assets/images/research/evidence/contractlens-2.webp" data-figure-title="图3 · 哪些层满足定位标准？" aria-label="点击放大: 哪些层满足定位标准？">
+            <img src="/assets/images/research/evidence/contractlens-2.webp" width="964" height="347" alt="图3 · 哪些层满足定位标准？. 逐层测量展示不同语言模型在三项定位标准上的变化。" loading="lazy" decoding="async">
+            <span class="figure-open-icon" aria-hidden="true">⤢</span>
+          </a>
+          <figcaption><span class="figure-label">图3 / 第4页</span>
+            <h3>哪些层满足定位标准？</h3><p>逐层测量展示不同语言模型在三项定位标准上的变化。</p>
+            <a href="https://arxiv.org/pdf/2610.04992#page=4" target="_blank" rel="noopener noreferrer">查看论文原图 <span aria-hidden="true">↗</span></a>
+          </figcaption>
+        </figure>
         <section id="evidence" class="essay-section" aria-labelledby="evidence-title">
           <h2 id="evidence-title">实验发现了什么</h2>
           <p>屏蔽 MCDU 导致的检测性能下降，大于随机单元及激活幅度匹配单元的对照。三个预训练模型上的评估报告了相对所比较方法更高的平均准确率，并进一步检验了未见恶意意图与少标注分类器设置。</p>
         </section>
+        <figure class="source-figure">
+          <a class="figure-zoom" href="/assets/images/research/evidence/contractlens-3.webp" target="_blank" rel="noopener noreferrer" data-figure-src="/assets/images/research/evidence/contractlens-3.webp" data-figure-title="表1 · 跨模型与恶意意图的检测" aria-label="点击放大: 跨模型与恶意意图的检测">
+            <img src="/assets/images/research/evidence/contractlens-3.webp" width="965" height="880" alt="表1 · 跨模型与恶意意图的检测. 原表比较不同骨干和恶意意图下的检测表现，报告 AUROC 与准确率。" loading="lazy" decoding="async">
+            <span class="figure-open-icon" aria-hidden="true">⤢</span>
+          </a>
+          <figcaption><span class="figure-label">表1 / 第6页</span>
+            <h3>跨模型与恶意意图的检测</h3><p>原表比较不同骨干和恶意意图下的检测表现，报告 AUROC 与准确率。</p>
+            <a href="https://arxiv.org/pdf/2610.04992#page=6" target="_blank" rel="noopener noreferrer">查看论文原图 <span aria-hidden="true">↗</span></a>
+          </figcaption>
+        </figure>
         <section id="takeaway" class="essay-section" aria-labelledby="takeaway-title">
           <h2 id="takeaway-title">这项研究意味着什么</h2>
-          <p>这项工作把内部安全信号转化为可用于检测的表示，同时通过屏蔽对照检验所选单元是否对预测具有实际作用。</p>
+          <p>这项工作的洞见也体现在安全证据应当如何建立：当一个特征会因为任务真正关心的因素而变化时，它的预测能力才更有解释力。恶意逻辑修改与表面修改构成的对照，让这种要求成为可以量化检验的标准。</p><p>这一思路为审查检测器是否使用任务相关表征提供了路径，也适用于标签有限和恶意意图变化的情形。面向部署，还需要持续检验恶意行为覆盖范围，以及用于验证语义敏感性的代码修改是否忠实保留了预期语义。</p>
         </section>
         <section id="resources" class="essay-section essay-resources" aria-labelledby="resources-title">
           <h2 id="resources-title">论文与相关资源</h2>
@@ -91,7 +123,7 @@
             <a href="https://arxiv.org/abs/2610.04992" target="_blank" rel="noopener noreferrer">阅读原文 <span aria-hidden="true">↗</span></a>
             <a href="https://arxiv.org/pdf/2610.04992" target="_blank" rel="noopener noreferrer">PDF <span aria-hidden="true">↗</span></a>
             
-            <a href="/research/zh/">更多研究 <span aria-hidden="true">↗</span></a>
+            <a href="/research/zh/?topic=applied">更多研究 <span aria-hidden="true">↗</span></a>
           </div>
           <p class="source-note">本文为论文介绍，方法定义、实验设置与完整结果请参见论文原文。</p>
           <details class="citation">
@@ -108,10 +140,29 @@
         </section>
       </div>
     </article>
+    <section class="related-research" aria-labelledby="related-heading">
+      <div class="related-heading"><span class="eyebrow">继续探索</span><h2 id="related-heading">研究成果</h2></div>
+      <div class="related-list"><a class="related-row" href="/research/zh/dna/">
+          <div class="related-copy"><h3>DNA：揭示通用的潜在伪造知识</h3><time datetime="2026-01-30">2026年1月30日</time></div>
+          <p class="related-authors"><span class="author-name">Dou Jingtong</span>, <span class="author-name">Shi Chuancheng</span>, <span class="author-name">Wang Yemin</span>, <span class="author-name">Guo Shiming</span>, <span class="author-name">Yi Anqi</span>, <span class="author-name">Wu Wenhua</span>, <span class="author-name">Zhang Li</span>, <span class="author-name">Shen Fei</span>, <span class="author-name">Chua Tat-Seng</span></p><span class="related-arrow" aria-hidden="true">→</span>
+        </a>
+<a class="related-row" href="/research/zh/forensic-reserve/">
+          <div class="related-copy"><h3>Forensic Reserve：激发潜在知识以检测图像伪造</h3><time datetime="2026-10-06">2026年10月6日</time></div>
+          <p class="related-authors"><span class="author-name">Li Jiahua</span>, <span class="author-name">John Zixu</span>, <span class="author-name">Zhong Tom</span>, <span class="author-name">Wu Fuping</span>, <span class="author-name">Xu Tianhao</span>, <span class="author-name">Zheng Jianqing</span>, <span class="author-name">Mo Yuanhan</span>, <span class="author-name">Shen Fei</span></p><span class="related-arrow" aria-hidden="true">→</span>
+        </a>
+<a class="related-row" href="/research/zh/dv-lens/">
+          <div class="related-copy"><h3>DV-Lens：揭示语言模型参数的功能组织</h3><time datetime="2026-10-03">2026年10月3日</time></div>
+          <p class="related-authors"><span class="author-name">Cui Chenhang</span>, <span class="author-name">Yu Jian</span>, <span class="author-name">Miao Shuyi</span>, <span class="author-name">Liu Xiaohao</span>, <span class="author-name">Huang Rui</span>, <span class="author-name">Shen Fei</span>, <span class="author-name">Zhang An</span>, <span class="author-name">Chua Tat-Seng</span></p><span class="related-arrow" aria-hidden="true">→</span>
+        </a></div>
+    </section>
   </main>
+  <dialog class="figure-dialog" aria-label="论文图表查看器">
+    <button class="figure-dialog-close" type="button" aria-label="关闭大图">关闭大图 <span aria-hidden="true">×</span></button>
+    <div class="figure-dialog-scroll"><img alt=""></div><p class="figure-dialog-title"></p>
+  </dialog>
   <footer class="essay-container essay-bottom">
     <a href="/">© 2026 Fei Shen · Latent Knowledge Group</a>
-    <a href="/research/zh/">更多研究 <span aria-hidden="true">↗</span></a>
+    <a href="/research/zh/?topic=applied">更多研究 <span aria-hidden="true">↗</span></a>
   </footer>
 </body>
 </html>

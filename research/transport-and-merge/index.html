@@ -16,12 +16,13 @@
   <meta property="og:description" content="Use activation correspondences to transfer knowledge between language models whose architectures do not match.">
   <meta property="og:url" content="https://muzishen.github.io/research/transport-and-merge/">
   <meta property="og:locale" content="en_US">
-  <meta property="og:image" content="https://muzishen.github.io/images/paper-images/tm.png">
+  <meta property="og:image" content="https://muzishen.github.io/assets/images/research/covers/transport-and-merge.webp">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="/assets/images/research/mark.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/assets/css/research.css?v=1233161ef3c9">
-  <link rel="stylesheet" href="/assets/css/research-article.css?v=b57197ef88c5">
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Transport and Merge: Cross-Architecture Merging for Large Language Models", "description": "Use activation correspondences to transfer knowledge between language models whose architectures do not match.", "author": [{"@type": "Person", "name": "Cui Chenhang"}, {"@type": "Person", "name": "Yang Binyun"}, {"@type": "Person", "name": "Shen Fei"}, {"@type": "Person", "name": "Chen Yuxin"}, {"@type": "Person", "name": "Zheng Jingnan"}, {"@type": "Person", "name": "Wang Xiang"}, {"@type": "Person", "name": "Zhang An"}, {"@type": "Person", "name": "Chua Tat-Seng"}], "inLanguage": "en", "mainEntityOfPage": "https://muzishen.github.io/research/transport-and-merge/", "image": "https://muzishen.github.io/images/paper-images/tm.png", "isBasedOn": "https://arxiv.org/abs/2602.05495"}</script>
+  <link rel="stylesheet" href="/assets/css/research.css?v=26ce8ab3d43d">
+  <link rel="stylesheet" href="/assets/css/research-article.css?v=bb31a7d4c120">
+  <script src="/assets/js/research-article.js?v=4a8da52c5f1b" defer></script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Transport and Merge: Cross-Architecture Merging for Large Language Models", "description": "Use activation correspondences to transfer knowledge between language models whose architectures do not match.", "author": [{"@type": "Person", "name": "Cui Chenhang"}, {"@type": "Person", "name": "Yang Binyun"}, {"@type": "Person", "name": "Shen Fei"}, {"@type": "Person", "name": "Chen Yuxin"}, {"@type": "Person", "name": "Zheng Jingnan"}, {"@type": "Person", "name": "Wang Xiang"}, {"@type": "Person", "name": "Zhang An"}, {"@type": "Person", "name": "Chua Tat-Seng"}], "inLanguage": "en", "mainEntityOfPage": "https://muzishen.github.io/research/transport-and-merge/", "image": "https://muzishen.github.io/assets/images/research/covers/transport-and-merge.webp", "isBasedOn": "https://arxiv.org/abs/2602.05495"}</script>
 </head>
 <body class="essay-page">
   <a class="skip-link" href="#short-version">Skip to the introduction</a>
@@ -40,7 +41,7 @@
     <article>
       <header class="essay-hero">
         <div class="essay-heading">
-          <div class="essay-kicker">Capability Engineering / Research overview</div>
+          <div class="essay-kicker">Fundamental Research / Capability Engineering / Research overview</div>
           <h1 class="essay-title">Transport and Merge: Cross-Architecture Merging for Large Language Models</h1>
           <p class="essay-deck">Use activation correspondences to transfer knowledge between language models whose architectures do not match.</p>
           <p class="essay-authors"><span class="author-name">Cui Chenhang</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Yang Binyun</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Shen Fei</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Chen Yuxin</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Zheng Jingnan</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Wang Xiang</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Zhang An</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Chua Tat-Seng</span></p>
@@ -53,8 +54,8 @@
           </div>
         </div>
         <figure class="essay-figure">
-          <img src="/images/paper-images/tm.png" alt="Overview of Transport and Merge: Cross-Architecture Merging for Large Language Models" fetchpriority="high" decoding="async">
-          <figcaption>Research overview figure from the paper.</figcaption>
+          <img src="/assets/images/research/covers/transport-and-merge.webp" alt="Concept illustration: Transport and Merge: Cross-Architecture Merging for Large Language Models" fetchpriority="high" decoding="async">
+          <figcaption>Concept illustration inspired by the study.</figcaption>
         </figure>
       </header>
       <nav class="essay-contents" aria-label="Article contents">
@@ -66,9 +67,20 @@
       <div class="essay-body">
         <section id="short-version" class="essay-section essay-short" aria-labelledby="short-title">
           <h2 id="short-title">The short version</h2>
-          <p>Transport and Merge uses optimal transport to infer cross-neuron correspondences from activations and guide weight-space fusion across heterogeneous models.</p>
+          <p>Transport and Merge uses optimal transport over activation relationships to establish correspondences between heterogeneous language models. These correspondences guide layer and feature alignment, making cross-architecture weight fusion possible. A small shared input set supplies the evidence needed to connect the two models.</p><p>The work evaluates knowledge transfer in low-resource language and domain settings, and explores residual-frozen adaptation after fusion. It separates the problem of finding a functional correspondence from the subsequent problem of integrating the transferred representation.</p>
           <div class="research-highlights"><div class="research-highlight"><span class="highlight-value">OT</span><span class="highlight-label">Cross-neuron correspondence</span></div><div class="research-highlight"><span class="highlight-value">Cross</span><span class="highlight-label">Heterogeneous model fusion</span></div><div class="research-highlight"><span class="highlight-value">Small</span><span class="highlight-label">Shared-input alignment set</span></div></div>
         </section>
+        <blockquote class="research-thesis"><p>Transferring knowledge across architectures begins with finding which internal computations correspond.</p></blockquote>
+        <figure class="source-figure">
+          <a class="figure-zoom" href="/assets/images/research/evidence/transport-and-merge-1.webp" target="_blank" rel="noopener noreferrer" data-figure-src="/assets/images/research/evidence/transport-and-merge-1.webp" data-figure-title="Figure 2 · A transport map between architectures" aria-label="Enlarge figure: A transport map between architectures">
+            <img src="/assets/images/research/evidence/transport-and-merge-1.webp" width="1184" height="497" alt="Figure 2 · A transport map between architectures. Activation correspondences guide layer transport, feature transport, and weight fusion." loading="lazy" decoding="async">
+            <span class="figure-open-icon" aria-hidden="true">⤢</span>
+          </a>
+          <figcaption><span class="figure-label">Figure 2 / p. 4</span>
+            <h3>A transport map between architectures</h3><p>Activation correspondences guide layer transport, feature transport, and weight fusion.</p>
+            <a href="https://arxiv.org/pdf/2602.05495#page=4" target="_blank" rel="noopener noreferrer">View in the paper <span aria-hidden="true">↗</span></a>
+          </figcaption>
+        </figure>
         <section id="motivation" class="essay-section" aria-labelledby="motivation-title">
           <h2 id="motivation-title">Why this matters</h2>
           <p>Conventional merging often assumes compatible architectures. That assumption limits transfer from high-resource source models to heterogeneous targets with limited task or language data.</p>
@@ -77,13 +89,33 @@
           <h2 id="method-title">How it works</h2>
           <ol class="method-steps"><li>Collect activations from source and target models on a small set of shared inputs.</li><li>Solve optimal transport to establish correspondences between heterogeneous neuronal representations.</li><li>Use the resulting transport plans to guide direct weight-space fusion.</li></ol>
         </section>
+        <figure class="source-figure">
+          <a class="figure-zoom" href="/assets/images/research/evidence/transport-and-merge-2.webp" target="_blank" rel="noopener noreferrer" data-figure-src="/assets/images/research/evidence/transport-and-merge-2.webp" data-figure-title="Figure 3 · How concentrated are the correspondences?" aria-label="Enlarge figure: How concentrated are the correspondences?">
+            <img src="/assets/images/research/evidence/transport-and-merge-2.webp" width="578" height="355" alt="Figure 3 · How concentrated are the correspondences?. The plot measures the transport mass explained by the leading neuron correspondences." loading="lazy" decoding="async">
+            <span class="figure-open-icon" aria-hidden="true">⤢</span>
+          </a>
+          <figcaption><span class="figure-label">Figure 3 / p. 8</span>
+            <h3>How concentrated are the correspondences?</h3><p>The plot measures the transport mass explained by the leading neuron correspondences.</p>
+            <a href="https://arxiv.org/pdf/2602.05495#page=8" target="_blank" rel="noopener noreferrer">View in the paper <span aria-hidden="true">↗</span></a>
+          </figcaption>
+        </figure>
         <section id="evidence" class="essay-section" aria-labelledby="evidence-title">
           <h2 id="evidence-title">What the study finds</h2>
           <p>Experiments across low-resource languages and specialized domains report consistent improvements over the corresponding target models. The transfer uses a small input set to infer the cross-model correspondence.</p>
         </section>
+        <figure class="source-figure">
+          <a class="figure-zoom" href="/assets/images/research/evidence/transport-and-merge-3.webp" target="_blank" rel="noopener noreferrer" data-figure-src="/assets/images/research/evidence/transport-and-merge-3.webp" data-figure-title="Table 1 · Transfer in a low-resource language" aria-label="Enlarge figure: Transfer in a low-resource language">
+            <img src="/assets/images/research/evidence/transport-and-merge-3.webp" width="582" height="229" alt="Table 1 · Transfer in a low-resource language. The original MalayMMLU table compares the base model with fusion and subsequent adaptation." loading="lazy" decoding="async">
+            <span class="figure-open-icon" aria-hidden="true">⤢</span>
+          </a>
+          <figcaption><span class="figure-label">Table 1 / p. 6</span>
+            <h3>Transfer in a low-resource language</h3><p>The original MalayMMLU table compares the base model with fusion and subsequent adaptation.</p>
+            <a href="https://arxiv.org/pdf/2602.05495#page=6" target="_blank" rel="noopener noreferrer">View in the paper <span aria-hidden="true">↗</span></a>
+          </figcaption>
+        </figure>
         <section id="takeaway" class="essay-section" aria-labelledby="takeaway-title">
           <h2 id="takeaway-title">What this means</h2>
-          <p>Alignment is a prerequisite for meaningful cross-architecture fusion. Activation geometry offers a way to estimate that alignment instead of assuming matching neuron coordinates.</p>
+          <p>This frames model merging as a problem of translation between internal coordinate systems. Architecture can obscure correspondence even when two models contain related computations; activation relationships provide an empirical bridge across that boundary.</p><p>The useful outcome is reusable knowledge under limited adaptation data. Future progress depends on identifying when transport plans preserve function, how shared-input coverage affects the mapping, and whether gains survive beyond the domains that supplied the correspondence evidence.</p>
         </section>
         <section id="resources" class="essay-section essay-resources" aria-labelledby="resources-title">
           <h2 id="resources-title">Paper and resources</h2>
@@ -108,7 +140,26 @@
         </section>
       </div>
     </article>
+    <section class="related-research" aria-labelledby="related-heading">
+      <div class="related-heading"><span class="eyebrow">Continue exploring</span><h2 id="related-heading">Research</h2></div>
+      <div class="related-list"><a class="related-row" href="/research/superai/">
+          <div class="related-copy"><h3>SuperAI: Merging Capabilities Across Heterogeneous Foundation Models</h3><time datetime="2026-10-11">October 11, 2026</time></div>
+          <p class="related-authors"><span class="author-name">Dou Jingtong</span>, <span class="author-name">Shi Chuancheng</span>, <span class="author-name">Wu Wenhua</span>, <span class="author-name">Bao Wei</span>, <span class="author-name">Shen Fei</span>, <span class="author-name">Wang Zhiyong</span>, <span class="author-name">Chua Tat-Seng</span></p><span class="related-arrow" aria-hidden="true">→</span>
+        </a>
+<a class="related-row" href="/research/barq/">
+          <div class="related-copy"><h3>BARQ: Balanced Codebook Refinement for Low-Bit LLM Quantization</h3><time datetime="2026-10-03">October 3, 2026</time></div>
+          <p class="related-authors"><span class="author-name">Cui Chenhang</span>, <span class="author-name">Xie Xu</span>, <span class="author-name">Xu Linrui</span>, <span class="author-name">Liu Xiaohao</span>, <span class="author-name">Zhu Xingyu</span>, <span class="author-name">Shen Fei</span>, <span class="author-name">Chua Tat-Seng</span></p><span class="related-arrow" aria-hidden="true">→</span>
+        </a>
+<a class="related-row" href="/research/hub-spectral/">
+          <div class="related-copy"><h3>Hub-Spectral Activation of Latent Multimodal Knowledge</h3><time datetime="2026-09-15">September 15, 2026</time></div>
+          <p class="related-authors"><span class="author-name">Guo Ying</span>, <span class="author-name">Chen Haidong</span>, <span class="author-name">Xu Linrui</span>, <span class="author-name">Liu Xiaohao</span>, <span class="author-name">Shi Chuancheng</span>, <span class="author-name">Xiao Canran</span>, <span class="author-name">Zhang Dan</span>, <span class="author-name">Shen Fei</span>, <span class="author-name">Shen Li</span>, <span class="author-name">Chua Tat-Seng</span></p><span class="related-arrow" aria-hidden="true">→</span>
+        </a></div>
+    </section>
   </main>
+  <dialog class="figure-dialog" aria-label="Research figure viewer">
+    <button class="figure-dialog-close" type="button" aria-label="Close figure">Close figure <span aria-hidden="true">×</span></button>
+    <div class="figure-dialog-scroll"><img alt=""></div><p class="figure-dialog-title"></p>
+  </dialog>
   <footer class="essay-container essay-bottom">
     <a href="/">© 2026 Fei Shen · Latent Knowledge Group</a>
     <a href="/research/">More research <span aria-hidden="true">↗</span></a>

@@ -16,12 +16,13 @@
   <meta property="og:description" content="Follow the cross-layer propagation of harmful semantics and intervene at the pathway level.">
   <meta property="og:url" content="https://muzishen.github.io/research/tracerouter/">
   <meta property="og:locale" content="en_US">
-  <meta property="og:image" content="https://muzishen.github.io/images/paper-images/tracerouter.png">
+  <meta property="og:image" content="https://muzishen.github.io/assets/images/research/covers/tracerouter.webp">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="/assets/images/research/mark.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/assets/css/research.css?v=1233161ef3c9">
-  <link rel="stylesheet" href="/assets/css/research-article.css?v=b57197ef88c5">
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "TraceRouter: Robust Safety for Large Foundation Models via Path-Level Intervention", "description": "Follow the cross-layer propagation of harmful semantics and intervene at the pathway level.", "author": [{"@type": "Person", "name": "Shi Chuancheng"}, {"@type": "Person", "name": "Li Shangze"}, {"@type": "Person", "name": "Lu Wenjun"}, {"@type": "Person", "name": "Wu Wenhua"}, {"@type": "Person", "name": "Wang Cong"}, {"@type": "Person", "name": "Cheng Zifeng"}, {"@type": "Person", "name": "Shen Fei"}, {"@type": "Person", "name": "Chua Tat-Seng"}], "inLanguage": "en", "mainEntityOfPage": "https://muzishen.github.io/research/tracerouter/", "image": "https://muzishen.github.io/images/paper-images/tracerouter.png", "isBasedOn": "https://arxiv.org/abs/2601.21900"}</script>
+  <link rel="stylesheet" href="/assets/css/research.css?v=26ce8ab3d43d">
+  <link rel="stylesheet" href="/assets/css/research-article.css?v=bb31a7d4c120">
+  <script src="/assets/js/research-article.js?v=4a8da52c5f1b" defer></script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "TraceRouter: Robust Safety for Large Foundation Models via Path-Level Intervention", "description": "Follow the cross-layer propagation of harmful semantics and intervene at the pathway level.", "author": [{"@type": "Person", "name": "Shi Chuancheng"}, {"@type": "Person", "name": "Li Shangze"}, {"@type": "Person", "name": "Lu Wenjun"}, {"@type": "Person", "name": "Wu Wenhua"}, {"@type": "Person", "name": "Wang Cong"}, {"@type": "Person", "name": "Cheng Zifeng"}, {"@type": "Person", "name": "Shen Fei"}, {"@type": "Person", "name": "Chua Tat-Seng"}], "inLanguage": "en", "mainEntityOfPage": "https://muzishen.github.io/research/tracerouter/", "image": "https://muzishen.github.io/assets/images/research/covers/tracerouter.webp", "isBasedOn": "https://arxiv.org/abs/2601.21900"}</script>
 </head>
 <body class="essay-page">
   <a class="skip-link" href="#short-version">Skip to the introduction</a>
@@ -40,7 +41,7 @@
     <article>
       <header class="essay-hero">
         <div class="essay-heading">
-          <div class="essay-kicker">Reliability &amp; Safety / Research overview</div>
+          <div class="essay-kicker">Fundamental Research / Reliability &amp; Safety / Research overview</div>
           <h1 class="essay-title">TraceRouter: Robust Safety for Large Foundation Models via Path-Level Intervention</h1>
           <p class="essay-deck">Follow the cross-layer propagation of harmful semantics and intervene at the pathway level.</p>
           <p class="essay-authors"><span class="author-name">Shi Chuancheng</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Li Shangze</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Lu Wenjun</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Wu Wenhua</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Wang Cong</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Cheng Zifeng</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Shen Fei</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Chua Tat-Seng</span></p>
@@ -53,8 +54,8 @@
           </div>
         </div>
         <figure class="essay-figure">
-          <img src="/images/paper-images/tracerouter.png" alt="Overview of TraceRouter: Robust Safety for Large Foundation Models via Path-Level Intervention" fetchpriority="high" decoding="async">
-          <figcaption>Research overview figure from the paper.</figcaption>
+          <img src="/assets/images/research/covers/tracerouter.webp" alt="Concept illustration: TraceRouter: Robust Safety for Large Foundation Models via Path-Level Intervention" fetchpriority="high" decoding="async">
+          <figcaption>Concept illustration inspired by the study.</figcaption>
         </figure>
       </header>
       <nav class="essay-contents" aria-label="Article contents">
@@ -66,9 +67,20 @@
       <div class="essay-body">
         <section id="short-version" class="essay-section essay-short" aria-labelledby="short-title">
           <h2 id="short-title">The short version</h2>
-          <p>TraceRouter moves the intervention unit from isolated components to causal propagation pathways. Attention divergence, sparse features, and feature influence scores support the tracing process.</p>
+          <p>TraceRouter studies safety through paths connecting internal components. It localizes sensitive onset layers, uses sparse features to trace relevant attention interactions, and applies path-level suppression through a focused intervention. The goal is to interrupt the information flow associated with unsafe behavior while preserving general model utility.</p><p>The work evaluates both diffusion and language models, pairing safety measurements with quality or utility measurements. Its analysis shifts attention from where a feature exists to how that feature participates in downstream computation.</p>
           <div class="research-highlights"><div class="research-highlight"><span class="highlight-value">3</span><span class="highlight-label">Stages of pathway tracing</span></div><div class="research-highlight"><span class="highlight-value">SAE</span><span class="highlight-label">Sparse feature isolation</span></div><div class="research-highlight"><span class="highlight-value">FIS</span><span class="highlight-label">Intervention-derived influence</span></div></div>
         </section>
+        <blockquote class="research-thesis"><p>A behavior can depend on a route through the network, making information flow a useful unit of intervention.</p></blockquote>
+        <figure class="source-figure">
+          <a class="figure-zoom" href="/assets/images/research/evidence/tracerouter-1.webp" target="_blank" rel="noopener noreferrer" data-figure-src="/assets/images/research/evidence/tracerouter-1.webp" data-figure-title="Figure 3 · Locating the sensitive onset" aria-label="Enlarge figure: Locating the sensitive onset">
+            <img src="/assets/images/research/evidence/tracerouter-1.webp" width="1097" height="202" alt="Figure 3 · Locating the sensitive onset. Layer-wise sensitivity scores identify candidate onset layers across three model families." loading="lazy" decoding="async">
+            <span class="figure-open-icon" aria-hidden="true">⤢</span>
+          </a>
+          <figcaption><span class="figure-label">Figure 3 / p. 3</span>
+            <h3>Locating the sensitive onset</h3><p>Layer-wise sensitivity scores identify candidate onset layers across three model families.</p>
+            <a href="https://arxiv.org/pdf/2601.21900#page=3" target="_blank" rel="noopener noreferrer">View in the paper <span aria-hidden="true">↗</span></a>
+          </figcaption>
+        </figure>
         <section id="motivation" class="essay-section" aria-labelledby="motivation-title">
           <h2 id="motivation-title">Why this matters</h2>
           <p>Distributed harmful computation can continue through multiple layers even when a local feature is suppressed. A defence therefore needs to examine how the information propagates.</p>
@@ -77,13 +89,33 @@
           <h2 id="method-title">How it works</h2>
           <ol class="method-steps"><li>Locate a sensitive onset layer through attention-divergence analysis.</li><li>Use SAEs and differential activations to isolate malicious features.</li><li>Estimate feature influence with zero-out interventions and suppress selected downstream pathways.</li></ol>
         </section>
+        <figure class="source-figure">
+          <a class="figure-zoom" href="/assets/images/research/evidence/tracerouter-2.webp" target="_blank" rel="noopener noreferrer" data-figure-src="/assets/images/research/evidence/tracerouter-2.webp" data-figure-title="Figure 4 · Safety across model families" aria-label="Enlarge figure: Safety across model families">
+            <img src="/assets/images/research/evidence/tracerouter-2.webp" width="582" height="308" alt="Figure 4 · Safety across model families. Original model-level comparisons report safety outcomes on multimodal language models." loading="lazy" decoding="async">
+            <span class="figure-open-icon" aria-hidden="true">⤢</span>
+          </a>
+          <figcaption><span class="figure-label">Figure 4 / p. 5</span>
+            <h3>Safety across model families</h3><p>Original model-level comparisons report safety outcomes on multimodal language models.</p>
+            <a href="https://arxiv.org/pdf/2601.21900#page=5" target="_blank" rel="noopener noreferrer">View in the paper <span aria-hidden="true">↗</span></a>
+          </figcaption>
+        </figure>
         <section id="evidence" class="essay-section" aria-labelledby="evidence-title">
           <h2 id="evidence-title">What the study finds</h2>
           <p>Reported comparisons examine adversarial robustness together with general utility. The results support the value of tracing and suppressing selected propagation pathways rather than treating safety as a purely local feature intervention.</p>
         </section>
+        <figure class="source-figure">
+          <a class="figure-zoom" href="/assets/images/research/evidence/tracerouter-3.webp" target="_blank" rel="noopener noreferrer" data-figure-src="/assets/images/research/evidence/tracerouter-3.webp" data-figure-title="Table 2 · Safety under several attack settings" aria-label="Enlarge figure: Safety under several attack settings">
+            <img src="/assets/images/research/evidence/tracerouter-3.webp" width="1184" height="461" alt="Table 2 · Safety under several attack settings. The table compares interventions across gradient-based and pattern-based attacks on language models." loading="lazy" decoding="async">
+            <span class="figure-open-icon" aria-hidden="true">⤢</span>
+          </a>
+          <figcaption><span class="figure-label">Table 2 / p. 5</span>
+            <h3>Safety under several attack settings</h3><p>The table compares interventions across gradient-based and pattern-based attacks on language models.</p>
+            <a href="https://arxiv.org/pdf/2601.21900#page=5" target="_blank" rel="noopener noreferrer">View in the paper <span aria-hidden="true">↗</span></a>
+          </figcaption>
+        </figure>
         <section id="takeaway" class="essay-section" aria-labelledby="takeaway-title">
           <h2 id="takeaway-title">What this means</h2>
-          <p>Path-level analysis connects where harmful information appears with how it reaches the output, making propagation itself an intervention target.</p>
+          <p>This gives interpretability a more relational target. Two components can matter because of the route linking them, even when neither isolated component fully explains the behavior. Tracing that route can make an intervention more specific about where and how it acts.</p><p>The practical challenge is selectivity across tasks and model families. Path-level evidence offers a way to reason about that selectivity, while the reported evaluations define the settings in which suppressing the selected routes improves safety with limited utility loss.</p>
         </section>
         <section id="resources" class="essay-section essay-resources" aria-labelledby="resources-title">
           <h2 id="resources-title">Paper and resources</h2>
@@ -108,7 +140,26 @@
         </section>
       </div>
     </article>
+    <section class="related-research" aria-labelledby="related-heading">
+      <div class="related-heading"><span class="eyebrow">Continue exploring</span><h2 id="related-heading">Research</h2></div>
+      <div class="related-list"><a class="related-row" href="/research/orthoeraser/">
+          <div class="related-copy"><h3>OrthoEraser: Coupled-Neuron Orthogonal Projection for Concept Erasure</h3><time datetime="2026-03-12">March 12, 2026</time></div>
+          <p class="related-authors"><span class="author-name">Shi Chuancheng</span>, <span class="author-name">Wu Wenhua</span>, <span class="author-name">Shen Fei</span>, <span class="author-name">Zhu Xiaogang</span>, <span class="author-name">Hu Kun</span>, <span class="author-name">Wang Zhiyong</span></p><span class="related-arrow" aria-hidden="true">→</span>
+        </a>
+<a class="related-row" href="/research/who-transfers-safety/">
+          <div class="related-copy"><h3>Who Transfers Safety? Identifying and Targeting Cross-Lingual Shared Safety Neurons</h3><time datetime="2026-02-01">February 1, 2026</time></div>
+          <p class="related-authors"><span class="author-name">Zhang Xianhui</span>, <span class="author-name">Xie Chengyu</span>, <span class="author-name">Zhu Linxia</span>, <span class="author-name">Yang Yonghui</span>, <span class="author-name">Zhao Weixiang</span>, <span class="author-name">Cheng Zifeng</span>, <span class="author-name">Wang Cong</span>, <span class="author-name">Shen Fei</span>, <span class="author-name">Chua Tat-Seng</span></p><span class="related-arrow" aria-hidden="true">→</span>
+        </a>
+<a class="related-row" href="/research/actr/">
+          <div class="related-copy"><h3>ACTR: Aligning Thoughts and Responses for Multilingual Safety in Reasoning LLMs</h3><time datetime="2026-09-29">September 29, 2026</time></div>
+          <p class="related-authors"><span class="author-name">Zhang Xianhui</span>, <span class="author-name">Yu Jian</span>, <span class="author-name">Xie Chengyu</span>, <span class="author-name">Cui Chenhang</span>, <span class="author-name">Miao Shuyi</span>, <span class="author-name">Shao Pengyang</span>, <span class="author-name">Zheng Yu</span>, <span class="author-name">Shen Fei</span>, <span class="author-name">Chua Tat-Seng</span></p><span class="related-arrow" aria-hidden="true">→</span>
+        </a></div>
+    </section>
   </main>
+  <dialog class="figure-dialog" aria-label="Research figure viewer">
+    <button class="figure-dialog-close" type="button" aria-label="Close figure">Close figure <span aria-hidden="true">×</span></button>
+    <div class="figure-dialog-scroll"><img alt=""></div><p class="figure-dialog-title"></p>
+  </dialog>
   <footer class="essay-container essay-bottom">
     <a href="/">© 2026 Fei Shen · Latent Knowledge Group</a>
     <a href="/research/">More research <span aria-hidden="true">↗</span></a>

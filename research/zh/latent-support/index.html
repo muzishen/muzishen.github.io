@@ -16,12 +16,13 @@
   <meta property="og:description" content="答对是外部结果。这项研究进一步追问：改变知识的激发条件，答案背后的内部支撑是否仍然稳定？">
   <meta property="og:url" content="https://muzishen.github.io/research/zh/latent-support/">
   <meta property="og:locale" content="zh_CN">
-  <meta property="og:image" content="https://muzishen.github.io/images/paper-images/latent-support.png">
+  <meta property="og:image" content="https://muzishen.github.io/assets/images/research/covers/latent-support.webp">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="/assets/images/research/mark.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/assets/css/research.css?v=1233161ef3c9">
-  <link rel="stylesheet" href="/assets/css/research-article.css?v=b57197ef88c5">
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "正确答案是否具有稳定的潜在知识支撑？", "description": "答对是外部结果。这项研究进一步追问：改变知识的激发条件，答案背后的内部支撑是否仍然稳定？", "author": [{"@type": "Person", "name": "Shi Chuancheng"}, {"@type": "Person", "name": "Li Shangze"}, {"@type": "Person", "name": "Wu Wenhua"}, {"@type": "Person", "name": "Hu Kun"}, {"@type": "Person", "name": "Shen Fei"}, {"@type": "Person", "name": "Wang Zhiyong"}, {"@type": "Person", "name": "Chua Tat-Seng"}], "inLanguage": "zh-Hans", "mainEntityOfPage": "https://muzishen.github.io/research/zh/latent-support/", "image": "https://muzishen.github.io/images/paper-images/latent-support.png", "isBasedOn": "https://arxiv.org/abs/2610.15277"}</script>
+  <link rel="stylesheet" href="/assets/css/research.css?v=26ce8ab3d43d">
+  <link rel="stylesheet" href="/assets/css/research-article.css?v=bb31a7d4c120">
+  <script src="/assets/js/research-article.js?v=4a8da52c5f1b" defer></script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "正确答案是否具有稳定的潜在知识支撑？", "description": "答对是外部结果。这项研究进一步追问：改变知识的激发条件，答案背后的内部支撑是否仍然稳定？", "author": [{"@type": "Person", "name": "Shi Chuancheng"}, {"@type": "Person", "name": "Li Shangze"}, {"@type": "Person", "name": "Wu Wenhua"}, {"@type": "Person", "name": "Hu Kun"}, {"@type": "Person", "name": "Shen Fei"}, {"@type": "Person", "name": "Wang Zhiyong"}, {"@type": "Person", "name": "Chua Tat-Seng"}], "inLanguage": "zh-Hans", "mainEntityOfPage": "https://muzishen.github.io/research/zh/latent-support/", "image": "https://muzishen.github.io/assets/images/research/covers/latent-support.webp", "isBasedOn": "https://arxiv.org/abs/2610.15277"}</script>
 </head>
 <body class="essay-page">
   <a class="skip-link" href="#short-version">跳至文章介绍</a>
@@ -40,7 +41,7 @@
     <article>
       <header class="essay-hero">
         <div class="essay-heading">
-          <div class="essay-kicker">可靠评估与安全 / 研究解读</div>
+          <div class="essay-kicker">基础研究 / 可靠评估与安全 / 研究解读</div>
           <h1 class="essay-title">正确答案是否具有稳定的潜在知识支撑？</h1>
           <p class="essay-deck">答对是外部结果。这项研究进一步追问：改变知识的激发条件，答案背后的内部支撑是否仍然稳定？</p>
           <p class="essay-authors"><span class="author-name">Shi Chuancheng</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Li Shangze</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Wu Wenhua</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Hu Kun</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Shen Fei</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Wang Zhiyong</span> <span class="author-separator" aria-hidden="true">·</span> <span class="author-name">Chua Tat-Seng</span></p>
@@ -53,8 +54,8 @@
           </div>
         </div>
         <figure class="essay-figure">
-          <img src="/images/paper-images/latent-support.png" alt="《正确答案是否具有稳定的潜在知识支撑？》研究概览" fetchpriority="high" decoding="async">
-          <figcaption>论文研究概览配图。</figcaption>
+          <img src="/assets/images/research/covers/latent-support.webp" alt="概念视觉: 正确答案是否具有稳定的潜在知识支撑？" fetchpriority="high" decoding="async">
+          <figcaption>根据研究主题创作的概念视觉。</figcaption>
         </figure>
       </header>
       <nav class="essay-contents" aria-label="文章目录">
@@ -66,9 +67,20 @@
       <div class="essay-body">
         <section id="short-version" class="essay-section essay-short" aria-labelledby="short-title">
           <h2 id="short-title">核心内容</h2>
-          <p>即使在基准条件下答对，模型内部知识的稳定性仍可能明显不同。LSS 和 KTS 分别刻画单个知识状态及知识关系结构的稳定性，LatentDPO 则进一步探索其在知识编辑中的应用。</p>
+          <p>这项工作将“回答是否正确”与“知识能否在提问变化下保持稳定”分开考察。局部知识状态和知识之间的关系几何，提供了两种互补的稳定性视角。EpiStableBench 控制改写、格式、上下文和语言等因素，使一次正确回答与稳定知识状态之间的差距能够被系统测量。</p><p>这种视角揭示了准确率难以呈现的差异：输出同样正确的知识项，内部稳定性与后续回答表现仍可能不同。工作还探索利用潜在稳定性引导偏好优化，将内部诊断进一步连接到行为改进。</p>
           <div class="research-highlights"><div class="research-highlight"><span class="highlight-value">4,411</span><span class="highlight-label">知识项</span></div><div class="research-highlight"><span class="highlight-value">76,766</span><span class="highlight-label">受控查询</span></div><div class="research-highlight"><span class="highlight-value">16</span><span class="highlight-label">大语言模型</span></div></div>
         </section>
+        <blockquote class="research-thesis"><p>答对一次是一个观察结果；知识是否稳定，取决于支撑答案的内部表征。</p></blockquote>
+        <figure class="source-figure">
+          <a class="figure-zoom" href="/assets/images/research/evidence/latent-support-1.webp" target="_blank" rel="noopener noreferrer" data-figure-src="/assets/images/research/evidence/latent-support-1.webp" data-figure-title="图2 · 知识稳定性评估基准" aria-label="点击放大: 知识稳定性评估基准">
+            <img src="/assets/images/research/evidence/latent-support-1.webp" width="1139" height="442" alt="图2 · 知识稳定性评估基准. EpiStableBench 控制知识项，并改变知识被调用时的提问条件。" loading="lazy" decoding="async">
+            <span class="figure-open-icon" aria-hidden="true">⤢</span>
+          </a>
+          <figcaption><span class="figure-label">图2 / 第5页</span>
+            <h3>知识稳定性评估基准</h3><p>EpiStableBench 控制知识项，并改变知识被调用时的提问条件。</p>
+            <a href="https://arxiv.org/pdf/2610.15277#page=5" target="_blank" rel="noopener noreferrer">查看论文原图 <span aria-hidden="true">↗</span></a>
+          </figcaption>
+        </figure>
         <section id="motivation" class="essay-section" aria-labelledby="motivation-title">
           <h2 id="motivation-title">为什么研究这个问题</h2>
           <p>仅统计答案是否正确，无法判断同一知识在不同条件下是否具有稳定的内部表示。通过受控地改变知识激发条件，可以把外部表现与内部支撑放在一起研究。</p>
@@ -77,13 +89,33 @@
           <h2 id="method-title">方法如何工作</h2>
           <ol class="method-steps"><li>分别汇总各激发条件下的内部表示，以基准条件为参照，校正不同条件之间的共享偏移。</li><li>用 LSS 衡量归一化后的知识状态位移；用 KTS 衡量知识项之间距离排序在不同条件下的一致性。</li><li>在 EpiStableBench 上开展受控评估，并通过 LatentDPO 学习考虑潜在知识稳定性的编辑策略。</li></ol>
         </section>
+        <figure class="source-figure">
+          <a class="figure-zoom" href="/assets/images/research/evidence/latent-support-2.webp" target="_blank" rel="noopener noreferrer" data-figure-src="/assets/images/research/evidence/latent-support-2.webp" data-figure-title="图4 · 当前正确，之后是否可靠？" aria-label="点击放大: 当前正确，之后是否可靠？">
+            <img src="/assets/images/research/evidence/latent-support-2.webp" width="1139" height="251" alt="图4 · 当前正确，之后是否可靠？. 对初始回答正确的知识项，比较不同稳定性组在未见提问条件下的后续准确率。" loading="lazy" decoding="async">
+            <span class="figure-open-icon" aria-hidden="true">⤢</span>
+          </a>
+          <figcaption><span class="figure-label">图4 / 第6页</span>
+            <h3>当前正确，之后是否可靠？</h3><p>对初始回答正确的知识项，比较不同稳定性组在未见提问条件下的后续准确率。</p>
+            <a href="https://arxiv.org/pdf/2610.15277#page=6" target="_blank" rel="noopener noreferrer">查看论文原图 <span aria-hidden="true">↗</span></a>
+          </figcaption>
+        </figure>
         <section id="evidence" class="essay-section" aria-labelledby="evidence-title">
           <h2 id="evidence-title">实验发现了什么</h2>
           <p>EpiStableBench 包含 4,411 个知识项和 76,766 个受控查询，覆盖 16 个大语言模型。模型内部更稳定的知识通常对应更好的留出条件准确率，但跨模型比较时，规模或总体准确率并不稳定地预测知识稳定性。LatentDPO 在所评估的编辑方法组合中改善了编辑成功率和泛化。</p>
         </section>
+        <figure class="source-figure">
+          <a class="figure-zoom" href="/assets/images/research/evidence/latent-support-3.webp" target="_blank" rel="noopener noreferrer" data-figure-src="/assets/images/research/evidence/latent-support-3.webp" data-figure-title="图7 · 稳定性的两种几何视角" aria-label="点击放大: 稳定性的两种几何视角">
+            <img src="/assets/images/research/evidence/latent-support-3.webp" width="577" height="231" alt="图7 · 稳定性的两种几何视角. 局部状态的集中程度与关系分布的重叠，从互补角度呈现内部知识稳定性。" loading="lazy" decoding="async">
+            <span class="figure-open-icon" aria-hidden="true">⤢</span>
+          </a>
+          <figcaption><span class="figure-label">图7 / 第8页</span>
+            <h3>稳定性的两种几何视角</h3><p>局部状态的集中程度与关系分布的重叠，从互补角度呈现内部知识稳定性。</p>
+            <a href="https://arxiv.org/pdf/2610.15277#page=8" target="_blank" rel="noopener noreferrer">查看论文原图 <span aria-hidden="true">↗</span></a>
+          </figcaption>
+        </figure>
         <section id="takeaway" class="essay-section" aria-labelledby="takeaway-title">
           <h2 id="takeaway-title">这项研究意味着什么</h2>
-          <p>知识稳定性为能力评估增加了一个内部维度，使“是否答对”和“内部支撑是否稳定”能够被分别考察，再用于指导后续干预。</p>
+          <p>可靠评估需要回答知识在什么条件下仍然能够被调用。一次正确输出可能掩盖对提问方式的敏感性；内部稳定性则为识别这种脆弱性、选择值得进一步检验的知识项，增加了一条观察轴。</p><p>更长远的方向，是把表征结构、知识调用条件和最终行为放在同一条证据链中研究。不同模型的几何尺度需要分别校准，因此稳定性指标更适合作为可靠性诊断信号，其本身并不构成答案真实性的保证。</p>
         </section>
         <section id="resources" class="essay-section essay-resources" aria-labelledby="resources-title">
           <h2 id="resources-title">论文与相关资源</h2>
@@ -108,7 +140,26 @@
         </section>
       </div>
     </article>
+    <section class="related-research" aria-labelledby="related-heading">
+      <div class="related-heading"><span class="eyebrow">继续探索</span><h2 id="related-heading">研究成果</h2></div>
+      <div class="related-list"><a class="related-row" href="/research/zh/dv-lens/">
+          <div class="related-copy"><h3>DV-Lens：揭示语言模型参数的功能组织</h3><time datetime="2026-10-03">2026年10月3日</time></div>
+          <p class="related-authors"><span class="author-name">Cui Chenhang</span>, <span class="author-name">Yu Jian</span>, <span class="author-name">Miao Shuyi</span>, <span class="author-name">Liu Xiaohao</span>, <span class="author-name">Huang Rui</span>, <span class="author-name">Shen Fei</span>, <span class="author-name">Zhang An</span>, <span class="author-name">Chua Tat-Seng</span></p><span class="related-arrow" aria-hidden="true">→</span>
+        </a>
+<a class="related-row" href="/research/zh/emorss/">
+          <div class="related-copy"><h3>EmoRSS：缓解大语言模型中情绪引发的过度拒答</h3><time datetime="2026-10-04">2026年10月4日</time></div>
+          <p class="related-authors"><span class="author-name">Miao Shuyi</span>, <span class="author-name">Ma Yaojin</span>, <span class="author-name">Cui Chenhang</span>, <span class="author-name">Liu Xiaohao</span>, <span class="author-name">Dang Jisheng</span>, <span class="author-name">Zhuo Shengda</span>, <span class="author-name">Shen Fei</span>, <span class="author-name">Chua Tat-Seng</span></p><span class="related-arrow" aria-hidden="true">→</span>
+        </a>
+<a class="related-row" href="/research/zh/actr/">
+          <div class="related-copy"><h3>ACTR：对齐思考与回答，提升推理模型的多语言安全性</h3><time datetime="2026-09-29">2026年9月29日</time></div>
+          <p class="related-authors"><span class="author-name">Zhang Xianhui</span>, <span class="author-name">Yu Jian</span>, <span class="author-name">Xie Chengyu</span>, <span class="author-name">Cui Chenhang</span>, <span class="author-name">Miao Shuyi</span>, <span class="author-name">Shao Pengyang</span>, <span class="author-name">Zheng Yu</span>, <span class="author-name">Shen Fei</span>, <span class="author-name">Chua Tat-Seng</span></p><span class="related-arrow" aria-hidden="true">→</span>
+        </a></div>
+    </section>
   </main>
+  <dialog class="figure-dialog" aria-label="论文图表查看器">
+    <button class="figure-dialog-close" type="button" aria-label="关闭大图">关闭大图 <span aria-hidden="true">×</span></button>
+    <div class="figure-dialog-scroll"><img alt=""></div><p class="figure-dialog-title"></p>
+  </dialog>
   <footer class="essay-container essay-bottom">
     <a href="/">© 2026 Fei Shen · Latent Knowledge Group</a>
     <a href="/research/zh/">更多研究 <span aria-hidden="true">↗</span></a>
