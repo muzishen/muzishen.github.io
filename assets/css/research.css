@@ -60,6 +60,8 @@ button:focus-visible,a:focus-visible,input:focus-visible{outline:2px solid var(-
 .paper-meta{color:var(--muted);font-size:14px;line-height:1.6;margin:0}
 .paper-authors{display:block;font-size:13px;line-height:1.7}
 .paper-authors .author-name{white-space:nowrap}
+.author-name{font-weight:700;color:var(--ink)}
+.reading-time{white-space:nowrap}
 .paper-date{display:block;margin-top:6px;font-size:12px}
 .paper-introduction-link{color:#43563b}
 .paper-meta .separator{padding-inline:6px}
