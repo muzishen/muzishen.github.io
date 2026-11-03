@@ -58,6 +58,10 @@ button:focus-visible,a:focus-visible,input:focus-visible{outline:2px solid var(-
 .research-row h2{font-size:29px;line-height:1.19;letter-spacing:-.035em;font-weight:600;margin:17px 0 12px;text-wrap:pretty}
 .research-row h2 a:hover{text-decoration:underline;text-underline-offset:4px;text-decoration-thickness:1px}
 .paper-meta{color:var(--muted);font-size:14px;line-height:1.6;margin:0}
+.paper-authors{display:block;font-size:13px;line-height:1.7}
+.paper-authors .author-name{white-space:nowrap}
+.paper-date{display:block;margin-top:6px;font-size:12px}
+.paper-introduction-link{color:#43563b}
 .paper-meta .separator{padding-inline:6px}
 .paper-summary{font-size:15px;line-height:1.55;color:#666d69;margin:12px 0 0;max-width:640px}
 .paper-links{display:flex;gap:22px;flex-wrap:wrap;margin-top:15px;font-size:12px;font-weight:600}

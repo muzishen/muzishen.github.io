@@ -37,7 +37,8 @@
       "contact_description": "We welcome research collaborations and conversations about model interpretability, reliable evaluation, safety, and capability transfer.",
       "contact_button": "Get in touch",
       "footer_nav": "Footer navigation",
-      "footer_affiliation": "Fei Shen · NExT++ Center, National University of Singapore"
+      "footer_affiliation": "Fei Shen · NExT++ Center, National University of Singapore",
+      "introduction_link": "Read introduction"
     },
     "zh": {
       "title": "研究成果 | NExT-LFM · 沈飞",
@@ -76,7 +77,8 @@
       "contact_description": "欢迎围绕模型可解释性、可靠评估、安全治理与能力迁移开展研究合作，也欢迎对这些方向感兴趣的同学加入。",
       "contact_button": "联系沈飞",
       "footer_nav": "页脚导航",
-      "footer_affiliation": "沈飞 · 新加坡国立大学 NExT++ 中心"
+      "footer_affiliation": "沈飞 · 新加坡国立大学 NExT++ 中心",
+      "introduction_link": "了解这项研究"
     }
   },
   "categories": {
@@ -102,174 +104,777 @@
       "id": "dv-lens",
       "category": "understanding",
       "date": "2026-10",
-      "authors": "C. Cui et al.",
+      "authors": "Cui Chenhang, Yu Jian, Miao Shuyi, Liu Xiaohao, Huang Rui, Shen Fei, Zhang An, Chua Tat-Seng",
       "title": {
         "en": "DV-Lens: Revealing the Functional Organization of Language Model Parameters",
         "zh": "DV-Lens：揭示语言模型参数的功能组织"
       },
       "summary": {
-        "en": "Study how language model parameters are functionally organized, connecting internal structure with model behavior.",
-        "zh": "研究语言模型参数的功能组织，探索内部结构与模型行为之间的联系。"
+        "en": "A vocabulary-space view of native parameters, tested through local output changes and targeted interventions.",
+        "zh": "把原生参数映射到词表空间，再用局部输出变化和定向干预检验这些读出。"
       },
       "publication": {
         "en": "Preprint",
         "zh": "预印本"
       },
       "image": "/images/paper-images/dv-lens.png",
-      "paper": "https://arxiv.org/abs/2610.04489"
+      "paper": "https://arxiv.org/abs/2610.04489",
+      "author_names": [
+        "Cui Chenhang",
+        "Yu Jian",
+        "Miao Shuyi",
+        "Liu Xiaohao",
+        "Huang Rui",
+        "Shen Fei",
+        "Zhang An",
+        "Chua Tat-Seng"
+      ],
+      "authors_bibtex": [
+        "Cui, Chenhang",
+        "Yu, Jian",
+        "Miao, Shuyi",
+        "Liu, Xiaohao",
+        "Huang, Rui",
+        "Shen, Fei",
+        "Zhang, An",
+        "Chua, Tat-Seng"
+      ],
+      "submitted": "2026-10-03",
+      "pdf": "https://arxiv.org/pdf/2610.04489",
+      "article": {
+        "en": {
+          "deck": "A vocabulary-space view of native parameters, tested through local output changes and targeted interventions.",
+          "short": "DV-Lens connects parameter directions to signed vocabulary responses. It makes parameter interpretations testable and introduces DV-Complexity to study how functional organization relates to model capability.",
+          "motivation": "A parameter interpretation becomes more useful when it predicts what will change in the output. The challenge is to connect parameters from different modules to a common, verifiable output space.",
+          "method": [
+            "Estimate downstream Jacobians for attention Q/K/V/O projections and FFNs over reference prompts.",
+            "Project native parameter columns into vocabulary space to obtain signed local readouts.",
+            "Group columns by their readouts and measure within-group structural variation with DV-Complexity."
+          ],
+          "evidence": "Finite-difference tests report 98.0% coordinate-orientation agreement across 720 cases from nine models. Readouts also guide ablation, steering, and swapping across 21 models. Across 48 models, joint-parameter DV-Complexity correlates with capability rankings at Spearman ρ = 0.904.",
+          "takeaway": "The evidence supports local, intervention-tested interpretations and a model-level association. A capability correlation does not by itself establish a causal law of model quality.",
+          "highlights": [
+            {
+              "value": "98.0%",
+              "label": "Local direction agreement"
+            },
+            {
+              "value": "21",
+              "label": "Models with intervention tests"
+            },
+            {
+              "value": "0.904",
+              "label": "Capability-rank Spearman correlation"
+            }
+          ]
+        },
+        "zh": {
+          "deck": "把原生参数映射到词表空间，再用局部输出变化和定向干预检验这些读出。",
+          "short": "DV-Lens 将参数方向与带符号的词表响应联系起来，使参数解释能够接受干预检验；进一步提出 DV-Complexity，研究参数功能组织与模型能力的关系。",
+          "motivation": "理解参数的含义，需要进一步回答：改变这个参数，输出会怎样变化？不同模块的参数处于不同空间，直接比较它们的功能并不容易。因此，这项工作把最终词表作为共同的观察空间。",
+          "method": [
+            "在参考提示上估计注意力 Q/K/V/O 投影及 FFN 的下游 Jacobian，建立模块到最终输出的局部映射。",
+            "把原生参数列投影到词表空间，得到描述平均局部输出响应的带符号读出。",
+            "按词表读出对参数列分组，再利用原始权重的归一化重建残差，刻画组内结构变化。"
+          ],
+          "evidence": "有限差分检验覆盖 9 个模型、720 个案例，局部变化方向的一致率为 98.0%。读出还用于 21 个模型上的消融、引导和参数替换。在 48 个模型上，联合参数 DV-Complexity 与基准能力排序的 Spearman 相关系数达到 0.904。",
+          "takeaway": "这项工作把参数解释推进到可检验的输出预测，并给出了功能组织与能力的统计联系。局部干预证据和跨模型相关性分别回答不同问题，不能把后者直接解释为能力的因果规律。",
+          "highlights": [
+            {
+              "value": "98.0%",
+              "label": "局部变化方向一致率"
+            },
+            {
+              "value": "21",
+              "label": "干预实验覆盖的模型数"
+            },
+            {
+              "value": "0.904",
+              "label": "与能力排序的 Spearman 相关"
+            }
+          ]
+        }
+      }
     },
     {
       "id": "latent-support",
       "category": "reliability",
       "date": "2026-10",
-      "authors": "C. Shi et al.",
+      "authors": "Shi Chuancheng, Li Shangze, Wu Wenhua, Hu Kun, Shen Fei, Wang Zhiyong, Chua Tat-Seng",
       "title": {
         "en": "Do correct answers have stable latent knowledge support?",
         "zh": "正确答案是否具有稳定的潜在知识支撑？"
       },
       "summary": {
-        "en": "Examine whether stable latent knowledge support provides internal evidence for evaluating answer correctness.",
-        "zh": "检验正确答案是否具有稳定的潜在知识支撑，探索判断答案可靠性的内部证据。"
+        "en": "A correct answer is an observable outcome. This study asks whether its internal knowledge support stays stable when the elicitation condition changes.",
+        "zh": "答对是外部结果。这项研究进一步追问：改变知识的激发条件，答案背后的内部支撑是否仍然稳定？"
       },
       "publication": {
         "en": "Preprint",
         "zh": "预印本"
       },
       "image": "/images/paper-images/latent-support.png",
-      "paper": "https://arxiv.org/abs/2610.15277"
+      "paper": "https://arxiv.org/abs/2610.15277",
+      "author_names": [
+        "Shi Chuancheng",
+        "Li Shangze",
+        "Wu Wenhua",
+        "Hu Kun",
+        "Shen Fei",
+        "Wang Zhiyong",
+        "Chua Tat-Seng"
+      ],
+      "authors_bibtex": [
+        "Shi, Chuancheng",
+        "Li, Shangze",
+        "Wu, Wenhua",
+        "Hu, Kun",
+        "Shen, Fei",
+        "Wang, Zhiyong",
+        "Chua, Tat-Seng"
+      ],
+      "submitted": "2026-10-11",
+      "pdf": "https://arxiv.org/pdf/2610.15277",
+      "article": {
+        "en": {
+          "deck": "A correct answer is an observable outcome. This study asks whether its internal knowledge support stays stable when the elicitation condition changes.",
+          "short": "Correct outputs can coexist with substantially different levels of internal stability. LSS and KTS measure the stability of individual knowledge states and their relational structure, with LatentDPO exploring an editing application.",
+          "motivation": "Output accuracy alone cannot determine whether an answer rests on stable representations. Controlled changes in how knowledge is elicited provide a way to examine the support behind the answer.",
+          "method": [
+            "Average representations within each elicitation condition and correct shared shifts relative to a baseline.",
+            "Use LSS for normalized state displacement and KTS for cross-condition consistency of pairwise distances.",
+            "Evaluate controlled queries in EpiStableBench and use stability-aware preferences in LatentDPO."
+          ],
+          "evidence": "EpiStableBench includes 4,411 items and 76,766 controlled queries. Across 16 LLMs, higher within-model stability generally accompanies better held-out accuracy, while larger or more accurate models are not consistently more stable. LatentDPO improves editing success and generalization in the evaluated integrations.",
+          "takeaway": "Knowledge stability adds an internal evaluation dimension beyond observed correctness; it complements accuracy rather than replacing it.",
+          "highlights": [
+            {
+              "value": "4,411",
+              "label": "Knowledge items"
+            },
+            {
+              "value": "76,766",
+              "label": "Controlled queries"
+            },
+            {
+              "value": "16",
+              "label": "Language models"
+            }
+          ]
+        },
+        "zh": {
+          "deck": "答对是外部结果。这项研究进一步追问：改变知识的激发条件，答案背后的内部支撑是否仍然稳定？",
+          "short": "即使在基准条件下答对，模型内部知识的稳定性仍可能明显不同。LSS 和 KTS 分别刻画单个知识状态及知识关系结构的稳定性，LatentDPO 则进一步探索其在知识编辑中的应用。",
+          "motivation": "仅统计答案是否正确，无法判断同一知识在不同条件下是否具有稳定的内部表示。通过受控地改变知识激发条件，可以把外部表现与内部支撑放在一起研究。",
+          "method": [
+            "分别汇总各激发条件下的内部表示，以基准条件为参照，校正不同条件之间的共享偏移。",
+            "用 LSS 衡量归一化后的知识状态位移；用 KTS 衡量知识项之间距离排序在不同条件下的一致性。",
+            "在 EpiStableBench 上开展受控评估，并通过 LatentDPO 学习考虑潜在知识稳定性的编辑策略。"
+          ],
+          "evidence": "EpiStableBench 包含 4,411 个知识项和 76,766 个受控查询，覆盖 16 个大语言模型。模型内部更稳定的知识通常对应更好的留出条件准确率，但跨模型比较时，规模或总体准确率并不稳定地预测知识稳定性。LatentDPO 在所评估的编辑方法组合中改善了编辑成功率和泛化。",
+          "takeaway": "知识稳定性为能力评估增加了一个内部维度，使“是否答对”和“内部支撑是否稳定”能够被分别考察，再用于指导后续干预。",
+          "highlights": [
+            {
+              "value": "4,411",
+              "label": "知识项"
+            },
+            {
+              "value": "76,766",
+              "label": "受控查询"
+            },
+            {
+              "value": "16",
+              "label": "大语言模型"
+            }
+          ]
+        }
+      }
     },
     {
       "id": "superai",
       "category": "capabilities",
       "date": "2026-10",
-      "authors": "J. Dou et al.",
+      "authors": "Dou Jingtong, Shi Chuancheng, Wu Wenhua, Bao Wei, Shen Fei, Wang Zhiyong, Chua Tat-Seng",
       "title": {
         "en": "SuperAI: Merging Capabilities Across Heterogeneous Foundation Models",
         "zh": "SuperAI：跨异构基础模型的能力合并"
       },
       "summary": {
-        "en": "Explore how capabilities from heterogeneous foundation models can be merged and reused.",
-        "zh": "探索如何合并与复用异构基础模型中的能力。"
+        "en": "Bring complementary capabilities into one host model by aligning functional subspaces across heterogeneous foundation models.",
+        "zh": "通过对齐异构基础模型的功能子空间，把多个来源的互补能力引入同一个宿主模型。"
       },
       "publication": {
         "en": "Preprint",
         "zh": "预印本"
       },
       "image": "/images/paper-images/superai.png",
-      "paper": "https://arxiv.org/abs/2610.15322"
+      "paper": "https://arxiv.org/abs/2610.15322",
+      "author_names": [
+        "Dou Jingtong",
+        "Shi Chuancheng",
+        "Wu Wenhua",
+        "Bao Wei",
+        "Shen Fei",
+        "Wang Zhiyong",
+        "Chua Tat-Seng"
+      ],
+      "authors_bibtex": [
+        "Dou, Jingtong",
+        "Shi, Chuancheng",
+        "Wu, Wenhua",
+        "Bao, Wei",
+        "Shen, Fei",
+        "Wang, Zhiyong",
+        "Chua, Tat-Seng"
+      ],
+      "submitted": "2026-10-11",
+      "pdf": "https://arxiv.org/pdf/2610.15322",
+      "article": {
+        "en": {
+          "deck": "Bring complementary capabilities into one host model by aligning functional subspaces across heterogeneous foundation models.",
+          "short": "SuperAI builds a shared cross-model interface from low-dimensional, task-relevant representations. Orthogonal alignment and a lightweight residual MLP support input-dependent capability fusion.",
+          "motivation": "Useful capabilities are distributed across models with incompatible architectures and representations. Their coordinates must be aligned before source knowledge can be meaningfully injected into a host.",
+          "method": [
+            "Use shared anchor samples and PCA to construct source and host subspaces with matching dimensions.",
+            "Align source and host coordinates with orthogonal Procrustes mappings.",
+            "Train residual MLP mappings with both task outputs and source-model increments as supervision."
+          ],
+          "evidence": "Experiments cover three host models and 15 capability domains. The framework reports higher average domain scores than the evaluated cross-architecture alternatives and better retention of general capabilities as more source models are added.",
+          "takeaway": "A functional interface offers a route to combining heterogeneous expertise while explicitly testing interference and general-capability retention.",
+          "highlights": [
+            {
+              "value": "3",
+              "label": "Host models"
+            },
+            {
+              "value": "15",
+              "label": "Capability domains"
+            },
+            {
+              "value": "PCA",
+              "label": "Low-dimensional functional spaces"
+            }
+          ]
+        },
+        "zh": {
+          "deck": "通过对齐异构基础模型的功能子空间，把多个来源的互补能力引入同一个宿主模型。",
+          "short": "SuperAI 从低维、任务相关的表示中建立跨模型接口，再通过正交对齐和轻量残差 MLP，实现随输入变化的能力融合。",
+          "motivation": "不同模型可能分别擅长不同任务，但架构和表示坐标并不兼容。直接叠加来源模型的表示，难以保证注入的变化具有一致含义，因此需要先建立可比较的功能空间。",
+          "method": [
+            "利用共享锚点样本提取来源与宿主表示，再通过 PCA 构造维度一致的任务功能子空间。",
+            "通过正交 Procrustes 映射对齐来源与宿主坐标，在建立对应关系的同时保留子空间内部几何。",
+            "以任务输出和来源模型增量联合监督残差 MLP，学习可注入宿主的、与输入相关的增量。"
+          ],
+          "evidence": "实验覆盖 3 个宿主模型和 15 个能力领域。相较于所评估的跨架构融合方法，SuperAI 获得更高的平均领域得分，并在增加来源模型时更好地保留通用能力。消融结果支持正交对齐、非线性残差映射与联合监督的作用。",
+          "takeaway": "功能子空间为异构能力提供了可对齐的接口。评价融合效果时，也需要同时观察目标能力收益、来源数量增加后的干扰，以及宿主通用能力的保留。",
+          "highlights": [
+            {
+              "value": "3",
+              "label": "宿主模型"
+            },
+            {
+              "value": "15",
+              "label": "能力领域"
+            },
+            {
+              "value": "PCA",
+              "label": "低维功能子空间"
+            }
+          ]
+        }
+      }
     },
     {
       "id": "forensic-reserve",
       "category": "application",
       "date": "2026-10",
-      "authors": "J. Li et al.",
+      "authors": "Li Jiahua, John Zixu, Zhong Tom, Wu Fuping, Xu Tianhao, Zheng Jianqing, Mo Yuanhan, Shen Fei",
       "title": {
         "en": "Forensic Reserve: Eliciting Latent Knowledge for Image Forgery Detection",
         "zh": "Forensic Reserve：激发潜在知识以检测图像伪造"
       },
       "summary": {
-        "en": "Investigate latent forgery knowledge and how to elicit it for image forgery detection.",
-        "zh": "研究模型内部的潜在伪造知识，以及如何将其激发并用于图像伪造检测。"
+        "en": "Find a pretrained model’s latent forensic reserve, then constrain lightweight adaptation to those existing directions.",
+        "zh": "先定位预训练模型内部的潜在鉴伪储备，再让轻量适配沿这些既有方向发挥作用。"
       },
       "publication": {
         "en": "Preprint",
         "zh": "预印本"
       },
       "image": "/images/paper-images/forensic-reserve.png",
-      "paper": "https://arxiv.org/abs/2610.08639"
+      "paper": "https://arxiv.org/abs/2610.08639",
+      "author_names": [
+        "Li Jiahua",
+        "John Zixu",
+        "Zhong Tom",
+        "Wu Fuping",
+        "Xu Tianhao",
+        "Zheng Jianqing",
+        "Mo Yuanhan",
+        "Shen Fei"
+      ],
+      "authors_bibtex": [
+        "Li, Jiahua",
+        "John, Zixu",
+        "Zhong, Tom",
+        "Wu, Fuping",
+        "Xu, Tianhao",
+        "Zheng, Jianqing",
+        "Mo, Yuanhan",
+        "Shen, Fei"
+      ],
+      "submitted": "2026-10-06",
+      "pdf": "https://arxiv.org/pdf/2610.08639",
+      "article": {
+        "en": {
+          "deck": "Find a pretrained model’s latent forensic reserve, then constrain lightweight adaptation to those existing directions.",
+          "short": "Reserve-Guided Elicitation translates the localization of sparse, origin-sensitive components into structural constraints for adapters. The goal is to strengthen existing forensic responses with a small adaptation budget.",
+          "motivation": "A pretrained representation may already contain useful forensic signals that ordinary task adaptation does not specifically exploit. Identifying where those signals reside can guide which components should be adapted.",
+          "method": [
+            "Use F-lens to decompose activations and screen components by real-versus-generated response differences.",
+            "Map selected directions back to hidden-state space and place Forensic Reserve Adapters at identified sites.",
+            "Train only coefficient maps; keep the backbone, fitted reference classifier, and subspace bases fixed."
+          ],
+          "evidence": "With 500 labelled images and fewer than 0.2% trainable backbone parameters, RGE is evaluated on three benchmarks without target-benchmark adaptation. Improvements over corresponding frozen detectors hold across eight encoders.",
+          "takeaway": "Localization becomes operational when it constrains the adaptation itself: where to update, along which directions, and with how many parameters.",
+          "highlights": [
+            {
+              "value": "500",
+              "label": "Labelled training images"
+            },
+            {
+              "value": "<0.2%",
+              "label": "Trainable parameter budget"
+            },
+            {
+              "value": "8",
+              "label": "Pretrained encoders"
+            }
+          ]
+        },
+        "zh": {
+          "deck": "先定位预训练模型内部的潜在鉴伪储备，再让轻量适配沿这些既有方向发挥作用。",
+          "short": "Reserve-Guided Elicitation 将稀疏、对图像来源敏感的内部成分定位结果，转化为适配器的结构约束，用有限的训练预算增强既有鉴伪响应。",
+          "motivation": "预训练表示可能已经包含有助于区分真实与生成图像的信号，但常规任务适配未必明确利用这些信号。先确定其位置与方向，可以为适配器的插入方式和更新空间提供依据。",
+          "method": [
+            "通过 F-lens 分解不同层与 token 组的激活，并根据真实与生成图像之间的响应差异筛选储备成分。",
+            "将选中的方向映射回隐藏状态空间，构造固定子空间，并在定位到的位置插入鉴伪储备适配器。",
+            "仅训练适配器的系数映射，固定主干、已拟合的参考分类器和子空间基，约束残差更新方向。"
+          ],
+          "evidence": "RGE 使用 500 张标注图像，可训练参数少于主干参数的 0.2%，在不针对目标基准适配的设置下评估了 3 个检测基准。其相对对应冻结检测器的改进，在 8 个编码器上均得到观察。",
+          "takeaway": "定位结果可以直接服务于模型适配：决定在哪里更新、沿什么方向更新，以及用多少参数更新，从而把内部分析与下游检测连接起来。",
+          "highlights": [
+            {
+              "value": "500",
+              "label": "标注训练图像"
+            },
+            {
+              "value": "<0.2%",
+              "label": "可训练参数预算"
+            },
+            {
+              "value": "8",
+              "label": "预训练编码器"
+            }
+          ]
+        }
+      }
     },
     {
       "id": "emorss",
       "category": "reliability",
       "date": "2026-10",
-      "authors": "S. Miao et al.",
+      "authors": "Miao Shuyi, Ma Yaojin, Cui Chenhang, Liu Xiaohao, Dang Jisheng, Zhuo Shengda, Shen Fei, Chua Tat-Seng",
       "title": {
         "en": "EmoRSS: Mitigating Emotion-Induced Over-Refusal in Large Language Models",
         "zh": "EmoRSS：缓解大语言模型中情绪引发的过度拒答"
       },
       "summary": {
-        "en": "Study emotion-induced over-refusal and how to improve the reliability of model safety responses.",
-        "zh": "研究情绪因素引发的过度拒答，探索提升模型安全响应可靠性的方法。"
+        "en": "Emotional wording can make benign requests look unsafe. EmoRSS steers refusal-related activations to reduce that distortion.",
+        "zh": "情绪化措辞可能使正常请求更容易遭到拒答。EmoRSS 通过干预拒答相关激活，缓解这种偏移。"
       },
       "publication": {
         "en": "Preprint",
         "zh": "预印本"
       },
       "image": "/images/paper-images/emorss.png",
-      "paper": "https://arxiv.org/abs/2610.04998"
+      "paper": "https://arxiv.org/abs/2610.04998",
+      "author_names": [
+        "Miao Shuyi",
+        "Ma Yaojin",
+        "Cui Chenhang",
+        "Liu Xiaohao",
+        "Dang Jisheng",
+        "Zhuo Shengda",
+        "Shen Fei",
+        "Chua Tat-Seng"
+      ],
+      "authors_bibtex": [
+        "Miao, Shuyi",
+        "Ma, Yaojin",
+        "Cui, Chenhang",
+        "Liu, Xiaohao",
+        "Dang, Jisheng",
+        "Zhuo, Shengda",
+        "Shen, Fei",
+        "Chua, Tat-Seng"
+      ],
+      "submitted": "2026-10-04",
+      "pdf": "https://arxiv.org/pdf/2610.04998",
+      "article": {
+        "en": {
+          "deck": "Emotional wording can make benign requests look unsafe. EmoRSS steers refusal-related activations to reduce that distortion.",
+          "short": "EmoRSS targets emotion-induced over-refusal through a refusal subspace. It estimates the activation shift caused by emotional expression and reverses that shift at inference time.",
+          "motivation": "Safety decisions should depend on the requested action as well as its context. Benign queries can be unnecessarily refused when emotional expression increases refusal tendencies.",
+          "method": [
+            "Locate a refusal-sensitive layer with linear probes and construct an SAE-based refusal subspace.",
+            "Compare paired regular and emotional versions of the same queries to estimate a mean feature shift.",
+            "Decode that shift into a hidden-state vector and intervene in the reverse refusal direction without backbone updates."
+          ],
+          "evidence": "Experiments on two LLMs jointly examine harmful-request refusal, benign-request answering, and general performance. The reported trade-off is more favourable than the compared over-refusal mitigation baselines under emotional wording.",
+          "takeaway": "Reducing over-refusal requires evaluating helpfulness and harmful-request refusal together; the intervention is designed to correct an emotional shift rather than erase refusal behaviour.",
+          "highlights": [
+            {
+              "value": "2",
+              "label": "Language models evaluated"
+            },
+            {
+              "value": "SAE",
+              "label": "Refusal-subspace features"
+            },
+            {
+              "value": "Frozen",
+              "label": "No backbone parameter updates"
+            }
+          ]
+        },
+        "zh": {
+          "deck": "情绪化措辞可能使正常请求更容易遭到拒答。EmoRSS 通过干预拒答相关激活，缓解这种偏移。",
+          "short": "EmoRSS 针对情绪诱发的过度拒答，构建拒答子空间，估计情绪表达造成的激活偏移，并在推理时沿反向进行干预。",
+          "motivation": "情绪表达不仅可能出现在攻击中，也可能出现在正常求助与日常问题中。如果情绪因素本身提高了拒答倾向，模型就可能拒绝本来可以回答的请求。",
+          "method": [
+            "用逐层线性探针定位拒答敏感层，再从与探针方向对齐的 SAE 特征中构建拒答子空间。",
+            "比较同一问题的普通版本与情绪化版本，估计拒答子空间中相关特征的平均激活偏移。",
+            "将偏移解码为隐藏状态干预向量，在推理时沿反向拒答方向施加干预，无需更新主干参数。"
+          ],
+          "evidence": "在两个大语言模型上，实验同时考察有害请求拒答、正常请求回答与通用任务表现。在包含情绪表达的设置下，EmoRSS 相比所比较的过度拒答缓解方法，实现了更有利的综合权衡。",
+          "takeaway": "缓解过度拒答，需要把正常请求的可回答性与有害请求的拒答能力一起评价。这里干预的是情绪引起的偏移，而目标仍是保持合理的安全判断。",
+          "highlights": [
+            {
+              "value": "2",
+              "label": "参与评估的大语言模型"
+            },
+            {
+              "value": "SAE",
+              "label": "拒答子空间特征"
+            },
+            {
+              "value": "冻结",
+              "label": "主干参数无需更新"
+            }
+          ]
+        }
+      }
     },
     {
       "id": "contractlens",
       "category": "application",
       "date": "2026-10",
-      "authors": "S. Miao et al.",
+      "authors": "Miao Shuyi, Huang Xinyi, Qiu Wangjie, Shen Fei, He Jinchun, Zheng Zhiming, Chua Tat-Seng",
       "title": {
         "en": "ContractLens: Latent Security Knowledge for Malicious Smart Contract Detection",
         "zh": "ContractLens：利用潜在安全知识检测恶意智能合约"
       },
       "summary": {
-        "en": "Explore latent security knowledge in foundation models for malicious smart contract detection.",
-        "zh": "探索基础模型中的潜在安全知识，并将其用于恶意智能合约检测。"
+        "en": "Localize latent security signals and use a compact set of internal units to detect malicious smart contracts.",
+        "zh": "定位模型中的潜在安全信号，利用紧凑的内部神经单元表示检测恶意智能合约。"
       },
       "publication": {
         "en": "Preprint",
         "zh": "预印本"
       },
       "image": "/images/paper-images/contract-lens.png",
-      "paper": "https://arxiv.org/abs/2610.04992"
+      "paper": "https://arxiv.org/abs/2610.04992",
+      "author_names": [
+        "Miao Shuyi",
+        "Huang Xinyi",
+        "Qiu Wangjie",
+        "Shen Fei",
+        "He Jinchun",
+        "Zheng Zhiming",
+        "Chua Tat-Seng"
+      ],
+      "authors_bibtex": [
+        "Miao, Shuyi",
+        "Huang, Xinyi",
+        "Qiu, Wangjie",
+        "Shen, Fei",
+        "He, Jinchun",
+        "Zheng, Zhiming",
+        "Chua, Tat-Seng"
+      ],
+      "submitted": "2026-10-04",
+      "pdf": "https://arxiv.org/pdf/2610.04992",
+      "article": {
+        "en": {
+          "deck": "Localize latent security signals and use a compact set of internal units to detect malicious smart contracts.",
+          "short": "ContractLens identifies malicious contract-discriminative units, or MCDUs, and trains a lightweight classifier over their activations while keeping the language model frozen.",
+          "motivation": "Prompt-based auditing exposes model responses but does not directly characterize the representations supporting malicious-logic detection. ContractLens asks which internal signals track the logic rather than incidental surface form.",
+          "method": [
+            "Probe candidate layers and test sensitivity to malicious-logic removal and stability under behaviour-preserving changes.",
+            "Combine activation contrast, malicious-logic specificity, and probe weights to rank units and select a knee point.",
+            "Concatenate selected activations into a compact representation for a lightweight detector."
+          ],
+          "evidence": "Masking MCDUs produces larger detection drops than random or activation-matched controls. Evaluation across three pretrained models reports higher average accuracy than the compared methods, including tests of unseen malicious intents and few-label classifiers.",
+          "takeaway": "The framework links an interpretable internal representation to a practical detection pipeline and tests whether the selected units matter to its predictions.",
+          "highlights": [
+            {
+              "value": "3",
+              "label": "Pretrained models"
+            },
+            {
+              "value": "MCDU",
+              "label": "Selected discriminative units"
+            },
+            {
+              "value": "Frozen",
+              "label": "Language-model backbone"
+            }
+          ]
+        },
+        "zh": {
+          "deck": "定位模型中的潜在安全信号，利用紧凑的内部神经单元表示检测恶意智能合约。",
+          "short": "ContractLens 定位恶意合约判别单元 MCDU，并在其激活上训练轻量分类器；整个过程中，预训练语言模型保持冻结。",
+          "motivation": "提示式审计能够获得模型判断，却难以直接说明判断所依赖的内部表示。ContractLens 关注哪些信号与恶意逻辑有关，以及它们能否在代码表面形式变化后保持稳定。",
+          "method": [
+            "先用逐层线性探针识别候选层，再检验移除恶意逻辑时的敏感性，以及行为保持的表面修改下的稳定性。",
+            "融合激活对比、恶意逻辑特异性和探针权重，形成三因素重要性得分，并利用排序曲线的拐点选取单元。",
+            "拼接所选单元的激活，构造紧凑表示，用于训练轻量检测器。"
+          ],
+          "evidence": "屏蔽 MCDU 导致的检测性能下降，大于随机单元及激活幅度匹配单元的对照。三个预训练模型上的评估报告了相对所比较方法更高的平均准确率，并进一步检验了未见恶意意图与少标注分类器设置。",
+          "takeaway": "这项工作把内部安全信号转化为可用于检测的表示，同时通过屏蔽对照检验所选单元是否对预测具有实际作用。",
+          "highlights": [
+            {
+              "value": "3",
+              "label": "预训练模型"
+            },
+            {
+              "value": "MCDU",
+              "label": "恶意合约判别单元"
+            },
+            {
+              "value": "冻结",
+              "label": "语言模型主干"
+            }
+          ]
+        }
+      }
     },
     {
       "id": "barq",
       "category": "capabilities",
       "date": "2026-10",
-      "authors": "C. Cui et al.",
+      "authors": "Cui Chenhang, Xie Xu, Xu Linrui, Liu Xiaohao, Zhu Xingyu, Shen Fei, Chua Tat-Seng",
       "title": {
         "en": "BARQ: Balanced Codebook Refinement for Low-Bit LLM Quantization",
         "zh": "BARQ：面向低比特大语言模型量化的平衡码本优化"
       },
       "summary": {
-        "en": "Study balanced codebook refinement for low-bit language model quantization and efficient deployment.",
-        "zh": "研究面向低比特语言模型量化的平衡码本优化，支持模型高效部署。"
+        "en": "Improve low-bit quantization by giving codewords balanced opportunities to learn during fitting.",
+        "zh": "在拟合阶段为各个码字提供更均衡的更新机会，以改善低比特量化质量。"
       },
       "publication": {
         "en": "Preprint",
         "zh": "预印本"
       },
       "image": "/images/paper-images/barq.png",
-      "paper": "https://arxiv.org/abs/2610.04490"
+      "paper": "https://arxiv.org/abs/2610.04490",
+      "author_names": [
+        "Cui Chenhang",
+        "Xie Xu",
+        "Xu Linrui",
+        "Liu Xiaohao",
+        "Zhu Xingyu",
+        "Shen Fei",
+        "Chua Tat-Seng"
+      ],
+      "authors_bibtex": [
+        "Cui, Chenhang",
+        "Xie, Xu",
+        "Xu, Linrui",
+        "Liu, Xiaohao",
+        "Zhu, Xingyu",
+        "Shen, Fei",
+        "Chua, Tat-Seng"
+      ],
+      "submitted": "2026-10-03",
+      "pdf": "https://arxiv.org/pdf/2610.04490",
+      "article": {
+        "en": {
+          "deck": "Improve low-bit quantization by giving codewords balanced opportunities to learn during fitting.",
+          "short": "BARQ refines existing codebooks with balanced soft assignments and barycentric updates, then returns to standard hard nearest-codeword encoding.",
+          "motivation": "Nearest-codeword fitting can give some codewords too little updating mass. An underused codebook wastes representational capacity precisely when low-bit deployment makes that capacity scarce.",
+          "method": [
+            "Solve entropically regularized optimal transport with uniform marginals and curvature-weighted reconstruction costs.",
+            "Update codewords using assignment-weighted barycentres, with fixed-assignment optimality conditions.",
+            "Discard fitting-time soft assignments and encode weights with standard hard nearest-codeword assignments."
+          ],
+          "evidence": "The paper establishes sufficient conditions for improved hard-quantization distortion and evaluation loss. Across the evaluated LLMs and comparable bit budgets, it reports lower perplexity and higher mean zero-shot accuracy than the compared baselines.",
+          "takeaway": "Balanced fitting and hard inference play different roles: codewords receive balanced fitting mass without requiring balanced assignments during deployment.",
+          "highlights": [
+            {
+              "value": "OT",
+              "label": "Curvature-aware soft assignments"
+            },
+            {
+              "value": "Balanced",
+              "label": "Codeword fitting mass"
+            },
+            {
+              "value": "Hard",
+              "label": "Standard deployment encoding"
+            }
+          ]
+        },
+        "zh": {
+          "deck": "在拟合阶段为各个码字提供更均衡的更新机会，以改善低比特量化质量。",
+          "short": "BARQ 利用平衡软分配和重心更新优化已有码本，随后仍采用标准的硬最近码字编码。",
+          "motivation": "最近码字分配可能使部分码字获得的更新权重过少，导致有效码本利用不足。对于表示容量已经受限的低比特部署，这会进一步影响重建质量。",
+          "method": [
+            "采用带熵正则的最优传输，在均匀边缘约束和曲率加权重建代价下建立软分配。",
+            "根据分配权重进行码字重心更新，并分析固定分配条件下的最优性及有限 Sinkhorn 迭代的适用条件。",
+            "拟合结束后丢弃软分配，使用优化后的码本进行标准硬最近码字编码。"
+          ],
+          "evidence": "论文给出了改善硬量化失真和评估损失的充分条件。在所评估的大语言模型和可比比特预算下，实验报告了相对所比较基线更低的困惑度，以及更高的平均零样本准确率。",
+          "takeaway": "拟合阶段的平衡约束与部署阶段的硬编码承担不同作用：前者改善码字更新，后者维持常规编码方式，并不要求推理时继续执行软分配。",
+          "highlights": [
+            {
+              "value": "OT",
+              "label": "曲率感知软分配"
+            },
+            {
+              "value": "平衡",
+              "label": "码字拟合权重"
+            },
+            {
+              "value": "硬编码",
+              "label": "标准部署编码"
+            }
+          ]
+        }
+      },
+      "code": "https://github.com/chenhangcuisg-code/BARQ"
     },
     {
       "id": "actr",
       "category": "reliability",
       "date": "2026-09",
-      "authors": "X. Zhang et al.",
+      "authors": "Zhang Xianhui, Yu Jian, Xie Chengyu, Cui Chenhang, Miao Shuyi, Shao Pengyang, Zheng Yu, Shen Fei, Chua Tat-Seng",
       "title": {
         "en": "ACTR: Aligning Thoughts and Responses for Multilingual Safety in Reasoning LLMs",
         "zh": "ACTR：对齐思考与回答，提升推理模型的多语言安全性"
       },
       "summary": {
-        "en": "Examine alignment between reasoning and responses to improve multilingual safety in reasoning language models.",
-        "zh": "研究推理过程与最终回答之间的对齐，以提升推理语言模型的多语言安全性。"
+        "en": "A reasoning model may recognize a safety risk in its thoughts yet still produce an unsafe answer in another language.",
+        "zh": "推理模型可能已经在思考中识别风险，却仍在另一种语言的回答中给出不安全内容。"
       },
       "publication": {
         "en": "Preprint",
         "zh": "预印本"
       },
       "image": "/images/paper-images/actr.png",
-      "paper": "https://arxiv.org/abs/2609.37054"
+      "paper": "https://arxiv.org/abs/2609.37054",
+      "author_names": [
+        "Zhang Xianhui",
+        "Yu Jian",
+        "Xie Chengyu",
+        "Cui Chenhang",
+        "Miao Shuyi",
+        "Shao Pengyang",
+        "Zheng Yu",
+        "Shen Fei",
+        "Chua Tat-Seng"
+      ],
+      "authors_bibtex": [
+        "Zhang, Xianhui",
+        "Yu, Jian",
+        "Xie, Chengyu",
+        "Cui, Chenhang",
+        "Miao, Shuyi",
+        "Shao, Pengyang",
+        "Zheng, Yu",
+        "Shen, Fei",
+        "Chua, Tat-Seng"
+      ],
+      "submitted": "2026-09-29",
+      "pdf": "https://arxiv.org/pdf/2609.37054",
+      "article": {
+        "en": {
+          "deck": "A reasoning model may recognize a safety risk in its thoughts yet still produce an unsafe answer in another language.",
+          "short": "ACTR strengthens the use of existing safety reasoning. It identifies safety think neurons and selectively optimizes consistency between the safety categories of reasoning traces and final responses.",
+          "motivation": "Recognizing risk does not guarantee that the response uses that recognition. This gap is especially important under jailbreak attacks in non-high-resource languages.",
+          "method": [
+            "Measure reasoning-trace contributions with TGS and examine safety changes under trace substitution.",
+            "Compare neuron importance with reasoning enabled and disabled to identify safety think neurons.",
+            "Use a frozen judge to reward safety-category consistency while updating only selected neuron-associated parameters."
+          ],
+          "evidence": "Across two reasoning models, ACTR is evaluated on AdvBench-X and MultiJail. It reports lower average attack success rates than the compared methods, with gains extending to unseen languages while limiting benign false refusals.",
+          "takeaway": "Safety reasoning must influence the final response to be useful. Selective consistency optimization turns that connection into a direct training target.",
+          "highlights": [
+            {
+              "value": "2",
+              "label": "Reasoning models"
+            },
+            {
+              "value": "2",
+              "label": "Multilingual jailbreak benchmarks"
+            },
+            {
+              "value": "Selective",
+              "label": "Neuron-associated updates"
+            }
+          ]
+        },
+        "zh": {
+          "deck": "推理模型可能已经在思考中识别风险，却仍在另一种语言的回答中给出不安全内容。",
+          "short": "ACTR 关注模型能否真正利用已有的安全推理：先识别安全思考神经元，再选择性优化思考过程与最终回答在安全类别上的一致性。",
+          "motivation": "“推理中识别出风险”与“回答中执行安全判断”之间可能存在断层。这种断层在非高资源语言的越狱攻击下尤其值得关注。",
+          "method": [
+            "用 TGS 比较推理轨迹对回答生成的贡献，并通过轨迹替换考察跨语言安全差距。",
+            "比较开启与关闭推理时的神经元重要性，定位支持安全推理利用的神经元。",
+            "借助冻结裁判模型奖励思考与回答的安全类别一致性，仅更新所选神经元关联参数，不依赖人工标注回答或偏好数据。"
+          ],
+          "evidence": "ACTR 在两个推理模型上使用 AdvBench-X 和 MultiJail 进行评估。相较于所比较方法，其平均攻击成功率更低，收益还延伸到未见语言；实验同时考察了正常请求误拒答及多语言知识和数学推理表现。",
+          "takeaway": "安全推理需要实际影响最终回答。选择性的一致性优化把这一连接转化为明确的训练目标，从而同时关注内部判断与外部行为。",
+          "highlights": [
+            {
+              "value": "2",
+              "label": "推理模型"
+            },
+            {
+              "value": "2",
+              "label": "多语言越狱评估基准"
+            },
+            {
+              "value": "定向",
+              "label": "神经元关联参数更新"
+            }
+          ]
+        }
+      }
     },
     {
       "id": "hub-spectral",
       "category": "capabilities",
       "date": "2026-09",
-      "authors": "Y. Guo et al.",
+      "authors": "Guo Ying, Chen Haidong, Xu Linrui, Liu Xiaohao, Shi Chuancheng, Xiao Canran, Zhang Dan, Shen Fei, Shen Li, Chua Tat-Seng",
       "title": {
         "en": "Hub-Spectral Activation of Latent Multimodal Knowledge",
         "zh": "Hub-Spectral：激活潜在多模态知识"
       },
       "summary": {
-        "en": "Investigate hub-spectral activation as a way to elicit latent multimodal knowledge.",
-        "zh": "研究通过 Hub-Spectral 激活方法激发模型中的潜在多模态知识。"
+        "en": "A shared hub can hide useful cross-modal relations that native similarity scores do not reliably expose.",
+        "zh": "共享枢纽中可能包含原生相似度分数未能可靠揭示的跨模态关系。"
       },
       "publication": {
         "en": "Preprint",
@@ -277,60 +882,288 @@
       },
       "image": "/images/paper-images/hub.png",
       "paper": "https://arxiv.org/abs/2609.17094",
-      "code": "https://github.com/Luo1Yan/HSA"
+      "code": "https://github.com/Luo1Yan/HSA",
+      "author_names": [
+        "Guo Ying",
+        "Chen Haidong",
+        "Xu Linrui",
+        "Liu Xiaohao",
+        "Shi Chuancheng",
+        "Xiao Canran",
+        "Zhang Dan",
+        "Shen Fei",
+        "Shen Li",
+        "Chua Tat-Seng"
+      ],
+      "authors_bibtex": [
+        "Guo, Ying",
+        "Chen, Haidong",
+        "Xu, Linrui",
+        "Liu, Xiaohao",
+        "Shi, Chuancheng",
+        "Xiao, Canran",
+        "Zhang, Dan",
+        "Shen, Fei",
+        "Shen, Li",
+        "Chua, Tat-Seng"
+      ],
+      "submitted": "2026-09-15",
+      "pdf": "https://arxiv.org/pdf/2609.17094",
+      "article": {
+        "en": {
+          "deck": "A shared hub can hide useful cross-modal relations that native similarity scores do not reliably expose.",
+          "short": "HSA recovers and activates the hub-readable part of latent multimodal knowledge from frozen representations using closed-form statistical and spectral operations.",
+          "motivation": "Training two modalities against a shared hub does not guarantee their mutual alignment. The question is which part of their relation is identifiable from the two trained hub edges.",
+          "method": [
+            "Compose and standardize the second-order statistics of the two source-trained hub edges.",
+            "Extract paired spectral directions to represent the hub-readable component.",
+            "Combine reliability-weighted matching and source-gated candidate resolution for retrieval and prototype classification."
+          ],
+          "evidence": "Across ImageBind and LanguageBind, mean bidirectional Recall@10 rises from 18.27% to 31.15% over 19 relations. Mean macro Top-1 rises from 29.01% to 52.43% over 11 prototype-classification relations.",
+          "takeaway": "The result concerns a source-induced, hub-readable component under the stated statistical model. It shows why a frozen representation can contain useful relations beyond its native similarity interface.",
+          "highlights": [
+            {
+              "value": "31.15%",
+              "label": "Mean bidirectional Recall@10"
+            },
+            {
+              "value": "52.43%",
+              "label": "Mean macro Top-1 accuracy"
+            },
+            {
+              "value": "19 + 11",
+              "label": "Retrieval + classification relations"
+            }
+          ]
+        },
+        "zh": {
+          "deck": "共享枢纽中可能包含原生相似度分数未能可靠揭示的跨模态关系。",
+          "short": "HSA 通过闭式统计与谱操作，从冻结表示中恢复并激活潜在多模态知识里可由枢纽读出的部分。",
+          "motivation": "两种模态分别与同一枢纽对齐，并不自动保证它们之间也能可靠对齐。这项工作研究：仅凭两条已训练的枢纽连接，能确定并恢复多少跨模态关系？",
+          "method": [
+            "组合并标准化两条来源枢纽连接的二阶统计量，刻画来源诱导的跨模态依赖。",
+            "提取成对谱方向，表示可由枢纽读出的关系成分，并分析其可恢复条件及维度边界。",
+            "结合可靠性加权匹配与来源门控候选解析，用于双向检索和原型分类，无需目标模态对监督或主干更新。"
+          ],
+          "evidence": "在 ImageBind 和 LanguageBind 上，19 个检索关系的平均双向 Recall@10 从 18.27% 提升到 31.15%；11 个原型分类关系的平均宏 Top-1 从 29.01% 提升到 52.43%。",
+          "takeaway": "恢复范围受到来源统计模型与枢纽可读成分的限制。该结果说明，冻结表示所包含的可用关系，可能超出其原生相似度接口直接展现的范围。",
+          "highlights": [
+            {
+              "value": "31.15%",
+              "label": "平均双向 Recall@10"
+            },
+            {
+              "value": "52.43%",
+              "label": "平均宏 Top-1 准确率"
+            },
+            {
+              "value": "19 + 11",
+              "label": "检索关系 + 分类关系"
+            }
+          ]
+        }
+      }
     },
     {
       "id": "lake",
       "category": "application",
       "date": "2026-04",
-      "authors": "S. Li et al.",
+      "authors": "Li Shaotian, Li Shangze, Shi Chuancheng, Wu Wenhua, Wu Yanqiu, Yu Xiaohan, Shen Fei, Chua Tat-Seng",
       "title": {
         "en": "Latent Anomaly Knowledge Excavation: Unveiling Sparse Sensitive Neurons in Vision-Language Models",
         "zh": "LAKE：挖掘视觉语言模型中的潜在异常知识"
       },
       "summary": {
-        "en": "Investigate sparse sensitive neurons in vision-language models for latent anomaly knowledge excavation.",
-        "zh": "研究视觉语言模型中的稀疏敏感神经元，挖掘模型内部的潜在异常知识。"
+        "en": "Excavate anomaly-sensitive neurons already present in a vision-language model using a small set of normal samples.",
+        "zh": "利用少量正常样本，挖掘视觉语言模型中已经存在的异常敏感神经元。"
       },
       "publication": {
         "en": "ACM Multimedia 2026",
         "zh": "ACM Multimedia 2026"
       },
       "image": "/images/paper-images/LAKE.png",
-      "paper": "https://arxiv.org/abs/2604.07802"
+      "paper": "https://arxiv.org/abs/2604.07802",
+      "author_names": [
+        "Li Shaotian",
+        "Li Shangze",
+        "Shi Chuancheng",
+        "Wu Wenhua",
+        "Wu Yanqiu",
+        "Yu Xiaohan",
+        "Shen Fei",
+        "Chua Tat-Seng"
+      ],
+      "authors_bibtex": [
+        "Li, Shaotian",
+        "Li, Shangze",
+        "Shi, Chuancheng",
+        "Wu, Wenhua",
+        "Wu, Yanqiu",
+        "Yu, Xiaohan",
+        "Shen, Fei",
+        "Chua, Tat-Seng"
+      ],
+      "submitted": "2026-04-09",
+      "pdf": "https://arxiv.org/pdf/2604.07802",
+      "article": {
+        "en": {
+          "deck": "Excavate anomaly-sensitive neurons already present in a vision-language model using a small set of normal samples.",
+          "short": "LAKE treats anomaly detection as eliciting latent pretrained knowledge. A sparse set of sensitive neurons supports a compact normality representation without gradient-based training.",
+          "motivation": "Treating a VLM as a black-box feature extractor can obscure which internal signals support anomaly detection. LAKE examines whether those signals can be selected and elicited directly.",
+          "method": [
+            "Use a minimal set of normal samples to identify anomaly-sensitive neurons in the pretrained model.",
+            "Isolate the selected signals to construct a compact representation of normality.",
+            "Combine visual structural deviations with cross-modal semantic activations for anomaly scoring."
+          ],
+          "evidence": "Evaluation on industrial anomaly-detection benchmarks reports strong performance together with neuron-level interpretability. The approach uses normal samples and does not train a new backbone.",
+          "takeaway": "Anomaly-specific adaptation is not the only route to a detector: carefully selected pretrained signals can provide another basis for downstream inspection.",
+          "highlights": [
+            {
+              "value": "Sparse",
+              "label": "Sensitive-neuron representation"
+            },
+            {
+              "value": "Normal",
+              "label": "Samples used for localization"
+            },
+            {
+              "value": "0",
+              "label": "Gradient-based backbone updates"
+            }
+          ]
+        },
+        "zh": {
+          "deck": "利用少量正常样本，挖掘视觉语言模型中已经存在的异常敏感神经元。",
+          "short": "LAKE 将异常检测看作对预训练潜在知识的激发：通过少量敏感神经元构建紧凑的正常性表示，无需梯度训练。",
+          "motivation": "将视觉语言模型作为黑箱特征提取器，难以解释哪些内部信号真正支持异常判断。LAKE 进一步研究这些信号能否被直接筛选和激发。",
+          "method": [
+            "利用少量正常样本，在预训练模型中识别对异常变化敏感的神经元。",
+            "分离选中的神经信号，构造紧凑的正常性表示。",
+            "联合视觉结构偏离与跨模态语义激活，用于异常评分。"
+          ],
+          "evidence": "工业异常检测基准上的评估报告了较强的检测表现，并提供神经元层面的内部解释。其方法使用正常样本，侧重既有内部信号的筛选与利用，而非重新训练主干。",
+          "takeaway": "下游异常检测也可以从预训练内部信号出发，研究已有知识如何被选择、组织并用于检验具体的正常性偏离。",
+          "highlights": [
+            {
+              "value": "稀疏",
+              "label": "敏感神经元表示"
+            },
+            {
+              "value": "正常样本",
+              "label": "用于信号定位的样本"
+            },
+            {
+              "value": "0",
+              "label": "主干梯度更新"
+            }
+          ]
+        }
+      }
     },
     {
       "id": "orthoeraser",
       "category": "reliability",
       "date": "2026-03",
-      "authors": "C. Shi et al.",
+      "authors": "Shi Chuancheng, Wu Wenhua, Shen Fei, Zhu Xiaogang, Hu Kun, Wang Zhiyong",
       "title": {
         "en": "OrthoEraser: Coupled-Neuron Orthogonal Projection for Concept Erasure",
         "zh": "OrthoEraser：通过耦合神经元正交投影擦除概念"
       },
       "summary": {
-        "en": "Study concept erasure through coupled-neuron orthogonal projection.",
-        "zh": "研究通过耦合神经元正交投影实现概念擦除的方法。"
+        "en": "Erase a sensitive concept while explicitly protecting the benign features coupled to the intervention.",
+        "zh": "在擦除敏感概念时，显式保护与干预方向耦合的正常特征。"
       },
       "publication": {
         "en": "ECCV 2026",
         "zh": "ECCV 2026"
       },
       "image": "/images/paper-images/orthoeraser.png",
-      "paper": "https://arxiv.org/abs/2603.11493"
+      "paper": "https://arxiv.org/abs/2603.11493",
+      "author_names": [
+        "Shi Chuancheng",
+        "Wu Wenhua",
+        "Shen Fei",
+        "Zhu Xiaogang",
+        "Hu Kun",
+        "Wang Zhiyong"
+      ],
+      "authors_bibtex": [
+        "Shi, Chuancheng",
+        "Wu, Wenhua",
+        "Shen, Fei",
+        "Zhu, Xiaogang",
+        "Hu, Kun",
+        "Wang, Zhiyong"
+      ],
+      "submitted": "2026-03-12",
+      "pdf": "https://arxiv.org/pdf/2603.11493",
+      "article": {
+        "en": {
+          "deck": "Erase a sensitive concept while explicitly protecting the benign features coupled to the intervention.",
+          "short": "OrthoEraser reframes concept erasure as a constrained projection. It uses sparse features to identify sensitive and coupled benign units, then projects erasure updates away from the protected subspace.",
+          "motivation": "Suppressing a whole unit can also remove benign attributes because sensitive and benign semantics need not occupy orthogonal activation spaces.",
+          "method": [
+            "Decompose dense activations with an SAE and identify sensitive units.",
+            "Detect coupled benign units that are vulnerable to the proposed intervention.",
+            "Project erasure vectors into the coupled units’ null space using analytical orthogonalization."
+          ],
+          "evidence": "The paper evaluates erasure precision and preservation of non-sensitive generation together. Reported comparisons support the benefit of explicitly protecting the identified benign subspace.",
+          "takeaway": "The protected object is an identified benign subspace. Evaluating both suppression and collateral effects is central to understanding the intervention.",
+          "highlights": [
+            {
+              "value": "SAE",
+              "label": "Sparse feature decomposition"
+            },
+            {
+              "value": "Null",
+              "label": "Constrained erasure projection"
+            },
+            {
+              "value": "Coupled",
+              "label": "Benign features to protect"
+            }
+          ]
+        },
+        "zh": {
+          "deck": "在擦除敏感概念时，显式保护与干预方向耦合的正常特征。",
+          "short": "OrthoEraser 把概念擦除转化为带保护约束的投影问题：先在稀疏特征中定位敏感单元和耦合的正常单元，再将擦除更新投影到受保护子空间的零空间。",
+          "motivation": "敏感语义与正常语义并不天然处于正交空间。直接抑制整个神经元，可能在去除目标概念的同时损伤正常属性。",
+          "method": [
+            "利用 SAE 分解稠密激活，识别与待擦除敏感概念相关的单元。",
+            "检测可能受到干预影响的耦合正常单元，确定需要保护的子空间。",
+            "通过解析正交化，将擦除向量投影到耦合单元的零空间，降低对受保护语义的影响。"
+          ],
+          "evidence": "论文同时评估擦除精度与非敏感生成内容的保留。所报告的对比结果支持了显式保护已识别正常子空间的作用。",
+          "takeaway": "保护对象是方法识别出的正常子空间。理解擦除是否有效，需要同时观察目标概念的抑制程度和对正常语义的附带影响。",
+          "highlights": [
+            {
+              "value": "SAE",
+              "label": "稀疏特征分解"
+            },
+            {
+              "value": "零空间",
+              "label": "受约束的擦除投影"
+            },
+            {
+              "value": "耦合单元",
+              "label": "需要保护的正常特征"
+            }
+          ]
+        }
+      }
     },
     {
       "id": "transport-and-merge",
       "category": "capabilities",
       "date": "2026-02",
-      "authors": "C. Cui et al.",
+      "authors": "Cui Chenhang, Yang Binyun, Shen Fei, Chen Yuxin, Zheng Jingnan, Wang Xiang, Zhang An, Chua Tat-Seng",
       "title": {
         "en": "Transport and Merge: Cross-Architecture Merging for Large Language Models",
         "zh": "Transport and Merge：跨架构大语言模型合并"
       },
       "summary": {
-        "en": "Study how capabilities can be transferred and merged across language models with different architectures.",
-        "zh": "研究如何在不同架构的语言模型之间迁移与合并能力。"
+        "en": "Use activation correspondences to transfer knowledge between language models whose architectures do not match.",
+        "zh": "利用激活对应关系，在架构不兼容的语言模型之间迁移知识。"
       },
       "publication": {
         "en": "ICML 2026",
@@ -338,20 +1171,96 @@
       },
       "image": "/images/paper-images/tm.png",
       "paper": "https://arxiv.org/abs/2602.05495",
-      "code": "https://github.com/chenhangcuisg-code/Cross-Architecture-Merging-for-Large-Language-Models"
+      "code": "https://github.com/chenhangcuisg-code/Cross-Architecture-Merging-for-Large-Language-Models",
+      "author_names": [
+        "Cui Chenhang",
+        "Yang Binyun",
+        "Shen Fei",
+        "Chen Yuxin",
+        "Zheng Jingnan",
+        "Wang Xiang",
+        "Zhang An",
+        "Chua Tat-Seng"
+      ],
+      "authors_bibtex": [
+        "Cui, Chenhang",
+        "Yang, Binyun",
+        "Shen, Fei",
+        "Chen, Yuxin",
+        "Zheng, Jingnan",
+        "Wang, Xiang",
+        "Zhang, An",
+        "Chua, Tat-Seng"
+      ],
+      "submitted": "2026-02-05",
+      "pdf": "https://arxiv.org/pdf/2602.05495",
+      "article": {
+        "en": {
+          "deck": "Use activation correspondences to transfer knowledge between language models whose architectures do not match.",
+          "short": "Transport and Merge uses optimal transport to infer cross-neuron correspondences from activations and guide weight-space fusion across heterogeneous models.",
+          "motivation": "Conventional merging often assumes compatible architectures. That assumption limits transfer from high-resource source models to heterogeneous targets with limited task or language data.",
+          "method": [
+            "Collect activations from source and target models on a small set of shared inputs.",
+            "Solve optimal transport to establish correspondences between heterogeneous neuronal representations.",
+            "Use the resulting transport plans to guide direct weight-space fusion."
+          ],
+          "evidence": "Experiments across low-resource languages and specialized domains report consistent improvements over the corresponding target models. The transfer uses a small input set to infer the cross-model correspondence.",
+          "takeaway": "Alignment is a prerequisite for meaningful cross-architecture fusion. Activation geometry offers a way to estimate that alignment instead of assuming matching neuron coordinates.",
+          "highlights": [
+            {
+              "value": "OT",
+              "label": "Cross-neuron correspondence"
+            },
+            {
+              "value": "Cross",
+              "label": "Heterogeneous model fusion"
+            },
+            {
+              "value": "Small",
+              "label": "Shared-input alignment set"
+            }
+          ]
+        },
+        "zh": {
+          "deck": "利用激活对应关系，在架构不兼容的语言模型之间迁移知识。",
+          "short": "Transport and Merge 通过最优传输，从激活中推断跨神经元对应关系，并据此引导异构模型的权重空间融合。",
+          "motivation": "常规模型合并通常假设架构兼容。这限制了高资源来源模型向异构目标模型的知识迁移，尤其是在目标语言或任务数据有限时。",
+          "method": [
+            "在少量共享输入上提取来源模型与目标模型的激活。",
+            "利用最优传输建立异构神经表示之间的对应关系。",
+            "利用得到的传输计划引导权重空间融合，将来源模型的知识引入目标模型。"
+          ],
+          "evidence": "低资源语言和专业领域上的实验报告了相对对应目标模型的持续改进。跨模型对应关系由少量输入推断得到。",
+          "takeaway": "有意义的跨架构融合需要先解决对齐问题。激活几何提供了估计这种对应关系的途径，使神经元坐标匹配从预设条件变成可研究的步骤。",
+          "highlights": [
+            {
+              "value": "OT",
+              "label": "跨神经元对应关系"
+            },
+            {
+              "value": "跨架构",
+              "label": "异构模型融合"
+            },
+            {
+              "value": "少量输入",
+              "label": "共享输入对齐集"
+            }
+          ]
+        }
+      }
     },
     {
       "id": "who-transfers-safety",
       "category": "reliability",
       "date": "2026-02",
-      "authors": "X. Zhang et al.",
+      "authors": "Zhang Xianhui, Xie Chengyu, Zhu Linxia, Yang Yonghui, Zhao Weixiang, Cheng Zifeng, Wang Cong, Shen Fei, Chua Tat-Seng",
       "title": {
         "en": "Who Transfers Safety? Identifying and Targeting Cross-Lingual Shared Safety Neurons",
         "zh": "谁在传递安全？定位并干预跨语言共享安全神经元"
       },
       "summary": {
-        "en": "Identify shared safety neurons across languages and investigate targeted interventions for multilingual safety.",
-        "zh": "定位不同语言之间共享的安全神经元，研究面向多语言安全的靶向干预。"
+        "en": "Identify shared safety neurons that connect high-resource and non-high-resource language behaviour.",
+        "zh": "识别连接高资源与非高资源语言安全行为的共享安全神经元。"
       },
       "publication": {
         "en": "ICML 2026",
@@ -359,67 +1268,425 @@
       },
       "image": "/images/paper-images/transform_safe.png",
       "paper": "https://arxiv.org/abs/2602.01283",
-      "code": "https://github.com/1518630367/SS-Neuron-Expansion"
+      "code": "https://github.com/1518630367/SS-Neuron-Expansion",
+      "author_names": [
+        "Zhang Xianhui",
+        "Xie Chengyu",
+        "Zhu Linxia",
+        "Yang Yonghui",
+        "Zhao Weixiang",
+        "Cheng Zifeng",
+        "Wang Cong",
+        "Shen Fei",
+        "Chua Tat-Seng"
+      ],
+      "authors_bibtex": [
+        "Zhang, Xianhui",
+        "Xie, Chengyu",
+        "Zhu, Linxia",
+        "Yang, Yonghui",
+        "Zhao, Weixiang",
+        "Cheng, Zifeng",
+        "Wang, Cong",
+        "Shen, Fei",
+        "Chua, Tat-Seng"
+      ],
+      "submitted": "2026-02-01",
+      "pdf": "https://arxiv.org/pdf/2602.01283",
+      "article": {
+        "en": {
+          "deck": "Identify shared safety neurons that connect high-resource and non-high-resource language behaviour.",
+          "short": "The study identifies a small shared subset of safety neurons across languages and uses targeted training to improve multilingual defensive consistency.",
+          "motivation": "A model’s safety behaviour can differ sharply across languages. Understanding which internal components participate in that transfer can guide more focused alignment.",
+          "method": [
+            "Identify monolingual safety neurons and test their role through activation and suppression.",
+            "Find the subset shared between high-resource and non-high-resource languages.",
+            "Train the selected shared subset with a strategy accounting for language resources and model architecture."
+          ],
+          "evidence": "Suppressing shared neurons causes concurrent safety drops in non-high-resource languages, while reinforcement improves cross-lingual consistency. Targeted fine-tuning reports stronger non-high-resource safety than the compared methods while maintaining general capabilities.",
+          "takeaway": "Multilingual alignment can be investigated at the level of shared mechanisms, with interventions testing whether the selected components influence behaviour across languages.",
+          "highlights": [
+            {
+              "value": "Shared",
+              "label": "Cross-lingual safety neurons"
+            },
+            {
+              "value": "Causal",
+              "label": "Activation and suppression tests"
+            },
+            {
+              "value": "Targeted",
+              "label": "Selected-neuron alignment"
+            }
+          ]
+        },
+        "zh": {
+          "deck": "识别连接高资源与非高资源语言安全行为的共享安全神经元。",
+          "short": "这项研究识别不同语言之间共享的一小部分安全神经元，并通过定向训练改善多语言防御一致性。",
+          "motivation": "同一模型在不同语言上的安全表现可能明显不均衡。理解哪些内部成分参与了安全能力迁移，有助于设计更有针对性的对齐方式。",
+          "method": [
+            "先定位单语言安全神经元，并通过激活与抑制检验其对安全拒答行为的作用。",
+            "识别高资源与非高资源语言之间共享的安全神经元子集，研究其跨语言桥接作用。",
+            "结合语言资源分布与模型架构，对选中的共享子集开展神经元定向训练。"
+          ],
+          "evidence": "抑制共享神经元会导致多种非高资源语言的安全性同时下降；强化它们则改善跨语言防御一致性。对该子集进行微调，在所评估设置下优于所比较方法，并维持模型通用能力。",
+          "takeaway": "多语言安全可以从共享机制层面展开研究，并通过跨语言干预检验所选成分是否真正影响不同语言的行为。",
+          "highlights": [
+            {
+              "value": "共享",
+              "label": "跨语言安全神经元"
+            },
+            {
+              "value": "干预检验",
+              "label": "激活与抑制对照"
+            },
+            {
+              "value": "定向训练",
+              "label": "所选神经元对齐"
+            }
+          ]
+        }
+      }
     },
     {
       "id": "dna",
       "category": "application",
       "date": "2026-01",
-      "authors": "J. Dou et al.",
+      "authors": "Dou Jingtong, Shi Chuancheng, Wang Yemin, Guo Shiming, Yi Anqi, Wu Wenhua, Zhang Li, Shen Fei, Chua Tat-Seng",
       "title": {
         "en": "DNA: Uncovering Universal Latent Forgery Knowledge",
         "zh": "DNA：揭示通用的潜在伪造知识"
       },
       "summary": {
-        "en": "Investigate universal latent forgery knowledge as a foundation for more generalizable forgery detection.",
-        "zh": "研究通用的潜在伪造知识，为更具泛化能力的伪造检测提供依据。"
+        "en": "Look for forgery-sensitive anchors already encoded in pretrained models instead of relying only on end-to-end adaptation.",
+        "zh": "从预训练模型中寻找已有的伪造敏感锚点，为鉴伪提供内部知识依据。"
       },
       "publication": {
         "en": "ICML 2026",
         "zh": "ICML 2026"
       },
       "image": "/images/paper-images/DNA.png",
-      "paper": "https://arxiv.org/abs/2601.22515"
+      "paper": "https://arxiv.org/abs/2601.22515",
+      "author_names": [
+        "Dou Jingtong",
+        "Shi Chuancheng",
+        "Wang Yemin",
+        "Guo Shiming",
+        "Yi Anqi",
+        "Wu Wenhua",
+        "Zhang Li",
+        "Shen Fei",
+        "Chua Tat-Seng"
+      ],
+      "authors_bibtex": [
+        "Dou, Jingtong",
+        "Shi, Chuancheng",
+        "Wang, Yemin",
+        "Guo, Shiming",
+        "Yi, Anqi",
+        "Wu, Wenhua",
+        "Zhang, Li",
+        "Shen, Fei",
+        "Chua, Tat-Seng"
+      ],
+      "submitted": "2026-01-30",
+      "pdf": "https://arxiv.org/pdf/2601.22515",
+      "article": {
+        "en": {
+          "deck": "Look for forgery-sensitive anchors already encoded in pretrained models instead of relying only on end-to-end adaptation.",
+          "short": "DNA uses a coarse-to-fine excavation process to isolate forgery-discriminative units, then evaluates whether those anchors support detection under limited supervision and unseen generators.",
+          "motivation": "Task-level adaptation can conceal which pretrained components already carry forensic information. The study asks whether a compact set of such components can serve as a detection basis.",
+          "method": [
+            "Analyze feature decoupling and attention shifts to locate critical intermediate layers.",
+            "Combine triadic scoring with curvature truncation to select forgery-discriminative units.",
+            "Evaluate selected anchors on forgery benchmarks, including the introduced HIFI-Gen dataset."
+          ],
+          "evidence": "The paper reports strong few-shot detection and robustness across evaluated architectures and unseen generators. Its experiments examine the usefulness of the selected anchors under distribution changes.",
+          "takeaway": "Forgery detection can be studied as selecting and eliciting pretrained discriminative knowledge, with generalization tested on generators absent from training.",
+          "highlights": [
+            {
+              "value": "FDUs",
+              "label": "Forgery-discriminative units"
+            },
+            {
+              "value": "Few-shot",
+              "label": "Limited-supervision detection"
+            },
+            {
+              "value": "HIFI-Gen",
+              "label": "High-fidelity generation benchmark"
+            }
+          ]
+        },
+        "zh": {
+          "deck": "从预训练模型中寻找已有的伪造敏感锚点，为鉴伪提供内部知识依据。",
+          "short": "DNA 通过由粗到细的挖掘过程定位伪造判别单元，再检验这些锚点能否支持少样本以及未见生成模型下的检测。",
+          "motivation": "下游适配可能掩盖预训练模型中原本就存在的鉴伪成分。这项工作研究：是否能定位一组紧凑的内部单元，并将其作为检测的主要依据。",
+          "method": [
+            "通过特征解耦与注意力分布变化，定位模型关注从全局语义转向局部异常的关键中间层。",
+            "结合三因素融合评分与曲率截断策略，筛除语义冗余并选择伪造判别单元。",
+            "基于所选锚点开展检测评估，并引入 HIFI-Gen 高保真生成图像基准。"
+          ],
+          "evidence": "论文报告了较强的少样本检测表现，并考察了跨架构与未见生成模型下的稳健性。这些实验用于检验所选内部锚点在分布变化时是否仍具有检测价值。",
+          "takeaway": "鉴伪能力可以从预训练判别知识的筛选与激发角度研究；其中，训练时未见生成器上的表现，是判断其泛化能力的重要证据。",
+          "highlights": [
+            {
+              "value": "FDU",
+              "label": "伪造判别单元"
+            },
+            {
+              "value": "少样本",
+              "label": "有限监督检测"
+            },
+            {
+              "value": "HIFI-Gen",
+              "label": "高保真生成基准"
+            }
+          ]
+        }
+      }
     },
     {
       "id": "tracerouter",
       "category": "reliability",
       "date": "2026-01",
-      "authors": "C. Shi et al.",
+      "authors": "Shi Chuancheng, Li Shangze, Lu Wenjun, Wu Wenhua, Wang Cong, Cheng Zifeng, Shen Fei, Chua Tat-Seng",
       "title": {
         "en": "TraceRouter: Robust Safety for Large Foundation Models via Path-Level Intervention",
         "zh": "TraceRouter：通过路径级干预提升基础模型安全性"
       },
       "summary": {
-        "en": "Trace harmful information through cross-layer pathways and study path-level interventions for model safety.",
-        "zh": "追踪有害信息在跨层路径中的传播，研究面向模型安全的路径级干预。"
+        "en": "Follow the cross-layer propagation of harmful semantics and intervene at the pathway level.",
+        "zh": "追踪有害语义的跨层传播，并在路径层面进行干预。"
       },
       "publication": {
         "en": "ICML 2026",
         "zh": "ICML 2026"
       },
       "image": "/images/paper-images/tracerouter.png",
-      "paper": "https://arxiv.org/abs/2601.21900"
+      "paper": "https://arxiv.org/abs/2601.21900",
+      "author_names": [
+        "Shi Chuancheng",
+        "Li Shangze",
+        "Lu Wenjun",
+        "Wu Wenhua",
+        "Wang Cong",
+        "Cheng Zifeng",
+        "Shen Fei",
+        "Chua Tat-Seng"
+      ],
+      "authors_bibtex": [
+        "Shi, Chuancheng",
+        "Li, Shangze",
+        "Lu, Wenjun",
+        "Wu, Wenhua",
+        "Wang, Cong",
+        "Cheng, Zifeng",
+        "Shen, Fei",
+        "Chua, Tat-Seng"
+      ],
+      "submitted": "2026-01-29",
+      "pdf": "https://arxiv.org/pdf/2601.21900",
+      "article": {
+        "en": {
+          "deck": "Follow the cross-layer propagation of harmful semantics and intervene at the pathway level.",
+          "short": "TraceRouter moves the intervention unit from isolated components to causal propagation pathways. Attention divergence, sparse features, and feature influence scores support the tracing process.",
+          "motivation": "Distributed harmful computation can continue through multiple layers even when a local feature is suppressed. A defence therefore needs to examine how the information propagates.",
+          "method": [
+            "Locate a sensitive onset layer through attention-divergence analysis.",
+            "Use SAEs and differential activations to isolate malicious features.",
+            "Estimate feature influence with zero-out interventions and suppress selected downstream pathways."
+          ],
+          "evidence": "Reported comparisons examine adversarial robustness together with general utility. The results support the value of tracing and suppressing selected propagation pathways rather than treating safety as a purely local feature intervention.",
+          "takeaway": "Path-level analysis connects where harmful information appears with how it reaches the output, making propagation itself an intervention target.",
+          "highlights": [
+            {
+              "value": "3",
+              "label": "Stages of pathway tracing"
+            },
+            {
+              "value": "SAE",
+              "label": "Sparse feature isolation"
+            },
+            {
+              "value": "FIS",
+              "label": "Intervention-derived influence"
+            }
+          ]
+        },
+        "zh": {
+          "deck": "追踪有害语义的跨层传播，并在路径层面进行干预。",
+          "short": "TraceRouter 将干预对象从孤立成分扩展到因果传播路径，通过注意力差异、稀疏特征和特征影响得分开展追踪。",
+          "motivation": "有害计算可能以分布式方式跨层传播。即使抑制了局部特征，相关信息仍可能沿其他连接继续传递，因此需要进一步分析其传播过程。",
+          "method": [
+            "通过注意力差异分析定位敏感的起始层。",
+            "利用 SAE 和差分激活分析分离与有害语义相关的特征。",
+            "通过置零干预估计特征影响得分，映射下游因果路径，并选择性抑制相关传播链。"
+          ],
+          "evidence": "论文在对抗鲁棒性与通用效用之间开展联合评估。所报告结果支持追踪并抑制选定传播路径的价值，说明安全干预还需要考察特征之间的跨层连接。",
+          "takeaway": "路径分析将“有害信息在哪里出现”与“它如何影响输出”连接起来，使传播关系本身成为可研究、可干预的对象。",
+          "highlights": [
+            {
+              "value": "3",
+              "label": "路径追踪阶段"
+            },
+            {
+              "value": "SAE",
+              "label": "稀疏特征分离"
+            },
+            {
+              "value": "FIS",
+              "label": "由干预估计的影响得分"
+            }
+          ]
+        }
+      }
     },
     {
       "id": "where-culture-fades",
       "category": "understanding",
       "date": "2025-11",
-      "authors": "C. Shi et al.",
+      "authors": "Shi Chuancheng, Li Shangze, Guo Shiming, Xie Simiao, Wu Wenhua, Dou Jingtong, Wu Chao, Xiao Canran, Wang Cong, Cheng Zifeng, Shen Fei, Chua Tat-Seng",
       "title": {
         "en": "Where Culture Fades: Revealing the Cultural Gap in Text-to-Image Generation",
         "zh": "文化在哪里消退？揭示文生图中的文化差距"
       },
       "summary": {
-        "en": "Examine cultural gaps in text-to-image generation and their relationship to latent cultural knowledge.",
-        "zh": "分析文生图模型中的文化差距，探索其与潜在文化知识之间的联系。"
+        "en": "A model may contain cultural knowledge yet fail to activate it when generating images from multilingual prompts.",
+        "zh": "模型可能已经具备文化知识，却未能在多语言文生图过程中充分激活它。"
       },
       "publication": {
         "en": "CVPR 2026 · Highlight",
         "zh": "CVPR 2026 · Highlight"
       },
       "image": "/images/paper-images/culture.png",
-      "paper": "https://arxiv.org/abs/2511.17282"
+      "paper": "https://arxiv.org/abs/2511.17282",
+      "author_names": [
+        "Shi Chuancheng",
+        "Li Shangze",
+        "Guo Shiming",
+        "Xie Simiao",
+        "Wu Wenhua",
+        "Dou Jingtong",
+        "Wu Chao",
+        "Xiao Canran",
+        "Wang Cong",
+        "Cheng Zifeng",
+        "Shen Fei",
+        "Chua Tat-Seng"
+      ],
+      "authors_bibtex": [
+        "Shi, Chuancheng",
+        "Li, Shangze",
+        "Guo, Shiming",
+        "Xie, Simiao",
+        "Wu, Wenhua",
+        "Dou, Jingtong",
+        "Wu, Chao",
+        "Xiao, Canran",
+        "Wang, Cong",
+        "Cheng, Zifeng",
+        "Shen, Fei",
+        "Chua, Tat-Seng"
+      ],
+      "submitted": "2025-11-21",
+      "pdf": "https://arxiv.org/pdf/2511.17282",
+      "article": {
+        "en": {
+          "deck": "A model may contain cultural knowledge yet fail to activate it when generating images from multilingual prompts.",
+          "short": "The study links culturally neutral or English-biased outputs to under-activated cultural representations, then tests inference-time activation and layer-targeted enhancement.",
+          "motivation": "Visual realism and semantic alignment do not ensure that images preserve the cultural connotations of a prompt across languages.",
+          "method": [
+            "Analyze cultural consistency under multilingual prompts in representative text-to-image models.",
+            "Probe a small set of culture-sensitive neurons concentrated in selected layers.",
+            "Amplify selected neurons at inference time or update only culturally relevant layers."
+          ],
+          "evidence": "Analyses of two representative models support under-activation rather than simply missing knowledge. CultureBench evaluations report improved cultural consistency while preserving fidelity and diversity.",
+          "takeaway": "A cultural generation gap can be examined through internal activation as well as output-level evaluation, connecting diagnosis with a targeted intervention.",
+          "highlights": [
+            {
+              "value": "2",
+              "label": "Representative models analyzed"
+            },
+            {
+              "value": "Sparse",
+              "label": "Culture-sensitive neurons"
+            },
+            {
+              "value": "2",
+              "label": "Complementary alignment strategies"
+            }
+          ]
+        },
+        "zh": {
+          "deck": "模型可能已经具备文化知识，却未能在多语言文生图过程中充分激活它。",
+          "short": "这项研究将文化中性化或英语偏向的输出，与文化表示激活不足联系起来，并检验推理时激活与定向层增强两种策略。",
+          "motivation": "视觉逼真与语义对齐，并不自动意味着模型能够保留不同语言提示所承载的文化内涵。文化一致性需要被单独定义和检验。",
+          "method": [
+            "在代表性文生图模型中，分析多语言提示下的文化一致性与偏向。",
+            "通过探测方法，将文化敏感信号定位到少数固定层中的一小组神经元。",
+            "在推理阶段增强选中神经元，或仅更新与文化相关的层，形成两种互补的对齐策略。"
+          ],
+          "evidence": "对两个代表性模型的分析支持了文化表示激活不足这一解释。CultureBench 上的评估报告了文化一致性的改善，同时考察并保留图像保真度与多样性。",
+          "takeaway": "文化生成差距既可以从输出层面评估，也可以结合内部激活进行分析，从而把问题诊断与有针对性的干预连接起来。",
+          "highlights": [
+            {
+              "value": "2",
+              "label": "分析的代表性模型"
+            },
+            {
+              "value": "稀疏",
+              "label": "文化敏感神经元"
+            },
+            {
+              "value": "2",
+              "label": "互补对齐策略"
+            }
+          ]
+        }
+      }
     }
-  ]
+  ],
+  "article_ui": {
+    "en": {
+      "research_note": "Research overview",
+      "back": "More research",
+      "language_label": "Language",
+      "skip": "Skip to the introduction",
+      "contents_label": "Article contents",
+      "short_title": "The short version",
+      "motivation_title": "Why this matters",
+      "method_title": "How it works",
+      "evidence_title": "What the study finds",
+      "takeaway_title": "What this means",
+      "resources_title": "Paper and resources",
+      "paper_label": "Read the paper",
+      "code_label": "Code",
+      "cite_label": "Cite this work",
+      "source_note": "This is an introduction to the linked paper. Refer to the original for method definitions, evaluation settings, and complete results.",
+      "figure_caption": "Research overview figure from the paper.",
+      "figure_alt": "Overview of {title}",
+      "read_story": "Read introduction"
+    },
+    "zh": {
+      "research_note": "研究解读",
+      "back": "更多研究",
+      "language_label": "语言",
+      "skip": "跳至文章介绍",
+      "contents_label": "文章目录",
+      "short_title": "核心内容",
+      "motivation_title": "为什么研究这个问题",
+      "method_title": "方法如何工作",
+      "evidence_title": "实验发现了什么",
+      "takeaway_title": "这项研究意味着什么",
+      "resources_title": "论文与相关资源",
+      "paper_label": "阅读原文",
+      "code_label": "代码",
+      "cite_label": "引用这项研究",
+      "source_note": "本文为论文介绍，方法定义、实验设置与完整结果请参见论文原文。",
+      "figure_caption": "论文研究概览配图。",
+      "figure_alt": "《{title}》研究概览",
+      "read_story": "了解这项研究"
+    }
+  }
 }
