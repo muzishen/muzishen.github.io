@@ -93,6 +93,7 @@ def render(locale):
         paper_url = esc(paper['paper'])
         introduction_url = esc(article_path(paper, locale))
         category = categories[paper['category']][locale]
+        topic_tag = '' if paper['topic'][locale] == category else f'<span class="paper-topic">{esc(paper["topic"][locale])}</span>'
         code_link = (
             f'<a href="{esc(paper["code"])}" target="_blank" rel="noopener noreferrer">'
             f'{esc(ui["code_link"])} <span aria-hidden="true">↗</span></a>'
@@ -101,7 +102,7 @@ def render(locale):
         loading = 'eager' if index == 0 else 'lazy'
         rows.append(f'''<article class="research-row" data-category="{esc(paper['category'])}" id="{esc(paper['id'])}" aria-labelledby="title-{esc(paper['id'])}">
         <div class="paper-copy">
-          <span class="category-tag">{esc(category)}</span><span class="paper-topic">{esc(paper['topic'][locale])}</span>
+          <span class="category-tag">{esc(category)}</span>{topic_tag}
           <h2 id="title-{esc(paper['id'])}"><a href="{introduction_url}">{esc(title)}</a></h2>
           <p class="paper-meta"><span class="paper-authors">{author_html(paper)}</span><span class="paper-date"><time datetime="{esc(paper['date'])}">{esc(shown_date)}</time><span class="separator" aria-hidden="true">·</span>{esc(paper['publication'][locale])}</span></p>
           <p class="paper-summary">{esc(paper['summary'][locale])}</p>
@@ -155,6 +156,7 @@ def render_article(paper, locale):
         'ZH_CURRENT': ' aria-current="page"' if locale == 'zh' else '',
         'CATEGORY': esc(DATA['categories'][paper['category']][locale]),
         'TOPIC': esc(paper['topic'][locale]),
+        'TOPIC_KICKER': (esc(paper['topic'][locale]) + ' / ') if paper['topic'][locale] != DATA['categories'][paper['category']][locale] else '',
         'AUTHORS': author_html(paper, ' <span class="author-separator" aria-hidden="true">·</span> '),
         'DATE_ISO': esc(paper['submitted']), 'DATE_DISPLAY': esc(display_date),
         'PUBLICATION': esc(paper['publication'][locale]),
