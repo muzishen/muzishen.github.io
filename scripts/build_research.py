@@ -6,6 +6,7 @@ without new Jekyll plugins, a server, or client-side translation dependencies.
 """
 from datetime import datetime
 from html import escape
+from hashlib import sha256
 import json
 from pathlib import Path
 import re
@@ -32,6 +33,8 @@ def render(locale):
         'EN_CURRENT': ' aria-current="page"' if locale == 'en' else '',
         'ZH_CURRENT': ' aria-current="page"' if locale == 'zh' else '',
         'INITIAL_COUNT': esc(ui['count_template'].replace('{count}', str(len(items)))),
+        'CSS_VERSION': sha256((ROOT / 'assets/css/research.css').read_bytes()).hexdigest()[:12],
+        'JS_VERSION': sha256((ROOT / 'assets/js/research.js').read_bytes()).hexdigest()[:12],
     })
     filters = [('all', ui['all_research'])] + [(key, value[locale]) for key, value in categories.items()]
     values['FILTERS'] = '\n        '.join(

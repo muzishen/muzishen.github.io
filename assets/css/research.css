@@ -35,7 +35,7 @@ button:focus-visible,a:focus-visible,input:focus-visible{outline:2px solid var(-
 .button-dark:hover{background:#424e49}
 .menu-toggle{display:none;border:1px solid var(--rule);background:transparent;border-radius:6px;padding:7px 10px;font-size:13px}
 .hero-inner{display:grid;grid-template-columns:290px minmax(0,1fr);align-items:center;gap:65px;min-height:385px;padding-block:45px 56px}
-.hero-art{width:260px;margin-inline:auto}
+.hero-art{width:260px;height:auto;margin-inline:auto}
 .hero-copy{padding-top:25px;max-width:900px}
 .eyebrow{font-family:"Courier New",monospace;font-size:11px;letter-spacing:.11em;text-transform:uppercase;color:var(--muted)}
 .hero h1{font-family:Georgia,"Times New Roman","Songti SC","SimSun",serif;font-size:64px;line-height:1.07;letter-spacing:-.035em;font-weight:400;margin:15px 0 18px}
@@ -69,7 +69,7 @@ button:focus-visible,a:focus-visible,input:focus-visible{outline:2px solid var(-
 .empty-state{padding-block:50px;color:var(--muted)}
 .contact{border-top:1px solid rgba(77,89,77,.13);border-bottom:1px solid rgba(77,89,77,.13)}
 .contact-inner{display:grid;grid-template-columns:290px minmax(0,1fr);gap:65px;padding-block:80px 88px;align-items:center}
-.contact-illustration{width:190px;margin-inline:auto;opacity:.8}
+.contact-illustration{width:190px;height:auto;margin-inline:auto;opacity:.8}
 .contact h2{font-family:Georgia,"Times New Roman","Songti SC","SimSun",serif;font-size:48px;line-height:1.12;font-weight:400;letter-spacing:-.025em;margin:12px 0 20px;max-width:730px;text-wrap:balance}
 .contact p{color:var(--muted);font-size:18px;max-width:670px;margin:0 0 26px;line-height:1.6}
 .contact-actions{display:flex;align-items:center;flex-wrap:wrap;gap:22px}
