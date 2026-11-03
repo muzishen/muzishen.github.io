@@ -1,0 +1,425 @@
+{
+  "ui": {
+    "en": {
+      "title": "Research | NExT-LFM · Fei Shen",
+      "description": "Research from the Latent Knowledge Group: understanding, evaluating, eliciting, and governing the latent capabilities of foundation models.",
+      "skip": "Skip to research",
+      "announcement": "Explore our research vision",
+      "brand_label": "NExT-LFM Research",
+      "nav_label": "Main navigation",
+      "home": "Personal site",
+      "research": "Research",
+      "vision": "Vision",
+      "products": "Products",
+      "language_label": "Language",
+      "talk": "Talk to our team",
+      "menu": "Menu",
+      "home_research": "/research/",
+      "hero_eyebrow": "Research",
+      "hero_title": "Research",
+      "hero_description": "Understanding latent knowledge to make foundation models more interpretable, reliable, and controllable.",
+      "art_alt": "An abstract atlas of interconnected latent representations",
+      "filter_by": "Filter By",
+      "filter_label": "Filter research by topic",
+      "all_research": "All Research",
+      "count_template": "{count} selected studies",
+      "vision_link": "Our research vision",
+      "products_link": "Research products",
+      "publications_link": "Full publication list",
+      "noscript": "All studies are shown. Enable JavaScript to filter by topic.",
+      "list_label": "Selected research",
+      "paper_link": "Read paper",
+      "code_link": "Code",
+      "figure_link": "Read {title}",
+      "figure_alt": "Research figure: {title}",
+      "contact_eyebrow": "Collaborate with us",
+      "contact_title": "What can we discover inside AI models?",
+      "contact_description": "We welcome research collaborations and conversations about model interpretability, reliable evaluation, safety, and capability transfer.",
+      "contact_button": "Get in touch",
+      "footer_nav": "Footer navigation",
+      "footer_affiliation": "Fei Shen · NExT++ Center, National University of Singapore"
+    },
+    "zh": {
+      "title": "研究成果 | NExT-LFM · 沈飞",
+      "description": "潜在知识研究组：理解、评估、激发与治理基础模型的潜在能力，探索更可解释、可靠、可控的人工智能。",
+      "skip": "跳至研究成果",
+      "announcement": "探索我们的研究愿景",
+      "brand_label": "NExT-LFM 研究成果",
+      "nav_label": "主导航",
+      "home": "个人主页",
+      "research": "研究成果",
+      "vision": "研究愿景",
+      "products": "研究产品",
+      "language_label": "语言",
+      "talk": "联系团队",
+      "menu": "菜单",
+      "home_research": "/research/zh/",
+      "hero_eyebrow": "研究成果",
+      "hero_title": "研究成果",
+      "hero_description": "理解模型中的潜在知识，让基础模型更可解释、更可靠、更可控。",
+      "art_alt": "描绘潜在表征相互连接关系的抽象图示",
+      "filter_by": "按研究方向筛选",
+      "filter_label": "筛选研究方向",
+      "all_research": "全部研究",
+      "count_template": "共 {count} 项精选研究",
+      "vision_link": "我们的研究愿景",
+      "products_link": "研究产品与应用",
+      "publications_link": "完整论文列表",
+      "noscript": "当前展示全部研究；启用 JavaScript 后可按方向筛选。",
+      "list_label": "精选研究成果",
+      "paper_link": "阅读论文",
+      "code_link": "代码",
+      "figure_link": "阅读《{title}》",
+      "figure_alt": "《{title}》研究配图",
+      "contact_eyebrow": "与我们合作",
+      "contact_title": "一起探索模型内部的知识与能力",
+      "contact_description": "欢迎围绕模型可解释性、可靠评估、安全治理与能力迁移开展研究合作，也欢迎对这些方向感兴趣的同学加入。",
+      "contact_button": "联系沈飞",
+      "footer_nav": "页脚导航",
+      "footer_affiliation": "沈飞 · 新加坡国立大学 NExT++ 中心"
+    }
+  },
+  "categories": {
+    "understanding": {
+      "en": "Model Understanding",
+      "zh": "机制理解"
+    },
+    "reliability": {
+      "en": "Reliability & Safety",
+      "zh": "可靠评估与安全"
+    },
+    "application": {
+      "en": "Applied Research",
+      "zh": "应用研究"
+    },
+    "capabilities": {
+      "en": "Capability Engineering",
+      "zh": "能力激发与迁移"
+    }
+  },
+  "papers": [
+    {
+      "id": "dv-lens",
+      "category": "understanding",
+      "date": "2026-10",
+      "authors": "C. Cui et al.",
+      "title": {
+        "en": "DV-Lens: Revealing the Functional Organization of Language Model Parameters",
+        "zh": "DV-Lens：揭示语言模型参数的功能组织"
+      },
+      "summary": {
+        "en": "Study how language model parameters are functionally organized, connecting internal structure with model behavior.",
+        "zh": "研究语言模型参数的功能组织，探索内部结构与模型行为之间的联系。"
+      },
+      "publication": {
+        "en": "Preprint",
+        "zh": "预印本"
+      },
+      "image": "/images/paper-images/dv-lens.png",
+      "paper": "https://arxiv.org/abs/2610.04489"
+    },
+    {
+      "id": "latent-support",
+      "category": "reliability",
+      "date": "2026-10",
+      "authors": "C. Shi et al.",
+      "title": {
+        "en": "Do correct answers have stable latent knowledge support?",
+        "zh": "正确答案是否具有稳定的潜在知识支撑？"
+      },
+      "summary": {
+        "en": "Examine whether stable latent knowledge support provides internal evidence for evaluating answer correctness.",
+        "zh": "检验正确答案是否具有稳定的潜在知识支撑，探索判断答案可靠性的内部证据。"
+      },
+      "publication": {
+        "en": "Preprint",
+        "zh": "预印本"
+      },
+      "image": "/images/paper-images/latent-support.png",
+      "paper": "https://arxiv.org/abs/2610.15277"
+    },
+    {
+      "id": "superai",
+      "category": "capabilities",
+      "date": "2026-10",
+      "authors": "J. Dou et al.",
+      "title": {
+        "en": "SuperAI: Merging Capabilities Across Heterogeneous Foundation Models",
+        "zh": "SuperAI：跨异构基础模型的能力合并"
+      },
+      "summary": {
+        "en": "Explore how capabilities from heterogeneous foundation models can be merged and reused.",
+        "zh": "探索如何合并与复用异构基础模型中的能力。"
+      },
+      "publication": {
+        "en": "Preprint",
+        "zh": "预印本"
+      },
+      "image": "/images/paper-images/superai.png",
+      "paper": "https://arxiv.org/abs/2610.15322"
+    },
+    {
+      "id": "forensic-reserve",
+      "category": "application",
+      "date": "2026-10",
+      "authors": "J. Li et al.",
+      "title": {
+        "en": "Forensic Reserve: Eliciting Latent Knowledge for Image Forgery Detection",
+        "zh": "Forensic Reserve：激发潜在知识以检测图像伪造"
+      },
+      "summary": {
+        "en": "Investigate latent forgery knowledge and how to elicit it for image forgery detection.",
+        "zh": "研究模型内部的潜在伪造知识，以及如何将其激发并用于图像伪造检测。"
+      },
+      "publication": {
+        "en": "Preprint",
+        "zh": "预印本"
+      },
+      "image": "/images/paper-images/forensic-reserve.png",
+      "paper": "https://arxiv.org/abs/2610.08639"
+    },
+    {
+      "id": "emorss",
+      "category": "reliability",
+      "date": "2026-10",
+      "authors": "S. Miao et al.",
+      "title": {
+        "en": "EmoRSS: Mitigating Emotion-Induced Over-Refusal in Large Language Models",
+        "zh": "EmoRSS：缓解大语言模型中情绪引发的过度拒答"
+      },
+      "summary": {
+        "en": "Study emotion-induced over-refusal and how to improve the reliability of model safety responses.",
+        "zh": "研究情绪因素引发的过度拒答，探索提升模型安全响应可靠性的方法。"
+      },
+      "publication": {
+        "en": "Preprint",
+        "zh": "预印本"
+      },
+      "image": "/images/paper-images/emorss.png",
+      "paper": "https://arxiv.org/abs/2610.04998"
+    },
+    {
+      "id": "contractlens",
+      "category": "application",
+      "date": "2026-10",
+      "authors": "S. Miao et al.",
+      "title": {
+        "en": "ContractLens: Latent Security Knowledge for Malicious Smart Contract Detection",
+        "zh": "ContractLens：利用潜在安全知识检测恶意智能合约"
+      },
+      "summary": {
+        "en": "Explore latent security knowledge in foundation models for malicious smart contract detection.",
+        "zh": "探索基础模型中的潜在安全知识，并将其用于恶意智能合约检测。"
+      },
+      "publication": {
+        "en": "Preprint",
+        "zh": "预印本"
+      },
+      "image": "/images/paper-images/contract-lens.png",
+      "paper": "https://arxiv.org/abs/2610.04992"
+    },
+    {
+      "id": "barq",
+      "category": "capabilities",
+      "date": "2026-10",
+      "authors": "C. Cui et al.",
+      "title": {
+        "en": "BARQ: Balanced Codebook Refinement for Low-Bit LLM Quantization",
+        "zh": "BARQ：面向低比特大语言模型量化的平衡码本优化"
+      },
+      "summary": {
+        "en": "Study balanced codebook refinement for low-bit language model quantization and efficient deployment.",
+        "zh": "研究面向低比特语言模型量化的平衡码本优化，支持模型高效部署。"
+      },
+      "publication": {
+        "en": "Preprint",
+        "zh": "预印本"
+      },
+      "image": "/images/paper-images/barq.png",
+      "paper": "https://arxiv.org/abs/2610.04490"
+    },
+    {
+      "id": "actr",
+      "category": "reliability",
+      "date": "2026-09",
+      "authors": "X. Zhang et al.",
+      "title": {
+        "en": "ACTR: Aligning Thoughts and Responses for Multilingual Safety in Reasoning LLMs",
+        "zh": "ACTR：对齐思考与回答，提升推理模型的多语言安全性"
+      },
+      "summary": {
+        "en": "Examine alignment between reasoning and responses to improve multilingual safety in reasoning language models.",
+        "zh": "研究推理过程与最终回答之间的对齐，以提升推理语言模型的多语言安全性。"
+      },
+      "publication": {
+        "en": "Preprint",
+        "zh": "预印本"
+      },
+      "image": "/images/paper-images/actr.png",
+      "paper": "https://arxiv.org/abs/2609.37054"
+    },
+    {
+      "id": "hub-spectral",
+      "category": "capabilities",
+      "date": "2026-09",
+      "authors": "Y. Guo et al.",
+      "title": {
+        "en": "Hub-Spectral Activation of Latent Multimodal Knowledge",
+        "zh": "Hub-Spectral：激活潜在多模态知识"
+      },
+      "summary": {
+        "en": "Investigate hub-spectral activation as a way to elicit latent multimodal knowledge.",
+        "zh": "研究通过 Hub-Spectral 激活方法激发模型中的潜在多模态知识。"
+      },
+      "publication": {
+        "en": "Preprint",
+        "zh": "预印本"
+      },
+      "image": "/images/paper-images/hub.png",
+      "paper": "https://arxiv.org/abs/2609.17094",
+      "code": "https://github.com/Luo1Yan/HSA"
+    },
+    {
+      "id": "lake",
+      "category": "application",
+      "date": "2026-04",
+      "authors": "S. Li et al.",
+      "title": {
+        "en": "Latent Anomaly Knowledge Excavation: Unveiling Sparse Sensitive Neurons in Vision-Language Models",
+        "zh": "LAKE：挖掘视觉语言模型中的潜在异常知识"
+      },
+      "summary": {
+        "en": "Investigate sparse sensitive neurons in vision-language models for latent anomaly knowledge excavation.",
+        "zh": "研究视觉语言模型中的稀疏敏感神经元，挖掘模型内部的潜在异常知识。"
+      },
+      "publication": {
+        "en": "ACM Multimedia 2026",
+        "zh": "ACM Multimedia 2026"
+      },
+      "image": "/images/paper-images/LAKE.png",
+      "paper": "https://arxiv.org/abs/2604.07802"
+    },
+    {
+      "id": "orthoeraser",
+      "category": "reliability",
+      "date": "2026-03",
+      "authors": "C. Shi et al.",
+      "title": {
+        "en": "OrthoEraser: Coupled-Neuron Orthogonal Projection for Concept Erasure",
+        "zh": "OrthoEraser：通过耦合神经元正交投影擦除概念"
+      },
+      "summary": {
+        "en": "Study concept erasure through coupled-neuron orthogonal projection.",
+        "zh": "研究通过耦合神经元正交投影实现概念擦除的方法。"
+      },
+      "publication": {
+        "en": "ECCV 2026",
+        "zh": "ECCV 2026"
+      },
+      "image": "/images/paper-images/orthoeraser.png",
+      "paper": "https://arxiv.org/abs/2603.11493"
+    },
+    {
+      "id": "transport-and-merge",
+      "category": "capabilities",
+      "date": "2026-02",
+      "authors": "C. Cui et al.",
+      "title": {
+        "en": "Transport and Merge: Cross-Architecture Merging for Large Language Models",
+        "zh": "Transport and Merge：跨架构大语言模型合并"
+      },
+      "summary": {
+        "en": "Study how capabilities can be transferred and merged across language models with different architectures.",
+        "zh": "研究如何在不同架构的语言模型之间迁移与合并能力。"
+      },
+      "publication": {
+        "en": "ICML 2026",
+        "zh": "ICML 2026"
+      },
+      "image": "/images/paper-images/tm.png",
+      "paper": "https://arxiv.org/abs/2602.05495",
+      "code": "https://github.com/chenhangcuisg-code/Cross-Architecture-Merging-for-Large-Language-Models"
+    },
+    {
+      "id": "who-transfers-safety",
+      "category": "reliability",
+      "date": "2026-02",
+      "authors": "X. Zhang et al.",
+      "title": {
+        "en": "Who Transfers Safety? Identifying and Targeting Cross-Lingual Shared Safety Neurons",
+        "zh": "谁在传递安全？定位并干预跨语言共享安全神经元"
+      },
+      "summary": {
+        "en": "Identify shared safety neurons across languages and investigate targeted interventions for multilingual safety.",
+        "zh": "定位不同语言之间共享的安全神经元，研究面向多语言安全的靶向干预。"
+      },
+      "publication": {
+        "en": "ICML 2026",
+        "zh": "ICML 2026"
+      },
+      "image": "/images/paper-images/transform_safe.png",
+      "paper": "https://arxiv.org/abs/2602.01283",
+      "code": "https://github.com/1518630367/SS-Neuron-Expansion"
+    },
+    {
+      "id": "dna",
+      "category": "application",
+      "date": "2026-01",
+      "authors": "J. Dou et al.",
+      "title": {
+        "en": "DNA: Uncovering Universal Latent Forgery Knowledge",
+        "zh": "DNA：揭示通用的潜在伪造知识"
+      },
+      "summary": {
+        "en": "Investigate universal latent forgery knowledge as a foundation for more generalizable forgery detection.",
+        "zh": "研究通用的潜在伪造知识，为更具泛化能力的伪造检测提供依据。"
+      },
+      "publication": {
+        "en": "ICML 2026",
+        "zh": "ICML 2026"
+      },
+      "image": "/images/paper-images/DNA.png",
+      "paper": "https://arxiv.org/abs/2601.22515"
+    },
+    {
+      "id": "tracerouter",
+      "category": "reliability",
+      "date": "2026-01",
+      "authors": "C. Shi et al.",
+      "title": {
+        "en": "TraceRouter: Robust Safety for Large Foundation Models via Path-Level Intervention",
+        "zh": "TraceRouter：通过路径级干预提升基础模型安全性"
+      },
+      "summary": {
+        "en": "Trace harmful information through cross-layer pathways and study path-level interventions for model safety.",
+        "zh": "追踪有害信息在跨层路径中的传播，研究面向模型安全的路径级干预。"
+      },
+      "publication": {
+        "en": "ICML 2026",
+        "zh": "ICML 2026"
+      },
+      "image": "/images/paper-images/tracerouter.png",
+      "paper": "https://arxiv.org/abs/2601.21900"
+    },
+    {
+      "id": "where-culture-fades",
+      "category": "understanding",
+      "date": "2025-11",
+      "authors": "C. Shi et al.",
+      "title": {
+        "en": "Where Culture Fades: Revealing the Cultural Gap in Text-to-Image Generation",
+        "zh": "文化在哪里消退？揭示文生图中的文化差距"
+      },
+      "summary": {
+        "en": "Examine cultural gaps in text-to-image generation and their relationship to latent cultural knowledge.",
+        "zh": "分析文生图模型中的文化差距，探索其与潜在文化知识之间的联系。"
+      },
+      "publication": {
+        "en": "CVPR 2026 · Highlight",
+        "zh": "CVPR 2026 · Highlight"
+      },
+      "image": "/images/paper-images/culture.png",
+      "paper": "https://arxiv.org/abs/2511.17282"
+    }
+  ]
+}
