@@ -43,6 +43,12 @@
 .essay-resources h2{font-size:21px}
 .resource-links{display:flex;gap:24px;flex-wrap:wrap;font-size:14px;margin-bottom:24px}
 .resource-links a{font-weight:600}
+.author-contact{display:flex;justify-content:space-between;align-items:center;gap:24px;padding:20px 22px;margin:24px 0;background:#fafbf7;border:1px solid #dfe5d7;border-radius:4px;font-family:Arial,"PingFang SC","Microsoft YaHei",sans-serif;line-height:1.6}
+.contact-author-label{display:block;font-size:11px;color:#7b8574;margin-bottom:4px}
+.author-contact .author-name{display:block;font-size:14px}
+.author-email{min-width:0;overflow-wrap:anywhere;font-size:13px}
+.author-email-pending{font-size:12px;color:#8a9284}
+@media(max-width:620px){.author-contact{align-items:flex-start;flex-direction:column;gap:10px;padding:17px 18px}.author-email{font-size:12px}}
 .source-note{font-size:12px!important;line-height:1.7;color:#7b8574}
 .citation{font-size:13px;border:1px solid #e0e6d8;border-radius:5px;background:#fafbf7}
 .citation summary{cursor:pointer;padding:15px 18px;font-weight:600}

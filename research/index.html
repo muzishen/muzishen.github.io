@@ -71,7 +71,7 @@
         <button class="filter-button" type="button" data-filter="fundamental" aria-pressed="true">Fundamental Research</button>
         <button class="filter-button" type="button" data-filter="applied" aria-pressed="false">Applied Research</button>
       </div>
-      <p class="filter-count" data-result-count data-template="{count} selected studies" role="status" aria-live="polite" aria-atomic="true">12 selected studies</p>
+      <p class="filter-count" data-result-count data-template="{count} selected studies" role="status" aria-live="polite" aria-atomic="true">23 selected studies</p>
       <div class="sidebar-links">
         <a href="/research-vision/">Our research vision <span aria-hidden="true">↗</span></a>
         <a href="/products/">Research products <span aria-hidden="true">↗</span></a>
@@ -80,20 +80,36 @@
       <noscript><p class="paper-summary">All studies are shown. Enable JavaScript to filter by topic.</p></noscript>
     </aside>
     <div id="research-list" class="research-list" aria-label="Selected research" tabindex="-1">
-      <article class="research-row" data-category="fundamental" id="dv-lens" aria-labelledby="title-dv-lens">
+      <article class="research-row" data-category="fundamental" id="revisiting-over-refusal" aria-labelledby="title-revisiting-over-refusal">
         <div class="paper-copy">
-          <span class="category-tag">Fundamental Research</span><span class="paper-topic">Model Understanding</span>
-          <h2 id="title-dv-lens"><a href="/research/dv-lens/">DV-Lens: Revealing the Functional Organization of Language Model Parameters</a></h2>
-          <p class="paper-meta"><span class="paper-authors"><strong class="author-name">Cui Chenhang</strong></span><span class="paper-date"><time datetime="2026-10">October 2026</time><span class="separator" aria-hidden="true">·</span>Preprint<span class="separator" aria-hidden="true">·</span><span class="reading-time" data-reading-minutes="3" title="Estimated reading time, including figures.">3-minute read</span></span></p>
-          <p class="paper-summary">A vocabulary-space view of native parameters, tested through local output changes and targeted interventions.</p>
+          <span class="category-tag">Fundamental Research</span><span class="paper-topic">Reliability &amp; Safety</span>
+          <h2 id="title-revisiting-over-refusal"><a href="/research/revisiting-over-refusal/">Revisiting Over-refusal in Safety-aligned Large Language Models: A Representation and Optimization Perspective</a></h2>
+          <p class="paper-meta"><span class="paper-authors"><strong class="author-name">Chen Chao</strong></span><span class="paper-date"><time datetime="2026-10">October 2026</time><span class="separator" aria-hidden="true">·</span>Preprint<span class="separator" aria-hidden="true">·</span><span class="reading-time" data-reading-minutes="3" title="Estimated reading time, including figures.">3-minute read</span></span></p>
+          <p class="paper-summary">GOAL combines gradient orthogonalization and contrastive representation learning to improve the boundary between harmful and benign risky-looking requests.</p>
           <div class="paper-links">
-            <a class="paper-introduction-link" href="/research/dv-lens/">Read introduction <span aria-hidden="true">→</span></a>
-            <a href="https://arxiv.org/abs/2610.04489" target="_blank" rel="noopener noreferrer">Read paper <span aria-hidden="true">↗</span></a>
+            <a class="paper-introduction-link" href="/research/revisiting-over-refusal/">Read introduction <span aria-hidden="true">→</span></a>
+            <a href="https://arxiv.org/abs/2610.39802" target="_blank" rel="noopener noreferrer">Read paper <span aria-hidden="true">↗</span></a>
             
           </div>
         </div>
-        <a class="paper-image" href="/research/dv-lens/" aria-label="Read DV-Lens: Revealing the Functional Organization of Language Model Parameters">
-          <img src="/assets/images/research/covers/dv-lens.webp" width="1280" height="853" alt="Concept illustration for DV-Lens: Revealing the Functional Organization of Language Model Parameters" loading="eager" decoding="async">
+        <a class="paper-image" href="/research/revisiting-over-refusal/" aria-label="Read Revisiting Over-refusal in Safety-aligned Large Language Models: A Representation and Optimization Perspective">
+          <img src="/assets/images/research/covers/revisiting-over-refusal.webp" width="1280" height="853" alt="Concept illustration for Revisiting Over-refusal in Safety-aligned Large Language Models: A Representation and Optimization Perspective" loading="eager" decoding="async">
+        </a>
+      </article>
+      <article class="research-row" data-category="fundamental" id="safety-kernel" aria-labelledby="title-safety-kernel">
+        <div class="paper-copy">
+          <span class="category-tag">Fundamental Research</span><span class="paper-topic">Reliability &amp; Safety</span>
+          <h2 id="title-safety-kernel"><a href="/research/safety-kernel/">Safety Kernel: Mechanistic Alignment for Cross-Lingual Defense in LLMs</a></h2>
+          <p class="paper-meta"><span class="paper-authors"><strong class="author-name">Xie Chengyu</strong></span><span class="paper-date"><time datetime="2026-10">October 2026</time><span class="separator" aria-hidden="true">·</span>Preprint<span class="separator" aria-hidden="true">·</span><span class="reading-time" data-reading-minutes="3" title="Estimated reading time, including figures.">3-minute read</span></span></p>
+          <p class="paper-summary">A compact cross-language safety kernel supplies shared FFN coordinates for mechanistic diagnosis and masked LoRA adaptation.</p>
+          <div class="paper-links">
+            <a class="paper-introduction-link" href="/research/safety-kernel/">Read introduction <span aria-hidden="true">→</span></a>
+            <a href="https://arxiv.org/abs/2610.24614" target="_blank" rel="noopener noreferrer">Read paper <span aria-hidden="true">↗</span></a>
+            
+          </div>
+        </div>
+        <a class="paper-image" href="/research/safety-kernel/" aria-label="Read Safety Kernel: Mechanistic Alignment for Cross-Lingual Defense in LLMs">
+          <img src="/assets/images/research/covers/safety-kernel.webp" width="1280" height="853" alt="Concept illustration for Safety Kernel: Mechanistic Alignment for Cross-Lingual Defense in LLMs" loading="lazy" decoding="async">
         </a>
       </article>
       <article class="research-row" data-category="fundamental" id="latent-support" aria-labelledby="title-latent-support">
@@ -176,6 +192,22 @@
           <img src="/assets/images/research/covers/contractlens.webp" width="1280" height="853" alt="Concept illustration for ContractLens: Latent Security Knowledge for Malicious Smart Contract Detection" loading="lazy" decoding="async">
         </a>
       </article>
+      <article class="research-row" data-category="fundamental" id="dv-lens" aria-labelledby="title-dv-lens">
+        <div class="paper-copy">
+          <span class="category-tag">Fundamental Research</span><span class="paper-topic">Model Understanding</span>
+          <h2 id="title-dv-lens"><a href="/research/dv-lens/">DV-Lens: Revealing the Functional Organization of Language Model Parameters</a></h2>
+          <p class="paper-meta"><span class="paper-authors"><strong class="author-name">Cui Chenhang</strong></span><span class="paper-date"><time datetime="2026-10">October 2026</time><span class="separator" aria-hidden="true">·</span>Preprint<span class="separator" aria-hidden="true">·</span><span class="reading-time" data-reading-minutes="3" title="Estimated reading time, including figures.">3-minute read</span></span></p>
+          <p class="paper-summary">A vocabulary-space view of native parameters, tested through local output changes and targeted interventions.</p>
+          <div class="paper-links">
+            <a class="paper-introduction-link" href="/research/dv-lens/">Read introduction <span aria-hidden="true">→</span></a>
+            <a href="https://arxiv.org/abs/2610.04489" target="_blank" rel="noopener noreferrer">Read paper <span aria-hidden="true">↗</span></a>
+            
+          </div>
+        </div>
+        <a class="paper-image" href="/research/dv-lens/" aria-label="Read DV-Lens: Revealing the Functional Organization of Language Model Parameters">
+          <img src="/assets/images/research/covers/dv-lens.webp" width="1280" height="853" alt="Concept illustration for DV-Lens: Revealing the Functional Organization of Language Model Parameters" loading="lazy" decoding="async">
+        </a>
+      </article>
       <article class="research-row" data-category="fundamental" id="barq" aria-labelledby="title-barq">
         <div class="paper-copy">
           <span class="category-tag">Fundamental Research</span><span class="paper-topic">Capability Engineering</span>
@@ -224,6 +256,166 @@
           <img src="/assets/images/research/covers/hub-spectral.webp" width="1280" height="853" alt="Concept illustration for Hub-Spectral Activation of Latent Multimodal Knowledge" loading="lazy" decoding="async">
         </a>
       </article>
+      <article class="research-row" data-category="applied" id="mae-vla" aria-labelledby="title-mae-vla">
+        <div class="paper-copy">
+          <span class="category-tag">Applied Research</span><span class="paper-topic">Embodied Reliability</span>
+          <h2 id="title-mae-vla"><a href="/research/mae-vla/">MAE I Trust Myself? Self-Evaluating VLA Action Generation with Markov Attention Entropy</a></h2>
+          <p class="paper-meta"><span class="paper-authors"><strong class="author-name">Aniri</strong></span><span class="paper-date"><time datetime="2026-08">August 2026</time><span class="separator" aria-hidden="true">·</span>Preprint<span class="separator" aria-hidden="true">·</span><span class="reading-time" data-reading-minutes="3" title="Estimated reading time, including figures.">3-minute read</span></span></p>
+          <p class="paper-summary">Architecture-aware attention entropy turns a VLA’s internal visual addressing into an action-reliability signal.</p>
+          <div class="paper-links">
+            <a class="paper-introduction-link" href="/research/mae-vla/">Read introduction <span aria-hidden="true">→</span></a>
+            <a href="https://arxiv.org/abs/2608.16697" target="_blank" rel="noopener noreferrer">Read paper <span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/aniri15/MAE-Self-Evaluating-VLA" target="_blank" rel="noopener noreferrer">Code <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <a class="paper-image" href="/research/mae-vla/" aria-label="Read MAE I Trust Myself? Self-Evaluating VLA Action Generation with Markov Attention Entropy">
+          <img src="/assets/images/research/covers/mae-vla.webp" width="1280" height="853" alt="Concept illustration for MAE I Trust Myself? Self-Evaluating VLA Action Generation with Markov Attention Entropy" loading="lazy" decoding="async">
+        </a>
+      </article>
+      <article class="research-row" data-category="fundamental" id="who-bridges-safety" aria-labelledby="title-who-bridges-safety">
+        <div class="paper-copy">
+          <span class="category-tag">Fundamental Research</span><span class="paper-topic">Reliability &amp; Safety</span>
+          <h2 id="title-who-bridges-safety"><a href="/research/who-bridges-safety/">Who Bridges Safety? Identifying and Targeting Cross-Lingual Shared Safety Pathways</a></h2>
+          <p class="paper-meta"><span class="paper-authors"><strong class="author-name">Miao Shuyi</strong></span><span class="paper-date"><time datetime="2026-08">August 2026</time><span class="separator" aria-hidden="true">·</span>Preprint<span class="separator" aria-hidden="true">·</span><span class="reading-time" data-reading-minutes="3" title="Estimated reading time, including figures.">3-minute read</span></span></p>
+          <p class="paper-summary">Tracing cross-layer safety pathways reveals a shared target for transferring refusal behavior across languages.</p>
+          <div class="paper-links">
+            <a class="paper-introduction-link" href="/research/who-bridges-safety/">Read introduction <span aria-hidden="true">→</span></a>
+            <a href="https://arxiv.org/abs/2608.09095" target="_blank" rel="noopener noreferrer">Read paper <span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/msy0513/shared-safety-pathways" target="_blank" rel="noopener noreferrer">Code <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <a class="paper-image" href="/research/who-bridges-safety/" aria-label="Read Who Bridges Safety? Identifying and Targeting Cross-Lingual Shared Safety Pathways">
+          <img src="/assets/images/research/covers/who-bridges-safety.webp" width="1280" height="853" alt="Concept illustration for Who Bridges Safety? Identifying and Targeting Cross-Lingual Shared Safety Pathways" loading="lazy" decoding="async">
+        </a>
+      </article>
+      <article class="research-row" data-category="fundamental" id="opd-v" aria-labelledby="title-opd-v">
+        <div class="paper-copy">
+          <span class="category-tag">Fundamental Research</span><span class="paper-topic">Capability Engineering</span>
+          <h2 id="title-opd-v"><a href="/research/opd-v/">OPD-V: Visual On-Policy Self-Distillation with Modality Balance</a></h2>
+          <p class="paper-meta"><span class="paper-authors"><strong class="author-name">Aniri</strong></span><span class="paper-date"><time datetime="2026-08">August 2026</time><span class="separator" aria-hidden="true">·</span>Preprint<span class="separator" aria-hidden="true">·</span><span class="reading-time" data-reading-minutes="3" title="Estimated reading time, including figures.">3-minute read</span></span></p>
+          <p class="paper-summary">Visual teacher contrasts select self-distillation tokens that receive stronger support from the image.</p>
+          <div class="paper-links">
+            <a class="paper-introduction-link" href="/research/opd-v/">Read introduction <span aria-hidden="true">→</span></a>
+            <a href="https://arxiv.org/abs/2608.05131" target="_blank" rel="noopener noreferrer">Read paper <span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/aniri15/OPD-V" target="_blank" rel="noopener noreferrer">Code <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <a class="paper-image" href="/research/opd-v/" aria-label="Read OPD-V: Visual On-Policy Self-Distillation with Modality Balance">
+          <img src="/assets/images/research/covers/opd-v.webp" width="1280" height="853" alt="Concept illustration for OPD-V: Visual On-Policy Self-Distillation with Modality Balance" loading="lazy" decoding="async">
+        </a>
+      </article>
+      <article class="research-row" data-category="applied" id="v-find" aria-labelledby="title-v-find">
+        <div class="paper-copy">
+          <span class="category-tag">Applied Research</span><span class="paper-topic">Video Forensics</span>
+          <h2 id="title-v-find"><a href="/research/v-find/">V-FIND: Revealing the Intrinsic Forgery Knowledge Encoded in Video Forgery Detectors</a></h2>
+          <p class="paper-meta"><span class="paper-authors"><strong class="author-name">Kan Shichao</strong></span><span class="paper-date"><time datetime="2026-08">August 2026</time><span class="separator" aria-hidden="true">·</span>Preprint<span class="separator" aria-hidden="true">·</span><span class="reading-time" data-reading-minutes="3" title="Estimated reading time, including figures.">3-minute read</span></span></p>
+          <p class="paper-summary">A compact set of latent anchor neurons exposes reusable forensic signals inside frozen video forgery detectors.</p>
+          <div class="paper-links">
+            <a class="paper-introduction-link" href="/research/v-find/">Read introduction <span aria-hidden="true">→</span></a>
+            <a href="https://arxiv.org/abs/2608.03008" target="_blank" rel="noopener noreferrer">Read paper <span aria-hidden="true">↗</span></a>
+            
+          </div>
+        </div>
+        <a class="paper-image" href="/research/v-find/" aria-label="Read V-FIND: Revealing the Intrinsic Forgery Knowledge Encoded in Video Forgery Detectors">
+          <img src="/assets/images/research/covers/v-find.webp" width="1280" height="853" alt="Concept illustration for V-FIND: Revealing the Intrinsic Forgery Knowledge Encoded in Video Forgery Detectors" loading="lazy" decoding="async">
+        </a>
+      </article>
+      <article class="research-row" data-category="fundamental" id="reflectrl" aria-labelledby="title-reflectrl">
+        <div class="paper-copy">
+          <span class="category-tag">Fundamental Research</span><span class="paper-topic">Capability Engineering</span>
+          <h2 id="title-reflectrl"><a href="/research/reflectrl/">ReflectRL: Learning from Golden Negative Trajectories via Reflective-to-Direct Reasoning</a></h2>
+          <p class="paper-meta"><span class="paper-authors"><strong class="author-name">Bi Jinhe</strong></span><span class="paper-date"><time datetime="2026-08">August 2026</time><span class="separator" aria-hidden="true">·</span>Preprint<span class="separator" aria-hidden="true">·</span><span class="reading-time" data-reading-minutes="3" title="Estimated reading time, including figures.">3-minute read</span></span></p>
+          <p class="paper-summary">Flawed expert trajectories become material for reflection, then a policy transition transfers the benefit to direct reasoning.</p>
+          <div class="paper-links">
+            <a class="paper-introduction-link" href="/research/reflectrl/">Read introduction <span aria-hidden="true">→</span></a>
+            <a href="https://arxiv.org/abs/2608.03972" target="_blank" rel="noopener noreferrer">Read paper <span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/bibisbar/ReflectRL" target="_blank" rel="noopener noreferrer">Code <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <a class="paper-image" href="/research/reflectrl/" aria-label="Read ReflectRL: Learning from Golden Negative Trajectories via Reflective-to-Direct Reasoning">
+          <img src="/assets/images/research/covers/reflectrl.webp" width="1280" height="853" alt="Concept illustration for ReflectRL: Learning from Golden Negative Trajectories via Reflective-to-Direct Reasoning" loading="lazy" decoding="async">
+        </a>
+      </article>
+      <article class="research-row" data-category="fundamental" id="no-single-neuron" aria-labelledby="title-no-single-neuron">
+        <div class="paper-copy">
+          <span class="category-tag">Fundamental Research</span><span class="paper-topic">Reliability &amp; Safety</span>
+          <h2 id="title-no-single-neuron"><a href="/research/no-single-neuron/">No Single Neuron of Failure: Distributed Safety Alignment Against White-Box Attacks</a></h2>
+          <p class="paper-meta"><span class="paper-authors"><strong class="author-name">Xie Simiao</strong></span><span class="paper-date"><time datetime="2026-08">August 2026</time><span class="separator" aria-hidden="true">·</span>Preprint<span class="separator" aria-hidden="true">·</span><span class="reading-time" data-reading-minutes="3" title="Estimated reading time, including figures.">3-minute read</span></span></p>
+          <p class="paper-summary">Distributed safety alignment trains compensatory capacity instead of concentrating refusal behavior in a fragile internal bottleneck.</p>
+          <div class="paper-links">
+            <a class="paper-introduction-link" href="/research/no-single-neuron/">Read introduction <span aria-hidden="true">→</span></a>
+            <a href="https://arxiv.org/abs/2608.01414" target="_blank" rel="noopener noreferrer">Read paper <span aria-hidden="true">↗</span></a>
+            
+          </div>
+        </div>
+        <a class="paper-image" href="/research/no-single-neuron/" aria-label="Read No Single Neuron of Failure: Distributed Safety Alignment Against White-Box Attacks">
+          <img src="/assets/images/research/covers/no-single-neuron.webp" width="1280" height="853" alt="Concept illustration for No Single Neuron of Failure: Distributed Safety Alignment Against White-Box Attacks" loading="lazy" decoding="async">
+        </a>
+      </article>
+      <article class="research-row" data-category="fundamental" id="moving-safety-barrier" aria-labelledby="title-moving-safety-barrier">
+        <div class="paper-copy">
+          <span class="category-tag">Fundamental Research</span><span class="paper-topic">Reliability &amp; Safety</span>
+          <h2 id="title-moving-safety-barrier"><a href="/research/moving-safety-barrier/">Moving the Safety Barrier: Dynamic Routing Adaptive Alignment Against White-Box Attacks</a></h2>
+          <p class="paper-meta"><span class="paper-authors"><strong class="author-name">Li Shangze</strong></span><span class="paper-date"><time datetime="2026-08">August 2026</time><span class="separator" aria-hidden="true">·</span>Preprint<span class="separator" aria-hidden="true">·</span><span class="reading-time" data-reading-minutes="3" title="Estimated reading time, including figures.">3-minute read</span></span></p>
+          <p class="paper-summary">Failure-aware preference learning trains compensatory safety routes when a dominant refusal route is disrupted.</p>
+          <div class="paper-links">
+            <a class="paper-introduction-link" href="/research/moving-safety-barrier/">Read introduction <span aria-hidden="true">→</span></a>
+            <a href="https://arxiv.org/abs/2608.02674" target="_blank" rel="noopener noreferrer">Read paper <span aria-hidden="true">↗</span></a>
+            
+          </div>
+        </div>
+        <a class="paper-image" href="/research/moving-safety-barrier/" aria-label="Read Moving the Safety Barrier: Dynamic Routing Adaptive Alignment Against White-Box Attacks">
+          <img src="/assets/images/research/covers/moving-safety-barrier.webp" width="1280" height="853" alt="Concept illustration for Moving the Safety Barrier: Dynamic Routing Adaptive Alignment Against White-Box Attacks" loading="lazy" decoding="async">
+        </a>
+      </article>
+      <article class="research-row" data-category="fundamental" id="safenexus" aria-labelledby="title-safenexus">
+        <div class="paper-copy">
+          <span class="category-tag">Fundamental Research</span><span class="paper-topic">Reliability &amp; Safety</span>
+          <h2 id="title-safenexus"><a href="/research/safenexus/">SafeNexus: Discovering and Steering Modality-Universal Safety Neurons in MLLMs</a></h2>
+          <p class="paper-meta"><span class="paper-authors"><strong class="author-name">Yu Jian</strong></span><span class="paper-date"><time datetime="2026-07">July 2026</time><span class="separator" aria-hidden="true">·</span>Preprint<span class="separator" aria-hidden="true">·</span><span class="reading-time" data-reading-minutes="3" title="Estimated reading time, including figures.">3-minute read</span></span></p>
+          <p class="paper-summary">Locating modality-universal safety neurons connects cross-modal diagnosis to activation steering and targeted calibration.</p>
+          <div class="paper-links">
+            <a class="paper-introduction-link" href="/research/safenexus/">Read introduction <span aria-hidden="true">→</span></a>
+            <a href="https://arxiv.org/abs/2607.28969" target="_blank" rel="noopener noreferrer">Read paper <span aria-hidden="true">↗</span></a>
+            
+          </div>
+        </div>
+        <a class="paper-image" href="/research/safenexus/" aria-label="Read SafeNexus: Discovering and Steering Modality-Universal Safety Neurons in MLLMs">
+          <img src="/assets/images/research/covers/safenexus.webp" width="1280" height="853" alt="Concept illustration for SafeNexus: Discovering and Steering Modality-Universal Safety Neurons in MLLMs" loading="lazy" decoding="async">
+        </a>
+      </article>
+      <article class="research-row" data-category="fundamental" id="one-anchor" aria-labelledby="title-one-anchor">
+        <div class="paper-copy">
+          <span class="category-tag">Fundamental Research</span><span class="paper-topic">Reliability &amp; Safety</span>
+          <h2 id="title-one-anchor"><a href="/research/one-anchor/">One Anchor for All: Unified Multilingual and Multimodal Safety Alignment for LVLMs</a></h2>
+          <p class="paper-meta"><span class="paper-authors"><strong class="author-name">Shi Enyi</strong></span><span class="paper-date"><time datetime="2026-07">July 2026</time><span class="separator" aria-hidden="true">·</span>Preprint<span class="separator" aria-hidden="true">·</span><span class="reading-time" data-reading-minutes="3" title="Estimated reading time, including figures.">3-minute read</span></span></p>
+          <p class="paper-summary">A compact intersection of language- and modality-shared neurons transfers English safety supervision to compound input settings.</p>
+          <div class="paper-links">
+            <a class="paper-introduction-link" href="/research/one-anchor/">Read introduction <span aria-hidden="true">→</span></a>
+            <a href="https://arxiv.org/abs/2607.27917" target="_blank" rel="noopener noreferrer">Read paper <span aria-hidden="true">↗</span></a>
+            
+          </div>
+        </div>
+        <a class="paper-image" href="/research/one-anchor/" aria-label="Read One Anchor for All: Unified Multilingual and Multimodal Safety Alignment for LVLMs">
+          <img src="/assets/images/research/covers/one-anchor.webp" width="1280" height="853" alt="Concept illustration for One Anchor for All: Unified Multilingual and Multimodal Safety Alignment for LVLMs" loading="lazy" decoding="async">
+        </a>
+      </article>
+      <article class="research-row" data-category="fundamental" id="decodable-not-grounded" aria-labelledby="title-decodable-not-grounded">
+        <div class="paper-copy">
+          <span class="category-tag">Fundamental Research</span><span class="paper-topic">Model Understanding</span>
+          <h2 id="title-decodable-not-grounded"><a href="/research/decodable-not-grounded/">Decodable Is Not Grounded: A Vision-Ablation Arbiter for VLM Spatial Reasoning</a></h2>
+          <p class="paper-meta"><span class="paper-authors"><strong class="author-name">Liao Chih-Ting</strong></span><span class="paper-date"><time datetime="2026-06">June 2026</time><span class="separator" aria-hidden="true">·</span>Preprint<span class="separator" aria-hidden="true">·</span><span class="reading-time" data-reading-minutes="4" title="Estimated reading time, including figures.">4-minute read</span></span></p>
+          <p class="paper-summary">Image ablation separates visually grounded knowledge, directional priors, and representations deployed with the wrong sign.</p>
+          <div class="paper-links">
+            <a class="paper-introduction-link" href="/research/decodable-not-grounded/">Read introduction <span aria-hidden="true">→</span></a>
+            <a href="https://arxiv.org/abs/2606.31257" target="_blank" rel="noopener noreferrer">Read paper <span aria-hidden="true">↗</span></a>
+            
+          </div>
+        </div>
+        <a class="paper-image" href="/research/decodable-not-grounded/" aria-label="Read Decodable Is Not Grounded: A Vision-Ablation Arbiter for VLM Spatial Reasoning">
+          <img src="/assets/images/research/covers/decodable-not-grounded.webp" width="1280" height="853" alt="Concept illustration for Decodable Is Not Grounded: A Vision-Ablation Arbiter for VLM Spatial Reasoning" loading="lazy" decoding="async">
+        </a>
+      </article>
       <article class="research-row" data-category="applied" id="lake" aria-labelledby="title-lake">
         <div class="paper-copy">
           <span class="category-tag">Applied Research</span>
@@ -238,6 +430,22 @@
         </div>
         <a class="paper-image" href="/research/lake/" aria-label="Read Latent Anomaly Knowledge Excavation: Unveiling Sparse Sensitive Neurons in Vision-Language Models">
           <img src="/assets/images/research/covers/lake.webp" width="1280" height="853" alt="Concept illustration for Latent Anomaly Knowledge Excavation: Unveiling Sparse Sensitive Neurons in Vision-Language Models" loading="lazy" decoding="async">
+        </a>
+      </article>
+      <article class="research-row" data-category="applied" id="beyond-surface-artifacts" aria-labelledby="title-beyond-surface-artifacts">
+        <div class="paper-copy">
+          <span class="category-tag">Applied Research</span><span class="paper-topic">Multimodal Forensics</span>
+          <h2 id="title-beyond-surface-artifacts"><a href="/research/beyond-surface-artifacts/">Beyond Surface Artifacts: Capturing Shared Latent Forgery Knowledge Across Modalities</a></h2>
+          <p class="paper-meta"><span class="paper-authors"><strong class="author-name">Dou Jingtong</strong></span><span class="paper-date"><time datetime="2026-04">April 2026</time><span class="separator" aria-hidden="true">·</span>ACM MM 2026<span class="separator" aria-hidden="true">·</span><span class="reading-time" data-reading-minutes="3" title="Estimated reading time, including figures.">3-minute read</span></span></p>
+          <p class="paper-summary">Modality-agnostic forensics tests whether a detector can reuse learned forensic structure on an unseen medium.</p>
+          <div class="paper-links">
+            <a class="paper-introduction-link" href="/research/beyond-surface-artifacts/">Read introduction <span aria-hidden="true">→</span></a>
+            <a href="https://arxiv.org/abs/2604.07763" target="_blank" rel="noopener noreferrer">Read paper <span aria-hidden="true">↗</span></a>
+            
+          </div>
+        </div>
+        <a class="paper-image" href="/research/beyond-surface-artifacts/" aria-label="Read Beyond Surface Artifacts: Capturing Shared Latent Forgery Knowledge Across Modalities">
+          <img src="/assets/images/research/covers/beyond-surface-artifacts.webp" width="1280" height="853" alt="Concept illustration for Beyond Surface Artifacts: Capturing Shared Latent Forgery Knowledge Across Modalities" loading="lazy" decoding="async">
         </a>
       </article>
       <article class="research-row" data-category="fundamental" id="orthoeraser" aria-labelledby="title-orthoeraser">
@@ -302,6 +510,22 @@
         </div>
         <a class="paper-image" href="/research/dna/" aria-label="Read DNA: Uncovering Universal Latent Forgery Knowledge">
           <img src="/assets/images/research/covers/dna.webp" width="1280" height="853" alt="Concept illustration for DNA: Uncovering Universal Latent Forgery Knowledge" loading="lazy" decoding="async">
+        </a>
+      </article>
+      <article class="research-row" data-category="fundamental" id="lingua-safetybench" aria-labelledby="title-lingua-safetybench">
+        <div class="paper-copy">
+          <span class="category-tag">Fundamental Research</span><span class="paper-topic">Reliability &amp; Safety</span>
+          <h2 id="title-lingua-safetybench"><a href="/research/lingua-safetybench/">Lingua-SafetyBench: A Benchmark for Safety Evaluation of Multilingual Vision-Language Models</a></h2>
+          <p class="paper-meta"><span class="paper-authors"><strong class="author-name">Shi Enyi</strong></span><span class="paper-date"><time datetime="2026-01">January 2026</time><span class="separator" aria-hidden="true">·</span>Preprint<span class="separator" aria-hidden="true">·</span><span class="reading-time" data-reading-minutes="3" title="Estimated reading time, including figures.">3-minute read</span></span></p>
+          <p class="paper-summary">A controlled benchmark separates language coverage from image- and text-dominant risks in multimodal safety evaluation.</p>
+          <div class="paper-links">
+            <a class="paper-introduction-link" href="/research/lingua-safetybench/">Read introduction <span aria-hidden="true">→</span></a>
+            <a href="https://arxiv.org/abs/2601.22737" target="_blank" rel="noopener noreferrer">Read paper <span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/zsxr15/Lingua-SafetyBench" target="_blank" rel="noopener noreferrer">Code <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <a class="paper-image" href="/research/lingua-safetybench/" aria-label="Read Lingua-SafetyBench: A Benchmark for Safety Evaluation of Multilingual Vision-Language Models">
+          <img src="/assets/images/research/covers/lingua-safetybench.webp" width="1280" height="853" alt="Concept illustration for Lingua-SafetyBench: A Benchmark for Safety Evaluation of Multilingual Vision-Language Models" loading="lazy" decoding="async">
         </a>
       </article>
       <article class="research-row" data-category="fundamental" id="tracerouter" aria-labelledby="title-tracerouter">

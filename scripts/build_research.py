@@ -57,6 +57,20 @@ def reading_time_html(paper, locale):
     return f'<span class="reading-time" data-reading-minutes="{minutes}" title="{esc(hint)}">{esc(label)}</span>'
 
 
+def contact_author_html(paper, locale):
+    ui = DATA['article_ui'][locale]
+    name = paper['author_names'][0]
+    contact = paper.get('contact', {})
+    email = contact.get('email')
+    detail = (
+        f'<a class="author-email" href="{esc("mailto:" + email)}">{esc(email)} <span aria-hidden="true">↗</span></a>'
+        if email else f'<span class="author-email-pending">{esc(ui["contact_pending"])}</span>'
+    )
+    return ('<div class="author-contact" role="group" aria-label="' + esc(ui['contact_author']) + '">'
+            '<div><span class="contact-author-label">' + esc(ui['contact_author']) + '</span>'
+            '<strong class="author-name">' + esc(name) + '</strong></div>' + detail + '</div>')
+
+
 def paragraphs(value):
     return ''.join(f'<p>{esc(p)}</p>' for p in (value if isinstance(value, list) else [value]))
 
@@ -187,6 +201,7 @@ def render_article(paper, locale):
         'TOPIC_KICKER': (esc(paper['topic'][locale]) + ' / ') if paper['topic'][locale] != DATA['categories'][paper['category']][locale] else '',
         'AUTHORS': author_html(paper),
         'READING_TIME': reading_time_html(paper, locale),
+        'AUTHOR_CONTACT': contact_author_html(paper, locale),
         'DATE_ISO': esc(paper['submitted']), 'DATE_DISPLAY': esc(display_date),
         'PUBLICATION': esc(paper['publication'][locale]),
         'PAPER': esc(paper['paper']), 'PDF': esc(paper['pdf']),

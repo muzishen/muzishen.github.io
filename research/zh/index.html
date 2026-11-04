@@ -71,7 +71,7 @@
         <button class="filter-button" type="button" data-filter="fundamental" aria-pressed="true">基础研究</button>
         <button class="filter-button" type="button" data-filter="applied" aria-pressed="false">应用研究</button>
       </div>
-      <p class="filter-count" data-result-count data-template="共 {count} 项精选研究" role="status" aria-live="polite" aria-atomic="true">共 12 项精选研究</p>
+      <p class="filter-count" data-result-count data-template="共 {count} 项精选研究" role="status" aria-live="polite" aria-atomic="true">共 23 项精选研究</p>
       <div class="sidebar-links">
         <a href="/research-vision/">我们的研究愿景 <span aria-hidden="true">↗</span></a>
         <a href="/products/">研究产品与应用 <span aria-hidden="true">↗</span></a>
@@ -80,20 +80,36 @@
       <noscript><p class="paper-summary">当前展示全部研究；启用 JavaScript 后可按方向筛选。</p></noscript>
     </aside>
     <div id="research-list" class="research-list" aria-label="精选研究成果" tabindex="-1">
-      <article class="research-row" data-category="fundamental" id="dv-lens" aria-labelledby="title-dv-lens">
+      <article class="research-row" data-category="fundamental" id="revisiting-over-refusal" aria-labelledby="title-revisiting-over-refusal">
         <div class="paper-copy">
-          <span class="category-tag">基础研究</span><span class="paper-topic">机制理解</span>
-          <h2 id="title-dv-lens"><a href="/research/zh/dv-lens/">DV-Lens：揭示语言模型参数的功能组织</a></h2>
-          <p class="paper-meta"><span class="paper-authors"><strong class="author-name">Cui Chenhang</strong></span><span class="paper-date"><time datetime="2026-10">2026年10月</time><span class="separator" aria-hidden="true">·</span>预印本<span class="separator" aria-hidden="true">·</span><span class="reading-time" data-reading-minutes="4" title="预计阅读时长，含图表浏览。">约 4 分钟阅读</span></span></p>
-          <p class="paper-summary">把原生参数映射到词表空间，再用局部输出变化和定向干预检验这些读出。</p>
+          <span class="category-tag">基础研究</span><span class="paper-topic">可靠评估与安全</span>
+          <h2 id="title-revisiting-over-refusal"><a href="/research/zh/revisiting-over-refusal/">重新审视安全对齐模型的过度拒答：表征与优化视角</a></h2>
+          <p class="paper-meta"><span class="paper-authors"><strong class="author-name">Chen Chao</strong></span><span class="paper-date"><time datetime="2026-10">2026年10月</time><span class="separator" aria-hidden="true">·</span>预印本<span class="separator" aria-hidden="true">·</span><span class="reading-time" data-reading-minutes="4" title="预计阅读时长，含图表浏览。">约 4 分钟阅读</span></span></p>
+          <p class="paper-summary">GOAL 结合梯度正交化与对比表征学习，改善有害请求与表面敏感良性请求之间的边界。</p>
           <div class="paper-links">
-            <a class="paper-introduction-link" href="/research/zh/dv-lens/">了解这项研究 <span aria-hidden="true">→</span></a>
-            <a href="https://arxiv.org/abs/2610.04489" target="_blank" rel="noopener noreferrer">阅读论文 <span aria-hidden="true">↗</span></a>
+            <a class="paper-introduction-link" href="/research/zh/revisiting-over-refusal/">了解这项研究 <span aria-hidden="true">→</span></a>
+            <a href="https://arxiv.org/abs/2610.39802" target="_blank" rel="noopener noreferrer">阅读论文 <span aria-hidden="true">↗</span></a>
             
           </div>
         </div>
-        <a class="paper-image" href="/research/zh/dv-lens/" aria-label="阅读《DV-Lens：揭示语言模型参数的功能组织》">
-          <img src="/assets/images/research/covers/dv-lens.webp" width="1280" height="853" alt="《DV-Lens：揭示语言模型参数的功能组织》概念视觉" loading="eager" decoding="async">
+        <a class="paper-image" href="/research/zh/revisiting-over-refusal/" aria-label="阅读《重新审视安全对齐模型的过度拒答：表征与优化视角》">
+          <img src="/assets/images/research/covers/revisiting-over-refusal.webp" width="1280" height="853" alt="《重新审视安全对齐模型的过度拒答：表征与优化视角》概念视觉" loading="eager" decoding="async">
+        </a>
+      </article>
+      <article class="research-row" data-category="fundamental" id="safety-kernel" aria-labelledby="title-safety-kernel">
+        <div class="paper-copy">
+          <span class="category-tag">基础研究</span><span class="paper-topic">可靠评估与安全</span>
+          <h2 id="title-safety-kernel"><a href="/research/zh/safety-kernel/">Safety Kernel：面向跨语言防御的机制驱动安全对齐</a></h2>
+          <p class="paper-meta"><span class="paper-authors"><strong class="author-name">Xie Chengyu</strong></span><span class="paper-date"><time datetime="2026-10">2026年10月</time><span class="separator" aria-hidden="true">·</span>预印本<span class="separator" aria-hidden="true">·</span><span class="reading-time" data-reading-minutes="3" title="预计阅读时长，含图表浏览。">约 3 分钟阅读</span></span></p>
+          <p class="paper-summary">以紧凑的跨语言安全核心，连接机制诊断与限定 FFN 坐标的 LoRA 适配。</p>
+          <div class="paper-links">
+            <a class="paper-introduction-link" href="/research/zh/safety-kernel/">了解这项研究 <span aria-hidden="true">→</span></a>
+            <a href="https://arxiv.org/abs/2610.24614" target="_blank" rel="noopener noreferrer">阅读论文 <span aria-hidden="true">↗</span></a>
+            
+          </div>
+        </div>
+        <a class="paper-image" href="/research/zh/safety-kernel/" aria-label="阅读《Safety Kernel：面向跨语言防御的机制驱动安全对齐》">
+          <img src="/assets/images/research/covers/safety-kernel.webp" width="1280" height="853" alt="《Safety Kernel：面向跨语言防御的机制驱动安全对齐》概念视觉" loading="lazy" decoding="async">
         </a>
       </article>
       <article class="research-row" data-category="fundamental" id="latent-support" aria-labelledby="title-latent-support">
@@ -176,6 +192,22 @@
           <img src="/assets/images/research/covers/contractlens.webp" width="1280" height="853" alt="《ContractLens：利用潜在安全知识检测恶意智能合约》概念视觉" loading="lazy" decoding="async">
         </a>
       </article>
+      <article class="research-row" data-category="fundamental" id="dv-lens" aria-labelledby="title-dv-lens">
+        <div class="paper-copy">
+          <span class="category-tag">基础研究</span><span class="paper-topic">机制理解</span>
+          <h2 id="title-dv-lens"><a href="/research/zh/dv-lens/">DV-Lens：揭示语言模型参数的功能组织</a></h2>
+          <p class="paper-meta"><span class="paper-authors"><strong class="author-name">Cui Chenhang</strong></span><span class="paper-date"><time datetime="2026-10">2026年10月</time><span class="separator" aria-hidden="true">·</span>预印本<span class="separator" aria-hidden="true">·</span><span class="reading-time" data-reading-minutes="4" title="预计阅读时长，含图表浏览。">约 4 分钟阅读</span></span></p>
+          <p class="paper-summary">把原生参数映射到词表空间，再用局部输出变化和定向干预检验这些读出。</p>
+          <div class="paper-links">
+            <a class="paper-introduction-link" href="/research/zh/dv-lens/">了解这项研究 <span aria-hidden="true">→</span></a>
+            <a href="https://arxiv.org/abs/2610.04489" target="_blank" rel="noopener noreferrer">阅读论文 <span aria-hidden="true">↗</span></a>
+            
+          </div>
+        </div>
+        <a class="paper-image" href="/research/zh/dv-lens/" aria-label="阅读《DV-Lens：揭示语言模型参数的功能组织》">
+          <img src="/assets/images/research/covers/dv-lens.webp" width="1280" height="853" alt="《DV-Lens：揭示语言模型参数的功能组织》概念视觉" loading="lazy" decoding="async">
+        </a>
+      </article>
       <article class="research-row" data-category="fundamental" id="barq" aria-labelledby="title-barq">
         <div class="paper-copy">
           <span class="category-tag">基础研究</span><span class="paper-topic">能力激发与迁移</span>
@@ -224,6 +256,166 @@
           <img src="/assets/images/research/covers/hub-spectral.webp" width="1280" height="853" alt="《Hub-Spectral：激活潜在多模态知识》概念视觉" loading="lazy" decoding="async">
         </a>
       </article>
+      <article class="research-row" data-category="applied" id="mae-vla" aria-labelledby="title-mae-vla">
+        <div class="paper-copy">
+          <span class="category-tag">应用研究</span><span class="paper-topic">具身可靠性</span>
+          <h2 id="title-mae-vla"><a href="/research/zh/mae-vla/">MAE I Trust Myself? 用马尔可夫注意力熵自评估 VLA 动作可靠性</a></h2>
+          <p class="paper-meta"><span class="paper-authors"><strong class="author-name">Aniri</strong></span><span class="paper-date"><time datetime="2026-08">2026年8月</time><span class="separator" aria-hidden="true">·</span>预印本<span class="separator" aria-hidden="true">·</span><span class="reading-time" data-reading-minutes="4" title="预计阅读时长，含图表浏览。">约 4 分钟阅读</span></span></p>
+          <p class="paper-summary">利用架构感知的注意力熵，将 VLA 内部视觉寻址转化为动作可靠性信号。</p>
+          <div class="paper-links">
+            <a class="paper-introduction-link" href="/research/zh/mae-vla/">了解这项研究 <span aria-hidden="true">→</span></a>
+            <a href="https://arxiv.org/abs/2608.16697" target="_blank" rel="noopener noreferrer">阅读论文 <span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/aniri15/MAE-Self-Evaluating-VLA" target="_blank" rel="noopener noreferrer">代码 <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <a class="paper-image" href="/research/zh/mae-vla/" aria-label="阅读《MAE I Trust Myself? 用马尔可夫注意力熵自评估 VLA 动作可靠性》">
+          <img src="/assets/images/research/covers/mae-vla.webp" width="1280" height="853" alt="《MAE I Trust Myself? 用马尔可夫注意力熵自评估 VLA 动作可靠性》概念视觉" loading="lazy" decoding="async">
+        </a>
+      </article>
+      <article class="research-row" data-category="fundamental" id="who-bridges-safety" aria-labelledby="title-who-bridges-safety">
+        <div class="paper-copy">
+          <span class="category-tag">基础研究</span><span class="paper-topic">可靠评估与安全</span>
+          <h2 id="title-who-bridges-safety"><a href="/research/zh/who-bridges-safety/">谁在桥接安全？定位并增强跨语言共享安全路径</a></h2>
+          <p class="paper-meta"><span class="paper-authors"><strong class="author-name">Miao Shuyi</strong></span><span class="paper-date"><time datetime="2026-08">2026年8月</time><span class="separator" aria-hidden="true">·</span>预印本<span class="separator" aria-hidden="true">·</span><span class="reading-time" data-reading-minutes="4" title="预计阅读时长，含图表浏览。">约 4 分钟阅读</span></span></p>
+          <p class="paper-summary">追踪跨层安全信号的传播路径，定位跨语言安全迁移的共享干预目标。</p>
+          <div class="paper-links">
+            <a class="paper-introduction-link" href="/research/zh/who-bridges-safety/">了解这项研究 <span aria-hidden="true">→</span></a>
+            <a href="https://arxiv.org/abs/2608.09095" target="_blank" rel="noopener noreferrer">阅读论文 <span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/msy0513/shared-safety-pathways" target="_blank" rel="noopener noreferrer">代码 <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <a class="paper-image" href="/research/zh/who-bridges-safety/" aria-label="阅读《谁在桥接安全？定位并增强跨语言共享安全路径》">
+          <img src="/assets/images/research/covers/who-bridges-safety.webp" width="1280" height="853" alt="《谁在桥接安全？定位并增强跨语言共享安全路径》概念视觉" loading="lazy" decoding="async">
+        </a>
+      </article>
+      <article class="research-row" data-category="fundamental" id="opd-v" aria-labelledby="title-opd-v">
+        <div class="paper-copy">
+          <span class="category-tag">基础研究</span><span class="paper-topic">能力激发与迁移</span>
+          <h2 id="title-opd-v"><a href="/research/zh/opd-v/">OPD-V：以模态平衡引导视觉同策略自蒸馏</a></h2>
+          <p class="paper-meta"><span class="paper-authors"><strong class="author-name">Aniri</strong></span><span class="paper-date"><time datetime="2026-08">2026年8月</time><span class="separator" aria-hidden="true">·</span>预印本<span class="separator" aria-hidden="true">·</span><span class="reading-time" data-reading-minutes="3" title="预计阅读时长，含图表浏览。">约 3 分钟阅读</span></span></p>
+          <p class="paper-summary">通过视觉教师对照，选择获得更强图像证据支持的自蒸馏词元。</p>
+          <div class="paper-links">
+            <a class="paper-introduction-link" href="/research/zh/opd-v/">了解这项研究 <span aria-hidden="true">→</span></a>
+            <a href="https://arxiv.org/abs/2608.05131" target="_blank" rel="noopener noreferrer">阅读论文 <span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/aniri15/OPD-V" target="_blank" rel="noopener noreferrer">代码 <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <a class="paper-image" href="/research/zh/opd-v/" aria-label="阅读《OPD-V：以模态平衡引导视觉同策略自蒸馏》">
+          <img src="/assets/images/research/covers/opd-v.webp" width="1280" height="853" alt="《OPD-V：以模态平衡引导视觉同策略自蒸馏》概念视觉" loading="lazy" decoding="async">
+        </a>
+      </article>
+      <article class="research-row" data-category="applied" id="v-find" aria-labelledby="title-v-find">
+        <div class="paper-copy">
+          <span class="category-tag">应用研究</span><span class="paper-topic">视频取证</span>
+          <h2 id="title-v-find"><a href="/research/zh/v-find/">V-FIND：揭示视频伪造检测器中的内在取证知识</a></h2>
+          <p class="paper-meta"><span class="paper-authors"><strong class="author-name">Kan Shichao</strong></span><span class="paper-date"><time datetime="2026-08">2026年8月</time><span class="separator" aria-hidden="true">·</span>预印本<span class="separator" aria-hidden="true">·</span><span class="reading-time" data-reading-minutes="3" title="预计阅读时长，含图表浏览。">约 3 分钟阅读</span></span></p>
+          <p class="paper-summary">在冻结视频伪造检测器中定位紧凑的潜在锚点神经元，提取可复用的取证信号。</p>
+          <div class="paper-links">
+            <a class="paper-introduction-link" href="/research/zh/v-find/">了解这项研究 <span aria-hidden="true">→</span></a>
+            <a href="https://arxiv.org/abs/2608.03008" target="_blank" rel="noopener noreferrer">阅读论文 <span aria-hidden="true">↗</span></a>
+            
+          </div>
+        </div>
+        <a class="paper-image" href="/research/zh/v-find/" aria-label="阅读《V-FIND：揭示视频伪造检测器中的内在取证知识》">
+          <img src="/assets/images/research/covers/v-find.webp" width="1280" height="853" alt="《V-FIND：揭示视频伪造检测器中的内在取证知识》概念视觉" loading="lazy" decoding="async">
+        </a>
+      </article>
+      <article class="research-row" data-category="fundamental" id="reflectrl" aria-labelledby="title-reflectrl">
+        <div class="paper-copy">
+          <span class="category-tag">基础研究</span><span class="paper-topic">能力激发与迁移</span>
+          <h2 id="title-reflectrl"><a href="/research/zh/reflectrl/">ReflectRL：从专家失败轨迹中学习，将反思迁移为直接推理</a></h2>
+          <p class="paper-meta"><span class="paper-authors"><strong class="author-name">Bi Jinhe</strong></span><span class="paper-date"><time datetime="2026-08">2026年8月</time><span class="separator" aria-hidden="true">·</span>预印本<span class="separator" aria-hidden="true">·</span><span class="reading-time" data-reading-minutes="3" title="预计阅读时长，含图表浏览。">约 3 分钟阅读</span></span></p>
+          <p class="paper-summary">将专家失败轨迹转化为反思材料，再通过策略过渡把收益迁移到直接推理。</p>
+          <div class="paper-links">
+            <a class="paper-introduction-link" href="/research/zh/reflectrl/">了解这项研究 <span aria-hidden="true">→</span></a>
+            <a href="https://arxiv.org/abs/2608.03972" target="_blank" rel="noopener noreferrer">阅读论文 <span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/bibisbar/ReflectRL" target="_blank" rel="noopener noreferrer">代码 <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <a class="paper-image" href="/research/zh/reflectrl/" aria-label="阅读《ReflectRL：从专家失败轨迹中学习，将反思迁移为直接推理》">
+          <img src="/assets/images/research/covers/reflectrl.webp" width="1280" height="853" alt="《ReflectRL：从专家失败轨迹中学习，将反思迁移为直接推理》概念视觉" loading="lazy" decoding="async">
+        </a>
+      </article>
+      <article class="research-row" data-category="fundamental" id="no-single-neuron" aria-labelledby="title-no-single-neuron">
+        <div class="paper-copy">
+          <span class="category-tag">基础研究</span><span class="paper-topic">可靠评估与安全</span>
+          <h2 id="title-no-single-neuron"><a href="/research/zh/no-single-neuron/">安全不应依赖单一神经元：面向白盒攻击的分布式安全对齐</a></h2>
+          <p class="paper-meta"><span class="paper-authors"><strong class="author-name">Xie Simiao</strong></span><span class="paper-date"><time datetime="2026-08">2026年8月</time><span class="separator" aria-hidden="true">·</span>预印本<span class="separator" aria-hidden="true">·</span><span class="reading-time" data-reading-minutes="3" title="预计阅读时长，含图表浏览。">约 3 分钟阅读</span></span></p>
+          <p class="paper-summary">通过分布式安全对齐训练补偿能力，减少拒答行为对脆弱内部瓶颈的依赖。</p>
+          <div class="paper-links">
+            <a class="paper-introduction-link" href="/research/zh/no-single-neuron/">了解这项研究 <span aria-hidden="true">→</span></a>
+            <a href="https://arxiv.org/abs/2608.01414" target="_blank" rel="noopener noreferrer">阅读论文 <span aria-hidden="true">↗</span></a>
+            
+          </div>
+        </div>
+        <a class="paper-image" href="/research/zh/no-single-neuron/" aria-label="阅读《安全不应依赖单一神经元：面向白盒攻击的分布式安全对齐》">
+          <img src="/assets/images/research/covers/no-single-neuron.webp" width="1280" height="853" alt="《安全不应依赖单一神经元：面向白盒攻击的分布式安全对齐》概念视觉" loading="lazy" decoding="async">
+        </a>
+      </article>
+      <article class="research-row" data-category="fundamental" id="moving-safety-barrier" aria-labelledby="title-moving-safety-barrier">
+        <div class="paper-copy">
+          <span class="category-tag">基础研究</span><span class="paper-topic">可靠评估与安全</span>
+          <h2 id="title-moving-safety-barrier"><a href="/research/zh/moving-safety-barrier/">移动安全屏障：面向白盒攻击的动态路由自适应对齐</a></h2>
+          <p class="paper-meta"><span class="paper-authors"><strong class="author-name">Li Shangze</strong></span><span class="paper-date"><time datetime="2026-08">2026年8月</time><span class="separator" aria-hidden="true">·</span>预印本<span class="separator" aria-hidden="true">·</span><span class="reading-time" data-reading-minutes="3" title="预计阅读时长，含图表浏览。">约 3 分钟阅读</span></span></p>
+          <p class="paper-summary">根据内部失效构造偏好监督，在主导拒答路径受损时训练补偿安全路径。</p>
+          <div class="paper-links">
+            <a class="paper-introduction-link" href="/research/zh/moving-safety-barrier/">了解这项研究 <span aria-hidden="true">→</span></a>
+            <a href="https://arxiv.org/abs/2608.02674" target="_blank" rel="noopener noreferrer">阅读论文 <span aria-hidden="true">↗</span></a>
+            
+          </div>
+        </div>
+        <a class="paper-image" href="/research/zh/moving-safety-barrier/" aria-label="阅读《移动安全屏障：面向白盒攻击的动态路由自适应对齐》">
+          <img src="/assets/images/research/covers/moving-safety-barrier.webp" width="1280" height="853" alt="《移动安全屏障：面向白盒攻击的动态路由自适应对齐》概念视觉" loading="lazy" decoding="async">
+        </a>
+      </article>
+      <article class="research-row" data-category="fundamental" id="safenexus" aria-labelledby="title-safenexus">
+        <div class="paper-copy">
+          <span class="category-tag">基础研究</span><span class="paper-topic">可靠评估与安全</span>
+          <h2 id="title-safenexus"><a href="/research/zh/safenexus/">SafeNexus：发现并引导多模态模型的跨模态共享安全神经元</a></h2>
+          <p class="paper-meta"><span class="paper-authors"><strong class="author-name">Yu Jian</strong></span><span class="paper-date"><time datetime="2026-07">2026年7月</time><span class="separator" aria-hidden="true">·</span>预印本<span class="separator" aria-hidden="true">·</span><span class="reading-time" data-reading-minutes="4" title="预计阅读时长，含图表浏览。">约 4 分钟阅读</span></span></p>
+          <p class="paper-summary">定位跨模态共享安全神经元，将机制诊断连接到激活引导与定向校准。</p>
+          <div class="paper-links">
+            <a class="paper-introduction-link" href="/research/zh/safenexus/">了解这项研究 <span aria-hidden="true">→</span></a>
+            <a href="https://arxiv.org/abs/2607.28969" target="_blank" rel="noopener noreferrer">阅读论文 <span aria-hidden="true">↗</span></a>
+            
+          </div>
+        </div>
+        <a class="paper-image" href="/research/zh/safenexus/" aria-label="阅读《SafeNexus：发现并引导多模态模型的跨模态共享安全神经元》">
+          <img src="/assets/images/research/covers/safenexus.webp" width="1280" height="853" alt="《SafeNexus：发现并引导多模态模型的跨模态共享安全神经元》概念视觉" loading="lazy" decoding="async">
+        </a>
+      </article>
+      <article class="research-row" data-category="fundamental" id="one-anchor" aria-labelledby="title-one-anchor">
+        <div class="paper-copy">
+          <span class="category-tag">基础研究</span><span class="paper-topic">可靠评估与安全</span>
+          <h2 id="title-one-anchor"><a href="/research/zh/one-anchor/">一个锚点，贯通语言与模态：LVLM 统一安全对齐</a></h2>
+          <p class="paper-meta"><span class="paper-authors"><strong class="author-name">Shi Enyi</strong></span><span class="paper-date"><time datetime="2026-07">2026年7月</time><span class="separator" aria-hidden="true">·</span>预印本<span class="separator" aria-hidden="true">·</span><span class="reading-time" data-reading-minutes="4" title="预计阅读时长，含图表浏览。">约 4 分钟阅读</span></span></p>
+          <p class="paper-summary">利用语言与模态共享神经元的紧凑交集，将英语安全监督迁移到复合输入场景。</p>
+          <div class="paper-links">
+            <a class="paper-introduction-link" href="/research/zh/one-anchor/">了解这项研究 <span aria-hidden="true">→</span></a>
+            <a href="https://arxiv.org/abs/2607.27917" target="_blank" rel="noopener noreferrer">阅读论文 <span aria-hidden="true">↗</span></a>
+            
+          </div>
+        </div>
+        <a class="paper-image" href="/research/zh/one-anchor/" aria-label="阅读《一个锚点，贯通语言与模态：LVLM 统一安全对齐》">
+          <img src="/assets/images/research/covers/one-anchor.webp" width="1280" height="853" alt="《一个锚点，贯通语言与模态：LVLM 统一安全对齐》概念视觉" loading="lazy" decoding="async">
+        </a>
+      </article>
+      <article class="research-row" data-category="fundamental" id="decodable-not-grounded" aria-labelledby="title-decodable-not-grounded">
+        <div class="paper-copy">
+          <span class="category-tag">基础研究</span><span class="paper-topic">机制理解</span>
+          <h2 id="title-decodable-not-grounded"><a href="/research/zh/decodable-not-grounded/">能解码，不等于有视觉依据：VLM 空间推理的视觉消融裁决</a></h2>
+          <p class="paper-meta"><span class="paper-authors"><strong class="author-name">Liao Chih-Ting</strong></span><span class="paper-date"><time datetime="2026-06">2026年6月</time><span class="separator" aria-hidden="true">·</span>预印本<span class="separator" aria-hidden="true">·</span><span class="reading-time" data-reading-minutes="4" title="预计阅读时长，含图表浏览。">约 4 分钟阅读</span></span></p>
+          <p class="paper-summary">通过图像消融，区分视觉依据、方向先验与被错误使用的表征。</p>
+          <div class="paper-links">
+            <a class="paper-introduction-link" href="/research/zh/decodable-not-grounded/">了解这项研究 <span aria-hidden="true">→</span></a>
+            <a href="https://arxiv.org/abs/2606.31257" target="_blank" rel="noopener noreferrer">阅读论文 <span aria-hidden="true">↗</span></a>
+            
+          </div>
+        </div>
+        <a class="paper-image" href="/research/zh/decodable-not-grounded/" aria-label="阅读《能解码，不等于有视觉依据：VLM 空间推理的视觉消融裁决》">
+          <img src="/assets/images/research/covers/decodable-not-grounded.webp" width="1280" height="853" alt="《能解码，不等于有视觉依据：VLM 空间推理的视觉消融裁决》概念视觉" loading="lazy" decoding="async">
+        </a>
+      </article>
       <article class="research-row" data-category="applied" id="lake" aria-labelledby="title-lake">
         <div class="paper-copy">
           <span class="category-tag">应用研究</span>
@@ -238,6 +430,22 @@
         </div>
         <a class="paper-image" href="/research/zh/lake/" aria-label="阅读《LAKE：挖掘视觉语言模型中的潜在异常知识》">
           <img src="/assets/images/research/covers/lake.webp" width="1280" height="853" alt="《LAKE：挖掘视觉语言模型中的潜在异常知识》概念视觉" loading="lazy" decoding="async">
+        </a>
+      </article>
+      <article class="research-row" data-category="applied" id="beyond-surface-artifacts" aria-labelledby="title-beyond-surface-artifacts">
+        <div class="paper-copy">
+          <span class="category-tag">应用研究</span><span class="paper-topic">多模态取证</span>
+          <h2 id="title-beyond-surface-artifacts"><a href="/research/zh/beyond-surface-artifacts/">超越表面伪迹：跨模态共享潜在伪造知识</a></h2>
+          <p class="paper-meta"><span class="paper-authors"><strong class="author-name">Dou Jingtong</strong></span><span class="paper-date"><time datetime="2026-04">2026年4月</time><span class="separator" aria-hidden="true">·</span>ACM MM 2026<span class="separator" aria-hidden="true">·</span><span class="reading-time" data-reading-minutes="4" title="预计阅读时长，含图表浏览。">约 4 分钟阅读</span></span></p>
+          <p class="paper-summary">通过模态无关取证，检验检测器能否在未知媒介上复用已学判别结构。</p>
+          <div class="paper-links">
+            <a class="paper-introduction-link" href="/research/zh/beyond-surface-artifacts/">了解这项研究 <span aria-hidden="true">→</span></a>
+            <a href="https://arxiv.org/abs/2604.07763" target="_blank" rel="noopener noreferrer">阅读论文 <span aria-hidden="true">↗</span></a>
+            
+          </div>
+        </div>
+        <a class="paper-image" href="/research/zh/beyond-surface-artifacts/" aria-label="阅读《超越表面伪迹：跨模态共享潜在伪造知识》">
+          <img src="/assets/images/research/covers/beyond-surface-artifacts.webp" width="1280" height="853" alt="《超越表面伪迹：跨模态共享潜在伪造知识》概念视觉" loading="lazy" decoding="async">
         </a>
       </article>
       <article class="research-row" data-category="fundamental" id="orthoeraser" aria-labelledby="title-orthoeraser">
@@ -302,6 +510,22 @@
         </div>
         <a class="paper-image" href="/research/zh/dna/" aria-label="阅读《DNA：揭示通用的潜在伪造知识》">
           <img src="/assets/images/research/covers/dna.webp" width="1280" height="853" alt="《DNA：揭示通用的潜在伪造知识》概念视觉" loading="lazy" decoding="async">
+        </a>
+      </article>
+      <article class="research-row" data-category="fundamental" id="lingua-safetybench" aria-labelledby="title-lingua-safetybench">
+        <div class="paper-copy">
+          <span class="category-tag">基础研究</span><span class="paper-topic">可靠评估与安全</span>
+          <h2 id="title-lingua-safetybench"><a href="/research/zh/lingua-safetybench/">Lingua-SafetyBench：多语言视觉语言模型安全评估基准</a></h2>
+          <p class="paper-meta"><span class="paper-authors"><strong class="author-name">Shi Enyi</strong></span><span class="paper-date"><time datetime="2026-01">2026年1月</time><span class="separator" aria-hidden="true">·</span>预印本<span class="separator" aria-hidden="true">·</span><span class="reading-time" data-reading-minutes="4" title="预计阅读时长，含图表浏览。">约 4 分钟阅读</span></span></p>
+          <p class="paper-summary">通过受控基准区分语言覆盖与图像、文本主导风险，评估多语言多模态安全。</p>
+          <div class="paper-links">
+            <a class="paper-introduction-link" href="/research/zh/lingua-safetybench/">了解这项研究 <span aria-hidden="true">→</span></a>
+            <a href="https://arxiv.org/abs/2601.22737" target="_blank" rel="noopener noreferrer">阅读论文 <span aria-hidden="true">↗</span></a>
+            <a href="https://github.com/zsxr15/Lingua-SafetyBench" target="_blank" rel="noopener noreferrer">代码 <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <a class="paper-image" href="/research/zh/lingua-safetybench/" aria-label="阅读《Lingua-SafetyBench：多语言视觉语言模型安全评估基准》">
+          <img src="/assets/images/research/covers/lingua-safetybench.webp" width="1280" height="853" alt="《Lingua-SafetyBench：多语言视觉语言模型安全评估基准》概念视觉" loading="lazy" decoding="async">
         </a>
       </article>
       <article class="research-row" data-category="fundamental" id="tracerouter" aria-labelledby="title-tracerouter">
