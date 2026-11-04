@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>DV-Lens：揭示语言模型参数的功能组织 | NExT-LFM</title>
-  <meta name="description" content="把原生参数映射到词表空间，再用局部输出变化和定向干预检验这些读出。">
+  <meta name="description" content="将注意力与 MLP 原生参数读出到词表空间，结合局部输出变化和定向干预，揭示参数的功能组织。">
   <meta name="theme-color" content="#222b2c">
   <link rel="canonical" href="https://muzishen.github.io/research/zh/dv-lens/">
   <link rel="alternate" hreflang="en" href="https://muzishen.github.io/research/dv-lens/">
@@ -13,7 +13,7 @@
   <link rel="alternate" hreflang="x-default" href="https://muzishen.github.io/research/dv-lens/">
   <meta property="og:type" content="article">
   <meta property="og:title" content="DV-Lens：揭示语言模型参数的功能组织">
-  <meta property="og:description" content="把原生参数映射到词表空间，再用局部输出变化和定向干预检验这些读出。">
+  <meta property="og:description" content="将注意力与 MLP 原生参数读出到词表空间，结合局部输出变化和定向干预，揭示参数的功能组织。">
   <meta property="og:url" content="https://muzishen.github.io/research/zh/dv-lens/">
   <meta property="og:locale" content="zh_CN">
   <meta property="og:image" content="https://muzishen.github.io/assets/images/research/covers/dv-lens.webp">
@@ -22,7 +22,7 @@
   <link rel="stylesheet" href="/assets/css/research.css?v=ce7ad28fcf09">
   <link rel="stylesheet" href="/assets/css/research-article.css?v=836ac57737ba">
   <script src="/assets/js/research-article.js?v=4a8da52c5f1b" defer></script>
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "DV-Lens：揭示语言模型参数的功能组织", "description": "把原生参数映射到词表空间，再用局部输出变化和定向干预检验这些读出。", "author": [{"@type": "Person", "name": "Cui Chenhang"}, {"@type": "Person", "name": "Yu Jian"}, {"@type": "Person", "name": "Miao Shuyi"}, {"@type": "Person", "name": "Liu Xiaohao"}, {"@type": "Person", "name": "Huang Rui"}, {"@type": "Person", "name": "Shen Fei"}, {"@type": "Person", "name": "Zhang An"}, {"@type": "Person", "name": "Chua Tat-Seng"}], "inLanguage": "zh-Hans", "mainEntityOfPage": "https://muzishen.github.io/research/zh/dv-lens/", "image": "https://muzishen.github.io/assets/images/research/covers/dv-lens.webp", "isBasedOn": "https://arxiv.org/abs/2610.04489", "timeRequired": "PT4M"}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "DV-Lens：揭示语言模型参数的功能组织", "description": "将注意力与 MLP 原生参数读出到词表空间，结合局部输出变化和定向干预，揭示参数的功能组织。", "author": [{"@type": "Person", "name": "Cui Chenhang"}, {"@type": "Person", "name": "Yu Jian"}, {"@type": "Person", "name": "Miao Shuyi"}, {"@type": "Person", "name": "Liu Xiaohao"}, {"@type": "Person", "name": "Huang Rui"}, {"@type": "Person", "name": "Shen Fei"}, {"@type": "Person", "name": "Zhang An"}, {"@type": "Person", "name": "Chua Tat-Seng"}], "inLanguage": "zh-Hans", "mainEntityOfPage": "https://muzishen.github.io/research/zh/dv-lens/", "image": "https://muzishen.github.io/assets/images/research/covers/dv-lens.webp", "isBasedOn": "https://arxiv.org/abs/2610.04489", "timeRequired": "PT4M"}</script>
 </head>
 <body class="essay-page">
   <a class="skip-link" href="#short-version">跳至文章介绍</a>
@@ -43,7 +43,7 @@
         <div class="essay-heading">
           <div class="essay-kicker">基础研究 / 机制理解 / 研究解读</div>
           <h1 class="essay-title">DV-Lens：揭示语言模型参数的功能组织</h1>
-          <p class="essay-deck">把原生参数映射到词表空间，再用局部输出变化和定向干预检验这些读出。</p>
+          <p class="essay-deck">将注意力与 MLP 原生参数读出到词表空间，结合局部输出变化和定向干预，揭示参数的功能组织。</p>
           <p class="essay-authors"><strong class="author-name">Cui Chenhang</strong></p>
           <div class="essay-meta">
             <time datetime="2026-10-03">2026年10月3日</time>

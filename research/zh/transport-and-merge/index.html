@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Transport and Merge：跨架构大语言模型合并 | NExT-LFM</title>
-  <meta name="description" content="利用激活对应关系，在架构不兼容的语言模型之间迁移知识。">
+  <meta name="description" content="利用注意力与 MLP 激活之间的最优传输对应，实现异构语言模型的跨架构知识迁移。">
   <meta name="theme-color" content="#222b2c">
   <link rel="canonical" href="https://muzishen.github.io/research/zh/transport-and-merge/">
   <link rel="alternate" hreflang="en" href="https://muzishen.github.io/research/transport-and-merge/">
@@ -13,7 +13,7 @@
   <link rel="alternate" hreflang="x-default" href="https://muzishen.github.io/research/transport-and-merge/">
   <meta property="og:type" content="article">
   <meta property="og:title" content="Transport and Merge：跨架构大语言模型合并">
-  <meta property="og:description" content="利用激活对应关系，在架构不兼容的语言模型之间迁移知识。">
+  <meta property="og:description" content="利用注意力与 MLP 激活之间的最优传输对应，实现异构语言模型的跨架构知识迁移。">
   <meta property="og:url" content="https://muzishen.github.io/research/zh/transport-and-merge/">
   <meta property="og:locale" content="zh_CN">
   <meta property="og:image" content="https://muzishen.github.io/assets/images/research/covers/transport-and-merge.webp">
@@ -22,7 +22,7 @@
   <link rel="stylesheet" href="/assets/css/research.css?v=ce7ad28fcf09">
   <link rel="stylesheet" href="/assets/css/research-article.css?v=836ac57737ba">
   <script src="/assets/js/research-article.js?v=4a8da52c5f1b" defer></script>
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Transport and Merge：跨架构大语言模型合并", "description": "利用激活对应关系，在架构不兼容的语言模型之间迁移知识。", "author": [{"@type": "Person", "name": "Cui Chenhang"}, {"@type": "Person", "name": "Yang Binyun"}, {"@type": "Person", "name": "Shen Fei"}, {"@type": "Person", "name": "Chen Yuxin"}, {"@type": "Person", "name": "Zheng Jingnan"}, {"@type": "Person", "name": "Wang Xiang"}, {"@type": "Person", "name": "Zhang An"}, {"@type": "Person", "name": "Chua Tat-Seng"}], "inLanguage": "zh-Hans", "mainEntityOfPage": "https://muzishen.github.io/research/zh/transport-and-merge/", "image": "https://muzishen.github.io/assets/images/research/covers/transport-and-merge.webp", "isBasedOn": "https://arxiv.org/abs/2602.05495", "timeRequired": "PT3M"}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Transport and Merge：跨架构大语言模型合并", "description": "利用注意力与 MLP 激活之间的最优传输对应，实现异构语言模型的跨架构知识迁移。", "author": [{"@type": "Person", "name": "Cui Chenhang"}, {"@type": "Person", "name": "Yang Binyun"}, {"@type": "Person", "name": "Shen Fei"}, {"@type": "Person", "name": "Chen Yuxin"}, {"@type": "Person", "name": "Zheng Jingnan"}, {"@type": "Person", "name": "Wang Xiang"}, {"@type": "Person", "name": "Zhang An"}, {"@type": "Person", "name": "Chua Tat-Seng"}], "inLanguage": "zh-Hans", "mainEntityOfPage": "https://muzishen.github.io/research/zh/transport-and-merge/", "image": "https://muzishen.github.io/assets/images/research/covers/transport-and-merge.webp", "isBasedOn": "https://arxiv.org/abs/2602.05495", "timeRequired": "PT3M"}</script>
 </head>
 <body class="essay-page">
   <a class="skip-link" href="#short-version">跳至文章介绍</a>
@@ -43,7 +43,7 @@
         <div class="essay-heading">
           <div class="essay-kicker">基础研究 / 能力激发与迁移 / 研究解读</div>
           <h1 class="essay-title">Transport and Merge：跨架构大语言模型合并</h1>
-          <p class="essay-deck">利用激活对应关系，在架构不兼容的语言模型之间迁移知识。</p>
+          <p class="essay-deck">利用注意力与 MLP 激活之间的最优传输对应，实现异构语言模型的跨架构知识迁移。</p>
           <p class="essay-authors"><strong class="author-name">Cui Chenhang</strong></p>
           <div class="essay-meta">
             <time datetime="2026-02-05">2026年2月5日</time>

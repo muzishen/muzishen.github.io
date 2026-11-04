@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Safety Kernel: Mechanistic Alignment for Cross-Lingual Defense in LLMs | NExT-LFM</title>
-  <meta name="description" content="A compact cross-language safety kernel supplies shared FFN coordinates for mechanistic diagnosis and masked LoRA adaptation.">
+  <meta name="description" content="Probe outputs of MLP (FFN) modules for cross-language safety neurons and restrict LoRA updates to the shared safety kernel.">
   <meta name="theme-color" content="#222b2c">
   <link rel="canonical" href="https://muzishen.github.io/research/safety-kernel/">
   <link rel="alternate" hreflang="en" href="https://muzishen.github.io/research/safety-kernel/">
@@ -13,7 +13,7 @@
   <link rel="alternate" hreflang="x-default" href="https://muzishen.github.io/research/safety-kernel/">
   <meta property="og:type" content="article">
   <meta property="og:title" content="Safety Kernel: Mechanistic Alignment for Cross-Lingual Defense in LLMs">
-  <meta property="og:description" content="A compact cross-language safety kernel supplies shared FFN coordinates for mechanistic diagnosis and masked LoRA adaptation.">
+  <meta property="og:description" content="Probe outputs of MLP (FFN) modules for cross-language safety neurons and restrict LoRA updates to the shared safety kernel.">
   <meta property="og:url" content="https://muzishen.github.io/research/safety-kernel/">
   <meta property="og:locale" content="en_US">
   <meta property="og:image" content="https://muzishen.github.io/assets/images/research/covers/safety-kernel.webp">
@@ -22,7 +22,7 @@
   <link rel="stylesheet" href="/assets/css/research.css?v=ce7ad28fcf09">
   <link rel="stylesheet" href="/assets/css/research-article.css?v=836ac57737ba">
   <script src="/assets/js/research-article.js?v=4a8da52c5f1b" defer></script>
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Safety Kernel: Mechanistic Alignment for Cross-Lingual Defense in LLMs", "description": "A compact cross-language safety kernel supplies shared FFN coordinates for mechanistic diagnosis and masked LoRA adaptation.", "author": [{"@type": "Person", "name": "Xie Chengyu"}, {"@type": "Person", "name": "Shen Fei"}, {"@type": "Person", "name": "Miao Shuyi"}, {"@type": "Person", "name": "Feng Yue"}, {"@type": "Person", "name": "Yu Jian"}, {"@type": "Person", "name": "Shao Pengyang"}, {"@type": "Person", "name": "Tian Yijun"}, {"@type": "Person", "name": "Du Xiaoyu"}], "inLanguage": "en", "mainEntityOfPage": "https://muzishen.github.io/research/safety-kernel/", "image": "https://muzishen.github.io/assets/images/research/covers/safety-kernel.webp", "isBasedOn": "https://arxiv.org/abs/2610.24614", "timeRequired": "PT3M"}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Safety Kernel: Mechanistic Alignment for Cross-Lingual Defense in LLMs", "description": "Probe outputs of MLP (FFN) modules for cross-language safety neurons and restrict LoRA updates to the shared safety kernel.", "author": [{"@type": "Person", "name": "Xie Chengyu"}, {"@type": "Person", "name": "Shen Fei"}, {"@type": "Person", "name": "Miao Shuyi"}, {"@type": "Person", "name": "Feng Yue"}, {"@type": "Person", "name": "Yu Jian"}, {"@type": "Person", "name": "Shao Pengyang"}, {"@type": "Person", "name": "Tian Yijun"}, {"@type": "Person", "name": "Du Xiaoyu"}], "inLanguage": "en", "mainEntityOfPage": "https://muzishen.github.io/research/safety-kernel/", "image": "https://muzishen.github.io/assets/images/research/covers/safety-kernel.webp", "isBasedOn": "https://arxiv.org/abs/2610.24614", "timeRequired": "PT3M"}</script>
 </head>
 <body class="essay-page">
   <a class="skip-link" href="#short-version">Skip to the introduction</a>
@@ -43,7 +43,7 @@
         <div class="essay-heading">
           <div class="essay-kicker">Fundamental Research / Reliability &amp; Safety / Research overview</div>
           <h1 class="essay-title">Safety Kernel: Mechanistic Alignment for Cross-Lingual Defense in LLMs</h1>
-          <p class="essay-deck">A compact cross-language safety kernel supplies shared FFN coordinates for mechanistic diagnosis and masked LoRA adaptation.</p>
+          <p class="essay-deck">Probe outputs of MLP (FFN) modules for cross-language safety neurons and restrict LoRA updates to the shared safety kernel.</p>
           <p class="essay-authors"><strong class="author-name">Xie Chengyu</strong></p>
           <div class="essay-meta">
             <time datetime="2026-10-17">October 17, 2026</time>
