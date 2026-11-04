@@ -59,8 +59,8 @@ def reading_time_html(paper, locale):
 
 def contact_author_html(paper, locale):
     ui = DATA['article_ui'][locale]
-    name = paper['author_names'][0]
     contact = paper.get('contact', {})
+    name = contact.get('name') or paper['author_names'][0]
     email = contact.get('email')
     detail = (
         f'<a class="author-email" href="{esc("mailto:" + email)}">{esc(email)} <span aria-hidden="true">↗</span></a>'
