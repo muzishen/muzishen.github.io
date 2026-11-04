@@ -21,6 +21,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="/assets/images/research/mark.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/assets/css/research.css?v=@@CSS_VERSION@@">
+  <link rel="stylesheet" href="/assets/css/research-contact.css?v=@@CONTACT_CSS_VERSION@@">
   <script src="/assets/js/research.js?v=@@JS_VERSION@@" defer></script>
 </head>
 <body>
@@ -39,8 +40,6 @@
         <nav id="site-navigation" class="site-nav" aria-label="@@NAV_LABEL@@">
           <a href="/">@@HOME@@</a>
           <a href="@@HOME_RESEARCH@@" aria-current="page">@@RESEARCH@@</a>
-          <a href="/research-vision/">@@VISION@@</a>
-          <a href="/products/">@@PRODUCTS@@</a>
         </nav>
         <div class="header-actions">
           <div class="language-switch" role="group" aria-label="@@LANGUAGE_LABEL@@">
@@ -91,8 +90,10 @@
         <p>@@CONTACT_DESCRIPTION@@</p>
         <div class="contact-actions">
           <a class="button-dark" href="mailto:shenfei29@nus.edu.sg">@@CONTACT_BUTTON@@ <span aria-hidden="true">↗</span></a>
-          <a class="email-link" href="mailto:shenfei29@nus.edu.sg">shenfei29@nus.edu.sg</a>
         </div>
+        <ul class="contact-team-list" aria-label="@@CONTACT_TEAM_LABEL@@">
+          @@TEAM_CONTACTS@@
+        </ul>
       </div>
     </div>
   </section>

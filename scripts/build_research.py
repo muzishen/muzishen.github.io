@@ -120,8 +120,17 @@ def render(locale):
         'ZH_CURRENT': ' aria-current="page"' if locale == 'zh' else '',
         'INITIAL_COUNT': esc(ui['count_template'].replace('{count}', str(sum(p['category'] == DATA['default_category'] for p in items)))),
         'CSS_VERSION': sha256((ROOT / 'assets/css/research.css').read_bytes()).hexdigest()[:12],
+        'CONTACT_CSS_VERSION': sha256((ROOT / 'assets/css/research-contact.css').read_bytes()).hexdigest()[:12],
         'JS_VERSION': sha256((ROOT / 'assets/js/research.js').read_bytes()).hexdigest()[:12],
     })
+    values['TEAM_CONTACTS'] = '\n          '.join(
+        '<li class="contact-team-member">'
+        '<h3 class="contact-team-name"><span lang="en">' + esc(member['name_en']) + '</span> '
+        '<span class="contact-team-chinese" lang="zh-Hans">(' + esc(member['name_zh']) + ')</span></h3>'
+        '<a class="contact-team-email" href="' + esc('mailto:' + member['email']) + '">'
+        + esc(member['email']) + ' <span aria-hidden="true">↗</span></a></li>'
+        for member in DATA['team_contacts']
+    )
     filters = [(key, value[locale]) for key, value in categories.items()]
     values['FILTERS'] = '\n        '.join(
         f'<button class="filter-button" type="button" data-filter="{esc(key)}" '

@@ -1,0 +1,9 @@
+/* Bilingual team directory on the research overview pages. */
+.contact-team-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:32px;list-style:none;padding:0;margin:28px 0 0;max-width:900px}
+.contact-team-member{min-width:0;padding:17px 0 19px;border-top:1px solid var(--rule)}
+.contact-team-name{font-size:16px;font-weight:600;line-height:1.6;margin:0 0 6px}
+.contact-team-chinese{white-space:nowrap;font-size:14px;font-weight:400;color:var(--muted)}
+.contact-team-email{font-size:14px;line-height:1.7;color:var(--muted);text-decoration:underline;text-underline-offset:4px;overflow-wrap:anywhere}
+.contact-team-email:hover{color:var(--ink)}
+@media(max-width:900px){.contact-team-list{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:620px){.contact-team-list{margin-top:24px}.contact-team-member{padding-block:15px 17px}.contact-team-name{font-size:15px}.contact-team-email{font-size:13px}}

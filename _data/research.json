@@ -37,7 +37,8 @@
       "contact_button": "Get in touch",
       "footer_nav": "Footer navigation",
       "footer_affiliation": "Fei Shen · NExT++ Center, National University of Singapore",
-      "introduction_link": "Read introduction"
+      "introduction_link": "Read introduction",
+      "contact_team_label": "Research contacts"
     },
     "zh": {
       "title": "研究成果 | NExT-LFM · 沈飞",
@@ -76,7 +77,8 @@
       "contact_button": "联系沈飞",
       "footer_nav": "页脚导航",
       "footer_affiliation": "沈飞 · 新加坡国立大学 NExT++ 中心",
-      "introduction_link": "了解这项研究"
+      "introduction_link": "了解这项研究",
+      "contact_team_label": "研究联系人"
     }
   },
   "categories": {
@@ -6738,5 +6740,32 @@
       "contact_pending": "首作邮箱待补充"
     }
   },
-  "default_category": "fundamental"
+  "default_category": "fundamental",
+  "team_contacts": [
+    {
+      "name_en": "Shen Fei",
+      "name_zh": "沈飞",
+      "email": "shenfei29@nus.edu.sg"
+    },
+    {
+      "name_en": "Shi Chuancheng",
+      "name_zh": "史川诚",
+      "email": "cshi0459@uni.sydney.edu.au"
+    },
+    {
+      "name_en": "Cui Chenhang",
+      "name_zh": "崔晨航",
+      "email": "chenhangcui@gmail.com"
+    },
+    {
+      "name_en": "Yu Jian",
+      "name_zh": "余健",
+      "email": "jianyu@njust.edu.cn"
+    },
+    {
+      "name_en": "Miao Shuyi",
+      "name_zh": "苗淑怡",
+      "email": "shuyimiao@buaa.edu.cn"
+    }
+  ]
 }
