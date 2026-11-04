@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Transport and Merge: Cross-Architecture Merging for Large Language Models | NExT-LFM</title>
-  <meta name="description" content="Use activation correspondences to transfer knowledge between language models whose architectures do not match.">
+  <meta name="description" content="Use optimal-transport correspondences between attention and MLP activations to transfer knowledge across heterogeneous language-model architectures.">
   <meta name="theme-color" content="#222b2c">
   <link rel="canonical" href="https://muzishen.github.io/research/transport-and-merge/">
   <link rel="alternate" hreflang="en" href="https://muzishen.github.io/research/transport-and-merge/">
@@ -13,7 +13,7 @@
   <link rel="alternate" hreflang="x-default" href="https://muzishen.github.io/research/transport-and-merge/">
   <meta property="og:type" content="article">
   <meta property="og:title" content="Transport and Merge: Cross-Architecture Merging for Large Language Models">
-  <meta property="og:description" content="Use activation correspondences to transfer knowledge between language models whose architectures do not match.">
+  <meta property="og:description" content="Use optimal-transport correspondences between attention and MLP activations to transfer knowledge across heterogeneous language-model architectures.">
   <meta property="og:url" content="https://muzishen.github.io/research/transport-and-merge/">
   <meta property="og:locale" content="en_US">
   <meta property="og:image" content="https://muzishen.github.io/assets/images/research/covers/transport-and-merge.webp">
@@ -22,7 +22,7 @@
   <link rel="stylesheet" href="/assets/css/research.css?v=ce7ad28fcf09">
   <link rel="stylesheet" href="/assets/css/research-article.css?v=836ac57737ba">
   <script src="/assets/js/research-article.js?v=4a8da52c5f1b" defer></script>
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Transport and Merge: Cross-Architecture Merging for Large Language Models", "description": "Use activation correspondences to transfer knowledge between language models whose architectures do not match.", "author": [{"@type": "Person", "name": "Cui Chenhang"}, {"@type": "Person", "name": "Yang Binyun"}, {"@type": "Person", "name": "Shen Fei"}, {"@type": "Person", "name": "Chen Yuxin"}, {"@type": "Person", "name": "Zheng Jingnan"}, {"@type": "Person", "name": "Wang Xiang"}, {"@type": "Person", "name": "Zhang An"}, {"@type": "Person", "name": "Chua Tat-Seng"}], "inLanguage": "en", "mainEntityOfPage": "https://muzishen.github.io/research/transport-and-merge/", "image": "https://muzishen.github.io/assets/images/research/covers/transport-and-merge.webp", "isBasedOn": "https://arxiv.org/abs/2602.05495", "timeRequired": "PT3M"}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Transport and Merge: Cross-Architecture Merging for Large Language Models", "description": "Use optimal-transport correspondences between attention and MLP activations to transfer knowledge across heterogeneous language-model architectures.", "author": [{"@type": "Person", "name": "Cui Chenhang"}, {"@type": "Person", "name": "Yang Binyun"}, {"@type": "Person", "name": "Shen Fei"}, {"@type": "Person", "name": "Chen Yuxin"}, {"@type": "Person", "name": "Zheng Jingnan"}, {"@type": "Person", "name": "Wang Xiang"}, {"@type": "Person", "name": "Zhang An"}, {"@type": "Person", "name": "Chua Tat-Seng"}], "inLanguage": "en", "mainEntityOfPage": "https://muzishen.github.io/research/transport-and-merge/", "image": "https://muzishen.github.io/assets/images/research/covers/transport-and-merge.webp", "isBasedOn": "https://arxiv.org/abs/2602.05495", "timeRequired": "PT3M"}</script>
 </head>
 <body class="essay-page">
   <a class="skip-link" href="#short-version">Skip to the introduction</a>
@@ -43,7 +43,7 @@
         <div class="essay-heading">
           <div class="essay-kicker">Fundamental Research / Capability Engineering / Research overview</div>
           <h1 class="essay-title">Transport and Merge: Cross-Architecture Merging for Large Language Models</h1>
-          <p class="essay-deck">Use activation correspondences to transfer knowledge between language models whose architectures do not match.</p>
+          <p class="essay-deck">Use optimal-transport correspondences between attention and MLP activations to transfer knowledge across heterogeneous language-model architectures.</p>
           <p class="essay-authors"><strong class="author-name">Cui Chenhang</strong></p>
           <div class="essay-meta">
             <time datetime="2026-02-05">February 5, 2026</time>

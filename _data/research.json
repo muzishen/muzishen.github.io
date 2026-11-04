@@ -316,8 +316,8 @@
         "zh": "Safety Kernel：面向跨语言防御的机制驱动安全对齐"
       },
       "summary": {
-        "en": "A compact cross-language safety kernel supplies shared FFN coordinates for mechanistic diagnosis and masked LoRA adaptation.",
-        "zh": "以紧凑的跨语言安全核心，连接机制诊断与限定 FFN 坐标的 LoRA 适配。"
+        "en": "Probe outputs of MLP (FFN) modules for cross-language safety neurons and restrict LoRA updates to the shared safety kernel.",
+        "zh": "在 MLP（FFN）模块输出中探测跨语言共享安全神经元，将 LoRA 更新限定在对应的安全核心坐标。"
       },
       "publication": {
         "en": "Preprint",
@@ -482,7 +482,7 @@
               "label": "Coordinate-restricted adaptation"
             }
           ],
-          "deck": "A compact cross-language safety kernel supplies shared FFN coordinates for mechanistic diagnosis and masked LoRA adaptation."
+          "deck": "Probe outputs of MLP (FFN) modules for cross-language safety neurons and restrict LoRA updates to the shared safety kernel."
         },
         "zh": {
           "thesis": "跨语言对齐可以围绕一个共享内部目标组织，并在微调前先检验其行为作用。",
@@ -515,7 +515,7 @@
               "label": "限定坐标的参数适配"
             }
           ],
-          "deck": "以紧凑的跨语言安全核心，连接机制诊断与限定 FFN 坐标的 LoRA 适配。"
+          "deck": "在 MLP（FFN）模块输出中探测跨语言共享安全神经元，将 LoRA 更新限定在对应的安全核心坐标。"
         }
       },
       "contact": {
@@ -753,8 +753,8 @@
         "zh": "SuperAI：跨异构基础模型的能力合并"
       },
       "summary": {
-        "en": "Bring complementary capabilities into one host model by aligning functional subspaces across heterogeneous foundation models.",
-        "zh": "通过对齐异构基础模型的功能子空间，把多个来源的互补能力引入同一个宿主模型。"
+        "en": "Align functional subspaces across heterogeneous foundation models through orthogonal rotation, bringing complementary capabilities from multiple sources into one host model.",
+        "zh": "通过正交旋转对齐异构基础模型的功能子空间，将多来源互补能力融合进同一宿主模型。"
       },
       "publication": {
         "en": "Preprint",
@@ -784,7 +784,7 @@
       "pdf": "https://arxiv.org/pdf/2610.15322",
       "article": {
         "en": {
-          "deck": "Bring complementary capabilities into one host model by aligning functional subspaces across heterogeneous foundation models.",
+          "deck": "Align functional subspaces across heterogeneous foundation models through orthogonal rotation, bringing complementary capabilities from multiple sources into one host model.",
           "short": [
             "SuperAI studies how a host model can incorporate capabilities from heterogeneous source models. It identifies corresponding functional subspaces, aligns their coordinates, and learns residual mappings into the host. The useful interface is a relationship between representations, allowing sources with different architectures to contribute without requiring direct parameter correspondence.",
             "The framework combines orthogonal subspace alignment, layer selection, and joint training of lightweight mappings. Experiments with multiple hosts and domains examine both specialist gains and retention of the host’s general capabilities as the number of sources grows."
@@ -817,7 +817,7 @@
           "thesis": "Capabilities become composable when their representations can be aligned across model boundaries."
         },
         "zh": {
-          "deck": "通过对齐异构基础模型的功能子空间，把多个来源的互补能力引入同一个宿主模型。",
+          "deck": "通过正交旋转对齐异构基础模型的功能子空间，将多来源互补能力融合进同一宿主模型。",
           "short": [
             "SuperAI 研究宿主模型如何吸收异构来源模型的能力。它寻找具有对应功能的子空间，对齐其中的坐标，再学习映射到宿主内部的残差增量。迁移接口由表征之间的关系构成，使架构不同、参数难以直接对应的模型也能够贡献专长。",
             "框架将正交子空间对齐、层选择和轻量映射的联合训练结合起来。跨宿主、跨领域的实验，同时考察专业能力收益与宿主通用能力的保留，并分析来源模型增加时的表现。"
@@ -1408,8 +1408,8 @@
         "zh": "ContractLens：利用潜在安全知识检测恶意智能合约"
       },
       "summary": {
-        "en": "Localize latent security signals and use a compact set of internal units to detect malicious smart contracts.",
-        "zh": "定位模型中的潜在安全信号，利用紧凑的内部神经单元表示检测恶意智能合约。"
+        "en": "Probe MLP neurons in a frozen language model to isolate malicious-logic signals and detect malicious smart contracts with a compact representation.",
+        "zh": "在冻结语言模型的 MLP 中定位恶意逻辑敏感神经元，以紧凑的内部表示检测恶意智能合约。"
       },
       "publication": {
         "en": "Preprint",
@@ -1439,7 +1439,7 @@
       "pdf": "https://arxiv.org/pdf/2610.04992",
       "article": {
         "en": {
-          "deck": "Localize latent security signals and use a compact set of internal units to detect malicious smart contracts.",
+          "deck": "Probe MLP neurons in a frozen language model to isolate malicious-logic signals and detect malicious smart contracts with a compact representation.",
           "short": [
             "ContractLens uses this pair of requirements to locate malicious-contract detection units inside a frozen language model. It compares the effects of removing malicious logic with behavior-preserving edits such as formatting and comment changes. Critical layers and neurons are selected for their ability to separate malicious behavior, respond to its removal, and resist irrelevant variation.",
             "The selected units feed a lightweight detector. The framework makes feature selection a question about security semantics, connecting internal measurements to an application where shortcuts based on appearance can be particularly costly."
@@ -1472,7 +1472,7 @@
           "thesis": "A security representation should react to a change in malicious logic and remain stable to a change in surface form."
         },
         "zh": {
-          "deck": "定位模型中的潜在安全信号，利用紧凑的内部神经单元表示检测恶意智能合约。",
+          "deck": "在冻结语言模型的 MLP 中定位恶意逻辑敏感神经元，以紧凑的内部表示检测恶意智能合约。",
           "short": [
             "ContractLens 依据这两个要求，在冻结语言模型中定位恶意合约检测单元。它比较移除恶意逻辑与保留行为的格式、注释等修改所产生的影响，选择既能区分恶意行为、感知其移除，又能抵抗无关变化的关键层与神经元。",
             "选出的单元被用于轻量检测器。特征选择由此围绕安全语义展开，使内部测量能够服务于一个对表面捷径尤其敏感的真实任务。"
@@ -1625,8 +1625,8 @@
         "zh": "DV-Lens：揭示语言模型参数的功能组织"
       },
       "summary": {
-        "en": "A vocabulary-space view of native parameters, tested through local output changes and targeted interventions.",
-        "zh": "把原生参数映射到词表空间，再用局部输出变化和定向干预检验这些读出。"
+        "en": "Read attention and MLP parameter directions in vocabulary space, then test their functional roles through local output changes and targeted interventions.",
+        "zh": "将注意力与 MLP 原生参数读出到词表空间，结合局部输出变化和定向干预，揭示参数的功能组织。"
       },
       "publication": {
         "en": "Preprint",
@@ -1658,7 +1658,7 @@
       "pdf": "https://arxiv.org/pdf/2610.04489",
       "article": {
         "en": {
-          "deck": "A vocabulary-space view of native parameters, tested through local output changes and targeted interventions.",
+          "deck": "Read attention and MLP parameter directions in vocabulary space, then test their functional roles through local output changes and targeted interventions.",
           "short": [
             "DV-Lens treats the vocabulary as a shared coordinate system for interpreting native parameters. By following the downstream computation, it translates parameter directions into signed local output responses: which tokens a direction tends to promote, and which it tends to suppress. This connects the internal organization of attention and feed-forward modules to a common, testable interface.",
             "The study then asks whether that functional organization contains information about model capability. DV-Complexity summarizes variation within functionally grouped parameters. Finite-difference checks, targeted interventions, and a comparison across 48 models connect the proposed readouts to observable behavior at different scales."
@@ -1691,7 +1691,7 @@
           "thesis": "An explanation of a parameter becomes useful when it predicts a change in the model’s output."
         },
         "zh": {
-          "deck": "把原生参数映射到词表空间，再用局部输出变化和定向干预检验这些读出。",
+          "deck": "将注意力与 MLP 原生参数读出到词表空间，结合局部输出变化和定向干预，揭示参数的功能组织。",
           "short": [
             "DV-Lens 把词表作为理解原生参数的共同坐标系。它沿着模型的下游计算，将参数方向转化为带符号的局部输出响应：一个方向倾向于增强哪些词、抑制哪些词。由此，注意力与前馈模块中原本难以直接比较的参数，获得了可在输出端检验的功能描述。",
             "工作进一步追问：参数的功能组织方式，是否包含关于模型能力的信息？DV-Complexity 刻画功能分组内部的结构变化，并通过有限差分、定向干预和 48 个模型的比较，将参数读出与不同尺度上的可观察行为联系起来。"
@@ -2730,8 +2730,8 @@
         "zh": "谁在桥接安全？定位并增强跨语言共享安全路径"
       },
       "summary": {
-        "en": "Tracing cross-layer safety pathways reveals a shared target for transferring refusal behavior across languages.",
-        "zh": "追踪跨层安全信号的传播路径，定位跨语言安全迁移的共享干预目标。"
+        "en": "Trace cross-layer safety pathways through MLP neurons to identify shared cross-lingual mechanisms for targeted safety alignment.",
+        "zh": "追踪 MLP 神经元构成的跨层安全路径，定位跨语言共享机制并开展定向安全对齐。"
       },
       "publication": {
         "en": "Preprint",
@@ -2894,7 +2894,7 @@
               "label": "Language-transfer evaluation"
             }
           ],
-          "deck": "Tracing cross-layer safety pathways reveals a shared target for transferring refusal behavior across languages."
+          "deck": "Trace cross-layer safety pathways through MLP neurons to identify shared cross-lingual mechanisms for targeted safety alignment."
         },
         "zh": {
           "thesis": "共享安全成分的作用，体现在它如何跨越层与语言参与完整的决策计算。",
@@ -2927,7 +2927,7 @@
               "label": "检验跨语言迁移"
             }
           ],
-          "deck": "追踪跨层安全信号的传播路径，定位跨语言安全迁移的共享干预目标。"
+          "deck": "追踪 MLP 神经元构成的跨层安全路径，定位跨语言共享机制并开展定向安全对齐。"
         }
       },
       "code": "https://github.com/msy0513/shared-safety-pathways",
@@ -3623,8 +3623,8 @@
         "zh": "安全不应依赖单一神经元：面向白盒攻击的分布式安全对齐"
       },
       "summary": {
-        "en": "Distributed safety alignment trains compensatory capacity instead of concentrating refusal behavior in a fragile internal bottleneck.",
-        "zh": "通过分布式安全对齐训练补偿能力，减少拒答行为对脆弱内部瓶颈的依赖。"
+        "en": "Locate critical refusal neurons in MLPs and train compensatory safety with targeted masking and dropout against white-box attacks.",
+        "zh": "在 MLP 中定位关键拒答神经元，通过屏蔽与随机失活训练补偿能力，提升白盒攻击下的安全稳健性。"
       },
       "publication": {
         "en": "Preprint",
@@ -3789,7 +3789,7 @@
               "label": "Target of safety realignment"
             }
           ],
-          "deck": "Distributed safety alignment trains compensatory capacity instead of concentrating refusal behavior in a fragile internal bottleneck."
+          "deck": "Locate critical refusal neurons in MLPs and train compensatory safety with targeted masking and dropout against white-box attacks."
         },
         "zh": {
           "thesis": "当关键安全计算拥有经过训练的替代路径，模型才更有机会抵抗内部机制失效。",
@@ -3822,7 +3822,7 @@
               "label": "安全重新对齐的目标"
             }
           ],
-          "deck": "通过分布式安全对齐训练补偿能力，减少拒答行为对脆弱内部瓶颈的依赖。"
+          "deck": "在 MLP 中定位关键拒答神经元，通过屏蔽与随机失活训练补偿能力，提升白盒攻击下的安全稳健性。"
         }
       },
       "contact": {
@@ -3842,8 +3842,8 @@
         "zh": "移动安全屏障：面向白盒攻击的动态路由自适应对齐"
       },
       "summary": {
-        "en": "Failure-aware preference learning trains compensatory safety routes when a dominant refusal route is disrupted.",
-        "zh": "根据内部失效构造偏好监督，在主导拒答路径受损时训练补偿安全路径。"
+        "en": "Localize cross-layer safety routes in MLPs and use failures induced by route masking to train compensatory defenses against white-box attacks.",
+        "zh": "在 MLP 中定位跨层安全路由，利用路由屏蔽诱发的失效构造偏好监督，训练抵御白盒攻击的补偿路径。"
       },
       "publication": {
         "en": "Preprint",
@@ -4010,7 +4010,7 @@
               "label": "Mechanism-oriented diagnostic"
             }
           ],
-          "deck": "Failure-aware preference learning trains compensatory safety routes when a dominant refusal route is disrupted."
+          "deck": "Localize cross-layer safety routes in MLPs and use failures induced by route masking to train compensatory defenses against white-box attacks."
         },
         "zh": {
           "thesis": "安全边界能否保持，取决于模型在常用拒答路径不可用时如何继续决策。",
@@ -4043,7 +4043,7 @@
               "label": "面向机制的验证实验"
             }
           ],
-          "deck": "根据内部失效构造偏好监督，在主导拒答路径受损时训练补偿安全路径。"
+          "deck": "在 MLP 中定位跨层安全路由，利用路由屏蔽诱发的失效构造偏好监督，训练抵御白盒攻击的补偿路径。"
         }
       },
       "contact": {
@@ -4063,8 +4063,8 @@
         "zh": "SafeNexus：发现并引导多模态模型的跨模态共享安全神经元"
       },
       "summary": {
-        "en": "Locating modality-universal safety neurons connects cross-modal diagnosis to activation steering and targeted calibration.",
-        "zh": "定位跨模态共享安全神经元，将机制诊断连接到激活引导与定向校准。"
+        "en": "Probe MLPs for safety neurons shared by text, image, and audio, then steer activations or apply targeted calibration to improve cross-modal safety.",
+        "zh": "在 MLP 中探测文本、图像与音频共享的安全神经元，通过激活引导与定向校准增强跨模态安全。"
       },
       "publication": {
         "en": "Preprint",
@@ -4229,7 +4229,7 @@
               "label": "Selective learned adaptation"
             }
           ],
-          "deck": "Locating modality-universal safety neurons connects cross-modal diagnosis to activation steering and targeted calibration."
+          "deck": "Probe MLPs for safety neurons shared by text, image, and audio, then steer activations or apply targeted calibration to improve cross-modal safety."
         },
         "zh": {
           "thesis": "跨模态防御需要一种在风险输入模态变化后，仍然发挥作用的内部机制。",
@@ -4262,7 +4262,7 @@
               "label": "选择性学习适配"
             }
           ],
-          "deck": "定位跨模态共享安全神经元，将机制诊断连接到激活引导与定向校准。"
+          "deck": "在 MLP 中探测文本、图像与音频共享的安全神经元，通过激活引导与定向校准增强跨模态安全。"
         }
       },
       "contact": {
@@ -4282,8 +4282,8 @@
         "zh": "一个锚点，贯通语言与模态：LVLM 统一安全对齐"
       },
       "summary": {
-        "en": "A compact intersection of language- and modality-shared neurons transfers English safety supervision to compound input settings.",
-        "zh": "利用语言与模态共享神经元的紧凑交集，将英语安全监督迁移到复合输入场景。"
+        "en": "Probe MLPs for safety neurons shared across languages and modalities, then use English supervision for unified safety alignment.",
+        "zh": "在 MLP 中探测跨语言、跨模态共享安全神经元，以英语监督实现统一安全对齐。"
       },
       "publication": {
         "en": "Preprint",
@@ -4446,7 +4446,7 @@
               "label": "English safety supervision"
             }
           ],
-          "deck": "A compact intersection of language- and modality-shared neurons transfers English safety supervision to compound input settings."
+          "deck": "Probe MLPs for safety neurons shared across languages and modalities, then use English supervision for unified safety alignment."
         },
         "zh": {
           "thesis": "跨语言与跨模态安全，可以从两个维度共同使用的内部机制出发研究。",
@@ -4479,7 +4479,7 @@
               "label": "英语安全监督"
             }
           ],
-          "deck": "利用语言与模态共享神经元的紧凑交集，将英语安全监督迁移到复合输入场景。"
+          "deck": "在 MLP 中探测跨语言、跨模态共享安全神经元，以英语监督实现统一安全对齐。"
         }
       },
       "contact": {
@@ -4929,8 +4929,8 @@
         "zh": "超越表面伪迹：跨模态共享潜在伪造知识"
       },
       "summary": {
-        "en": "Modality-agnostic forensics tests whether a detector can reuse learned forensic structure on an unseen medium.",
-        "zh": "通过模态无关取证，检验检测器能否在未知媒介上复用已学判别结构。"
+        "en": "MAF learns a shared MLP detector across modalities and probes neuron co-activation to examine shared latent forensic knowledge.",
+        "zh": "MAF 通过共享 MLP 检测器开展跨模态鉴伪，并探测神经元共激活以检验共享的潜在鉴伪知识。"
       },
       "publication": {
         "en": "ACM MM 2026",
@@ -5091,7 +5091,7 @@
               "label": "Modality-agnostic detection"
             }
           ],
-          "deck": "Modality-agnostic forensics tests whether a detector can reuse learned forensic structure on an unseen medium."
+          "deck": "MAF learns a shared MLP detector across modalities and probes neuron co-activation to examine shared latent forensic knowledge."
         },
         "zh": {
           "thesis": "取证迁移需要考察：当物理媒介及其熟悉伪迹变化后，哪些判别信息仍然有效？",
@@ -5124,7 +5124,7 @@
               "label": "面向未知模态的检测"
             }
           ],
-          "deck": "通过模态无关取证，检验检测器能否在未知媒介上复用已学判别结构。"
+          "deck": "MAF 通过共享 MLP 检测器开展跨模态鉴伪，并探测神经元共激活以检验共享的潜在鉴伪知识。"
         }
       },
       "contact": {
@@ -5360,8 +5360,8 @@
         "zh": "Transport and Merge：跨架构大语言模型合并"
       },
       "summary": {
-        "en": "Use activation correspondences to transfer knowledge between language models whose architectures do not match.",
-        "zh": "利用激活对应关系，在架构不兼容的语言模型之间迁移知识。"
+        "en": "Use optimal-transport correspondences between attention and MLP activations to transfer knowledge across heterogeneous language-model architectures.",
+        "zh": "利用注意力与 MLP 激活之间的最优传输对应，实现异构语言模型的跨架构知识迁移。"
       },
       "publication": {
         "en": "ICML 2026",
@@ -5394,7 +5394,7 @@
       "pdf": "https://arxiv.org/pdf/2602.05495",
       "article": {
         "en": {
-          "deck": "Use activation correspondences to transfer knowledge between language models whose architectures do not match.",
+          "deck": "Use optimal-transport correspondences between attention and MLP activations to transfer knowledge across heterogeneous language-model architectures.",
           "short": [
             "Transport and Merge uses optimal transport over activation relationships to establish correspondences between heterogeneous language models. These correspondences guide layer and feature alignment, making cross-architecture weight fusion possible. A small shared input set supplies the evidence needed to connect the two models.",
             "The work evaluates knowledge transfer in low-resource language and domain settings, and explores residual-frozen adaptation after fusion. It separates the problem of finding a functional correspondence from the subsequent problem of integrating the transferred representation."
@@ -5427,7 +5427,7 @@
           "thesis": "Transferring knowledge across architectures begins with finding which internal computations correspond."
         },
         "zh": {
-          "deck": "利用激活对应关系，在架构不兼容的语言模型之间迁移知识。",
+          "deck": "利用注意力与 MLP 激活之间的最优传输对应，实现异构语言模型的跨架构知识迁移。",
           "short": [
             "Transport and Merge 根据激活关系构造最优传输，在异构语言模型之间建立对应，再据此进行层与特征对齐，支持跨架构权重融合。少量共享输入提供连接两个模型所需的经验依据。",
             "工作在低资源语言和领域任务中评估知识迁移，并探索融合后的残差冻结适配，将寻找功能对应与整合迁移表征这两个问题分别处理。"

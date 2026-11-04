@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Safety Kernel：面向跨语言防御的机制驱动安全对齐 | NExT-LFM</title>
-  <meta name="description" content="以紧凑的跨语言安全核心，连接机制诊断与限定 FFN 坐标的 LoRA 适配。">
+  <meta name="description" content="在 MLP（FFN）模块输出中探测跨语言共享安全神经元，将 LoRA 更新限定在对应的安全核心坐标。">
   <meta name="theme-color" content="#222b2c">
   <link rel="canonical" href="https://muzishen.github.io/research/zh/safety-kernel/">
   <link rel="alternate" hreflang="en" href="https://muzishen.github.io/research/safety-kernel/">
@@ -13,7 +13,7 @@
   <link rel="alternate" hreflang="x-default" href="https://muzishen.github.io/research/safety-kernel/">
   <meta property="og:type" content="article">
   <meta property="og:title" content="Safety Kernel：面向跨语言防御的机制驱动安全对齐">
-  <meta property="og:description" content="以紧凑的跨语言安全核心，连接机制诊断与限定 FFN 坐标的 LoRA 适配。">
+  <meta property="og:description" content="在 MLP（FFN）模块输出中探测跨语言共享安全神经元，将 LoRA 更新限定在对应的安全核心坐标。">
   <meta property="og:url" content="https://muzishen.github.io/research/zh/safety-kernel/">
   <meta property="og:locale" content="zh_CN">
   <meta property="og:image" content="https://muzishen.github.io/assets/images/research/covers/safety-kernel.webp">
@@ -22,7 +22,7 @@
   <link rel="stylesheet" href="/assets/css/research.css?v=ce7ad28fcf09">
   <link rel="stylesheet" href="/assets/css/research-article.css?v=836ac57737ba">
   <script src="/assets/js/research-article.js?v=4a8da52c5f1b" defer></script>
-  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Safety Kernel：面向跨语言防御的机制驱动安全对齐", "description": "以紧凑的跨语言安全核心，连接机制诊断与限定 FFN 坐标的 LoRA 适配。", "author": [{"@type": "Person", "name": "Xie Chengyu"}, {"@type": "Person", "name": "Shen Fei"}, {"@type": "Person", "name": "Miao Shuyi"}, {"@type": "Person", "name": "Feng Yue"}, {"@type": "Person", "name": "Yu Jian"}, {"@type": "Person", "name": "Shao Pengyang"}, {"@type": "Person", "name": "Tian Yijun"}, {"@type": "Person", "name": "Du Xiaoyu"}], "inLanguage": "zh-Hans", "mainEntityOfPage": "https://muzishen.github.io/research/zh/safety-kernel/", "image": "https://muzishen.github.io/assets/images/research/covers/safety-kernel.webp", "isBasedOn": "https://arxiv.org/abs/2610.24614", "timeRequired": "PT3M"}</script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Safety Kernel：面向跨语言防御的机制驱动安全对齐", "description": "在 MLP（FFN）模块输出中探测跨语言共享安全神经元，将 LoRA 更新限定在对应的安全核心坐标。", "author": [{"@type": "Person", "name": "Xie Chengyu"}, {"@type": "Person", "name": "Shen Fei"}, {"@type": "Person", "name": "Miao Shuyi"}, {"@type": "Person", "name": "Feng Yue"}, {"@type": "Person", "name": "Yu Jian"}, {"@type": "Person", "name": "Shao Pengyang"}, {"@type": "Person", "name": "Tian Yijun"}, {"@type": "Person", "name": "Du Xiaoyu"}], "inLanguage": "zh-Hans", "mainEntityOfPage": "https://muzishen.github.io/research/zh/safety-kernel/", "image": "https://muzishen.github.io/assets/images/research/covers/safety-kernel.webp", "isBasedOn": "https://arxiv.org/abs/2610.24614", "timeRequired": "PT3M"}</script>
 </head>
 <body class="essay-page">
   <a class="skip-link" href="#short-version">跳至文章介绍</a>
@@ -43,7 +43,7 @@
         <div class="essay-heading">
           <div class="essay-kicker">基础研究 / 可靠评估与安全 / 研究解读</div>
           <h1 class="essay-title">Safety Kernel：面向跨语言防御的机制驱动安全对齐</h1>
-          <p class="essay-deck">以紧凑的跨语言安全核心，连接机制诊断与限定 FFN 坐标的 LoRA 适配。</p>
+          <p class="essay-deck">在 MLP（FFN）模块输出中探测跨语言共享安全神经元，将 LoRA 更新限定在对应的安全核心坐标。</p>
           <p class="essay-authors"><strong class="author-name">Xie Chengyu</strong></p>
           <div class="essay-meta">
             <time datetime="2026-10-17">2026年10月17日</time>
