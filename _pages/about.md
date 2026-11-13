@@ -63,7 +63,8 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   </p>
 
   <p style="margin: 0; font-size: 0.95rem;">
-    <a href="{{ '/research-vision/' | relative_url }}"><strong>Explore our Research Vision &rarr;</strong><span style="margin-left:6px; font-size:.82rem; font-weight:500; color:#64748b;">探索我们的研究愿景</span></a>
+    <a href="{{ '/research/' | relative_url }}"><strong>Explore our Research &rarr;</strong></a>
+    <a href="{{ '/research/zh/' | relative_url }}" lang="zh-Hans" style="margin-left:6px; font-size:.82rem; font-weight:500; color:#64748b;">探索我们的研究成果 &rarr;</a>
     &nbsp;&nbsp;&nbsp;<span style="color:#cbd5e1;">|</span>&nbsp;&nbsp;&nbsp;
     <a href="{{ '/products/' | relative_url }}"><strong>Explore our Research Products &rarr;</strong><span style="margin-left:6px; font-size:.82rem; font-weight:500; color:#64748b;">探索我们的研究产品</span></a>
   </p>
@@ -915,3 +916,4 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   </div>
 </div>
 <!-- END | PBSL -->
+
