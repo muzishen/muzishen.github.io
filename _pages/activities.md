@@ -19,7 +19,7 @@ author_profile: true
 
 - Outstanding Paper Award, ACM Multimedia (ACM MM), 2026
 - Outstanding Paper Award, ACL, 2026
-- IEEE Senior Member, June 2026
+- IEEE Senior Member, 2026
 - Youth Talents Support Project, Doctoral Student Special Program, 2024
 - Outstanding Scholarship of the 2024 Tencent Rhino-bird Research Elite Program, Tencent, 2024
 - President's Medal, Nanjing University of Science and Technology, 2023
