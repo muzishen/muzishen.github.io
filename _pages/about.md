@@ -112,7 +112,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
 # 📝 Selected Publications
 
 <div class="pub-row">
-  <div class="pub-left"><div class="thumb"><img src="{{ '/assets/images/research/covers/circe.webp' | relative_url }}" alt="Circe: Training-Free LLM Self-Evaluation via Component Interaction Consistency"></div></div>
+  <div class="pub-left"><div class="thumb"><img src="{{ '/assets/images/research/evidence/circe-1.webp' | relative_url }}" alt="Circe: Training-Free LLM Self-Evaluation via Component Interaction Consistency"></div></div>
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>Circe: Training-Free LLM Self-Evaluation via Component Interaction Consistency</strong><br>
     S. Miao, Z. Li, X. Xie, L. Xu, <strong>F. Shen</strong><sup>✉</sup>, X. Du, T.-S. Chua<br>
@@ -123,13 +123,13 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
 </div>
 
 <div class="pub-row">
-  <div class="pub-left"><div class="thumb"><img src="{{ '/assets/images/research/covers/tracerouter-plus-plus.webp' | relative_url }}" alt="TraceRouter++: Causal Semantic Routing Realignment via Optimal Transport"></div></div>
+  <div class="pub-left"><div class="thumb"><img src="{{ '/assets/images/research/evidence/tracerouter-plus-plus-1.webp' | relative_url }}" alt="TraceRouter++: Causal Semantic Routing Realignment via Optimal Transport"></div></div>
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>TraceRouter++: Causal Semantic Routing Realignment via Optimal Transport</strong><br>
     C. Shi<sup>†</sup>, S. Li<sup>†</sup>, W. Wu, H. Chen, <strong>F. Shen</strong><sup>✉</sup>, L. Zhuo, Z. Wang, T.-S. Chua<br>
-    IEEE Transactions on Pattern Analysis and Machine Intelligence (<strong>IEEE TPAMI</strong>), 2026. <span class="pub-ccf pub-ccf-a" title="CCF rank A (2026 directory)" style="display:inline-block;padding:0 7px;border:1px solid #cbd8c7;border-radius:5px;background:#edf3e9;color:#35553e;font-size:14px;font-weight:600;line-height:1.5;white-space:nowrap;">CCF-A</span><br>
+    IEEE Transactions on Pattern Analysis and Machine Intelligence (<strong>IEEE TPAMI</strong>), 2026.<br>
     <a href="https://arxiv.org/pdf/2611.04878" target="_blank" rel="noopener noreferrer">[PDF]</a>
-    &nbsp;&nbsp;<a href="/research/tracerouter-plus-plus/">[Introduction]</a>
+    &nbsp;&nbsp;<a href="https://github.com/XWH-A/IMAGEdit" target="_blank" rel="noopener noreferrer">[Code]</a>
   </div>
 </div>
 
