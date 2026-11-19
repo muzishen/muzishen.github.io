@@ -118,7 +118,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     S. Miao, Z. Li, X. Xie, L. Xu, <strong>F. Shen</strong><sup>✉</sup>, X. Du, T.-S. Chua<br>
     arXiv preprint arXiv:2611.07948, 2026.<br>
     <a href="https://arxiv.org/pdf/2611.07948" target="_blank" rel="noopener noreferrer">[PDF]</a>
-    &nbsp;&nbsp;<a href="/research/circe/">[Introduction]</a>
+    &nbsp;&nbsp;<a href="https://github.com/XWH-A/IMAGEdit" target="_blank" rel="noopener noreferrer">[Code]</a>
   </div>
 </div>
 
