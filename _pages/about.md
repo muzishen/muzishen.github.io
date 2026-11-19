@@ -73,38 +73,38 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
 
 # 🔥 News {#news}
 - **2026.11**: &nbsp;🎉 <strong>One</strong> paper received the <strong style="color: #a16207;">Outstanding Paper Award</strong> at <strong style="color: #a16207;">ACM MM 2026</strong>.
-- *2026.10*: &nbsp;🎉 <strong>One</strong> paper was accepted by <strong style="color: #2563eb;">TPAMI</strong> (JCR Q1, <span style="display: inline-block; padding: 0 .32em; border-radius: .25em; background: #f1f5f9; color: #475569; font-weight: 600; font-size: .92em; line-height: 1.35;">CCF-A</span>, IF=20.398).
-- *2026.09*: &nbsp;🎉 <strong>Two</strong> papers were accepted by <strong style="color: #2563eb;">NeurIPS</strong> (<span style="display: inline-block; padding: 0 .32em; border-radius: .25em; background: #f1f5f9; color: #475569; font-weight: 600; font-size: .92em; line-height: 1.35;">CCF-A</span>, Acceptance Rate 25.73%,  <span style="color: #b45309; font-weight: 600;">1 spotlight</span>).
-- *2026.09*: &nbsp;🎉 <strong>One</strong> paper was accepted by <strong style="color: #2563eb;">TNNLS</strong> (JCR Q1, CCF-B, IF=9.7).
-- *2026.07*: &nbsp;🎉 <strong>Four</strong> papers were accepted by <strong style="color: #2563eb;">ACM MM</strong> (<span style="display: inline-block; padding: 0 .32em; border-radius: .25em; background: #f1f5f9; color: #475569; font-weight: 600; font-size: .92em; line-height: 1.35;">CCF-A</span>, Acceptance Rate 26.5%, <span style="color: #b45309; font-weight: 600;">1 Oral</span>).
+- *2026.10*: &nbsp;🎉 <strong>One</strong> paper was accepted by <strong style="color: #2563eb;">TPAMI</strong> (JCR Q1, IF=20.398).
+- *2026.09*: &nbsp;🎉 <strong>Two</strong> papers were accepted by <strong style="color: #2563eb;">NeurIPS</strong> (Acceptance Rate 25.73%,  <span style="color: #b45309; font-weight: 600;">1 spotlight</span>).
+- *2026.09*: &nbsp;🎉 <strong>One</strong> paper was accepted by <strong style="color: #2563eb;">TNNLS</strong> (JCR Q1, IF=9.7).
+- *2026.07*: &nbsp;🎉 <strong>Four</strong> papers were accepted by <strong style="color: #2563eb;">ACM MM</strong> (Acceptance Rate 26.5%, <span style="color: #b45309; font-weight: 600;">1 Oral</span>).
 - *2026.07*: &nbsp;🎉 <strong>One</strong> paper received the <strong style="color: #a16207;">Outstanding Paper Award</strong> at <strong style="color: #a16207;">ACL 2026</strong>.
-- *2026.06*: &nbsp;🎉 <strong>Two</strong> papers were accepted by <strong style="color: #2563eb;">ECCV</strong> (CCF-B, Acceptance Rate 27.5%).
-- *2026.05*: &nbsp;🎉 <strong>One</strong> paper was accepted by <strong style="color: #2563eb;">IEEE TIP</strong> (JCR Q1, <span style="display: inline-block; padding: 0 .32em; border-radius: .25em; background: #f1f5f9; color: #475569; font-weight: 600; font-size: .92em; line-height: 1.35;">CCF-A</span>, IF=13.7).
-- *2026.05*: &nbsp;🎉 <strong>One</strong> paper was accepted by <strong style="color: #2563eb;">PR</strong> (JCR Q1, CCF-B, IF=7.6).
-- *2026.05*: &nbsp;🎉 <strong>One</strong> paper was accepted by <strong style="color: #2563eb;">NN</strong> (JCR Q1, CCF-B, IF=6.3).
-- *2026.05*: &nbsp;🎉 <strong>Ten</strong> papers were accepted by <strong style="color: #2563eb;">ICML</strong> (<span style="display: inline-block; padding: 0 .32em; border-radius: .25em; background: #f1f5f9; color: #475569; font-weight: 600; font-size: .92em; line-height: 1.35;">CCF-A</span>, Acceptance Rate 26.6%).
+- *2026.06*: &nbsp;🎉 <strong>Two</strong> papers were accepted by <strong style="color: #2563eb;">ECCV</strong> (Acceptance Rate 27.5%).
+- *2026.05*: &nbsp;🎉 <strong>One</strong> paper was accepted by <strong style="color: #2563eb;">IEEE TIP</strong> (JCR Q1, IF=13.7).
+- *2026.05*: &nbsp;🎉 <strong>One</strong> paper was accepted by <strong style="color: #2563eb;">PR</strong> (JCR Q1, IF=7.6).
+- *2026.05*: &nbsp;🎉 <strong>One</strong> paper was accepted by <strong style="color: #2563eb;">NN</strong> (JCR Q1, IF=6.3).
+- *2026.05*: &nbsp;🎉 <strong>Ten</strong> papers were accepted by <strong style="color: #2563eb;">ICML</strong> (Acceptance Rate 26.6%).
 - *2026.04*:  🎉 I was invited to serve as an <strong>Associate Editor</strong> for <strong style="color: #2563eb;">Pattern Recognition (Q1)</strong>.
-- *2026.04*: &nbsp;🎉 <strong>Two</strong> papers were accepted by <strong style="color: #2563eb;">ACL Main</strong> (<span style="display: inline-block; padding: 0 .32em; border-radius: .25em; background: #f1f5f9; color: #475569; font-weight: 600; font-size: .92em; line-height: 1.35;">CCF-A</span>, Acceptance Rate 19%).
-- *2026.03*: &nbsp;🎉 <strong>One</strong> paper was accepted by <strong style="color: #2563eb;">IEEE TVCG</strong> (JCR Q1, <span style="display: inline-block; padding: 0 .32em; border-radius: .25em; background: #f1f5f9; color: #475569; font-weight: 600; font-size: .92em; line-height: 1.35;">CCF-A</span>, IF=6.5).
-- *2026.02*: &nbsp;🎉 <strong>Two</strong> papers were accepted by <strong style="color: #2563eb;">CVPR</strong> (<span style="display: inline-block; padding: 0 .32em; border-radius: .25em; background: #f1f5f9; color: #475569; font-weight: 600; font-size: .92em; line-height: 1.35;">CCF-A</span>, Acceptance Rate 25.4%, <span style="color: #b45309; font-weight: 600;">1 Highlight</span>).
-- *2026.01*: &nbsp;🎉 <strong>One</strong> paper was accepted by <strong style="color: #2563eb;">IEEE TIP</strong> (JCR Q1, <span style="display: inline-block; padding: 0 .32em; border-radius: .25em; background: #f1f5f9; color: #475569; font-weight: 600; font-size: .92em; line-height: 1.35;">CCF-A</span>, IF=13.7).
-- *2025.11*: &nbsp;🎉 <strong>Seven</strong> papers were accepted by <strong style="color: #2563eb;">AAAI</strong> (<span style="display: inline-block; padding: 0 .32em; border-radius: .25em; background: #f1f5f9; color: #475569; font-weight: 600; font-size: .92em; line-height: 1.35;">CCF-A</span>, Acceptance Rate 17.6%, <span style="color: #b45309; font-weight: 600;">5 Orals</span>).
+- *2026.04*: &nbsp;🎉 <strong>Two</strong> papers were accepted by <strong style="color: #2563eb;">ACL Main</strong> (Acceptance Rate 19%).
+- *2026.03*: &nbsp;🎉 <strong>One</strong> paper was accepted by <strong style="color: #2563eb;">IEEE TVCG</strong> (JCR Q1, IF=6.5).
+- *2026.02*: &nbsp;🎉 <strong>Two</strong> papers were accepted by <strong style="color: #2563eb;">CVPR</strong> (Acceptance Rate 25.4%, <span style="color: #b45309; font-weight: 600;">1 Highlight</span>).
+- *2026.01*: &nbsp;🎉 <strong>One</strong> paper was accepted by <strong style="color: #2563eb;">IEEE TIP</strong> (JCR Q1, IF=13.7).
+- *2025.11*: &nbsp;🎉 <strong>Seven</strong> papers were accepted by <strong style="color: #2563eb;">AAAI</strong> (Acceptance Rate 17.6%, <span style="color: #b45309; font-weight: 600;">5 Orals</span>).
 <!-- - *2025.06*: &nbsp;🔥 We released **[IMAGEdit](https://github.com/XWH-A/IMAGEdit)** for video editing. -->
-- *2025.09*: &nbsp;🎉 <strong>Three</strong> papers were accepted by <strong style="color: #2563eb;">NeurIPS</strong> (<span style="display: inline-block; padding: 0 .32em; border-radius: .25em; background: #f1f5f9; color: #475569; font-weight: 600; font-size: .92em; line-height: 1.35;">CCF-A</span>, Acceptance Rate 24.52%, <span style="color: #b45309; font-weight: 600;">2 Highlight</span>).
+- *2025.09*: &nbsp;🎉 <strong>Three</strong> papers were accepted by <strong style="color: #2563eb;">NeurIPS</strong> (Acceptance Rate 24.52%, <span style="color: #b45309; font-weight: 600;">2 Highlight</span>).
 <!-- - *2025.06*: &nbsp;🔥 We released **[IMAGHarmony](https://github.com/muzishen/IMAGHarmony)** for image editing. -->
-- *2025.05*: &nbsp;🎉 <strong>Two</strong> papers were accepted by <strong style="color: #2563eb;">ICML</strong> (<span style="display: inline-block; padding: 0 .32em; border-radius: .25em; background: #f1f5f9; color: #475569; font-weight: 600; font-size: .92em; line-height: 1.35;">CCF-A</span>, Acceptance Rate 26.9%).
+- *2025.05*: &nbsp;🎉 <strong>Two</strong> papers were accepted by <strong style="color: #2563eb;">ICML</strong> (Acceptance Rate 26.9%).
 <!-- - *2025.04*: &nbsp;🔥 We released **[IMAGGarment](https://github.com/muzishen/IMAGGarment)** for fine-grained garment generation. -->
 <!-- - *2025.03*: &nbsp;🔥 We released **[HeyGem.ai](https://github.com/GuijiAI/HeyGem.ai)**, a long-term digital human tool for local and API use. -->
-- *2025.01*: &nbsp;🎉 <strong>Two</strong> papers were accepted by <strong style="color: #2563eb;">ICLR</strong> (<span style="display: inline-block; padding: 0 .32em; border-radius: .25em; background: #f1f5f9; color: #475569; font-weight: 600; font-size: .92em; line-height: 1.35;">CCF-A</span>, Acceptance Rate 31%).
-- *2024.12*: &nbsp;🎉 <strong>Five</strong> papers were accepted by <strong style="color: #2563eb;">AAAI</strong> (<span style="display: inline-block; padding: 0 .32em; border-radius: .25em; background: #f1f5f9; color: #475569; font-weight: 600; font-size: .92em; line-height: 1.35;">CCF-A</span>, Acceptance Rate 23.4%).
-- *2024.10*: &nbsp;🎉 <strong>One</strong> paper was accepted by <strong style="color: #2563eb;">ACM ToMM</strong> (JCR Q1, CCF-B, IF=6.1).
+- *2025.01*: &nbsp;🎉 <strong>Two</strong> papers were accepted by <strong style="color: #2563eb;">ICLR</strong> (Acceptance Rate 31%).
+- *2024.12*: &nbsp;🎉 <strong>Five</strong> papers were accepted by <strong style="color: #2563eb;">AAAI</strong> (Acceptance Rate 23.4%).
+- *2024.10*: &nbsp;🎉 <strong>One</strong> paper was accepted by <strong style="color: #2563eb;">ACM ToMM</strong> (JCR Q1, IF=6.1).
 <!-- - *2024.11*: &nbsp;🔥 We released **[IMAGPose](https://github.com/muzishen/IMAGPose)**, a unified conditional framework for person generation. -->
-- *2024.09*: &nbsp;🎉 <strong>One</strong> paper was accepted by <strong style="color: #2563eb;">NeurIPS</strong> (<span style="display: inline-block; padding: 0 .32em; border-radius: .25em; background: #f1f5f9; color: #475569; font-weight: 600; font-size: .92em; line-height: 1.35;">CCF-A</span>, Acceptance Rate 25.8%).
+- *2024.09*: &nbsp;🎉 <strong>One</strong> paper was accepted by <strong style="color: #2563eb;">NeurIPS</strong> (Acceptance Rate 25.8%).
 <!-- - *2024.05*: &nbsp;🔥 We released **[IMAGDressing-v1](https://imagdressing.github.io/)** for customizable virtual dressing. -->
 <!-- - *2024.05*: &nbsp;🔥 We released **[V-Express](https://tenvence.github.io/p/v-express/)** for portrait video generation. -->
-- *2024.01*: &nbsp;🎉 <strong>One</strong> paper was accepted by <strong style="color: #2563eb;">ICLR</strong> (<span style="display: inline-block; padding: 0 .32em; border-radius: .25em; background: #f1f5f9; color: #475569; font-weight: 600; font-size: .92em; line-height: 1.35;">CCF-A</span>, Acceptance Rate 31.8%).
-- *2023.07*: &nbsp;🎉 <strong>One</strong> paper was accepted by <strong style="color: #2563eb;">ACM Multimedia</strong> (<span style="display: inline-block; padding: 0 .32em; border-radius: .25em; background: #f1f5f9; color: #475569; font-weight: 600; font-size: .92em; line-height: 1.35;">CCF-A</span>, Acceptance Rate 24.6%).
-- *2023.04*: &nbsp;🎉 <strong>One</strong> paper was accepted by <strong style="color: #2563eb;">IEEE TIP</strong> (JCR Q1, <span style="display: inline-block; padding: 0 .32em; border-radius: .25em; background: #f1f5f9; color: #475569; font-weight: 600; font-size: .92em; line-height: 1.35;">CCF-A</span>, IF=13.7).
+- *2024.01*: &nbsp;🎉 <strong>One</strong> paper was accepted by <strong style="color: #2563eb;">ICLR</strong> (Acceptance Rate 31.8%).
+- *2023.07*: &nbsp;🎉 <strong>One</strong> paper was accepted by <strong style="color: #2563eb;">ACM Multimedia</strong> (Acceptance Rate 24.6%).
+- *2023.04*: &nbsp;🎉 <strong>One</strong> paper was accepted by <strong style="color: #2563eb;">IEEE TIP</strong> (JCR Q1, IF=13.7).
 
 <br>
 
@@ -295,7 +295,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>SketchDiff: Progressive Diffusion for Photorealistic Portrait Generation From Rough Sketches</strong><br>
     C. Yang, D. Zhang, L. Xing, Q. Song, C. Wang, <strong>F. Shen</strong><sup>✉</sup><br>
-    IEEE Transactions on Neural Networks and Learning Systems (TNNLS), 2026. <span class="pub-ccf pub-ccf-b" title="CCF rank B (2026 directory)" style="display:inline-block;padding:0 7px;border:1px solid #ccd7df;border-radius:5px;background:#edf2f6;color:#445e73;font-size:14px;font-weight:600;line-height:1.5;white-space:nowrap;">CCF-B</span><br>
+    IEEE Transactions on Neural Networks and Learning Systems (TNNLS), 2026.<br>
     <a href="https://ieeexplore.ieee.org/abstract/document/11711316" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
     <a href="https://github.com/chenhangcuisg-code/Cross-Architecture-Merging-for-Large-Language-Models" target="_blank">[Code]</a>
@@ -432,7 +432,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>Latent Anomaly Knowledge Excavation: Unveiling Sparse Sensitive Neurons in Vision-Language Models</strong><br>
     S. Li, S. Li, C. Shi, W. Wu, Y. Wu, X. Yu, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
-    ACM International Conference on Multimedia (<strong>ACM MM</strong>), 2026. <span class="pub-ccf pub-ccf-a" title="CCF rank A (2026 directory)" style="display:inline-block;padding:0 7px;border:1px solid #cbd8c7;border-radius:5px;background:#edf3e9;color:#35553e;font-size:14px;font-weight:600;line-height:1.5;white-space:nowrap;">CCF-A</span><br>
+    ACM International Conference on Multimedia (<strong>ACM MM</strong>), 2026.<br>
     <a href="https://arxiv.org/pdf/2604.07802" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
     <a href="https://github.com/chenhangcuisg-code/Cross-Architecture-Merging-for-Large-Language-Models" target="_blank">[Code]</a>
@@ -450,7 +450,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>Beyond Surface Artifacts: Capturing Shared Latent Forgery Knowledge Across Modalities</strong><br>
     J. Dou, C. Shi, J. Wang, <strong>F. Shen</strong><sup>✉</sup>, Z. Wang, T.-S. Chua<br>
-     ACM International Conference on Multimedia (<strong>ACM MM</strong>), 2026. <span class="pub-ccf pub-ccf-a" title="CCF rank A (2026 directory)" style="display:inline-block;padding:0 7px;border:1px solid #cbd8c7;border-radius:5px;background:#edf3e9;color:#35553e;font-size:14px;font-weight:600;line-height:1.5;white-space:nowrap;">CCF-A</span><br>
+     ACM International Conference on Multimedia (<strong>ACM MM</strong>), 2026.<br>
     <a href="https://arxiv.org/pdf/2604.07763" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
     <a href="https://github.com/chenhangcuisg-code/Cross-Architecture-Merging-for-Large-Language-Models" target="_blank">[Code]</a>
@@ -467,7 +467,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>LaP-Forensics: Latent-Pixel Consistency Guided Multimodal Reasoning for Deepfake Detection</strong><br>
     C. Wang, Y. Wang, Y. Cao, C. Xiao, <strong>F. Shen</strong><sup>✉</sup><br>
-    ACM International Conference on Multimedia (<strong>ACM MM</strong>), 2026. <span class="pub-ccf pub-ccf-a" title="CCF rank A (2026 directory)" style="display:inline-block;padding:0 7px;border:1px solid #cbd8c7;border-radius:5px;background:#edf3e9;color:#35553e;font-size:14px;font-weight:600;line-height:1.5;white-space:nowrap;">CCF-A</span><br>
+    ACM International Conference on Multimedia (<strong>ACM MM</strong>), 2026.<br>
     <a href="https://arxiv.org/pdf/2607.25962" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
     <a href="https://github.com/chenhangcuisg-code/Cross-Architecture-Merging-for-Large-Language-Models" target="_blank">[Code]</a>
@@ -483,7 +483,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>Selection, Aggregation, and Enhancement: Trajectory Consistent Diffusion Model for Image Super-Resolution</strong><br>
     D. Huang, Y. Guo, Y. Huang, L. Dai, <strong>F. Shen</strong><sup>✉</sup>, H. Zeng<br>
-    IEEE Transactions on Image Processing (<strong>IEEE TIP</strong>), 2026. <span class="pub-ccf pub-ccf-a" title="CCF rank A (2026 directory)" style="display:inline-block;padding:0 7px;border:1px solid #cbd8c7;border-radius:5px;background:#edf3e9;color:#35553e;font-size:14px;font-weight:600;line-height:1.5;white-space:nowrap;">CCF-A</span><br>
+    IEEE Transactions on Image Processing (<strong>IEEE TIP</strong>), 2026.<br>
     <a href="https://ieeexplore.ieee.org/abstract/document/11557511" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
     <a href="https://github.com/chenhangcuisg-code/Cross-Architecture-Merging-for-Large-Language-Models" target="_blank">[Code]</a>
@@ -500,7 +500,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>VersaVogue: Visual Expert Orchestration and Preference Alignment for Unified Fashion Synthesis</strong><br>
     J. Yu, <strong>F. Shen</strong><sup>†</sup>, C. Wang, Y. Xin, S. Shen, X. Du, J. Tang<br>
-    ACM International Conference on Multimedia (<strong>ACM MM</strong>), 2026. <span class="pub-ccf pub-ccf-a" title="CCF rank A (2026 directory)" style="display:inline-block;padding:0 7px;border:1px solid #cbd8c7;border-radius:5px;background:#edf3e9;color:#35553e;font-size:14px;font-weight:600;line-height:1.5;white-space:nowrap;">CCF-A</span><br>
+    ACM International Conference on Multimedia (<strong>ACM MM</strong>), 2026.<br>
     <a href="https://arxiv.org/pdf/2604.07210" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
     <a href="https://github.com/chenhangcuisg-code/Cross-Architecture-Merging-for-Large-Language-Models" target="_blank">[Code]</a>
@@ -517,7 +517,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>Transport and Merge: Cross-Architecture Merging for Large Language Models</strong><br>
     C. Cui, B. Yang, <strong>F. Shen</strong><sup>✉</sup>, Y. Chen, J. Zheng, X. Wang, A. Zhang, T.-S. Chua<br>
-    International Conference on Machine Learning (<strong>ICML</strong>), 2026. <span class="pub-ccf pub-ccf-a" title="CCF rank A (2026 directory)" style="display:inline-block;padding:0 7px;border:1px solid #cbd8c7;border-radius:5px;background:#edf3e9;color:#35553e;font-size:14px;font-weight:600;line-height:1.5;white-space:nowrap;">CCF-A</span><br>
+    International Conference on Machine Learning (<strong>ICML</strong>), 2026.<br>
     <a href="https://arxiv.org/pdf/2602.05495" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
     <a href="https://github.com/chenhangcuisg-code/Cross-Architecture-Merging-for-Large-Language-Models" target="_blank">[Code]</a>
@@ -536,7 +536,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     <strong>Who Transfers Safety? Identifying and Targeting Cross-Lingual Shared Safety Neurons</strong><br>
     X. Zhang, C. Xie, L. Zhu, Y. Yang, W. Zhao, Z. Cheng, C. Wang, <br>
     <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
-    International Conference on Machine Learning (<strong>ICML</strong>), 2026. <span class="pub-ccf pub-ccf-a" title="CCF rank A (2026 directory)" style="display:inline-block;padding:0 7px;border:1px solid #cbd8c7;border-radius:5px;background:#edf3e9;color:#35553e;font-size:14px;font-weight:600;line-height:1.5;white-space:nowrap;">CCF-A</span><br>
+    International Conference on Machine Learning (<strong>ICML</strong>), 2026.<br>
     <a href="https://arxiv.org/pdf/2602.01283" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
     <a href="https://github.com/1518630367/SS-Neuron-Expansion" target="_blank">[Code]</a>
@@ -555,7 +555,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     <strong>DNA: Uncovering Universal Latent Forgery Knowledge</strong><br>
     J. Dou, C. Shi, Y. Wang, S. Guo, A. Yi, W. Wu, L. Zhang,<br>
      <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
-    International Conference on Machine Learning (<strong>ICML</strong>), 2026. <span class="pub-ccf pub-ccf-a" title="CCF rank A (2026 directory)" style="display:inline-block;padding:0 7px;border:1px solid #cbd8c7;border-radius:5px;background:#edf3e9;color:#35553e;font-size:14px;font-weight:600;line-height:1.5;white-space:nowrap;">CCF-A</span><br>
+    International Conference on Machine Learning (<strong>ICML</strong>), 2026.<br>
     <a href="https://arxiv.org/abs/2601.22515" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
     <a href="https://github.com/zsxr15/Lingua-SafetyBench" target="_blank">[Code]</a>
@@ -572,7 +572,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>Lingua-SafetyBench: A Benchmark for Safety Evaluation of Multilingual Vision-Language Models</strong><br>
     E. Shi, P. Shao, Y. Zhang, C. Cui, J. Lyu, X. Xie, X. Xia, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
-    IEEE Transactions on Information Forensics and Security (<strong>IEEE TIFS</strong>), 2026. <span class="pub-ccf pub-ccf-a" title="CCF rank A (2026 directory)" style="display:inline-block;padding:0 7px;border:1px solid #cbd8c7;border-radius:5px;background:#edf3e9;color:#35553e;font-size:14px;font-weight:600;line-height:1.5;white-space:nowrap;">CCF-A</span><br>
+    IEEE Transactions on Information Forensics and Security (<strong>IEEE TIFS</strong>), 2026.<br>
     <a href="https://arxiv.org/pdf/2601.22737" target="_blank">[PDF]</a>
       &nbsp;&nbsp;
     <a href="https://github.com/zsxr15/Lingua-SafetyBench" target="_blank">[Code]</a>
@@ -590,7 +590,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>Reasoning-VLA: An Efficient and Spatial-Guided General Vision-Language-Action Reasoning Model for Autonomous Driving</strong><br>
     D. Zhang, Z. Yuan, Z. Chen, C.-T. Liao, Y. Chen, <strong>F. Shen</strong><sup>✉</sup>, Q. Zhou, T.-S. Chua<br>
-    International Conference on Machine Learning (<strong>ICML</strong>), 2026. <span class="pub-ccf pub-ccf-a" title="CCF rank A (2026 directory)" style="display:inline-block;padding:0 7px;border:1px solid #cbd8c7;border-radius:5px;background:#edf3e9;color:#35553e;font-size:14px;font-weight:600;line-height:1.5;white-space:nowrap;">CCF-A</span><br>
+    International Conference on Machine Learning (<strong>ICML</strong>), 2026.<br>
     <a href="https://arxiv.org/pdf/2511.19912" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
     <a href="https://github.com/XWH-A/IMAGEdit" target="_blank">[Code]</a>
@@ -608,7 +608,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>OrthoEraser: Coupled-Neuron Orthogonal Projection for Concept Erasure</strong><br>
     C. Shi, W. Wu, <strong>F. Shen</strong><sup>✉</sup>, X. Zhu, K. Hu, Z. Wang<br>
-    European Conference on Computer Vision (<strong>ECCV</strong>), 2026. <span class="pub-ccf pub-ccf-b" title="CCF rank B (2026 directory)" style="display:inline-block;padding:0 7px;border:1px solid #ccd7df;border-radius:5px;background:#edf2f6;color:#445e73;font-size:14px;font-weight:600;line-height:1.5;white-space:nowrap;">CCF-B</span><br>
+    European Conference on Computer Vision (<strong>ECCV</strong>), 2026.<br>
     <a href="https://arxiv.org/pdf/2603.11493" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
     <a href="https://github.com/XWH-A/IMAGEdit" target="_blank">[Code]</a>
@@ -625,7 +625,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>TraceRouter: Robust Safety for Large Foundation Models via Path-Level Intervention</strong><br>
     C. Shi, S. Li, W. Lu, W. Wu, C. Wang, Z. Cheng, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
-    International Conference on Machine Learning (<strong>ICML</strong>), 2026. <span class="pub-ccf pub-ccf-a" title="CCF rank A (2026 directory)" style="display:inline-block;padding:0 7px;border:1px solid #cbd8c7;border-radius:5px;background:#edf3e9;color:#35553e;font-size:14px;font-weight:600;line-height:1.5;white-space:nowrap;">CCF-A</span><br>
+    International Conference on Machine Learning (<strong>ICML</strong>), 2026.<br>
     <a href="https://arxiv.org/pdf/2601.21900" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
     <a href="https://github.com/XWH-A/IMAGEdit" target="_blank">[Code]</a>
@@ -642,7 +642,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>Where Culture Fades: Revealing the Cultural Gap in Text-to-Image Generation</strong><br>
     C. Shi, S. Li, S. Guo, S. Xie, W. Wu, J. Dou, C. Wu, C. Xiao, C. Wang, Z. Cheng, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
-    The IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR (Highlight)</strong>), 2026. <span class="pub-ccf pub-ccf-a" title="CCF rank A (2026 directory)" style="display:inline-block;padding:0 7px;border:1px solid #cbd8c7;border-radius:5px;background:#edf3e9;color:#35553e;font-size:14px;font-weight:600;line-height:1.5;white-space:nowrap;">CCF-A</span><br>
+    The IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR (Highlight)</strong>), 2026.<br>
     <a href="https://arxiv.org/pdf/2511.17282" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
     <a href="https://github.com/XWH-A/IMAGEdit" target="_blank">[Code]</a>
@@ -713,7 +713,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>IMAGGarment+: Efficient Attribute-Wise Diffusion for Garment Generation</strong><br>
     J. Yu*, <strong>F. Shen*</strong>, C. Wang, Y. Sun, H. Tang, Q. Guo, X. Du<br>
-    AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>), 2026. <span class="pub-ccf pub-ccf-a" title="CCF rank A (2026 directory)" style="display:inline-block;padding:0 7px;border:1px solid #cbd8c7;border-radius:5px;background:#edf3e9;color:#35553e;font-size:14px;font-weight:600;line-height:1.5;white-space:nowrap;">CCF-A</span><br>
+    AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>), 2026.<br>
     <a href="https://arxiv.org/pdf/2601.21900" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
     <a href="https://github.com/XWH-A/IMAGEdit" target="_blank">[Code]</a>
@@ -730,7 +730,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>IMAGGarment: Fine-grained garment generation for controllable fashion design</strong><br>
     <strong>F. Shen</strong>, J. Yu, C. Wang, X. Jiang, X. Du, J. Tang<br>
-    IEEE Transactions on Visualization and Computer Graphics, (<strong>IEEE TVCG</strong>), 2026. <span class="pub-ccf pub-ccf-a" title="CCF rank A (2026 directory)" style="display:inline-block;padding:0 7px;border:1px solid #cbd8c7;border-radius:5px;background:#edf3e9;color:#35553e;font-size:14px;font-weight:600;line-height:1.5;white-space:nowrap;">CCF-A</span><br>
+    IEEE Transactions on Visualization and Computer Graphics, (<strong>IEEE TVCG</strong>), 2026.<br>
     <a href="https://arxiv.org/pdf/2504.13176" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
     <a href="https://github.com/muzishen/IMAGGarment" target="_blank">[Code]</a>
@@ -747,7 +747,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>SGMHand: Structure-Guided Modulation for Structure-Aware Hand Inpainting</strong><br>
    C. Shi, S. Guo, Y. Chen, K. Shui, <strong>F. Shen</strong><sup>✉</sup><br>
-    AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>), 2026. <span class="pub-ccf pub-ccf-a" title="CCF rank A (2026 directory)" style="display:inline-block;padding:0 7px;border:1px solid #cbd8c7;border-radius:5px;background:#edf3e9;color:#35553e;font-size:14px;font-weight:600;line-height:1.5;white-space:nowrap;">CCF-A</span><br>
+    AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>), 2026.<br>
     <a href="https://openreview.net/pdf?id=k8dzFj3yAF" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
     <a href="https://github.com/XWH-A/IMAGEdit" target="_blank">[Code]</a>
@@ -763,7 +763,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>CoC-VLA: Delving into Adversarial Domain Transfer for Explainable Autonomous Driving via Chain-of-Causality Visual-Language-Action Model</strong><br>
     D. Zhang, <strong>F. Shen</strong><sup>✉</sup>, R. Zhao, Y. Chen, P. Zhi, C. Li, R. Zhou, Q. Zhou<br>
-    Neural Information Processing Systems (<strong>NeurIPS</strong>), 2025. <span class="pub-ccf pub-ccf-a" title="CCF rank A (2026 directory)" style="display:inline-block;padding:0 7px;border:1px solid #cbd8c7;border-radius:5px;background:#edf3e9;color:#35553e;font-size:14px;font-weight:600;line-height:1.5;white-space:nowrap;">CCF-A</span><br>
+    Neural Information Processing Systems (<strong>NeurIPS</strong>), 2025.<br>
     <a href="https://openreview.net/pdf?id=qUmULptJuY" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
     <a href="https://github.com/XWH-A/IMAGEdit" target="_blank">[Code]</a>
@@ -781,7 +781,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>IMAGDressing-v1: Customizable Virtual Dressing</strong><br>
     <strong>F. Shen</strong>, X. Jiang, X. He, H. Ye, C. Wang, X. Du, Z. Li, J. Tang<br>
-    AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>), 2025. <span class="pub-ccf pub-ccf-a" title="CCF rank A (2026 directory)" style="display:inline-block;padding:0 7px;border:1px solid #cbd8c7;border-radius:5px;background:#edf3e9;color:#35553e;font-size:14px;font-weight:600;line-height:1.5;white-space:nowrap;">CCF-A</span><br>
+    AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>), 2025.<br>
     <a href="https://arxiv.org/pdf/2407.12705" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
     <a href="https://github.com/muzishen/IMAGDressing" target="_blank">[Code]</a>
@@ -800,7 +800,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>Long-Term TalkingFace Generation via Motion-Prior Conditional Diffusion Model</strong><br>
     <strong>F. Shen</strong>, C. Wang, J. Gao, Q. Guo, J. Dang, J. Tang, T.-S. Chua<br>
-    International Conference on Machine Learning (<strong>ICML</strong>), 2025. <span class="pub-ccf pub-ccf-a" title="CCF rank A (2026 directory)" style="display:inline-block;padding:0 7px;border:1px solid #cbd8c7;border-radius:5px;background:#edf3e9;color:#35553e;font-size:14px;font-weight:600;line-height:1.5;white-space:nowrap;">CCF-A</span><br>
+    International Conference on Machine Learning (<strong>ICML</strong>), 2025.<br>
     <a href="https://arxiv.org/pdf/2502.09533" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
     <a href="https://github.com/muzishen/MCDM/" target="_blank">[Code]</a>
@@ -818,7 +818,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   <div class="pub-right" style="font-size:.90rem; line-height:1.6;">
     <strong>Boosting Consistency in Story Visualization with Rich-Contextual Conditional Diffusion Models</strong><br>
     <strong>F. Shen</strong>, H. Ye, S. Liu, J. Zhang, C. Wang, X. Han, W. Yang<br>
-    AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>), 2025. <span class="pub-ccf pub-ccf-a" title="CCF rank A (2026 directory)" style="display:inline-block;padding:0 7px;border:1px solid #cbd8c7;border-radius:5px;background:#edf3e9;color:#35553e;font-size:14px;font-weight:600;line-height:1.5;white-space:nowrap;">CCF-A</span><br>
+    AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>), 2025.<br>
     <a href="https://arxiv.org/pdf/2407.02482" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
     <a href="https://github.com/muzishen/RCDMs" target="_blank">[Code]</a>
@@ -837,7 +837,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   <div class="pub-right" style="font-size:.90rem; line-height:1.6;">
     <strong>IMAGPose: A Unified Conditional Framework for Pose-Guided Person Generation</strong><br>
     <strong>F. Shen</strong>, J. Tang<br>
-    Neural Information Processing Systems (<strong>NeurIPS</strong>), 2024. <span class="pub-ccf pub-ccf-a" title="CCF rank A (2026 directory)" style="display:inline-block;padding:0 7px;border:1px solid #cbd8c7;border-radius:5px;background:#edf3e9;color:#35553e;font-size:14px;font-weight:600;line-height:1.5;white-space:nowrap;">CCF-A</span><br>
+    Neural Information Processing Systems (<strong>NeurIPS</strong>), 2024.<br>
     <a href="https://openreview.net/pdf?id=6IyYa4gETN" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
     <a href="https://github.com/muzishen/IMAGPose" target="_blank">[Code]</a>
@@ -861,7 +861,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   <div class="pub-right" style="font-size:.90rem; line-height:1.6;">
     <strong>Advancing Pose-Guided Image Synthesis with Progressive Conditional Diffusion Models</strong><br>
     <strong>F. Shen</strong>, H. Ye, J. Zhang, C. Wang, X. Han, W. Yang<br>
-    International Conference on Learning Representations (<strong>ICLR</strong>), 2024. <span class="pub-ccf pub-ccf-a" title="CCF rank A (2026 directory)" style="display:inline-block;padding:0 7px;border:1px solid #cbd8c7;border-radius:5px;background:#edf3e9;color:#35553e;font-size:14px;font-weight:600;line-height:1.5;white-space:nowrap;">CCF-A</span><br>
+    International Conference on Learning Representations (<strong>ICLR</strong>), 2024.<br>
     <a href="https://arxiv.org/pdf/2310.06313.pdf" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
     <a href="https://github.com/tencent-ailab/PCDMs" target="_blank">[Code]</a>
@@ -878,7 +878,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>Triplet Contrastive Representation Learning for Unsupervised Vehicle Re-Identification</strong><br>
     <strong>F. Shen</strong>, X. Du, L. Zhang, X. Shu, J. Tang<br>
-    ACM Transactions on Multimedia Computing, Communications and Applications (<strong>ToMM</strong>), 2024 <span class="pub-ccf pub-ccf-b" title="CCF rank B (2026 directory)" style="display:inline-block;padding:0 7px;border:1px solid #ccd7df;border-radius:5px;background:#edf2f6;color:#445e73;font-size:14px;font-weight:600;line-height:1.5;white-space:nowrap;">CCF-B</span><br>.
+    ACM Transactions on Multimedia Computing, Communications and Applications (<strong>ToMM</strong>), 2024<br>.
     <a href="https://dl.acm.org/doi/epdf/10.1145/3695255" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
     <a href="https://muzishen.github.io/" target="_blank">[Code]</a>
@@ -897,7 +897,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>GiT: Graph Interactive Transformer for Vehicle Re-identification</strong><br>
     <strong>F. Shen</strong>, Y. Xie, J. Zhu, X. Zhu, H. Zeng<br>
-    IEEE Transactions on Image Processing (<strong>IEEE TIP</strong>), 2023 <span class="pub-ccf pub-ccf-a" title="CCF rank A (2026 directory)" style="display:inline-block;padding:0 7px;border:1px solid #cbd8c7;border-radius:5px;background:#edf3e9;color:#35553e;font-size:14px;font-weight:600;line-height:1.5;white-space:nowrap;">CCF-A</span><br>
+    IEEE Transactions on Image Processing (<strong>IEEE TIP</strong>), 2023<br>
     <a href="https://muzishen.github.io/" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
     <a href="https://github.com/muzishen/ReID-GiT" target="_blank">[Code]</a>
@@ -914,7 +914,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>Exploring Spatial Significance via Hybrid Pyramidal Graph Network for Vehicle Re-Identification</strong><br>
     <strong>F. Shen</strong>, J. Zhu, X. Zhu, Y. Xie, J. Huang<br>
-    IEEE Transactions on Intelligent Transportation Systems, (<strong>IEEE TITS</strong>), 2023.  <span class="pub-ccf pub-ccf-b" title="CCF rank B (2026 directory)" style="display:inline-block;padding:0 7px;border:1px solid #ccd7df;border-radius:5px;background:#edf2f6;color:#445e73;font-size:14px;font-weight:600;line-height:1.5;white-space:nowrap;">CCF-B</span><br>
+    IEEE Transactions on Intelligent Transportation Systems, (<strong>IEEE TITS</strong>), 2023. <br>
     <a href="https://muzishen.github.io/" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
     <a href="https://github.com/muzishen/HPGN" target="_blank">[Code]</a>
@@ -932,7 +932,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>Pedestrian-specific Bipartite-aware Similarity Learning for Text-based Person Retrieval</strong><br>
     <strong>F. Shen</strong>, X. Shu, X. Du, J. Tang<br>
-    ACM International Conference on Multimedia (<strong>ACM MM</strong>), 2023. <span class="pub-ccf pub-ccf-a" title="CCF rank A (2026 directory)" style="display:inline-block;padding:0 7px;border:1px solid #cbd8c7;border-radius:5px;background:#edf3e9;color:#35553e;font-size:14px;font-weight:600;line-height:1.5;white-space:nowrap;">CCF-A</span><br>
+    ACM International Conference on Multimedia (<strong>ACM MM</strong>), 2023.<br>
     <a href="https://muzishen.github.io/" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
     <a href="https://github.com/muzishen/PBSL" target="_blank">[Code]</a>

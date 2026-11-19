@@ -8,7 +8,7 @@ author_profile: true
 
 # 🎙 **President and Reviewer Roles**
 
-- Area Chair / Program Committee of 3DV/PRCV/IJCNN/ICME/WSDM
+- Area Chair / Program Committee of ICLR/ICML/3DV/PRCV/IJCNN/ICME/WSDM
 - Conference Reviewers: NeurIPS, ICML, ICLR, CVPR, ICCV, ECCV, AAAI, IJCAI, ACM MM, MICCAI
 - Journal Reviewers: TPAMI, IJCV, TIP, TMM, TNNLS, TCSVT, PR, TII, IOTJ, TAI
 - **Associate Editor:** Pattern Recognition
@@ -16,6 +16,9 @@ author_profile: true
   • [Applied Sciences] Special Issue on [*Applied Multimodal AI: Methods and Applications Across Domains*](https://www.mdpi.com/journal/applsci/special_issues/5O529LHW59)
 
 # 🎖 **Honors** 
+
+- Outstanding Paper Award, ACM Multimedia (ACM MM), 2026
+- Outstanding Paper Award, ACL, 2026
 
 - Youth Talents Support Project, Doctoral Student Special Program, 2024
 - Outstanding Scholarship of the 2024 Tencent Rhino-bird Research Elite Program, Tencent, 2024
@@ -29,6 +32,8 @@ author_profile: true
 
 
 # 💬 **Invited Talks**
+
+- *2026.09*, Latent Knowledge of Large Foundation Models, Nanjing University of Science and Technology.
 
 - *2025.08*, Controllable virtual dressing/try-on, Meituan internal talk.
 - *2025.07*, Visual Content Generation in the Era of Large Foundation Models, Hosted ICMR Workshop.
