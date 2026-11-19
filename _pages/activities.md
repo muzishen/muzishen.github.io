@@ -19,7 +19,7 @@ author_profile: true
 
 - Outstanding Paper Award, ACM Multimedia (ACM MM), 2026
 - Outstanding Paper Award, ACL, 2026
-
+- IEEE Senior Member, June 2026
 - Youth Talents Support Project, Doctoral Student Special Program, 2024
 - Outstanding Scholarship of the 2024 Tencent Rhino-bird Research Elite Program, Tencent, 2024
 - President's Medal, Nanjing University of Science and Technology, 2023
@@ -33,9 +33,8 @@ author_profile: true
 
 # 💬 **Invited Talks**
 
-- *2026.10*, Latent Knowledge of Large Foundation Models, Peking University.
+- *2026.11*, Latent Knowledge of Large Foundation Models, Peking University.
 - *2026.09*, Latent Knowledge of Large Foundation Models, Nanjing University of Science and Technology.
-
 - *2025.08*, Controllable virtual dressing/try-on, Meituan internal talk.
 - *2025.07*, Visual Content Generation in the Era of Large Foundation Models, Hosted ICMR Workshop.
 - *2025.03*, Controllable pose-guided human generation, CSIG Workshop.
