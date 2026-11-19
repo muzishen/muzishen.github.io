@@ -93,6 +93,382 @@
   },
   "papers": [
     {
+      "id": "circe",
+      "category": "fundamental",
+      "date": "2026-11",
+      "title": {
+        "en": "Circe: Training-Free LLM Self-Evaluation via Component Interaction Consistency",
+        "zh": "Circe：通过组件交互一致性实现免训练大模型自评估"
+      },
+      "summary": {
+        "en": "Read cross-layer attention–FFN interaction consistency, representation geometry, and output likelihood to assess a response without reference answers or repeated sampling.",
+        "zh": "读出注意力与 FFN 的跨层交互一致性，结合表征几何和输出似然，在无需参考答案或重复采样的条件下评估回答正确性。"
+      },
+      "topic": {
+        "en": "Correctness evaluation",
+        "zh": "正确性评估"
+      },
+      "publication": {
+        "en": "Preprint",
+        "zh": "预印本"
+      },
+      "author_names": [
+        "Miao Shuyi",
+        "Li Zheng",
+        "Xie Xu",
+        "Xu Linrui",
+        "Shen Fei",
+        "Du Xiaoyu",
+        "Chua Tat-Seng"
+      ],
+      "authors_bibtex": [
+        "Miao, Shuyi",
+        "Li, Zheng",
+        "Xie, Xu",
+        "Xu, Linrui",
+        "Shen, Fei",
+        "Du, Xiaoyu",
+        "Chua, Tat-Seng"
+      ],
+      "authors": "Miao Shuyi, Li Zheng, Xie Xu, Xu Linrui, Shen Fei, Du Xiaoyu, Chua Tat-Seng",
+      "submitted": "2026-11-05",
+      "paper": "https://arxiv.org/abs/2611.07948",
+      "pdf": "https://arxiv.org/pdf/2611.07948",
+      "code": null,
+      "cover": "/assets/images/research/covers/circe.webp",
+      "related": [
+        "latent-support",
+        "dv-lens",
+        "tracerouter-plus-plus"
+      ],
+      "contact": {
+        "name": "Miao Shuyi",
+        "email": "shuyimiao@buaa.edu.cn",
+        "source": "Existing verified team contact",
+        "status": "verified",
+        "checked_on": "2026-11-19"
+      },
+      "article": {
+        "en": {
+          "deck": "Read cross-layer attention–FFN interaction consistency, representation geometry, and output likelihood to assess a response without reference answers or repeated sampling.",
+          "short": [
+            "A model can confidently repeat an incorrect answer. Circe asks whether the computation behind that answer offers evidence beyond the probability assigned to its words. It measures how attention updates in earlier layers align with attention-induced FFN changes in later layers, then combines that interaction signal with representation geometry and output likelihood.",
+            "The evaluator needs one generated response and no additional model training. Its fusion weights are selected on development data; reference answers are not required when scoring a new response. The distinction matters: training-free self-evaluation still needs its calibration and evaluation protocol to be stated clearly."
+          ],
+          "motivation": "Hidden-state trajectories aggregate the effects of multiple components. Two answers can have similar output confidence while differing in how attention and feed-forward updates interact. Studying those interactions provides a more specific diagnostic target than aggregate representational drift alone.",
+          "method": [
+            "Measure component interaction consistency (CIC): compare earlier attention-update directions with the FFN-output changes induced by attention at later layers.",
+            "Compute representation geometry (RG) from normalized displacement and angular changes, and likelihood confidence (LC) from the generated tokens’ mean negative log-likelihood.",
+            "Fuse the internal and external signals into a correctness score using development-selected weights, then rank responses without repeated sampling or a reference answer at inference."
+          ],
+          "evidence": [
+            "The paper evaluates five LLMs on six benchmarks across mathematics, reasoning, knowledge, and understanding. The complete method has the best reported domain-average AUROC, FPR95, and AUPR, and leads AUROC in 18 of 20 model–domain pairs.",
+            "In the component ablation, mean AUROC is 71.76%; removing CIC reduces it to 69.71%. Additional evaluations cover 11 languages and a visual geometry task, where the reported AUROC is 71.25%. These are ranking results for response correctness, not task-answering accuracy."
+          ],
+          "takeaway": [
+            "The central insight is that reliability can depend on how a model coordinates its components, not just on how strongly it prefers its output. Interaction consistency offers a way to inspect that coordination and contributes information that trajectory geometry and likelihood leave out.",
+            "This supports computational evidence as an additional axis of model evaluation. Consistency is still a statistical signal rather than a certificate of truth: its usefulness must be checked against task, model, and calibration changes."
+          ],
+          "highlights": [
+            {
+              "value": "71.76%",
+              "label": "Mean AUROC in the component ablation"
+            },
+            {
+              "value": "5 LLMs",
+              "label": "Six benchmarks across four domains"
+            },
+            {
+              "value": "1 response",
+              "label": "No repeated sampling"
+            }
+          ],
+          "thesis": "Correctness is worth examining in the interaction between components, as well as in the confidence of the final answer."
+        },
+        "zh": {
+          "deck": "读出注意力与 FFN 的跨层交互一致性，结合表征几何和输出似然，在无需参考答案或重复采样的条件下评估回答正确性。",
+          "short": [
+            "模型可能对错误答案给出很高的概率，甚至稳定地重复同一种错误。Circe 将评估视角推进到回答背后的计算过程：观察较早层的注意力更新，是否与后续层中由注意力引起的 FFN 输出变化保持方向一致，再结合表征几何与输出似然，形成回答正确性分数。",
+            "这一过程只需要一次生成，无需额外训练评估模型，评估新回答时也不需要参考答案。融合权重通过开发集选择，因此“免训练”并不等于完全不需要校准信息；区分这两点，有助于准确理解方法的使用条件。"
+          ],
+          "motivation": "隐藏状态轨迹记录的是注意力与前馈网络作用后的合成结果，未必能够揭示组件之间如何协同。两个回答可以具有相近的输出置信度，却对应不同的内部交互模式。直接刻画这种交互，能够为正确性判断提供更具体的内部证据。",
+          "method": [
+            "计算组件交互一致性 CIC：比较较早层注意力更新与较晚层中注意力诱发的 FFN 输出变化之间的方向关系。",
+            "构建互补信号：利用归一化位移和角度变化描述表征几何 RG，将生成 token 的平均负对数似然转换为似然置信度 LC。",
+            "融合内部与外部信号：使用开发集选择的权重形成统一评分，在测试时无需重复采样或参考答案，即可对回答的正确性进行排序。"
+          ],
+          "evidence": [
+            "论文在五个 LLM、六个基准上评估数学、推理、知识与理解四类任务。完整方法在四个领域的平均 AUROC、FPR95 和 AUPR 上取得所比较方法中的最佳结果，并在 20 个模型—领域组合中的 18 个组合上取得最高 AUROC。",
+            "组件消融中的平均 AUROC 为 71.76%；去除 CIC 后降至 69.71%。扩展实验覆盖 11 种语言，并在视觉几何任务上报告 71.25% AUROC。上述数值衡量正确与错误回答的区分能力，并非模型回答问题的准确率。"
+          ],
+          "takeaway": [
+            "这项工作的关键在于：可靠性不只体现为模型“多么相信”某个答案，也可能体现为模型的不同组件如何共同支撑这一答案。交互一致性将这种协同关系转化为可测量信号，补充了整体表征轨迹与输出似然未充分表达的信息。",
+            "由此，模型评估可以进一步连接内部计算与外部行为。但一致性仍然是统计证据，不能直接等同于事实正确；其价值需要在不同任务、模型与校准条件下继续检验。"
+          ],
+          "highlights": [
+            {
+              "value": "71.76%",
+              "label": "组件消融中的平均 AUROC"
+            },
+            {
+              "value": "5 个 LLM",
+              "label": "六个基准、四类任务"
+            },
+            {
+              "value": "一次生成",
+              "label": "无需重复采样"
+            }
+          ],
+          "thesis": "回答是否正确，既可以从输出置信度判断，也值得从组件之间的计算协同中寻找证据。"
+        }
+      },
+      "figures": [
+        {
+          "path": "/assets/images/research/evidence/circe-1.webp",
+          "page": 3,
+          "kind": "figure",
+          "number": 2,
+          "width": 1527,
+          "height": 570,
+          "title": {
+            "en": "Three complementary sources of correctness evidence",
+            "zh": "三种互补的正确性证据"
+          },
+          "explanation": {
+            "en": "The original framework separates attention–FFN interaction consistency, hidden-state geometry, and likelihood confidence before fusion.",
+            "zh": "原始方法图分别展示注意力—FFN 交互一致性、隐藏状态几何与似然置信度，再将三类信号融合。"
+          },
+          "source": "https://arxiv.org/pdf/2611.07948#page=3"
+        },
+        {
+          "path": "/assets/images/research/evidence/circe-2.webp",
+          "page": 4,
+          "kind": "figure",
+          "number": 3,
+          "width": 1527,
+          "height": 471,
+          "title": {
+            "en": "Correct and incorrect responses have different score distributions",
+            "zh": "正确与错误回答的分数分布"
+          },
+          "explanation": {
+            "en": "On Qwen2-7B-Instruct and MATH, the three signals have higher means for correct responses, with remaining overlap between the classes.",
+            "zh": "在 Qwen2-7B-Instruct 与 MATH 上，三类信号在正确回答上的均值更高，但两类分布仍存在重叠。"
+          },
+          "source": "https://arxiv.org/pdf/2611.07948#page=4"
+        },
+        {
+          "path": "/assets/images/research/evidence/circe-3.webp",
+          "page": 6,
+          "kind": "table",
+          "number": 2,
+          "width": 1530,
+          "height": 378,
+          "title": {
+            "en": "Interaction consistency contributes beyond geometry and likelihood",
+            "zh": "交互一致性提供额外信息"
+          },
+          "explanation": {
+            "en": "The full score reaches 71.76% mean AUROC across the five models; removing CIC gives 69.71%.",
+            "zh": "五个模型上的完整评分平均 AUROC 为 71.76%，去除 CIC 后为 69.71%。"
+          },
+          "source": "https://arxiv.org/pdf/2611.07948#page=6"
+        }
+      ]
+    },
+    {
+      "id": "tracerouter-plus-plus",
+      "category": "fundamental",
+      "date": "2026-11",
+      "title": {
+        "en": "TraceRouter++: Causal Semantic Routing Realignment via Optimal Transport",
+        "zh": "TraceRouter++：通过最优传输重对齐因果语义路由"
+      },
+      "summary": {
+        "en": "Trace safety-relevant causal routes and softly realign selected activation distributions toward safe references using a coordinate-wise optimal transport approximation.",
+        "zh": "追踪安全相关的因果传播路径，并通过逐坐标最优传输近似，将选中路由的激活分布柔性重对齐至安全参考分布。"
+      },
+      "topic": {
+        "en": "Safety pathways",
+        "zh": "安全路径"
+      },
+      "publication": {
+        "en": "TPAMI 2026",
+        "zh": "TPAMI 2026"
+      },
+      "ccf": "A",
+      "ccf_source": "https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml",
+      "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "publication_year": 2026,
+      "published_on": "2026-10-29",
+      "doi": "10.1109/TPAMI.2026.3747849",
+      "author_names": [
+        "Shi Chuancheng",
+        "Li Shangze",
+        "Wu Wenhua",
+        "Chen Hengzhi",
+        "Shen Fei",
+        "Zhuo Li",
+        "Wang Zhiyong",
+        "Chua Tat-Seng"
+      ],
+      "authors_bibtex": [
+        "Shi, Chuancheng",
+        "Li, Shangze",
+        "Wu, Wenhua",
+        "Chen, Hengzhi",
+        "Shen, Fei",
+        "Zhuo, Li",
+        "Wang, Zhiyong",
+        "Chua, Tat-Seng"
+      ],
+      "authors": "Shi Chuancheng, Li Shangze, Wu Wenhua, Chen Hengzhi, Shen Fei, Zhuo Li, Wang Zhiyong, Chua Tat-Seng",
+      "submitted": "2026-11-03",
+      "paper": "https://arxiv.org/abs/2611.04878",
+      "pdf": "https://arxiv.org/pdf/2611.04878",
+      "code": null,
+      "cover": "/assets/images/research/covers/tracerouter-plus-plus.webp",
+      "related": [
+        "tracerouter",
+        "moving-safety-barrier",
+        "no-single-neuron"
+      ],
+      "contact": {
+        "name": "Shi Chuancheng",
+        "email": "cshi0459@uni.sydney.edu.au",
+        "source": "Existing verified team contact",
+        "status": "verified",
+        "checked_on": "2026-11-19"
+      },
+      "article": {
+        "en": {
+          "deck": "Trace safety-relevant causal routes and softly realign selected activation distributions toward safe references using a coordinate-wise optimal transport approximation.",
+          "short": [
+            "An unsafe behavior can travel through a network rather than reside in one isolated neuron. TraceRouter++ identifies safety-relevant routes and changes how their activations are distributed. The aim is to steer those routes toward safe-reference behavior while limiting the disturbance introduced at the intervention point.",
+            "The journal extension adds optimal-transport-based soft realignment to the Discover–Trace–Realign pipeline. It uses tractable coordinate-wise quantile mappings: this aligns selected marginals, rather than solving a general joint transport problem."
+          ],
+          "motivation": "Suppressing an isolated feature can leave alternative propagation routes available and can also disturb useful computation. A route-level intervention makes both the location and the form of the modification explicit: where safety-relevant information travels, and how the selected activations should change.",
+          "method": [
+            "Discover a sensitive onset layer from attention divergence, then use a sparse autoencoder to isolate interpretable routing features.",
+            "Trace downstream causal influence with feature influence scores, selecting routes supported by intervention evidence.",
+            "Realign the selected activation marginals toward safe-reference marginals with an optimal transport approximation, leaving unselected coordinates unchanged at that intervention point."
+          ],
+          "evidence": [
+            "On the reported LLM attack suite, average defense success rates reach 99.5 ± 0.3% for LLaMA3-8B-Instruct and 98.8 ± 0.3% for Mistral-7B-Instruct. The paper also evaluates multimodal language models and diffusion models.",
+            "Utility measurements accompany the safety results: Global-MMLU-Lite changes by −0.4 and −0.6 percentage points on the two language models. These empirical trade-offs are distinct from the local guarantee that unselected activation coordinates are preserved."
+          ],
+          "takeaway": [
+            "The insight is to treat safety control as a problem of shaping information flow. Causal tracing identifies a target for intervention, while distributional realignment provides an alternative to simply deleting the target signal. This connects mechanistic analysis with a more selective control objective.",
+            "The boundary is equally informative. Coordinate-wise transport does not generally preserve joint dependencies, and later layers can mix selected and unselected coordinates. Safety and utility therefore remain outcomes to measure, rather than consequences guaranteed by local sparsity alone."
+          ],
+          "highlights": [
+            {
+              "value": "99.5%",
+              "label": "Mean LLaMA3 defense success rate"
+            },
+            {
+              "value": "3 model families",
+              "label": "LLMs, MLLMs, and diffusion models"
+            },
+            {
+              "value": "Optimal transport",
+              "label": "Soft activation realignment"
+            }
+          ],
+          "thesis": "Identifying a harmful route and deciding how to change its activation are complementary parts of safety intervention."
+        },
+        "zh": {
+          "deck": "追踪安全相关的因果传播路径，并通过逐坐标最优传输近似，将选中路由的激活分布柔性重对齐至安全参考分布。",
+          "short": [
+            "不安全行为可能依赖跨层传播的计算路径，而非某一个孤立神经元。TraceRouter++ 在识别安全相关路径后，进一步调整这些路径上的激活分布，使其接近安全参考状态，并限制干预点上的扰动范围。",
+            "这一期刊扩展在“发现—追踪—重对齐”的框架中加入最优传输驱动的柔性干预。具体实现采用可计算的逐坐标分位数映射，对齐的是选中坐标的边缘分布，并非直接求解一般的联合最优传输问题。"
+          ],
+          "motivation": "局部特征抑制可能留下替代传播路径，也可能扰动正常能力。路径级干预需要同时回答两个问题：安全相关信息沿哪里传播，以及这些路径上的计算应如何改变。将路径定位与分布重对齐结合，使干预目标更加具体。",
+          "method": [
+            "发现敏感起始层：利用注意力差异定位干预起点，再用稀疏自编码器解析可解释的路由特征。",
+            "追踪下游因果影响：通过特征影响评分与干预证据，筛选参与安全相关计算的跨层传播路径。",
+            "执行柔性重对齐：以最优传输近似将选中激活的边缘分布映射至安全参考分布，并保持干预点未选中的坐标不变。"
+          ],
+          "evidence": [
+            "在论文报告的 LLM 攻击组合上，LLaMA3-8B-Instruct 与 Mistral-7B-Instruct 的平均防御成功率分别达到 99.5 ± 0.3% 和 98.8 ± 0.3%。评估还覆盖多模态大语言模型与扩散模型。",
+            "安全结果同时配有通用能力测量：上述两个语言模型在 Global-MMLU-Lite 上分别下降 0.4 和 0.6 个百分点。这些是实验中的能力代价，不能由“未选中坐标保持不变”这一局部性质直接推导。"
+          ],
+          "takeaway": [
+            "这项研究将安全控制表述为对信息流的塑形：因果追踪回答“干预哪里”，分布重对齐回答“如何改变”。二者的结合，使机制分析能够进一步转化为具有明确目标的模型控制。",
+            "方法的边界同样具有启发性：逐坐标传输通常不能保证联合依赖关系被完整保留，后续层也可能再次混合不同坐标。因此，局部干预的选择性需要与端到端的安全性、通用能力和过度拒答评估共同检验。"
+          ],
+          "highlights": [
+            {
+              "value": "99.5%",
+              "label": "LLaMA3 平均防御成功率"
+            },
+            {
+              "value": "三类模型",
+              "label": "语言、多模态与扩散模型"
+            },
+            {
+              "value": "最优传输",
+              "label": "激活分布的柔性重对齐"
+            }
+          ],
+          "thesis": "定位安全相关路径与设计激活修改方式，是安全干预中相互补充的两个问题。"
+        }
+      },
+      "figures": [
+        {
+          "path": "/assets/images/research/evidence/tracerouter-plus-plus-1.webp",
+          "page": 3,
+          "kind": "figure",
+          "number": 2,
+          "width": 1554,
+          "height": 711,
+          "title": {
+            "en": "Discover, trace, and realign",
+            "zh": "发现、追踪与重对齐"
+          },
+          "explanation": {
+            "en": "The original framework links onset localization, sparse routing features, causal influence tracing, and optimal transport realignment.",
+            "zh": "原始方法图连接敏感层定位、稀疏路由特征、因果影响追踪与最优传输重对齐。"
+          },
+          "source": "https://arxiv.org/pdf/2611.04878#page=3"
+        },
+        {
+          "path": "/assets/images/research/evidence/tracerouter-plus-plus-2.webp",
+          "page": 8,
+          "kind": "table",
+          "number": 2,
+          "width": 1542,
+          "height": 564,
+          "title": {
+            "en": "Defense against several language-model jailbreaks",
+            "zh": "多类语言模型越狱攻击下的防御结果"
+          },
+          "explanation": {
+            "en": "The table reports defense success rates, including 99.5 ± 0.3% and 98.8 ± 0.3% averages on the two evaluated LLMs.",
+            "zh": "原表报告防御成功率，两个被评估语言模型上的平均值分别为 99.5 ± 0.3% 和 98.8 ± 0.3%。"
+          },
+          "source": "https://arxiv.org/pdf/2611.04878#page=8"
+        },
+        {
+          "path": "/assets/images/research/evidence/tracerouter-plus-plus-3.webp",
+          "page": 12,
+          "kind": "figure",
+          "number": 8,
+          "width": 762,
+          "height": 768,
+          "title": {
+            "en": "Comparing path-level and neuron-level interventions",
+            "zh": "路径级与神经元级干预的比较"
+          },
+          "explanation": {
+            "en": "The ablation compares routing realignment with isolated neuron suppression across language, multimodal, and diffusion settings.",
+            "zh": "消融图在语言、多模态与扩散模型设置中，对比路由重对齐与孤立神经元抑制。"
+          },
+          "source": "https://arxiv.org/pdf/2611.04878#page=12"
+        }
+      ]
+    },
+    {
       "id": "revisiting-over-refusal",
       "category": "fundamental",
       "date": "2026-10",
@@ -3382,7 +3758,8 @@
         "source": "https://faculty.csu.edu.cn/kanshichao/zh_CN/index.htm",
         "status": "verified",
         "checked_on": "2026-11-04"
-      }
+      },
+      "display_author": "Hong Chengpeng"
     },
     {
       "id": "reflectrl",
@@ -4918,7 +5295,9 @@
         "source": "https://www.mq.edu.au/faculty-of-science-and-engineering/departments-and-schools/school-of-computing/our-people",
         "status": "verified",
         "checked_on": "2026-11-04"
-      }
+      },
+      "ccf": "A",
+      "ccf_source": "https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml"
     },
     {
       "id": "beyond-surface-artifacts",
@@ -5133,7 +5512,9 @@
         "source": "https://arxiv.org/pdf/2610.15322#page=1",
         "status": "verified",
         "checked_on": "2026-11-04"
-      }
+      },
+      "ccf": "A",
+      "ccf_source": "https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml"
     },
     {
       "id": "orthoeraser",
@@ -5348,7 +5729,9 @@
         "source": "https://arxiv.org/pdf/2610.15277#page=1",
         "status": "verified",
         "checked_on": "2026-11-04"
-      }
+      },
+      "ccf": "B",
+      "ccf_source": "https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml"
     },
     {
       "id": "transport-and-merge",
@@ -5568,7 +5951,9 @@
         "source": "https://arxiv.org/pdf/2601.22737#page=1",
         "status": "verified",
         "checked_on": "2026-11-04"
-      }
+      },
+      "ccf": "A",
+      "ccf_source": "https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml"
     },
     {
       "id": "who-transfers-safety",
@@ -5790,7 +6175,9 @@
         "source": "Provided by Shen Fei",
         "status": "provided",
         "checked_on": "2026-11-04"
-      }
+      },
+      "ccf": "A",
+      "ccf_source": "https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml"
     },
     {
       "id": "dna",
@@ -6011,7 +6398,9 @@
         "source": "https://arxiv.org/pdf/2610.15322#page=1",
         "status": "verified",
         "checked_on": "2026-11-04"
-      }
+      },
+      "ccf": "A",
+      "ccf_source": "https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml"
     },
     {
       "id": "lingua-safetybench",
@@ -6026,8 +6415,8 @@
         "zh": "通过受控基准区分语言覆盖与图像、文本主导风险，评估多语言多模态安全。"
       },
       "publication": {
-        "en": "Preprint",
-        "zh": "预印本"
+        "en": "TIFS 2026",
+        "zh": "TIFS 2026"
       },
       "authors": "Shi Enyi, Shao Pengyang, Zhang Yanxin, Cui Chenhang, Lyu Jiayi, Xia Xiaobo, Shen Fei, Chua Tat-Seng",
       "author_names": [
@@ -6231,7 +6620,11 @@
         "source": "https://arxiv.org/pdf/2601.22737#page=1",
         "status": "verified",
         "checked_on": "2026-11-04"
-      }
+      },
+      "ccf": "A",
+      "ccf_source": "https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml",
+      "journal": "IEEE Transactions on Information Forensics and Security",
+      "publication_year": 2026
     },
     {
       "id": "tracerouter",
@@ -6348,9 +6741,9 @@
       },
       "cover": "/assets/images/research/covers/tracerouter.webp",
       "related": [
+        "tracerouter-plus-plus",
         "moving-safety-barrier",
-        "no-single-neuron",
-        "orthoeraser"
+        "no-single-neuron"
       ],
       "figures": [
         {
@@ -6450,7 +6843,9 @@
         "source": "https://arxiv.org/pdf/2610.15277#page=1",
         "status": "verified",
         "checked_on": "2026-11-04"
-      }
+      },
+      "ccf": "A",
+      "ccf_source": "https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml"
     },
     {
       "id": "where-culture-fades",
@@ -6677,7 +7072,9 @@
         "source": "https://arxiv.org/pdf/2610.15277#page=1",
         "status": "verified",
         "checked_on": "2026-11-04"
-      }
+      },
+      "ccf": "A",
+      "ccf_source": "https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml"
     }
   ],
   "article_ui": {

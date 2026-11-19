@@ -100,3 +100,9 @@ button:focus-visible,a:focus-visible,input:focus-visible{outline:2px solid var(-
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
 /* Concept covers keep the same clean crop at every viewport. */
 .paper-image{padding:0}.paper-image img{max-height:none}
+
+/* Venue ranks from the 2026 CCF directory. */
+.research-publication{display:inline-flex;align-items:center;flex-wrap:wrap;gap:8px;vertical-align:baseline}
+.research-publication .ccf-badge{display:inline-flex;align-items:center;white-space:nowrap;padding:1px 7px;border:1px solid #cbd8c7;border-radius:5px;background:#edf3e9;color:#35553e;font-size:14px;font-weight:600;line-height:1.5;letter-spacing:.02em}
+.research-publication .ccf-b{border-color:#ccd7df;background:#edf2f6;color:#445e73}
+.research-publication .ccf-c{border-color:#e2d5bd;background:#f8f3e8;color:#775f32}

@@ -27,7 +27,17 @@ def article_path(paper, locale):
 
 
 def author_html(paper):
-    return f'<strong class="author-name">{esc(paper["author_names"][0])}</strong>'
+    return f'<strong class="author-name">{esc(paper.get("display_author") or paper["author_names"][0])}</strong>'
+
+
+def publication_html(paper, locale):
+    label = esc(paper['publication'][locale])
+    rank = paper.get('ccf')
+    if rank not in ('A', 'B', 'C'):
+        return label
+    title = f'CCF {rank} 类（2026版目录）' if locale == 'zh' else f'CCF rank {rank} (2026 directory)'
+    badge = f'<span class="ccf-badge ccf-{rank.lower()}" title="{esc(title)}">CCF-{rank}</span>'
+    return f'<span class="research-publication">{label}{badge}</span>'
 
 
 def reading_minutes(paper, locale):
@@ -99,8 +109,9 @@ def related_research(paper, locale):
         p = lookup[slug]
         date = datetime.strptime(p['submitted'], '%Y-%m-%d')
         shown_date = f'{date.year}年{date.month}月{date.day}日' if locale == 'zh' else f'{date.strftime("%B")} {date.day}, {date.year}'
+        publication_meta = ('<span aria-hidden="true">·</span>' + publication_html(p, locale)) if p.get('ccf') else ''
         rows.append(f'''<a class="related-row" href="{esc(article_path(p, locale))}">
-          <div class="related-copy"><h3>{esc(p['title'][locale])}</h3><div class="related-meta"><time datetime="{esc(p['submitted'])}">{esc(shown_date)}</time><span aria-hidden="true">·</span>{reading_time_html(p, locale)}</div></div>
+          <div class="related-copy"><h3>{esc(p['title'][locale])}</h3><div class="related-meta"><time datetime="{esc(p['submitted'])}">{esc(shown_date)}</time>{publication_meta}<span aria-hidden="true">·</span>{reading_time_html(p, locale)}</div></div>
           <p class="related-authors">{author_html(p)}</p><span class="related-arrow" aria-hidden="true">→</span>
         </a>''')
     return '\n'.join(rows)
@@ -155,7 +166,7 @@ def render(locale):
         <div class="paper-copy">
           <span class="category-tag">{esc(category)}</span>{topic_tag}
           <h2 id="title-{esc(paper['id'])}"><a href="{introduction_url}">{esc(title)}</a></h2>
-          <p class="paper-meta"><span class="paper-authors">{author_html(paper)}</span><span class="paper-date"><time datetime="{esc(paper['date'])}">{esc(shown_date)}</time><span class="separator" aria-hidden="true">·</span>{esc(paper['publication'][locale])}<span class="separator" aria-hidden="true">·</span>{reading_time_html(paper, locale)}</span></p>
+          <p class="paper-meta"><span class="paper-authors">{author_html(paper)}</span><span class="paper-date"><time datetime="{esc(paper['date'])}">{esc(shown_date)}</time><span class="separator" aria-hidden="true">·</span>{publication_html(paper, locale)}<span class="separator" aria-hidden="true">·</span>{reading_time_html(paper, locale)}</span></p>
           <p class="paper-summary">{esc(paper['summary'][locale])}</p>
           <div class="paper-links">
             <a class="paper-introduction-link" href="{introduction_url}">{esc(ui['introduction_link'])} <span aria-hidden="true">→</span></a>
@@ -212,7 +223,7 @@ def render_article(paper, locale):
         'READING_TIME': reading_time_html(paper, locale),
         'AUTHOR_CONTACT': contact_author_html(paper, locale),
         'DATE_ISO': esc(paper['submitted']), 'DATE_DISPLAY': esc(display_date),
-        'PUBLICATION': esc(paper['publication'][locale]),
+        'PUBLICATION': publication_html(paper, locale),
         'PAPER': esc(paper['paper']), 'PDF': esc(paper['pdf']),
         'IMAGE': esc(paper['cover']),
         'FIGURE_ALT': esc(ui['concept_label'] + ': ' + title),
@@ -242,6 +253,15 @@ def render_article(paper, locale):
               '  eprint = {' + paper['paper'].rstrip('/').split('/')[-1] + '},\n'
               '  archivePrefix = {arXiv},\n'
               '  url = {' + paper['paper'] + '}\n}')
+    if paper.get('journal'):
+        fields = [('title', paper['title']['en']),
+                  ('author', ' and '.join(paper['authors_bibtex'])),
+                  ('journal', paper['journal']),
+                  ('year', str(paper.get('publication_year', submitted.year)))]
+        if paper.get('doi'):
+            fields.append(('doi', paper['doi']))
+        fields.append(('url', ('https://doi.org/' + paper['doi']) if paper.get('doi') else paper['paper']))
+        bibtex = '@article{' + paper['id'].replace('-', '_') + ',\n' + ',\n'.join('  ' + key + ' = {' + value + '}' for key, value in fields) + '\n}'
     values['BIBTEX'] = esc(bibtex)
     schema = {'@context': 'https://schema.org', '@type': 'Article',
               'headline': title, 'description': article['deck'],
