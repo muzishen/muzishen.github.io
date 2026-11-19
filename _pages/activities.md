@@ -33,6 +33,7 @@ author_profile: true
 
 # 💬 **Invited Talks**
 
+- *2026.10*, Latent Knowledge of Large Foundation Models, Peking University.
 - *2026.09*, Latent Knowledge of Large Foundation Models, Nanjing University of Science and Technology.
 
 - *2025.08*, Controllable virtual dressing/try-on, Meituan internal talk.
