@@ -72,7 +72,8 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
 
 
 # 🔥 News {#news}
-- **2026.11**: &nbsp;🎉 <strong>One</strong> paper received the <strong style="color: #a16207;">Outstanding Paper Award</strong> at <strong style="color: #a16207;">ACM MM 2026</strong>.
+- *2026.11*: &nbsp;🎉 <strong>One</strong> paper was accepted by <strong style="color: #2563eb;">IEEE TIFS</strong> (JCR Q1, IF=8.7).
+- *2026.11*: &nbsp;🎉 <strong>One</strong> paper received the <strong style="color: #a16207;">Outstanding Paper Award</strong> at <strong style="color: #a16207;">ACM MM 2026</strong>.
 - *2026.10*: &nbsp;🎉 <strong>One</strong> paper was accepted by <strong style="color: #2563eb;">TPAMI</strong> (JCR Q1, IF=20.398).
 - *2026.09*: &nbsp;🎉 <strong>Two</strong> papers were accepted by <strong style="color: #2563eb;">NeurIPS</strong> (Acceptance Rate 25.73%,  <span style="color: #b45309; font-weight: 600;">1 spotlight</span>).
 - *2026.09*: &nbsp;🎉 <strong>One</strong> paper was accepted by <strong style="color: #2563eb;">TNNLS</strong> (JCR Q1, IF=9.7).
