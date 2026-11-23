@@ -113,6 +113,22 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
 # 📝 Selected Publications
 
 <div class="pub-row">
+  <div class="pub-left">
+    <div class="thumb">
+      <img src="{{ '/images/paper-images/safetybench.png' | relative_url }}" alt="lingua-safetybench">
+    </div>
+  </div>
+  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
+    <strong>Lingua-SafetyBench: A Benchmark for Safety Evaluation of Multilingual Vision-Language Models</strong><br>
+    E. Shi, P. Shao, Y. Zhang, C. Cui, J. Lyu, X. Xie, X. Xia, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
+    IEEE Transactions on Information Forensics and Security (<strong>IEEE TIFS</strong>), 2026.<br>
+    <a href="https://arxiv.org/pdf/2601.22737" target="_blank">[PDF]</a>
+      &nbsp;&nbsp;
+    <a href="https://github.com/zsxr15/Lingua-SafetyBench" target="_blank">[Code]</a>
+  </div>
+</div>
+
+<div class="pub-row">
   <div class="pub-left"><div class="thumb"><img src="{{ '/assets/images/research/evidence/circe-1.webp' | relative_url }}" alt="Circe: Training-Free LLM Self-Evaluation via Component Interaction Consistency"></div></div>
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>Circe: Training-Free LLM Self-Evaluation via Component Interaction Consistency</strong><br>
@@ -562,24 +578,6 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     <a href="https://github.com/zsxr15/Lingua-SafetyBench" target="_blank">[Code]</a>
   </div>
 </div>
-
-
-<div class="pub-row">
-  <div class="pub-left">
-    <div class="thumb">
-      <img src="{{ '/images/paper-images/safetybench.png' | relative_url }}" alt="lingua-safetybench">
-    </div>
-  </div>
-  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
-    <strong>Lingua-SafetyBench: A Benchmark for Safety Evaluation of Multilingual Vision-Language Models</strong><br>
-    E. Shi, P. Shao, Y. Zhang, C. Cui, J. Lyu, X. Xie, X. Xia, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
-    IEEE Transactions on Information Forensics and Security (<strong>IEEE TIFS</strong>), 2026.<br>
-    <a href="https://arxiv.org/pdf/2601.22737" target="_blank">[PDF]</a>
-      &nbsp;&nbsp;
-    <a href="https://github.com/zsxr15/Lingua-SafetyBench" target="_blank">[Code]</a>
-  </div>
-</div>
-
 
 
 <div class="pub-row">
