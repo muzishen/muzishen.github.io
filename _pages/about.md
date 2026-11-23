@@ -163,7 +163,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     arXiv preprint arXiv:2610.04490, 2026.<br>
     <a href="https://arxiv.org/pdf/2610.04490" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
-    <a href="https://github.com/Luo1Yan/HSA" target="_blank">[Code]</a>
+    <a href="https://github.com/chenhangcuisg-code/BARQ" target="_blank">[Code]</a>
   </div>
 </div>
 
@@ -229,7 +229,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     arXiv preprint arXiv:2610.04992, 2026.<br>
     <a href="https://arxiv.org/pdf/2610.04992" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
-    <a href="https://github.com/chenhangcuisg-code/Cross-Architecture-Merging-for-Large-Language-Models" target="_blank">[Code]</a>
+    <a href="https://github.com/msy0513/ContractLens" target="_blank">[Code]</a>
   </div>
 </div>
 
@@ -262,7 +262,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     arXiv preprint arXiv:2610.04489, 2026.<br>
     <a href="https://arxiv.org/pdf/2610.04489" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
-    <a href="https://github.com/chenhangcuisg-code/Cross-Architecture-Merging-for-Large-Language-Models" target="_blank">[Code]</a>
+    <a href="https://github.com/chenhangcuisg-code/DV-Lens" target="_blank">[Code]</a>
   </div>
 </div>
 
@@ -487,7 +487,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     ACM International Conference on Multimedia (<strong>ACM MM</strong>), 2026.<br>
     <a href="https://arxiv.org/pdf/2607.25962" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
-    <a href="https://github.com/chenhangcuisg-code/Cross-Architecture-Merging-for-Large-Language-Models" target="_blank">[Code]</a>
+    <a href="https://github.com/Healgney/LaP-Forensics" target="_blank">[Code]</a>
   </div>
 </div>
 
@@ -575,7 +575,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     International Conference on Machine Learning (<strong>ICML</strong>), 2026.<br>
     <a href="https://arxiv.org/abs/2601.22515" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
-    <a href="https://github.com/zsxr15/Lingua-SafetyBench" target="_blank">[Code]</a>
+    <a href="https://github.com/jocelyndou/DNA-Uncovering-Universal-Latent-Forgery-Knowledge" target="_blank">[Code]</a>
   </div>
 </div>
 
@@ -592,7 +592,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     International Conference on Machine Learning (<strong>ICML</strong>), 2026.<br>
     <a href="https://arxiv.org/pdf/2511.19912" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
-    <a href="https://github.com/XWH-A/IMAGEdit" target="_blank">[Code]</a>
+    <a href="https://github.com/xipi702/Reasoning-VLA" target="_blank">[Code]</a>
   </div>
 </div>
 
@@ -627,7 +627,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     International Conference on Machine Learning (<strong>ICML</strong>), 2026.<br>
     <a href="https://arxiv.org/pdf/2601.21900" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
-    <a href="https://github.com/XWH-A/IMAGEdit" target="_blank">[Code]</a>
+    <a href="https://github.com/LucasShi1101/TraceRouter" target="_blank">[Code]</a>
   </div>
 </div>
 
@@ -644,7 +644,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     The IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR (Highlight)</strong>), 2026.<br>
     <a href="https://arxiv.org/pdf/2511.17282" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
-    <a href="https://github.com/XWH-A/IMAGEdit" target="_blank">[Code]</a>
+    <a href="https://github.com/LucasShi1101/Where_Culture_Fade" target="_blank">[Code]</a>
   </div>
 </div>
 
@@ -880,7 +880,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     ACM Transactions on Multimedia Computing, Communications and Applications (<strong>ToMM</strong>), 2024<br>.
     <a href="https://dl.acm.org/doi/epdf/10.1145/3695255" target="_blank">[PDF]</a>
     &nbsp;&nbsp;
-    <a href="https://muzishen.github.io/" target="_blank">[Code]</a>
+    <a href="https://github.com/muzishen/TCRL" target="_blank">[Code]</a>
   </div>
 </div>
 
