@@ -2,6 +2,7 @@
 layout: single
 title: "Research Vision"
 permalink: /research-vision/
+redirect_to: https://latentknowledge.org/en/about/
 author_profile: true
 ---
 
