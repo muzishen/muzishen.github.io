@@ -117,7 +117,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>SAVERA: Bridging Frozen Vision and Language Models via Sparse Alignment and Visual Evidence Reuse</strong><br>
     J. Shen<sup>*</sup>, C. Shi<sup>*</sup>, J. Lyu, Y. Sun, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
-    arXiv preprint <a href="https://arxiv.org/abs/2611.32828" target="_blank" rel="noopener noreferrer">arXiv:2611.32828</a>, 2026.<br>
+    arXiv preprint arXiv:2611.32828, 2026.<br>
     <a href="https://arxiv.org/pdf/2611.32828" target="_blank" rel="noopener noreferrer">[PDF]</a>
     &nbsp;&nbsp;<a href="https://github.com/Jun-Shen04-Jia/SAVERA" target="_blank" rel="noopener noreferrer" title="Official code repository">[Code]</a>
   </div>
@@ -128,7 +128,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>Evaluating Latent Knowledge Stability in Multimodal Large Language Models</strong><br>
     C. Shi<sup>*</sup>, S. Li<sup>*</sup>, W. Wu, Z. Cheng, P. Shao, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
-    arXiv preprint <a href="https://arxiv.org/abs/2611.32566" target="_blank" rel="noopener noreferrer">arXiv:2611.32566</a>, 2026.<br>
+    arXiv preprint arXiv:2611.32566, 2026.<br>
     <a href="https://arxiv.org/pdf/2611.32566" target="_blank" rel="noopener noreferrer">[PDF]</a>
     &nbsp;&nbsp;<a href="https://github.com/LucasShi1101/MLLM_Stable_Valid" target="_blank" rel="noopener noreferrer" title="Official code repository">[Code]</a>
     &nbsp;&nbsp;<a href="https://huggingface.co/datasets/LucasLoading/MMStableBench" target="_blank" rel="noopener noreferrer" title="Official dataset repository">[Dataset]</a>
@@ -140,7 +140,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>UnifiedAD: One-Shot Anomaly Detection across Modalities via Evidence Calibration</strong><br>
     S. Li<sup>*</sup>, C. Shi<sup>*</sup>, S. Xie, W. Wu, X. Zhu, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
-    arXiv preprint <a href="https://arxiv.org/abs/2611.32551" target="_blank" rel="noopener noreferrer">arXiv:2611.32551</a>, 2026.<br>
+    arXiv preprint arXiv:2611.32551, 2026.<br>
     <a href="https://arxiv.org/pdf/2611.32551" target="_blank" rel="noopener noreferrer">[PDF]</a>
     &nbsp;&nbsp;<a href="https://github.com/LucasShi1101/UnifiedAD" target="_blank" rel="noopener noreferrer" title="Official code repository">[Code]</a>
   </div>
