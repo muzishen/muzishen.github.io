@@ -26,6 +26,22 @@ author_profile: true
 
   <li>
     <p>
+      <a href="https://arxiv.org/pdf/2611.32566" target="_blank" rel="noopener noreferrer">Evaluating Latent Knowledge Stability in Multimodal Large Language Models.</a><br>
+      C. Shi<sup>*</sup>, S. Li<sup>*</sup>, W. Wu, Z. Cheng, P. Shao, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
+      arXiv preprint <a href="https://arxiv.org/abs/2611.32566" target="_blank" rel="noopener noreferrer">arXiv:2611.32566</a>, 2026.<br>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <a href="https://arxiv.org/pdf/2611.32551" target="_blank" rel="noopener noreferrer">UnifiedAD: One-Shot Anomaly Detection across Modalities via Evidence Calibration.</a><br>
+      S. Li<sup>*</sup>, C. Shi<sup>*</sup>, S. Xie, W. Wu, X. Zhu, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
+      arXiv preprint <a href="https://arxiv.org/abs/2611.32551" target="_blank" rel="noopener noreferrer">arXiv:2611.32551</a>, 2026.<br>
+    </p>
+  </li>
+
+  <li>
+    <p>
       <a href="https://arxiv.org/pdf/2604.08364" target="_blank">MegaStyle: Constructing Diverse and Scalable Style Dataset via Consistent Text-to-Image Style Mapping.</a><br>
       J. Gao, S. Liu, J. Li, Y. Sun, Y. Tu, <strong>F. Shen</strong>, W. Zhang, C. Zhao, J. Zhang<br>
       Under Review.<br>

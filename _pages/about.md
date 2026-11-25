@@ -113,6 +113,29 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
 # 📝 Selected Publications
 
 <div class="pub-row">
+  <div class="pub-left"><div class="thumb"><img src="{{ '/images/paper-images/mmstablebench.webp' | relative_url }}" alt="Evaluating Latent Knowledge Stability in Multimodal Large Language Models"></div></div>
+  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
+    <strong>Evaluating Latent Knowledge Stability in Multimodal Large Language Models</strong><br>
+    C. Shi<sup>*</sup>, S. Li<sup>*</sup>, W. Wu, Z. Cheng, P. Shao, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
+    arXiv preprint <a href="https://arxiv.org/abs/2611.32566" target="_blank" rel="noopener noreferrer">arXiv:2611.32566</a>, 2026.<br>
+    <a href="https://arxiv.org/pdf/2611.32566" target="_blank" rel="noopener noreferrer">[PDF]</a>
+    &nbsp;&nbsp;<a href="https://github.com/LucasShi1101/MLLM_Stable_Valid" target="_blank" rel="noopener noreferrer" title="Official code repository">[Code]</a>
+    &nbsp;&nbsp;<a href="https://huggingface.co/datasets/LucasLoading/MMStableBench" target="_blank" rel="noopener noreferrer" title="Official dataset repository">[Dataset]</a>
+  </div>
+</div>
+
+<div class="pub-row">
+  <div class="pub-left"><div class="thumb"><img src="{{ '/images/paper-images/unifiedad.webp' | relative_url }}" alt="UnifiedAD: One-Shot Anomaly Detection across Modalities via Evidence Calibration"></div></div>
+  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
+    <strong>UnifiedAD: One-Shot Anomaly Detection across Modalities via Evidence Calibration</strong><br>
+    S. Li<sup>*</sup>, C. Shi<sup>*</sup>, S. Xie, W. Wu, X. Zhu, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
+    arXiv preprint <a href="https://arxiv.org/abs/2611.32551" target="_blank" rel="noopener noreferrer">arXiv:2611.32551</a>, 2026.<br>
+    <a href="https://arxiv.org/pdf/2611.32551" target="_blank" rel="noopener noreferrer">[PDF]</a>
+    &nbsp;&nbsp;<a href="https://github.com/LucasShi1101/UnifiedAD" target="_blank" rel="noopener noreferrer" title="Official code repository">[Code]</a>
+  </div>
+</div>
+
+<div class="pub-row">
   <div class="pub-left">
     <div class="thumb">
       <img src="{{ '/images/paper-images/safetybench.png' | relative_url }}" alt="lingua-safetybench">
