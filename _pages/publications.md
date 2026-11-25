@@ -26,6 +26,14 @@ author_profile: true
 
   <li>
     <p>
+      <a href="https://arxiv.org/pdf/2611.32828" target="_blank" rel="noopener noreferrer">SAVERA: Bridging Frozen Vision and Language Models via Sparse Alignment and Visual Evidence Reuse.</a><br>
+      J. Shen<sup>*</sup>, C. Shi<sup>*</sup>, J. Lyu, Y. Sun, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
+      arXiv preprint <a href="https://arxiv.org/abs/2611.32828" target="_blank" rel="noopener noreferrer">arXiv:2611.32828</a>, 2026.<br>
+    </p>
+  </li>
+
+  <li>
+    <p>
       <a href="https://arxiv.org/pdf/2611.32566" target="_blank" rel="noopener noreferrer">Evaluating Latent Knowledge Stability in Multimodal Large Language Models.</a><br>
       C. Shi<sup>*</sup>, S. Li<sup>*</sup>, W. Wu, Z. Cheng, P. Shao, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
       arXiv preprint <a href="https://arxiv.org/abs/2611.32566" target="_blank" rel="noopener noreferrer">arXiv:2611.32566</a>, 2026.<br>

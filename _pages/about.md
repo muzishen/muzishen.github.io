@@ -113,6 +113,17 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
 # 📝 Selected Publications
 
 <div class="pub-row">
+  <div class="pub-left"><div class="thumb"><img src="{{ '/images/paper-images/savera.webp' | relative_url }}" alt="SAVERA: Bridging Frozen Vision and Language Models via Sparse Alignment and Visual Evidence Reuse"></div></div>
+  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
+    <strong>SAVERA: Bridging Frozen Vision and Language Models via Sparse Alignment and Visual Evidence Reuse</strong><br>
+    J. Shen<sup>*</sup>, C. Shi<sup>*</sup>, J. Lyu, Y. Sun, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
+    arXiv preprint <a href="https://arxiv.org/abs/2611.32828" target="_blank" rel="noopener noreferrer">arXiv:2611.32828</a>, 2026.<br>
+    <a href="https://arxiv.org/pdf/2611.32828" target="_blank" rel="noopener noreferrer">[PDF]</a>
+    &nbsp;&nbsp;<a href="https://github.com/Jun-Shen04-Jia/SAVERA" target="_blank" rel="noopener noreferrer" title="Official code repository">[Code]</a>
+  </div>
+</div>
+
+<div class="pub-row">
   <div class="pub-left"><div class="thumb"><img src="{{ '/images/paper-images/mmstablebench.webp' | relative_url }}" alt="Evaluating Latent Knowledge Stability in Multimodal Large Language Models"></div></div>
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>Evaluating Latent Knowledge Stability in Multimodal Large Language Models</strong><br>
