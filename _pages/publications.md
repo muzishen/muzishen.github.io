@@ -26,6 +26,22 @@ author_profile: true
 
   <li>
     <p>
+      <a href="https://arxiv.org/pdf/2611.34640" target="_blank" rel="noopener noreferrer">PRAM: Activating Latent Multimodal Knowledge through Partwise Reasoning.</a><br>
+      H. Chen, Y. Guo, S. Li, Z. Mao, L. Xu, C. Xiao, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
+      arXiv preprint arXiv:2611.34640, 2026.<br>
+    </p>
+  </li>
+
+  <li>
+    <p>
+      <a href="https://arxiv.org/pdf/2611.34344" target="_blank" rel="noopener noreferrer">SPARC: Semantic Calibration with Latent Multimodal Knowledge for Robust Image-Text Retrieval.</a><br>
+      Z. Mao, W. Zhao, H. Chen, S. Li, Y. Wang, J. Bi, Y. Ma, J. Fang, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
+      arXiv preprint arXiv:2611.34344, 2026.<br>
+    </p>
+  </li>
+
+  <li>
+    <p>
       <a href="https://arxiv.org/pdf/2611.32828" target="_blank" rel="noopener noreferrer">SAVERA: Bridging Frozen Vision and Language Models via Sparse Alignment and Visual Evidence Reuse.</a><br>
       J. Shen<sup>*</sup>, C. Shi<sup>*</sup>, J. Lyu, Y. Sun, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
       arXiv preprint arXiv:2611.32828, 2026.<br>

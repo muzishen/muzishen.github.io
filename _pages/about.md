@@ -113,6 +113,31 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
 # 📝 Selected Publications
 
 <div class="pub-row">
+  <div class="pub-left"><div class="thumb"><img src="{{ '/images/paper-images/pram.webp' | relative_url }}" alt="PRAM method overview"></div></div>
+  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
+    <strong>PRAM: Activating Latent Multimodal Knowledge through Partwise Reasoning</strong><br>
+    H. Chen, Y. Guo, S. Li, Z. Mao, L. Xu, C. Xiao, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
+    arXiv preprint arXiv:2611.34640, 2026.<br>
+    <a href="https://arxiv.org/abs/2611.34640" target="_blank" rel="noopener noreferrer">[arXiv]</a>
+    &nbsp;&nbsp;<a href="https://arxiv.org/pdf/2611.34640" target="_blank" rel="noopener noreferrer">[PDF]</a>
+    &nbsp;&nbsp;<a href="https://luo1yan.github.io/PRAM/" target="_blank" rel="noopener noreferrer">[Project]</a>
+    &nbsp;&nbsp;<a href="https://github.com/Luo1Yan/PRAM" target="_blank" rel="noopener noreferrer">[Code]</a>
+    &nbsp;&nbsp;<a href="https://huggingface.co/datasets/Rowance/PRAM-features" target="_blank" rel="noopener noreferrer">[Features]</a>
+  </div>
+</div>
+
+<div class="pub-row">
+  <div class="pub-left"><div class="thumb"><img src="{{ '/images/paper-images/sparc.webp' | relative_url }}" alt="SPARC method overview"></div></div>
+  <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
+    <strong>SPARC: Semantic Calibration with Latent Multimodal Knowledge for Robust Image-Text Retrieval</strong><br>
+    Z. Mao, W. Zhao, H. Chen, S. Li, Y. Wang, J. Bi, Y. Ma, J. Fang, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
+    arXiv preprint arXiv:2611.34344, 2026.<br>
+    <a href="https://arxiv.org/abs/2611.34344" target="_blank" rel="noopener noreferrer">[arXiv]</a>
+    &nbsp;&nbsp;<a href="https://arxiv.org/pdf/2611.34344" target="_blank" rel="noopener noreferrer">[PDF]</a>
+  </div>
+</div>
+
+<div class="pub-row">
   <div class="pub-left"><div class="thumb"><img src="{{ '/images/paper-images/savera.webp' | relative_url }}" alt="SAVERA: Bridging Frozen Vision and Language Models via Sparse Alignment and Visual Evidence Reuse"></div></div>
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>SAVERA: Bridging Frozen Vision and Language Models via Sparse Alignment and Visual Evidence Reuse</strong><br>
