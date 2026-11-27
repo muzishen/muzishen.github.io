@@ -118,11 +118,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     <strong>PRAM: Activating Latent Multimodal Knowledge through Partwise Reasoning</strong><br>
     H. Chen, Y. Guo, S. Li, Z. Mao, L. Xu, C. Xiao, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
     arXiv preprint arXiv:2611.34640, 2026.<br>
-    <a href="https://arxiv.org/abs/2611.34640" target="_blank" rel="noopener noreferrer">[arXiv]</a>
-    &nbsp;&nbsp;<a href="https://arxiv.org/pdf/2611.34640" target="_blank" rel="noopener noreferrer">[PDF]</a>
-    &nbsp;&nbsp;<a href="https://luo1yan.github.io/PRAM/" target="_blank" rel="noopener noreferrer">[Project]</a>
-    &nbsp;&nbsp;<a href="https://github.com/Luo1Yan/PRAM" target="_blank" rel="noopener noreferrer">[Code]</a>
-    &nbsp;&nbsp;<a href="https://huggingface.co/datasets/Rowance/PRAM-features" target="_blank" rel="noopener noreferrer">[Features]</a>
+    {% include publication-links.html pdf="https://arxiv.org/pdf/2611.34640" code="https://github.com/Luo1Yan/PRAM" %}
   </div>
 </div>
 
@@ -132,8 +128,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     <strong>SPARC: Semantic Calibration with Latent Multimodal Knowledge for Robust Image-Text Retrieval</strong><br>
     Z. Mao, W. Zhao, H. Chen, S. Li, Y. Wang, J. Bi, Y. Ma, J. Fang, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
     arXiv preprint arXiv:2611.34344, 2026.<br>
-    <a href="https://arxiv.org/abs/2611.34344" target="_blank" rel="noopener noreferrer">[arXiv]</a>
-    &nbsp;&nbsp;<a href="https://arxiv.org/pdf/2611.34344" target="_blank" rel="noopener noreferrer">[PDF]</a>
+    {% include publication-links.html pdf="https://arxiv.org/pdf/2611.34344" %}
   </div>
 </div>
 
@@ -143,8 +138,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     <strong>SAVERA: Bridging Frozen Vision and Language Models via Sparse Alignment and Visual Evidence Reuse</strong><br>
     J. Shen<sup>*</sup>, C. Shi<sup>*</sup>, J. Lyu, Y. Sun, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
     arXiv preprint arXiv:2611.32828, 2026.<br>
-    <a href="https://arxiv.org/pdf/2611.32828" target="_blank" rel="noopener noreferrer">[PDF]</a>
-    &nbsp;&nbsp;<a href="https://github.com/Jun-Shen04-Jia/SAVERA" target="_blank" rel="noopener noreferrer" title="Official code repository">[Code]</a>
+    {% include publication-links.html pdf="https://arxiv.org/pdf/2611.32828" code="https://github.com/Jun-Shen04-Jia/SAVERA" %}
   </div>
 </div>
 
@@ -154,9 +148,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     <strong>Evaluating Latent Knowledge Stability in Multimodal Large Language Models</strong><br>
     C. Shi<sup>*</sup>, S. Li<sup>*</sup>, W. Wu, Z. Cheng, P. Shao, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
     arXiv preprint arXiv:2611.32566, 2026.<br>
-    <a href="https://arxiv.org/pdf/2611.32566" target="_blank" rel="noopener noreferrer">[PDF]</a>
-    &nbsp;&nbsp;<a href="https://github.com/LucasShi1101/MLLM_Stable_Valid" target="_blank" rel="noopener noreferrer" title="Official code repository">[Code]</a>
-    &nbsp;&nbsp;<a href="https://huggingface.co/datasets/LucasLoading/MMStableBench" target="_blank" rel="noopener noreferrer" title="Official dataset repository">[Dataset]</a>
+    {% include publication-links.html pdf="https://arxiv.org/pdf/2611.32566" code="https://github.com/LucasShi1101/MLLM_Stable_Valid" repo_only=true %}
   </div>
 </div>
 
@@ -166,8 +158,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     <strong>UnifiedAD: One-Shot Anomaly Detection across Modalities via Evidence Calibration</strong><br>
     S. Li<sup>*</sup>, C. Shi<sup>*</sup>, S. Xie, W. Wu, X. Zhu, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
     arXiv preprint arXiv:2611.32551, 2026.<br>
-    <a href="https://arxiv.org/pdf/2611.32551" target="_blank" rel="noopener noreferrer">[PDF]</a>
-    &nbsp;&nbsp;<a href="https://github.com/LucasShi1101/UnifiedAD" target="_blank" rel="noopener noreferrer" title="Official code repository">[Code]</a>
+    {% include publication-links.html pdf="https://arxiv.org/pdf/2611.32551" code="https://github.com/LucasShi1101/UnifiedAD" repo_only=true %}
   </div>
 </div>
 
@@ -181,9 +172,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     <strong>Lingua-SafetyBench: A Benchmark for Safety Evaluation of Multilingual Vision-Language Models</strong><br>
     E. Shi, P. Shao, Y. Zhang, C. Cui, J. Lyu, X. Xie, X. Xia, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
     IEEE Transactions on Information Forensics and Security (<strong>IEEE TIFS</strong>), 2026.<br>
-    <a href="https://arxiv.org/pdf/2601.22737" target="_blank">[PDF]</a>
-      &nbsp;&nbsp;
-    <a href="https://github.com/zsxr15/Lingua-SafetyBench" target="_blank">[Code]</a>
+    {% include publication-links.html pdf="https://arxiv.org/pdf/2601.22737" code="https://github.com/zsxr15/Lingua-SafetyBench" %}
   </div>
 </div>
 
@@ -193,8 +182,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     <strong>Circe: Training-Free LLM Self-Evaluation via Component Interaction Consistency</strong><br>
     S. Miao, Z. Li, X. Xie, L. Xu, <strong>F. Shen</strong><sup>✉</sup>, X. Du, T.-S. Chua<br>
     arXiv preprint arXiv:2611.07948, 2026.<br>
-    <a href="https://arxiv.org/pdf/2611.07948" target="_blank" rel="noopener noreferrer">[PDF]</a>
-    &nbsp;&nbsp;<a href="https://github.com/XWH-A/IMAGEdit" target="_blank" rel="noopener noreferrer">[Code]</a>
+    {% include publication-links.html pdf="https://arxiv.org/pdf/2611.07948" code="https://github.com/msy0513/Circe-main" %}
   </div>
 </div>
 
@@ -204,8 +192,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     <strong>TraceRouter++: Causal Semantic Routing Realignment via Optimal Transport</strong><br>
     C. Shi<sup>†</sup>, S. Li<sup>†</sup>, W. Wu, H. Chen, <strong>F. Shen</strong><sup>✉</sup>, L. Zhuo, Z. Wang, T.-S. Chua<br>
     IEEE Transactions on Pattern Analysis and Machine Intelligence (<strong>IEEE TPAMI</strong>), 2026.<br>
-    <a href="https://arxiv.org/pdf/2611.04878" target="_blank" rel="noopener noreferrer">[PDF]</a>
-    &nbsp;&nbsp;<a href="https://github.com/XWH-A/IMAGEdit" target="_blank" rel="noopener noreferrer">[Code]</a>
+    {% include publication-links.html pdf="https://arxiv.org/pdf/2611.04878" %}
   </div>
 </div>
 
@@ -220,9 +207,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     <strong>BARQ: Balanced Codebook Refinement for Low-Bit LLM Quantization</strong><br>
     C. Cui, X. Xie, L. Xu, X. Liu, X. Zhu, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
     arXiv preprint arXiv:2610.04490, 2026.<br>
-    <a href="https://arxiv.org/pdf/2610.04490" target="_blank">[PDF]</a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/chenhangcuisg-code/BARQ" target="_blank">[Code]</a>
+    {% include publication-links.html pdf="https://arxiv.org/pdf/2610.04490" code="https://github.com/chenhangcuisg-code/BARQ" %}
   </div>
 </div>
 
@@ -236,9 +221,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     <strong>Do correct answers have stable latent knowledge support?</strong><br>
     C. Shi, S. Li, W. Wu, K. Hu, <strong>F. Shen</strong><sup>✉</sup>, Z. Wang, T.-S. Chua<br>
     arXiv preprint arXiv:2610.15277, 2026.<br>
-    <a href="https://arxiv.org/pdf/2610.15277" target="_blank">[PDF]</a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/Luo1Yan/HSA" target="_blank">[Code]</a>
+    {% include publication-links.html pdf="https://arxiv.org/pdf/2610.15277" %}
   </div>
 </div>
 
@@ -252,9 +235,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     <strong>SuperAI: Merging Capabilities Across Heterogeneous Foundation Models</strong><br>
     J. Dou, C. Shi, W. Wu, W. Bao, <strong>F. Shen</strong><sup>✉</sup>, Z. Wang, T.-S. Chua<br>
     arXiv preprint arXiv:2610.15322, 2026.<br>
-    <a href="https://arxiv.org/pdf/2610.15322" target="_blank">[PDF]</a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/Luo1Yan/HSA" target="_blank">[Code]</a>
+    {% include publication-links.html pdf="https://arxiv.org/pdf/2610.15322" code="https://github.com/jocelyndou/SuperAI_Merge" repo_only=true %}
   </div>
 </div>
 
@@ -269,9 +250,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     <strong>Forensic Reserve: Eliciting Latent Knowledge for Image Forgery Detection</strong><br>
     J. Li, Z. John, T. Zhong, F. Wu, T. Xu, J. Zheng, Y. Mo, <strong>F. Shen</strong><sup>✉</sup><br>
     arXiv preprint arXiv:2610.08639, 2026.<br>
-    <a href="https://arxiv.org/pdf/2610.08639" target="_blank">[PDF]</a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/Luo1Yan/HSA" target="_blank">[Code]</a>
+    {% include publication-links.html pdf="https://arxiv.org/pdf/2610.08639" %}
   </div>
 </div>
 
@@ -286,9 +265,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     <strong>ContractLens: Latent Security Knowledge for Malicious Smart Contract Detection</strong><br>
     S. Miao, X. Huang, W. Qiu, <strong>F. Shen</strong><sup>✉</sup>, J. He, Z. Zheng, T.-S. Chua<br>
     arXiv preprint arXiv:2610.04992, 2026.<br>
-    <a href="https://arxiv.org/pdf/2610.04992" target="_blank">[PDF]</a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/msy0513/ContractLens" target="_blank">[Code]</a>
+    {% include publication-links.html pdf="https://arxiv.org/pdf/2610.04992" code="https://github.com/msy0513/ContractLens" %}
   </div>
 </div>
 
@@ -302,9 +279,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     <strong>EmoRSS: Mitigating Emotion-Induced Over-Refusal in Large Language Models</strong><br>
     S. Miao, Y. Ma, C. Cui, X. Liu, J. Dang, S. Zhuo, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
     arXiv preprint arXiv:2610.04998, 2026.<br>
-    <a href="https://arxiv.org/pdf/2610.04998" target="_blank">[PDF]</a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/chenhangcuisg-code/Cross-Architecture-Merging-for-Large-Language-Models" target="_blank">[Code]</a>
+    {% include publication-links.html pdf="https://arxiv.org/pdf/2610.04998" code="https://github.com/msy0513/EmoRSS" %}
   </div>
 </div>
 
@@ -319,9 +294,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     <strong>DV-Lens: Revealing the Functional Organization of Language Model Parameters</strong><br>
     C. Cui, J. Yu, S. Miao, X. Liu, R. Huang, <strong>F. Shen</strong><sup>✉</sup>, A. Zhang, T.-S. Chua<br>
     arXiv preprint arXiv:2610.04489, 2026.<br>
-    <a href="https://arxiv.org/pdf/2610.04489" target="_blank">[PDF]</a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/chenhangcuisg-code/DV-Lens" target="_blank">[Code]</a>
+    {% include publication-links.html pdf="https://arxiv.org/pdf/2610.04489" code="https://github.com/chenhangcuisg-code/DV-Lens" %}
   </div>
 </div>
 
@@ -337,9 +310,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     <strong>ACTR: Aligning Thoughts and Responses for Multilingual Safety in Reasoning LLMs</strong><br>
     X. Zhang, J. Yu, C. Xie, C. Cui, S. Miao, P. Shao, Y. Zheng, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
     arXiv preprint arXiv:2609.37054, 2026.<br>
-    <a href="https://arxiv.org/pdf/2609.37054" target="_blank">[PDF]</a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/chenhangcuisg-code/Cross-Architecture-Merging-for-Large-Language-Models" target="_blank">[Code]</a>
+    {% include publication-links.html pdf="https://arxiv.org/pdf/2609.37054" %}
   </div>
 </div>
 
@@ -355,9 +326,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     Y. Guo, H. Chen, L. Xu, X. Liu, C. Shi, C. Xiao, D. Zhang, 
     <strong>F. Shen</strong><sup>✉</sup>, L. Shen, T.-S. Chua<br>
     arXiv preprint arXiv:2609.17094, 2026.<br>
-    <a href="https://arxiv.org/pdf/2609.17094" target="_blank">[PDF]</a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/Luo1Yan/HSA" target="_blank">[Code]</a>
+    {% include publication-links.html pdf="https://arxiv.org/pdf/2609.17094" code="https://github.com/Luo1Yan/HSA" %}
   </div>
 </div>
 
@@ -372,9 +341,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     <strong>SketchDiff: Progressive Diffusion for Photorealistic Portrait Generation From Rough Sketches</strong><br>
     C. Yang, D. Zhang, L. Xing, Q. Song, C. Wang, <strong>F. Shen</strong><sup>✉</sup><br>
     IEEE Transactions on Neural Networks and Learning Systems (TNNLS), 2026.<br>
-    <a href="https://ieeexplore.ieee.org/abstract/document/11711316" target="_blank">[PDF]</a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/chenhangcuisg-code/Cross-Architecture-Merging-for-Large-Language-Models" target="_blank">[Code]</a>
+    {% include publication-links.html pdf="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11711316" %}
   </div>
 </div>
 
@@ -388,9 +355,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     <strong>Who Bridges Safety? Identifying and Targeting Cross-Lingual Shared Safety Pathways</strong><br>
     S. Miao, W. Qiu, P. Shao, C. Xiao, <strong>F. Shen</strong><sup>✉</sup>, Z. Zheng, T.-S. Chua<br>
     Under Review.<br>
-    <a href="https://arxiv.org/pdf/2608.09095" target="_blank">[PDF]</a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/msy0513/shared-safety-pathways" target="_blank">[Code]</a>  
+    {% include publication-links.html pdf="https://arxiv.org/pdf/2608.09095" code="https://github.com/msy0513/shared-safety-pathways" %}
   </div>
 </div>
 
@@ -405,9 +370,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     <strong>UniDetect: LLM-Driven Universal Fraud Detection across Heterogeneous Blockchains</strong><br>
     S. Miao, W. Qiu, S. Zhuo, <strong>F. Shen</strong><sup>✉</sup>, D. Lin, X. Yu, T.-S. Chua, Z. Zheng<br>
     Under Review.<br>
-    <a href="https://arxiv.org/pdf/2604.12329" target="_blank">[PDF]</a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/msy0513/UniDetect" target="_blank">[Code]</a>  
+    {% include publication-links.html pdf="https://arxiv.org/pdf/2604.12329" code="https://github.com/msy0513/UniDetect" repo_only=true %}
   </div>
 </div>
 
@@ -422,9 +385,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     <strong>No Single Neuron of Failure: Distributed Safety Alignment Against White-Box Attacks</strong><br>
     S. Xie, C. Shi, S. Li, W. Wu, <strong>F. Shen</strong><sup>✉</sup>, Y. Zhou, Z. Wang, T.-S. Chua<br>
     Under Review.<br>
-    <a href="https://arxiv.org/pdf/2608.01414" target="_blank">[PDF]</a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/chenhangcuisg-code/Cross-Architecture-Merging-for-Large-Language-Models" target="_blank">[Code]</a>  
+    {% include publication-links.html pdf="https://arxiv.org/pdf/2608.01414" %}
   </div>
 </div>
 
@@ -439,9 +400,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     <strong>One Anchor for All: Unified Multilingual and Multimodal Safety Alignment for LVLMs</strong><br>
     E. Shi, <strong>F. Shen</strong><sup>†</sup>, C. Shi, L. Zhu, S. Miao, J. Tang, T.-S. Chua<br>
     Under Review.<br>
-    <a href="https://arxiv.org/pdf/2607.27917" target="_blank">[PDF]</a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/chenhangcuisg-code/Cross-Architecture-Merging-for-Large-Language-Models" target="_blank">[Code]</a>  
+    {% include publication-links.html pdf="https://arxiv.org/pdf/2607.27917" %}
   </div>
 </div>
 
@@ -456,9 +415,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     <strong>SafeNexus: Discovering and Steering Modality-Universal Safety Neurons in MLLMs</strong><br>
     J. Yu, <strong>F. Shen</strong><sup>†</sup>, C. Wang, J. Wang, L. J. Du, J. Tang, T.-S. Chua<br>
     Under Review.<br>
-    <a href="https://arxiv.org/pdf/2607.28969" target="_blank">[PDF]</a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/chenhangcuisg-code/Cross-Architecture-Merging-for-Large-Language-Models" target="_blank">[Code]</a>  
+    {% include publication-links.html pdf="https://arxiv.org/pdf/2607.28969" %}
   </div>
 </div>
 
@@ -474,9 +431,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     <strong>Moving the Safety Barrier: Dynamic Routing Adaptive Alignment Against White-Box Attacks</strong><br>
     S. Li, C. Shi, S. Xie, L. He, C. Ji, Z. Cheng, <strong>F. Shen</strong><sup>✉</sup>, C. Wu, T.-S. Chua<br>
     Under Review.<br>
-    <a href="https://arxiv.org/pdf/2608.02674" target="_blank">[PDF]</a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/chenhangcuisg-code/Cross-Architecture-Merging-for-Large-Language-Models" target="_blank">[Code]</a>  
+    {% include publication-links.html pdf="https://arxiv.org/pdf/2608.02674" %}
   </div>
 </div>
 
@@ -492,9 +447,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     <strong>V-FIND: Revealing the Intrinsic Forgery Knowledge Encoded in Video Forgery Detectors</strong><br>
     S. Kan, C. Hong, J. Dou, C. Shi, Y. Liu, L. Xu, Y. Liang, Y. Cen, Y. Sun, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
     Under Review.<br>
-    <a href="https://arxiv.org/pdf/2608.03008" target="_blank">[PDF]</a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/chenhangcuisg-code/Cross-Architecture-Merging-for-Large-Language-Models" target="_blank">[Code]</a>  
+    {% include publication-links.html pdf="https://arxiv.org/pdf/2608.03008" %}
   </div>
 </div>
 
@@ -509,9 +462,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     <strong>Latent Anomaly Knowledge Excavation: Unveiling Sparse Sensitive Neurons in Vision-Language Models</strong><br>
     S. Li, S. Li, C. Shi, W. Wu, Y. Wu, X. Yu, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
     ACM International Conference on Multimedia (<strong>ACM MM</strong>), 2026.<br>
-    <a href="https://arxiv.org/pdf/2604.07802" target="_blank">[PDF]</a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/chenhangcuisg-code/Cross-Architecture-Merging-for-Large-Language-Models" target="_blank">[Code]</a>
+    {% include publication-links.html pdf="https://arxiv.org/pdf/2604.07802" %}
   </div>
 </div>
 
@@ -527,9 +478,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     <strong>Beyond Surface Artifacts: Capturing Shared Latent Forgery Knowledge Across Modalities</strong><br>
     J. Dou, C. Shi, J. Wang, <strong>F. Shen</strong><sup>✉</sup>, Z. Wang, T.-S. Chua<br>
      ACM International Conference on Multimedia (<strong>ACM MM</strong>), 2026.<br>
-    <a href="https://arxiv.org/pdf/2604.07763" target="_blank">[PDF]</a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/chenhangcuisg-code/Cross-Architecture-Merging-for-Large-Language-Models" target="_blank">[Code]</a>
+    {% include publication-links.html pdf="https://arxiv.org/pdf/2604.07763" %}
   </div>
 </div>
 
@@ -544,9 +493,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     <strong>LaP-Forensics: Latent-Pixel Consistency Guided Multimodal Reasoning for Deepfake Detection</strong><br>
     C. Wang, Y. Wang, Y. Cao, C. Xiao, <strong>F. Shen</strong><sup>✉</sup><br>
     ACM International Conference on Multimedia (<strong>ACM MM</strong>), 2026.<br>
-    <a href="https://arxiv.org/pdf/2607.25962" target="_blank">[PDF]</a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/Healgney/LaP-Forensics" target="_blank">[Code]</a>
+    {% include publication-links.html pdf="https://arxiv.org/pdf/2607.25962" code="https://github.com/Healgney/LaP-Forensics" %}
   </div>
 </div>
 
@@ -560,9 +507,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     <strong>Selection, Aggregation, and Enhancement: Trajectory Consistent Diffusion Model for Image Super-Resolution</strong><br>
     D. Huang, Y. Guo, Y. Huang, L. Dai, <strong>F. Shen</strong><sup>✉</sup>, H. Zeng<br>
     IEEE Transactions on Image Processing (<strong>IEEE TIP</strong>), 2026.<br>
-    <a href="https://ieeexplore.ieee.org/abstract/document/11557511" target="_blank">[PDF]</a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/chenhangcuisg-code/Cross-Architecture-Merging-for-Large-Language-Models" target="_blank">[Code]</a>
+    {% include publication-links.html pdf="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11557511" %}
   </div>
 </div>
 
@@ -577,9 +522,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     <strong>VersaVogue: Visual Expert Orchestration and Preference Alignment for Unified Fashion Synthesis</strong><br>
     J. Yu, <strong>F. Shen</strong><sup>†</sup>, C. Wang, Y. Xin, S. Shen, X. Du, J. Tang<br>
     ACM International Conference on Multimedia (<strong>ACM MM</strong>), 2026.<br>
-    <a href="https://arxiv.org/pdf/2604.07210" target="_blank">[PDF]</a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/chenhangcuisg-code/Cross-Architecture-Merging-for-Large-Language-Models" target="_blank">[Code]</a>
+    {% include publication-links.html pdf="https://arxiv.org/pdf/2604.07210" code="https://github.com/revive234/VersaVogue" repo_only=true %}
   </div>
 </div>
 
@@ -594,9 +537,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     <strong>Transport and Merge: Cross-Architecture Merging for Large Language Models</strong><br>
     C. Cui, B. Yang, <strong>F. Shen</strong><sup>✉</sup>, Y. Chen, J. Zheng, X. Wang, A. Zhang, T.-S. Chua<br>
     International Conference on Machine Learning (<strong>ICML</strong>), 2026.<br>
-    <a href="https://arxiv.org/pdf/2602.05495" target="_blank">[PDF]</a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/chenhangcuisg-code/Cross-Architecture-Merging-for-Large-Language-Models" target="_blank">[Code]</a>
+    {% include publication-links.html pdf="https://arxiv.org/pdf/2602.05495" code="https://github.com/chenhangcuisg-code/Cross-Architecture-Merging-for-Large-Language-Models" %}
   </div>
 </div>
 
@@ -613,9 +554,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     X. Zhang, C. Xie, L. Zhu, Y. Yang, W. Zhao, Z. Cheng, C. Wang, <br>
     <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
     International Conference on Machine Learning (<strong>ICML</strong>), 2026.<br>
-    <a href="https://arxiv.org/pdf/2602.01283" target="_blank">[PDF]</a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/1518630367/SS-Neuron-Expansion" target="_blank">[Code]</a>
+    {% include publication-links.html pdf="https://arxiv.org/pdf/2602.01283" code="https://github.com/1518630367/SS-Neuron-Expansion" repo_only=true %}
   </div>
 </div>
 
@@ -632,9 +571,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     J. Dou, C. Shi, Y. Wang, S. Guo, A. Yi, W. Wu, L. Zhang,<br>
      <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
     International Conference on Machine Learning (<strong>ICML</strong>), 2026.<br>
-    <a href="https://arxiv.org/abs/2601.22515" target="_blank">[PDF]</a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/jocelyndou/DNA-Uncovering-Universal-Latent-Forgery-Knowledge" target="_blank">[Code]</a>
+    {% include publication-links.html pdf="https://arxiv.org/pdf/2601.22515" code="https://github.com/jocelyndou/DNA-Uncovering-Universal-Latent-Forgery-Knowledge" repo_only=true %}
   </div>
 </div>
 
@@ -649,9 +586,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     <strong>Reasoning-VLA: An Efficient and Spatial-Guided General Vision-Language-Action Reasoning Model for Autonomous Driving</strong><br>
     D. Zhang, Z. Yuan, Z. Chen, C.-T. Liao, Y. Chen, <strong>F. Shen</strong><sup>✉</sup>, Q. Zhou, T.-S. Chua<br>
     International Conference on Machine Learning (<strong>ICML</strong>), 2026.<br>
-    <a href="https://arxiv.org/pdf/2511.19912" target="_blank">[PDF]</a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/xipi702/Reasoning-VLA" target="_blank">[Code]</a>
+    {% include publication-links.html pdf="https://raw.githubusercontent.com/mlresearch/v306/main/assets/zhang26ib/zhang26ib.pdf" code="https://github.com/xipi702/Reasoning-VLA" repo_only=true %}
   </div>
 </div>
 
@@ -667,9 +602,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     <strong>OrthoEraser: Coupled-Neuron Orthogonal Projection for Concept Erasure</strong><br>
     C. Shi, W. Wu, <strong>F. Shen</strong><sup>✉</sup>, X. Zhu, K. Hu, Z. Wang<br>
     European Conference on Computer Vision (<strong>ECCV</strong>), 2026.<br>
-    <a href="https://arxiv.org/pdf/2603.11493" target="_blank">[PDF]</a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/XWH-A/IMAGEdit" target="_blank">[Code]</a>
+    {% include publication-links.html pdf="https://arxiv.org/pdf/2603.11493" %}
   </div>
 </div>
 
@@ -684,9 +617,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     <strong>TraceRouter: Robust Safety for Large Foundation Models via Path-Level Intervention</strong><br>
     C. Shi, S. Li, W. Lu, W. Wu, C. Wang, Z. Cheng, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
     International Conference on Machine Learning (<strong>ICML</strong>), 2026.<br>
-    <a href="https://arxiv.org/pdf/2601.21900" target="_blank">[PDF]</a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/LucasShi1101/TraceRouter" target="_blank">[Code]</a>
+    {% include publication-links.html pdf="https://arxiv.org/pdf/2601.21900" code="https://github.com/LucasShi1101/TraceRouter" repo_only=true %}
   </div>
 </div>
 
@@ -701,9 +632,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     <strong>Where Culture Fades: Revealing the Cultural Gap in Text-to-Image Generation</strong><br>
     C. Shi, S. Li, S. Guo, S. Xie, W. Wu, J. Dou, C. Wu, C. Xiao, C. Wang, Z. Cheng, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
     The IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR (Highlight)</strong>), 2026.<br>
-    <a href="https://arxiv.org/pdf/2511.17282" target="_blank">[PDF]</a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/LucasShi1101/Where_Culture_Fade" target="_blank">[Code]</a>
+    {% include publication-links.html pdf="https://arxiv.org/pdf/2511.17282" code="https://github.com/LucasShi1101/Where_Culture_Fade" repo_only=true %}
   </div>
 </div>
 
@@ -718,9 +647,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     <strong>IMAGAgent: Orchestrating Multi-Turn Image Editing via Constraint-Aware Planning and Reflection</strong><br>
     <strong>F. Shen</strong>, C. Xie, L. Wang, Z. Zhang, X. Jiang, X. Du, J. Tang<br>
     Under Review.<br>
-    <a href="https://arxiv.org/pdf/2603.29602" target="_blank">[PDF]</a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/hackermmzz/IMAGAgent" target="_blank">[Code]</a>
+    {% include publication-links.html pdf="https://arxiv.org/pdf/2603.29602" code="https://github.com/hackermmzz/IMAGAgent" %}
   </div>
 </div>
 
@@ -732,12 +659,10 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     </div>
   </div>
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
-    <strong>IMAGEdit : Let Any Subject Transform</strong><br>
+    <strong>IMAGEdit: Let Any Subject Transform</strong><br>
    <strong>F. Shen</strong>, W. Xu, R. Yan, D. Zhang, X. Shu, J. Tang<br>
     Under Review.<br>
-    <a href="https://arxiv.org/pdf/2510.01186" target="_blank">[PDF]</a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/XWH-A/IMAGEdit" target="_blank">[Code]</a>
+    {% include publication-links.html pdf="https://arxiv.org/pdf/2510.01186v1" code="https://github.com/XWH-A/ASTRA" %}
   </div>
 </div>
 
@@ -753,9 +678,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     <strong>IMAGHarmony: Controllable image editing with consistent object quantity and layout</strong><br>
     <strong>F. Shen</strong>, X. Du, Y. Gao, J. Yu, Y. Cao, X. Lei, J. Tang<br>
     Under Review.<br>
-    <a href="https://arxiv.org/pdf/2506.01949" target="_blank">[PDF]</a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/muzishen/IMAGHarmony" target="_blank">[Code]</a>
+    {% include publication-links.html pdf="https://arxiv.org/pdf/2506.01949" code="https://github.com/muzishen/IMAGHarmony" %}
   </div>
 </div>
 
@@ -772,9 +695,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     <strong>IMAGGarment+: Efficient Attribute-Wise Diffusion for Garment Generation</strong><br>
     J. Yu*, <strong>F. Shen*</strong>, C. Wang, Y. Sun, H. Tang, Q. Guo, X. Du<br>
     AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>), 2026.<br>
-    <a href="https://arxiv.org/pdf/2601.21900" target="_blank">[PDF]</a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/XWH-A/IMAGEdit" target="_blank">[Code]</a>
+    {% include publication-links.html pdf="https://ojs.aaai.org/index.php/AAAI/article/download/38203/42165" code="https://github.com/revive234/IMAGGarment-Plus" %}
   </div>
 </div>
 
@@ -788,10 +709,8 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>IMAGGarment: Fine-grained garment generation for controllable fashion design</strong><br>
     <strong>F. Shen</strong>, J. Yu, C. Wang, X. Jiang, X. Du, J. Tang<br>
-    IEEE Transactions on Visualization and Computer Graphics, (<strong>IEEE TVCG</strong>), 2026.<br>
-    <a href="https://arxiv.org/pdf/2504.13176" target="_blank">[PDF]</a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/muzishen/IMAGGarment" target="_blank">[Code]</a>
+    IEEE Transactions on Visualization and Computer Graphics (<strong>IEEE TVCG</strong>), 2026.<br>
+    {% include publication-links.html pdf="https://arxiv.org/pdf/2504.13176" code="https://github.com/muzishen/IMAGGarment" %}
   </div>
 </div>
 
@@ -806,9 +725,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     <strong>SGMHand: Structure-Guided Modulation for Structure-Aware Hand Inpainting</strong><br>
    C. Shi, S. Guo, Y. Chen, K. Shui, <strong>F. Shen</strong><sup>✉</sup><br>
     AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>), 2026.<br>
-    <a href="https://openreview.net/pdf?id=k8dzFj3yAF" target="_blank">[PDF]</a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/XWH-A/IMAGEdit" target="_blank">[Code]</a>
+    {% include publication-links.html pdf="https://ojs.aaai.org/index.php/AAAI/article/download/37849/41811" %}
   </div>
 </div>
 
@@ -822,9 +739,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     <strong>CoC-VLA: Delving into Adversarial Domain Transfer for Explainable Autonomous Driving via Chain-of-Causality Visual-Language-Action Model</strong><br>
     D. Zhang, <strong>F. Shen</strong><sup>✉</sup>, R. Zhao, Y. Chen, P. Zhi, C. Li, R. Zhou, Q. Zhou<br>
     Neural Information Processing Systems (<strong>NeurIPS</strong>), 2025.<br>
-    <a href="https://openreview.net/pdf?id=qUmULptJuY" target="_blank">[PDF]</a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/XWH-A/IMAGEdit" target="_blank">[Code]</a>
+    {% include publication-links.html pdf="https://papers.neurips.cc/paper_files/paper/2025/file/66d09284cfb6f125fe888f71dc14f35e-Paper-Conference.pdf" %}
   </div>
 </div>
 
@@ -840,9 +755,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     <strong>IMAGDressing-v1: Customizable Virtual Dressing</strong><br>
     <strong>F. Shen</strong>, X. Jiang, X. He, H. Ye, C. Wang, X. Du, Z. Li, J. Tang<br>
     AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>), 2025.<br>
-    <a href="https://arxiv.org/pdf/2407.12705" target="_blank">[PDF]</a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/muzishen/IMAGDressing" target="_blank">[Code]</a>
+    {% include publication-links.html pdf="https://arxiv.org/pdf/2407.12705" code="https://github.com/muzishen/IMAGDressing" %}
   </div>
 </div>
 <!-- END | IMAGDressing-v1 -->
@@ -859,9 +772,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     <strong>Long-Term TalkingFace Generation via Motion-Prior Conditional Diffusion Model</strong><br>
     <strong>F. Shen</strong>, C. Wang, J. Gao, Q. Guo, J. Dang, J. Tang, T.-S. Chua<br>
     International Conference on Machine Learning (<strong>ICML</strong>), 2025.<br>
-    <a href="https://arxiv.org/pdf/2502.09533" target="_blank">[PDF]</a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/muzishen/MCDM/" target="_blank">[Code]</a>
+    {% include publication-links.html pdf="https://arxiv.org/pdf/2502.09533" %}
   </div>
 </div>
 <!-- END | MCDM -->
@@ -877,9 +788,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     <strong>Boosting Consistency in Story Visualization with Rich-Contextual Conditional Diffusion Models</strong><br>
     <strong>F. Shen</strong>, H. Ye, S. Liu, J. Zhang, C. Wang, X. Han, W. Yang<br>
     AAAI Conference on Artificial Intelligence (<strong>AAAI</strong>), 2025.<br>
-    <a href="https://arxiv.org/pdf/2407.02482" target="_blank">[PDF]</a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/muzishen/RCDMs" target="_blank">[Code]</a>
+    {% include publication-links.html pdf="https://arxiv.org/pdf/2407.02482" code="https://github.com/muzishen/RCDMs" %}
   </div>
 </div>
 <!-- END | RCDMs -->
@@ -896,9 +805,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     <strong>IMAGPose: A Unified Conditional Framework for Pose-Guided Person Generation</strong><br>
     <strong>F. Shen</strong>, J. Tang<br>
     Neural Information Processing Systems (<strong>NeurIPS</strong>), 2024.<br>
-    <a href="https://openreview.net/pdf?id=6IyYa4gETN" target="_blank">[PDF]</a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/muzishen/IMAGPose" target="_blank">[Code]</a>
+    {% include publication-links.html pdf="https://proceedings.neurips.cc/paper_files/paper/2024/file/0bd32794b26cfc99214b89313764da8e-Paper-Conference.pdf" code="https://github.com/muzishen/IMAGPose" %}
   </div>
 </div>
 <!-- END | IMAGPose -->
@@ -920,9 +827,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     <strong>Advancing Pose-Guided Image Synthesis with Progressive Conditional Diffusion Models</strong><br>
     <strong>F. Shen</strong>, H. Ye, J. Zhang, C. Wang, X. Han, W. Yang<br>
     International Conference on Learning Representations (<strong>ICLR</strong>), 2024.<br>
-    <a href="https://arxiv.org/pdf/2310.06313.pdf" target="_blank">[PDF]</a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/tencent-ailab/PCDMs" target="_blank">[Code]</a>
+    {% include publication-links.html pdf="https://arxiv.org/pdf/2310.06313" code="https://github.com/tencent-ailab/PCDMs" %}
   </div>
 </div>
 <!-- END | PCDMs -->
@@ -936,10 +841,8 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>Triplet Contrastive Representation Learning for Unsupervised Vehicle Re-Identification</strong><br>
     <strong>F. Shen</strong>, X. Du, L. Zhang, X. Shu, J. Tang<br>
-    ACM Transactions on Multimedia Computing, Communications and Applications (<strong>ToMM</strong>), 2024<br>.
-    <a href="https://dl.acm.org/doi/epdf/10.1145/3695255" target="_blank">[PDF]</a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/muzishen/TCRL" target="_blank">[Code]</a>
+    ACM Transactions on Multimedia Computing, Communications and Applications (<strong>ToMM</strong>), 2024.<br>
+    {% include publication-links.html pdf="https://arxiv.org/pdf/2301.09498" code="https://github.com/muzishen/TCRL" repo_only=true %}
   </div>
 </div>
 
@@ -955,10 +858,8 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>GiT: Graph Interactive Transformer for Vehicle Re-identification</strong><br>
     <strong>F. Shen</strong>, Y. Xie, J. Zhu, X. Zhu, H. Zeng<br>
-    IEEE Transactions on Image Processing (<strong>IEEE TIP</strong>), 2023<br>
-    <a href="https://muzishen.github.io/" target="_blank">[PDF]</a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/muzishen/ReID-GiT" target="_blank">[Code]</a>
+    IEEE Transactions on Image Processing (<strong>IEEE TIP</strong>), 2023.<br>
+    {% include publication-links.html pdf="https://arxiv.org/pdf/2107.05475" %}
   </div>
 </div>
 <!-- END | GiT -->
@@ -972,10 +873,8 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>Exploring Spatial Significance via Hybrid Pyramidal Graph Network for Vehicle Re-Identification</strong><br>
     <strong>F. Shen</strong>, J. Zhu, X. Zhu, Y. Xie, J. Huang<br>
-    IEEE Transactions on Intelligent Transportation Systems, (<strong>IEEE TITS</strong>), 2023. <br>
-    <a href="https://muzishen.github.io/" target="_blank">[PDF]</a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/muzishen/HPGN" target="_blank">[Code]</a>
+    IEEE Transactions on Intelligent Transportation Systems (<strong>IEEE TITS</strong>), 2023.<br>
+    {% include publication-links.html pdf="https://arxiv.org/pdf/2005.14684" code="https://github.com/muzishen/HPGN" %}
   </div>
 </div>
 
@@ -991,9 +890,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     <strong>Pedestrian-specific Bipartite-aware Similarity Learning for Text-based Person Retrieval</strong><br>
     <strong>F. Shen</strong>, X. Shu, X. Du, J. Tang<br>
     ACM International Conference on Multimedia (<strong>ACM MM</strong>), 2023.<br>
-    <a href="https://muzishen.github.io/" target="_blank">[PDF]</a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/muzishen/PBSL" target="_blank">[Code]</a>
+    {% include publication-links.html pdf="https://dl.acm.org/doi/epdf/10.1145/3581783.3612009" %}
   </div>
 </div>
 <!-- END | PBSL -->
