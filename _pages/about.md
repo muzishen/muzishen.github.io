@@ -117,7 +117,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>PRAM: Activating Latent Multimodal Knowledge through Partwise Reasoning</strong><br>
     H. Chen, Y. Guo, S. Li, Z. Mao, L. Xu, C. Xiao, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
-    arXiv preprint arXiv:2611.34640, 2026.<br>
+    Under Review.<br>
     {% include publication-links.html pdf="https://arxiv.org/pdf/2611.34640" code="https://github.com/Luo1Yan/PRAM" %}
   </div>
 </div>
@@ -127,7 +127,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>SPARC: Semantic Calibration with Latent Multimodal Knowledge for Robust Image-Text Retrieval</strong><br>
     Z. Mao, W. Zhao, H. Chen, S. Li, Y. Wang, J. Bi, Y. Ma, J. Fang, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
-    arXiv preprint arXiv:2611.34344, 2026.<br>
+    Under Review.<br>
     {% include publication-links.html pdf="https://arxiv.org/pdf/2611.34344" %}
   </div>
 </div>
@@ -137,7 +137,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>SAVERA: Bridging Frozen Vision and Language Models via Sparse Alignment and Visual Evidence Reuse</strong><br>
     J. Shen<sup>*</sup>, C. Shi<sup>*</sup>, J. Lyu, Y. Sun, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
-    arXiv preprint arXiv:2611.32828, 2026.<br>
+    Under Review.<br>
     {% include publication-links.html pdf="https://arxiv.org/pdf/2611.32828" code="https://github.com/Jun-Shen04-Jia/SAVERA" %}
   </div>
 </div>
@@ -147,7 +147,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>Evaluating Latent Knowledge Stability in Multimodal Large Language Models</strong><br>
     C. Shi<sup>*</sup>, S. Li<sup>*</sup>, W. Wu, Z. Cheng, P. Shao, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
-    arXiv preprint arXiv:2611.32566, 2026.<br>
+    Under Review.<br>
     {% include publication-links.html pdf="https://arxiv.org/pdf/2611.32566" code="https://github.com/LucasShi1101/MLLM_Stable_Valid" repo_only=true %}
   </div>
 </div>
@@ -157,7 +157,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>UnifiedAD: One-Shot Anomaly Detection across Modalities via Evidence Calibration</strong><br>
     S. Li<sup>*</sup>, C. Shi<sup>*</sup>, S. Xie, W. Wu, X. Zhu, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
-    arXiv preprint arXiv:2611.32551, 2026.<br>
+    Under Review.<br>
     {% include publication-links.html pdf="https://arxiv.org/pdf/2611.32551" code="https://github.com/LucasShi1101/UnifiedAD" repo_only=true %}
   </div>
 </div>
@@ -181,7 +181,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>Circe: Training-Free LLM Self-Evaluation via Component Interaction Consistency</strong><br>
     S. Miao, Z. Li, X. Xie, L. Xu, <strong>F. Shen</strong><sup>✉</sup>, X. Du, T.-S. Chua<br>
-    arXiv preprint arXiv:2611.07948, 2026.<br>
+    Under Review.<br>
     {% include publication-links.html pdf="https://arxiv.org/pdf/2611.07948" code="https://github.com/msy0513/Circe-main" %}
   </div>
 </div>
@@ -206,7 +206,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>BARQ: Balanced Codebook Refinement for Low-Bit LLM Quantization</strong><br>
     C. Cui, X. Xie, L. Xu, X. Liu, X. Zhu, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
-    arXiv preprint arXiv:2610.04490, 2026.<br>
+    Under Review.<br>
     {% include publication-links.html pdf="https://arxiv.org/pdf/2610.04490" code="https://github.com/chenhangcuisg-code/BARQ" %}
   </div>
 </div>
@@ -220,7 +220,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>Do correct answers have stable latent knowledge support?</strong><br>
     C. Shi, S. Li, W. Wu, K. Hu, <strong>F. Shen</strong><sup>✉</sup>, Z. Wang, T.-S. Chua<br>
-    arXiv preprint arXiv:2610.15277, 2026.<br>
+    Under Review.<br>
     {% include publication-links.html pdf="https://arxiv.org/pdf/2610.15277" %}
   </div>
 </div>
@@ -234,7 +234,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>SuperAI: Merging Capabilities Across Heterogeneous Foundation Models</strong><br>
     J. Dou, C. Shi, W. Wu, W. Bao, <strong>F. Shen</strong><sup>✉</sup>, Z. Wang, T.-S. Chua<br>
-    arXiv preprint arXiv:2610.15322, 2026.<br>
+    Under Review.<br>
     {% include publication-links.html pdf="https://arxiv.org/pdf/2610.15322" code="https://github.com/jocelyndou/SuperAI_Merge" repo_only=true %}
   </div>
 </div>
@@ -249,7 +249,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>Forensic Reserve: Eliciting Latent Knowledge for Image Forgery Detection</strong><br>
     J. Li, Z. John, T. Zhong, F. Wu, T. Xu, J. Zheng, Y. Mo, <strong>F. Shen</strong><sup>✉</sup><br>
-    arXiv preprint arXiv:2610.08639, 2026.<br>
+    Under Review.<br>
     {% include publication-links.html pdf="https://arxiv.org/pdf/2610.08639" %}
   </div>
 </div>
@@ -264,7 +264,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>ContractLens: Latent Security Knowledge for Malicious Smart Contract Detection</strong><br>
     S. Miao, X. Huang, W. Qiu, <strong>F. Shen</strong><sup>✉</sup>, J. He, Z. Zheng, T.-S. Chua<br>
-    arXiv preprint arXiv:2610.04992, 2026.<br>
+    Under Review.<br>
     {% include publication-links.html pdf="https://arxiv.org/pdf/2610.04992" code="https://github.com/msy0513/ContractLens" %}
   </div>
 </div>
@@ -278,7 +278,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>EmoRSS: Mitigating Emotion-Induced Over-Refusal in Large Language Models</strong><br>
     S. Miao, Y. Ma, C. Cui, X. Liu, J. Dang, S. Zhuo, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
-    arXiv preprint arXiv:2610.04998, 2026.<br>
+    Under Review.<br>
     {% include publication-links.html pdf="https://arxiv.org/pdf/2610.04998" code="https://github.com/msy0513/EmoRSS" %}
   </div>
 </div>
@@ -293,7 +293,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>DV-Lens: Revealing the Functional Organization of Language Model Parameters</strong><br>
     C. Cui, J. Yu, S. Miao, X. Liu, R. Huang, <strong>F. Shen</strong><sup>✉</sup>, A. Zhang, T.-S. Chua<br>
-    arXiv preprint arXiv:2610.04489, 2026.<br>
+    Under Review.<br>
     {% include publication-links.html pdf="https://arxiv.org/pdf/2610.04489" code="https://github.com/chenhangcuisg-code/DV-Lens" %}
   </div>
 </div>
@@ -309,7 +309,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
   <div class="pub-right" style="font-size:.9rem; line-height:1.6;">
     <strong>ACTR: Aligning Thoughts and Responses for Multilingual Safety in Reasoning LLMs</strong><br>
     X. Zhang, J. Yu, C. Xie, C. Cui, S. Miao, P. Shao, Y. Zheng, <strong>F. Shen</strong><sup>✉</sup>, T.-S. Chua<br>
-    arXiv preprint arXiv:2609.37054, 2026.<br>
+    Under Review.<br>
     {% include publication-links.html pdf="https://arxiv.org/pdf/2609.37054" %}
   </div>
 </div>
@@ -325,7 +325,7 @@ I am a Research Fellow at the <a href="https://www.nextcenter.org/" target="_bla
     <strong>Hub-Spectral Activation of Latent Multimodal Knowledge</strong><br>
     Y. Guo, H. Chen, L. Xu, X. Liu, C. Shi, C. Xiao, D. Zhang, 
     <strong>F. Shen</strong><sup>✉</sup>, L. Shen, T.-S. Chua<br>
-    arXiv preprint arXiv:2609.17094, 2026.<br>
+    Under Review.<br>
     {% include publication-links.html pdf="https://arxiv.org/pdf/2609.17094" code="https://github.com/Luo1Yan/HSA" %}
   </div>
 </div>
