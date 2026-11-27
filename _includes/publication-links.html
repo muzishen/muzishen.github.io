@@ -1,0 +1,6 @@
+<a href="{{ include.pdf | escape }}" target="_blank" rel="noopener noreferrer">[PDF]</a>&nbsp;&nbsp;
+{%- if include.code -%}
+<a href="{{ include.code | escape }}" target="_blank" rel="noopener noreferrer" title="{% if include.repo_only %}Official project repository (implementation not listed){% else %}Official code repository{% endif %}">[Code]</a>
+{%- else -%}
+<span role="link" aria-disabled="true" title="Public code link unavailable" style="color: #667085;">[Code]</span>
+{%- endif -%}
